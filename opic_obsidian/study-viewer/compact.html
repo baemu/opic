@@ -42,10 +42,6 @@
             <select id="voiceSelect"></select>
           </label>
 
-          <div class="mode-switch" role="tablist" aria-label="답변 보기">
-            <button type="button" class="mode-button" data-mode="speaking">말하기용</button>
-            <button type="button" class="mode-button" data-mode="final">최종</button>
-          </div>
           <button id="updateDataBtn" class="secondary-button update-data-button" type="button">업데이트</button>
         </div>
       </header>
@@ -65,9 +61,9 @@
           <div id="typeGrid" class="type-grid"></div>
         </div>
         <div class="step-actions">
-          <button id="prevBtn" class="secondary-button" type="button">이전</button>
-          <button id="nextBtn" class="secondary-button" type="button">다음</button>
-          <button id="stopBtn" class="danger-button" type="button">정지</button>
+          <button id="prevBtn" class="secondary-button icon-button" type="button" aria-label="이전 문제" title="이전 문제">←</button>
+          <button id="nextBtn" class="secondary-button icon-button" type="button" aria-label="다음 문제" title="다음 문제">→</button>
+          <button id="stopBtn" class="danger-button icon-button" type="button" aria-label="음성 정지" title="음성 정지">■</button>
         </div>
       </section>
 
@@ -79,8 +75,8 @@
               <h2>Question</h2>
             </div>
             <div class="question-actions">
-              <button id="toggleQuestionTranslationBtn" class="secondary-button" type="button">문제 뜻</button>
-              <button id="playQuestionBtn" class="primary-button" type="button">문제 재생</button>
+              <button id="toggleQuestionTranslationBtn" class="secondary-button" type="button">번역</button>
+              <button id="playQuestionBtn" class="primary-button" type="button">▶ 듣기</button>
             </div>
           </div>
           <button id="questionFullButton" class="question-card" type="button"></button>
@@ -94,15 +90,19 @@
               <h2 id="answerTitle">말하기용 답변</h2>
             </div>
             <div class="answer-actions">
-              <button id="toggleTranslationsBtn" class="secondary-button" type="button">뜻 보기</button>
-              <button id="playAnswerBtn" class="primary-button" type="button">답변 재생</button>
+              <div class="mode-switch" role="tablist" aria-label="답변 보기">
+                <button type="button" class="mode-button" data-mode="speaking">말하기용</button>
+                <button type="button" class="mode-button" data-mode="final">최종 답변</button>
+              </div>
+              <button id="toggleTranslationsBtn" class="secondary-button" type="button">번역</button>
+              <button id="playAnswerBtn" class="primary-button" type="button">▶ 전체 듣기</button>
             </div>
           </div>
           <div id="answerLines" class="sentence-list answer-list"></div>
         </section>
       </section>
 
-      <footer class="status-bar">
+      <footer class="status-bar" aria-live="polite" hidden>
         <span id="statusText">Ready</span>
       </footer>
     </main>
