@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OPIc Compact Study Viewer</title>
+    <link rel="stylesheet" href="./compact-styles.css" />
+  </head>
+  <body>
+    <main class="compact-shell">
+      <header class="app-header">
+        <div class="brand">
+          <div class="brand-mark">OP</div>
+          <div>
+            <h1>OPIc Compact Study</h1>
+            <p id="statsText">Loading...</p>
+          </div>
+        </div>
+
+        <div class="study-controls" aria-label="읽기 설정">
+          <label class="control control-rate">
+            <span>속도 <output id="rateValue">0.90x</output></span>
+            <input id="rateInput" type="range" min="0.6" max="1.3" step="0.05" value="0.9" />
+          </label>
+
+          <label class="control control-volume">
+            <span>음량 <output id="volumeValue">100%</output></span>
+            <input id="volumeInput" type="range" min="0" max="1" step="0.05" value="1" />
+          </label>
+
+          <label class="control">
+            <span>반복</span>
+            <select id="repeatSelect">
+              <option value="1">1회</option>
+              <option value="2">2회</option>
+              <option value="3">3회</option>
+            </select>
+          </label>
+
+          <label class="control control-voice">
+            <span>영어 음성</span>
+            <select id="voiceSelect"></select>
+          </label>
+
+          <div class="mode-switch" role="tablist" aria-label="답변 보기">
+            <button type="button" class="mode-button" data-mode="speaking">말하기용</button>
+            <button type="button" class="mode-button" data-mode="final">최종</button>
+          </div>
+          <button id="updateDataBtn" class="secondary-button update-data-button" type="button">업데이트</button>
+        </div>
+      </header>
+
+      <nav class="file-nav" aria-label="스크립트 파일">
+        <div id="fileTabs" class="topic-tabs" aria-label="주제"></div>
+        <div id="versionTabs" class="version-tabs" aria-label="버전"></div>
+      </nav>
+
+      <section class="entry-nav" aria-label="문제 이동">
+        <div class="set-row">
+          <span class="nav-label">Set</span>
+          <div id="setTabs" class="set-tabs"></div>
+        </div>
+        <div class="type-row">
+          <span class="nav-label">Type</span>
+          <div id="typeGrid" class="type-grid"></div>
+        </div>
+        <div class="step-actions">
+          <button id="prevBtn" class="secondary-button" type="button">이전</button>
+          <button id="nextBtn" class="secondary-button" type="button">다음</button>
+          <button id="stopBtn" class="danger-button" type="button">정지</button>
+        </div>
+      </section>
+
+      <section class="study-grid">
+        <section class="question-pane">
+          <div class="pane-heading">
+            <div>
+              <p id="entryMeta" class="eyebrow">-</p>
+              <h2>Question</h2>
+            </div>
+            <div class="question-actions">
+              <button id="toggleQuestionTranslationBtn" class="secondary-button" type="button">문제 뜻</button>
+              <button id="playQuestionBtn" class="primary-button" type="button">문제 재생</button>
+            </div>
+          </div>
+          <button id="questionFullButton" class="question-card" type="button"></button>
+          <p id="questionTranslationText" class="question-translation-text" hidden></p>
+        </section>
+
+        <section class="answer-pane">
+          <div class="pane-heading">
+            <div>
+              <p id="answerMeta" class="eyebrow">Answer</p>
+              <h2 id="answerTitle">말하기용 답변</h2>
+            </div>
+            <div class="answer-actions">
+              <button id="toggleTranslationsBtn" class="secondary-button" type="button">뜻 보기</button>
+              <button id="playAnswerBtn" class="primary-button" type="button">답변 재생</button>
+            </div>
+          </div>
+          <div id="answerLines" class="sentence-list answer-list"></div>
+        </section>
+      </section>
+
+      <footer class="status-bar">
+        <span id="statusText">Ready</span>
+      </footer>
+    </main>
+
+    <script src="./data.js"></script>
+    <script src="./compact-app.js"></script>
+  </body>
+</html>
