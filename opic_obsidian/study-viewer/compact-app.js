@@ -539,9 +539,12 @@
       return [];
     }
     const texts = state.mode === "speaking" ? entry.speakingChunks : entry.finalSentences;
-    return texts.map((text) => ({
+    return texts.map((text, index) => ({
       text,
-      translation: findTranslation(entry, text),
+      translation:
+        state.mode === "speaking"
+          ? entry.speakingTranslations?.[index] || findTranslation(entry, text)
+          : findTranslation(entry, text),
     }));
   }
 

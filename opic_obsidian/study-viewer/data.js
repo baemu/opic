@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-10T16:21:18.402Z",
+  "generatedAt": "2026-08-10T16:42:36.697Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -50,6 +50,23 @@ window.OPIC_STUDY_DATA = {
             "We sit on the sofa and watch Netflix or YouTube when we want to rest.",
             "I especially like sitting there alone late at night and watching a movie quietly.",
             "So overall, my home is not fancy, but it is a very comfortable place for my family."
+          ],
+          "speakingTranslations": [
+            "나는 가족과 함께 일반적인 한국 아파트에 산다.",
+            "우리 집에는 방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "우리 집에는 방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "우리 집에는 방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "우리 집에는 방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "집에 들어가면 거실이 가장 먼저 보인다.",
+            "집에 들어가면 거실이 가장 먼저 보인다.",
+            "그곳에는 TV, 소파, 식탁, 그리고 식물들이 있다.",
+            "그곳에는 TV, 소파, 식탁, 그리고 식물들이 있다.",
+            "그곳에는 TV, 소파, 식탁, 그리고 식물들이 있다.",
+            "그곳에는 TV, 소파, 식탁, 그리고 식물들이 있다.",
+            "거실은 우리 가족이 가장 자주 모이는 공간이다.",
+            "우리는 쉬고 싶을 때 소파에 앉아서 넷플릭스나 유튜브를 본다.",
+            "나는 특히 늦은 밤에 그곳에 혼자 앉아 조용히 영화를 보는 것을 좋아한다.",
+            "그래서 전체적으로 우리 집은 화려하지는 않지만 가족에게 매우 편안한 공간이다."
           ],
           "translations": [
             {
@@ -125,6 +142,21 @@ window.OPIC_STUDY_DATA = {
             "At that time, I sit on the living room sofa and watch a movie alone.",
             "These days I am often too tired to do it, but it is still my favorite home routine."
           ],
+          "speakingTranslations": [
+            "집에서는 보통 침대나 소파에서 쉰다.",
+            "집에서는 보통 침대나 소파에서 쉰다.",
+            "평일에는 학교나 할 일을 마친 뒤 넷플릭스나 유튜브를 자주 본다.",
+            "평일에는 학교나 할 일을 마친 뒤 넷플릭스나 유튜브를 자주 본다.",
+            "평일에는 학교나 할 일을 마친 뒤 넷플릭스나 유튜브를 자주 본다.",
+            "집에서는 너무 진지한 일을 하려고 하지 않는다.",
+            "그냥 누워서 편하게 시간을 보낸다.",
+            "주말 오후에는 가끔 늦게까지 자거나 침대에서 영상을 본다.",
+            "주말 오후에는 가끔 늦게까지 자거나 침대에서 영상을 본다.",
+            "하지만 내가 가장 좋아하는 시간은 모두가 잠든 늦은 밤이다.",
+            "하지만 내가 가장 좋아하는 시간은 모두가 잠든 늦은 밤이다.",
+            "그때 나는 거실 소파에 앉아 혼자 영화를 본다.",
+            "요즘은 너무 피곤해서 자주 하지는 못하지만, 여전히 내가 가장 좋아하는 집 루틴이다."
+          ],
           "translations": [
             {
               "english": "At home, I usually relax on my bed or on the sofa.",
@@ -198,6 +230,21 @@ window.OPIC_STUDY_DATA = {
             "The hardest part was that I could not wash properly in the summer.",
             "My family was surprised, but we used water carefully and waited.",
             "It did not last long, but it made me realize how important water and elevators are at home."
+          ],
+          "speakingTranslations": [
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "우리 아파트 지하주차장이 침수되었다.",
+            "그 때문에 아파트 시설 몇 군데에 문제가 생겼다.",
+            "그 때문에 아파트 시설 몇 군데에 문제가 생겼다.",
+            "엘리베이터가 잠시 멈췄고, 집의 물도 끊겼다.",
+            "엘리베이터가 잠시 멈췄고, 집의 물도 끊겼다.",
+            "하루 정도밖에 지속되지 않았지만 매우 불편했다.",
+            "하루 정도밖에 지속되지 않았지만 매우 불편했다.",
+            "가장 힘든 점은 여름에 제대로 씻을 수 없었다는 것이다.",
+            "가족들도 놀랐지만 우리는 물을 아껴 쓰면서 기다렸다.",
+            "오래 지속되지는 않았지만 집에서 물과 엘리베이터가 얼마나 중요한지 깨닫게 해 준 경험이었다."
           ],
           "translations": [
             {
@@ -273,6 +320,20 @@ window.OPIC_STUDY_DATA = {
             "Still, we could use the bathroom and wash a little because we had prepared water.",
             "After that experience, I started checking apartment notices more carefully."
           ],
+          "speakingTranslations": [
+            "집에서 가장 기억에 남는 문제는 지난여름에 물이 안 나왔던 일이었다.",
+            "심한 폭우가 온 뒤에 생긴 일이라 우리 아파트 물 공급이 잠시 멈췄다.",
+            "심한 폭우가 온 뒤에 생긴 일이라 우리 아파트 물 공급이 잠시 멈췄다.",
+            "다행히 단수 몇 시간 전에 공지를 보았다.",
+            "다행히 단수 몇 시간 전에 공지를 보았다.",
+            "그래서 우리 가족은 미리 양동이와 병에 물을 받아 두었다.",
+            "우리는 그 물을 욕실과 주방에 보관했다.",
+            "처음에는 단수가 금방 끝날 줄 알았지만 예상보다 오래 지속되었다.",
+            "처음에는 단수가 금방 끝날 줄 알았지만 예상보다 오래 지속되었다.",
+            "처음에는 단수가 금방 끝날 줄 알았지만 예상보다 오래 지속되었다.",
+            "그래도 물을 준비해 두었기 때문에 화장실을 쓰고 조금 씻을 수 있었다.",
+            "그 경험 이후로 나는 아파트 공지를 더 꼼꼼히 확인하게 되었다."
+          ],
           "translations": [
             {
               "english": "The most memorable problem at home was when we had no water last summer.",
@@ -345,6 +406,19 @@ window.OPIC_STUDY_DATA = {
             "Also, what is your favorite space in the house?",
             "What do you usually do in that space?"
           ],
+          "speakingTranslations": [
+            "당신의 집에 대해 몇 가지 질문이 있습니다.",
+            "먼저, 집에 마당이 있나요?",
+            "먼저, 집에 마당이 있나요?",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "집에는 방이 몇 개 있나요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "가족들은 보통 어디에서 함께 시간을 보내나요?",
+            "또 집에서 가장 좋아하는 공간은 어디인가요?",
+            "그 공간에서는 보통 무엇을 하나요?"
+          ],
           "translations": [
             {
               "english": "I have a few questions about your house.",
@@ -416,6 +490,19 @@ window.OPIC_STUDY_DATA = {
             "I do not want a very large sofa because my living room may look too small.",
             "I also want something comfortable, not too hard.",
             "Could you show me a few sofas that match these conditions?"
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 거실에 둘 소파를 찾고 있습니다.",
+            "안녕하세요, 거실에 둘 소파를 찾고 있습니다.",
+            "우선 가죽 소파였으면 좋겠습니다.",
+            "우선 가죽 소파였으면 좋겠습니다.",
+            "저희 집 인테리어가 밝은 편이라 밝은 색상이 잘 어울릴 것 같습니다.",
+            "저희 집 인테리어가 밝은 편이라 밝은 색상이 잘 어울릴 것 같습니다.",
+            "베이지색이나 연한 회색 소파가 있나요?",
+            "길이가 약 2미터 정도인 소파면 충분할 것 같습니다.",
+            "거실이 좁아 보일 수 있어서 너무 큰 소파는 원하지 않습니다.",
+            "또 너무 딱딱하지 않고 편한 제품이었으면 좋겠습니다.",
+            "이 조건에 맞는 소파 몇 가지를 보여 주실 수 있나요?"
           ],
           "translations": [
             {
@@ -491,6 +578,21 @@ window.OPIC_STUDY_DATA = {
             "Could someone come and check it or repair it?",
             "If repair is not possible, could I get a replacement?",
             "Please let me know when this can be done."
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 최근에 매장에서 소파를 샀습니다.",
+            "안녕하세요, 최근에 매장에서 소파를 샀습니다.",
+            "소파에 몇 가지 문제가 있어서 전화했습니다.",
+            "먼저 소파 한 부분의 색상이 다릅니다.",
+            "먼저 소파 한 부분의 색상이 다릅니다.",
+            "밝은색 소파라서 그 차이가 쉽게 보입니다.",
+            "밝은색 소파라서 그 차이가 쉽게 보입니다.",
+            "또한,",
+            "또 소파의 수평이 맞지 않는 것 같습니다.",
+            "조금 움직일 때마다 소리가 납니다.",
+            "누군가 와서 확인하거나 수리해 주실 수 있나요?",
+            "수리가 불가능하다면 교환을 받을 수 있을까요?",
+            "언제 가능한지 알려 주세요."
           ],
           "translations": [
             {
@@ -571,6 +673,21 @@ window.OPIC_STUDY_DATA = {
             "Luckily, they replaced it for free within a week.",
             "It was stressful at first, but the problem was solved in the end."
           ],
+          "speakingTranslations": [
+            "내가 기억하는 문제 하나는 거실에 둘 새 소파를 샀을 때 일어났다.",
+            "이전에는 소파가 없어서 나는 기대하고 있었다.",
+            "하지만 소파가 도착했을 때 바로 문제를 발견했다.",
+            "하지만 소파가 도착했을 때 바로 문제를 발견했다.",
+            "한 부분의 색상이 다른 부분들과 달랐다.",
+            "또한,",
+            "또 소파의 수평이 맞지 않아서 움직일 때 소리가 났다.",
+            "또 소파의 수평이 맞지 않아서 움직일 때 소리가 났다.",
+            "나는 짜증이 났고 “이건 제대로 된 것 같지 않다.”라고 생각했다.",
+            "나는 짜증이 났고 “이건 제대로 된 것 같지 않다.”라고 생각했다.",
+            "그래서 고객센터에 연락해서 문제를 설명했다.",
+            "다행히 그들은 일주일 안에 무료로 교환해 주었다.",
+            "처음에는 스트레스였지만 결국 문제는 해결되었다."
+          ],
           "translations": [
             {
               "english": "One problem I remember happened when I bought a new sofa for my living room.",
@@ -648,6 +765,19 @@ window.OPIC_STUDY_DATA = {
             "But I think they are necessary because everyone uses the house together.",
             "So we do not have a perfect system, but each person tries to help in a simple way."
           ],
+          "speakingTranslations": [
+            "우리 집에서는 가족마다 다른 역할이 있다.",
+            "우리 집에서는 가족마다 다른 역할이 있다.",
+            "엄마는 보통 요리와 주방일을 맡으신다.",
+            "아빠는 자주 쓰레기를 버리고 분리수거를 하신다.",
+            "나는 보통 내 방을 청소하고 작은 집안일을 돕는다.",
+            "나는 보통 내 방을 청소하고 작은 집안일을 돕는다.",
+            "가끔은 저녁 식사 후 설거지도 돕는다.",
+            "솔직히 이런 집안일이 항상 재미있는 것은 아니다.",
+            "솔직히 이런 집안일이 항상 재미있는 것은 아니다.",
+            "하지만 모두가 집을 함께 사용하기 때문에 필요하다고 생각한다.",
+            "그래서 완벽한 시스템은 아니지만 각자 간단한 방식으로 도우려고 한다."
+          ],
           "translations": [
             {
               "english": "In my home, each family member has different responsibilities.",
@@ -719,6 +849,20 @@ window.OPIC_STUDY_DATA = {
             "I may help with recycling if my dad asks me.",
             "I used to delay these things, but these days I try to do them earlier.",
             "It is a small routine, but it makes home life easier."
+          ],
+          "speakingTranslations": [
+            "나는 보통 내 책임을 조금씩 처리한다.",
+            "예를 들어 일주일에 한 번은 내 방을 청소하려고 한다.",
+            "예를 들어 일주일에 한 번은 내 방을 청소하려고 한다.",
+            "매일 대청소를 하지는 않는다.",
+            "대신 방이 지저분해지면 물건을 제자리에 돌려놓는다.",
+            "대신 방이 지저분해지면 물건을 제자리에 돌려놓는다.",
+            "저녁 식사 후에는 가끔 식탁을 치우거나 설거지를 돕는다.",
+            "저녁 식사 후에는 가끔 식탁을 치우거나 설거지를 돕는다.",
+            "주말에는 아빠가 부탁하시면 분리수거를 도울 때도 있다.",
+            "주말에는 아빠가 부탁하시면 분리수거를 도울 때도 있다.",
+            "예전에는 이런 일을 미루곤 했지만 요즘은 더 일찍 하려고 한다.",
+            "작은 루틴이지만 집 생활을 더 편하게 만들어 준다."
           ],
           "translations": [
             {
@@ -792,6 +936,19 @@ window.OPIC_STUDY_DATA = {
             "Now I understand why they did that.",
             "Those small chores helped me learn responsibility little by little."
           ],
+          "speakingTranslations": [
+            "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다.",
+            "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다.",
+            "내 주된 일은 장난감을 치우고 방을 깔끔하게 유지하는 것이었다.",
+            "가끔 엄마는 저녁 식사 전에 식탁 차리는 것도 도와 달라고 하셨다.",
+            "그때는 이런 일이 중요하다고 생각하지 않았다.",
+            "그때는 이런 일이 중요하다고 생각하지 않았다.",
+            "그냥 더 놀고 싶어서 자주 불평했다.",
+            "그냥 더 놀고 싶어서 자주 불평했다.",
+            "하지만 부모님은 내 물건은 내가 챙겨야 한다고 계속 알려 주셨다.",
+            "이제는 부모님이 왜 그러셨는지 이해한다.",
+            "그 작은 집안일들이 내가 조금씩 책임감을 배우는 데 도움이 되었다."
+          ],
           "translations": [
             {
               "english": "When I was a child, I had a few small responsibilities at home.",
@@ -864,6 +1021,19 @@ window.OPIC_STUDY_DATA = {
             "I felt really sorry because it made extra work for my family.",
             "After that, I tried to do chores right away instead of saying I would do them later."
           ],
+          "speakingTranslations": [
+            "엄마가 부탁한 일을 하지 않았던 때가 기억난다.",
+            "나는 수거 시간 전에 쓰레기를 버려야 했다.",
+            "하지만 게임을 시작했고 그 일을 완전히 잊어버렸다.",
+            "나중에 엄마가 “쓰레기 버렸니?”라고 물으셨다.",
+            "엄마가 부탁한 일을 하지 않았던 때가 기억난다.",
+            "나중에 엄마가 “쓰레기 버렸니?”라고 물으셨다.",
+            "그 순간 내가 하지 않았다는 것을 깨달았다.",
+            "그 순간 내가 하지 않았다는 것을 깨달았다.",
+            "쓰레기는 다음 수거일까지 집에 있어야 했다.",
+            "가족에게 일을 더 만들었기 때문에 정말 미안했다.",
+            "그 후로는 나중에 하겠다고 말하기보다 집안일을 바로 하려고 했다."
+          ],
           "translations": [
             {
               "english": "I remember one time when I did not do a task my mom asked me to do.",
@@ -935,6 +1105,19 @@ window.OPIC_STUDY_DATA = {
             "Where does your family usually spend time together?",
             "Also, what is your favorite space in the house?",
             "What do you usually do in that space?"
+          ],
+          "speakingTranslations": [
+            "당신의 집에 대해 몇 가지 질문이 있습니다.",
+            "먼저, 집에 마당이 있나요?",
+            "먼저, 집에 마당이 있나요?",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "집에는 방이 몇 개 있나요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "가족들은 보통 어디에서 함께 시간을 보내나요?",
+            "또 집에서 가장 좋아하는 공간은 어디인가요?",
+            "그 공간에서는 보통 무엇을 하나요?"
           ],
           "translations": [
             {
@@ -1010,6 +1193,21 @@ window.OPIC_STUDY_DATA = {
             "What kind of food should we prepare?",
             "If anyone has an allergy or a food they cannot eat, we should check that too.",
             "Please tell me your ideas so I can plan it properly."
+          ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕, 다른 가족을 우리 집에 점심 식사로 초대하고 싶어.",
+            "결정하기 전에 몇 가지 질문을 해야 해.",
+            "결정하기 전에 몇 가지 질문을 해야 해.",
+            "먼저 모두에게 어떤 날짜가 가장 좋을까?",
+            "먼저 모두에게 어떤 날짜가 가장 좋을까?",
+            "이번 토요일이 좋을까, 아니면 다음 일요일이 더 좋을까?",
+            "또한,",
+            "또 몇 시에 초대하면 좋을까?",
+            "모두가 앉을 의자와 식기가 충분할까?",
+            "어떤 음식을 준비해야 할까?",
+            "알레르기나 먹지 못하는 음식이 있는 사람이 있다면 그것도 확인해야 해.",
+            "제대로 계획할 수 있도록 의견을 말해 줘."
           ],
           "translations": [
             {
@@ -1092,6 +1290,22 @@ window.OPIC_STUDY_DATA = {
             "Please call me back when you get this message.",
             "Again, I am really sorry for the change."
           ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕하세요, 정말 죄송하지만 오늘 점심 계획을 바꿔야 할 것 같습니다.",
+            "안녕하세요, 정말 죄송하지만 오늘 점심 계획을 바꿔야 할 것 같습니다.",
+            "오늘 아침에 가족 중 한 명이 갑자기 아팠습니다.",
+            "오늘 아침에 가족 중 한 명이 갑자기 아팠습니다.",
+            "그래서 오늘 당신의 가족을 초대하는 것은 좋은 생각이 아닌 것 같습니다.",
+            "너무 갑작스럽다는 것을 알고 있고, 그 점 정말 죄송합니다.",
+            "너무 갑작스럽다는 것을 알고 있고, 그 점 정말 죄송합니다.",
+            "대신 다음 주말에 만날 수 있을까요?",
+            "그게 어렵다면 당신 가족에게 맞는 다른 날을 정할 수도 있습니다.",
+            "그게 어렵다면 당신 가족에게 맞는 다른 날을 정할 수도 있습니다.",
+            "모두가 괜찮아진 뒤 식당에서 만날 수도 있습니다.",
+            "이 메시지를 들으면 다시 전화해 주세요.",
+            "다시 한 번 변경하게 되어 정말 죄송합니다."
+          ],
           "translations": [
             {
               "english": "Hi, I am really sorry, but we need to change our lunch plan for today.",
@@ -1173,6 +1387,23 @@ window.OPIC_STUDY_DATA = {
             "At first, I felt stressed, but I was glad I could help my mom.",
             "That experience reminded me that family sometimes has to come first."
           ],
+          "speakingTranslations": [
+            "네,",
+            "네, 가족을 도와야 해서 계획을 바꾼 적이 있다.",
+            "나는 주말 오후에 친구를 만나기로 되어 있었다.",
+            "하지만 그날 아침 엄마가 갑자기 몸이 안 좋아져서 집에서 도움이 필요했다.",
+            "하지만 그날 아침 엄마가 갑자기 몸이 안 좋아져서 집에서 도움이 필요했다.",
+            "엄마는 쉬어야 해서 나는 청소와 간단한 집안일을 도왔다.",
+            "엄마는 쉬어야 해서 나는 청소와 간단한 집안일을 도왔다.",
+            "나는 친구에게 전화해서 “미안한데 오늘은 집에 있어야 해.”라고 말했다.",
+            "나는 친구에게 전화해서 “미안한데 오늘은 집에 있어야 해.”라고 말했다.",
+            "나는 친구에게 전화해서 “미안한데 오늘은 집에 있어야 해.”라고 말했다.",
+            "다행히 친구는 상황을 이해해 주었다.",
+            "다행히 친구는 상황을 이해해 주었다.",
+            "우리는 계획을 다음 주로 옮겼다.",
+            "처음에는 스트레스를 받았지만 엄마를 도울 수 있어서 다행이었다.",
+            "그 경험은 가끔은 가족이 먼저일 수 있다는 것을 떠올리게 해 주었다."
+          ],
           "translations": [
             {
               "english": "Yes, I once had to change my plan because I needed to help my family.",
@@ -1252,6 +1483,22 @@ window.OPIC_STUDY_DATA = {
             "I can be alone, think quietly, and relax without bothering anyone.",
             "So my room is simple, but it is the most comfortable place in my house."
           ],
+          "speakingTranslations": [
+            "내가 가장 많은 시간을 보내는 방은 내 방이다.",
+            "아주 크지는 않지만 필요한 것은 다 있다.",
+            "아주 크지는 않지만 필요한 것은 다 있다.",
+            "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다.",
+            "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다.",
+            "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다.",
+            "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다.",
+            "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다.",
+            "나는 보통 책상에서 공부하고 게임을 하거나 영상을 보기도 한다.",
+            "피곤할 때는 그냥 침대에 누워 잠시 쉰다.",
+            "피곤할 때는 그냥 침대에 누워 잠시 쉰다.",
+            "내가 가장 좋아하는 점은 그곳이 내 개인 공간이라는 것이다.",
+            "혼자 있을 수 있고 조용히 생각하고 다른 사람을 방해하지 않고 쉴 수 있다.",
+            "그래서 내 방은 단순하지만 집에서 가장 편안한 장소이다."
+          ],
           "translations": [
             {
               "english": "The room I spend the most time in is my room.",
@@ -1323,6 +1570,19 @@ window.OPIC_STUDY_DATA = {
             "we cannot spend a long time together because everyone is busy.",
             "But on weekends, we often eat together or rest in the living room during the day.",
             "For me, this family time feels comfortable and warm."
+          ],
+          "speakingTranslations": [
+            "우리 가족은 보통 저녁 시간에 함께 시간을 보낸다.",
+            "우리는 자주 저녁을 같이 먹고 하루 이야기를 한다.",
+            "대화가 항상 특별한 것은 아니지만 나는 그 짧은 시간이 좋다.",
+            "대화가 항상 특별한 것은 아니지만 나는 그 짧은 시간이 좋다.",
+            "저녁 식사 후에는 거실에 앉아 TV나 넷플릭스를 본다.",
+            "저녁 식사 후에는 거실에 앉아 TV나 넷플릭스를 본다.",
+            "가끔은 같은 프로그램을 보면서 자연스럽게 이야기를 나눈다.",
+            "평일에는 모두 바빠서 오래 함께 있지는 못한다.",
+            "평일에는 모두 바빠서 오래 함께 있지는 못한다.",
+            "하지만 주말에는 낮에도 함께 밥을 먹거나 거실에서 쉬는 경우가 많다.",
+            "나에게 이런 가족 시간은 편안하고 따뜻하게 느껴진다."
           ],
           "translations": [
             {
@@ -1398,6 +1658,21 @@ window.OPIC_STUDY_DATA = {
             "I can study, play games, and rest alone, so it is much more comfortable.",
             "We also have two bathrooms now, so mornings are easier.",
             "So I liked my childhood home, but my current home is better for daily life."
+          ],
+          "speakingTranslations": [
+            "어릴 때 집과 지금 집의 가장 큰 차이는 개인 공간이다.",
+            "어렸을 때 우리 집은 지금보다 조금 더 작았다.",
+            "어렸을 때 우리 집은 지금보다 조금 더 작았다.",
+            "내 방이 따로 없어서 가끔 불편했다.",
+            "내 방이 따로 없어서 가끔 불편했다.",
+            "화장실도 하나뿐이라 아침 시간이 바쁠 때가 있었다.",
+            "화장실도 하나뿐이라 아침 시간이 바쁠 때가 있었다.",
+            "물론 가족과 함께 살던 곳이라 그 집에도 좋은 기억은 있다.",
+            "물론 가족과 함께 살던 곳이라 그 집에도 좋은 기억은 있다.",
+            "하지만 지금은 내 방이 있다.",
+            "혼자 공부하고 게임하고 쉴 수 있어서 훨씬 더 편하다.",
+            "지금은 화장실도 두 개라서 아침이 더 편하다.",
+            "그래서 어릴 때 집도 좋았지만, 일상생활에는 지금 집이 더 좋다."
           ],
           "translations": [
             {
@@ -1476,6 +1751,19 @@ window.OPIC_STUDY_DATA = {
             "The cleaning was tiring, but it was less boring because we did it together.",
             "When the house became clean, I felt really proud."
           ],
+          "speakingTranslations": [
+            "가족과의 기억에 남는 경험은 우리가 함께 집 전체를 청소했을 때이다.",
+            "집이 지저분해져서 우리는 어느 주말에 청소하기로 했다.",
+            "집이 지저분해져서 우리는 어느 주말에 청소하기로 했다.",
+            "엄마는 주방과 냉장고를 정리하셨다.",
+            "아빠는 무거운 가구를 옮기고 거실을 청소하셨다.",
+            "나는 내 방을 정리하고 필요 없는 물건을 버렸다.",
+            "청소하는 동안 예전에 쓰던 오래된 물건들을 발견했다.",
+            "청소하는 동안 예전에 쓰던 오래된 물건들을 발견했다.",
+            "우리는 그것들을 보며 옛 추억에 대해 이야기했다.",
+            "청소는 힘들었지만 함께해서 덜 지루했다.",
+            "집이 깨끗해졌을 때 나는 정말 뿌듯했다."
+          ],
           "translations": [
             {
               "english": "A memorable experience with my family happened when we cleaned the whole house together.",
@@ -1551,6 +1839,19 @@ window.OPIC_STUDY_DATA = {
             "Where does your family usually spend time together?",
             "Also, what is your favorite space in the house?",
             "What do you usually do in that space?"
+          ],
+          "speakingTranslations": [
+            "당신의 집에 대해 몇 가지 질문이 있습니다.",
+            "먼저, 집에 마당이 있나요?",
+            "먼저, 집에 마당이 있나요?",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "집에는 방이 몇 개 있나요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "가족들은 보통 어디에서 함께 시간을 보내나요?",
+            "또 집에서 가장 좋아하는 공간은 어디인가요?",
+            "그 공간에서는 보통 무엇을 하나요?"
           ],
           "translations": [
             {
@@ -1629,6 +1930,22 @@ window.OPIC_STUDY_DATA = {
             "If something unexpected happens, where should I contact you?",
             "Do not worry too much, and have a good trip.",
             "I will check everything carefully."
+          ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕하세요, 여행 가시기 전에 집에 대해 몇 가지 질문하고 싶어요.",
+            "안녕하세요, 여행 가시기 전에 집에 대해 몇 가지 질문하고 싶어요.",
+            "먼저 집에는 어떻게 들어가면 될까요?",
+            "먼저 집에는 어떻게 들어가면 될까요?",
+            "현관 비밀번호가 있나요, 아니면 어딘가에 열쇠를 두셨나요?",
+            "현관 비밀번호가 있나요, 아니면 어딘가에 열쇠를 두셨나요?",
+            "여행 중 제가 꼭 해야 하는 가장 중요한 일은 무엇인가요?",
+            "화분에는 얼마나 자주 물을 주면 될까요?",
+            "또한,",
+            "또 제가 받아야 할 택배가 있나요?",
+            "예상치 못한 일이 생기면 어디로 연락하면 될까요?",
+            "너무 걱정하지 마시고 여행 잘 다녀오세요.",
+            "제가 모든 것을 잘 확인해 두겠습니다."
           ],
           "translations": [
             {
@@ -1710,6 +2027,21 @@ window.OPIC_STUDY_DATA = {
             "I will wait nearby for a while.",
             "Please call me back or send me a message when you see this."
           ],
+          "speakingTranslations": [
+            "안녕하세요, 방금 집에 도착했는데 문제가 있습니다.",
+            "안녕하세요, 방금 집에 도착했는데 문제가 있습니다.",
+            "안녕하세요, 방금 집에 도착했는데 문제가 있습니다.",
+            "말씀해 주신 장소를 확인했지만 열쇠를 찾을 수 없습니다.",
+            "말씀해 주신 장소를 확인했지만 열쇠를 찾을 수 없습니다.",
+            "그래서 지금 집 안으로 들어갈 수 없습니다.",
+            "그래서 지금 집 안으로 들어갈 수 없습니다.",
+            "열쇠 위치를 다시 한 번 알려 주실 수 있나요?",
+            "아니면 이웃이나 경비실에 열쇠를 맡겨 두셨나요?",
+            "다른 비상 열쇠가 있다면 어디에 있는지 알려 주세요.",
+            "다른 비상 열쇠가 있다면 어디에 있는지 알려 주세요.",
+            "저는 근처에서 잠시 기다리겠습니다.",
+            "이 메시지를 확인하시면 전화나 메시지를 주세요."
+          ],
           "translations": [
             {
               "english": "Hello, I just arrived at your house, but there is a problem.",
@@ -1784,6 +2116,20 @@ window.OPIC_STUDY_DATA = {
             "Luckily, she went there instead of me and checked the plants and packages.",
             "The next day, I felt better and went to finish the rest of the tasks.",
             "There was no big problem, and I was really thankful that my mom helped me."
+          ],
+          "speakingTranslations": [
+            "나는 한 번 친척 집을 봐주기로 약속했지만 갑자기 갈 수 없게 된 적이 있다.",
+            "나는 한 번 친척 집을 봐주기로 약속했지만 갑자기 갈 수 없게 된 적이 있다.",
+            "친척이 며칠 동안 여행을 가면서 나에게 집을 확인해 달라고 부탁했다.",
+            "나는 화분에 물을 주고 택배가 있으면 받아야 했다.",
+            "하지만 그날 아침 몸이 아파서 쉽게 밖에 나갈 수 없었다.",
+            "하지만 그날 아침 몸이 아파서 쉽게 밖에 나갈 수 없었다.",
+            "처음에는 정말 걱정됐고 미안했다.",
+            "처음에는 정말 걱정됐고 미안했다.",
+            "그래서 엄마에게 상황을 설명하고 도움을 부탁했다.",
+            "다행히 엄마가 나 대신 그곳에 가서 화분과 택배를 확인해 주셨다.",
+            "다음 날 몸이 나아져서 내가 남은 일을 마무리하러 갔다.",
+            "큰 문제는 없었고 엄마가 도와주셔서 정말 고마웠다."
           ],
           "translations": [
             {
@@ -1880,6 +2226,28 @@ window.OPIC_STUDY_DATA = {
             "it is a simple home,",
             "but it is a comfortable place for me."
           ],
+          "speakingTranslations": [
+            "나는 가족과 함께 일반적인 한국 아파트에 산다.",
+            "방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "방 세 개, 거실, 주방, 화장실 두 개가 있다.",
+            "집에 들어가면 거실이 먼저 보인다.",
+            "집에 들어가면 거실이 먼저 보인다.",
+            "거기에는 TV, 소파, 식탁, 식물이 있다.",
+            "거기에는 TV, 소파, 식탁, 식물이 있다.",
+            "거기에는 TV, 소파, 식탁, 식물이 있다.",
+            "거기에는 TV, 소파, 식탁, 식물이 있다.",
+            "화려하지는 않지만 편안하고 평화롭다.",
+            "화려하지는 않지만 편안하고 평화롭다.",
+            "우리는 쉬고 싶을 때 보통 소파에 앉아서 넷플릭스를 본다.",
+            "우리는 쉬고 싶을 때 보통 소파에 앉아서 넷플릭스를 본다.",
+            "내가 정말 좋아하는 점은 가족이 자연스럽게 그곳에 모인다는 것이다.",
+            "내가 정말 좋아하는 점은 가족이 자연스럽게 그곳에 모인다는 것이다.",
+            "그래서 전체적으로 단순한 집이지만 나에게는 편안한 공간이다.",
+            "그래서 전체적으로 단순한 집이지만 나에게는 편안한 공간이다.",
+            "그래서 전체적으로 단순한 집이지만 나에게는 편안한 공간이다."
+          ],
           "translations": [
             {
               "english": "I live in a typical Korean apartment with my family.",
@@ -1955,6 +2323,23 @@ window.OPIC_STUDY_DATA = {
             "I sit in the living room and watch a movie alone.",
             "It is a small routine,",
             "but it helps me relax."
+          ],
+          "speakingTranslations": [
+            "집에서는 보통 침대나 소파에서 쉰다.",
+            "집에서는 보통 침대나 소파에서 쉰다.",
+            "집에서는 너무 진지한 일을 하려고 하지 않는다.",
+            "학교나 일을 마친 뒤에는 유튜브나 넷플릭스를 자주 본다.",
+            "학교나 일을 마친 뒤에는 유튜브나 넷플릭스를 자주 본다.",
+            "피곤할 때는 그냥 누워서 잠시 쉰다.",
+            "피곤할 때는 그냥 누워서 잠시 쉰다.",
+            "주말에는 가끔 늦게까지 자거나 침대에서 영상을 본다.",
+            "주말에는 가끔 늦게까지 자거나 침대에서 영상을 본다.",
+            "내가 가장 좋아하는 시간은 모두가 잠든 늦은 밤이다.",
+            "내가 가장 좋아하는 시간은 모두가 잠든 늦은 밤이다.",
+            "그때 나는 거실에 앉아서 혼자 영화를 본다.",
+            "그때 나는 거실에 앉아서 혼자 영화를 본다.",
+            "작은 루틴이지만 긴장을 푸는 데 도움이 된다.",
+            "작은 루틴이지만 긴장을 푸는 데 도움이 된다."
           ],
           "translations": [
             {
@@ -2034,6 +2419,26 @@ window.OPIC_STUDY_DATA = {
             "the problem was solved soon.",
             "After that experience,",
             "I started checking apartment notices more carefully."
+          ],
+          "speakingTranslations": [
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생겼다.",
+            "우리 아파트에 물 문제가 생겼고 몇몇 시설이 멈췄다.",
+            "우리 아파트에 물 문제가 생겼고 몇몇 시설이 멈췄다.",
+            "엘리베이터가 잠시 멈췄고 물도 끊겼다.",
+            "엘리베이터가 잠시 멈췄고 물도 끊겼다.",
+            "하루 정도만 지속됐지만 매우 불편했다.",
+            "하루 정도만 지속됐지만 매우 불편했다.",
+            "가장 힘들었던 점은 여름에 제대로 씻을 수 없었다는 것이다.",
+            "가장 힘들었던 점은 여름에 제대로 씻을 수 없었다는 것이다.",
+            "처음에는 가족들이 걱정했지만 우리는 물을 아껴 쓰며 기다렸다.",
+            "처음에는 가족들이 걱정했지만 우리는 물을 아껴 쓰며 기다렸다.",
+            "처음에는 가족들이 걱정했지만 우리는 물을 아껴 쓰며 기다렸다.",
+            "다행히 문제는 곧 해결되었다.",
+            "다행히 문제는 곧 해결되었다.",
+            "그 경험 이후로 아파트 공지를 더 꼼꼼히 확인하게 되었다.",
+            "그 경험 이후로 아파트 공지를 더 꼼꼼히 확인하게 되었다."
           ],
           "translations": [
             {
@@ -2116,6 +2521,26 @@ window.OPIC_STUDY_DATA = {
             "After that experience,",
             "I started checking apartment notices more carefully."
           ],
+          "speakingTranslations": [
+            "집에서 가장 기억에 남는 문제는 지난여름에 물이 끊겼던 일이었다.",
+            "집에서 가장 기억에 남는 문제는 지난여름에 물이 끊겼던 일이었다.",
+            "심한 폭우가 온 뒤에 생긴 일이라 우리 아파트 건물에 한동안 물이 나오지 않았다.",
+            "심한 폭우가 온 뒤에 생긴 일이라 우리 아파트 건물에 한동안 물이 나오지 않았다.",
+            "다행히 우리는 그 일이 생기기 전에 관리사무소에서 공지를 받았다.",
+            "다행히 우리는 그 일이 생기기 전에 관리사무소에서 공지를 받았다.",
+            "그래서 우리 가족은 미리 병과 양동이에 물을 받아 두었다.",
+            "그래서 우리 가족은 미리 병과 양동이에 물을 받아 두었다.",
+            "우리는 그 물을 화장실과 주방에 두었다.",
+            "우리는 그 물을 화장실과 주방에 두었다.",
+            "처음에는 금방 해결될 줄 알았지만 생각보다 오래 걸렸다.",
+            "처음에는 금방 해결될 줄 알았지만 생각보다 오래 걸렸다.",
+            "처음에는 금방 해결될 줄 알았지만 생각보다 오래 걸렸다.",
+            "그래서 우리는 물을 아주 조심해서 사용했다.",
+            "우리는 마실 때는 생수를 쓰고, 씻을 때는 미리 받아 둔 물을 사용했다.",
+            "우리는 마실 때는 생수를 쓰고, 씻을 때는 미리 받아 둔 물을 사용했다.",
+            "그 경험 이후로 아파트 공지를 더 꼼꼼히 확인하게 되었다.",
+            "그 경험 이후로 아파트 공지를 더 꼼꼼히 확인하게 되었다."
+          ],
           "translations": [
             {
               "english": "The most memorable problem at home was when the water was cut off last summer.",
@@ -2193,6 +2618,20 @@ window.OPIC_STUDY_DATA = {
             "what is your favorite space at home?",
             "What do you usually do there?"
           ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕하세요, 당신의 집에 대해 몇 가지 질문이 있습니다.",
+            "먼저, 마당이 있나요?",
+            "먼저, 마당이 있나요?",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "집에는 방이 몇 개 있나요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "가족은 보통 어디에서 함께 시간을 보내나요?",
+            "또한,",
+            "또 집에서 가장 좋아하는 공간은 어디인가요?",
+            "그곳에서 보통 무엇을 하나요?"
+          ],
           "translations": [
             {
               "english": "Hi, I have a few questions about your house.",
@@ -2268,6 +2707,23 @@ window.OPIC_STUDY_DATA = {
             "Could you show me a few sofas",
             "that match these conditions?"
           ],
+          "speakingTranslations": [
+            "안녕하세요, 거실에 둘 소파를 찾고 있습니다.",
+            "안녕하세요, 거실에 둘 소파를 찾고 있습니다.",
+            "집이 아주 크지는 않아서 단순하고 편안한 것을 원합니다.",
+            "집이 아주 크지는 않아서 단순하고 편안한 것을 원합니다.",
+            "베이지색이나 연한 회색 같은 밝은 색이 잘 어울릴 것 같습니다.",
+            "베이지색이나 연한 회색 같은 밝은 색이 잘 어울릴 것 같습니다.",
+            "베이지색이나 연한 회색 같은 밝은 색이 잘 어울릴 것 같습니다.",
+            "길이가 약 2미터 정도인 소파가 있나요?",
+            "길이가 약 2미터 정도인 소파가 있나요?",
+            "거실이 너무 작아 보일 수 있어서 아주 큰 소파는 원하지 않습니다.",
+            "거실이 너무 작아 보일 수 있어서 아주 큰 소파는 원하지 않습니다.",
+            "또 너무 딱딱하지 않고 부드러운 제품을 원합니다.",
+            "또 너무 딱딱하지 않고 부드러운 제품을 원합니다.",
+            "이 조건에 맞는 소파 몇 가지를 보여 주실 수 있나요?",
+            "이 조건에 맞는 소파 몇 가지를 보여 주실 수 있나요?"
+          ],
           "translations": [
             {
               "english": "Hello, I am looking for a sofa for my living room.",
@@ -2341,6 +2797,25 @@ window.OPIC_STUDY_DATA = {
             "could I get a replacement?",
             "Please let me know",
             "when this can be done."
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 최근에 매장에서 소파를 샀는데 문제가 있습니다.",
+            "안녕하세요, 최근에 매장에서 소파를 샀는데 문제가 있습니다.",
+            "안녕하세요, 최근에 매장에서 소파를 샀는데 문제가 있습니다.",
+            "한 부분의 색상이 달라서 전화드렸습니다.",
+            "한 부분의 색상이 달라서 전화드렸습니다.",
+            "밝은색 소파라서 차이가 쉽게 보입니다.",
+            "밝은색 소파라서 차이가 쉽게 보입니다.",
+            "또한,",
+            "또 소파의 수평이 맞지 않는 것 같습니다.",
+            "조금 움직일 때마다 소리가 납니다.",
+            "조금 움직일 때마다 소리가 납니다.",
+            "누군가 와서 확인하거나 수리해 주실 수 있나요?",
+            "누군가 와서 확인하거나 수리해 주실 수 있나요?",
+            "수리가 불가능하다면 교환을 받을 수 있을까요?",
+            "수리가 불가능하다면 교환을 받을 수 있을까요?",
+            "언제 가능한지 알려 주세요.",
+            "언제 가능한지 알려 주세요."
           ],
           "translations": [
             {
@@ -2419,6 +2894,24 @@ window.OPIC_STUDY_DATA = {
             "It was stressful at first,",
             "but the problem was solved in the end."
           ],
+          "speakingTranslations": [
+            "내가 기억하는 문제 하나는 거실에 둘 새 소파를 샀을 때 일어났다.",
+            "내가 기억하는 문제 하나는 거실에 둘 새 소파를 샀을 때 일어났다.",
+            "편안한 소파가 정말 필요했기 때문에 기대하고 있었다.",
+            "편안한 소파가 정말 필요했기 때문에 기대하고 있었다.",
+            "하지만 소파가 도착했을 때 바로 문제를 발견했다.",
+            "하지만 소파가 도착했을 때 바로 문제를 발견했다.",
+            "한 부분의 색상이 달랐고 소파의 수평도 맞지 않았다.",
+            "한 부분의 색상이 달랐고 소파의 수평도 맞지 않았다.",
+            "나는 짜증이 났고 \"이건 제대로 된 것 같지 않다\"라고 생각했다.",
+            "나는 짜증이 났고 \"이건 제대로 된 것 같지 않다\"라고 생각했다.",
+            "그래서 고객센터에 연락해서 문제를 설명했다.",
+            "그래서 고객센터에 연락해서 문제를 설명했다.",
+            "다행히 그들은 일주일 안에 무료로 교환해 주었다.",
+            "다행히 그들은 일주일 안에 무료로 교환해 주었다.",
+            "처음에는 스트레스였지만 결국 문제는 해결되었다.",
+            "처음에는 스트레스였지만 결국 문제는 해결되었다."
+          ],
           "translations": [
             {
               "english": "One problem I remember happened when I bought a new sofa for my living room.",
@@ -2490,6 +2983,18 @@ window.OPIC_STUDY_DATA = {
             "But it is necessary because everyone uses the house together.",
             "So we do not have a perfect system,",
             "but each person tries to help in a simple way."
+          ],
+          "speakingTranslations": [
+            "우리 집에서는 가족 구성원마다 간단한 책임이 있다.",
+            "우리 집에서는 가족 구성원마다 간단한 책임이 있다.",
+            "엄마는 보통 요리와 주방을 맡으신다.",
+            "아빠는 자주 쓰레기를 버리고 분리수거를 맡으신다.",
+            "나는 보통 내 방을 청소하고 작은 집안일을 돕는다.",
+            "가끔은 저녁 식사 후에 설거지를 한다.",
+            "솔직히 말해서 이런 집안일이 항상 재미있는 것은 아니다.",
+            "하지만 모두가 집을 함께 사용하기 때문에 필요한 일이다.",
+            "그래서 완벽한 시스템은 아니지만 각자 간단한 방식으로 도우려고 한다.",
+            "그래서 완벽한 시스템은 아니지만 각자 간단한 방식으로 도우려고 한다."
           ],
           "translations": [
             {
@@ -2565,6 +3070,22 @@ window.OPIC_STUDY_DATA = {
             "It is a small routine,",
             "but it makes home life easier."
           ],
+          "speakingTranslations": [
+            "나는 보통 내 책임을 조금씩 처리한다.",
+            "나는 보통 내 책임을 조금씩 처리한다.",
+            "일주일에 한 번은 내 방을 청소하려고 한다.",
+            "매일 대청소를 하지는 않는다.",
+            "대신 방이 지저분해지면 물건을 제자리에 둔다.",
+            "저녁 식사 후에는 가끔 식탁을 치우거나 설거지를 한다.",
+            "저녁 식사 후에는 가끔 식탁을 치우거나 설거지를 한다.",
+            "주말에는 아빠가 부탁하시면 분리수거를 돕기도 한다.",
+            "주말에는 아빠가 부탁하시면 분리수거를 돕기도 한다.",
+            "주말에는 아빠가 부탁하시면 분리수거를 돕기도 한다.",
+            "예전에는 이런 일을 미루곤 했지만 요즘은 더 일찍 하려고 한다.",
+            "예전에는 이런 일을 미루곤 했지만 요즘은 더 일찍 하려고 한다.",
+            "작은 루틴이지만 집 생활을 더 편하게 만든다.",
+            "작은 루틴이지만 집 생활을 더 편하게 만든다."
+          ],
           "translations": [
             {
               "english": "I usually handle my responsibilities little by little.",
@@ -2638,6 +3159,20 @@ window.OPIC_STUDY_DATA = {
             "Now I understand why they did that.",
             "Doing those things helped me become more responsible."
           ],
+          "speakingTranslations": [
+            "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다.",
+            "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다.",
+            "내 주된 일은 장난감을 치우고 방을 깔끔하게 유지하는 것이었다.",
+            "가끔 엄마는 저녁 전에 식탁 차리는 것을 도와달라고 하셨다.",
+            "가끔 엄마는 저녁 전에 식탁 차리는 것을 도와달라고 하셨다.",
+            "그때는 이런 일이 중요하다고 생각하지 않았다.",
+            "그때는 이런 일이 중요하다고 생각하지 않았다.",
+            "나는 그냥 더 놀고 싶어서 자주 불평했다.",
+            "나는 그냥 더 놀고 싶어서 자주 불평했다.",
+            "하지만 부모님은 항상 집안일을 도우라고 하셨어요.",
+            "지금은 부모님이 왜 그러셨는지 이해한다.",
+            "그런 일들을 하면서 나는 더 책임감 있게 되었어요."
+          ],
           "translations": [
             {
               "english": "When I was a child, I had a few small responsibilities at home.",
@@ -2709,6 +3244,19 @@ window.OPIC_STUDY_DATA = {
             "because it made extra work for my family.",
             "After that, I started doing things right away."
           ],
+          "speakingTranslations": [
+            "한번은 쓰레기 버리는 것을 깜빡했다.",
+            "쓰레기차가 오기 전에 그걸 해야 했다.",
+            "하지만 게임을 시작했고 그 일을 완전히 잊어버렸다.",
+            "하지만 게임을 시작했고 그 일을 완전히 잊어버렸다.",
+            "나중에 엄마가 \"쓰레기 버렸니?\"라고 물으셨다.",
+            "한번은 쓰레기 버리는 것을 깜빡했다.",
+            "나중에 엄마가 \"쓰레기 버렸니?\"라고 물으셨다.",
+            "그러자 나는 “아, 깜빡했다!”라고 말했어요.",
+            "가족에게 추가로 일을 만들었기 때문에 정말 미안했다.",
+            "가족에게 추가로 일을 만들었기 때문에 정말 미안했다.",
+            "그 후로 나는 해야 할 일을 바로 하기 시작했어요."
+          ],
           "translations": [
             {
               "english": "One time, my mom asked me to take out the trash.",
@@ -2778,6 +3326,21 @@ window.OPIC_STUDY_DATA = {
             "Also,",
             "what is your favorite space at home?",
             "What do you usually do there?"
+          ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕하세요, 당신의 집에 대해 몇 가지 질문이 있습니다.",
+            "먼저, 마당이 있나요?",
+            "먼저, 마당이 있나요?",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다.",
+            "집에는 방이 몇 개 있나요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+            "가족은 보통 어디에서 함께 시간을 보내나요?",
+            "또한,",
+            "또 집에서 가장 좋아하는 공간은 어디인가요?",
+            "그곳에서 보통 무엇을 하나요?"
           ],
           "translations": [
             {
@@ -2849,6 +3412,17 @@ window.OPIC_STUDY_DATA = {
             "What food should we make?",
             "Should I ask them about food allergies?",
             "Okay, let’s choose a day and time together."
+          ],
+          "speakingTranslations": [
+            "안녕, 내 친구 가족을 우리 집에 점심 식사로 초대하고 싶어.",
+            "먼저 몇 가지 물어볼 게 있어.",
+            "모두에게 어떤 날짜가 가장 좋을까?",
+            "이번 토요일이 좋을까, 아니면 다음 일요일이 좋을까?",
+            "그리고 몇 시에 초대하면 좋을까?",
+            "의자와 접시가 충분히 있을까?",
+            "어떤 음식을 만들면 좋을까?",
+            "그 가족에게 음식 알레르기가 있는지 물어볼까?",
+            "좋아, 날짜와 시간을 같이 정해 보자."
           ],
           "translations": [
             {
@@ -2924,6 +3498,16 @@ window.OPIC_STUDY_DATA = {
             "Please call me when you get this message.",
             "Again, I’m really sorry."
           ],
+          "speakingTranslations": [
+            "안녕, 정말 미안하지만 오늘 점심 약속을 취소해야 할 것 같아.",
+            "오늘 아침에 엄마가 갑자기 아프셨어.",
+            "그래서 오늘 우리 집에서 점심을 먹을 수 없을 것 같아.",
+            "미안해.",
+            "대신 다음 주말에 만날 수 있을까?",
+            "다음 주말이 어렵다면 다른 날에 만나도 돼.",
+            "이 메시지를 확인하면 전화해 줘.",
+            "다시 한번 정말 미안해."
+          ],
           "translations": [
             {
               "english": "Hi, I’m really sorry, but we need to cancel our lunch today.",
@@ -2994,6 +3578,17 @@ window.OPIC_STUDY_DATA = {
             "We decided to meet a week later.",
             "I was worried, But I was happy to help her.",
             "I learned that family comes first."
+          ],
+          "speakingTranslations": [
+            "네, 엄마를 돕기 위해 계획을 바꿔야 했던 적이 있습니다.",
+            "그날 오후에 친구를 만날 예정이었습니다.",
+            "하지만 그날 아침에 엄마가 아프셨습니다.",
+            "엄마는 쉬어야 해서 제가 대신 집을 청소했습니다.",
+            "친구에게 전화해서 “미안하지만 오늘은 집에 있어야 해.”라고 말했습니다.",
+            "다행히 친구가 이해해 주었습니다.",
+            "우리는 일주일 뒤에 만나기로 했습니다.",
+            "걱정되었지만 엄마를 도울 수 있어서 다행이었습니다.",
+            "저는 가족이 가장 우선이라는 것을 배웠습니다."
           ],
           "translations": [
             {
@@ -3069,6 +3664,17 @@ window.OPIC_STUDY_DATA = {
             "I can be alone and relax there.",
             "So, it is the most comfortable place in my house."
           ],
+          "speakingTranslations": [
+            "저는 대부분의 시간을 제 방에서 보냅니다.",
+            "방이 아주 크지는 않지만 필요한 것은 모두 있습니다.",
+            "방이 아주 크지는 않지만 필요한 것은 모두 있습니다.",
+            "방에는 침대, 책상, 의자, 옷장 그리고 컴퓨터가 있습니다.",
+            "저는 보통 책상에서 공부하고 컴퓨터로 영상을 봅니다.",
+            "피곤할 때는 침대에서 잠시 쉽니다.",
+            "제 방은 저만의 공간이어서 좋습니다.",
+            "그곳에서는 혼자 편하게 쉴 수 있습니다.",
+            "그래서 제 방은 우리 집에서 가장 편안한 곳입니다."
+          ],
           "translations": [
             {
               "english": "I spend most of my time in my room.",
@@ -3140,6 +3746,18 @@ window.OPIC_STUDY_DATA = {
             "But on weekends, we have more time to eat and watch TV together.",
             "I feel happy and relaxed with my family."
           ],
+          "speakingTranslations": [
+            "우리 가족은 보통 저녁에 함께 시간을 보냅니다.",
+            "우리 가족은 보통 저녁에 함께 시간을 보냅니다.",
+            "우리는 자주 함께 저녁을 먹으며 하루에 관해 이야기합니다.",
+            "우리는 자주 함께 저녁을 먹으며 하루에 관해 이야기합니다.",
+            "특별한 이야기를 하는 것은 아니지만, 저는 가족과 함께하는 시간이 좋습니다.",
+            "저녁 식사 후에는 거실에 앉아서 넷플릭스를 봅니다.",
+            "가끔은 프로그램을 보면서 이야기를 나눕니다.",
+            "평일에는 모두 바빠서 함께할 시간이 많지 않습니다.",
+            "하지만 주말에는 함께 식사하고 TV를 볼 시간이 더 많습니다.",
+            "저는 가족과 함께 있으면 행복하고 편안합니다."
+          ],
           "translations": [
             {
               "english": "My family usually spends time together in the evening.",
@@ -3207,6 +3825,16 @@ window.OPIC_STUDY_DATA = {
             "Now I can study, play games, and relax in my room.",
             "We also have two bathrooms now, so mornings are much easier.",
             "I liked my old home, but my current home is more comfortable."
+          ],
+          "speakingTranslations": [
+            "가장 큰 차이점은 지금은 제 방이 있다는 것입니다.",
+            "제가 어렸을 때는 우리 집이 더 작았습니다.",
+            "제 방이 없어서 가끔 불편했습니다.",
+            "제 방이 없어서 가끔 불편했습니다.",
+            "하지만 예전 집에 대한 좋은 추억이 아직도 있습니다.",
+            "지금은 제 방에서 공부하고, 게임하고, 편하게 쉴 수 있습니다.",
+            "지금은 화장실도 두 개여서 아침이 훨씬 편합니다.",
+            "예전 집도 좋았지만 지금 사는 집이 더 편안합니다."
           ],
           "translations": [
             {
@@ -3276,6 +3904,19 @@ window.OPIC_STUDY_DATA = {
             "That made the day special.",
             "Cleaning was tiring, but we had fun together.",
             "When we finished, the house was clean, and I felt really good."
+          ],
+          "speakingTranslations": [
+            "기억에 남는 경험 하나는 가족과 함께 집 전체를 청소했던 것입니다.",
+            "집이 지저분해서 어느 주말에 함께 청소하기로 했습니다.",
+            "엄마는 주방을 청소했고 아빠는 거실을 청소했습니다.",
+            "엄마는 주방을 청소했고 아빠는 거실을 청소했습니다.",
+            "저는 제 방을 청소하고 필요 없는 물건들을 버렸습니다.",
+            "저는 제 방을 청소하고 필요 없는 물건들을 버렸습니다.",
+            "청소하는 동안 오래된 물건들을 발견했습니다.",
+            "우리는 그 물건들을 보며 옛날이야기를 나눴습니다.",
+            "그래서 그날이 특별하게 느껴졌습니다.",
+            "청소는 힘들었지만 함께해서 즐거웠습니다.",
+            "청소를 끝내자 집이 깨끗해졌고 저는 정말 뿌듯했습니다."
           ],
           "translations": [
             {
@@ -3348,6 +3989,16 @@ window.OPIC_STUDY_DATA = {
             "What is your favorite room in the house?",
             "Thank you for telling me about your house."
           ],
+          "speakingTranslations": [
+            "안녕하세요,",
+            "안녕하세요. 집에 관해 몇 가지 질문이 있습니다.",
+            "먼저, 집에 마당이 있나요?",
+            "먼저, 집에 마당이 있나요?",
+            "집에는 방이 몇 개 있나요?",
+            "가족은 보통 어디에서 함께 시간을 보내나요?",
+            "집에서 가장 좋아하는 방은 어디인가요?",
+            "집에 관해 이야기해 주셔서 감사합니다."
+          ],
           "translations": [
             {
               "english": "Hi, I have a few questions about your house.",
@@ -3410,6 +4061,16 @@ window.OPIC_STUDY_DATA = {
             "How can I contact you if there is a problem?",
             "Don’t worry. I will take care of everything.",
             "Have a good trip."
+          ],
+          "speakingTranslations": [
+            "안녕, 여행 가기 전에 몇 가지 물어볼 게 있어.",
+            "먼저, 현관문 비밀번호가 있어? 아니면 열쇠를 남겨 줄 거야?",
+            "네가 여행하는 동안 내가 무엇을 해야 해?",
+            "식물에는 얼마나 자주 물을 줘야 해?",
+            "내가 받아야 할 택배가 있어?",
+            "문제가 생기면 어떻게 연락하면 돼?",
+            "걱정하지 마. 내가 모두 잘 처리할게.",
+            "여행 잘 다녀와."
           ],
           "translations": [
             {
@@ -3483,6 +4144,17 @@ window.OPIC_STUDY_DATA = {
             "Is there another key somewhere?",
             "I will wait near your house.",
             "Please call me when you get this message."
+          ],
+          "speakingTranslations": [
+            "안녕, 방금 네 집에 도착했는데 문제가 있어.",
+            "네가 말해 준 장소를 확인했는데 열쇠가 없어.",
+            "그래서 집 안으로 들어갈 수가 없어.",
+            "열쇠가 어디에 있는지 알려 줄래?",
+            "내가 네 이웃에게 물어볼 수도 있어.",
+            "아니면 경비실에 가 볼 수도 있어.",
+            "다른 열쇠가 어딘가에 있어?",
+            "네 집 근처에서 기다릴게.",
+            "이 메시지를 확인하면 나에게 전화해 줘."
           ],
           "translations": [
             {
@@ -3559,6 +4231,17 @@ window.OPIC_STUDY_DATA = {
             "Luckily, my mom went to her house and took care of everything.",
             "The next day, I felt better and went to my aunt’s house.",
             "Everything was fine, and I was really thankful to my mom."
+          ],
+          "speakingTranslations": [
+            "한번은 이모의 집을 돌봐 주기로 약속했지만 몸이 아팠습니다.",
+            "이모는 며칠 동안 여행을 갈 예정이어서 저에게 집을 확인해 달라고 부탁했습니다.",
+            "저는 식물에 물을 주고 택배가 오면 받아야 했습니다.",
+            "하지만 그날 아침 몸이 너무 아파서 갈 수 없었습니다.",
+            "저는 이모에게 전화해서 “미안하지만 오늘은 갈 수 없어요.”라고 말했습니다.",
+            "그리고 엄마에게 도움을 요청했습니다.",
+            "다행히 엄마가 이모의 집에 가서 모든 일을 처리해 주셨습니다.",
+            "다음 날 몸이 나아져서 이모의 집에 갔습니다.",
+            "모든 것이 괜찮았고 엄마에게 정말 감사했습니다."
           ],
           "translations": [
             {
@@ -3640,6 +4323,14 @@ window.OPIC_STUDY_DATA = {
             "I can walk slowly and clear my mind.",
             "So this park is perfect for me."
           ],
+          "speakingTranslations": [
+            "내가 가장 좋아하는 공원은 우리 집 근처에 있는 작은 공원이다.",
+            "아주 크지는 않지만 깨끗하고 평화롭다.",
+            "그곳에는 나무와 잔디, 산책로, 벤치가 있다.",
+            "내가 정말 좋아하는 점은 조용한 분위기다.",
+            "그곳에 갈 때마다 나는 천천히 걸으면서 머리를 식힐 수 있다.",
+            "그래서 이 공원은 나에게 딱 맞는 곳이다."
+          ],
           "translations": [
             {
               "english": "My favorite park is a small park near my home.",
@@ -3707,6 +4398,14 @@ window.OPIC_STUDY_DATA = {
             "I do not do too many things.",
             "It feels like a small break."
           ],
+          "speakingTranslations": [
+            "나는 공원에 가면 간단하게 시간을 보낸다.",
+            "먼저 한동안 주변을 걸어 다닌다.",
+            "친구와 가면 서로 한 주 동안 있었던 일을 이야기한다.",
+            "그런 다음 음료를 사서 벤치에 앉는다.",
+            "나는 너무 많은 일을 하지는 않는다.",
+            "그래서 평범한 공원 방문도 바쁜 하루 속 작은 휴식처럼 느껴진다."
+          ],
           "translations": [
             {
               "english": "When I go to the park, I usually keep things very simple.",
@@ -3773,6 +4472,14 @@ window.OPIC_STUDY_DATA = {
             "Then we sat on a bench and had drinks.",
             "It was simple, but very relaxing."
           ],
+          "speakingTranslations": [
+            "내가 마지막으로 공원에 간 것은 주말 오후였다.",
+            "나는 친한 친구와 함께 갔다.",
+            "날씨가 정말 좋아서 나는 친한 친구 한 명과 그곳에 갔다.",
+            "우리는 천천히 걸으며 사진을 찍고 이야기를 나눴다.",
+            "그런 다음 벤치에 앉아 음료를 마셨다.",
+            "단순한 시간이었지만 매우 편안했다."
+          ],
           "translations": [
             {
               "english": "The last time I went to the park was on a weekend afternoon.",
@@ -3838,6 +4545,14 @@ window.OPIC_STUDY_DATA = {
             "Our mat and small things moved away.",
             "My friend said, \"Wait, catch that first!\"",
             "We laughed a lot."
+          ],
+          "speakingTranslations": [
+            "친구와 공원에 갔을 때 재미있는 일이 한 번 있었다.",
+            "우리는 음료를 들고 잔디밭에 앉아 있었다.",
+            "그런데 갑자기 강한 바람이 불기 시작했다.",
+            "우리의 돗자리와 작은 물건들이 날아갔다.",
+            "친구가 \"잠깐, 저것부터 잡아!\"라고 말했다.",
+            "우리는 한참 웃었다."
           ],
           "translations": [
             {
@@ -3906,6 +4621,14 @@ window.OPIC_STUDY_DATA = {
             "Second, what do you like most about it?",
             "Third, what do you usually do there?",
             "Maybe I should visit it someday."
+          ],
+          "speakingTranslations": [
+            "오, 너도 공원에 가는 것을 좋아해?",
+            "네가 보통 가는 공원에 대해 몇 가지 질문이 있어.",
+            "첫째, 그 공원은 어디에 있어?",
+            "둘째, 그곳에서 무엇을 가장 좋아하나요?",
+            "셋째, 그곳에서 보통 무엇을 하나요?",
+            "좋은 장소인 것 같아서 나도 언젠가 가 봐야 할 것 같아."
           ],
           "translations": [
             {
@@ -3983,6 +4706,14 @@ window.OPIC_STUDY_DATA = {
             "And how long will we stay?",
             "Message me when you have time."
           ],
+          "speakingTranslations": [
+            "그래, 공원에 가는 거 좋겠다.",
+            "첫째, 우리 몇 시에 만날까?",
+            "둘째, 우리 어느 공원에 갈 거야?",
+            "물이나 간식을 가져가야 할까?",
+            "그리고 얼마나 오래 있을 거야?",
+            "시간 있을 때 그냥 메시지 보내 줘."
+          ],
           "translations": [
             {
               "english": "Hey, going to the park next weekend sounds good.",
@@ -4054,6 +4785,14 @@ window.OPIC_STUDY_DATA = {
             "We can also postpone it.",
             "Tell me what works best for you."
           ],
+          "speakingTranslations": [
+            "있잖아, 방금 우리 계획을 확인했어.",
+            "그 공원은 다음 주말에 문을 닫을 거야.",
+            "근처의 다른 공원에 갈 수도 있어.",
+            "아니면 대신 카페에서 만날 수도 있어.",
+            "일정을 미룰 수도 있어.",
+            "나는 어떤 선택지도 괜찮으니까 너에게 뭐가 가장 좋은지 말해 줘."
+          ],
           "translations": [
             {
               "english": "Hey, I just checked something about our plan.",
@@ -4120,6 +4859,14 @@ window.OPIC_STUDY_DATA = {
             "So we moved to a nearby cafe.",
             "The plan changed, but it was still nice."
           ],
+          "speakingTranslations": [
+            "친구와 함께 공원에서 기억에 남는 일을 겪은 적이 있다.",
+            "우리는 걸으면서 사진을 찍고 있었다.",
+            "그런데 갑자기 하늘이 어두워지고 비가 오기 시작했다.",
+            "우리는 우산을 가져오지 않아서 둘 다 놀랐다.",
+            "그래서 우리는 근처 카페로 자리를 옮겼다.",
+            "계획은 바뀌었지만 그래도 즐거웠다."
+          ],
           "translations": [
             {
               "english": "One memorable park experience happened when I went to a park with my friend.",
@@ -4185,6 +4932,14 @@ window.OPIC_STUDY_DATA = {
             "I can pick you up later.",
             "Or you can go first, and I will meet you there.",
             "Tell me what is best for you."
+          ],
+          "speakingTranslations": [
+            "야, 정말 미안한데 한 시간 뒤에 너를 데리러 갈 수 없을 것 같아.",
+            "한 시간 뒤에는 너를 데리러 갈 수 없어.",
+            "그 시간에 가족 일로 볼일이 있어.",
+            "조금 더 늦게는 데리러 갈 수 있어.",
+            "아니면 네가 먼저 가면 내가 그곳에서 만날게.",
+            "어떤 방법이 가장 좋은지 알려 줘."
           ],
           "translations": [
             {
@@ -4258,6 +5013,14 @@ window.OPIC_STUDY_DATA = {
             "The sound of the waves makes me feel refreshed.",
             "It is my favorite place to relax."
           ],
+          "speakingTranslations": [
+            "내가 가장 좋아하는 해변은 도시 근처에 있는 조용한 해변이다.",
+            "그곳은 너무 붐비지 않아서 내가 좋아한다.",
+            "모래사장은 넓고 바다는 탁 트여 보인다.",
+            "천천히 걸으며 경치를 즐길 수 있다.",
+            "파도 소리를 들으면 기분이 상쾌해진다.",
+            "그곳은 내가 가장 좋아하는 휴식 장소다."
+          ],
           "translations": [
             {
               "english": "My favorite beach is a quiet beach near the city.",
@@ -4323,6 +5086,14 @@ window.OPIC_STUDY_DATA = {
             "Then we buy a drink and sit for a while.",
             "I do not really swim much.",
             "I go there to rest and feel refreshed."
+          ],
+          "speakingTranslations": [
+            "나는 해변에 가면 간단한 활동을 한다.",
+            "해변을 따라 걸으며 바다를 바라본다.",
+            "친구와 함께 가면 분위기가 매우 자유로워서 걸으면서 이야기를 나눈다.",
+            "그런 다음 음료를 사서 잠시 앉아 있는다.",
+            "나는 수영을 많이 하는 편은 아니다.",
+            "나는 쉬면서 기분을 전환하려고 그곳에 간다."
           ],
           "translations": [
             {
@@ -4390,6 +5161,14 @@ window.OPIC_STUDY_DATA = {
             "Then we had drinks and talked.",
             "It gave me a nice break."
           ],
+          "speakingTranslations": [
+            "내가 마지막으로 해변에 간 것은 주말 오후였다.",
+            "나는 친한 친구와 함께 갔다.",
+            "날씨가 맑아서 친한 친구와 그곳에 갔다.",
+            "우리는 모래사장을 따라 걸으며 사진을 찍었다.",
+            "그런 다음 음료를 마시며 이야기를 나눴다.",
+            "바쁜 일상에서 좋은 휴식을 준 날이라서 나는 아직도 그날을 기억한다."
+          ],
           "translations": [
             {
               "english": "The last time I went to the beach was on a weekend afternoon.",
@@ -4455,6 +5234,14 @@ window.OPIC_STUDY_DATA = {
             "My friend shouted, \"Grab the bag first!\"",
             "We laughed so hard."
           ],
+          "speakingTranslations": [
+            "친구와 해변에 갔을 때 있었던 일이다.",
+            "우리는 음료를 들고 해변 근처에 앉아 있었다.",
+            "그런데 갑자기 강한 바람이 불기 시작했다.",
+            "우리 돗자리가 모래 위로 날아갔다.",
+            "친구가 \"가방부터 잡아!\"라고 소리쳤다.",
+            "우리는 그것들을 잡으려고 둘 다 뛰었고, 친구가 “잠깐, 가방 먼저 잡아!”라고 외쳤다. 조금 민망했지만 우리는 정말 크게 웃었다."
+          ],
           "translations": [
             {
               "english": "One beach experience I clearly remember happened with my friend.",
@@ -4517,6 +5304,14 @@ window.OPIC_STUDY_DATA = {
             "Is it clean or quiet?",
             "What do you usually do there?",
             "Maybe I should try it later."
+          ],
+          "speakingTranslations": [
+            "오, 너도 해변에 가는 것을 좋아해?",
+            "첫째, 어느 해변에 가장 자주 가?",
+            "둘째, 왜 그 해변을 좋아해?",
+            "그곳은 깨끗하거나 조용한가요?",
+            "그곳에서 보통 무엇을 하나요?",
+            "나중에 나도 한번 가 봐야겠다."
           ],
           "translations": [
             {
@@ -4589,6 +5384,14 @@ window.OPIC_STUDY_DATA = {
             "How long will we stay?",
             "Let me know, and I will get ready."
           ],
+          "speakingTranslations": [
+            "그래, 해변에 가는 거 좋겠다.",
+            "우리 몇 시에 만날까?",
+            "어느 해변으로 갈 거야?",
+            "물이나 간식, 수건을 가져가야 할까?",
+            "얼마나 오래 있을 거야?",
+            "알려 주면 준비할게."
+          ],
           "translations": [
             {
               "english": "Hey, I think going to the beach this weekend sounds really nice.",
@@ -4655,6 +5458,14 @@ window.OPIC_STUDY_DATA = {
             "Or we can meet at a cafe instead.",
             "Tell me what you prefer."
           ],
+          "speakingTranslations": [
+            "있잖아, 일기예보를 확인해 봤어.",
+            "야, 방금 일기예보를 확인했는데 이번 주말 해변 날씨가 안 좋을 것 같아.",
+            "우리 가지 않는 게 좋을 것 같아.",
+            "다음 주말로 미룰 수 있어.",
+            "아니면 대신 카페에서 만날 수도 있어.",
+            "나는 어떤 선택지도 괜찮으니까 네가 무엇을 선호하는지 말해 줘."
+          ],
           "translations": [
             {
               "english": "Hey, I just checked the weather forecast, and it looks like the beach weather will be bad this weekend.",
@@ -4715,6 +5526,14 @@ window.OPIC_STUDY_DATA = {
             "The sky got dark.",
             "My friend said, \"Maybe we should leave now.\"",
             "We moved to an indoor place nearby."
+          ],
+          "speakingTranslations": [
+            "친구와 해변에서 잊지 못할 일을 겪은 적이 있다.",
+            "우리는 걸으면서 사진을 찍고 있었다.",
+            "그런데 갑자기 바람이 강해지고 하늘이 어두워졌다.",
+            "그런데 갑자기 바람이 강해지고 하늘이 어두워졌다.",
+            "친구가 “아마 지금 떠나야 할 것 같아.”라고 말했다. 그래서 우리는 근처 실내 장소로 이동해서 잠시 그곳에 있었다.",
+            "친구가 “아마 지금 떠나야 할 것 같아.”라고 말했다. 그래서 우리는 근처 실내 장소로 이동해서 잠시 그곳에 있었다."
           ],
           "translations": [
             {
@@ -4788,6 +5607,14 @@ window.OPIC_STUDY_DATA = {
             "I often listen to bands like Nirvana.",
             "So music is the easiest way to change my mood."
           ],
+          "speakingTranslations": [
+            "나는 락과 밴드 음악 듣는 것을 가장 즐긴다.",
+            "나는 특히 선명한 기타 소리를 좋아한다.",
+            "그 소리는 강하고 시원하게 느껴져서 스트레스를 푸는 데 도움이 된다.",
+            "그 소리는 강하고 시원하게 느껴져서 스트레스를 푸는 데 도움이 된다.",
+            "나는 많은 음악가를 아는 것은 아니지만, 너바나 같은 밴드를 자주 듣는다.",
+            "그래서 음악은 내 기분을 바꾸는 가장 쉬운 방법이다."
+          ],
           "translations": [
             {
               "english": "I enjoy listening to rock and band music the most.",
@@ -4853,6 +5680,14 @@ window.OPIC_STUDY_DATA = {
             "When I study, I listen to calm music.",
             "When I need energy, I listen to rock music.",
             "Sometimes I go to concerts too."
+          ],
+          "speakingTranslations": [
+            "나는 보통 이동할 때 에어팟으로 음악을 듣는다.",
+            "나는 버스나 지하철에서 음악을 듣는다.",
+            "그러면 이동 시간이 더 짧게 느껴진다.",
+            "공부할 때는 잔잔한 음악을 듣는다.",
+            "활력이 필요할 때는 록 음악을 듣는다.",
+            "가끔은 콘서트에도 간다."
           ],
           "translations": [
             {
@@ -4920,6 +5755,14 @@ window.OPIC_STUDY_DATA = {
             "He played a Nirvana song for me.",
             "The guitar and drum sounds were really cool.",
             "So now I prefer rock and band music."
+          ],
+          "speakingTranslations": [
+            "나는 중학생 때 처음 음악에 관심을 갖게 되었다.",
+            "그때는 케이팝을 많이 들었다.",
+            "하지만 고등학생 때 친구가 밴드 음악을 소개해 주었다.",
+            "그 친구가 나에게 너바나 노래를 들려줬는데, 솔직히 처음에는 조금 낯설게 느껴졌다.",
+            "기타와 드럼 소리가 정말 멋졌다.",
+            "그래서 지금은 록과 밴드 음악을 더 좋아한다."
           ],
           "translations": [
             {
@@ -4991,6 +5834,14 @@ window.OPIC_STUDY_DATA = {
             "But the stage was close to the audience.",
             "The guitar and drum sounds were powerful.",
             "After that, I felt live music is something you feel."
+          ],
+          "speakingTranslations": [
+            "가장 기억에 남는 라이브 음악 경험은 친구와 갔던 콘서트다.",
+            "주말 저녁이었다.",
+            "공연장은 아주 크지는 않았지만 무대가 관객과 가까웠다.",
+            "공연장은 아주 크지는 않았지만 무대가 관객과 가까웠다.",
+            "기타와 드럼 소리가 강렬했다.",
+            "그 후로 라이브 음악은 온몸으로 느끼는 것이라고 생각하게 되었다."
           ],
           "translations": [
             {
@@ -5064,6 +5915,14 @@ window.OPIC_STUDY_DATA = {
             "What is different about playing in an orchestra?",
             "What was your most memorable performance?"
           ],
+          "speakingTranslations": [
+            "안녕하세요, 오케스트라에서 바이올린을 연주한다고 들었어요.",
+            "처음 연주를 시작한 것은 언제인가요?",
+            "왜 바이올린을 선택했나요?",
+            "또 하루나 일주일에 얼마나 자주 연습하나요?",
+            "오케스트라에서 연주하는 것은 어떤 점이 다른가요?",
+            "가장 기억에 남는 공연은 무엇이었나요?"
+          ],
           "translations": [
             {
               "english": "Hello, I heard that you play the violin in an orchestra.",
@@ -5134,6 +5993,14 @@ window.OPIC_STUDY_DATA = {
             "How much storage do I need?",
             "Should I buy it online or at a store?"
           ],
+          "speakingTranslations": [
+            "있잖아, MP3 플레이어를 사고 싶어.",
+            "야, 내가 MP3 플레이어를 사려고 생각 중인데, 네가 이런 기기를 잘 안다고 들었어.",
+            "초보자에게 어떤 모델이 좋아?",
+            "어느 정도 가격대가 괜찮아?",
+            "또 많은 노래를 넣고 싶다면 저장 용량은 얼마나 필요할까?",
+            "온라인에서 사는 게 좋을까, 매장에서 사는 게 좋을까?"
+          ],
           "translations": [
             {
               "english": "Hey, I am thinking about buying an MP3 player, and I heard you know a lot about these devices.",
@@ -5201,6 +6068,14 @@ window.OPIC_STUDY_DATA = {
             "The screen is cracked.",
             "I will check if it can be repaired.",
             "If not, I will buy you a new one."
+          ],
+          "speakingTranslations": [
+            "야, 정말 미안한데 내가 실수로 네 MP3 플레이어를 망가뜨렸어.",
+            "야, 정말 미안한데 내가 실수로 네 MP3 플레이어를 망가뜨렸어.",
+            "가방에서 꺼내다가 손에서 미끄러져 바닥에 떨어졌어.",
+            "지금 화면 한쪽이 깨졌고, 전원이 잘 켜지지 않아.",
+            "수리할 수 있는지 확인해 볼게.",
+            "안 된다면 새것을 사 줄게."
           ],
           "translations": [
             {
@@ -5273,6 +6148,14 @@ window.OPIC_STUDY_DATA = {
             "I checked another device, but it still did not work.",
             "I took it to the store.",
             "Luckily, I got a replacement."
+          ],
+          "speakingTranslations": [
+            "내가 기억하는 장비 문제 하나는 이어폰 한쪽이 갑자기 작동하지 않았을 때이다.",
+            "나는 통학할 때 음악을 들어서 거의 매일 이어폰을 사용한다.",
+            "버스에 타고 있었는데 오른쪽 소리가 계속 끊겼다.",
+            "다른 기기에도 연결해 봤지만 여전히 작동하지 않았다.",
+            "나는 그것을 매장에 가져갔다.",
+            "다행히 교환품을 받았다."
           ],
           "translations": [
             {
@@ -5369,6 +6252,25 @@ window.OPIC_STUDY_DATA = {
             "For me,",
             "music is the easiest way to change the mood of my day."
           ],
+          "speakingTranslations": [
+            "나는 록과 밴드 음악을 듣는 것을 가장 좋아한다.",
+            "이런 음악은 강한 에너지가 있어서 좋아한다.",
+            "이런 음악은 강한 에너지가 있어서 좋아한다.",
+            "기타, 드럼, 보컬이 노래를 살아 있는 것처럼 느끼게 한다.",
+            "기타, 드럼, 보컬이 노래를 살아 있는 것처럼 느끼게 한다.",
+            "모든 음악가의 이름을 항상 아는 것은 아니지만 그 소리를 즐긴다.",
+            "모든 음악가의 이름을 항상 아는 것은 아니지만 그 소리를 즐긴다.",
+            "모든 음악가의 이름을 항상 아는 것은 아니지만 그 소리를 즐긴다.",
+            "피곤할 때 밴드 음악은 조금 정신이 들게 해 준다.",
+            "피곤할 때 밴드 음악은 조금 정신이 들게 해 준다.",
+            "스트레스를 받을 때 감정을 풀어 주기도 한다.",
+            "스트레스를 받을 때 감정을 풀어 주기도 한다.",
+            "솔직히 음악 취향은 가끔 바뀌지만 결국 밴드 음악으로 돌아온다.",
+            "솔직히 음악 취향은 가끔 바뀌지만 결국 밴드 음악으로 돌아온다.",
+            "솔직히 음악 취향은 가끔 바뀌지만 결국 밴드 음악으로 돌아온다.",
+            "나에게 음악은 하루의 분위기를 바꾸는 가장 쉬운 방법이다.",
+            "나에게 음악은 하루의 분위기를 바꾸는 가장 쉬운 방법이다."
+          ],
           "translations": [
             {
               "english": "I enjoy listening to rock and band music the most.",
@@ -5445,6 +6347,25 @@ window.OPIC_STUDY_DATA = {
             "I can enjoy music almost anywhere.",
             "So music is both a daily habit",
             "and a simple way to relax."
+          ],
+          "speakingTranslations": [
+            "나는 보통 이동할 때 에어팟으로 음악을 듣는다.",
+            "나는 보통 이동할 때 에어팟으로 음악을 듣는다.",
+            "예를 들어 버스 안이나 걸을 때 음악을 듣는다.",
+            "예를 들어 버스 안이나 걸을 때 음악을 듣는다.",
+            "작은 빈 시간에 덜 지루하게 느끼도록 도와준다.",
+            "작은 빈 시간에 덜 지루하게 느끼도록 도와준다.",
+            "쉬고 싶을 때는 집에서도 음악을 듣는다.",
+            "쉬고 싶을 때는 집에서도 음악을 듣는다.",
+            "쉬고 싶을 때는 집에서도 음악을 듣는다.",
+            "집에서는 보통 침대에 누워 휴대폰으로 노래를 튼다.",
+            "집에서는 보통 침대에 누워 휴대폰으로 노래를 튼다.",
+            "음악을 즐기기 위해 특별한 장소가 필요하지는 않다.",
+            "음악을 즐기기 위해 특별한 장소가 필요하지는 않다.",
+            "이어폰만 있으면 거의 어디서든 음악을 즐길 수 있다.",
+            "이어폰만 있으면 거의 어디서든 음악을 즐길 수 있다.",
+            "그래서 음악은 일상 습관이자 쉬는 간단한 방법이다.",
+            "그래서 음악은 일상 습관이자 쉬는 간단한 방법이다."
           ],
           "translations": [
             {
@@ -5524,6 +6445,26 @@ window.OPIC_STUDY_DATA = {
             "Since then,",
             "music has become an easy way for me to change my mood."
           ],
+          "speakingTranslations": [
+            "나는 중학생 때 처음 음악에 관심을 갖게 되었다.",
+            "나는 중학생 때 처음 음악에 관심을 갖게 되었다.",
+            "그전에는 별생각 없이 인기 있는 노래만 들었다.",
+            "그전에는 별생각 없이 인기 있는 노래만 들었다.",
+            "그전에는 별생각 없이 인기 있는 노래만 들었다.",
+            "그런데 어느 날 친구가 밴드 노래를 들려주었다.",
+            "그런데 어느 날 친구가 밴드 노래를 들려주었다.",
+            "기타 소리가 강했고 후렴구가 정말 귀에 잘 들어왔다.",
+            "기타 소리가 강했고 후렴구가 정말 귀에 잘 들어왔다.",
+            "나는 \"와, 이건 다르게 들린다\"라고 생각했던 것이 기억난다.",
+            "나는 \"와, 이건 다르게 들린다\"라고 생각했던 것이 기억난다.",
+            "그 후로 더 많은 밴드 음악을 찾아보기 시작했다.",
+            "그 후로 더 많은 밴드 음악을 찾아보기 시작했다.",
+            "내 취향은 인기곡 위주에서 더 강한 사운드의 노래로 바뀌었다.",
+            "내 취향은 인기곡 위주에서 더 강한 사운드의 노래로 바뀌었다.",
+            "내 취향은 인기곡 위주에서 더 강한 사운드의 노래로 바뀌었다.",
+            "그 이후로 음악은 내 기분을 바꾸는 쉬운 방법이 되었다.",
+            "그 이후로 음악은 내 기분을 바꾸는 쉬운 방법이 되었다."
+          ],
           "translations": [
             {
               "english": "I first became interested in music when I was in middle school.",
@@ -5602,6 +6543,26 @@ window.OPIC_STUDY_DATA = {
             "that live music is something you feel,",
             "not just something you hear."
           ],
+          "speakingTranslations": [
+            "내가 경험한 가장 기억에 남는 라이브 음악 경험은 친구와 간 콘서트였다.",
+            "내가 경험한 가장 기억에 남는 라이브 음악 경험은 친구와 간 콘서트였다.",
+            "친구가 그 밴드를 정말 좋아해서 우리는 그곳에 갔다.",
+            "친구가 그 밴드를 정말 좋아해서 우리는 그곳에 갔다.",
+            "처음에는 그 밴드를 잘 몰라서 크게 기대하지 않았다.",
+            "처음에는 그 밴드를 잘 몰라서 크게 기대하지 않았다.",
+            "처음에는 그 밴드를 잘 몰라서 크게 기대하지 않았다.",
+            "하지만 음악이 시작되자 소리가 예상보다 훨씬 강했다.",
+            "하지만 음악이 시작되자 소리가 예상보다 훨씬 강했다.",
+            "드럼과 기타가 강렬하게 느껴졌고 관객들도 신이 나 있었다.",
+            "드럼과 기타가 강렬하게 느껴졌고 관객들도 신이 나 있었다.",
+            "나는 \"라이브 음악은 완전히 다르게 느껴진다\"라고 생각했다.",
+            "나는 \"라이브 음악은 완전히 다르게 느껴진다\"라고 생각했다.",
+            "콘서트 후에 나는 그 밴드의 노래를 계속 들었다.",
+            "콘서트 후에 나는 그 밴드의 노래를 계속 들었다.",
+            "그날은 라이브 음악이 단순히 듣는 것이 아니라 느끼는 것이라는 것을 깨닫게 해 주었다.",
+            "그날은 라이브 음악이 단순히 듣는 것이 아니라 느끼는 것이라는 것을 깨닫게 해 주었다.",
+            "그날은 라이브 음악이 단순히 듣는 것이 아니라 느끼는 것이라는 것을 깨닫게 해 주었다."
+          ],
           "translations": [
             {
               "english": "The most memorable live music experience I had was at a concert with my friend.",
@@ -5677,6 +6638,23 @@ window.OPIC_STUDY_DATA = {
             "how do you feel when you play on stage?",
             "If I have a chance,",
             "I would love to listen to your performance someday."
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 오케스트라에서 바이올린을 연주한다고 들었습니다.",
+            "안녕하세요, 오케스트라에서 바이올린을 연주한다고 들었습니다.",
+            "정말 인상적으로 들려서 몇 가지 질문이 있습니다.",
+            "정말 인상적으로 들려서 몇 가지 질문이 있습니다.",
+            "먼저, 언제 바이올린을 연주하기 시작했나요?",
+            "먼저, 언제 바이올린을 연주하기 시작했나요?",
+            "오케스트라와 얼마나 자주 연습하나요?",
+            "오케스트라와 얼마나 자주 연습하나요?",
+            "많은 다른 연주자들과 함께 연주하는 것이 어렵나요?",
+            "많은 다른 연주자들과 함께 연주하는 것이 어렵나요?",
+            "보통 어떤 종류의 음악을 연주하나요?",
+            "또한,",
+            "또 무대에서 연주할 때 어떤 기분이 드나요?",
+            "기회가 있다면 언젠가 당신의 공연을 들어 보고 싶습니다.",
+            "기회가 있다면 언젠가 당신의 공연을 들어 보고 싶습니다."
           ],
           "translations": [
             {
@@ -5755,6 +6733,25 @@ window.OPIC_STUDY_DATA = {
             "When you have time,",
             "please recommend a few models to me."
           ],
+          "speakingTranslations": [
+            "안녕,",
+            "야, MP3 플레이어를 사려고 하는데 네가 이런 기기에 대해 잘 안다고 들었어.",
+            "야, MP3 플레이어를 사려고 하는데 네가 이런 기기에 대해 잘 안다고 들었어.",
+            "하나 사기 전에 몇 가지 질문이 있어.",
+            "하나 사기 전에 몇 가지 질문이 있어.",
+            "먼저, 어떤 브랜드나 모델을 추천해?",
+            "먼저, 어떤 브랜드나 모델을 추천해?",
+            "너무 비싼 것은 필요 없지만 사용하기 쉬운 것을 원해.",
+            "너무 비싼 것은 필요 없지만 사용하기 쉬운 것을 원해.",
+            "매일 음악을 듣는다면 저장 용량은 얼마나 필요할까?",
+            "매일 음악을 듣는다면 저장 용량은 얼마나 필요할까?",
+            "또한,",
+            "또 배터리 수명이 중요할까?",
+            "한 가지 더, 온라인에서 사는 게 좋을까 아니면 매장에서 사는 게 좋을까?",
+            "한 가지 더, 온라인에서 사는 게 좋을까 아니면 매장에서 사는 게 좋을까?",
+            "시간 있을 때 모델 몇 개를 추천해 줘.",
+            "시간 있을 때 모델 몇 개를 추천해 줘."
+          ],
           "translations": [
             {
               "english": "Hey, I am thinking about buying an MP3 player, and I heard you know a lot about these devices.",
@@ -5832,6 +6829,25 @@ window.OPIC_STUDY_DATA = {
             "I will buy you the same model or a similar new one.",
             "Please tell me what option is best.",
             "I will fix this as quickly as possible."
+          ],
+          "speakingTranslations": [
+            "안녕,",
+            "야, 정말 미안한데 내가 실수로 네 MP3 플레이어를 망가뜨렸어.",
+            "야, 정말 미안한데 내가 실수로 네 MP3 플레이어를 망가뜨렸어.",
+            "가방에서 꺼내다가 손에서 미끄러졌어.",
+            "가방에서 꺼내다가 손에서 미끄러졌어.",
+            "바닥에 떨어졌고 지금 화면이 깨졌어.",
+            "바닥에 떨어졌고 지금 화면이 깨졌어.",
+            "네게 빌린 거라서 정말 미안하게 생각해.",
+            "네게 빌린 거라서 정말 미안하게 생각해.",
+            "오늘 수리점에 가져가서 고칠 수 있는지 확인할게.",
+            "오늘 수리점에 가져가서 고칠 수 있는지 확인할게.",
+            "당연히 수리비는 내가 낼게.",
+            "당연히 수리비는 내가 낼게.",
+            "수리가 불가능하면 같은 모델이나 비슷한 새 제품을 사 줄게.",
+            "수리가 불가능하면 같은 모델이나 비슷한 새 제품을 사 줄게.",
+            "어떤 선택지가 가장 좋은지 말해 줘. 최대한 빨리 해결할게.",
+            "어떤 선택지가 가장 좋은지 말해 줘. 최대한 빨리 해결할게."
           ],
           "translations": [
             {
@@ -5914,6 +6930,28 @@ window.OPIC_STUDY_DATA = {
             "Since then,",
             "I keep my earphones in a small case."
           ],
+          "speakingTranslations": [
+            "내가 기억하는 장비 문제 하나는 이어폰 한쪽이 작동하지 않았을 때이다.",
+            "내가 기억하는 장비 문제 하나는 이어폰 한쪽이 작동하지 않았을 때이다.",
+            "나는 이동할 때 음악을 들어서 거의 매일 이어폰을 사용한다.",
+            "나는 이동할 때 음악을 들어서 거의 매일 이어폰을 사용한다.",
+            "어느 날 버스에 있었는데 오른쪽 소리가 계속 끊겼다.",
+            "어느 날 버스에 있었는데 오른쪽 소리가 계속 끊겼다.",
+            "어느 날 버스에 있었는데 오른쪽 소리가 계속 끊겼다.",
+            "처음에는 음악 앱 문제라고 생각했다.",
+            "처음에는 음악 앱 문제라고 생각했다.",
+            "그래서 앱을 다시 시작했지만 같은 일이 또 일어났다.",
+            "그래서 앱을 다시 시작했지만 같은 일이 또 일어났다.",
+            "다음 날 이어폰을 산 매장에 가져갔다.",
+            "다음 날 이어폰을 산 매장에 가져갔다.",
+            "다행히 아직 보증 기간이라 교환을 받았다.",
+            "다행히 아직 보증 기간이라 교환을 받았다.",
+            "다행히 아직 보증 기간이라 교환을 받았다.",
+            "처음에는 짜증 났지만 문제가 빨리 해결되었다.",
+            "처음에는 짜증 났지만 문제가 빨리 해결되었다.",
+            "그 이후로 이어폰을 작은 케이스에 보관한다.",
+            "그 이후로 이어폰을 작은 케이스에 보관한다."
+          ],
           "translations": [
             {
               "english": "One equipment problem I remember is when one side of my earphones stopped working.",
@@ -5995,6 +7033,14 @@ window.OPIC_STUDY_DATA = {
             "I practice alone with headphones.",
             "It is difficult, but really fun."
           ],
+          "speakingTranslations": [
+            "내가 즐겨 연주하는 악기는 일렉기타이다.",
+            "나는 그저 취미로 연주한다.",
+            "나는 쉬운 록 음악과 밴드 음악을 좋아한다.",
+            "일렉기타를 연주할 때 그 소리는 강하고 시원하게 느껴진다.",
+            "나는 헤드폰을 끼고 혼자 연습한다.",
+            "어렵지만 정말 재미있다."
+          ],
           "translations": [
             {
               "english": "The instrument I enjoy playing is the electric guitar.",
@@ -6065,6 +7111,14 @@ window.OPIC_STUDY_DATA = {
             "One session is about twenty to thirty minutes.",
             "I play easy chords first.",
             "Then I practice one song I like."
+          ],
+          "speakingTranslations": [
+            "나는 보통 집에서 혼자 일렉기타를 연습한다.",
+            "저녁 식사 후나 잠자리에 들기 전에 방에서 연습한다.",
+            "일주일에 두세 번 연습한다.",
+            "한 번 연습할 때 약 20분에서 30분 정도 한다.",
+            "먼저 쉬운 코드를 연주한다.",
+            "그런 다음 좋아하는 노래 한 곡을 연습한다."
           ],
           "translations": [
             {
@@ -6137,6 +7191,14 @@ window.OPIC_STUDY_DATA = {
             "I took lessons near my home for about a year.",
             "At first, it was hard.",
             "But when I played a song I liked, I felt proud."
+          ],
+          "speakingTranslations": [
+            "나는 밴드 애니메이션을 본 뒤 처음 기타에 관심을 갖게 되었다.",
+            "주인공이 일렉트릭 기타를 연주했다.",
+            "그 애니메이션에서 주인공이 일렉기타를 연주했는데 정말 멋져 보였다.",
+            "집 근처에서 약 1년 동안 레슨을 받았다.",
+            "처음에는 어려웠다.",
+            "하지만 좋아하는 곡을 연주했을 때 뿌듯했다."
           ],
           "translations": [
             {
@@ -6213,6 +7275,14 @@ window.OPIC_STUDY_DATA = {
             "My friend said, \"Just keep playing until the end.\"",
             "I made one small mistake, but I did not stop.",
             "After the performance, people clapped."
+          ],
+          "speakingTranslations": [
+            "가장 기억에 남는 기타 경험은 학교 밴드 공연이었다.",
+            "친구들과 쉬운 밴드 곡을 준비했다.",
+            "공연 전에 정말 긴장했다.",
+            "친구가 \"그냥 끝까지 계속 연주해.\"라고 말했다.",
+            "작은 실수를 한 번 했지만 연주를 멈추지 않았다.",
+            "공연이 끝난 뒤 사람들이 박수를 쳤다."
           ],
           "translations": [
             {
@@ -6291,6 +7361,14 @@ window.OPIC_STUDY_DATA = {
             "When and where do you practice?",
             "Do you want to practice as a band together sometime?"
           ],
+          "speakingTranslations": [
+            "있잖아, 너도 악기를 연주한다고 들었어.",
+            "첫째, 어떤 악기를 연주해?",
+            "왜 그 악기를 연주하기 시작했어?",
+            "그 악기를 연주한 지 얼마나 됐어?",
+            "언제 어디에서 연습해?",
+            "괜찮다면 언젠가 같이 밴드로 연습해 볼래?"
+          ],
           "translations": [
             {
               "english": "Hey, I heard that you also play a musical instrument.",
@@ -6365,6 +7443,14 @@ window.OPIC_STUDY_DATA = {
             "Can I buy an amp, cable, picks, and a tuner too?",
             "Can I test the sound at the store?"
           ],
+          "speakingTranslations": [
+            "안녕하세요, 밴드 연습용 일렉트릭 기타를 사고 싶어요.",
+            "록이나 밴드 음악에 맞는 기타가 있나요?",
+            "보통 가격대는 어느 정도인가요?",
+            "너무 비싸지 않은 모델을 추천해 주실 수 있나요?",
+            "앰프와 케이블, 피크, 튜너도 함께 살 수 있나요?",
+            "매장에서 소리를 시험해 볼 수 있나요?"
+          ],
           "translations": [
             {
               "english": "Hello, I am calling because I want to buy an electric guitar for band practice.",
@@ -6432,6 +7518,14 @@ window.OPIC_STUDY_DATA = {
             "Also, the tuning does not stay.",
             "Can I bring it to the store for a check?",
             "If needed, can I get a repair or exchange?"
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 며칠 전에 일렉트릭 기타를 샀어요.",
+            "그 기타에 문제가 있는 것 같아서 전화했습니다.",
+            "일부 줄에서 윙윙거리는 잡음이 납니다.",
+            "그리고 조율이 계속 유지되지 않습니다.",
+            "점검을 받으러 매장에 가져가도 될까요?",
+            "필요하다면 수리나 교환을 받을 수 있나요?"
           ],
           "translations": [
             {
@@ -6504,6 +7598,14 @@ window.OPIC_STUDY_DATA = {
             "Luckily, my friend had an extra string.",
             "He helped me change it quickly.",
             "Since then, I always bring extra strings and a tuner."
+          ],
+          "speakingTranslations": [
+            "학교 밴드 리허설 중에 기타 줄이 끊어졌다.",
+            "공연 직전에 일어난 일이었다.",
+            "곧 무대에 올라가야 했기 때문에 나는 정말 놀랐다.",
+            "다행히 친구에게 여분의 줄이 있었다.",
+            "그 친구가 내가 빠르게 줄을 갈 수 있도록 도와주었고, 나는 기타를 다시 조율했다.",
+            "그때부터 나는 항상 여분의 줄과 튜너를 챙긴다."
           ],
           "translations": [
             {
@@ -6599,6 +7701,24 @@ window.OPIC_STUDY_DATA = {
             "So the electric guitar is difficult,",
             "but it is a really enjoyable hobby for me."
           ],
+          "speakingTranslations": [
+            "내가 연주하는 것을 좋아하는 악기는 일렉기타이다.",
+            "내가 연주하는 것을 좋아하는 악기는 일렉기타이다.",
+            "전문 연주자는 아니지만 그 소리를 정말 좋아한다.",
+            "전문 연주자는 아니지만 그 소리를 정말 좋아한다.",
+            "특히 록이나 밴드 음악에서 강렬하고 감정적으로 들린다.",
+            "특히 록이나 밴드 음악에서 강렬하고 감정적으로 들린다.",
+            "내가 가장 좋아하는 점은 단순한 코드도 노래의 분위기를 바꿀 수 있다는 것이다.",
+            "내가 가장 좋아하는 점은 단순한 코드도 노래의 분위기를 바꿀 수 있다는 것이다.",
+            "솔직히 말해서 일렉기타는 나에게 쉽지 않다.",
+            "솔직히 말해서 일렉기타는 나에게 쉽지 않다.",
+            "가끔 손가락이 아프고 코드를 바꾸는 것도 어려울 수 있다.",
+            "가끔 손가락이 아프고 코드를 바꾸는 것도 어려울 수 있다.",
+            "하지만 그래서 노래를 조금이라도 더 잘 치면 재미있게 느껴진다.",
+            "하지만 그래서 노래를 조금이라도 더 잘 치면 재미있게 느껴진다.",
+            "그래서 일렉기타는 어렵지만 나에게 정말 즐거운 취미이다.",
+            "그래서 일렉기타는 어렵지만 나에게 정말 즐거운 취미이다."
+          ],
           "translations": [
             {
               "english": "The instrument I enjoy playing is the electric guitar.",
@@ -6674,6 +7794,24 @@ window.OPIC_STUDY_DATA = {
             "playing guitar helps me calm down.",
             "It is a short routine,",
             "but it makes me feel better."
+          ],
+          "speakingTranslations": [
+            "나는 보통 집에서 혼자 일렉기타를 연습한다.",
+            "나는 보통 집에서 혼자 일렉기타를 연습한다.",
+            "아주 오래 연습하지는 않는다.",
+            "아주 오래 연습하지는 않는다.",
+            "대부분은 20분에서 30분 정도 연습한다.",
+            "대부분은 20분에서 30분 정도 연습한다.",
+            "먼저 기타 튜닝을 하고 쉬운 코드 몇 개를 친다.",
+            "먼저 기타 튜닝을 하고 쉬운 코드 몇 개를 친다.",
+            "그다음 좋아하는 노래의 짧은 부분을 쳐 보려고 한다.",
+            "그다음 좋아하는 노래의 짧은 부분을 쳐 보려고 한다.",
+            "완벽하게 연습하려고 하지는 않는다. 그냥 즐기려고 한다.",
+            "완벽하게 연습하려고 하지는 않는다. 그냥 즐기려고 한다.",
+            "스트레스를 받을 때 기타를 치면 마음이 진정된다.",
+            "스트레스를 받을 때 기타를 치면 마음이 진정된다.",
+            "짧은 루틴이지만 기분이 나아진다.",
+            "짧은 루틴이지만 기분이 나아진다."
           ],
           "translations": [
             {
@@ -6751,6 +7889,25 @@ window.OPIC_STUDY_DATA = {
             "I felt really excited.",
             "Since then,",
             "guitar has become a great hobby for relieving stress."
+          ],
+          "speakingTranslations": [
+            "나는 밴드 애니메이션을 본 뒤 처음 기타에 관심을 갖게 되었다.",
+            "나는 밴드 애니메이션을 본 뒤 처음 기타에 관심을 갖게 되었다.",
+            "무대에서 연주하는 캐릭터들이 정말 멋져 보였다.",
+            "무대에서 연주하는 캐릭터들이 정말 멋져 보였다.",
+            "그 후로 밴드 음악을 더 많이 듣기 시작했다.",
+            "그 후로 밴드 음악을 더 많이 듣기 시작했다.",
+            "기타 소리는 강렬했지만 감정적으로도 느껴졌다.",
+            "기타 소리는 강렬했지만 감정적으로도 느껴졌다.",
+            "그래서 \"언젠가 나도 해 보고 싶다\"라고 생각했다.",
+            "그래서 \"언젠가 나도 해 보고 싶다\"라고 생각했다.",
+            "처음에는 손가락이 아팠고 코드를 바꾸는 것도 정말 어려웠다.",
+            "처음에는 손가락이 아팠고 코드를 바꾸는 것도 정말 어려웠다.",
+            "처음에는 손가락이 아팠고 코드를 바꾸는 것도 정말 어려웠다.",
+            "하지만 간단한 노래를 쳤을 때 정말 신이 났다.",
+            "하지만 간단한 노래를 쳤을 때 정말 신이 났다.",
+            "그 이후로 기타는 스트레스를 푸는 좋은 취미가 되었다.",
+            "그 이후로 기타는 스트레스를 푸는 좋은 취미가 되었다."
           ],
           "translations": [
             {
@@ -6831,6 +7988,27 @@ window.OPIC_STUDY_DATA = {
             "but I felt proud",
             "because I was really part of a band."
           ],
+          "speakingTranslations": [
+            "기억에 남는 기타 경험 하나는 학교 밴드 동아리 공연 때 있었다.",
+            "기억에 남는 기타 경험 하나는 학교 밴드 동아리 공연 때 있었다.",
+            "나는 몇 주 동안 동아리 친구들과 한 곡을 연습했다.",
+            "나는 몇 주 동안 동아리 친구들과 한 곡을 연습했다.",
+            "공연 전에는 실수하고 싶지 않아서 정말 긴장했다.",
+            "공연 전에는 실수하고 싶지 않아서 정말 긴장했다.",
+            "공연 전에는 실수하고 싶지 않아서 정말 긴장했다.",
+            "친구가 \"그냥 즐겨. 우리 충분히 연습했어\"라고 말했다.",
+            "친구가 \"그냥 즐겨. 우리 충분히 연습했어\"라고 말했다.",
+            "연주를 시작했을 때 여전히 긴장했지만 소리가 신나게 느껴졌다.",
+            "연주를 시작했을 때 여전히 긴장했지만 소리가 신나게 느껴졌다.",
+            "연주를 시작했을 때 여전히 긴장했지만 소리가 신나게 느껴졌다.",
+            "작은 실수를 했지만 큰 문제는 아니었다.",
+            "작은 실수를 했지만 큰 문제는 아니었다.",
+            "공연 후 친구들이 소리가 좋았다고 말했다.",
+            "공연 후 친구들이 소리가 좋았다고 말했다.",
+            "완벽하지는 않았지만 정말 밴드의 일부가 된 것 같아서 뿌듯했다.",
+            "완벽하지는 않았지만 정말 밴드의 일부가 된 것 같아서 뿌듯했다.",
+            "완벽하지는 않았지만 정말 밴드의 일부가 된 것 같아서 뿌듯했다."
+          ],
           "translations": [
             {
               "english": "One memorable guitar experience happened during a school band club performance.",
@@ -6905,6 +8083,22 @@ window.OPIC_STUDY_DATA = {
             "is there a song you are practicing these days?",
             "If you are okay with it,",
             "maybe we can practice together sometime."
+          ],
+          "speakingTranslations": [
+            "안녕,",
+            "너도 악기를 연주한다고 들었어.",
+            "정말 흥미롭게 들려서 몇 가지 질문이 있어.",
+            "정말 흥미롭게 들려서 몇 가지 질문이 있어.",
+            "먼저, 어떤 악기를 연주해?",
+            "먼저, 어떤 악기를 연주해?",
+            "언제 처음 그것에 관심을 갖게 되었어?",
+            "보통 혼자 연습해, 아니면 다른 사람들과 함께 연주해?",
+            "보통 혼자 연습해, 아니면 다른 사람들과 함께 연주해?",
+            "어떤 종류의 음악을 연주하는 것을 가장 좋아해?",
+            "또한,",
+            "또 요즘 연습하고 있는 곡이 있어?",
+            "괜찮다면 언젠가 같이 연습할 수도 있겠다.",
+            "괜찮다면 언젠가 같이 연습할 수도 있겠다."
           ],
           "translations": [
             {
@@ -6985,6 +8179,27 @@ window.OPIC_STUDY_DATA = {
             "Please let me know",
             "when I can come by."
           ],
+          "speakingTranslations": [
+            "안녕하세요, 밴드 연습용 일렉기타를 사고 싶어서 전화했습니다.",
+            "안녕하세요, 밴드 연습용 일렉기타를 사고 싶어서 전화했습니다.",
+            "안녕하세요, 밴드 연습용 일렉기타를 사고 싶어서 전화했습니다.",
+            "아직 초보라서 연주하기 쉬운 것이 필요합니다.",
+            "아직 초보라서 연주하기 쉬운 것이 필요합니다.",
+            "먼저, 록이나 밴드 음악용 기타가 있나요?",
+            "먼저, 록이나 밴드 음악용 기타가 있나요?",
+            "초보자용 기타의 보통 가격대는 어느 정도인가요?",
+            "초보자용 기타의 보통 가격대는 어느 정도인가요?",
+            "너무 비싸지는 않지만 소리가 깔끔한 모델을 추천해 주실 수 있나요?",
+            "너무 비싸지는 않지만 소리가 깔끔한 모델을 추천해 주실 수 있나요?",
+            "너무 비싸지는 않지만 소리가 깔끔한 모델을 추천해 주실 수 있나요?",
+            "또한,",
+            "또 앰프, 케이블, 피크, 튜너 같은 기본 장비도 매장에서 살 수 있나요?",
+            "또 앰프, 케이블, 피크, 튜너 같은 기본 장비도 매장에서 살 수 있나요?",
+            "한 가지 더 질문이 있는데, 매장에 방문해서 앰프로 소리를 테스트해 볼 수 있나요?",
+            "한 가지 더 질문이 있는데, 매장에 방문해서 앰프로 소리를 테스트해 볼 수 있나요?",
+            "언제 방문할 수 있는지 알려 주세요.",
+            "언제 방문할 수 있는지 알려 주세요."
+          ],
           "translations": [
             {
               "english": "Hello, I am calling because I want to buy an electric guitar for band practice.",
@@ -7061,6 +8276,24 @@ window.OPIC_STUDY_DATA = {
             "could I get a replacement?",
             "Please let me know",
             "what option is best."
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 며칠 전에 매장에서 일렉기타를 샀는데 문제가 있습니다.",
+            "안녕하세요, 며칠 전에 매장에서 일렉기타를 샀는데 문제가 있습니다.",
+            "안녕하세요, 며칠 전에 매장에서 일렉기타를 샀는데 문제가 있습니다.",
+            "연주할 때 한 줄에서 이상한 윙윙거리는 소리가 납니다.",
+            "연주할 때 한 줄에서 이상한 윙윙거리는 소리가 납니다.",
+            "또한,",
+            "또 케이블 잭이 조금 헐거운 것 같습니다.",
+            "아직 초보이긴 하지만 이것이 정상은 아닌 것 같습니다.",
+            "아직 초보이긴 하지만 이것이 정상은 아닌 것 같습니다.",
+            "누군가 기타를 확인해 주실 수 있나요?",
+            "간단한 문제라면 수리를 받고 싶습니다.",
+            "간단한 문제라면 수리를 받고 싶습니다.",
+            "하지만 수리가 불가능하다면 교환을 받을 수 있을까요?",
+            "하지만 수리가 불가능하다면 교환을 받을 수 있을까요?",
+            "어떤 선택지가 가장 좋은지 알려 주세요.",
+            "어떤 선택지가 가장 좋은지 알려 주세요."
           ],
           "translations": [
             {
@@ -7143,6 +8376,28 @@ window.OPIC_STUDY_DATA = {
             "Since then,",
             "I always bring extra strings and a tuner."
           ],
+          "speakingTranslations": [
+            "내가 기억하는 악기 문제 하나는 밴드 동아리 리허설 중에 일어났다.",
+            "내가 기억하는 악기 문제 하나는 밴드 동아리 리허설 중에 일어났다.",
+            "우리는 작은 학교 공연을 준비하고 있었다.",
+            "우리는 작은 학교 공연을 준비하고 있었다.",
+            "연습하는 중에 기타 줄 하나가 갑자기 끊어졌다.",
+            "연습하는 중에 기타 줄 하나가 갑자기 끊어졌다.",
+            "처음에는 공연이 얼마 남지 않아서 정말 걱정했다.",
+            "처음에는 공연이 얼마 남지 않아서 정말 걱정했다.",
+            "처음에는 공연이 얼마 남지 않아서 정말 걱정했다.",
+            "나는 \"아, 이제 어떡하지?\"라고 생각했다.",
+            "나는 \"아, 이제 어떡하지?\"라고 생각했다.",
+            "다행히 친구 한 명이 여분의 줄을 가지고 있었다.",
+            "다행히 친구 한 명이 여분의 줄을 가지고 있었다.",
+            "우리는 빨리 줄을 갈고 계속 연습했다.",
+            "우리는 빨리 줄을 갈고 계속 연습했다.",
+            "처음에는 스트레스였지만 문제가 해결되었고 공연을 마쳤다.",
+            "처음에는 스트레스였지만 문제가 해결되었고 공연을 마쳤다.",
+            "처음에는 스트레스였지만 문제가 해결되었고 공연을 마쳤다.",
+            "그 이후로 나는 항상 여분의 줄과 튜너를 챙긴다.",
+            "그 이후로 나는 항상 여분의 줄과 튜너를 챙긴다."
+          ],
           "translations": [
             {
               "english": "One instrument problem I remember happened during a band club rehearsal.",
@@ -7222,6 +8477,14 @@ window.OPIC_STUDY_DATA = {
             "Sometimes I listen to the soundtrack again.",
             "That is why I like these movies."
           ],
+          "speakingTranslations": [
+            "나는 좋은 음악이 있는 영화를 정말 좋아한다.",
+            "나는 항상 장르만 보고 영화를 고르지는 않는다.",
+            "나에게는 분위기가 더 중요하다.",
+            "좋은 음악은 영화 장면을 오래 기억하게 만든다.",
+            "가끔은 영화 음악을 다시 듣기도 한다.",
+            "그래서 나는 이런 영화들을 좋아한다."
+          ],
           "translations": [
             {
               "english": "I really enjoy movies with good music.",
@@ -7288,6 +8551,14 @@ window.OPIC_STUDY_DATA = {
             "Then we buy tickets and drinks.",
             "After the movie, we talk about the best scenes.",
             "It is a fun way to spend time together."
+          ],
+          "speakingTranslations": [
+            "나는 보통 친구와 영화를 보러 간다.",
+            "영화가 시작되기 전에 극장 근처에서 만난다.",
+            "시간이 충분하면 먼저 간단한 것을 먹거나 커피를 마신다.",
+            "그런 다음 표와 음료를 산다.",
+            "영화가 끝난 뒤 가장 좋았던 장면에 대해 이야기한다.",
+            "함께 시간을 보내는 재미있는 방법이다."
           ],
           "translations": [
             {
@@ -7360,6 +8631,14 @@ window.OPIC_STUDY_DATA = {
             "After the movie, we talked at a cafe.",
             "The day was simple but fun."
           ],
+          "speakingTranslations": [
+            "최근에 친한 친구와 《프로젝트 헤일메리》를 봤다.",
+            "우리는 쇼핑몰에서 만나 점심을 먹었다.",
+            "그런 다음 표와 음료를 샀다.",
+            "장면과 음악이 인상적이었다.",
+            "영화가 끝난 뒤 카페에서 이야기를 나눴다.",
+            "평범하지만 즐거운 하루였다."
+          ],
           "translations": [
             {
               "english": "The most recent movie experience I remember was on a weekend afternoon.",
@@ -7431,6 +8710,14 @@ window.OPIC_STUDY_DATA = {
             "She seemed humble and thankful.",
             "That moment was memorable for many movie fans."
           ],
+          "speakingTranslations": [
+            "내가 좋아하는 배우 중 한 명은 엠마 스톤이다.",
+            "그녀가 자연스럽게 연기하고 영화마다 다른 분위기를 보여 주기 때문에 나는 그녀를 좋아한다.",
+            "그녀가 2024년에 《가여운 것들》로 아카데미 여우주연상을 받은 일이 기억난다.",
+            "그녀의 수상 소감은 감동적이고 진솔해 보였다.",
+            "그녀는 거만하지 않고 겸손하고 감사하는 사람처럼 보였다.",
+            "그 순간은 많은 영화 팬에게 기억에 남았다."
+          ],
           "translations": [
             {
               "english": "One actress I really like is Emma Stone.",
@@ -7497,6 +8784,14 @@ window.OPIC_STUDY_DATA = {
             "Do you watch alone or with friends?",
             "What movie did you enjoy recently?",
             "Maybe we can choose a movie together later."
+          ],
+          "speakingTranslations": [
+            "아, 너도 영화를 좋아해?",
+            "어떤 종류의 영화를 가장 좋아해?",
+            "둘째, 왜 그런 종류의 영화를 좋아해?",
+            "혼자 보니, 아니면 친구들과 보니?",
+            "최근에 재미있게 본 영화는 뭐야?",
+            "나중에 함께 영화를 골라도 좋겠다."
           ],
           "translations": [
             {
@@ -7568,6 +8863,14 @@ window.OPIC_STUDY_DATA = {
             "Can I reserve online or by phone?",
             "Thank you for your help."
           ],
+          "speakingTranslations": [
+            "안녕하세요, 친구와 영화를 보고 싶어요.",
+            "첫째, 오늘 저녁 프로젝트 헤일 메리 상영 시간이 어떻게 되나요?",
+            "둘째, 성인 티켓 한 장은 얼마인가요?",
+            "붙어 있는 좌석 두 개가 있나요?",
+            "온라인이나 전화로 예매할 수 있나요?",
+            "도와주셔서 감사합니다."
+          ],
           "translations": [
             {
               "english": "Hello, I am calling because I want to watch a movie with my friend.",
@@ -7634,6 +8937,14 @@ window.OPIC_STUDY_DATA = {
             "If not, can we move to the next showing?",
             "If that is impossible, can I get a refund?"
           ],
+          "speakingTranslations": [
+            "안녕하세요, 제 표에 문제가 있는 것 같아요.",
+            "저는 오후 7시 표를 원했는데 여기에는 오후 5시라고 적혀 있어요.",
+            "저는 7시에 친구를 만나기 때문에 이 티켓을 사용할 수 없습니다.",
+            "오후 7시 상영으로 바꿔 주실 수 있나요?",
+            "안 된다면 다음 상영 시간으로 옮길 수 있나요?",
+            "그것도 불가능하다면 환불받을 수 있나요?"
+          ],
           "translations": [
             {
               "english": "Hello, I just checked my ticket, and I think there is a mistake.",
@@ -7696,6 +9007,14 @@ window.OPIC_STUDY_DATA = {
             "The staff changed our tickets to the same day.",
             "Since then, I always double-check the date and time."
           ],
+          "speakingTranslations": [
+            "나는 한 번 친구와 영화 티켓 문제가 있었던 적이 있다.",
+            "온라인에서 날짜를 잘못 선택해 표를 예매했다.",
+            "극장에 도착해서야 그 사실을 알았다.",
+            "나는 친구에게 \"정말 미안해.\"라고 말했다.",
+            "직원이 우리 표를 당일 표로 바꿔 주었다.",
+            "그 이후로 나는 티켓을 사기 전에 항상 날짜와 시간을 두 번 확인한다."
+          ],
           "translations": [
             {
               "english": "I once had a movie ticket problem with my friend.",
@@ -7755,6 +9074,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7772,6 +9092,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7789,6 +9110,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7807,6 +9129,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7824,6 +9147,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7841,6 +9165,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7859,6 +9184,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         },
         {
@@ -7876,6 +9202,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [],
           "speakingChunks": [],
+          "speakingTranslations": [],
           "translations": []
         }
       ]
@@ -7917,6 +9244,14 @@ window.OPIC_STUDY_DATA = {
             "It has treadmills, bikes, dumbbells, and lockers.",
             "It is not too crowded.",
             "So it is comfortable for me."
+          ],
+          "speakingTranslations": [
+            "내가 다니는 헬스장은 집 근처에 있는 작은 헬스장이다.",
+            "걸어서 약 10분 정도 걸려서 내가 가기에 매우 쉽다.",
+            "화려하지는 않지만 깨끗하고 조용하다.",
+            "그곳에는 러닝머신과 실내 자전거, 덤벨, 사물함이 있다.",
+            "내가 가장 좋아하는 점은 너무 붐비지 않는다는 것이다.",
+            "그래서 나에게 편안한 곳이다."
           ],
           "translations": [
             {
@@ -7984,6 +9319,14 @@ window.OPIC_STUDY_DATA = {
             "After that, I do ten minutes of cardio.",
             "I feel refreshed after it."
           ],
+          "speakingTranslations": [
+            "나는 보통 평일 저녁에 헬스장에 간다.",
+            "나는 운동복과 물병을 챙긴다.",
+            "먼저 가볍게 몸을 푼다.",
+            "그런 다음 간단한 근력 운동을 한다.",
+            "그 후에는 10분 동안 유산소 운동을 한다.",
+            "운동을 마치면 기분이 상쾌해진다."
+          ],
           "translations": [
             {
               "english": "I usually go to the gym on weekday evenings.",
@@ -8050,6 +9393,14 @@ window.OPIC_STUDY_DATA = {
             "It was hard, but I felt refreshed.",
             "Since then, working out has become a habit."
           ],
+          "speakingTranslations": [
+            "나는 군대에서 운동에 관심을 갖게 되었다.",
+            "동료 군인들은 일과 후에 근력 운동을 했다.",
+            "처음에는 그저 그들을 따라 했다.",
+            "그들이 기본 동작을 가르쳐 주었다.",
+            "힘들었지만 기분은 상쾌했다.",
+            "나는 속으로 “아, 이거 실제로 나한테 좋구나.”라고 생각했다. 그 이후로 운동은 습관이 되었다."
+          ],
           "translations": [
             {
               "english": "I became interested in working out when I was in the army.",
@@ -8115,6 +9466,14 @@ window.OPIC_STUDY_DATA = {
             "I felt embarrassed at first.",
             "But he showed me the right posture.",
             "I learned that form is more important than weight."
+          ],
+          "speakingTranslations": [
+            "군대에서 운동하던 중 있었던 일이다.",
+            "나는 동료 병사들과 덤벨 운동을 하고 있었다.",
+            "친구가 \"어깨가 너무 많이 올라가.\"라고 말했다.",
+            "처음에는 민망했다.",
+            "하지만 친구가 올바른 자세를 보여 주었다.",
+            "나는 무게보다 자세가 더 중요하다는 것을 배웠다."
           ],
           "translations": [
             {
@@ -8184,6 +9543,14 @@ window.OPIC_STUDY_DATA = {
             "Is the atmosphere good for beginners?",
             "How much is the monthly fee?",
             "I may visit it with you sometime."
+          ],
+          "speakingTranslations": [
+            "아, 네 헬스장 이야기가 흥미롭다.",
+            "어디에 있나요?",
+            "둘째, 어떤 종류의 장비가 있어?",
+            "셋째, 초보자에게 분위기가 좋아?",
+            "그리고 월 이용료는 얼마야?",
+            "언젠가 너와 함께 그곳에 가 볼 수도 있겠다."
           ],
           "translations": [
             {
@@ -8264,6 +9631,14 @@ window.OPIC_STUDY_DATA = {
             "How much is the monthly fee?",
             "Is there a trial visit available?"
           ],
+          "speakingTranslations": [
+            "안녕하세요, 새로 생긴 헬스장에 관심이 있어요.",
+            "첫째, 운영 시간이 어떻게 되나요?",
+            "러닝머신과 웨이트 기구가 있나요?",
+            "초보자를 위한 안내도 제공하나요?",
+            "그리고 월 이용료는 얼마이며, 체험 방문이 가능한가요?",
+            "그리고 월 이용료는 얼마이며, 체험 방문이 가능한가요?"
+          ],
           "translations": [
             {
               "english": "Hello, I am calling because I am interested in the new gym that opened in this area.",
@@ -8335,6 +9710,14 @@ window.OPIC_STUDY_DATA = {
             "Or this weekend morning?",
             "Tell me what works for you."
           ],
+          "speakingTranslations": [
+            "야, 정말 미안한데 오늘 오후 계획을 바꿔야 할 것 같아.",
+            "오늘 우리 계획을 바꿔야 할 것 같아.",
+            "우리가 새 헬스장에 같이 가려고 했는데, 갑자기 팀 프로젝트 회의가 생겼어.",
+            "네가 시간이 되면 대신 내일 저녁에 갈 수 있을까?",
+            "아니면 이번 주말 아침은 어때?",
+            "너에게 어떤 게 괜찮은지 말해 줘."
+          ],
           "translations": [
             {
               "english": "Hey, I am really sorry, but I think I need to change our plan for this afternoon.",
@@ -8400,6 +9783,14 @@ window.OPIC_STUDY_DATA = {
             "I called my friend right away.",
             "We moved it to Saturday morning.",
             "It was stressful at first, but it worked out fine."
+          ],
+          "speakingTranslations": [
+            "네, 친구와 헬스장에 가려던 계획을 바꾼 적이 있다.",
+            "우리는 새로 생긴 헬스장에 가기로 했다.",
+            "하지만 갑자기 팀 프로젝트 회의가 생겼다.",
+            "나는 바로 친구에게 전화해서 “정말 미안한데 주말로 옮길 수 있을까?”라고 말했다. 다행히 친구는 이해해 주었다.",
+            "우리는 일정을 토요일 아침으로 옮겼다.",
+            "처음에는 신경이 쓰였지만 결국 잘 해결되었다."
           ],
           "translations": [
             {
@@ -8489,6 +9880,27 @@ window.OPIC_STUDY_DATA = {
             "So for me,",
             "this gym is a comfortable place to keep my routine."
           ],
+          "speakingTranslations": [
+            "내가 다니는 헬스장은 집 근처의 작은 헬스장이다.",
+            "내가 다니는 헬스장은 집 근처의 작은 헬스장이다.",
+            "화려한 헬스장은 아니지만 필요한 것은 다 있다.",
+            "화려한 헬스장은 아니지만 필요한 것은 다 있다.",
+            "러닝머신, 자전거, 덤벨, 여러 웨이트 기구가 있다.",
+            "러닝머신, 자전거, 덤벨, 여러 웨이트 기구가 있다.",
+            "러닝머신, 자전거, 덤벨, 여러 웨이트 기구가 있다.",
+            "러닝머신, 자전거, 덤벨, 여러 웨이트 기구가 있다.",
+            "공간이 크지는 않지만 깨끗하고 이용하기 쉽다.",
+            "공간이 크지는 않지만 깨끗하고 이용하기 쉽다.",
+            "대부분 너무 붐비지 않아서 좋다.",
+            "대부분 너무 붐비지 않아서 좋다.",
+            "그곳에 가면 너무 많이 생각하지 않고 운동에 집중할 수 있다.",
+            "그곳에 가면 너무 많이 생각하지 않고 운동에 집중할 수 있다.",
+            "또한,",
+            "또 집과 가까워서 쉽게 핑계를 대지 않게 된다.",
+            "또 집과 가까워서 쉽게 핑계를 대지 않게 된다.",
+            "그래서 나에게 이 헬스장은 루틴을 유지하기 좋은 편안한 장소이다.",
+            "그래서 나에게 이 헬스장은 루틴을 유지하기 좋은 편안한 장소이다."
+          ],
           "translations": [
             {
               "english": "The gym I go to is a small gym near my home.",
@@ -8564,6 +9976,24 @@ window.OPIC_STUDY_DATA = {
             "I do not try to exercise too hard every time.",
             "I just try to keep the routine",
             "because it makes me feel healthier."
+          ],
+          "speakingTranslations": [
+            "나는 보통 평일 저녁에 헬스장에 간다.",
+            "나는 보통 평일 저녁에 헬스장에 간다.",
+            "완벽한 운동 계획은 없지만 단순하게 하려고 한다.",
+            "완벽한 운동 계획은 없지만 단순하게 하려고 한다.",
+            "먼저 러닝머신에서 10분 정도 워밍업을 한다.",
+            "먼저 러닝머신에서 10분 정도 워밍업을 한다.",
+            "먼저 러닝머신에서 10분 정도 워밍업을 한다.",
+            "그다음 덤벨이나 기구로 웨이트 트레이닝을 한다.",
+            "그다음 덤벨이나 기구로 웨이트 트레이닝을 한다.",
+            "보통 하루에 한두 부위에 집중한다.",
+            "보통 하루에 한두 부위에 집중한다.",
+            "그 후 다시 러닝머신에서 걷거나 천천히 뛴다.",
+            "그 후 다시 러닝머신에서 걷거나 천천히 뛴다.",
+            "매번 너무 힘들게 운동하려고 하지는 않는다.",
+            "건강해지는 느낌이 들어서 그 루틴을 유지하려고 한다.",
+            "건강해지는 느낌이 들어서 그 루틴을 유지하려고 한다."
           ],
           "translations": [
             {
@@ -8643,6 +10073,26 @@ window.OPIC_STUDY_DATA = {
             "I go to a gym near my home",
             "and try to keep that routine."
           ],
+          "speakingTranslations": [
+            "나는 군대에 있을 때 운동에 관심을 갖게 되었다.",
+            "나는 군대에 있을 때 운동에 관심을 갖게 되었다.",
+            "그때 내 주변의 많은 사람들이 규칙적으로 운동했다.",
+            "그때 내 주변의 많은 사람들이 규칙적으로 운동했다.",
+            "처음에는 운동에 대해 잘 몰라서 그냥 그들을 따라 했다.",
+            "처음에는 운동에 대해 잘 몰라서 그냥 그들을 따라 했다.",
+            "처음에는 운동에 대해 잘 몰라서 그냥 그들을 따라 했다.",
+            "우리는 팔굽혀펴기, 달리기, 웨이트 트레이닝 같은 단순한 운동을 했다.",
+            "우리는 팔굽혀펴기, 달리기, 웨이트 트레이닝 같은 단순한 운동을 했다.",
+            "처음에는 힘들었지만 조금씩 더 강해지는 느낌이 들기 시작했다.",
+            "처음에는 힘들었지만 조금씩 더 강해지는 느낌이 들기 시작했다.",
+            "나는 \"아, 이거 나에게 정말 좋네\"라고 생각했다.",
+            "나는 \"아, 이거 나에게 정말 좋네\"라고 생각했다.",
+            "그 후 운동은 습관이 되었다.",
+            "그 후 운동은 습관이 되었다.",
+            "지금도 집 근처 헬스장에 가며 그 루틴을 유지하려고 한다.",
+            "지금도 집 근처 헬스장에 가며 그 루틴을 유지하려고 한다.",
+            "지금도 집 근처 헬스장에 가며 그 루틴을 유지하려고 한다."
+          ],
           "translations": [
             {
               "english": "I became interested in working out when I was in the army.",
@@ -8720,6 +10170,25 @@ window.OPIC_STUDY_DATA = {
             "but it helped me understand",
             "that good posture is really important."
           ],
+          "speakingTranslations": [
+            "기억나는 헬스장 경험 하나는 웨이트 트레이닝을 할 때 있었다.",
+            "기억나는 헬스장 경험 하나는 웨이트 트레이닝을 할 때 있었다.",
+            "기구를 사용하고 있었지만 자세가 별로 좋지 않았다.",
+            "기구를 사용하고 있었지만 자세가 별로 좋지 않았다.",
+            "세트를 끝내려고만 해서 그것을 알아차리지 못했다.",
+            "세트를 끝내려고만 해서 그것을 알아차리지 못했다.",
+            "그때 근처에 있던 사람이 \"천천히 해요. 자세가 더 중요해요\"라고 말했다.",
+            "그때 근처에 있던 사람이 \"천천히 해요. 자세가 더 중요해요\"라고 말했다.",
+            "처음에는 조금 부끄러웠다.",
+            "처음에는 조금 부끄러웠다.",
+            "하지만 그가 동작을 친절하게 설명해 줘서 다시 해 보았다.",
+            "하지만 그가 동작을 친절하게 설명해 줘서 다시 해 보았다.",
+            "그 후 운동이 더 안전하고 효과적으로 느껴졌다.",
+            "그 후 운동이 더 안전하고 효과적으로 느껴졌다.",
+            "작은 순간이었지만 좋은 자세가 정말 중요하다는 것을 이해하는 데 도움이 되었다.",
+            "작은 순간이었지만 좋은 자세가 정말 중요하다는 것을 이해하는 데 도움이 되었다.",
+            "작은 순간이었지만 좋은 자세가 정말 중요하다는 것을 이해하는 데 도움이 되었다."
+          ],
           "translations": [
             {
               "english": "One gym experience I remember happened when I was doing weight training.",
@@ -8792,6 +10261,21 @@ window.OPIC_STUDY_DATA = {
             "when you go there?",
             "If it sounds good,",
             "I would like to visit it with you sometime."
+          ],
+          "speakingTranslations": [
+            "아,",
+            "오, 너도 헬스장에 다녀?",
+            "흥미롭게 들려서 몇 가지 질문이 있어.",
+            "흥미롭게 들려서 몇 가지 질문이 있어.",
+            "먼저, 네 헬스장은 어디에 있어?",
+            "먼저, 네 헬스장은 어디에 있어?",
+            "집이나 학교와 가까워?",
+            "어떤 장비들이 있어?",
+            "저녁에는 보통 붐벼?",
+            "거기에 가면 보통 무엇을 해?",
+            "거기에 가면 보통 무엇을 해?",
+            "좋아 보이면 언젠가 너와 함께 가 보고 싶어.",
+            "좋아 보이면 언젠가 너와 함께 가 보고 싶어."
           ],
           "translations": [
             {
@@ -8869,6 +10353,24 @@ window.OPIC_STUDY_DATA = {
             "Please let me know",
             "because I would like to visit soon."
           ],
+          "speakingTranslations": [
+            "안녕하세요, 이 지역의 새 헬스장에 관심이 있어서 전화했습니다.",
+            "안녕하세요, 이 지역의 새 헬스장에 관심이 있어서 전화했습니다.",
+            "방문하기 전에 몇 가지 질문이 있습니다.",
+            "방문하기 전에 몇 가지 질문이 있습니다.",
+            "먼저, 헬스장이 정확히 어디에 있나요?",
+            "먼저, 헬스장이 정확히 어디에 있나요?",
+            "평일과 주말 운영 시간은 어떻게 되나요?",
+            "평일과 주말 운영 시간은 어떻게 되나요?",
+            "월 회원권 가격은 얼마인가요?",
+            "러닝머신, 덤벨, 웨이트 기구가 있나요?",
+            "러닝머신, 덤벨, 웨이트 기구가 있나요?",
+            "러닝머신, 덤벨, 웨이트 기구가 있나요?",
+            "또한,",
+            "또 일일권이나 무료 체험이 있나요?",
+            "곧 방문하고 싶어서 알려 주세요.",
+            "곧 방문하고 싶어서 알려 주세요."
+          ],
           "translations": [
             {
               "english": "Hello, I am calling because I am interested in the new gym in this area.",
@@ -8943,6 +10445,22 @@ window.OPIC_STUDY_DATA = {
             "I still really want to check out the gym with you.",
             "Please tell me",
             "what works for you."
+          ],
+          "speakingTranslations": [
+            "안녕,",
+            "야, 정말 미안한데 오늘 오후 계획을 바꿔야 할 것 같아.",
+            "야, 정말 미안한데 오늘 오후 계획을 바꿔야 할 것 같아.",
+            "오늘 너와 새 헬스장에 가기로 되어 있었어.",
+            "그런데 일이 생겨서 제시간에 집에서 나갈 수 없어.",
+            "그런데 일이 생겨서 제시간에 집에서 나갈 수 없어.",
+            "갑작스러운 일이라는 걸 알아서 미안해.",
+            "갑작스러운 일이라는 걸 알아서 미안해.",
+            "대신 내일 저녁에 갈 수 있을까?",
+            "아니면 내일이 어렵다면 이번 주말에 갈 수 있어.",
+            "아니면 내일이 어렵다면 이번 주말에 갈 수 있어.",
+            "그래도 너와 그 헬스장을 꼭 확인해 보고 싶어.",
+            "너에게 어떤 시간이 괜찮은지 알려 줘.",
+            "너에게 어떤 시간이 괜찮은지 알려 줘."
           ],
           "translations": [
             {
@@ -9020,6 +10538,24 @@ window.OPIC_STUDY_DATA = {
             "We went there that weekend,",
             "and the plan worked out fine."
           ],
+          "speakingTranslations": [
+            "네,",
+            "네, 친구와의 계획을 바꿔야 했던 적이 있습니다.",
+            "우리는 방과 후에 새 헬스장에 함께 가려고 했습니다.",
+            "우리는 방과 후에 새 헬스장에 함께 가려고 했습니다.",
+            "그런데 그날 오후 갑자기 너무 피곤하고 머리가 아팠습니다.",
+            "그런데 그날 오후 갑자기 너무 피곤하고 머리가 아팠습니다.",
+            "처음에는 그래도 갈 수 있을 것 같았지만 제대로 즐기지 못할 것 같았습니다.",
+            "처음에는 그래도 갈 수 있을 것 같았지만 제대로 즐기지 못할 것 같았습니다.",
+            "처음에는 그래도 갈 수 있을 것 같았지만 제대로 즐기지 못할 것 같았습니다.",
+            "그래서 바로 친구에게 전화했습니다.",
+            "저는 \"정말 미안한데 주말로 옮길 수 있을까?\"라고 말했습니다.",
+            "저는 \"정말 미안한데 주말로 옮길 수 있을까?\"라고 말했습니다.",
+            "다행히 친구가 상황을 이해해 주었습니다.",
+            "다행히 친구가 상황을 이해해 주었습니다.",
+            "우리는 그 주말에 그곳에 갔고 계획은 잘 해결되었습니다.",
+            "우리는 그 주말에 그곳에 갔고 계획은 잘 해결되었습니다."
+          ],
           "translations": [
             {
               "english": "Yes, I once had to change a plan with my friend.",
@@ -9095,6 +10631,14 @@ window.OPIC_STUDY_DATA = {
             "With friends, I sometimes see a small performance.",
             "It makes me feel relaxed."
           ],
+          "speakingTranslations": [
+            "휴가 때는 가족과 친한 친구들과 시간을 보내는 것을 좋아한다.",
+            "나는 항상 멀리 여행할 필요는 없다.",
+            "나에게는 장소보다 함께하는 사람들이 더 중요하다.",
+            "우리는 함께 밥을 먹고 영화를 보거나 카페에 간다.",
+            "친구들과는 가끔 소규모 공연을 보기도 한다.",
+            "그러면 마음이 편안해진다."
+          ],
           "translations": [
             {
               "english": "When I am on vacation, I usually like spending time with my family and close friends.",
@@ -9160,6 +10704,14 @@ window.OPIC_STUDY_DATA = {
             "With friends, I go to a cafe and talk.",
             "Sometimes we see a small performance.",
             "I prefer slow activities."
+          ],
+          "speakingTranslations": [
+            "휴가 중에는 소소한 활동을 즐긴다.",
+            "가족과 맛있는 음식을 먹고 영화를 본다.",
+            "가끔은 동네 근처에서 짧게 산책을 한다.",
+            "친구들과는 카페에 가서 이야기를 나눈다.",
+            "가끔은 소규모 공연을 보기도 한다.",
+            "함께 있는 사람들을 즐길 수 있어서 나는 느린 활동을 더 좋아한다."
           ],
           "translations": [
             {
@@ -9227,6 +10779,14 @@ window.OPIC_STUDY_DATA = {
             "At night, I watched a movie in my room.",
             "It was simple but satisfying."
           ],
+          "speakingTranslations": [
+            "최근 휴가 중 하루를 집에서 보냈다.",
+            "알람을 맞추지 않아서 늦게 일어났다.",
+            "가족과 점심을 먹었다.",
+            "오후에는 카페에서 친구를 만났다.",
+            "밤에는 내 방에서 영화를 봤다.",
+            "단순하지만 만족스러운 하루였다."
+          ],
           "translations": [
             {
               "english": "One recent vacation day I spent at home was during my last school break.",
@@ -9293,6 +10853,14 @@ window.OPIC_STUDY_DATA = {
             "The stage was small, but the music was nice.",
             "People were clapping naturally.",
             "It made the day feel special."
+          ],
+          "speakingTranslations": [
+            "친구와 함께한 만족스러운 휴가 경험이 한 번 있다.",
+            "우리는 카페에 갔다가 주변을 걸어 다녔다.",
+            "그러다 무료 음악 공연을 보게 되었다.",
+            "무대는 작았지만 음악은 좋았다.",
+            "무대는 작았지만 음악은 정말 좋았고 사람들은 자연스럽게 박수를 치고 있었다.",
+            "그 공연 덕분에 그날이 특별하게 느껴졌다."
           ],
           "translations": [
             {
@@ -9365,6 +10933,14 @@ window.OPIC_STUDY_DATA = {
             "Do you stay home or go outside?",
             "Do you have one memorable vacation story?"
           ],
+          "speakingTranslations": [
+            "네 휴가가 궁금해.",
+            "첫째, 휴가 동안 보통 누구와 시간을 보내?",
+            "둘째, 그들과 보통 무엇을 해?",
+            "왜 그 사람들과 시간을 보내는 것을 좋아해?",
+            "집에 있는 편이야, 아니면 밖에 나가?",
+            "기억에 남는 휴가 이야기가 하나 있어?"
+          ],
           "translations": [
             {
               "english": "I am curious about how you spend your vacation.",
@@ -9435,6 +11011,14 @@ window.OPIC_STUDY_DATA = {
             "How much are the tickets?",
             "Can I pay online?",
             "Can I get the tickets on my phone?"
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶어요.",
+            "몇 시에 시작하나요?",
+            "붙어 있는 좌석 두 개가 있나요?",
+            "셋째, 티켓 가격은 얼마인가요?",
+            "그리고 온라인으로 결제할 수 있나요, 아니면 매표소에서 결제해야 하나요?",
+            "표를 휴대전화로 받을 수 있나요?"
           ],
           "translations": [
             {
@@ -9507,6 +11091,14 @@ window.OPIC_STUDY_DATA = {
             "Or I can check a refund or ticket transfer.",
             "I can also buy tickets for another performance later."
           ],
+          "speakingTranslations": [
+            "야, 정말 미안한데 오늘 공연에 갈 수 없을 것 같아.",
+            "오늘 공연에 갈 수 없게 됐어.",
+            "오늘 아침부터 몸이 안 좋았고 지금은 열과 목 통증이 있어.",
+            "그래도 가고 싶다면 다른 친구를 데려가서 내 티켓을 써도 돼.",
+            "아니면 환불이나 표 양도가 가능한지 알아볼 수 있어.",
+            "나중에 다른 공연의 표를 다시 살 수도 있어."
+          ],
           "translations": [
             {
               "english": "Hey, I am really sorry, but I do not think I can go to the performance today.",
@@ -9573,6 +11165,14 @@ window.OPIC_STUDY_DATA = {
             "I called my friend right away.",
             "Another friend used my ticket.",
             "I was disappointed, but relieved."
+          ],
+          "speakingTranslations": [
+            "네, 공연 표를 샀지만 가지 못한 적이 있다.",
+            "친구와 소규모 콘서트를 보러 갈 계획이었다.",
+            "공연 당일에 열이 나고 목이 아팠다.",
+            "나는 바로 친구에게 전화해서 상황을 설명했다.",
+            "다른 친구가 내 표를 사용했다.",
+            "아쉬웠지만 한편으로는 안심이 되었다."
           ],
           "translations": [
             {
@@ -9663,6 +11263,24 @@ window.OPIC_STUDY_DATA = {
             "That is why I prefer spending vacation",
             "with people who make me feel relaxed."
           ],
+          "speakingTranslations": [
+            "휴가 중에는 가족과 친한 친구들과 시간을 보내는 것을 좋아한다.",
+            "휴가 중에는 가족과 친한 친구들과 시간을 보내는 것을 좋아한다.",
+            "화려한 휴가는 필요 없다. 그냥 쉴 시간이 필요하다.",
+            "화려한 휴가는 필요 없다. 그냥 쉴 시간이 필요하다.",
+            "휴가 중에는 가족과 친한 친구들과 시간을 보내는 것을 좋아한다.",
+            "가족과는 보통 맛있는 음식을 먹고 간단한 이야기를 한다.",
+            "친한 친구들과 있으면 더 자유롭고 편안하게 느낀다.",
+            "친한 친구들과 있으면 더 자유롭고 편안하게 느낀다.",
+            "우리는 특별한 일을 꼭 해야 하는 것은 아니다.",
+            "가끔은 그냥 걷거나 같이 밥을 먹거나 재미있는 것을 본다.",
+            "가끔은 그냥 걷거나 같이 밥을 먹거나 재미있는 것을 본다.",
+            "가끔은 그냥 걷거나 같이 밥을 먹거나 재미있는 것을 본다.",
+            "내가 가장 좋아하는 점은 좋아하는 사람들과 작은 순간들을 즐길 수 있다는 것이다.",
+            "내가 가장 좋아하는 점은 좋아하는 사람들과 작은 순간들을 즐길 수 있다는 것이다.",
+            "그래서 나는 나를 편안하게 해 주는 사람들과 휴가를 보내는 것을 선호한다.",
+            "그래서 나는 나를 편안하게 해 주는 사람들과 휴가를 보내는 것을 선호한다."
+          ],
           "translations": [
             {
               "english": "When I am on vacation, I like spending time with my family and close friends.",
@@ -9739,6 +11357,24 @@ window.OPIC_STUDY_DATA = {
             "These activities are simple,",
             "but they help me enjoy the people I am with."
           ],
+          "speakingTranslations": [
+            "휴가 중에는 가족이나 친구들과 단순한 활동을 하는 것을 좋아한다.",
+            "휴가 중에는 가족이나 친구들과 단순한 활동을 하는 것을 좋아한다.",
+            "보통 같이 밥을 먹고, 걸어 다니고, 재미있는 것을 보는 것을 좋아한다.",
+            "보통 같이 밥을 먹고, 걸어 다니고, 재미있는 것을 보는 것을 좋아한다.",
+            "보통 같이 밥을 먹고, 걸어 다니고, 재미있는 것을 보는 것을 좋아한다.",
+            "너무 빡빡한 일정은 좋아하지 않는다.",
+            "너무 빡빡한 일정은 좋아하지 않는다.",
+            "계획이 너무 바쁘면 쉬는 대신 피곤해진다.",
+            "계획이 너무 바쁘면 쉬는 대신 피곤해진다.",
+            "그래서 나는 느린 활동을 선호한다.",
+            "예를 들어 좋은 식당에 가서 오래 이야기하는 것을 좋아한다.",
+            "예를 들어 좋은 식당에 가서 오래 이야기하는 것을 좋아한다.",
+            "예를 들어 좋은 식당에 가서 오래 이야기하는 것을 좋아한다.",
+            "또 식사 후에 밖을 걷는 것도 좋아한다.",
+            "이런 활동은 단순하지만 함께 있는 사람들을 즐기게 해 준다.",
+            "이런 활동은 단순하지만 함께 있는 사람들을 즐기게 해 준다."
+          ],
           "translations": [
             {
               "english": "During vacation, I enjoy doing simple activities with family or friends.",
@@ -9812,6 +11448,22 @@ window.OPIC_STUDY_DATA = {
             "It was not a fancy vacation,",
             "but it helped me feel refreshed.",
             "I think I needed that kind of slow day."
+          ],
+          "speakingTranslations": [
+            "최근에 집에서 보낸 휴가일은 지난 방학 때였다.",
+            "최근에 집에서 보낸 휴가일은 지난 방학 때였다.",
+            "그날 특별한 곳으로 여행을 가지는 않았다.",
+            "그냥 집에 있으면서 제대로 쉬려고 했다.",
+            "그냥 집에 있으면서 제대로 쉬려고 했다.",
+            "아침에는 피곤해서 늦게까지 잤다.",
+            "아침에는 피곤해서 늦게까지 잤다.",
+            "점심 후에는 유튜브를 보고 잠시 게임을 했다.",
+            "점심 후에는 유튜브를 보고 잠시 게임을 했다.",
+            "저녁에는 가족과 함께 밥을 먹고 조금 이야기했다.",
+            "저녁에는 가족과 함께 밥을 먹고 조금 이야기했다.",
+            "화려한 휴가는 아니었지만 기분이 회복되는 데 도움이 되었다.",
+            "화려한 휴가는 아니었지만 기분이 회복되는 데 도움이 되었다.",
+            "그런 느린 하루가 필요했던 것 같다."
           ],
           "translations": [
             {
@@ -9887,6 +11539,23 @@ window.OPIC_STUDY_DATA = {
             "\"This was a good choice.\"",
             "It was a small thing,",
             "but it became one of my favorite vacation memories."
+          ],
+          "speakingTranslations": [
+            "만족스러웠던 휴가 경험 하나는 친한 친구와 있었을 때 일어났다.",
+            "만족스러웠던 휴가 경험 하나는 친한 친구와 있었을 때 일어났다.",
+            "그날 우리는 특별한 계획이 없었다.",
+            "그냥 점심을 먹으려고 만나서 주변을 걸어 다녔다.",
+            "그냥 점심을 먹으려고 만나서 주변을 걸어 다녔다.",
+            "그러다 근처 라이브 공연 포스터를 봤다.",
+            "그러다 근처 라이브 공연 포스터를 봤다.",
+            "우리는 마지막 순간에 티켓을 사기로 했다.",
+            "우리는 마지막 순간에 티켓을 사기로 했다.",
+            "크게 기대하지 않았지만 공연은 생각보다 좋았다.",
+            "크게 기대하지 않았지만 공연은 생각보다 좋았다.",
+            "친구와 나는 계속 \"이거 좋은 선택이었다\"라고 말했다.",
+            "친구와 나는 계속 \"이거 좋은 선택이었다\"라고 말했다.",
+            "작은 일이었지만 내가 좋아하는 휴가 기억 중 하나가 되었다.",
+            "작은 일이었지만 내가 좋아하는 휴가 기억 중 하나가 되었다."
           ],
           "translations": [
             {
@@ -9964,6 +11633,24 @@ window.OPIC_STUDY_DATA = {
             "I want to hear your ideas",
             "because I may try something similar later."
           ],
+          "speakingTranslations": [
+            "당신이 휴가를 어떻게 보내는지 궁금합니다.",
+            "당신이 휴가를 어떻게 보내는지 궁금합니다.",
+            "먼저, 보통 누구와 휴가를 보내나요?",
+            "먼저, 보통 누구와 휴가를 보내나요?",
+            "가족, 친구, 아니면 혼자 시간을 보내는 것을 선호하나요?",
+            "가족, 친구, 아니면 혼자 시간을 보내는 것을 선호하나요?",
+            "가족, 친구, 아니면 혼자 시간을 보내는 것을 선호하나요?",
+            "그 사람들과 보통 무엇을 하나요?",
+            "활동적인 계획을 좋아하나요, 아니면 느린 활동을 선호하나요?",
+            "활동적인 계획을 좋아하나요, 아니면 느린 활동을 선호하나요?",
+            "또한,",
+            "또 휴가 중에 그들과 보통 어디에 가나요?",
+            "한 가지 더 질문이 있는데, 왜 그 사람들과 휴가를 보내는 것을 좋아하나요?",
+            "한 가지 더 질문이 있는데, 왜 그 사람들과 휴가를 보내는 것을 좋아하나요?",
+            "나중에 비슷한 것을 해 볼 수도 있어서 당신의 생각을 듣고 싶습니다.",
+            "나중에 비슷한 것을 해 볼 수도 있어서 당신의 생각을 듣고 싶습니다."
+          ],
           "translations": [
             {
               "english": "I am curious about how you spend your vacation.",
@@ -10038,6 +11725,23 @@ window.OPIC_STUDY_DATA = {
             "should I pick them up at the venue?",
             "If everything is available,",
             "I would like to book them now."
+          ],
+          "speakingTranslations": [
+            "안녕하세요, 오늘 밤 공연 티켓 두 장을 사고 싶어서 전화했습니다.",
+            "안녕하세요, 오늘 밤 공연 티켓 두 장을 사고 싶어서 전화했습니다.",
+            "안녕하세요, 오늘 밤 공연 티켓 두 장을 사고 싶어서 전화했습니다.",
+            "먼저, 공연은 몇 시에 시작하나요?",
+            "먼저, 공연은 몇 시에 시작하나요?",
+            "붙어 있는 좌석 두 개가 있나요?",
+            "티켓 가격은 얼마인가요?",
+            "또한,",
+            "또 온라인으로 결제할 수 있나요, 아니면 매표소에서 결제해야 하나요?",
+            "또 온라인으로 결제할 수 있나요, 아니면 매표소에서 결제해야 하나요?",
+            "티켓을 휴대폰으로 받을 수 있나요?",
+            "모바일 티켓이 안 된다면 공연장에서 받아야 하나요?",
+            "모바일 티켓이 안 된다면 공연장에서 받아야 하나요?",
+            "모두 가능하다면 지금 예매하고 싶습니다.",
+            "모두 가능하다면 지금 예매하고 싶습니다."
           ],
           "translations": [
             {
@@ -10115,6 +11819,24 @@ window.OPIC_STUDY_DATA = {
             "Please let me know what you prefer.",
             "Again,",
             "I am really sorry."
+          ],
+          "speakingTranslations": [
+            "안녕,",
+            "야, 정말 미안한데 오늘 공연에 갈 수 없을 것 같아.",
+            "야, 정말 미안한데 오늘 공연에 갈 수 없을 것 같아.",
+            "오늘 아침부터 몸이 안 좋았고 지금은 열과 목 통증이 있어.",
+            "오늘 아침부터 몸이 안 좋았고 지금은 열과 목 통증이 있어.",
+            "우리 둘 다 기대하고 있었다는 걸 알아서 마음이 정말 안 좋아.",
+            "우리 둘 다 기대하고 있었다는 걸 알아서 마음이 정말 안 좋아.",
+            "그래도 가고 싶다면 다른 친구를 데려가서 내 티켓을 써도 돼.",
+            "그래도 가고 싶다면 다른 친구를 데려가서 내 티켓을 써도 돼.",
+            "아니면 내가 매표소에 전화해서 환불이나 티켓 양도가 가능한지 확인할게.",
+            "아니면 내가 매표소에 전화해서 환불이나 티켓 양도가 가능한지 확인할게.",
+            "둘 다 안 되면 나중에 다른 공연 티켓을 살게.",
+            "둘 다 안 되면 나중에 다른 공연 티켓을 살게.",
+            "어떤 게 좋은지 알려 줘.",
+            "다시 한번 정말 미안해.",
+            "야, 정말 미안한데 오늘 공연에 갈 수 없을 것 같아."
           ],
           "translations": [
             {
@@ -10195,6 +11917,27 @@ window.OPIC_STUDY_DATA = {
             "Later,",
             "my friend and I decided to book another performance together."
           ],
+          "speakingTranslations": [
+            "네,",
+            "네, 휴가 중에 공연 티켓을 샀지만 가지 못했던 적이 있습니다.",
+            "네, 휴가 중에 공연 티켓을 샀지만 가지 못했던 적이 있습니다.",
+            "친한 친구와 공연을 보려고 계획하고 있었습니다.",
+            "친한 친구와 공연을 보려고 계획하고 있었습니다.",
+            "하지만 공연 당일에 갑자기 몸이 안 좋아졌습니다.",
+            "하지만 공연 당일에 갑자기 몸이 안 좋아졌습니다.",
+            "처음에는 그래도 갈 수 있을 줄 알았지만 상태가 더 나빠졌습니다.",
+            "처음에는 그래도 갈 수 있을 줄 알았지만 상태가 더 나빠졌습니다.",
+            "처음에는 그래도 갈 수 있을 줄 알았지만 상태가 더 나빠졌습니다.",
+            "친구에게 전화해서 \"정말 미안한데 오늘은 못 가\"라고 말했습니다.",
+            "친구에게 전화해서 \"정말 미안한데 오늘은 못 가\"라고 말했습니다.",
+            "다행히 다른 친구가 나 대신 갈 수 있어서 티켓을 양도했습니다.",
+            "다행히 다른 친구가 나 대신 갈 수 있어서 티켓을 양도했습니다.",
+            "다행히 다른 친구가 나 대신 갈 수 있어서 티켓을 양도했습니다.",
+            "마음은 안 좋았지만 티켓이 낭비되지는 않았습니다.",
+            "마음은 안 좋았지만 티켓이 낭비되지는 않았습니다.",
+            "나중에 친구와 나는 다른 공연을 함께 예매하기로 했습니다.",
+            "나중에 친구와 나는 다른 공연을 함께 예매하기로 했습니다."
+          ],
           "translations": [
             {
               "english": "Yes, I once bought a performance ticket during vacation, but I could not go.",
@@ -10240,6 +11983,7 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "finalSentences": 1135,
     "speakingChunks": 1461,
+    "speakingTranslations": 1461,
     "translations": 1135
   }
 };

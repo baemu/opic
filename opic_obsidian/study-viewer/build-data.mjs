@@ -7,6 +7,11 @@ const __dirname = path.dirname(__filename);
 
 const sourceDir = path.resolve(__dirname, "..", "output", "scripts");
 const outputFile = path.resolve(__dirname, "data.js");
+const speakingTranslationsFile = path.resolve(__dirname, "speaking-translations.json");
+
+const speakingTranslationOverrides = new Map(
+  Object.entries(JSON.parse(fs.readFileSync(speakingTranslationsFile, "utf8"))),
+);
 
 const sourceFileCollator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
 
@@ -452,6 +457,41 @@ function normalizeForAlignment(value) {
   return cleanText(value).toLowerCase().replace(/[^a-z0-9가-힣]+/g, "");
 }
 
+function normalizeEnglish(value) {
+  return cleanText(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getSpeakingTranslation(text, pairs) {
+  const cleanedText = cleanText(text);
+  const override = speakingTranslationOverrides.get(cleanedText);
+  if (override) {
+    return override;
+  }
+
+  const normalizedText = normalizeEnglish(cleanedText);
+  if (!normalizedText) {
+    return "";
+  }
+
+  const exact = pairs.find((pair) => normalizeEnglish(pair.english) === normalizedText);
+  if (exact) {
+    return exact.korean;
+  }
+
+  if (normalizedText.length < 5) {
+    return "";
+  }
+
+  const containingSentence = pairs.find((pair) =>
+    normalizeEnglish(pair.english).includes(normalizedText),
+  );
+  return containingSentence?.korean || "";
+}
+
 function syncSpeakingChunks(originalSentences, updatedSentences, speakingChunks) {
   const sentenceGroups = [];
   let chunkIndex = 0;
@@ -537,6 +577,10 @@ function parseFile(config) {
       }
     }
 
+    currentEntry.speakingTranslations = currentEntry.speakingChunks.map((chunk) =>
+      getSpeakingTranslation(chunk, currentEntry.translations),
+    );
+
     if (
       currentEntry.question ||
       currentEntry.finalSentences.length > 0 ||
@@ -585,6 +629,7 @@ function parseFile(config) {
         questionSentences: [],
         finalSentences: [],
         speakingChunks: [],
+        speakingTranslations: [],
         translationLines: [],
         translations: [],
       };
@@ -659,6 +704,10 @@ const stats = files.reduce(
     );
     total.finalSentences += file.entries.reduce((sum, entry) => sum + entry.finalSentences.length, 0);
     total.speakingChunks += file.entries.reduce((sum, entry) => sum + entry.speakingChunks.length, 0);
+    total.speakingTranslations += file.entries.reduce(
+      (sum, entry) => sum + entry.speakingTranslations.filter(Boolean).length,
+      0,
+    );
     total.translations += file.entries.reduce((sum, entry) => sum + entry.translations.length, 0);
     return total;
   },
@@ -669,6 +718,7 @@ const stats = files.reduce(
     questionTranslations: 0,
     finalSentences: 0,
     speakingChunks: 0,
+    speakingTranslations: 0,
     translations: 0,
   },
 );
@@ -688,5 +738,11 @@ fs.writeFileSync(
 
 console.log(`Wrote ${outputFile}`);
 console.log(
-  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.translations} translations.`,
+  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.translations} final translations.`,
 );
+
+if (stats.speakingTranslations !== stats.speakingChunks) {
+  console.warn(
+    `Warning: ${stats.speakingChunks - stats.speakingTranslations} speaking translations are missing.`,
+  );
+}
