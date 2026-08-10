@@ -522,14 +522,11 @@ function parseFile(config) {
     currentEntry.translations = parseTranslationPairs(currentEntry.translationLines);
     delete currentEntry.translationLines;
 
-    if (
-      currentEntry.translations.length > 0 &&
-      currentEntry.translations.length === originalFinalSentences.length
-    ) {
+    if (currentEntry.translations.length > 0) {
       const translatedEnglish = currentEntry.translations.map((pair) => pair.english);
-      const hasUpdatedEnglish = translatedEnglish.some(
-        (sentence, index) => sentence !== originalFinalSentences[index],
-      );
+      const hasUpdatedEnglish =
+        translatedEnglish.length !== originalFinalSentences.length ||
+        translatedEnglish.some((sentence, index) => sentence !== originalFinalSentences[index]);
       currentEntry.finalSentences = translatedEnglish;
       if (hasUpdatedEnglish) {
         currentEntry.speakingChunks = syncSpeakingChunks(

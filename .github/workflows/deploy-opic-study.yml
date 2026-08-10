@@ -1,0 +1,68 @@
+name: Deploy OPIc Practice
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/deploy-opic-study.yml"
+      - "opic_obsidian/output/scripts/**"
+      - "opic_obsidian/study-viewer/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build study data
+        working-directory: opic_obsidian/study-viewer
+        run: node build-data.mjs
+
+      - name: Prepare static site
+        run: |
+          mkdir -p _site/icons
+          cp opic_obsidian/study-viewer/index.html _site/index.html
+          cp opic_obsidian/study-viewer/compact.html _site/compact.html
+          cp opic_obsidian/study-viewer/compact-app.js _site/compact-app.js
+          cp opic_obsidian/study-viewer/compact-styles.css _site/compact-styles.css
+          cp opic_obsidian/study-viewer/data.js _site/data.js
+          cp opic_obsidian/study-viewer/manifest.webmanifest _site/manifest.webmanifest
+          cp opic_obsidian/study-viewer/service-worker.js _site/service-worker.js
+          cp opic_obsidian/study-viewer/icons/*.png _site/icons/
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

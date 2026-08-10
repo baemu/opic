@@ -1,6 +1,9 @@
 # Keep this repository focused on the OPIc scripts and study viewer.
 /*
 !/.gitignore
+!/.github/
+!/.github/workflows/
+!/.github/workflows/deploy-opic-study.yml
 !/opic_obsidian/
 
 /opic_obsidian/*

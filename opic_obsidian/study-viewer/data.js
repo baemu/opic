@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-07-19T07:52:23.000Z",
+  "generatedAt": "2026-08-10T16:21:18.402Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -2472,7 +2472,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "At home, each family member has simple responsibilities.",
             "My mom usually takes care of cooking and the kitchen.",
-            "My dad often takes out the trash and handles recycling.",
+            "My dad often takes out the trash and the recycling.",
             "And, I usually clean my room and help my parents at home.",
             "Sometimes I wash the dishes after dinner.",
             "To be honest, housework is not always fun.",
@@ -2483,8 +2483,7 @@ window.OPIC_STUDY_DATA = {
             "At home,",
             "each family member has simple responsibilities.",
             "My mom usually takes care of cooking and the kitchen.",
-            "My dad often takes out the trash",
-            "and handles recycling.",
+            "My dad often takes out the trash and the recycling.",
             "And, I usually clean my room and help my parents at home.",
             "Sometimes I wash the dishes after dinner.",
             "To be honest, housework is not always fun.",
@@ -2502,7 +2501,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "엄마는 보통 요리와 주방을 맡으신다."
             },
             {
-              "english": "My dad often takes out the trash and handles recycling.",
+              "english": "My dad often takes out the trash and the recycling.",
               "korean": "아빠는 자주 쓰레기를 버리고 분리수거를 맡으신다."
             },
             {
@@ -2544,7 +2543,7 @@ window.OPIC_STUDY_DATA = {
             "I usually handle my responsibilities little by little.",
             "I try to clean my room once a week.",
             "I do not do big cleaning every day.",
-            "Instead, I put things back in place when my room gets messy.",
+            "Instead, I just clean up when my room is messy.",
             "After dinner, I sometimes clear the table or wash the dishes.",
             "On weekends, I may help with recycling if my dad asks me.",
             "I used to delay these things, but these days I try to do them earlier.",
@@ -2555,9 +2554,7 @@ window.OPIC_STUDY_DATA = {
             "little by little.",
             "I try to clean my room once a week.",
             "I do not do big cleaning every day.",
-            "Instead,",
-            "I put things back in place",
-            "when my room gets messy.",
+            "Instead, I just clean up when my room is messy.",
             "After dinner,",
             "I sometimes clear the table or wash the dishes.",
             "On weekends,",
@@ -2582,7 +2579,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "매일 대청소를 하지는 않는다."
             },
             {
-              "english": "Instead, I put things back in place when my room gets messy.",
+              "english": "Instead, I just clean up when my room is messy.",
               "korean": "대신 방이 지저분해지면 물건을 제자리에 둔다."
             },
             {
@@ -2619,30 +2616,27 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "When I was a child, I had a few small responsibilities at home.",
-            "My main job was to clean up my toys and keep my room neat.",
+            "My main job was to clean up my toys and keep my room clean.",
             "Sometimes my mom asked me to help set the table before dinner.",
             "At that time, I did not think these jobs were important.",
             "I just wanted to play more, so I often complained.",
-            "But my parents kept reminding me to take care of my own things.",
+            "But my parents always told me to help at home.",
             "Now I understand why they did that.",
-            "Those small chores helped me learn responsibility little by little."
+            "Doing those things helped me become more responsible."
           ],
           "speakingChunks": [
             "When I was a child,",
             "I had a few small responsibilities at home.",
-            "My main job was to clean up my toys",
-            "and keep my room neat.",
+            "My main job was to clean up my toys and keep my room clean.",
             "Sometimes my mom asked me",
             "to help set the table before dinner.",
             "At that time,",
             "I did not think these jobs were important.",
             "I just wanted to play more,",
             "so I often complained.",
-            "But my parents kept reminding me",
-            "to take care of my own things.",
+            "But my parents always told me to help at home.",
             "Now I understand why they did that.",
-            "Those small chores helped me learn responsibility",
-            "little by little."
+            "Doing those things helped me become more responsible."
           ],
           "translations": [
             {
@@ -2650,7 +2644,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다."
             },
             {
-              "english": "My main job was to clean up my toys and keep my room neat.",
+              "english": "My main job was to clean up my toys and keep my room clean.",
               "korean": "내 주된 일은 장난감을 치우고 방을 깔끔하게 유지하는 것이었다."
             },
             {
@@ -2666,16 +2660,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "나는 그냥 더 놀고 싶어서 자주 불평했다."
             },
             {
-              "english": "But my parents kept reminding me to take care of my own things.",
-              "korean": "하지만 부모님은 내 물건은 내가 챙기라고 계속 알려 주셨다."
+              "english": "But my parents always told me to help at home.",
+              "korean": "하지만 부모님은 항상 집안일을 도우라고 하셨어요."
             },
             {
               "english": "Now I understand why they did that.",
               "korean": "지금은 부모님이 왜 그러셨는지 이해한다."
             },
             {
-              "english": "Those small chores helped me learn responsibility little by little.",
-              "korean": "그런 작은 집안일들이 책임감을 조금씩 배우는 데 도움이 되었다."
+              "english": "Doing those things helped me become more responsible.",
+              "korean": "그런 일들을 하면서 나는 더 책임감 있게 되었어요."
             }
           ]
         },
@@ -2694,40 +2688,35 @@ window.OPIC_STUDY_DATA = {
             "Provide details as to what you were supposed to do, what happened in regard to this situation, and why you could not complete it."
           ],
           "finalSentences": [
-            "I remember one time when I did not do a task my mom asked me to do.",
-            "I was supposed to take out the trash before the collection time.",
+            "One time, my mom asked me to take out the trash.",
+            "I had to do it before the garbage truck came.",
             "But I started playing a game and completely forgot about it.",
             "Later, my mom asked me, \"Did you take out the trash?\"",
-            "At that moment, I realized I had not done it.",
+            "Then I said, “Oh no, I forgot!”",
             "I felt really sorry because it made extra work for my family.",
-            "After that, I tried to do chores right away instead of saying I would do them later."
+            "After that, I started doing things right away."
           ],
           "speakingChunks": [
-            "I remember one time",
-            "when I did not do a task my mom asked me to do.",
-            "I was supposed to take out the trash",
-            "before the collection time.",
+            "One time, my mom asked me to take out the trash.",
+            "I had to do it before the garbage truck came.",
             "But I started playing a game",
             "and completely forgot about it.",
             "Later,",
             "my mom asked me,",
             "\"Did you take out the trash?\"",
-            "At that moment,",
-            "I realized I had not done it.",
+            "Then I said, “Oh no, I forgot!”",
             "I felt really sorry",
             "because it made extra work for my family.",
-            "After that,",
-            "I tried to do chores right away",
-            "instead of saying I would do them later."
+            "After that, I started doing things right away."
           ],
           "translations": [
             {
-              "english": "I remember one time when I did not do a task my mom asked me to do.",
-              "korean": "엄마가 시킨 일을 하지 않았던 때가 기억난다."
+              "english": "One time, my mom asked me to take out the trash.",
+              "korean": "한번은 쓰레기 버리는 것을 깜빡했다."
             },
             {
-              "english": "I was supposed to take out the trash before the collection time.",
-              "korean": "나는 수거 시간 전에 쓰레기를 버렸어야 했다."
+              "english": "I had to do it before the garbage truck came.",
+              "korean": "쓰레기차가 오기 전에 그걸 해야 했다."
             },
             {
               "english": "But I started playing a game and completely forgot about it.",
@@ -2738,16 +2727,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "나중에 엄마가 \"쓰레기 버렸니?\"라고 물으셨다."
             },
             {
-              "english": "At that moment, I realized I had not done it.",
-              "korean": "그 순간 내가 하지 않았다는 것을 깨달았다."
+              "english": "Then I said, “Oh no, I forgot!”",
+              "korean": "그러자 나는 “아, 깜빡했다!”라고 말했어요."
             },
             {
               "english": "I felt really sorry because it made extra work for my family.",
               "korean": "가족에게 추가로 일을 만들었기 때문에 정말 미안했다."
             },
             {
-              "english": "After that, I tried to do chores right away instead of saying I would do them later.",
-              "korean": "그 후로는 나중에 하겠다고 말하는 대신 집안일을 바로 하려고 했다."
+              "english": "After that, I started doing things right away.",
+              "korean": "그 후로 나는 해야 할 일을 바로 하기 시작했어요."
             }
           ]
         },
@@ -2840,71 +2829,63 @@ window.OPIC_STUDY_DATA = {
             "Please ask the other members of your family several questions, so that you can decide the best date and time for your acquaintances to visit."
           ],
           "finalSentences": [
-            "Hi, I want to invite another family to our house for lunch.",
-            "Before I decide, I need to ask a few questions.",
-            "First, what date would be best for everyone?",
-            "Would this Saturday or next Sunday be better?",
-            "Also, what time should we invite them?",
-            "Do we have enough chairs and dishes for everyone?",
-            "What kind of food should we prepare?",
-            "If anyone has an allergy or a food they cannot eat, we should check that too.",
-            "Please tell me your ideas so I can plan it properly."
+            "Hey, everyone. I want to invite my friend’s family for lunch.",
+            "I have a few questions first.",
+            "What day is good for everyone?",
+            "Is this Saturday or next Sunday better?",
+            "Also, What time should they come?",
+            "Do we have enough chairs and plates?",
+            "What food should we make?",
+            "Should I ask them about food allergies?",
+            "Okay, let’s choose a day and time together."
           ],
           "speakingChunks": [
-            "Hi,",
-            "I want to invite another family to our house for lunch.",
-            "Before I decide,",
-            "I need to ask a few questions.",
-            "First,",
-            "what date would be best for everyone?",
-            "Would this Saturday",
-            "or next Sunday be better?",
-            "Also,",
-            "what time should we invite them?",
-            "Do we have enough chairs and dishes for everyone?",
-            "What kind of food should we prepare?",
-            "If anyone has an allergy",
-            "or a food they cannot eat,",
-            "we should check that too.",
-            "Please tell me your ideas",
-            "so I can plan it properly."
+            "Hey, everyone. I want to invite my friend’s family for lunch.",
+            "I have a few questions first.",
+            "What day is good for everyone?",
+            "Is this Saturday or next Sunday better?",
+            "Also, What time should they come?",
+            "Do we have enough chairs and plates?",
+            "What food should we make?",
+            "Should I ask them about food allergies?",
+            "Okay, let’s choose a day and time together."
           ],
           "translations": [
             {
-              "english": "Hi, I want to invite another family to our house for lunch.",
-              "korean": "안녕, 다른 가족을 우리 집에 점심 식사로 초대하고 싶어."
+              "english": "Hey, everyone. I want to invite my friend’s family for lunch.",
+              "korean": "안녕, 내 친구 가족을 우리 집에 점심 식사로 초대하고 싶어."
             },
             {
-              "english": "Before I decide, I need to ask a few questions.",
-              "korean": "결정하기 전에 몇 가지 질문을 해야 해."
+              "english": "I have a few questions first.",
+              "korean": "먼저 몇 가지 물어볼 게 있어."
             },
             {
-              "english": "First, what date would be best for everyone?",
-              "korean": "먼저, 모두에게 어떤 날짜가 가장 좋을까?"
+              "english": "What day is good for everyone?",
+              "korean": "모두에게 어떤 날짜가 가장 좋을까?"
             },
             {
-              "english": "Would this Saturday or next Sunday be better?",
+              "english": "Is this Saturday or next Sunday better?",
               "korean": "이번 토요일이 좋을까, 아니면 다음 일요일이 좋을까?"
             },
             {
-              "english": "Also, what time should we invite them?",
+              "english": "Also, What time should they come?",
               "korean": "그리고 몇 시에 초대하면 좋을까?"
             },
             {
-              "english": "Do we have enough chairs and dishes for everyone?",
-              "korean": "모두를 위한 의자와 접시가 충분히 있을까?"
+              "english": "Do we have enough chairs and plates?",
+              "korean": "의자와 접시가 충분히 있을까?"
             },
             {
-              "english": "What kind of food should we prepare?",
-              "korean": "어떤 음식을 준비하면 좋을까?"
+              "english": "What food should we make?",
+              "korean": "어떤 음식을 만들면 좋을까?"
             },
             {
-              "english": "If anyone has an allergy or a food they cannot eat, we should check that too.",
-              "korean": "알레르기가 있거나 못 먹는 음식이 있는 사람도 확인해야 해."
+              "english": "Should I ask them about food allergies?",
+              "korean": "그 가족에게 음식 알레르기가 있는지 물어볼까?"
             },
             {
-              "english": "Please tell me your ideas so I can plan it properly.",
-              "korean": "제대로 계획할 수 있게 너희 생각을 알려 줘."
+              "english": "Okay, let’s choose a day and time together.",
+              "korean": "좋아, 날짜와 시간을 같이 정해 보자."
             }
           ]
         },
@@ -2924,72 +2905,57 @@ window.OPIC_STUDY_DATA = {
             "Then give them a few suggestions for meeting up in the future."
           ],
           "finalSentences": [
-            "Hi, I am really sorry, but we need to change our lunch plan for today.",
-            "This morning, one of my family members suddenly got sick.",
-            "So I do not think it is a good idea to invite your family over today.",
-            "I know this is very sudden, and I am sorry about that.",
+            "Hi, I’m really sorry, but we need to cancel our lunch today.",
+            "My mom suddenly got sick this morning.",
+            "So, we can’t have lunch at my house today.",
+            "I’m really sorry.",
             "Could we meet next weekend instead?",
-            "Or if that is difficult, we can choose another day that works for your family.",
-            "We could also meet at a restaurant later when everyone feels better.",
-            "Please call me back when you get this message.",
-            "Again, I am really sorry for the change."
+            "If next weekend is not good, we can meet another day.",
+            "Please call me when you get this message.",
+            "Again, I’m really sorry."
           ],
           "speakingChunks": [
-            "Hi,",
-            "I am really sorry,",
-            "but we need to change our lunch plan for today.",
-            "This morning,",
-            "one of my family members suddenly got sick.",
-            "So I do not think",
-            "it is a good idea to invite your family over today.",
-            "I know this is very sudden,",
-            "and I am sorry about that.",
+            "Hi, I’m really sorry, but we need to cancel our lunch today.",
+            "My mom suddenly got sick this morning.",
+            "So, we can’t have lunch at my house today.",
+            "I’m really sorry.",
             "Could we meet next weekend instead?",
-            "Or if that is difficult,",
-            "we can choose another day that works for your family.",
-            "We could also meet at a restaurant later",
-            "when everyone feels better.",
-            "Please call me back",
-            "when you get this message.",
-            "Again,",
-            "I am really sorry for the change."
+            "If next weekend is not good, we can meet another day.",
+            "Please call me when you get this message.",
+            "Again, I’m really sorry."
           ],
           "translations": [
             {
-              "english": "Hi, I am really sorry, but we need to change our lunch plan for today.",
-              "korean": "안녕하세요, 정말 죄송하지만 오늘 점심 계획을 바꿔야 합니다."
+              "english": "Hi, I’m really sorry, but we need to cancel our lunch today.",
+              "korean": "안녕, 정말 미안하지만 오늘 점심 약속을 취소해야 할 것 같아."
             },
             {
-              "english": "This morning, one of my family members suddenly got sick.",
-              "korean": "오늘 아침에 가족 중 한 명이 갑자기 아팠습니다."
+              "english": "My mom suddenly got sick this morning.",
+              "korean": "오늘 아침에 엄마가 갑자기 아프셨어."
             },
             {
-              "english": "So I do not think it is a good idea to invite your family over today.",
-              "korean": "그래서 오늘 당신의 가족을 초대하는 것은 좋은 생각이 아닌 것 같습니다."
+              "english": "So, we can’t have lunch at my house today.",
+              "korean": "그래서 오늘 우리 집에서 점심을 먹을 수 없을 것 같아."
             },
             {
-              "english": "I know this is very sudden, and I am sorry about that.",
-              "korean": "갑작스러운 일이라는 것을 알고 있고, 그 점 죄송합니다."
+              "english": "I’m really sorry.",
+              "korean": "미안해."
             },
             {
               "english": "Could we meet next weekend instead?",
-              "korean": "대신 다음 주말에 만날 수 있을까요?"
+              "korean": "대신 다음 주말에 만날 수 있을까?"
             },
             {
-              "english": "Or if that is difficult, we can choose another day that works for your family.",
-              "korean": "아니면 어렵다면 당신 가족에게 맞는 다른 날을 정할 수 있습니다."
+              "english": "If next weekend is not good, we can meet another day.",
+              "korean": "다음 주말이 어렵다면 다른 날에 만나도 돼."
             },
             {
-              "english": "We could also meet at a restaurant later when everyone feels better.",
-              "korean": "모두가 괜찮아진 뒤에 나중에 식당에서 만날 수도 있습니다."
+              "english": "Please call me when you get this message.",
+              "korean": "이 메시지를 확인하면 전화해 줘."
             },
             {
-              "english": "Please call me back when you get this message.",
-              "korean": "이 메시지를 받으면 다시 전화해 주세요."
-            },
-            {
-              "english": "Again, I am really sorry for the change.",
-              "korean": "다시 한번, 변경하게 되어 정말 죄송합니다."
+              "english": "Again, I’m really sorry.",
+              "korean": "다시 한번 정말 미안해."
             }
           ]
         },
@@ -3008,74 +2974,63 @@ window.OPIC_STUDY_DATA = {
             "Has it ever been necessary for you to alter your plans because you needed to help one of your family members?"
           ],
           "finalSentences": [
-            "Yes, I once had to change my plan because I needed to help my family.",
-            "I was planning to meet a friend on a weekend afternoon.",
-            "But that morning, my mom suddenly felt sick and needed help at home.",
-            "She had to rest, so I helped with cleaning and simple chores.",
-            "I called my friend and said, \"I am sorry, but I need to stay home today.\"",
-            "Luckily, my friend understood the situation.",
-            "We moved our plan to the next week.",
-            "At first, I felt stressed, but I was glad I could help my mom.",
-            "That experience reminded me that family sometimes has to come first."
+            "Yes, I once had to change my plans to help my mom.",
+            "I was going to meet my friend that afternoon.",
+            "But my mom got sick that morning.",
+            "She needed to rest, so I cleaned the house for her.",
+            "I called my friend and said, “I’m sorry, but I need to stay home today.”",
+            "Luckily, my friend understood.",
+            "We decided to meet a week later.",
+            "I was worried, But I was happy to help her.",
+            "I learned that family comes first."
           ],
           "speakingChunks": [
-            "Yes,",
-            "I once had to change my plan",
-            "because I needed to help my family.",
-            "I was planning to meet a friend",
-            "on a weekend afternoon.",
-            "But that morning,",
-            "my mom suddenly felt sick",
-            "and needed help at home.",
-            "She had to rest,",
-            "so I helped with cleaning and simple chores.",
-            "I called my friend and said,",
-            "\"I am sorry, but I need to stay home today.\"",
-            "Luckily,",
-            "my friend understood the situation.",
-            "We moved our plan to the next week.",
-            "At first,",
-            "I felt stressed,",
-            "but I was glad I could help my mom.",
-            "That experience reminded me",
-            "that family sometimes has to come first."
+            "Yes, I once had to change my plans to help my mom.",
+            "I was going to meet my friend that afternoon.",
+            "But my mom got sick that morning.",
+            "She needed to rest, so I cleaned the house for her.",
+            "I called my friend and said, “I’m sorry, but I need to stay home today.”",
+            "Luckily, my friend understood.",
+            "We decided to meet a week later.",
+            "I was worried, But I was happy to help her.",
+            "I learned that family comes first."
           ],
           "translations": [
             {
-              "english": "Yes, I once had to change my plan because I needed to help my family.",
-              "korean": "네, 가족을 도와야 해서 계획을 바꿔야 했던 적이 있습니다."
+              "english": "Yes, I once had to change my plans to help my mom.",
+              "korean": "네, 엄마를 돕기 위해 계획을 바꿔야 했던 적이 있습니다."
             },
             {
-              "english": "I was planning to meet a friend on a weekend afternoon.",
-              "korean": "주말 오후에 친구를 만나려고 했습니다."
+              "english": "I was going to meet my friend that afternoon.",
+              "korean": "그날 오후에 친구를 만날 예정이었습니다."
             },
             {
-              "english": "But that morning, my mom suddenly felt sick and needed help at home.",
-              "korean": "그런데 그날 아침 엄마가 갑자기 아프셔서 집에서 도움이 필요했습니다."
+              "english": "But my mom got sick that morning.",
+              "korean": "하지만 그날 아침에 엄마가 아프셨습니다."
             },
             {
-              "english": "She had to rest, so I helped with cleaning and simple chores.",
-              "korean": "엄마는 쉬셔야 해서 나는 청소와 간단한 집안일을 도왔습니다."
+              "english": "She needed to rest, so I cleaned the house for her.",
+              "korean": "엄마는 쉬어야 해서 제가 대신 집을 청소했습니다."
             },
             {
-              "english": "I called my friend and said, \"I am sorry, but I need to stay home today.\"",
-              "korean": "친구에게 전화해서 \"미안하지만 오늘은 집에 있어야 해\"라고 말했습니다."
+              "english": "I called my friend and said, “I’m sorry, but I need to stay home today.”",
+              "korean": "친구에게 전화해서 “미안하지만 오늘은 집에 있어야 해.”라고 말했습니다."
             },
             {
-              "english": "Luckily, my friend understood the situation.",
-              "korean": "다행히 친구는 상황을 이해해 주었습니다."
+              "english": "Luckily, my friend understood.",
+              "korean": "다행히 친구가 이해해 주었습니다."
             },
             {
-              "english": "We moved our plan to the next week.",
-              "korean": "우리는 약속을 다음 주로 옮겼습니다."
+              "english": "We decided to meet a week later.",
+              "korean": "우리는 일주일 뒤에 만나기로 했습니다."
             },
             {
-              "english": "At first, I felt stressed, but I was glad I could help my mom.",
-              "korean": "처음에는 스트레스를 받았지만 엄마를 도울 수 있어서 다행이라고 생각했습니다."
+              "english": "I was worried, But I was happy to help her.",
+              "korean": "걱정되었지만 엄마를 도울 수 있어서 다행이었습니다."
             },
             {
-              "english": "That experience reminded me that family sometimes has to come first.",
-              "korean": "그 경험은 때로는 가족이 먼저라는 것을 떠올리게 해 주었습니다."
+              "english": "I learned that family comes first.",
+              "korean": "저는 가족이 가장 우선이라는 것을 배웠습니다."
             }
           ]
         },
@@ -3094,69 +3049,58 @@ window.OPIC_STUDY_DATA = {
             "Describe it to me."
           ],
           "finalSentences": [
-            "The room I spend the most time in is my room.",
+            "I spend most of my time in my room.",
             "It is not very big, but it has everything I need.",
-            "There is a bed, a desk, a chair, a closet, and my computer.",
-            "I usually study at my desk and watch videos there.",
-            "When I feel tired, I just lie on my bed and rest for a while.",
-            "What I like most is that it is my private space.",
-            "I can be alone, think quietly, and relax without bothering anyone.",
-            "So my room is simple, but it is the most comfortable place in my house."
+            "It has a bed, a desk, a chair, a closet, and a computer.",
+            "I usually study at my desk and watch videos on my computer.",
+            "When I feel tired, I rest on my bed",
+            "I like my room because it is my own space.",
+            "I can be alone and relax there.",
+            "So, it is the most comfortable place in my house."
           ],
           "speakingChunks": [
-            "The room I spend the most time in",
-            "is my room.",
+            "I spend most of my time in my room.",
             "It is not very big,",
             "but it has everything I need.",
-            "There is a bed,",
-            "a desk,",
-            "a chair,",
-            "a closet,",
-            "and my computer.",
-            "I usually study at my desk",
-            "and watch videos there.",
-            "When I feel tired,",
-            "I just lie on my bed and rest for a while.",
-            "What I like most is",
-            "that it is my private space.",
-            "I can be alone,",
-            "think quietly,",
-            "and relax without bothering anyone.",
-            "So my room is simple,",
-            "but it is the most comfortable place in my house."
+            "It has a bed, a desk, a chair, a closet, and a computer.",
+            "I usually study at my desk and watch videos on my computer.",
+            "When I feel tired, I rest on my bed",
+            "I like my room because it is my own space.",
+            "I can be alone and relax there.",
+            "So, it is the most comfortable place in my house."
           ],
           "translations": [
             {
-              "english": "The room I spend the most time in is my room.",
-              "korean": "내가 가장 많은 시간을 보내는 방은 내 방이다."
+              "english": "I spend most of my time in my room.",
+              "korean": "저는 대부분의 시간을 제 방에서 보냅니다."
             },
             {
               "english": "It is not very big, but it has everything I need.",
-              "korean": "아주 크지는 않지만 필요한 것은 다 있다."
+              "korean": "방이 아주 크지는 않지만 필요한 것은 모두 있습니다."
             },
             {
-              "english": "There is a bed, a desk, a chair, a closet, and my computer.",
-              "korean": "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있다."
+              "english": "It has a bed, a desk, a chair, a closet, and a computer.",
+              "korean": "방에는 침대, 책상, 의자, 옷장 그리고 컴퓨터가 있습니다."
             },
             {
-              "english": "I usually study at my desk and watch videos there.",
-              "korean": "나는 보통 책상에서 공부하고 그곳에서 영상을 본다."
+              "english": "I usually study at my desk and watch videos on my computer.",
+              "korean": "저는 보통 책상에서 공부하고 컴퓨터로 영상을 봅니다."
             },
             {
-              "english": "When I feel tired, I just lie on my bed and rest for a while.",
-              "korean": "피곤할 때는 그냥 침대에 누워 잠시 쉰다."
+              "english": "When I feel tired, I rest on my bed",
+              "korean": "피곤할 때는 침대에서 잠시 쉽니다."
             },
             {
-              "english": "What I like most is that it is my private space.",
-              "korean": "내가 가장 좋아하는 점은 그곳이 나만의 개인 공간이라는 것이다."
+              "english": "I like my room because it is my own space.",
+              "korean": "제 방은 저만의 공간이어서 좋습니다."
             },
             {
-              "english": "I can be alone, think quietly, and relax without bothering anyone.",
-              "korean": "혼자 있을 수 있고, 조용히 생각하고, 누구도 방해하지 않고 쉴 수 있다."
+              "english": "I can be alone and relax there.",
+              "korean": "그곳에서는 혼자 편하게 쉴 수 있습니다."
             },
             {
-              "english": "So my room is simple, but it is the most comfortable place in my house.",
-              "korean": "그래서 내 방은 단순하지만 집에서 가장 편안한 장소이다."
+              "english": "So, it is the most comfortable place in my house.",
+              "korean": "그래서 제 방은 우리 집에서 가장 편안한 곳입니다."
             }
           ]
         },
@@ -3177,65 +3121,57 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "My family usually spends time together in the evening.",
             "We often eat dinner together and talk about our day.",
-            "The conversations are not always special, but I like that small time.",
-            "After dinner, we sit in the living room and watch TV or Netflix.",
-            "Sometimes we talk naturally while watching the same program.",
-            "On weekdays, everyone is busy, so we cannot spend a long time together.",
-            "But on weekends, we often eat together or rest in the living room.",
-            "For me, this family time feels comfortable and warm."
+            "We do not talk about anything special, but I enjoy our time together.",
+            "After dinner, we sit in the living room and watch Netflix.",
+            "Sometimes we talk while watching a show.",
+            "On weekdays, everyone is busy, so we do not have much time together.",
+            "But on weekends, we have more time to eat and watch TV together.",
+            "I feel happy and relaxed with my family."
           ],
           "speakingChunks": [
             "My family usually spends time together",
             "in the evening.",
             "We often eat dinner together",
             "and talk about our day.",
-            "The conversations are not always special,",
-            "but I like that small time.",
-            "After dinner,",
-            "we sit in the living room and watch TV or Netflix.",
-            "Sometimes we talk naturally",
-            "while watching the same program.",
-            "On weekdays,",
-            "everyone is busy,",
-            "so we cannot spend a long time together.",
-            "But on weekends,",
-            "we often eat together",
-            "or rest in the living room.",
-            "For me,",
-            "this family time feels comfortable and warm."
+            "We do not talk about anything special, but I enjoy our time together.",
+            "After dinner, we sit in the living room and watch Netflix.",
+            "Sometimes we talk while watching a show.",
+            "On weekdays, everyone is busy, so we do not have much time together.",
+            "But on weekends, we have more time to eat and watch TV together.",
+            "I feel happy and relaxed with my family."
           ],
           "translations": [
             {
               "english": "My family usually spends time together in the evening.",
-              "korean": "우리 가족은 보통 저녁에 함께 시간을 보낸다."
+              "korean": "우리 가족은 보통 저녁에 함께 시간을 보냅니다."
             },
             {
               "english": "We often eat dinner together and talk about our day.",
-              "korean": "우리는 자주 저녁을 같이 먹고 하루 이야기를 한다."
+              "korean": "우리는 자주 함께 저녁을 먹으며 하루에 관해 이야기합니다."
             },
             {
-              "english": "The conversations are not always special, but I like that small time.",
-              "korean": "대화가 항상 특별한 것은 아니지만 나는 그 작은 시간이 좋다."
+              "english": "We do not talk about anything special, but I enjoy our time together.",
+              "korean": "특별한 이야기를 하는 것은 아니지만, 저는 가족과 함께하는 시간이 좋습니다."
             },
             {
-              "english": "After dinner, we sit in the living room and watch TV or Netflix.",
-              "korean": "저녁 식사 후에는 거실에 앉아서 TV나 넷플릭스를 본다."
+              "english": "After dinner, we sit in the living room and watch Netflix.",
+              "korean": "저녁 식사 후에는 거실에 앉아서 넷플릭스를 봅니다."
             },
             {
-              "english": "Sometimes we talk naturally while watching the same program.",
-              "korean": "가끔은 같은 프로그램을 보면서 자연스럽게 이야기한다."
+              "english": "Sometimes we talk while watching a show.",
+              "korean": "가끔은 프로그램을 보면서 이야기를 나눕니다."
             },
             {
-              "english": "On weekdays, everyone is busy, so we cannot spend a long time together.",
-              "korean": "평일에는 모두가 바빠서 오래 함께 시간을 보내지는 못한다."
+              "english": "On weekdays, everyone is busy, so we do not have much time together.",
+              "korean": "평일에는 모두 바빠서 함께할 시간이 많지 않습니다."
             },
             {
-              "english": "But on weekends, we often eat together or rest in the living room.",
-              "korean": "하지만 주말에는 자주 함께 밥을 먹거나 거실에서 쉰다."
+              "english": "But on weekends, we have more time to eat and watch TV together.",
+              "korean": "하지만 주말에는 함께 식사하고 TV를 볼 시간이 더 많습니다."
             },
             {
-              "english": "For me, this family time feels comfortable and warm.",
-              "korean": "나에게 이런 가족 시간은 편안하고 따뜻하게 느껴진다."
+              "english": "I feel happy and relaxed with my family.",
+              "korean": "저는 가족과 함께 있으면 행복하고 편안합니다."
             }
           ]
         },
@@ -3254,69 +3190,52 @@ window.OPIC_STUDY_DATA = {
             "Describe how it has changed over the years."
           ],
           "finalSentences": [
-            "The biggest difference between my childhood home and my current home is personal space.",
-            "When I was young, my home was a little smaller than now.",
+            "The biggest difference is that I have my own room now.",
+            "When I was young, our home was smaller.",
             "I did not have my own room, so it was sometimes uncomfortable.",
-            "Of course, I still have good memories of that home because I lived there with my family.",
-            "But now I have my own room.",
-            "I can study, play games, and rest alone, so it is much more comfortable.",
-            "We also have two bathrooms now, so mornings are easier.",
-            "So I liked my childhood home, but my current home is better for daily life."
+            "But I still have good memories of our old home.",
+            "Now I can study, play games, and relax in my room.",
+            "We also have two bathrooms now, so mornings are much easier.",
+            "I liked my old home, but my current home is more comfortable."
           ],
           "speakingChunks": [
-            "The biggest difference between my childhood home",
-            "and my current home",
-            "is personal space.",
-            "When I was young,",
-            "my home was a little smaller than now.",
+            "The biggest difference is that I have my own room now.",
+            "When I was young, our home was smaller.",
             "I did not have my own room,",
             "so it was sometimes uncomfortable.",
-            "Of course,",
-            "I still have good memories of that home",
-            "because I lived there with my family.",
-            "But now",
-            "I have my own room.",
-            "I can study,",
-            "play games,",
-            "and rest alone,",
-            "so it is much more comfortable.",
-            "We also have two bathrooms now,",
-            "so mornings are easier.",
-            "So I liked my childhood home,",
-            "but my current home is better for daily life."
+            "But I still have good memories of our old home.",
+            "Now I can study, play games, and relax in my room.",
+            "We also have two bathrooms now, so mornings are much easier.",
+            "I liked my old home, but my current home is more comfortable."
           ],
           "translations": [
             {
-              "english": "The biggest difference between my childhood home and my current home is personal space.",
-              "korean": "어릴 때 집과 현재 집의 가장 큰 차이는 개인 공간이다."
+              "english": "The biggest difference is that I have my own room now.",
+              "korean": "가장 큰 차이점은 지금은 제 방이 있다는 것입니다."
             },
             {
-              "english": "When I was young, my home was a little smaller than now.",
-              "korean": "어렸을 때 우리 집은 지금보다 조금 더 작았다."
+              "english": "When I was young, our home was smaller.",
+              "korean": "제가 어렸을 때는 우리 집이 더 작았습니다."
             },
             {
               "english": "I did not have my own room, so it was sometimes uncomfortable.",
-              "korean": "내 방이 없어서 가끔 불편했다."
+              "korean": "제 방이 없어서 가끔 불편했습니다."
             },
             {
-              "english": "Of course, I still have good memories of that home because I lived there with my family.",
-              "korean": "물론 가족과 함께 살았기 때문에 그 집에 대한 좋은 기억은 아직 있다."
+              "english": "But I still have good memories of our old home.",
+              "korean": "하지만 예전 집에 대한 좋은 추억이 아직도 있습니다."
             },
             {
-              "english": "But now I have my own room.",
-              "korean": "하지만 지금은 내 방이 있다."
+              "english": "Now I can study, play games, and relax in my room.",
+              "korean": "지금은 제 방에서 공부하고, 게임하고, 편하게 쉴 수 있습니다."
             },
             {
-              "english": "I can study, play games, and rest alone, so it is much more comfortable.",
-              "korean": "혼자 공부하고 게임하고 쉴 수 있어서 훨씬 더 편하다."
+              "english": "We also have two bathrooms now, so mornings are much easier.",
+              "korean": "지금은 화장실도 두 개여서 아침이 훨씬 편합니다."
             },
             {
-              "english": "We also have two bathrooms now, so mornings are easier.",
-              "korean": "지금은 화장실도 두 개라서 아침이 더 편하다."
-            },
-            {
-              "english": "So I liked my childhood home, but my current home is better for daily life.",
-              "korean": "그래서 어릴 때 집도 좋았지만 현재 집이 일상생활에는 더 좋다."
+              "english": "I liked my old home, but my current home is more comfortable.",
+              "korean": "예전 집도 좋았지만 지금 사는 집이 더 편안합니다."
             }
           ]
         },
@@ -3335,66 +3254,65 @@ window.OPIC_STUDY_DATA = {
             "What made this experience special or unique?"
           ],
           "finalSentences": [
-            "A memorable experience with my family happened when we cleaned the whole house together.",
-            "The house had become messy, so we decided to clean it on one weekend.",
+            "One memorable experience was cleaning the whole house with my family.",
+            "Our house was messy, so we decided to clean it one weekend.",
             "My mom cleaned the kitchen, and my dad cleaned the living room.",
             "I cleaned my room and threw away things I did not need.",
-            "While cleaning, we found some old items we used before.",
-            "We looked at them and talked about old memories.",
-            "The cleaning was tiring, but it was less boring because we did it together.",
-            "When the house became clean, I felt really proud."
+            "While cleaning, we found some old things.",
+            "We looked at them and talked about memories.",
+            "That made the day special.",
+            "Cleaning was tiring, but we had fun together.",
+            "When we finished, the house was clean, and I felt really good."
           ],
           "speakingChunks": [
-            "A memorable experience with my family happened",
-            "when we cleaned the whole house together.",
-            "The house had become messy,",
-            "so we decided to clean it on one weekend.",
+            "One memorable experience was cleaning the whole house with my family.",
+            "Our house was messy, so we decided to clean it one weekend.",
             "My mom cleaned the kitchen,",
             "and my dad cleaned the living room.",
             "I cleaned my room",
             "and threw away things I did not need.",
-            "While cleaning,",
-            "we found some old items we used before.",
-            "We looked at them",
-            "and talked about old memories.",
-            "The cleaning was tiring,",
-            "but it was less boring",
-            "because we did it together.",
-            "When the house became clean,",
-            "I felt really proud."
+            "While cleaning, we found some old things.",
+            "We looked at them and talked about memories.",
+            "That made the day special.",
+            "Cleaning was tiring, but we had fun together.",
+            "When we finished, the house was clean, and I felt really good."
           ],
           "translations": [
             {
-              "english": "A memorable experience with my family happened when we cleaned the whole house together.",
-              "korean": "가족과의 기억에 남는 경험은 우리가 함께 집 전체를 청소했을 때이다."
+              "english": "One memorable experience was cleaning the whole house with my family.",
+              "korean": "기억에 남는 경험 하나는 가족과 함께 집 전체를 청소했던 것입니다."
             },
             {
-              "english": "The house had become messy, so we decided to clean it on one weekend.",
-              "korean": "집이 지저분해져서 우리는 어느 주말에 청소하기로 했다."
+              "english": "Our house was messy, so we decided to clean it one weekend.",
+              "korean": "집이 지저분해서 어느 주말에 함께 청소하기로 했습니다."
             },
             {
               "english": "My mom cleaned the kitchen, and my dad cleaned the living room.",
-              "korean": "엄마는 주방을 청소했고 아빠는 거실을 청소했다."
+              "korean": "엄마는 주방을 청소했고 아빠는 거실을 청소했습니다."
             },
             {
               "english": "I cleaned my room and threw away things I did not need.",
-              "korean": "나는 내 방을 청소하고 필요 없는 물건들을 버렸다."
+              "korean": "저는 제 방을 청소하고 필요 없는 물건들을 버렸습니다."
             },
             {
-              "english": "While cleaning, we found some old items we used before.",
-              "korean": "청소하는 동안 예전에 쓰던 오래된 물건들을 발견했다."
+              "english": "While cleaning, we found some old things.",
+              "korean": "청소하는 동안 오래된 물건들을 발견했습니다."
             },
             {
-              "english": "We looked at them and talked about old memories.",
-              "korean": "우리는 그것들을 보며 옛 추억에 대해 이야기했다."
+              "english": "We looked at them and talked about memories.",
+              "korean": "우리는 그 물건들을 보며 옛날이야기를 나눴습니다."
             },
             {
-              "english": "The cleaning was tiring, but it was less boring because we did it together.",
-              "korean": "청소는 힘들었지만 함께해서 덜 지루했다."
+              "english": "That made the day special.",
+              "korean": "그래서 그날이 특별하게 느껴졌습니다."
             },
             {
-              "english": "When the house became clean, I felt really proud.",
-              "korean": "집이 깨끗해졌을 때 정말 뿌듯했다."
+              "english": "Cleaning was tiring, but we had fun together.",
+              "korean": "청소는 힘들었지만 함께해서 즐거웠습니다."
+            },
+            {
+              "english": "When we finished, the house was clean, and I felt really good.",
+              "korean": "청소를 끝내자 집이 깨끗해졌고 저는 정말 뿌듯했습니다."
             }
           ]
         },
@@ -3415,60 +3333,45 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Hi, I have a few questions about your house.",
             "First, do you have a yard?",
-            "I heard many houses in the United States have a yard, so I wonder what yours looks like.",
             "How many rooms are there in your house?",
-            "Is the floor plan similar to a Korean apartment, or is it very different?",
             "Where does your family usually spend time together?",
-            "Also, what is your favorite space at home?",
-            "What do you usually do there?"
+            "What is your favorite room in the house?",
+            "Thank you for telling me about your house."
           ],
           "speakingChunks": [
             "Hi,",
             "I have a few questions about your house.",
             "First,",
             "do you have a yard?",
-            "I heard many houses in the United States have a yard,",
-            "so I wonder what yours looks like.",
             "How many rooms are there in your house?",
-            "Is the floor plan similar to a Korean apartment,",
-            "or is it very different?",
             "Where does your family usually spend time together?",
-            "Also,",
-            "what is your favorite space at home?",
-            "What do you usually do there?"
+            "What is your favorite room in the house?",
+            "Thank you for telling me about your house."
           ],
           "translations": [
             {
               "english": "Hi, I have a few questions about your house.",
-              "korean": "안녕하세요, 당신의 집에 대해 몇 가지 질문이 있습니다."
+              "korean": "안녕하세요. 집에 관해 몇 가지 질문이 있습니다."
             },
             {
               "english": "First, do you have a yard?",
-              "korean": "먼저, 마당이 있나요?"
-            },
-            {
-              "english": "I heard many houses in the United States have a yard, so I wonder what yours looks like.",
-              "korean": "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금합니다."
+              "korean": "먼저, 집에 마당이 있나요?"
             },
             {
               "english": "How many rooms are there in your house?",
               "korean": "집에는 방이 몇 개 있나요?"
             },
             {
-              "english": "Is the floor plan similar to a Korean apartment, or is it very different?",
-              "korean": "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?"
-            },
-            {
               "english": "Where does your family usually spend time together?",
               "korean": "가족은 보통 어디에서 함께 시간을 보내나요?"
             },
             {
-              "english": "Also, what is your favorite space at home?",
-              "korean": "또 집에서 가장 좋아하는 공간은 어디인가요?"
+              "english": "What is your favorite room in the house?",
+              "korean": "집에서 가장 좋아하는 방은 어디인가요?"
             },
             {
-              "english": "What do you usually do there?",
-              "korean": "그곳에서 보통 무엇을 하나요?"
+              "english": "Thank you for telling me about your house.",
+              "korean": "집에 관해 이야기해 주셔서 감사합니다."
             }
           ]
         },
@@ -3489,71 +3392,57 @@ window.OPIC_STUDY_DATA = {
             "Ask several questions so that you can find out all the information you need."
           ],
           "finalSentences": [
-            "Hi, before you leave for your trip, I want to ask a few questions about your home.",
-            "First, how should I get into the house?",
-            "Is there a door password, or did you leave a key somewhere?",
-            "What are the most important things I need to do while you are away?",
+            "Hi, I have a few questions before your trip.",
+            "First, is there a door code, or will you leave me a key?",
+            "What do I need to do while you are away?",
             "How often should I water the plants?",
-            "Also, are there any packages I need to receive?",
-            "If something unexpected happens, where should I contact you?",
-            "Do not worry too much, and have a good trip.",
-            "I will check everything carefully."
+            "Do I need to get any packages?",
+            "How can I contact you if there is a problem?",
+            "Don’t worry. I will take care of everything.",
+            "Have a good trip."
           ],
           "speakingChunks": [
-            "Hi,",
-            "before you leave for your trip,",
-            "I want to ask a few questions about your home.",
-            "First,",
-            "how should I get into the house?",
-            "Is there a door password,",
-            "or did you leave a key somewhere?",
-            "What are the most important things",
-            "I need to do while you are away?",
+            "Hi, I have a few questions before your trip.",
+            "First, is there a door code, or will you leave me a key?",
+            "What do I need to do while you are away?",
             "How often should I water the plants?",
-            "Also,",
-            "are there any packages I need to receive?",
-            "If something unexpected happens,",
-            "where should I contact you?",
-            "Do not worry too much,",
-            "and have a good trip.",
-            "I will check everything carefully."
+            "Do I need to get any packages?",
+            "How can I contact you if there is a problem?",
+            "Don’t worry. I will take care of everything.",
+            "Have a good trip."
           ],
           "translations": [
             {
-              "english": "Hi, before you leave for your trip, I want to ask a few questions about your home.",
-              "korean": "안녕하세요, 여행 가시기 전에 집에 대해 몇 가지 질문하고 싶습니다."
+              "english": "Hi, I have a few questions before your trip.",
+              "korean": "안녕, 여행 가기 전에 몇 가지 물어볼 게 있어."
             },
             {
-              "english": "First, how should I get into the house?",
-              "korean": "먼저, 집에는 어떻게 들어가면 될까요?"
+              "english": "First, is there a door code, or will you leave me a key?",
+              "korean": "먼저, 현관문 비밀번호가 있어? 아니면 열쇠를 남겨 줄 거야?"
             },
             {
-              "english": "Is there a door password, or did you leave a key somewhere?",
-              "korean": "현관 비밀번호가 있나요, 아니면 어딘가에 열쇠를 두셨나요?"
-            },
-            {
-              "english": "What are the most important things I need to do while you are away?",
-              "korean": "여행 중 제가 해야 할 가장 중요한 일은 무엇인가요?"
+              "english": "What do I need to do while you are away?",
+              "korean": "네가 여행하는 동안 내가 무엇을 해야 해?"
             },
             {
               "english": "How often should I water the plants?",
-              "korean": "화분에는 얼마나 자주 물을 주면 될까요?"
+              "korean": "식물에는 얼마나 자주 물을 줘야 해?"
             },
             {
-              "english": "Also, are there any packages I need to receive?",
-              "korean": "또 제가 받아야 할 택배가 있나요?"
+              "english": "Do I need to get any packages?",
+              "korean": "내가 받아야 할 택배가 있어?"
             },
             {
-              "english": "If something unexpected happens, where should I contact you?",
-              "korean": "예상치 못한 일이 생기면 어디로 연락하면 될까요?"
+              "english": "How can I contact you if there is a problem?",
+              "korean": "문제가 생기면 어떻게 연락하면 돼?"
             },
             {
-              "english": "Do not worry too much, and have a good trip.",
-              "korean": "너무 걱정하지 마시고 여행 잘 다녀오세요."
+              "english": "Don’t worry. I will take care of everything.",
+              "korean": "걱정하지 마. 내가 모두 잘 처리할게."
             },
             {
-              "english": "I will check everything carefully.",
-              "korean": "제가 모든 것을 잘 확인하겠습니다."
+              "english": "Have a good trip.",
+              "korean": "여행 잘 다녀와."
             }
           ]
         },
@@ -3574,65 +3463,63 @@ window.OPIC_STUDY_DATA = {
             "Offer several ways you can clear up the situation."
           ],
           "finalSentences": [
-            "Hello, I just arrived at your house, but there is a problem.",
-            "I checked the place you told me about, but I cannot find the key.",
-            "So right now, I cannot get inside the house.",
-            "Could you please tell me the key location one more time?",
-            "Or did you leave the key with a neighbor or at the security office?",
-            "If there is another emergency key, please let me know where it is.",
-            "I will wait nearby for a while.",
-            "Please call me back or send me a message when you see this."
+            "Hi, I just arrived at your house, but there is a problem.",
+            "I checked the place you told me about, but the key is not there.",
+            "So, I can’t get inside the house.",
+            "Can you tell me where the key is?",
+            "Maybe I can ask your neighbor.",
+            "Or I can go to the security office.",
+            "Is there another key somewhere?",
+            "I will wait near your house.",
+            "Please call me when you get this message."
           ],
           "speakingChunks": [
-            "Hello,",
-            "I just arrived at your house,",
-            "but there is a problem.",
-            "I checked the place you told me about,",
-            "but I cannot find the key.",
-            "So right now,",
-            "I cannot get inside the house.",
-            "Could you please tell me",
-            "the key location one more time?",
-            "Or did you leave the key",
-            "with a neighbor or at the security office?",
-            "If there is another emergency key,",
-            "please let me know where it is.",
-            "I will wait nearby for a while.",
-            "Please call me back",
-            "or send me a message when you see this."
+            "Hi, I just arrived at your house, but there is a problem.",
+            "I checked the place you told me about, but the key is not there.",
+            "So, I can’t get inside the house.",
+            "Can you tell me where the key is?",
+            "Maybe I can ask your neighbor.",
+            "Or I can go to the security office.",
+            "Is there another key somewhere?",
+            "I will wait near your house.",
+            "Please call me when you get this message."
           ],
           "translations": [
             {
-              "english": "Hello, I just arrived at your house, but there is a problem.",
-              "korean": "안녕하세요, 방금 집에 도착했는데 문제가 있습니다."
+              "english": "Hi, I just arrived at your house, but there is a problem.",
+              "korean": "안녕, 방금 네 집에 도착했는데 문제가 있어."
             },
             {
-              "english": "I checked the place you told me about, but I cannot find the key.",
-              "korean": "말씀해 주신 장소를 확인했지만 열쇠를 찾을 수 없습니다."
+              "english": "I checked the place you told me about, but the key is not there.",
+              "korean": "네가 말해 준 장소를 확인했는데 열쇠가 없어."
             },
             {
-              "english": "So right now, I cannot get inside the house.",
-              "korean": "그래서 지금 집 안으로 들어갈 수 없습니다."
+              "english": "So, I can’t get inside the house.",
+              "korean": "그래서 집 안으로 들어갈 수가 없어."
             },
             {
-              "english": "Could you please tell me the key location one more time?",
-              "korean": "열쇠 위치를 다시 한 번 알려 주실 수 있나요?"
+              "english": "Can you tell me where the key is?",
+              "korean": "열쇠가 어디에 있는지 알려 줄래?"
             },
             {
-              "english": "Or did you leave the key with a neighbor or at the security office?",
-              "korean": "아니면 이웃이나 경비실에 열쇠를 맡겨 두셨나요?"
+              "english": "Maybe I can ask your neighbor.",
+              "korean": "내가 네 이웃에게 물어볼 수도 있어."
             },
             {
-              "english": "If there is another emergency key, please let me know where it is.",
-              "korean": "다른 비상 열쇠가 있다면 어디에 있는지 알려 주세요."
+              "english": "Or I can go to the security office.",
+              "korean": "아니면 경비실에 가 볼 수도 있어."
             },
             {
-              "english": "I will wait nearby for a while.",
-              "korean": "저는 근처에서 잠시 기다리겠습니다."
+              "english": "Is there another key somewhere?",
+              "korean": "다른 열쇠가 어딘가에 있어?"
             },
             {
-              "english": "Please call me back or send me a message when you see this.",
-              "korean": "이 메시지를 보시면 전화나 메시지를 주세요."
+              "english": "I will wait near your house.",
+              "korean": "네 집 근처에서 기다릴게."
+            },
+            {
+              "english": "Please call me when you get this message.",
+              "korean": "이 메시지를 확인하면 나에게 전화해 줘."
             }
           ]
         },
@@ -3652,73 +3539,63 @@ window.OPIC_STUDY_DATA = {
             "Describe for me what you told them you'd do, what occurred, and how the problem was fixed."
           ],
           "finalSentences": [
-            "I once promised to take care of my relative's home, but I suddenly could not go.",
-            "My relative was going on a trip for a few days and asked me to check the house.",
-            "I was supposed to water the plants and receive any packages.",
-            "But that morning, I felt sick and could not go outside easily.",
-            "At first, I was really worried and felt sorry.",
-            "So I explained the situation to my mom and asked her for help.",
-            "Luckily, she went there instead of me and checked the plants and packages.",
-            "The next day, I felt better and went to finish the rest of the tasks.",
-            "There was no big problem, and I was really thankful that my mom helped me."
+            "One time, I promised to take care of my aunt’s house, but I got sick.",
+            "She was going on a trip for a few days and asked me to check her house.",
+            "I had to water the plants and get any packages.",
+            "But that morning, I felt very sick and could not go.",
+            "I called my aunt and said, “I’m sorry, but I can’t go today.”",
+            "Then I asked my mom for help.",
+            "Luckily, my mom went to her house and took care of everything.",
+            "The next day, I felt better and went to my aunt’s house.",
+            "Everything was fine, and I was really thankful to my mom."
           ],
           "speakingChunks": [
-            "I once promised to take care of my relative's home,",
-            "but I suddenly could not go.",
-            "My relative was going on a trip for a few days",
-            "and asked me to check the house.",
-            "I was supposed to water the plants",
-            "and receive any packages.",
-            "But that morning,",
-            "I felt sick and could not go outside easily.",
-            "At first,",
-            "I was really worried and felt sorry.",
-            "So I explained the situation to my mom",
-            "and asked her for help.",
-            "Luckily,",
-            "she went there instead of me",
-            "and checked the plants and packages.",
-            "The next day,",
-            "I felt better and went to finish the rest of the tasks.",
-            "There was no big problem,",
-            "and I was really thankful that my mom helped me."
+            "One time, I promised to take care of my aunt’s house, but I got sick.",
+            "She was going on a trip for a few days and asked me to check her house.",
+            "I had to water the plants and get any packages.",
+            "But that morning, I felt very sick and could not go.",
+            "I called my aunt and said, “I’m sorry, but I can’t go today.”",
+            "Then I asked my mom for help.",
+            "Luckily, my mom went to her house and took care of everything.",
+            "The next day, I felt better and went to my aunt’s house.",
+            "Everything was fine, and I was really thankful to my mom."
           ],
           "translations": [
             {
-              "english": "I once promised to take care of my relative's home, but I suddenly could not go.",
-              "korean": "친척 집을 봐주기로 약속했지만 갑자기 갈 수 없었던 적이 있다."
+              "english": "One time, I promised to take care of my aunt’s house, but I got sick.",
+              "korean": "한번은 이모의 집을 돌봐 주기로 약속했지만 몸이 아팠습니다."
             },
             {
-              "english": "My relative was going on a trip for a few days and asked me to check the house.",
-              "korean": "친척이 며칠 동안 여행을 가면서 나에게 집을 확인해 달라고 부탁했다."
+              "english": "She was going on a trip for a few days and asked me to check her house.",
+              "korean": "이모는 며칠 동안 여행을 갈 예정이어서 저에게 집을 확인해 달라고 부탁했습니다."
             },
             {
-              "english": "I was supposed to water the plants and receive any packages.",
-              "korean": "나는 화분에 물을 주고 택배가 있으면 받아야 했다."
+              "english": "I had to water the plants and get any packages.",
+              "korean": "저는 식물에 물을 주고 택배가 오면 받아야 했습니다."
             },
             {
-              "english": "But that morning, I felt sick and could not go outside easily.",
-              "korean": "그런데 그날 아침 몸이 아파서 쉽게 밖에 나갈 수 없었다."
+              "english": "But that morning, I felt very sick and could not go.",
+              "korean": "하지만 그날 아침 몸이 너무 아파서 갈 수 없었습니다."
             },
             {
-              "english": "At first, I was really worried and felt sorry.",
-              "korean": "처음에는 정말 걱정됐고 미안했다."
+              "english": "I called my aunt and said, “I’m sorry, but I can’t go today.”",
+              "korean": "저는 이모에게 전화해서 “미안하지만 오늘은 갈 수 없어요.”라고 말했습니다."
             },
             {
-              "english": "So I explained the situation to my mom and asked her for help.",
-              "korean": "그래서 엄마에게 상황을 설명하고 도움을 부탁했다."
+              "english": "Then I asked my mom for help.",
+              "korean": "그리고 엄마에게 도움을 요청했습니다."
             },
             {
-              "english": "Luckily, she went there instead of me and checked the plants and packages.",
-              "korean": "다행히 엄마가 나 대신 그곳에 가서 화분과 택배를 확인해 주셨다."
+              "english": "Luckily, my mom went to her house and took care of everything.",
+              "korean": "다행히 엄마가 이모의 집에 가서 모든 일을 처리해 주셨습니다."
             },
             {
-              "english": "The next day, I felt better and went to finish the rest of the tasks.",
-              "korean": "다음 날 몸이 나아져서 남은 일을 마무리하러 갔다."
+              "english": "The next day, I felt better and went to my aunt’s house.",
+              "korean": "다음 날 몸이 나아져서 이모의 집에 갔습니다."
             },
             {
-              "english": "There was no big problem, and I was really thankful that my mom helped me.",
-              "korean": "큰 문제는 없었고 엄마가 도와주셔서 정말 고마웠다."
+              "english": "Everything was fine, and I was really thankful to my mom.",
+              "korean": "모든 것이 괜찮았고 엄마에게 정말 감사했습니다."
             }
           ]
         }
@@ -10361,8 +10238,8 @@ window.OPIC_STUDY_DATA = {
     "entries": 145,
     "questions": 237,
     "questionTranslations": 145,
-    "finalSentences": 1138,
-    "speakingChunks": 1569,
-    "translations": 1138
+    "finalSentences": 1135,
+    "speakingChunks": 1461,
+    "translations": 1135
   }
 };

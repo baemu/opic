@@ -21,6 +21,8 @@
     voiceSelect: document.getElementById("voiceSelect"),
     modeButtons: Array.from(document.querySelectorAll(".mode-button")),
     updateDataBtn: document.getElementById("updateDataBtn"),
+    settingsToggleBtn: document.getElementById("settingsToggleBtn"),
+    settingsPanel: document.getElementById("settingsPanel"),
     entryMeta: document.getElementById("entryMeta"),
     answerMeta: document.getElementById("answerMeta"),
     answerTitle: document.getElementById("answerTitle"),
@@ -29,8 +31,10 @@
     answerLines: document.getElementById("answerLines"),
     toggleQuestionTranslationBtn: document.getElementById("toggleQuestionTranslationBtn"),
     toggleTranslationsBtn: document.getElementById("toggleTranslationsBtn"),
+    copyQuestionBtn: document.getElementById("copyQuestionBtn"),
     playQuestionBtn: document.getElementById("playQuestionBtn"),
     playAnswerBtn: document.getElementById("playAnswerBtn"),
+    statusBar: document.querySelector(".status-bar"),
     statusText: document.getElementById("statusText"),
   };
 
@@ -102,8 +106,13 @@
     elements.volumeInput.value = String(state.volume);
     elements.volumeValue.textContent = `${Math.round(state.volume * 100)}%`;
     elements.repeatSelect.value = String(state.repeat);
-    if (window.location.protocol === "file:" && elements.updateDataBtn) {
-      elements.updateDataBtn.textContent = "업데이트 방법";
+    if (elements.updateDataBtn) {
+      const isLocalServer = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+      if (window.location.protocol === "file:") {
+        elements.updateDataBtn.textContent = "업데이트 방법";
+      } else if (!isLocalServer) {
+        elements.updateDataBtn.hidden = true;
+      }
     }
 
     bindEvents();
@@ -168,6 +177,28 @@
     });
 
     elements.updateDataBtn?.addEventListener("click", updateData);
+    elements.settingsToggleBtn?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const isOpen = elements.settingsToggleBtn.getAttribute("aria-expanded") === "true";
+      setSettingsOpen(!isOpen);
+    });
+
+    document.addEventListener("click", (event) => {
+      if (
+        !elements.settingsPanel?.hidden &&
+        !elements.settingsPanel.contains(event.target) &&
+        !elements.settingsToggleBtn?.contains(event.target)
+      ) {
+        setSettingsOpen(false);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !elements.settingsPanel?.hidden) {
+        setSettingsOpen(false);
+        elements.settingsToggleBtn?.focus();
+      }
+    });
 
     elements.rateInput.addEventListener("input", () => {
       state.rate = Number(elements.rateInput.value);
@@ -196,6 +227,9 @@
     elements.stopBtn.addEventListener("click", stopSpeaking);
 
     elements.questionFullButton.addEventListener("click", () => {
+      if (hasTextSelection()) {
+        return;
+      }
       const entry = getSelectedEntry();
       playSingle(entry.question, elements.questionFullButton);
     });
@@ -204,6 +238,11 @@
     elements.playQuestionBtn.addEventListener("click", () => {
       const entry = getSelectedEntry();
       playSingle(entry.question, elements.questionFullButton);
+    });
+
+    elements.copyQuestionBtn?.addEventListener("click", () => {
+      const entry = getSelectedEntry();
+      copyEntryReference("Question", entry.question);
     });
 
     elements.toggleQuestionTranslationBtn.addEventListener("click", () => {
@@ -289,11 +328,19 @@
 
   function render() {
     ensureSelectedEntry();
-    elements.statsText.textContent = `${data.stats.files} files · ${data.stats.entries} questions`;
+    elements.statsText.textContent = `${data.stats.entries} questions`;
     renderFiles();
     renderMode();
     renderEntryNav();
     renderEntry();
+  }
+
+  function setSettingsOpen(isOpen) {
+    if (!elements.settingsToggleBtn || !elements.settingsPanel) {
+      return;
+    }
+    elements.settingsToggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    elements.settingsPanel.hidden = !isOpen;
   }
 
   function renderFiles() {
@@ -376,7 +423,6 @@
     const currentIndex = allEntries.findIndex((item) => item.id === entry.id);
 
     elements.entryMeta.textContent = `${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${allEntries.length}`;
-    elements.answerMeta.textContent = state.mode === "speaking" ? "Speaking chunks" : "Final answer";
     elements.questionFullButton.textContent = entry.question || "Question not found.";
     elements.questionFullButton.dataset.speakText = entry.question || "";
     renderQuestionTranslation();
@@ -387,7 +433,7 @@
   function renderQuestionTranslation() {
     const entry = getSelectedEntry();
     const translation = entry.questionTranslation || "";
-    elements.toggleQuestionTranslationBtn.textContent = state.showQuestionTranslation ? "뜻 숨기기" : "문제 뜻";
+    elements.toggleQuestionTranslationBtn.textContent = state.showQuestionTranslation ? "번역 숨기기" : "번역";
     elements.toggleQuestionTranslationBtn.setAttribute(
       "aria-pressed",
       state.showQuestionTranslation ? "true" : "false",
@@ -400,13 +446,15 @@
   function renderAnswer() {
     const entry = getSelectedEntry();
     const items = getAnswerItems(entry);
+    elements.answerMeta.textContent = `${items.length}개 문장`;
     elements.answerTitle.textContent = state.mode === "speaking" ? "말하기용 답변" : "최종 답변";
-    elements.toggleTranslationsBtn.textContent = state.showTranslations ? "뜻 숨기기" : "뜻 보기";
+    elements.toggleTranslationsBtn.textContent = state.showTranslations ? "번역 숨기기" : "번역";
     elements.toggleTranslationsBtn.setAttribute("aria-pressed", state.showTranslations ? "true" : "false");
     renderSentenceButtons(elements.answerLines, items, "answer");
   }
 
   function renderSentenceButtons(container, items, type) {
+    const entry = getSelectedEntry();
     container.innerHTML = "";
     if (!items.length) {
       container.innerHTML = '<p class="empty-message">읽을 문장이 없습니다.</p>';
@@ -419,7 +467,17 @@
       const translationKey = `${state.entryId}:${state.mode}:${index}`;
       const isTranslationOpen = state.showTranslations || openTranslations.has(translationKey);
       const wrapper = document.createElement("div");
-      wrapper.className = `sentence-card ${translation ? "has-translation" : ""}`;
+      wrapper.className = [
+        "sentence-card",
+        translation ? "has-translation" : "",
+        translation && !state.showTranslations ? "has-translation-toggle" : "",
+      ]
+        .filter(Boolean)
+        .join(" ");
+
+      const sentenceMain = document.createElement("div");
+      sentenceMain.className = "sentence-main-row";
+      wrapper.append(sentenceMain);
 
       const button = document.createElement("button");
       button.type = "button";
@@ -430,14 +488,29 @@
         <span class="sentence-index">${index + 1}</span>
         <span class="sentence-text">${escapeHtml(text)}</span>
       `;
-      wrapper.append(button);
+      sentenceMain.append(button);
+
+      const sentenceTools = document.createElement("div");
+      sentenceTools.className = "sentence-tools";
+
+      const copyButton = document.createElement("button");
+      copyButton.type = "button";
+      copyButton.className = "sentence-copy-button copy-icon-button";
+      copyButton.title = `${index + 1}번 문장과 위치 복사`;
+      copyButton.setAttribute("aria-label", copyButton.title);
+      copyButton.addEventListener("click", (event) => {
+        event.stopPropagation();
+        copyEntryReference(`${index + 1}번 문장`, text);
+      });
+      sentenceTools.append(copyButton);
+      sentenceMain.append(sentenceTools);
 
       if (translation) {
         if (!state.showTranslations) {
           const toggle = document.createElement("button");
           toggle.type = "button";
           toggle.className = "translation-toggle";
-          toggle.textContent = isTranslationOpen ? "뜻 닫기" : "뜻";
+          toggle.textContent = isTranslationOpen ? "접기" : "번역";
           toggle.setAttribute("aria-expanded", isTranslationOpen ? "true" : "false");
           toggle.addEventListener("click", () => {
             if (openTranslations.has(translationKey)) {
@@ -447,7 +520,7 @@
             }
             renderAnswer();
           });
-          wrapper.append(toggle);
+          sentenceTools.append(toggle);
         }
 
         const translationText = document.createElement("p");
@@ -613,10 +686,48 @@
 
   function speakFromClick(event) {
     const button = event.target.closest("[data-speak-text]");
-    if (!button) {
+    if (!button || hasTextSelection()) {
       return;
     }
     playSingle(button.dataset.speakText, button);
+  }
+
+  function hasTextSelection() {
+    return Boolean(window.getSelection?.()?.toString().trim());
+  }
+
+  function copyEntryReference(label, text) {
+    const entry = getSelectedEntry();
+    const fileName = entry.sourceFile || `${entry.fileTitle}.md`;
+    const content = `[${fileName} | Set ${entry.set} | Type ${entry.type} | ${label}] ${text}`;
+
+    writeClipboard(content)
+      .then(() => setStatus("위치와 문장을 복사했습니다."))
+      .catch(() => setStatus("복사에 실패했습니다."));
+  }
+
+  async function writeClipboard(text) {
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch {
+        // Local file pages can block the modern clipboard API, so use the browser fallback.
+      }
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.append(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    if (!copied) {
+      throw new Error("Clipboard copy failed");
+    }
   }
 
   function playSingle(text, button) {
@@ -645,7 +756,14 @@
           setStatus("Ready");
         }
       };
-      utterance.onerror = () => {
+      utterance.onerror = (event) => {
+        if (
+          currentSession !== sessionId ||
+          event.error === "canceled" ||
+          event.error === "interrupted"
+        ) {
+          return;
+        }
         clearActiveButton();
         setStatus("TTS 재생에 실패했습니다.");
       };
@@ -689,7 +807,14 @@
         }
         run();
       };
-      utterance.onerror = () => {
+      utterance.onerror = (event) => {
+        if (
+          currentSession !== sessionId ||
+          event.error === "canceled" ||
+          event.error === "interrupted"
+        ) {
+          return;
+        }
         clearActiveButton();
         setStatus("TTS 재생에 실패했습니다.");
       };
@@ -740,12 +865,14 @@
     activeButton = button || null;
     if (activeButton) {
       activeButton.classList.add("is-speaking");
+      activeButton.closest(".sentence-card")?.classList.add("is-speaking");
       activeButton.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
   }
 
   function clearActiveButton() {
     if (activeButton) {
+      activeButton.closest(".sentence-card")?.classList.remove("is-speaking");
       activeButton.classList.remove("is-speaking");
       activeButton = null;
     }
@@ -753,6 +880,9 @@
 
   function setStatus(text) {
     elements.statusText.textContent = text;
+    if (elements.statusBar) {
+      elements.statusBar.hidden = text === "Ready";
+    }
   }
 
   function unique(items) {
@@ -802,5 +932,18 @@
     });
   }
 
+  function registerServiceWorker() {
+    if (!("serviceWorker" in navigator) || !/^https?:$/.test(window.location.protocol)) {
+      return;
+    }
+
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js").catch(() => {
+        // The viewer still works online when service worker registration is unavailable.
+      });
+    });
+  }
+
+  registerServiceWorker();
   init();
 })();
