@@ -8,6 +8,7 @@ on:
       - ".github/workflows/deploy-opic-study.yml"
       - "opic_obsidian/output/scripts/**"
       - "opic_obsidian/study-viewer/**"
+      - "opic_obsidian/study-viewer-minseok/**"
   workflow_dispatch:
 
 permissions:
@@ -37,7 +38,7 @@ jobs:
 
       - name: Prepare static site
         run: |
-          mkdir -p _site/icons
+          mkdir -p _site/icons _site/minseok/icons
           cp opic_obsidian/study-viewer/index.html _site/index.html
           cp opic_obsidian/study-viewer/compact.html _site/compact.html
           cp opic_obsidian/study-viewer/compact-app.js _site/compact-app.js
@@ -46,6 +47,14 @@ jobs:
           cp opic_obsidian/study-viewer/manifest.webmanifest _site/manifest.webmanifest
           cp opic_obsidian/study-viewer/service-worker.js _site/service-worker.js
           cp opic_obsidian/study-viewer/icons/*.png _site/icons/
+          cp opic_obsidian/study-viewer-minseok/index.html _site/minseok/index.html
+          cp opic_obsidian/study-viewer-minseok/compact.html _site/minseok/compact.html
+          cp opic_obsidian/study-viewer-minseok/compact-app.js _site/minseok/compact-app.js
+          cp opic_obsidian/study-viewer-minseok/compact-styles.css _site/minseok/compact-styles.css
+          cp opic_obsidian/study-viewer-minseok/data.js _site/minseok/data.js
+          cp opic_obsidian/study-viewer-minseok/manifest.webmanifest _site/minseok/manifest.webmanifest
+          cp opic_obsidian/study-viewer-minseok/service-worker.js _site/minseok/service-worker.js
+          cp opic_obsidian/study-viewer-minseok/icons/*.png _site/minseok/icons/
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages

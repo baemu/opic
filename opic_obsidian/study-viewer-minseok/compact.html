@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf9f5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Minseok OPIc" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Minseok OPIc Practice</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="stylesheet" href="./compact-styles.css" />
+  </head>
+  <body>
+    <main class="compact-shell">
+      <header class="app-header">
+        <div class="brand">
+          <h1>Minseok Practice</h1>
+          <p id="statsText">Loading...</p>
+        </div>
+
+        <button
+          id="settingsToggleBtn"
+          class="secondary-button icon-button settings-toggle"
+          type="button"
+          aria-label="음성 설정"
+          aria-controls="settingsPanel"
+          aria-expanded="false"
+          title="음성 설정"
+        >⚙</button>
+
+        <div id="settingsPanel" class="study-controls settings-panel" aria-label="읽기 설정" hidden>
+          <label class="control control-rate">
+            <span>속도 <output id="rateValue">0.90x</output></span>
+            <input id="rateInput" type="range" min="0.6" max="1.3" step="0.05" value="0.9" />
+          </label>
+
+          <label class="control control-volume">
+            <span>음량 <output id="volumeValue">100%</output></span>
+            <input id="volumeInput" type="range" min="0" max="1" step="0.05" value="1" />
+          </label>
+
+          <label class="control">
+            <span>반복</span>
+            <select id="repeatSelect">
+              <option value="1">1회</option>
+              <option value="2">2회</option>
+              <option value="3">3회</option>
+            </select>
+          </label>
+
+          <label class="control control-voice">
+            <span>영어 음성</span>
+            <select id="voiceSelect"></select>
+          </label>
+
+          <button id="updateDataBtn" class="secondary-button update-data-button" type="button">업데이트</button>
+        </div>
+      </header>
+
+      <nav class="file-nav" aria-label="스크립트 파일">
+        <div id="fileTabs" class="topic-tabs" aria-label="주제"></div>
+        <div id="versionTabs" class="version-tabs" aria-label="버전"></div>
+      </nav>
+
+      <section class="entry-nav" aria-label="문제 이동">
+        <div class="set-row">
+          <span class="nav-label">Set</span>
+          <div id="setTabs" class="set-tabs"></div>
+        </div>
+        <div class="type-row">
+          <span class="nav-label">Type</span>
+          <div id="typeGrid" class="type-grid"></div>
+        </div>
+        <div class="step-actions">
+          <button id="prevBtn" class="secondary-button icon-button" type="button" aria-label="이전 문제" title="이전 문제">←</button>
+          <button id="nextBtn" class="secondary-button icon-button" type="button" aria-label="다음 문제" title="다음 문제">→</button>
+          <button id="stopBtn" class="danger-button icon-button" type="button" aria-label="음성 정지" title="음성 정지">■</button>
+        </div>
+      </section>
+
+      <section class="study-grid">
+        <section class="question-pane">
+          <div class="pane-heading">
+            <div>
+              <p id="entryMeta" class="eyebrow">-</p>
+              <h2>Question</h2>
+            </div>
+            <div class="question-actions">
+              <button id="copyQuestionBtn" class="secondary-button copy-icon-button" type="button" aria-label="문제와 위치 복사" title="문제와 위치 복사"></button>
+              <button id="toggleQuestionTranslationBtn" class="secondary-button" type="button">번역</button>
+              <button id="playQuestionBtn" class="primary-button" type="button">▶ 듣기</button>
+            </div>
+          </div>
+          <button id="questionFullButton" class="question-card" type="button"></button>
+          <p id="questionTranslationText" class="question-translation-text" hidden></p>
+        </section>
+
+        <section class="answer-pane">
+          <div class="pane-heading">
+            <div>
+              <p id="answerMeta" class="eyebrow">Answer</p>
+              <h2 id="answerTitle">말하기용 답변</h2>
+            </div>
+            <div class="answer-actions">
+              <div class="mode-switch" role="tablist" aria-label="답변 보기">
+                <button type="button" class="mode-button" data-mode="speaking">말하기용</button>
+                <button type="button" class="mode-button" data-mode="final">최종 답변</button>
+              </div>
+              <button id="toggleTranslationsBtn" class="secondary-button" type="button">번역</button>
+              <button id="playAnswerBtn" class="primary-button" type="button">▶ 전체 듣기</button>
+            </div>
+          </div>
+          <div id="answerLines" class="sentence-list answer-list"></div>
+        </section>
+      </section>
+
+      <footer class="status-bar" aria-live="polite" hidden>
+        <span id="statusText">Ready</span>
+      </footer>
+    </main>
+
+    <script src="./data.js"></script>
+    <script src="./compact-app.js"></script>
+  </body>
+</html>

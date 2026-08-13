@@ -9,9 +9,11 @@
 /opic_obsidian/*
 !/opic_obsidian/output/
 !/opic_obsidian/study-viewer/
+!/opic_obsidian/study-viewer-minseok/
 
 /opic_obsidian/output/*
 !/opic_obsidian/output/scripts/
 !/opic_obsidian/output/scripts/**
 
 !/opic_obsidian/study-viewer/**
+!/opic_obsidian/study-viewer-minseok/**
