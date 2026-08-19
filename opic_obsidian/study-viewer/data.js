@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-19T08:27:56.355Z",
+  "generatedAt": "2026-08-19T08:31:52.145Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -4640,73 +4640,74 @@ window.OPIC_STUDY_DATA = {
             "Ask me 3 questions about the park that I go to."
           ],
           "finalSentences": [
-            "Oh, you also enjoy going to the park?",
-            "That sounds nice.",
-            "I have a few questions about the park you usually go to.",
-            "First, where is the park located?",
-            "Is it close to your home or school?",
-            "Second, what do you like most about that park?",
-            "Is it quiet, clean, or good for walking?",
-            "Third, what do you usually do when you go there?",
-            "Do you walk alone, meet friends, or just sit and relax?",
-            "It sounds like a nice place, so maybe I should visit it someday."
+            "Hi, I heard you often go to a park.",
+            "I am looking for a nice park to visit, so I have three questions.",
+            "First, where is the park?",
+            "Second, why do you like it?",
+            "I like quiet parks with good walking paths.",
+            "Third, what do you usually do there?",
+            "I usually enjoy walking and taking pictures at parks.",
+            "Thanks for telling me about it.",
+            "I would like to visit that park someday."
           ],
           "speakingChunks": [
-            "Oh, you also enjoy going to the park?",
-            "I have a few questions.",
-            "First, where is the park located?",
-            "Second, what do you like most about it?",
+            "Hi, I heard you often go to a park.",
+            "I am looking for a nice park to visit, so I have three questions.",
+            "First, where is the park?",
+            "Second, why do you like it?",
+            "I like quiet parks with good walking paths.",
             "Third, what do you usually do there?",
-            "Maybe I should visit it someday."
+            "I usually enjoy walking and taking pictures at parks.",
+            "Thanks for telling me about it.",
+            "I would like to visit that park someday."
           ],
           "speakingTranslations": [
-            "오, 너도 공원에 가는 것을 좋아해?",
-            "네가 보통 가는 공원에 대해 몇 가지 질문이 있어.",
+            "안녕, 네가 공원에 자주 간다고 들었어.",
+            "나도 가 볼 만한 좋은 공원을 찾고 있어서 세 가지 물어볼 게 있어.",
             "첫째, 그 공원은 어디에 있어?",
-            "둘째, 그곳에서 무엇을 가장 좋아하나요?",
+            "둘째, 그 공원을 왜 좋아해?",
+            "나는 산책로가 잘 되어 있는 조용한 공원을 좋아해.",
             "셋째, 그곳에서 보통 무엇을 하나요?",
-            "좋은 장소인 것 같아서 나도 언젠가 가 봐야 할 것 같아."
+            "나는 보통 공원에서 산책하고 사진 찍는 것을 좋아해.",
+            "그 공원에 관해 이야기해 줘서 고마워.",
+            "나도 언젠가 그 공원에 가 보고 싶어."
           ],
           "translations": [
             {
-              "english": "Oh, you also enjoy going to the park?",
-              "korean": "오, 너도 공원에 가는 것을 좋아해?"
+              "english": "Hi, I heard you often go to a park.",
+              "korean": "안녕, 네가 공원에 자주 간다고 들었어."
             },
             {
-              "english": "That sounds nice.",
-              "korean": "좋은데."
+              "english": "I am looking for a nice park to visit, so I have three questions.",
+              "korean": "나도 가 볼 만한 좋은 공원을 찾고 있어서 세 가지 물어볼 게 있어."
             },
             {
-              "english": "I have a few questions about the park you usually go to.",
-              "korean": "네가 보통 가는 공원에 대해 몇 가지 질문이 있어."
-            },
-            {
-              "english": "First, where is the park located?",
+              "english": "First, where is the park?",
               "korean": "첫째, 그 공원은 어디에 있어?"
             },
             {
-              "english": "Is it close to your home or school?",
-              "korean": "집이나 학교에서 가까워?"
+              "english": "Second, why do you like it?",
+              "korean": "둘째, 그 공원을 왜 좋아해?"
             },
             {
-              "english": "Second, what do you like most about that park?",
-              "korean": "둘째, 그 공원에서 가장 좋아하는 점은 뭐야?"
+              "english": "I like quiet parks with good walking paths.",
+              "korean": "나는 산책로가 잘 되어 있는 조용한 공원을 좋아해."
             },
             {
-              "english": "Is it quiet, clean, or good for walking?",
-              "korean": "조용하거나 깨끗하거나 걷기에 좋아?"
+              "english": "Third, what do you usually do there?",
+              "korean": "셋째, 그곳에서 보통 무엇을 해?"
             },
             {
-              "english": "Third, what do you usually do when you go there?",
-              "korean": "셋째, 그곳에 가면 보통 무엇을 해?"
+              "english": "I usually enjoy walking and taking pictures at parks.",
+              "korean": "나는 보통 공원에서 산책하고 사진 찍는 것을 좋아해."
             },
             {
-              "english": "Do you walk alone, meet friends, or just sit and relax?",
-              "korean": "혼자 걷거나, 친구를 만나거나, 그냥 앉아서 쉬어?"
+              "english": "Thanks for telling me about it.",
+              "korean": "그 공원에 관해 이야기해 줘서 고마워."
             },
             {
-              "english": "It sounds like a nice place, so maybe I should visit it someday.",
-              "korean": "좋은 장소인 것 같아서 나도 언젠가 가 봐야 할 것 같아."
+              "english": "I would like to visit that park someday.",
+              "korean": "나도 언젠가 그 공원에 가 보고 싶어."
             }
           ]
         },
@@ -12018,9 +12019,9 @@ window.OPIC_STUDY_DATA = {
     "entries": 145,
     "questions": 237,
     "questionTranslations": 145,
-    "finalSentences": 1138,
-    "speakingChunks": 1472,
-    "speakingTranslations": 1472,
-    "translations": 1138
+    "finalSentences": 1137,
+    "speakingChunks": 1475,
+    "speakingTranslations": 1475,
+    "translations": 1137
   }
 };
