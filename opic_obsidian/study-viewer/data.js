@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-10T16:42:36.697Z",
+  "generatedAt": "2026-08-19T08:08:20.163Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -4306,63 +4306,67 @@ window.OPIC_STUDY_DATA = {
             "Describe this park by telling me what it looks like."
           ],
           "finalSentences": [
-            "My favorite park is a small park near my home.",
-            "It is not huge, but it is clean and very peaceful.",
-            "There are many trees, a grass area, a walking path, and some benches.",
-            "What I really like about this park is that it feels open and quiet.",
-            "Whenever I go there, I can walk slowly and clear my mind.",
-            "Sometimes I go alone, and sometimes I go with a friend and talk on a bench.",
-            "It is simple, but it makes me feel comfortable.",
-            "So when I think of my favorite park, this place comes to my mind first."
+            "My favorite park is near my home.",
+            "It is clean, quiet, and has a lot of open space.",
+            "There are many trees, lots of grass, and a walking path.",
+            "There are also some benches where people can sit and rest.",
+            "I often walk slowly and enjoy the fresh air.",
+            "Sometimes I go alone, and sometimes I go with a friend.",
+            "I always feel relaxed when I go there.",
+            "That is why it is my favorite park."
           ],
           "speakingChunks": [
-            "My favorite park is a small park near my home.",
-            "It is not huge, but it is clean and peaceful.",
-            "There are trees, grass, a walking path, and benches.",
-            "What I really like is the quiet atmosphere.",
-            "I can walk slowly and clear my mind.",
-            "So this park is perfect for me."
+            "My favorite park is near my home.",
+            "It is clean, quiet, and has a lot of open space.",
+            "There are many trees, lots of grass, and a walking path.",
+            "There are also some benches where people can sit and rest.",
+            "I often walk slowly and enjoy the fresh air.",
+            "Sometimes I go alone, and sometimes I go with a friend.",
+            "I always feel relaxed when I go there.",
+            "That is why it is my favorite park."
           ],
           "speakingTranslations": [
-            "내가 가장 좋아하는 공원은 우리 집 근처에 있는 작은 공원이다.",
-            "아주 크지는 않지만 깨끗하고 평화롭다.",
-            "그곳에는 나무와 잔디, 산책로, 벤치가 있다.",
-            "내가 정말 좋아하는 점은 조용한 분위기다.",
-            "그곳에 갈 때마다 나는 천천히 걸으면서 머리를 식힐 수 있다.",
-            "그래서 이 공원은 나에게 딱 맞는 곳이다."
+            "제가 가장 좋아하는 공원은 집 근처에 있습니다.",
+            "그 공원은 깨끗하고 조용하며 탁 트인 공간이 많습니다.",
+            "나무와 잔디가 많고 산책로도 있습니다.",
+            "사람들이 앉아서 쉴 수 있는 벤치도 있습니다.",
+            "저는 자주 천천히 걸으며 맑은 공기를 즐깁니다.",
+            "가끔은 혼자 가고, 가끔은 친구와 함께 갑니다.",
+            "그곳에 가면 항상 마음이 편안해집니다.",
+            "그래서 그곳이 제가 가장 좋아하는 공원입니다."
           ],
           "translations": [
             {
-              "english": "My favorite park is a small park near my home.",
-              "korean": "내가 가장 좋아하는 공원은 우리 집 근처에 있는 작은 공원이다."
+              "english": "My favorite park is near my home.",
+              "korean": "제가 가장 좋아하는 공원은 집 근처에 있습니다."
             },
             {
-              "english": "It is not huge, but it is clean and very peaceful.",
-              "korean": "그곳은 아주 크지는 않지만 깨끗하고 매우 평화롭다."
+              "english": "It is clean, quiet, and has a lot of open space.",
+              "korean": "그 공원은 깨끗하고 조용하며 탁 트인 공간이 많습니다."
             },
             {
-              "english": "There are many trees, a grass area, a walking path, and some benches.",
-              "korean": "그곳에는 많은 나무와 잔디밭, 산책로, 그리고 벤치들이 있다."
+              "english": "There are many trees, lots of grass, and a walking path.",
+              "korean": "나무와 잔디가 많고 산책로도 있습니다."
             },
             {
-              "english": "What I really like about this park is that it feels open and quiet.",
-              "korean": "내가 이 공원에서 정말 좋아하는 점은 탁 트이고 조용한 느낌이 든다는 것이다."
+              "english": "There are also some benches where people can sit and rest.",
+              "korean": "사람들이 앉아서 쉴 수 있는 벤치도 있습니다."
             },
             {
-              "english": "Whenever I go there, I can walk slowly and clear my mind.",
-              "korean": "그곳에 갈 때마다 나는 천천히 걸으면서 머리를 식힐 수 있다."
+              "english": "I often walk slowly and enjoy the fresh air.",
+              "korean": "저는 자주 천천히 걸으며 맑은 공기를 즐깁니다."
             },
             {
-              "english": "Sometimes I go alone, and sometimes I go with a friend and talk on a bench.",
-              "korean": "가끔은 혼자 가고, 가끔은 친구와 함께 가서 벤치에 앉아 이야기를 나눈다."
+              "english": "Sometimes I go alone, and sometimes I go with a friend.",
+              "korean": "가끔은 혼자 가고, 가끔은 친구와 함께 갑니다."
             },
             {
-              "english": "It is simple, but it makes me feel comfortable.",
-              "korean": "그곳은 단순한 장소이지만 나를 편안하게 해 준다."
+              "english": "I always feel relaxed when I go there.",
+              "korean": "그곳에 가면 항상 마음이 편안해집니다."
             },
             {
-              "english": "So when I think of my favorite park, this place comes to my mind first.",
-              "korean": "그래서 내가 가장 좋아하는 공원을 생각하면 이곳이 가장 먼저 떠오른다."
+              "english": "That is why it is my favorite park.",
+              "korean": "그래서 그곳이 제가 가장 좋아하는 공원입니다."
             }
           ]
         },
@@ -4381,63 +4385,74 @@ window.OPIC_STUDY_DATA = {
             "What does a typical visit to the park consist of?"
           ],
           "finalSentences": [
-            "When I go to the park, I usually keep things very simple.",
-            "First, I walk around the park for a while and look at the trees and people.",
-            "If I go with a friend, we just walk and talk about our week.",
-            "After that, we often buy a drink nearby and sit on a bench.",
-            "I sometimes take a few pictures if the weather is nice.",
-            "I do not try to do too many things at the park.",
-            "For me, the best part is just spending time slowly.",
-            "That is why a typical park visit feels like a small break from my busy day."
+            "When I go to the park, I usually take a walk.",
+            "First, I walk around and enjoy the fresh air.",
+            "If I go alone, I listen to music.",
+            "If I go with a friend, we walk and talk together.",
+            "Then, I sometimes buy a drink and sit on a bench.",
+            "If the weather is nice, I take a few pictures.",
+            "I do not do anything special at the park.",
+            "I just relax and enjoy my time there.",
+            "It is a nice break from my busy day."
           ],
           "speakingChunks": [
-            "When I go to the park, I keep things simple.",
-            "First, I walk around for a while.",
-            "If I go with a friend, we talk about our week.",
-            "Then we buy a drink and sit on a bench.",
-            "I do not do too many things.",
-            "It feels like a small break."
+            "When I go to the park, I usually take a walk.",
+            "First, I walk around and enjoy the fresh air.",
+            "If I go alone, I listen to music.",
+            "If I go with a friend, we walk and talk together.",
+            "Then, I sometimes buy a drink and sit on a bench.",
+            "If the weather is nice, I take a few pictures.",
+            "I do not do anything special at the park.",
+            "I just relax and enjoy my time there.",
+            "It is a nice break from my busy day."
           ],
           "speakingTranslations": [
-            "나는 공원에 가면 간단하게 시간을 보낸다.",
-            "먼저 한동안 주변을 걸어 다닌다.",
-            "친구와 가면 서로 한 주 동안 있었던 일을 이야기한다.",
-            "그런 다음 음료를 사서 벤치에 앉는다.",
-            "나는 너무 많은 일을 하지는 않는다.",
-            "그래서 평범한 공원 방문도 바쁜 하루 속 작은 휴식처럼 느껴진다."
+            "저는 공원에 가면 보통 산책을 합니다.",
+            "먼저 공원을 걸어 다니며 맑은 공기를 즐깁니다.",
+            "혼자 가면 음악을 듣습니다.",
+            "친구와 함께 가면 걸으면서 이야기를 나눕니다.",
+            "그러고 나서 가끔 음료를 사서 벤치에 앉습니다.",
+            "날씨가 좋으면 사진을 몇 장 찍습니다.",
+            "저는 공원에서 특별한 일을 하지는 않습니다.",
+            "그곳에서 그저 편하게 쉬며 시간을 즐깁니다.",
+            "공원에서 보내는 시간은 바쁜 하루 중 좋은 휴식이 됩니다."
           ],
           "translations": [
             {
-              "english": "When I go to the park, I usually keep things very simple.",
-              "korean": "나는 공원에 갈 때 보통 아주 단순하게 시간을 보낸다."
+              "english": "When I go to the park, I usually take a walk.",
+              "korean": "저는 공원에 가면 보통 산책을 합니다."
             },
             {
-              "english": "First, I walk around the park for a while and look at the trees and people.",
-              "korean": "먼저 나는 공원을 잠시 걸어 다니며 나무와 사람들을 바라본다."
+              "english": "First, I walk around and enjoy the fresh air.",
+              "korean": "먼저 공원을 걸어 다니며 맑은 공기를 즐깁니다."
             },
             {
-              "english": "If I go with a friend, we just walk and talk about our week.",
-              "korean": "친구와 함께 가면 우리는 그냥 걸으면서 한 주 동안 있었던 일에 대해 이야기한다."
+              "english": "If I go alone, I listen to music.",
+              "korean": "혼자 가면 음악을 듣습니다."
             },
             {
-              "english": "After that, we often buy a drink nearby and sit on a bench.",
-              "korean": "그 후에는 근처에서 음료를 사서 벤치에 앉는 경우가 많다."
+              "english": "If I go with a friend, we walk and talk together.",
+              "korean": "친구와 함께 가면 걸으면서 이야기를 나눕니다."
             },
             {
-              "english": "I sometimes take a few pictures if the weather is nice.",
-              "korean": "날씨가 좋으면 가끔 사진도 몇 장 찍는다."
+              "english": "Then, I sometimes buy a drink and sit on a bench.",
+              "korean": "그러고 나서 가끔 음료를 사서 벤치에 앉습니다."
             },
             {
-              "english": "I do not try to do too many things at the park.",
-              "korean": "나는 공원에서 너무 많은 것을 하려고 하지 않는다."
+              "english": "If the weather is nice, I take a few pictures.",
+              "korean": "날씨가 좋으면 사진을 몇 장 찍습니다."
             },
             {
-              "english": "For me, the best part is just spending time slowly.",
-              "korean": "나에게 가장 좋은 점은 그저 천천히 시간을 보내는 것이다."
+              "english": "I do not do anything special at the park.",
+              "korean": "저는 공원에서 특별한 일을 하지는 않습니다."
             },
             {
-              "english": "That is why a typical park visit feels like a small break from my busy day.",
-              "korean": "그래서 평범한 공원 방문도 바쁜 하루 속 작은 휴식처럼 느껴진다."
+              "english": "I just relax and enjoy my time there.",
+              "korean": "그곳에서 그저 편하게 쉬며 시간을 즐깁니다."
+            },
+            {
+              "english": "It is a nice break from my busy day.",
+              "korean": "공원에서 보내는 시간은 바쁜 하루 중 좋은 휴식이 됩니다."
             }
           ]
         },
@@ -4455,63 +4470,67 @@ window.OPIC_STUDY_DATA = {
             "Describe your experience the last time you went to the park."
           ],
           "finalSentences": [
-            "The last time I went to the park was on a weekend afternoon.",
-            "I went there with one of my close friends because the weather was really nice.",
-            "We met near the entrance and walked along the path slowly.",
-            "We looked around, took a few pictures, and talked about school and daily life.",
-            "After walking for a while, we sat on a bench and had some drinks.",
-            "Nothing special happened, but that was actually why I liked it.",
-            "I felt relaxed because we did not have any strict plan.",
-            "So that park visit was simple, but it was very memorable for me."
+            "The last time I went to the park was last weekend.",
+            "I went to a park near my home with a close friend.",
+            "The weather was nice, so we walked slowly along the path.",
+            "We took a few pictures and talked about our week.",
+            "After that, we sat on a bench and had a drink.",
+            "We did not have any special plans.",
+            "We just walked, talked, and relaxed.",
+            "It was a simple visit, but I really enjoyed it."
           ],
           "speakingChunks": [
-            "The last time I went to the park was on a weekend afternoon.",
-            "I went with a close friend.",
-            "The weather was really nice.",
-            "We walked slowly, took pictures, and talked.",
-            "Then we sat on a bench and had drinks.",
-            "It was simple, but very relaxing."
+            "The last time I went to the park was last weekend.",
+            "I went to a park near my home with a close friend.",
+            "The weather was nice, so we walked slowly along the path.",
+            "We took a few pictures and talked about our week.",
+            "After that, we sat on a bench and had a drink.",
+            "We did not have any special plans.",
+            "We just walked, talked, and relaxed.",
+            "It was a simple visit, but I really enjoyed it."
           ],
           "speakingTranslations": [
-            "내가 마지막으로 공원에 간 것은 주말 오후였다.",
-            "나는 친한 친구와 함께 갔다.",
-            "날씨가 정말 좋아서 나는 친한 친구 한 명과 그곳에 갔다.",
-            "우리는 천천히 걸으며 사진을 찍고 이야기를 나눴다.",
-            "그런 다음 벤치에 앉아 음료를 마셨다.",
-            "단순한 시간이었지만 매우 편안했다."
+            "제가 마지막으로 공원에 갔던 때는 지난 주말이었습니다.",
+            "저는 친한 친구와 집 근처 공원에 갔습니다.",
+            "날씨가 좋아서 우리는 산책로를 따라 천천히 걸었습니다.",
+            "우리는 사진을 몇 장 찍고 한 주 동안 있었던 일에 관해 이야기했습니다.",
+            "그 후에는 벤치에 앉아서 음료를 마셨습니다.",
+            "우리에게 특별한 계획은 없었습니다.",
+            "우리는 그저 걷고, 이야기하고, 편하게 쉬었습니다.",
+            "단순한 공원 방문이었지만 정말 즐거웠습니다."
           ],
           "translations": [
             {
-              "english": "The last time I went to the park was on a weekend afternoon.",
-              "korean": "내가 마지막으로 공원에 간 것은 주말 오후였다."
+              "english": "The last time I went to the park was last weekend.",
+              "korean": "제가 마지막으로 공원에 갔던 때는 지난 주말이었습니다."
             },
             {
-              "english": "I went there with one of my close friends because the weather was really nice.",
-              "korean": "날씨가 정말 좋아서 나는 친한 친구 한 명과 그곳에 갔다."
+              "english": "I went to a park near my home with a close friend.",
+              "korean": "저는 친한 친구와 집 근처 공원에 갔습니다."
             },
             {
-              "english": "We met near the entrance and walked along the path slowly.",
-              "korean": "우리는 입구 근처에서 만나 산책로를 따라 천천히 걸었다."
+              "english": "The weather was nice, so we walked slowly along the path.",
+              "korean": "날씨가 좋아서 우리는 산책로를 따라 천천히 걸었습니다."
             },
             {
-              "english": "We looked around, took a few pictures, and talked about school and daily life.",
-              "korean": "우리는 주변을 둘러보고 사진을 몇 장 찍고 학교와 일상생활에 대해 이야기했다."
+              "english": "We took a few pictures and talked about our week.",
+              "korean": "우리는 사진을 몇 장 찍고 한 주 동안 있었던 일에 관해 이야기했습니다."
             },
             {
-              "english": "After walking for a while, we sat on a bench and had some drinks.",
-              "korean": "잠시 걷고 난 뒤 우리는 벤치에 앉아 음료를 마셨다."
+              "english": "After that, we sat on a bench and had a drink.",
+              "korean": "그 후에는 벤치에 앉아서 음료를 마셨습니다."
             },
             {
-              "english": "Nothing special happened, but that was actually why I liked it.",
-              "korean": "특별한 일은 없었지만, 사실 그래서 그 시간이 좋았다."
+              "english": "We did not have any special plans.",
+              "korean": "우리에게 특별한 계획은 없었습니다."
             },
             {
-              "english": "I felt relaxed because we did not have any strict plan.",
-              "korean": "정해진 계획이 없어서 나는 편안함을 느꼈다."
+              "english": "We just walked, talked, and relaxed.",
+              "korean": "우리는 그저 걷고, 이야기하고, 편하게 쉬었습니다."
             },
             {
-              "english": "So that park visit was simple, but it was very memorable for me.",
-              "korean": "그래서 그 공원 방문은 단순했지만 나에게는 매우 기억에 남았다."
+              "english": "It was a simple visit, but I really enjoyed it.",
+              "korean": "단순한 공원 방문이었지만 정말 즐거웠습니다."
             }
           ]
         },
@@ -11981,9 +12000,9 @@ window.OPIC_STUDY_DATA = {
     "entries": 145,
     "questions": 237,
     "questionTranslations": 145,
-    "finalSentences": 1135,
-    "speakingChunks": 1461,
-    "speakingTranslations": 1461,
-    "translations": 1135
+    "finalSentences": 1136,
+    "speakingChunks": 1468,
+    "speakingTranslations": 1468,
+    "translations": 1136
   }
 };
