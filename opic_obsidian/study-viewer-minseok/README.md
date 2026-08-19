@@ -6,7 +6,7 @@
 
 아이폰과 아이패드에서는 Safari의 `공유 > 홈 화면에 추가`로 별도 앱처럼 설치할 수 있습니다.
 
-Markdown 수정 후 `OPIc-publish-minseok.bat`을 실행하면 데이터를 다시 만들고 공개 사이트에 반영합니다.
+Markdown 수정 후 `OPIc-publish-minseok.bat`을 실행하면 데이터를 다시 만들고, 공개 사이트 배포가 끝난 뒤 최신 화면을 엽니다.
 
 ## 사용
 

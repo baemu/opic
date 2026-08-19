@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = "opic-practice-v2";
+const CACHE_NAME = "opic-practice-v3";
 const APP_SHELL = [
   "./index.html",
   "./compact.html",
@@ -37,17 +37,23 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  const cacheUrl = new URL(request.url);
+  cacheUrl.search = "";
+  const cacheRequest = new Request(cacheUrl.toString(), {
+    credentials: "same-origin",
+  });
+
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: "no-store" })
       .then((response) => {
         if (response.ok) {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          caches.open(CACHE_NAME).then((cache) => cache.put(cacheRequest, copy));
         }
         return response;
       })
       .catch(async () => {
-        const cached = await caches.match(request, { ignoreSearch: true });
+        const cached = await caches.match(cacheRequest);
         if (cached) {
           return cached;
         }

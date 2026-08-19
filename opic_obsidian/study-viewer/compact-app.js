@@ -601,6 +601,13 @@
       return;
     }
 
+    if (window.location.hostname === "baemu.github.io") {
+      setStatus(
+        "휴대폰 공개 화면까지 반영하려면 PC에서 study-viewer/OPIc-publish.bat을 실행하세요.",
+      );
+      return;
+    }
+
     const originalText = elements.updateDataBtn.textContent;
     elements.updateDataBtn.disabled = true;
     elements.updateDataBtn.textContent = "업데이트 중";
@@ -941,9 +948,12 @@
     }
 
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./service-worker.js").catch(() => {
-        // The viewer still works online when service worker registration is unavailable.
-      });
+      navigator.serviceWorker
+        .register("./service-worker.js", { updateViaCache: "none" })
+        .then((registration) => registration.update())
+        .catch(() => {
+          // The viewer still works online when service worker registration is unavailable.
+        });
     });
   }
 

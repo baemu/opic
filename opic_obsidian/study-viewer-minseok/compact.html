@@ -124,7 +124,25 @@
       </footer>
     </main>
 
-    <script src="./data.js"></script>
-    <script src="./compact-app.js"></script>
+    <script>
+      (() => {
+        const requestedVersion = new URLSearchParams(window.location.search).get("v");
+        const assetVersion =
+          window.location.protocol === "file:" ? "" : requestedVersion || String(Date.now());
+        const suffix = assetVersion ? `?v=${encodeURIComponent(assetVersion)}` : "";
+        const dataScript = document.createElement("script");
+
+        const loadApp = () => {
+          const appScript = document.createElement("script");
+          appScript.src = `./compact-app.js${suffix}`;
+          document.body.append(appScript);
+        };
+
+        dataScript.src = `./data.js${suffix}`;
+        dataScript.addEventListener("load", loadApp, { once: true });
+        dataScript.addEventListener("error", loadApp, { once: true });
+        document.body.append(dataScript);
+      })();
+    </script>
   </body>
 </html>

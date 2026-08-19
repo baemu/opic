@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-19T08:08:20.163Z",
+  "generatedAt": "2026-08-19T08:27:56.355Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -4548,63 +4548,81 @@ window.OPIC_STUDY_DATA = {
             "Explain a comical, unexpected, or interesting park experience."
           ],
           "finalSentences": [
-            "One funny experience I remember happened at a park with my friend.",
-            "It was a spring weekend afternoon, and we were sitting on the grass with some drinks.",
-            "At first, the weather was perfect, so we were just relaxing.",
-            "But suddenly, a strong wind started to blow.",
-            "Our mat and some small things began to move, so we both jumped up to grab them.",
-            "My friend was like, \"Wait, catch that first!\" It was a little embarrassing, but we laughed so much.",
-            "Nothing serious happened, but the sudden wind made the day unforgettable.",
-            "I still remember that moment very clearly."
+            "I had a funny experience at the park with my friend.",
+            "One spring afternoon, we were sitting on the grass and having a drink.",
+            "The weather was nice, so we were relaxing.",
+            "But suddenly, a strong wind started blowing.",
+            "Our mat and some small things started to blow away.",
+            "We jumped up and ran to get them.",
+            "My friend shouted, “Catch that!”",
+            "We were surprised, but soon we started laughing.",
+            "Luckily, we did not lose anything.",
+            "It was a funny experience, and I still remember it."
           ],
           "speakingChunks": [
-            "One funny park experience happened with my friend.",
-            "We were sitting on the grass with drinks.",
-            "Suddenly, a strong wind started to blow.",
-            "Our mat and small things moved away.",
-            "My friend said, \"Wait, catch that first!\"",
-            "We laughed a lot."
+            "I had a funny experience at the park with my friend.",
+            "One spring afternoon, we were sitting on the grass and having a drink.",
+            "The weather was nice, so we were relaxing.",
+            "But suddenly, a strong wind started blowing.",
+            "Our mat and some small things started to blow away.",
+            "We jumped up and ran to get them.",
+            "My friend shouted, “Catch that!”",
+            "We were surprised, but soon we started laughing.",
+            "Luckily, we did not lose anything.",
+            "It was a funny experience, and I still remember it."
           ],
           "speakingTranslations": [
-            "친구와 공원에 갔을 때 재미있는 일이 한 번 있었다.",
-            "우리는 음료를 들고 잔디밭에 앉아 있었다.",
-            "그런데 갑자기 강한 바람이 불기 시작했다.",
-            "우리의 돗자리와 작은 물건들이 날아갔다.",
-            "친구가 \"잠깐, 저것부터 잡아!\"라고 말했다.",
-            "우리는 한참 웃었다."
+            "저는 친구와 공원에서 재미있는 일을 경험했습니다.",
+            "어느 봄날 오후, 우리는 잔디밭에 앉아 음료를 마시고 있었습니다.",
+            "날씨가 좋아서 우리는 편하게 쉬고 있었습니다.",
+            "그런데 갑자기 바람이 매우 강하게 불었습니다.",
+            "우리의 돗자리와 작은 물건들이 바람에 날아가기 시작했습니다.",
+            "우리는 벌떡 일어나 그것들을 잡으러 뛰어갔습니다.",
+            "친구가 “저거 잡아!”라고 소리쳤습니다.",
+            "우리는 놀랐지만 곧 웃기 시작했습니다.",
+            "다행히 잃어버린 물건은 없었습니다.",
+            "재미있는 경험이었고, 저는 아직도 그 일을 기억합니다."
           ],
           "translations": [
             {
-              "english": "One funny experience I remember happened at a park with my friend.",
-              "korean": "내가 기억하는 재미있는 경험 하나는 친구와 공원에 갔을 때 일어났다."
+              "english": "I had a funny experience at the park with my friend.",
+              "korean": "저는 친구와 공원에서 재미있는 일을 경험했습니다."
             },
             {
-              "english": "It was a spring weekend afternoon, and we were sitting on the grass with some drinks.",
-              "korean": "봄 주말 오후였고, 우리는 음료를 들고 잔디밭에 앉아 있었다."
+              "english": "One spring afternoon, we were sitting on the grass and having a drink.",
+              "korean": "어느 봄날 오후, 우리는 잔디밭에 앉아 음료를 마시고 있었습니다."
             },
             {
-              "english": "At first, the weather was perfect, so we were just relaxing.",
-              "korean": "처음에는 날씨가 완벽해서 우리는 그냥 쉬고 있었다."
+              "english": "The weather was nice, so we were relaxing.",
+              "korean": "날씨가 좋아서 우리는 편하게 쉬고 있었습니다."
             },
             {
-              "english": "But suddenly, a strong wind started to blow.",
-              "korean": "그런데 갑자기 강한 바람이 불기 시작했다."
+              "english": "But suddenly, a strong wind started blowing.",
+              "korean": "그런데 갑자기 바람이 매우 강하게 불었습니다."
             },
             {
-              "english": "Our mat and some small things began to move, so we both jumped up to grab them.",
-              "korean": "우리 돗자리와 작은 물건들이 움직이기 시작해서 우리는 둘 다 그것들을 잡으려고 벌떡 일어났다."
+              "english": "Our mat and some small things started to blow away.",
+              "korean": "우리의 돗자리와 작은 물건들이 바람에 날아가기 시작했습니다."
             },
             {
-              "english": "My friend was like, \"Wait, catch that first!\" It was a little embarrassing, but we laughed so much.",
-              "korean": "친구가 “잠깐, 저거 먼저 잡아!”라고 말했는데, 조금 민망했지만 우리는 정말 많이 웃었다."
+              "english": "We jumped up and ran to get them.",
+              "korean": "우리는 벌떡 일어나 그것들을 잡으러 뛰어갔습니다."
             },
             {
-              "english": "Nothing serious happened, but the sudden wind made the day unforgettable.",
-              "korean": "심각한 일은 없었지만, 그 갑작스러운 바람 때문에 그날이 잊을 수 없는 날이 되었다."
+              "english": "My friend shouted, “Catch that!”",
+              "korean": "친구가 “저거 잡아!”라고 소리쳤습니다."
             },
             {
-              "english": "I still remember that moment very clearly.",
-              "korean": "나는 아직도 그 순간을 아주 선명하게 기억한다."
+              "english": "We were surprised, but soon we started laughing.",
+              "korean": "우리는 놀랐지만 곧 웃기 시작했습니다."
+            },
+            {
+              "english": "Luckily, we did not lose anything.",
+              "korean": "다행히 잃어버린 물건은 없었습니다."
+            },
+            {
+              "english": "It was a funny experience, and I still remember it.",
+              "korean": "재미있는 경험이었고, 저는 아직도 그 일을 기억합니다."
             }
           ]
         },
@@ -12000,9 +12018,9 @@ window.OPIC_STUDY_DATA = {
     "entries": 145,
     "questions": 237,
     "questionTranslations": 145,
-    "finalSentences": 1136,
-    "speakingChunks": 1468,
-    "speakingTranslations": 1468,
-    "translations": 1136
+    "finalSentences": 1138,
+    "speakingChunks": 1472,
+    "speakingTranslations": 1472,
+    "translations": 1138
   }
 };
