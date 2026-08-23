@@ -23,15 +23,20 @@
           <p id="statsText">Loading...</p>
         </div>
 
-        <button
-          id="settingsToggleBtn"
-          class="secondary-button icon-button settings-toggle"
-          type="button"
-          aria-label="음성 설정"
-          aria-controls="settingsPanel"
-          aria-expanded="false"
-          title="음성 설정"
-        >⚙</button>
+        <div class="header-actions">
+          <button id="practiceLaunchBtn" class="primary-button practice-launch-button" type="button">
+            실전 연습
+          </button>
+          <button
+            id="settingsToggleBtn"
+            class="secondary-button icon-button settings-toggle"
+            type="button"
+            aria-label="음성 설정"
+            aria-controls="settingsPanel"
+            aria-expanded="false"
+            title="음성 설정"
+          >⚙</button>
+        </div>
 
         <div id="settingsPanel" class="study-controls settings-panel" aria-label="읽기 설정" hidden>
           <label class="control control-rate">
@@ -134,6 +139,107 @@
       <footer class="status-bar" aria-live="polite" hidden>
         <span id="statusText">Ready</span>
       </footer>
+
+      <section
+        id="practiceOverlay"
+        class="practice-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="practiceTitle"
+        hidden
+      >
+        <header class="practice-header">
+          <div class="practice-heading">
+            <p id="practiceMeta" class="practice-meta">-</p>
+            <h2 id="practiceTitle">실전 연습</h2>
+          </div>
+          <button
+            id="practiceExitBtn"
+            class="secondary-button icon-button practice-exit-button"
+            type="button"
+            aria-label="실전 연습 닫기"
+            title="실전 연습 닫기"
+          >×</button>
+        </header>
+
+        <section id="practiceRunView" class="practice-run-view">
+          <div class="practice-run-inner">
+            <p id="practicePhaseLabel" class="practice-phase-label">준비</p>
+            <div class="practice-listen-progress" aria-label="문제 청취 횟수">
+              <span class="practice-listen-step" data-practice-listen="1">1</span>
+              <span class="practice-listen-line" aria-hidden="true"></span>
+              <span class="practice-listen-step" data-practice-listen="2">2</span>
+            </div>
+            <h3 id="practiceMessage" aria-live="polite">문제를 들어보세요.</h3>
+            <div id="practiceTimer" class="practice-timer" hidden>
+              <span class="practice-live-dot" aria-hidden="true"></span>
+              <time id="practiceTimerValue" datetime="PT0S">00:00</time>
+            </div>
+            <div class="practice-run-actions">
+              <button id="practiceListenBtn" class="primary-button practice-main-button" type="button">
+                ▶ 문제 듣기 1/2
+              </button>
+              <button id="practiceAnswerStartBtn" class="secondary-button practice-main-button" type="button" hidden>
+                답변 시작
+              </button>
+              <button id="practiceFinishBtn" class="primary-button practice-main-button" type="button" hidden>
+                답변 완료
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="practiceReviewView" class="practice-review-view" hidden>
+          <header class="practice-review-header">
+            <div>
+              <p class="practice-phase-label">답변 완료</p>
+              <h3><span id="practiceResultTime">00:00</span><small id="practiceAttemptText">1회차</small></h3>
+            </div>
+            <div class="practice-review-actions">
+              <button id="practiceRetryBtn" class="secondary-button" type="button">다시 연습</button>
+              <button id="practiceReturnBtn" class="secondary-button" type="button">공부 화면</button>
+              <button id="practiceNextBtn" class="primary-button" type="button">다음 문제</button>
+            </div>
+          </header>
+
+          <div class="practice-review-grid">
+            <aside class="practice-review-context">
+              <section class="practice-review-section practice-category-section">
+                <p class="practice-review-label">유형</p>
+                <h4 id="practiceCategory">-</h4>
+                <p id="practiceFlow" class="practice-flow"></p>
+              </section>
+
+              <section class="practice-review-section">
+                <p class="practice-review-label">문제</p>
+                <p id="practiceQuestion" class="practice-question"></p>
+                <p id="practiceQuestionTranslation" class="practice-question-translation"></p>
+              </section>
+
+              <section class="practice-review-section">
+                <p class="practice-review-label">MP</p>
+                <div id="practiceMainPoints" class="practice-main-points"></div>
+              </section>
+
+              <fieldset id="practiceChecklist" class="practice-checklist">
+                <legend>자가 점검</legend>
+                <label><input type="checkbox" data-practice-check="mainPoint" /> 핵심 문장을 포함했다</label>
+                <label><input type="checkbox" data-practice-check="directAnswer" /> 질문에 바로 답했다</label>
+                <label><input type="checkbox" data-practice-check="structure" /> 유형별 답변 흐름을 지켰다</label>
+                <label><input type="checkbox" data-practice-check="fluent" /> 긴 멈춤 없이 끝까지 말했다</label>
+              </fieldset>
+            </aside>
+
+            <section class="practice-review-answer">
+              <div class="practice-answer-heading">
+                <p class="practice-review-label">확인</p>
+                <h3>최종 답변</h3>
+              </div>
+              <div id="practiceAnswerLines" class="practice-answer-list"></div>
+            </section>
+          </div>
+        </section>
+      </section>
     </main>
 
     <script>

@@ -3,6 +3,7 @@
 
   const data = window.OPIC_STUDY_DATA;
   const storageKey = "opic-compact-study-viewer";
+  const practiceStorageKey = "opic-practice-progress";
 
   const elements = {
     statsText: document.getElementById("statsText"),
@@ -21,6 +22,7 @@
     voiceSelect: document.getElementById("voiceSelect"),
     modeButtons: Array.from(document.querySelectorAll(".mode-button")),
     updateDataBtn: document.getElementById("updateDataBtn"),
+    practiceLaunchBtn: document.getElementById("practiceLaunchBtn"),
     settingsToggleBtn: document.getElementById("settingsToggleBtn"),
     settingsPanel: document.getElementById("settingsPanel"),
     entryMeta: document.getElementById("entryMeta"),
@@ -39,6 +41,32 @@
     playAnswerBtn: document.getElementById("playAnswerBtn"),
     statusBar: document.querySelector(".status-bar"),
     statusText: document.getElementById("statusText"),
+    practiceOverlay: document.getElementById("practiceOverlay"),
+    practiceMeta: document.getElementById("practiceMeta"),
+    practiceExitBtn: document.getElementById("practiceExitBtn"),
+    practiceRunView: document.getElementById("practiceRunView"),
+    practiceReviewView: document.getElementById("practiceReviewView"),
+    practicePhaseLabel: document.getElementById("practicePhaseLabel"),
+    practiceListenSteps: Array.from(document.querySelectorAll("[data-practice-listen]")),
+    practiceMessage: document.getElementById("practiceMessage"),
+    practiceTimer: document.getElementById("practiceTimer"),
+    practiceTimerValue: document.getElementById("practiceTimerValue"),
+    practiceListenBtn: document.getElementById("practiceListenBtn"),
+    practiceAnswerStartBtn: document.getElementById("practiceAnswerStartBtn"),
+    practiceFinishBtn: document.getElementById("practiceFinishBtn"),
+    practiceResultTime: document.getElementById("practiceResultTime"),
+    practiceAttemptText: document.getElementById("practiceAttemptText"),
+    practiceRetryBtn: document.getElementById("practiceRetryBtn"),
+    practiceReturnBtn: document.getElementById("practiceReturnBtn"),
+    practiceNextBtn: document.getElementById("practiceNextBtn"),
+    practiceCategory: document.getElementById("practiceCategory"),
+    practiceFlow: document.getElementById("practiceFlow"),
+    practiceQuestion: document.getElementById("practiceQuestion"),
+    practiceQuestionTranslation: document.getElementById("practiceQuestionTranslation"),
+    practiceMainPoints: document.getElementById("practiceMainPoints"),
+    practiceChecklist: document.getElementById("practiceChecklist"),
+    practiceCheckInputs: Array.from(document.querySelectorAll("[data-practice-check]")),
+    practiceAnswerLines: document.getElementById("practiceAnswerLines"),
   };
 
   const savedState = readSavedState();
@@ -59,6 +87,19 @@
   let sessionId = 0;
   let activeButton = null;
   let openTranslations = new Set();
+  const practiceProgress = readPracticeProgress();
+  const practice = {
+    open: false,
+    phase: "ready",
+    entryId: "",
+    listenCount: 0,
+    listeningNumber: 0,
+    answerStartedAt: 0,
+    elapsedMs: 0,
+    timerId: null,
+    attemptNumber: 0,
+    checks: {},
+  };
   const topicLabels = new Map([
     [1, "Family"],
     [2, "Park"],
@@ -94,6 +135,25 @@
       return JSON.parse(localStorage.getItem(storageKey) || "{}");
     } catch {
       return {};
+    }
+  }
+
+  function readPracticeProgress() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(practiceStorageKey) || "{}");
+      return saved && typeof saved.entries === "object" && saved.entries !== null
+        ? saved
+        : { version: 1, entries: {} };
+    } catch {
+      return { version: 1, entries: {} };
+    }
+  }
+
+  function savePracticeProgress() {
+    try {
+      localStorage.setItem(practiceStorageKey, JSON.stringify(practiceProgress));
+    } catch {
+      // Practice still works when private browsing blocks local storage.
     }
   }
 
@@ -199,6 +259,15 @@
     });
 
     elements.updateDataBtn?.addEventListener("click", updateData);
+    elements.practiceLaunchBtn?.addEventListener("click", openPractice);
+    elements.practiceExitBtn?.addEventListener("click", closePractice);
+    elements.practiceReturnBtn?.addEventListener("click", closePractice);
+    elements.practiceListenBtn?.addEventListener("click", playPracticeQuestion);
+    elements.practiceAnswerStartBtn?.addEventListener("click", startPracticeAnswer);
+    elements.practiceFinishBtn?.addEventListener("click", finishPracticeAnswer);
+    elements.practiceRetryBtn?.addEventListener("click", retryPractice);
+    elements.practiceNextBtn?.addEventListener("click", moveToNextPracticeEntry);
+    elements.practiceChecklist?.addEventListener("change", savePracticeChecks);
     elements.settingsToggleBtn?.addEventListener("click", (event) => {
       event.stopPropagation();
       const isOpen = elements.settingsToggleBtn.getAttribute("aria-expanded") === "true";
@@ -285,6 +354,12 @@
     });
 
     document.addEventListener("keydown", (event) => {
+      if (practice.open) {
+        if (event.key === "Escape") {
+          closePractice();
+        }
+        return;
+      }
       if (event.target instanceof HTMLInputElement || event.target instanceof HTMLSelectElement) {
         return;
       }
@@ -363,6 +438,416 @@
     }
     elements.settingsToggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
     elements.settingsPanel.hidden = !isOpen;
+  }
+
+  function openPractice() {
+    const entry = getSelectedEntry();
+    if (!entry || !elements.practiceOverlay) {
+      return;
+    }
+
+    cancelSpeechSession();
+    stopPracticeTimer();
+    setSettingsOpen(false);
+    resetPracticeState(entry);
+    practice.open = true;
+    document.body.classList.add("practice-open");
+    renderPractice();
+    window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+  }
+
+  function closePractice() {
+    if (!practice.open) {
+      return;
+    }
+
+    cancelSpeechSession();
+    stopPracticeTimer();
+    practice.open = false;
+    practice.phase = "ready";
+    document.body.classList.remove("practice-open");
+    renderPractice();
+    setStatus("Ready");
+    elements.practiceLaunchBtn?.focus();
+  }
+
+  function resetPracticeState(entry) {
+    stopPracticeTimer();
+    practice.phase = "ready";
+    practice.entryId = entry?.id || "";
+    practice.listenCount = 0;
+    practice.listeningNumber = 0;
+    practice.answerStartedAt = 0;
+    practice.elapsedMs = 0;
+    practice.attemptNumber = 0;
+    practice.checks = {};
+  }
+
+  function retryPractice() {
+    if (!practice.open) {
+      return;
+    }
+    cancelSpeechSession();
+    resetPracticeState(getPracticeEntry());
+    renderPractice();
+    window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+  }
+
+  function moveToNextPracticeEntry() {
+    const entries = getSelectedFile().entries;
+    const currentIndex = entries.findIndex((entry) => entry.id === practice.entryId);
+    if (currentIndex < 0 || currentIndex >= entries.length - 1) {
+      return;
+    }
+
+    cancelSpeechSession();
+    state.entryId = entries[currentIndex + 1].id;
+    saveState();
+    renderEntryNav();
+    renderEntry();
+    resetPracticeState(entries[currentIndex + 1]);
+    renderPractice();
+    window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+  }
+
+  function getPracticeEntry() {
+    const entries = getSelectedFile()?.entries || [];
+    return entries.find((entry) => entry.id === practice.entryId) || getSelectedEntry();
+  }
+
+  function getPracticeEntryKey(entry) {
+    return String(entry?.id || `${entry?.sourceFile || entry?.fileTitle}:${entry?.set}:${entry?.type}`);
+  }
+
+  function playPracticeQuestion() {
+    if (
+      !practice.open ||
+      !["ready", "between"].includes(practice.phase) ||
+      practice.listenCount >= 2
+    ) {
+      return;
+    }
+
+    const entry = getPracticeEntry();
+    if (!entry?.question || !canSpeak()) {
+      return;
+    }
+
+    const currentSession = beginSession();
+    const listenNumber = practice.listenCount + 1;
+    const entryId = entry.id;
+    practice.phase = "listening";
+    practice.listeningNumber = listenNumber;
+    renderPractice();
+
+    const utterance = makeUtterance(entry.question);
+    utterance.onend = () => {
+      if (
+        currentSession !== sessionId ||
+        !practice.open ||
+        practice.entryId !== entryId
+      ) {
+        return;
+      }
+
+      practice.listenCount = listenNumber;
+      practice.listeningNumber = 0;
+      if (listenNumber >= 2) {
+        startPracticeAnswer();
+        return;
+      }
+
+      practice.phase = "between";
+      renderPractice();
+      elements.practiceAnswerStartBtn?.focus();
+    };
+    utterance.onerror = (event) => {
+      if (
+        currentSession !== sessionId ||
+        event.error === "canceled" ||
+        event.error === "interrupted"
+      ) {
+        return;
+      }
+      practice.listeningNumber = 0;
+      practice.phase = practice.listenCount > 0 ? "between" : "ready";
+      renderPractice();
+      setStatus("TTS 재생에 실패했습니다.");
+    };
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function startPracticeAnswer() {
+    if (!practice.open || practice.listenCount < 1 || practice.phase === "answering") {
+      return;
+    }
+
+    cancelSpeechSession();
+    stopPracticeTimer();
+    practice.phase = "answering";
+    practice.answerStartedAt = Date.now();
+    practice.elapsedMs = 0;
+    practice.timerId = window.setInterval(updatePracticeTimer, 250);
+    renderPractice();
+    updatePracticeTimer();
+    elements.practiceFinishBtn?.focus();
+  }
+
+  function finishPracticeAnswer() {
+    if (!practice.open || practice.phase !== "answering") {
+      return;
+    }
+
+    practice.elapsedMs = Math.max(0, Date.now() - practice.answerStartedAt);
+    stopPracticeTimer();
+    practice.phase = "review";
+    practice.checks = {};
+
+    const entry = getPracticeEntry();
+    const key = getPracticeEntryKey(entry);
+    const previous = practiceProgress.entries[key] || {};
+    const record = {
+      ...previous,
+      attempts: Number(previous.attempts || 0) + 1,
+      lastDurationMs: practice.elapsedMs,
+      lastListenCount: practice.listenCount,
+      lastCompletedAt: new Date().toISOString(),
+      lastChecks: {},
+    };
+    practiceProgress.entries[key] = record;
+    practice.attemptNumber = record.attempts;
+    savePracticeProgress();
+    renderPractice();
+    window.requestAnimationFrame(() => elements.practiceRetryBtn?.focus());
+  }
+
+  function stopPracticeTimer() {
+    if (practice.timerId !== null) {
+      window.clearInterval(practice.timerId);
+      practice.timerId = null;
+    }
+  }
+
+  function updatePracticeTimer() {
+    if (practice.phase === "answering" && practice.answerStartedAt) {
+      practice.elapsedMs = Math.max(0, Date.now() - practice.answerStartedAt);
+    }
+    const value = formatPracticeDuration(practice.elapsedMs);
+    elements.practiceTimerValue.textContent = value;
+    elements.practiceTimerValue.setAttribute(
+      "datetime",
+      `PT${Math.floor(practice.elapsedMs / 1000)}S`,
+    );
+  }
+
+  function renderPractice() {
+    if (!elements.practiceOverlay) {
+      return;
+    }
+
+    elements.practiceOverlay.hidden = !practice.open;
+    if (!practice.open) {
+      return;
+    }
+
+    const entry = getPracticeEntry();
+    if (!entry) {
+      closePractice();
+      return;
+    }
+
+    const entries = getSelectedFile().entries;
+    const currentIndex = entries.findIndex((item) => item.id === entry.id);
+    elements.practiceMeta.textContent = `${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entries.length}`;
+    const isReview = practice.phase === "review";
+    elements.practiceRunView.hidden = isReview;
+    elements.practiceReviewView.hidden = !isReview;
+
+    if (isReview) {
+      renderPracticeReview(entry, currentIndex, entries.length);
+    } else {
+      renderPracticeRun();
+    }
+  }
+
+  function renderPracticeRun() {
+    const phaseContent = {
+      ready: { label: "준비", message: "문제를 들어보세요." },
+      listening: {
+        label: `${practice.listeningNumber}회차`,
+        message: "문제를 듣고 있습니다.",
+      },
+      between: { label: "1회 청취 완료", message: "한 번 더 듣거나 답변을 시작하세요." },
+      answering: { label: "답변 중", message: "답변하세요." },
+    }[practice.phase] || { label: "준비", message: "문제를 들어보세요." };
+
+    elements.practicePhaseLabel.textContent = phaseContent.label;
+    elements.practiceMessage.textContent = phaseContent.message;
+    elements.practiceTimer.hidden = practice.phase !== "answering";
+    elements.practiceListenBtn.hidden = practice.phase === "answering";
+    elements.practiceListenBtn.disabled = practice.phase === "listening";
+    elements.practiceAnswerStartBtn.hidden = practice.phase !== "between";
+    elements.practiceFinishBtn.hidden = practice.phase !== "answering";
+
+    if (practice.phase === "listening") {
+      elements.practiceListenBtn.textContent = `재생 중 ${practice.listeningNumber}/2`;
+    } else if (practice.listenCount === 0) {
+      elements.practiceListenBtn.textContent = "▶ 문제 듣기 1/2";
+    } else {
+      elements.practiceListenBtn.textContent = "▶ 한 번 더 듣기 2/2";
+    }
+
+    elements.practiceListenSteps.forEach((step) => {
+      const number = Number(step.dataset.practiceListen);
+      const isCurrent = practice.phase === "listening" && practice.listeningNumber === number;
+      step.classList.toggle("is-complete", number <= practice.listenCount);
+      step.classList.toggle("is-current", isCurrent);
+      step.setAttribute("aria-current", isCurrent ? "step" : "false");
+    });
+    updatePracticeTimer();
+  }
+
+  function renderPracticeReview(entry, currentIndex, entryCount) {
+    const details = getCategoryDetails(entry.category);
+    const mainPointIndexes = getFinalMainPointIndexes(entry);
+    const mainPointTexts = mainPointIndexes
+      .map((index) => entry.finalSentences?.[index])
+      .filter(Boolean);
+
+    if (!mainPointTexts.length && Array.isArray(entry.mainPointSentences)) {
+      mainPointTexts.push(...entry.mainPointSentences.filter(Boolean));
+    }
+
+    if (!mainPointTexts.length && entry.mainPoint) {
+      mainPointTexts.push(entry.mainPoint);
+    }
+
+    elements.practiceResultTime.textContent = formatPracticeDuration(practice.elapsedMs);
+    elements.practiceAttemptText.textContent = `${practice.attemptNumber}회차 완료`;
+    elements.practiceNextBtn.disabled = currentIndex >= entryCount - 1;
+    elements.practiceCategory.textContent = details.label;
+    elements.practiceFlow.textContent = details.flow;
+    elements.practiceQuestion.textContent = entry.question || "";
+    elements.practiceQuestionTranslation.textContent = entry.questionTranslation || "";
+    elements.practiceQuestionTranslation.hidden = !entry.questionTranslation;
+
+    elements.practiceMainPoints.innerHTML = "";
+    if (!mainPointTexts.length) {
+      const empty = document.createElement("p");
+      empty.className = "practice-empty";
+      empty.textContent = "정리된 MP 문장이 없습니다.";
+      elements.practiceMainPoints.append(empty);
+    } else {
+      mainPointTexts.forEach((text, index) => {
+        const item = document.createElement("p");
+        item.innerHTML = `<span>MP${mainPointTexts.length > 1 ? index + 1 : ""}</span>${escapeHtml(text)}`;
+        elements.practiceMainPoints.append(item);
+      });
+    }
+
+    elements.practiceCheckInputs.forEach((input) => {
+      input.checked = Boolean(practice.checks[input.dataset.practiceCheck]);
+    });
+    renderPracticeAnswer(entry, mainPointIndexes);
+  }
+
+  function renderPracticeAnswer(entry, mainPointIndexes) {
+    const mainPointSet = new Set(mainPointIndexes);
+    const sentences = entry.finalSentences || [];
+    elements.practiceAnswerLines.innerHTML = "";
+
+    sentences.forEach((text, index) => {
+      const card = document.createElement("article");
+      card.className = `practice-answer-card${mainPointSet.has(index) ? " is-main-point" : ""}`;
+
+      const english = document.createElement("div");
+      english.className = "practice-answer-english";
+      english.innerHTML = `
+        <span class="practice-answer-marker">
+          <span>${index + 1}</span>
+          ${mainPointSet.has(index) ? '<small title="Main Point · 핵심 문장">MP</small>' : ""}
+        </span>
+        <p>${escapeHtml(text)}</p>
+      `;
+      card.append(english);
+
+      const translation = findExactTranslation(entry, text);
+      if (translation) {
+        const korean = document.createElement("p");
+        korean.className = "practice-answer-translation";
+        korean.textContent = translation;
+        card.append(korean);
+      }
+      elements.practiceAnswerLines.append(card);
+    });
+  }
+
+  function savePracticeChecks(event) {
+    const input = event.target.closest("[data-practice-check]");
+    if (!input || practice.phase !== "review") {
+      return;
+    }
+
+    practice.checks[input.dataset.practiceCheck] = input.checked;
+    const entry = getPracticeEntry();
+    const record = practiceProgress.entries[getPracticeEntryKey(entry)];
+    if (record) {
+      record.lastChecks = { ...practice.checks };
+      savePracticeProgress();
+    }
+  }
+
+  function getFinalMainPointIndexes(entry) {
+    const sentences = entry?.finalSentences || [];
+    if (Array.isArray(entry?.mainPointSentenceIndexes)) {
+      const storedIndexes = [...new Set(entry.mainPointSentenceIndexes)].filter(
+        (index) => Number.isInteger(index) && index >= 0 && index < sentences.length,
+      );
+      if (storedIndexes.length) {
+        return storedIndexes;
+      }
+    }
+
+    if (Array.isArray(entry?.mainPointSentences)) {
+      const matchedIndexes = entry.mainPointSentences
+        .map((mainPointSentence) =>
+          sentences.findIndex(
+            (sentence) => normalizeEnglish(sentence) === normalizeEnglish(mainPointSentence),
+          ),
+        )
+        .filter((index) => index >= 0);
+      if (matchedIndexes.length) {
+        return [...new Set(matchedIndexes)];
+      }
+    }
+
+    const legacyIndex = Number(entry?.mainPointSentenceIndex);
+    return Number.isInteger(legacyIndex) && legacyIndex >= 0 && legacyIndex < sentences.length
+      ? [legacyIndex]
+      : [];
+  }
+
+  function findExactTranslation(entry, text) {
+    const normalizedText = normalizeEnglish(text);
+    const exact = (entry?.translations || []).find(
+      (pair) => normalizeEnglish(pair.english) === normalizedText,
+    );
+    return exact?.korean || "";
+  }
+
+  function formatPracticeDuration(milliseconds) {
+    const totalSeconds = Math.max(0, Math.floor(Number(milliseconds || 0) / 1000));
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  function cancelSpeechSession() {
+    sessionId += 1;
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
+    clearActiveButton();
   }
 
   function renderFiles() {

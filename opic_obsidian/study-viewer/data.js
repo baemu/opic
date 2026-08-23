@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-23T16:35:02.393Z",
+  "generatedAt": "2026-08-23T17:52:26.596Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {

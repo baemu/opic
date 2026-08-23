@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = "opic-practice-v3";
+const CACHE_NAME = "opic-practice-v4";
 const APP_SHELL = [
   "./index.html",
   "./compact.html",
