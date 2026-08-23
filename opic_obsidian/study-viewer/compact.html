@@ -163,7 +163,51 @@
         </header>
 
         <section id="practiceRunView" class="practice-run-view">
-          <div class="practice-run-inner">
+          <div id="practiceSetupView" class="practice-setup-view">
+            <div class="practice-setup-inner">
+              <p class="practice-phase-label">연습 방식</p>
+              <h3>실전 연습 시작</h3>
+
+              <div class="practice-kind-switch" role="group" aria-label="실전 연습 방식">
+                <button class="practice-kind-button" type="button" data-practice-kind="random" aria-pressed="true">
+                  랜덤 실전
+                </button>
+                <button class="practice-kind-button" type="button" data-practice-kind="selected" aria-pressed="false">
+                  선택 연습
+                </button>
+              </div>
+
+              <section id="practiceRandomPanel" class="practice-setup-panel">
+                <p id="practiceRandomSummary" class="practice-setup-summary">전체 문제 · 시간 제한 없음</p>
+              </section>
+
+              <section id="practiceSelectedPanel" class="practice-setup-panel" hidden>
+                <p id="practiceSelectedMeta" class="practice-selected-meta">-</p>
+                <p id="practiceSelectedQuestion" class="practice-selected-question"></p>
+
+                <fieldset class="practice-duration-fieldset">
+                  <legend>답변 시간</legend>
+                  <div class="practice-duration-presets">
+                    <button type="button" data-practice-duration="30">30초</button>
+                    <button type="button" data-practice-duration="45">45초</button>
+                    <button type="button" data-practice-duration="60">60초</button>
+                    <button type="button" data-practice-duration="90">90초</button>
+                  </div>
+                  <label class="practice-duration-custom">
+                    <span>직접 입력</span>
+                    <input id="practiceDurationInput" type="number" min="10" max="300" step="5" inputmode="numeric" value="60" />
+                    <span>초</span>
+                  </label>
+                </fieldset>
+              </section>
+
+              <button id="practiceSetupStartBtn" class="primary-button practice-main-button" type="button">
+                랜덤 문제 시작
+              </button>
+            </div>
+          </div>
+
+          <div id="practiceSessionView" class="practice-run-inner" hidden>
             <p id="practicePhaseLabel" class="practice-phase-label">준비</p>
             <div class="practice-listen-progress" aria-label="문제 청취 횟수">
               <span class="practice-listen-step" data-practice-listen="1">1</span>

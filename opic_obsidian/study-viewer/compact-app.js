@@ -46,6 +46,17 @@
     practiceExitBtn: document.getElementById("practiceExitBtn"),
     practiceRunView: document.getElementById("practiceRunView"),
     practiceReviewView: document.getElementById("practiceReviewView"),
+    practiceSetupView: document.getElementById("practiceSetupView"),
+    practiceSessionView: document.getElementById("practiceSessionView"),
+    practiceKindButtons: Array.from(document.querySelectorAll("[data-practice-kind]")),
+    practiceRandomPanel: document.getElementById("practiceRandomPanel"),
+    practiceRandomSummary: document.getElementById("practiceRandomSummary"),
+    practiceSelectedPanel: document.getElementById("practiceSelectedPanel"),
+    practiceSelectedMeta: document.getElementById("practiceSelectedMeta"),
+    practiceSelectedQuestion: document.getElementById("practiceSelectedQuestion"),
+    practiceDurationButtons: Array.from(document.querySelectorAll("[data-practice-duration]")),
+    practiceDurationInput: document.getElementById("practiceDurationInput"),
+    practiceSetupStartBtn: document.getElementById("practiceSetupStartBtn"),
     practicePhaseLabel: document.getElementById("practicePhaseLabel"),
     practiceListenSteps: Array.from(document.querySelectorAll("[data-practice-listen]")),
     practiceMessage: document.getElementById("practiceMessage"),
@@ -81,6 +92,10 @@
     showQuestionTranslation: Boolean(savedState.showQuestionTranslation),
     showTranslations: Boolean(savedState.showTranslations),
     lastFileByTopic: savedState.lastFileByTopic || {},
+    practiceDurationSec: Math.min(
+      300,
+      Math.max(10, Number(savedState.practiceDurationSec) || 60),
+    ),
   };
 
   let voices = [];
@@ -90,7 +105,12 @@
   const practiceProgress = readPracticeProgress();
   const practice = {
     open: false,
-    phase: "ready",
+    phase: "setup",
+    kind: "random",
+    durationSec: state.practiceDurationSec,
+    setupFileId: "",
+    setupEntryId: "",
+    fileId: "",
     entryId: "",
     listenCount: 0,
     listeningNumber: 0,
@@ -171,6 +191,7 @@
         showQuestionTranslation: state.showQuestionTranslation,
         showTranslations: state.showTranslations,
         lastFileByTopic: state.lastFileByTopic,
+        practiceDurationSec: state.practiceDurationSec,
       }),
     );
   }
@@ -262,6 +283,15 @@
     elements.practiceLaunchBtn?.addEventListener("click", openPractice);
     elements.practiceExitBtn?.addEventListener("click", closePractice);
     elements.practiceReturnBtn?.addEventListener("click", closePractice);
+    elements.practiceSetupStartBtn?.addEventListener("click", startPracticeFromSetup);
+    elements.practiceKindButtons.forEach((button) => {
+      button.addEventListener("click", () => setPracticeKind(button.dataset.practiceKind));
+    });
+    elements.practiceDurationButtons.forEach((button) => {
+      button.addEventListener("click", () => setPracticeDuration(button.dataset.practiceDuration));
+    });
+    elements.practiceDurationInput?.addEventListener("input", updatePracticeDurationFromInput);
+    elements.practiceDurationInput?.addEventListener("change", commitPracticeDurationInput);
     elements.practiceListenBtn?.addEventListener("click", playPracticeQuestion);
     elements.practiceAnswerStartBtn?.addEventListener("click", startPracticeAnswer);
     elements.practiceFinishBtn?.addEventListener("click", finishPracticeAnswer);
@@ -442,18 +472,23 @@
 
   function openPractice() {
     const entry = getSelectedEntry();
-    if (!entry || !elements.practiceOverlay) {
+    const file = getSelectedFile();
+    if (!entry || !file || !elements.practiceOverlay) {
       return;
     }
 
     cancelSpeechSession();
     stopPracticeTimer();
     setSettingsOpen(false);
-    resetPracticeState(entry);
+    practice.kind = "random";
+    practice.durationSec = state.practiceDurationSec;
+    practice.setupFileId = file.id;
+    practice.setupEntryId = entry.id;
+    resetPracticeState(entry, "setup", file.id);
     practice.open = true;
     document.body.classList.add("practice-open");
     renderPractice();
-    window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+    window.requestAnimationFrame(() => elements.practiceSetupStartBtn?.focus());
   }
 
   function closePractice() {
@@ -464,16 +499,17 @@
     cancelSpeechSession();
     stopPracticeTimer();
     practice.open = false;
-    practice.phase = "ready";
+    practice.phase = "setup";
     document.body.classList.remove("practice-open");
     renderPractice();
     setStatus("Ready");
     elements.practiceLaunchBtn?.focus();
   }
 
-  function resetPracticeState(entry) {
+  function resetPracticeState(entry, phase = "ready", fileId = practice.fileId || state.fileId) {
     stopPracticeTimer();
-    practice.phase = "ready";
+    practice.phase = phase;
+    practice.fileId = fileId || "";
     practice.entryId = entry?.id || "";
     practice.listenCount = 0;
     practice.listeningNumber = 0;
@@ -483,35 +519,141 @@
     practice.checks = {};
   }
 
+  function setPracticeKind(kind) {
+    if (!practice.open || practice.phase !== "setup" || !["random", "selected"].includes(kind)) {
+      return;
+    }
+    practice.kind = kind;
+    renderPractice();
+  }
+
+  function setPracticeDuration(value) {
+    practice.durationSec = clampPracticeDuration(value);
+    state.practiceDurationSec = practice.durationSec;
+    saveState();
+    if (elements.practiceDurationInput) {
+      elements.practiceDurationInput.value = String(practice.durationSec);
+    }
+    renderPracticeDurationButtons();
+  }
+
+  function updatePracticeDurationFromInput() {
+    const value = Number(elements.practiceDurationInput?.value);
+    if (!Number.isFinite(value) || value < 10 || value > 300) {
+      return;
+    }
+    practice.durationSec = Math.round(value);
+    state.practiceDurationSec = practice.durationSec;
+    saveState();
+    renderPracticeDurationButtons();
+  }
+
+  function commitPracticeDurationInput() {
+    setPracticeDuration(elements.practiceDurationInput?.value);
+  }
+
+  function clampPracticeDuration(value) {
+    return Math.min(300, Math.max(10, Math.round(Number(value) || 60)));
+  }
+
+  function startPracticeFromSetup() {
+    if (!practice.open || practice.phase !== "setup") {
+      return;
+    }
+
+    if (practice.kind === "selected") {
+      commitPracticeDurationInput();
+    }
+
+    const selection =
+      practice.kind === "random"
+        ? chooseRandomPracticeEntry(`${practice.setupFileId}:${practice.setupEntryId}`)
+        : findPracticeSelection(practice.setupFileId, practice.setupEntryId);
+    if (!selection) {
+      return;
+    }
+
+    activatePracticeEntry(selection.file, selection.entry);
+    resetPracticeState(selection.entry, "ready", selection.file.id);
+    renderPractice();
+    window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+  }
+
+  function findPracticeSelection(fileId, entryId) {
+    const file = data.files.find((item) => item.id === fileId);
+    const entry = file?.entries.find((item) => item.id === entryId);
+    return file && entry ? { file, entry } : null;
+  }
+
+  function getPracticePool() {
+    return data.files.flatMap((file) => file.entries.map((entry) => ({ file, entry })));
+  }
+
+  function chooseRandomPracticeEntry(excludedKey = "") {
+    const pool = getPracticePool();
+    const candidates =
+      pool.length > 1
+        ? pool.filter(({ file, entry }) => `${file.id}:${entry.id}` !== excludedKey)
+        : pool;
+    if (!candidates.length) {
+      return null;
+    }
+    return candidates[Math.floor(Math.random() * candidates.length)];
+  }
+
+  function activatePracticeEntry(file, entry) {
+    state.fileId = file.id;
+    state.lastFileByTopic[String(file.number)] = file.id;
+    state.entryId = entry.id;
+    saveState();
+    render();
+  }
+
   function retryPractice() {
     if (!practice.open) {
       return;
     }
     cancelSpeechSession();
-    resetPracticeState(getPracticeEntry());
+    resetPracticeState(getPracticeEntry(), "ready", getPracticeFile()?.id);
     renderPractice();
     window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
   }
 
   function moveToNextPracticeEntry() {
-    const entries = getSelectedFile().entries;
+    if (practice.kind === "random") {
+      const currentKey = `${practice.fileId}:${practice.entryId}`;
+      const selection = chooseRandomPracticeEntry(currentKey);
+      if (!selection) {
+        return;
+      }
+      cancelSpeechSession();
+      activatePracticeEntry(selection.file, selection.entry);
+      resetPracticeState(selection.entry, "ready", selection.file.id);
+      renderPractice();
+      window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+      return;
+    }
+
+    const file = getPracticeFile();
+    const entries = file?.entries || [];
     const currentIndex = entries.findIndex((entry) => entry.id === practice.entryId);
     if (currentIndex < 0 || currentIndex >= entries.length - 1) {
       return;
     }
 
     cancelSpeechSession();
-    state.entryId = entries[currentIndex + 1].id;
-    saveState();
-    renderEntryNav();
-    renderEntry();
-    resetPracticeState(entries[currentIndex + 1]);
+    activatePracticeEntry(file, entries[currentIndex + 1]);
+    resetPracticeState(entries[currentIndex + 1], "ready", file.id);
     renderPractice();
     window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
   }
 
+  function getPracticeFile() {
+    return data.files.find((file) => file.id === practice.fileId) || getSelectedFile();
+  }
+
   function getPracticeEntry() {
-    const entries = getSelectedFile()?.entries || [];
+    const entries = getPracticeFile()?.entries || [];
     return entries.find((entry) => entry.id === practice.entryId) || getSelectedEntry();
   }
 
@@ -598,7 +740,10 @@
       return;
     }
 
-    practice.elapsedMs = Math.max(0, Date.now() - practice.answerStartedAt);
+    const rawElapsedMs = Math.max(0, Date.now() - practice.answerStartedAt);
+    practice.elapsedMs = isTimedPractice()
+      ? Math.min(rawElapsedMs, getPracticeTimeLimitMs())
+      : rawElapsedMs;
     stopPracticeTimer();
     practice.phase = "review";
     practice.checks = {};
@@ -611,6 +756,8 @@
       attempts: Number(previous.attempts || 0) + 1,
       lastDurationMs: practice.elapsedMs,
       lastListenCount: practice.listenCount,
+      lastPracticeKind: practice.kind,
+      lastTimeLimitSec: isTimedPractice() ? practice.durationSec : null,
       lastCompletedAt: new Date().toISOString(),
       lastChecks: {},
     };
@@ -631,13 +778,32 @@
   function updatePracticeTimer() {
     if (practice.phase === "answering" && practice.answerStartedAt) {
       practice.elapsedMs = Math.max(0, Date.now() - practice.answerStartedAt);
+      if (isTimedPractice() && practice.elapsedMs >= getPracticeTimeLimitMs()) {
+        finishPracticeAnswer();
+        return;
+      }
     }
-    const value = formatPracticeDuration(practice.elapsedMs);
+    const displayMs = isTimedPractice()
+      ? Math.max(0, getPracticeTimeLimitMs() - practice.elapsedMs)
+      : practice.elapsedMs;
+    const value = formatPracticeDuration(displayMs, isTimedPractice());
     elements.practiceTimerValue.textContent = value;
+    elements.practiceTimer.setAttribute(
+      "aria-label",
+      isTimedPractice() ? `남은 시간 ${value}` : `답변 시간 ${value}`,
+    );
     elements.practiceTimerValue.setAttribute(
       "datetime",
-      `PT${Math.floor(practice.elapsedMs / 1000)}S`,
+      `PT${Math.max(0, Math.ceil(displayMs / 1000))}S`,
     );
+  }
+
+  function isTimedPractice() {
+    return practice.kind === "selected";
+  }
+
+  function getPracticeTimeLimitMs() {
+    return clampPracticeDuration(practice.durationSec) * 1000;
   }
 
   function renderPractice() {
@@ -656,9 +822,17 @@
       return;
     }
 
-    const entries = getSelectedFile().entries;
+    const file = getPracticeFile();
+    const entries = file?.entries || [];
     const currentIndex = entries.findIndex((item) => item.id === entry.id);
-    elements.practiceMeta.textContent = `${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entries.length}`;
+    if (practice.phase === "setup") {
+      elements.practiceMeta.textContent = `전체 ${data.stats.entries}문제 · 현재 선택 ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type}`;
+    } else if (practice.kind === "random" && practice.phase !== "review") {
+      elements.practiceMeta.textContent = "랜덤 실전 · 문제 비공개";
+    } else {
+      const kindLabel = practice.kind === "random" ? "랜덤 실전" : "선택 연습";
+      elements.practiceMeta.textContent = `${kindLabel} · ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entries.length}`;
+    }
     const isReview = practice.phase === "review";
     elements.practiceRunView.hidden = isReview;
     elements.practiceReviewView.hidden = !isReview;
@@ -671,6 +845,14 @@
   }
 
   function renderPracticeRun() {
+    const isSetup = practice.phase === "setup";
+    elements.practiceSetupView.hidden = !isSetup;
+    elements.practiceSessionView.hidden = isSetup;
+    if (isSetup) {
+      renderPracticeSetup();
+      return;
+    }
+
     const phaseContent = {
       ready: { label: "준비", message: "문제를 들어보세요." },
       listening: {
@@ -678,7 +860,10 @@
         message: "문제를 듣고 있습니다.",
       },
       between: { label: "1회 청취 완료", message: "한 번 더 듣거나 답변을 시작하세요." },
-      answering: { label: "답변 중", message: "답변하세요." },
+      answering: {
+        label: isTimedPractice() ? `답변 중 · ${practice.durationSec}초` : "답변 중",
+        message: "답변하세요.",
+      },
     }[practice.phase] || { label: "준비", message: "문제를 들어보세요." };
 
     elements.practicePhaseLabel.textContent = phaseContent.label;
@@ -707,6 +892,41 @@
     updatePracticeTimer();
   }
 
+  function renderPracticeSetup() {
+    const selectedFile = data.files.find((file) => file.id === practice.setupFileId);
+    const selectedEntry = selectedFile?.entries.find((entry) => entry.id === practice.setupEntryId);
+    const isRandom = practice.kind === "random";
+
+    elements.practiceKindButtons.forEach((button) => {
+      button.setAttribute(
+        "aria-pressed",
+        button.dataset.practiceKind === practice.kind ? "true" : "false",
+      );
+    });
+    elements.practiceRandomPanel.hidden = !isRandom;
+    elements.practiceSelectedPanel.hidden = isRandom;
+    elements.practiceRandomSummary.textContent = `${data.stats.entries}개 문제 · 시간 제한 없음`;
+    elements.practiceSetupStartBtn.textContent = isRandom ? "랜덤 문제 시작" : "선택 문제 시작";
+
+    if (selectedEntry) {
+      elements.practiceSelectedMeta.textContent = `${selectedEntry.fileTitle} · Set ${selectedEntry.set} · Type ${selectedEntry.type}`;
+      elements.practiceSelectedQuestion.textContent = selectedEntry.question;
+    }
+    if (elements.practiceDurationInput && document.activeElement !== elements.practiceDurationInput) {
+      elements.practiceDurationInput.value = String(practice.durationSec);
+    }
+    renderPracticeDurationButtons();
+  }
+
+  function renderPracticeDurationButtons() {
+    elements.practiceDurationButtons.forEach((button) => {
+      button.setAttribute(
+        "aria-pressed",
+        Number(button.dataset.practiceDuration) === practice.durationSec ? "true" : "false",
+      );
+    });
+  }
+
   function renderPracticeReview(entry, currentIndex, entryCount) {
     const details = getCategoryDetails(entry.category);
     const mainPointIndexes = getFinalMainPointIndexes(entry);
@@ -722,9 +942,13 @@
       mainPointTexts.push(entry.mainPoint);
     }
 
-    elements.practiceResultTime.textContent = formatPracticeDuration(practice.elapsedMs);
-    elements.practiceAttemptText.textContent = `${practice.attemptNumber}회차 완료`;
-    elements.practiceNextBtn.disabled = currentIndex >= entryCount - 1;
+    elements.practiceResultTime.textContent = isTimedPractice()
+      ? `${formatPracticeDuration(practice.elapsedMs)} / ${formatPracticeDuration(getPracticeTimeLimitMs())}`
+      : formatPracticeDuration(practice.elapsedMs);
+    elements.practiceAttemptText.textContent = `${practice.kind === "random" ? "랜덤" : "선택"} · ${practice.attemptNumber}회차 완료`;
+    elements.practiceNextBtn.textContent = practice.kind === "random" ? "다른 랜덤" : "다음 문제";
+    elements.practiceNextBtn.disabled =
+      practice.kind === "random" ? getPracticePool().length <= 1 : currentIndex >= entryCount - 1;
     elements.practiceCategory.textContent = details.label;
     elements.practiceFlow.textContent = details.flow;
     elements.practiceQuestion.textContent = entry.question || "";
@@ -835,8 +1059,9 @@
     return exact?.korean || "";
   }
 
-  function formatPracticeDuration(milliseconds) {
-    const totalSeconds = Math.max(0, Math.floor(Number(milliseconds || 0) / 1000));
+  function formatPracticeDuration(milliseconds, roundUp = false) {
+    const secondsValue = Number(milliseconds || 0) / 1000;
+    const totalSeconds = Math.max(0, roundUp ? Math.ceil(secondsValue) : Math.floor(secondsValue));
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
     return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
