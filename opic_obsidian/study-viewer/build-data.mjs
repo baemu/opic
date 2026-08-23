@@ -465,6 +465,259 @@ function normalizeEnglish(value) {
     .trim();
 }
 
+const categoryNames = new Map([
+  ["description", "Description"],
+  ["habit", "Habit"],
+  ["past experience", "Past Experience"],
+  ["comparison", "Comparison"],
+  ["role play", "Role Play"],
+  ["roleplay", "Role Play"],
+]);
+
+function normalizeCategory(value) {
+  const categories = cleanText(value)
+    .split(/\s*(?:\+|\/|&)\s*/)
+    .map((category) => categoryNames.get(category.toLowerCase()) || category)
+    .filter(Boolean);
+  return [...new Set(categories)].join(" + ");
+}
+
+function inferCategory(question) {
+  const value = normalizeEnglish(question);
+
+  if (
+    /\b(?:ask|call|contact|pretend|reschedule)\b/.test(value) ||
+    /\bleave (?:a )?(?:message|voicemail|voice mail)\b/.test(value) ||
+    /\b(?:explain|describe) (?:the )?problem and (?:suggest|offer|give)\b/.test(value)
+  ) {
+    return "Role Play";
+  }
+
+  if (
+    /\bcompare\b/.test(value) ||
+    /\bhow (?:has|have|is|are).*(?:changed|different)\b/.test(value) ||
+    /\b(?:then and now|past and present|used to)\b/.test(value)
+  ) {
+    return "Comparison";
+  }
+
+  if (
+    /\b(?:last time|recent|remember|memorable|experience|ever|first time|recall)\b/.test(value) ||
+    /\b(?:initial interest|sparked your interest|as a child|specific instance)\b/.test(value) ||
+    /\bwhat happened\b/.test(value)
+  ) {
+    return "Past Experience";
+  }
+
+  if (
+    /\b(?:usually|typical|routine|often|normally|traditionally|whenever)\b/.test(value) ||
+    /\bwhat (?:do|types of things do) you do\b/.test(value) ||
+    /\bhow do you spend\b/.test(value)
+  ) {
+    return "Habit";
+  }
+
+  return "Description";
+}
+
+function fillMissingCategories(files) {
+  const categoryByQuestion = new Map();
+
+  files.forEach((file) => {
+    file.entries.forEach((entry) => {
+      const key = normalizeEnglish(entry.question);
+      if (key && entry.category && !categoryByQuestion.has(key)) {
+        categoryByQuestion.set(key, entry.category);
+      }
+    });
+  });
+
+  files.forEach((file) => {
+    file.entries.forEach((entry) => {
+      if (!entry.category) {
+        entry.category =
+          categoryByQuestion.get(normalizeEnglish(entry.question)) || inferCategory(entry.question);
+      }
+    });
+  });
+}
+
+function parseMainPointCollection(text) {
+  const mainPoints = new Map();
+  let isMainPointSection = false;
+  let setNumber = "";
+
+  for (const line of text.split("\n")) {
+    if (/^##\s+MP 문장 모음\s*$/.test(line)) {
+      isMainPointSection = true;
+      continue;
+    }
+
+    if (isMainPointSection && /^##\s+/.test(line)) {
+      break;
+    }
+
+    if (!isMainPointSection) {
+      continue;
+    }
+
+    let match = line.match(/^###\s+Set\s+(.+?)\s*$/i);
+    if (match) {
+      setNumber = cleanText(match[1]);
+      continue;
+    }
+
+    match = line.match(/^-\s+\*\*Type\s+(.+?):\*\*\s*(.+?)\s*$/i);
+    if (match && setNumber) {
+      mainPoints.set(`${setNumber}|${cleanText(match[1])}`, cleanText(match[2]));
+    }
+  }
+
+  return mainPoints;
+}
+
+const mainPointStopWords = new Set([
+  "a",
+  "an",
+  "and",
+  "at",
+  "because",
+  "but",
+  "for",
+  "from",
+  "i",
+  "in",
+  "is",
+  "it",
+  "me",
+  "my",
+  "of",
+  "on",
+  "one",
+  "so",
+  "that",
+  "the",
+  "there",
+  "this",
+  "to",
+  "was",
+  "when",
+  "with",
+]);
+
+function getMainPointTokens(value) {
+  return new Set(
+    normalizeEnglish(value)
+      .split(" ")
+      .filter((token) => token.length > 1 && !mainPointStopWords.has(token)),
+  );
+}
+
+function getMainPointSimilarity(mainPoint, sentence) {
+  const mainPointTokens = getMainPointTokens(mainPoint);
+  const sentenceTokens = getMainPointTokens(sentence);
+  if (!mainPointTokens.size || !sentenceTokens.size) {
+    return 0;
+  }
+
+  const overlap = [...mainPointTokens].filter((token) => sentenceTokens.has(token)).length;
+  const coverage = overlap / mainPointTokens.size;
+  const precision = overlap / sentenceTokens.size;
+  return coverage * 0.7 + precision * 0.3;
+}
+
+function findExactMainPointRange(mainPointSentence, sentences, startIndex, usedIndexes) {
+  const target = normalizeForAlignment(mainPointSentence);
+  if (!target) {
+    return [];
+  }
+
+  for (let start = startIndex; start < sentences.length; start += 1) {
+    if (usedIndexes.has(start)) {
+      continue;
+    }
+
+    let combined = "";
+    const indexes = [];
+    for (let end = start; end < sentences.length; end += 1) {
+      if (usedIndexes.has(end)) {
+        break;
+      }
+
+      combined += normalizeForAlignment(sentences[end]);
+      indexes.push(end);
+      if (combined === target) {
+        return indexes;
+      }
+      if (combined.length >= target.length) {
+        break;
+      }
+    }
+  }
+
+  return [];
+}
+
+function findBestMainPointIndex(mainPointSentence, sentences, startIndex, usedIndexes) {
+  const availableIndexes = sentences
+    .map((_, index) => index)
+    .filter((index) => !usedIndexes.has(index));
+  const orderedIndexes = availableIndexes.filter((index) => index >= startIndex);
+  const candidates = orderedIndexes.length ? orderedIndexes : availableIndexes;
+
+  let bestIndex = -1;
+  let bestScore = -1;
+  candidates.forEach((index) => {
+    const score = getMainPointSimilarity(mainPointSentence, sentences[index]);
+    if (score > bestScore) {
+      bestScore = score;
+      bestIndex = index;
+    }
+  });
+  return bestIndex;
+}
+
+function findMainPointSentenceIndexes(mainPoint, sentences) {
+  if (!mainPoint || !sentences.length) {
+    return [];
+  }
+
+  const indexes = [];
+  const usedIndexes = new Set();
+  let nextStartIndex = 0;
+
+  splitSentences(mainPoint).forEach((mainPointSentence) => {
+    let matchedIndexes = findExactMainPointRange(
+      mainPointSentence,
+      sentences,
+      nextStartIndex,
+      usedIndexes,
+    );
+    if (!matchedIndexes.length && nextStartIndex > 0) {
+      matchedIndexes = findExactMainPointRange(mainPointSentence, sentences, 0, usedIndexes);
+    }
+    if (!matchedIndexes.length) {
+      const bestIndex = findBestMainPointIndex(
+        mainPointSentence,
+        sentences,
+        nextStartIndex,
+        usedIndexes,
+      );
+      matchedIndexes = bestIndex >= 0 ? [bestIndex] : [];
+    }
+
+    matchedIndexes.forEach((index) => {
+      indexes.push(index);
+      usedIndexes.add(index);
+    });
+    if (matchedIndexes.length) {
+      nextStartIndex = matchedIndexes.at(-1) + 1;
+    }
+  });
+
+  return indexes;
+}
+
 function getSpeakingTranslation(text, pairs) {
   const cleanedText = cleanText(text);
   const override = speakingTranslationOverrides.get(cleanedText);
@@ -541,6 +794,7 @@ function parseFile(config) {
   }
 
   const text = fs.readFileSync(sourcePath, "utf8").replace(/\r\n/g, "\n");
+  const mainPointsBySlot = parseMainPointCollection(text);
   const lines = text.split("\n");
   const entries = [];
 
@@ -580,6 +834,20 @@ function parseFile(config) {
     currentEntry.speakingTranslations = currentEntry.speakingChunks.map((chunk) =>
       getSpeakingTranslation(chunk, currentEntry.translations),
     );
+    currentEntry.mainPoint =
+      mainPointsBySlot.get(`${currentEntry.set}|${currentEntry.type}`) || "";
+    currentEntry.mainPointSentences = splitSentences(currentEntry.mainPoint);
+    currentEntry.mainPointSentenceIndexes = findMainPointSentenceIndexes(
+      currentEntry.mainPoint,
+      currentEntry.finalSentences,
+    );
+    currentEntry.mainPointSpeakingChunkIndexes = findMainPointSentenceIndexes(
+      currentEntry.mainPoint,
+      currentEntry.speakingChunks,
+    );
+    currentEntry.mainPointSentenceIndex = currentEntry.mainPointSentenceIndexes[0] ?? -1;
+    currentEntry.mainPointSpeakingChunkIndex =
+      currentEntry.mainPointSpeakingChunkIndexes[0] ?? -1;
 
     if (
       currentEntry.question ||
@@ -625,11 +893,18 @@ function parseFile(config) {
         type: currentType,
         entryLabel: cleanText(match[1]),
         question: "",
+        category: "",
         questionTranslation: "",
         questionSentences: [],
         finalSentences: [],
         speakingChunks: [],
         speakingTranslations: [],
+        mainPoint: "",
+        mainPointSentences: [],
+        mainPointSentenceIndexes: [],
+        mainPointSpeakingChunkIndexes: [],
+        mainPointSentenceIndex: -1,
+        mainPointSpeakingChunkIndex: -1,
         translationLines: [],
         translations: [],
       };
@@ -644,6 +919,14 @@ function parseFile(config) {
     match = line.match(/^- `question:`\s*(.+?)\s*$/);
     if (match) {
       currentEntry.question = cleanText(match[1]);
+      continue;
+    }
+
+    match = line.match(/^(?:-\s*)?`(카테고리|유형):`\s*(.+?)\s*$/);
+    if (match) {
+      if (match[1] === "카테고리" || !currentEntry.category) {
+        currentEntry.category = normalizeCategory(match[2]);
+      }
       continue;
     }
 
@@ -693,6 +976,7 @@ function parseFile(config) {
 }
 
 const files = sourceFiles.map(parseFile);
+fillMissingCategories(files);
 const stats = files.reduce(
   (total, file) => {
     total.files += 1;
@@ -702,8 +986,19 @@ const stats = files.reduce(
       (sum, entry) => sum + (entry.questionTranslation ? 1 : 0),
       0,
     );
-    total.finalSentences += file.entries.reduce((sum, entry) => sum + entry.finalSentences.length, 0);
-    total.speakingChunks += file.entries.reduce((sum, entry) => sum + entry.speakingChunks.length, 0);
+    total.categories += file.entries.reduce((sum, entry) => sum + (entry.category ? 1 : 0), 0);
+    total.mainPoints += file.entries.reduce(
+      (sum, entry) => sum + (entry.mainPointSentenceIndex >= 0 ? 1 : 0),
+      0,
+    );
+    total.finalSentences += file.entries.reduce(
+      (sum, entry) => sum + entry.finalSentences.length,
+      0,
+    );
+    total.speakingChunks += file.entries.reduce(
+      (sum, entry) => sum + entry.speakingChunks.length,
+      0,
+    );
     total.speakingTranslations += file.entries.reduce(
       (sum, entry) => sum + entry.speakingTranslations.filter(Boolean).length,
       0,
@@ -716,6 +1011,8 @@ const stats = files.reduce(
     entries: 0,
     questions: 0,
     questionTranslations: 0,
+    categories: 0,
+    mainPoints: 0,
     finalSentences: 0,
     speakingChunks: 0,
     speakingTranslations: 0,
@@ -738,7 +1035,7 @@ fs.writeFileSync(
 
 console.log(`Wrote ${outputFile}`);
 console.log(
-  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.translations} final translations.`,
+  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.categories} categories, ${stats.mainPoints} main points, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.translations} final translations.`,
 );
 
 if (stats.speakingTranslations !== stats.speakingChunks) {

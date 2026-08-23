@@ -88,7 +88,19 @@
           <div class="pane-heading">
             <div>
               <p id="entryMeta" class="eyebrow">-</p>
-              <h2>Question</h2>
+              <div class="category-label-wrap">
+                <h2
+                  id="questionCategory"
+                  class="question-category"
+                  tabindex="0"
+                  aria-describedby="categoryTooltip"
+                >문제 유형</h2>
+                <div id="categoryTooltip" class="category-tooltip" role="tooltip">
+                  <strong id="categoryTooltipTitle">문제 유형</strong>
+                  <span class="category-tooltip-label">답변 흐름</span>
+                  <span id="categoryTooltipFlow"></span>
+                </div>
+              </div>
             </div>
             <div class="question-actions">
               <button id="copyQuestionBtn" class="secondary-button copy-icon-button" type="button" aria-label="문제와 위치 복사" title="문제와 위치 복사"></button>

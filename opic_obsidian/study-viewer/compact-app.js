@@ -24,6 +24,9 @@
     settingsToggleBtn: document.getElementById("settingsToggleBtn"),
     settingsPanel: document.getElementById("settingsPanel"),
     entryMeta: document.getElementById("entryMeta"),
+    questionCategory: document.getElementById("questionCategory"),
+    categoryTooltipTitle: document.getElementById("categoryTooltipTitle"),
+    categoryTooltipFlow: document.getElementById("categoryTooltipFlow"),
     answerMeta: document.getElementById("answerMeta"),
     answerTitle: document.getElementById("answerTitle"),
     questionFullButton: document.getElementById("questionFullButton"),
@@ -65,6 +68,25 @@
     [6, "Movie"],
     [7, "Gym"],
     [8, "Vacation"],
+  ]);
+  const categoryGuides = new Map([
+    [
+      "Description",
+      { korean: "묘사", flow: "특징 → 느낌 → 이유 → 구체적 디테일 → 마무리" },
+    ],
+    ["Habit", { korean: "습관", flow: "평소 행동 → 이유 → 반복 디테일 → 변화 → 마무리" }],
+    [
+      "Past Experience",
+      { korean: "과거 경험", flow: "상황 → 핵심 사건 → 반응 → 해결/결과 → 느낌/교훈" },
+    ],
+    [
+      "Comparison",
+      { korean: "비교", flow: "가장 큰 차이 → 과거 → 현재 → 변화 이유 → 마무리" },
+    ],
+    [
+      "Role Play",
+      { korean: "롤플레이", flow: "상황 → 질문/요청 → 반응 → 대안 → 마무리" },
+    ],
   ]);
 
   function readSavedState() {
@@ -423,6 +445,14 @@
     const currentIndex = allEntries.findIndex((item) => item.id === entry.id);
 
     elements.entryMeta.textContent = `${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${allEntries.length}`;
+    const categoryDetails = getCategoryDetails(entry.category);
+    elements.questionCategory.textContent = categoryDetails.label;
+    elements.questionCategory.setAttribute(
+      "aria-label",
+      `문제 유형: ${categoryDetails.title}. 답변 흐름: ${categoryDetails.flow}`,
+    );
+    elements.categoryTooltipTitle.textContent = categoryDetails.title;
+    elements.categoryTooltipFlow.textContent = categoryDetails.flow;
     elements.questionFullButton.textContent = entry.question || "Question not found.";
     elements.questionFullButton.dataset.speakText = entry.question || "";
     renderQuestionTranslation();
@@ -455,6 +485,7 @@
 
   function renderSentenceButtons(container, items, type) {
     const entry = getSelectedEntry();
+    const mainPointIndexes = type === "answer" ? getMainPointItemIndexes(entry) : [];
     container.innerHTML = "";
     if (!items.length) {
       container.innerHTML = '<p class="empty-message">읽을 문장이 없습니다.</p>';
@@ -466,9 +497,11 @@
       const translation = typeof item === "object" ? item.translation : "";
       const translationKey = `${state.entryId}:${state.mode}:${index}`;
       const isTranslationOpen = state.showTranslations || openTranslations.has(translationKey);
+      const isMainPoint = mainPointIndexes.includes(index);
       const wrapper = document.createElement("div");
       wrapper.className = [
         "sentence-card",
+        isMainPoint ? "is-main-point" : "",
         translation ? "has-translation" : "",
         translation && !state.showTranslations ? "has-translation-toggle" : "",
       ]
@@ -485,7 +518,14 @@
       button.dataset.speakText = text;
       button.dataset.speakIndex = String(index);
       button.innerHTML = `
-        <span class="sentence-index">${index + 1}</span>
+        <span class="sentence-marker">
+          <span class="sentence-index">${index + 1}</span>
+          ${
+            isMainPoint
+              ? '<span class="main-point-label" title="Main Point · 핵심 문장">MP</span>'
+              : ""
+          }
+        </span>
         <span class="sentence-text">${escapeHtml(text)}</span>
       `;
       sentenceMain.append(button);
@@ -550,6 +590,68 @@
 
   function getItemText(item) {
     return typeof item === "object" && item !== null ? item.text : item;
+  }
+
+  function getCategoryDetails(value) {
+    const categories = String(value || "")
+      .split(/\s*\+\s*/)
+      .map((category) => category.trim())
+      .filter(Boolean);
+
+    if (!categories.length) {
+      return {
+        label: "문제 유형",
+        title: "문제 유형",
+        flow: "핵심 답변 → 이유/디테일 → 마무리",
+      };
+    }
+
+    const guides = categories.map(
+      (category) =>
+        categoryGuides.get(category) || {
+          korean: category,
+          flow: "핵심 답변 → 이유/디테일 → 마무리",
+        },
+    );
+    const flow = guides
+      .map((guide) =>
+        categories.length > 1 ? `${guide.korean}: ${guide.flow}` : guide.flow,
+      )
+      .join("\n");
+
+    return {
+      label: categories.join(" + "),
+      title: `${categories.join(" + ")} · ${guides.map((guide) => guide.korean).join(" + ")}`,
+      flow,
+    };
+  }
+
+  function getMainPointItemIndexes(entry) {
+    if (!entry?.mainPoint) {
+      return [];
+    }
+
+    const items = state.mode === "final" ? entry.finalSentences : entry.speakingChunks;
+    const storedIndexes =
+      state.mode === "final"
+        ? entry.mainPointSentenceIndexes
+        : entry.mainPointSpeakingChunkIndexes;
+    if (Array.isArray(storedIndexes)) {
+      return [...new Set(storedIndexes)].filter(
+        (index) => Number.isInteger(index) && index >= 0 && index < items.length,
+      );
+    }
+
+    const legacyIndex = Number(
+      state.mode === "final"
+        ? entry.mainPointSentenceIndex
+        : entry.mainPointSpeakingChunkIndex,
+    );
+    if (Number.isInteger(legacyIndex) && legacyIndex >= 0 && legacyIndex < items.length) {
+      return [legacyIndex];
+    }
+
+    return [];
   }
 
   function normalizeEnglish(text) {
