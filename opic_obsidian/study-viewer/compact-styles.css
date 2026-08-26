@@ -538,8 +538,11 @@ button:disabled {
 
 .category-label-wrap {
   position: relative;
+  display: flex;
   width: fit-content;
   max-width: 100%;
+  gap: 6px;
+  align-items: center;
 }
 
 .question-category {
@@ -601,6 +604,7 @@ button:disabled {
   font-weight: 700;
 }
 
+.question-rp-badge,
 .category-rp-badge {
   flex: 0 0 auto;
   padding: 2px 6px;
@@ -612,6 +616,10 @@ button:disabled {
   font-size: 9px;
   font-weight: 800;
   line-height: 1.4;
+}
+
+.question-rp-badge {
+  font-size: 10px;
 }
 
 .category-tooltip-summary,

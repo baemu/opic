@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-26T09:49:18.619Z",
+  "generatedAt": "2026-08-26T10:04:40.142Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -3034,41 +3034,41 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I once bought a sofa that moved when I sat on it.",
-            "Luckily, the store sent me a new one.",
+            "Luckily, the problem was solved in the end.",
             "At first, I was worried because the sofa did not feel safe.",
             "So I checked the floor first.",
             "The floor was fine, so I checked the sofa.",
             "One leg was shorter than the others.",
             "I called the store and explained the problem.",
-            "A week later, the new sofa arrived.",
+            "A week later, the store sent me a new sofa.",
             "The new sofa was stable, so I felt relieved."
           ],
           "speakingChunks": [
             "I once bought a sofa that moved when I sat on it.",
-            "Luckily, the store sent me a new one.",
+            "Luckily, the problem was solved in the end.",
             "At first, I was worried because the sofa did not feel safe.",
             "So I checked the floor first.",
             "The floor was fine, so I checked the sofa.",
             "One leg was shorter than the others.",
             "I called the store and explained the problem.",
-            "A week later, the new sofa arrived.",
+            "A week later, the store sent me a new sofa.",
             "The new sofa was stable, so I felt relieved."
           ],
           "speakingTranslations": [
             "한번은 앉으면 움직이는 소파를 샀다.",
-            "다행히 매장에서 새 소파를 보내 주었다.",
+            "다행히 결국 문제는 해결되었다.",
             "처음에는 소파가 안전하지 않은 것 같아서 걱정되었다.",
             "그래서 먼저 바닥을 확인했다.",
             "바닥에는 문제가 없어서 소파를 확인했다.",
             "소파 다리 하나가 다른 다리보다 짧았다.",
             "매장에 전화해서 문제를 설명했다.",
-            "일주일 뒤 새 소파가 도착했다.",
+            "일주일 뒤 매장에서 새 소파를 보내 주었다.",
             "새 소파는 흔들리지 않아서 안심이 되었다."
           ],
-          "mainPoint": "I once bought a sofa that moved when I sat on it. Luckily, the store sent me a new one.",
+          "mainPoint": "I once bought a sofa that moved when I sat on it. Luckily, the problem was solved in the end.",
           "mainPointSentences": [
             "I once bought a sofa that moved when I sat on it.",
-            "Luckily, the store sent me a new one."
+            "Luckily, the problem was solved in the end."
           ],
           "mainPointSentenceIndexes": [
             0,
@@ -3086,8 +3086,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "한번은 앉으면 움직이는 소파를 샀다."
             },
             {
-              "english": "Luckily, the store sent me a new one.",
-              "korean": "다행히 매장에서 새 소파를 보내 주었다."
+              "english": "Luckily, the problem was solved in the end.",
+              "korean": "다행히 결국 문제는 해결되었다."
             },
             {
               "english": "At first, I was worried because the sofa did not feel safe.",
@@ -3110,8 +3110,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "매장에 전화해서 문제를 설명했다."
             },
             {
-              "english": "A week later, the new sofa arrived.",
-              "korean": "일주일 뒤 새 소파가 도착했다."
+              "english": "A week later, the store sent me a new sofa.",
+              "korean": "일주일 뒤 매장에서 새 소파를 보내 주었다."
             },
             {
               "english": "The new sofa was stable, so I felt relieved.",
@@ -3794,41 +3794,41 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood, and we met a week later.",
-            "This is what happened that day.",
+            "Luckily, everything worked out in the end.",
             "That afternoon, I was going to meet my friend.",
             "But my mom got sick that morning and needed to rest.",
             "I was worried about her, so I stayed home.",
             "I called my friend and explained the situation.",
+            "My friend understood, so we decided to meet a week later.",
             "Then I cleaned the house for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingChunks": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood, and we met a week later.",
-            "This is what happened that day.",
+            "Luckily, everything worked out in the end.",
             "That afternoon, I was going to meet my friend.",
             "But my mom got sick that morning and needed to rest.",
             "I was worried about her, so I stayed home.",
             "I called my friend and explained the situation.",
+            "My friend understood, so we decided to meet a week later.",
             "Then I cleaned the house for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingTranslations": [
             "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다.",
-            "다행히 친구가 이해해 주었고 우리는 일주일 뒤에 만났다.",
-            "그날 있었던 일은 이렇다.",
+            "다행히 결국 모든 일이 잘 해결되었다.",
             "그날 오후에 친구를 만날 예정이었다.",
             "하지만 그날 아침 엄마가 아프셔서 쉬셔야 했다.",
             "엄마가 걱정되어서 나는 집에 남았다.",
             "친구에게 전화해서 상황을 설명했다.",
+            "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다.",
             "그런 다음 엄마 대신 집을 청소했다.",
             "결국 엄마를 도울 수 있어서 다행이었다."
           ],
-          "mainPoint": "I once changed my plans to help my sick mom. Luckily, my friend understood, and we met a week later.",
+          "mainPoint": "I once changed my plans to help my sick mom. Luckily, everything worked out in the end.",
           "mainPointSentences": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood, and we met a week later."
+            "Luckily, everything worked out in the end."
           ],
           "mainPointSentenceIndexes": [
             0,
@@ -3846,12 +3846,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다."
             },
             {
-              "english": "Luckily, my friend understood, and we met a week later.",
-              "korean": "다행히 친구가 이해해 주었고 우리는 일주일 뒤에 만났다."
-            },
-            {
-              "english": "This is what happened that day.",
-              "korean": "그날 있었던 일은 이렇다."
+              "english": "Luckily, everything worked out in the end.",
+              "korean": "다행히 결국 모든 일이 잘 해결되었다."
             },
             {
               "english": "That afternoon, I was going to meet my friend.",
@@ -3868,6 +3864,10 @@ window.OPIC_STUDY_DATA = {
             {
               "english": "I called my friend and explained the situation.",
               "korean": "친구에게 전화해서 상황을 설명했다."
+            },
+            {
+              "english": "My friend understood, so we decided to meet a week later.",
+              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다."
             },
             {
               "english": "Then I cleaned the house for my mom.",

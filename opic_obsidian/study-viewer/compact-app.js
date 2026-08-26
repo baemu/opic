@@ -27,6 +27,7 @@
     settingsPanel: document.getElementById("settingsPanel"),
     entryMeta: document.getElementById("entryMeta"),
     questionCategory: document.getElementById("questionCategory"),
+    questionRpBadge: document.getElementById("questionRpBadge"),
     categoryTooltipTitle: document.getElementById("categoryTooltipTitle"),
     categoryTooltipRp: document.getElementById("categoryTooltipRp"),
     categoryTooltipSummary: document.getElementById("categoryTooltipSummary"),
@@ -1342,6 +1343,8 @@
       "aria-label",
       `문제 유형: ${categoryDetails.title}.${categoryDetails.rpCode ? ` ${categoryDetails.rpCode}.` : ""} 답변 흐름: ${categoryDetails.flow}`,
     );
+    elements.questionRpBadge.textContent = categoryDetails.rpCode;
+    elements.questionRpBadge.hidden = !categoryDetails.rpCode;
     elements.categoryTooltipTitle.textContent = categoryDetails.title;
     elements.categoryTooltipRp.textContent = categoryDetails.rpCode;
     elements.categoryTooltipRp.hidden = !categoryDetails.rpCode;
