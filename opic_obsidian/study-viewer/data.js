@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-26T22:26:54.975Z",
+  "generatedAt": "2026-08-26T22:35:41.486Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -3012,7 +3012,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last summer, our water was cut off after heavy rain.",
             "I was worried because we didn’t know when the water would come back.",
-            "The apartment office warned us before the water stopped.",
+            "Before that, the apartment office warned us that the water would stop.",
             "My family filled bottles and buckets with water.",
             "We kept the water in the bathroom.",
             "We used it for washing.",
@@ -3022,7 +3022,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Last summer, our water was cut off after heavy rain.",
             "I was worried because we didn’t know when the water would come back.",
-            "The apartment office warned us before the water stopped.",
+            "Before that, the apartment office warned us that the water would stop.",
             "My family filled bottles and buckets with water.",
             "We kept the water in the bathroom.",
             "We used it for washing.",
@@ -3032,7 +3032,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "지난여름 폭우가 내린 뒤 우리 집의 물이 끊겼다.",
             "물이 언제 다시 나올지 몰라서 걱정되었다.",
-            "관리사무소에서 단수 전에 우리에게 알려 주었다.",
+            "그전에 관리사무소에서 물이 끊길 거라고 알려 주었다.",
             "우리 가족은 병과 양동이에 물을 받아 두었다.",
             "우리는 받아 둔 물을 화장실에 보관했다.",
             "그 물은 씻을 때 사용했다.",
@@ -3065,8 +3065,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "물이 언제 다시 나올지 몰라서 걱정되었다."
             },
             {
-              "english": "The apartment office warned us before the water stopped.",
-              "korean": "관리사무소에서 단수 전에 우리에게 알려 주었다."
+              "english": "Before that, the apartment office warned us that the water would stop.",
+              "korean": "그전에 관리사무소에서 물이 끊길 거라고 알려 주었다."
             },
             {
               "english": "My family filled bottles and buckets with water.",
@@ -3123,12 +3123,12 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Luckily, the apartment office warned us before the water stopped.",
-              "korean": "다행히, 관리사무소에서 단수 전에 우리에게 알려 주었다.",
+              "english": "Before that, the apartment office warned us that the water would stop.",
+              "korean": "그전에, 관리사무소에서 물이 끊길 거라고 알려 주었다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 8
+                  "end": 12
                 }
               ],
               "koreanEmphasis": [
@@ -4628,8 +4628,8 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "As a child, I once forgot to take out the trash.",
             "I felt sorry because we missed the garbage truck.",
-            "I had to take it out before the garbage truck came.",
-            "I started playing a game and forgot about it.",
+            "That day, I had to take out the trash before the garbage truck came.",
+            "I started playing a game and forgot about the trash.",
             "Later, my mom asked about the trash.",
             "I ran outside, but the truck was already gone.",
             "We had to keep the trash for another week.",
@@ -4638,8 +4638,8 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "As a child, I once forgot to take out the trash.",
             "I felt sorry because we missed the garbage truck.",
-            "I had to take it out before the garbage truck came.",
-            "I started playing a game and forgot about it.",
+            "That day, I had to take out the trash before the garbage truck came.",
+            "I started playing a game and forgot about the trash.",
             "Later, my mom asked about the trash.",
             "I ran outside, but the truck was already gone.",
             "We had to keep the trash for another week.",
@@ -4648,8 +4648,8 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "어렸을 때 한 번 쓰레기 버리는 것을 잊었다.",
             "쓰레기차를 놓쳐서 미안했다.",
-            "쓰레기차가 오기 전에 쓰레기를 내놓아야 했다.",
-            "게임을 시작하면서 그 일을 잊어버렸다.",
+            "그날 쓰레기차가 오기 전에 쓰레기를 내놓아야 했다.",
+            "게임을 시작하면서 쓰레기 버리는 것을 잊어버렸다.",
             "나중에 엄마가 쓰레기에 대해 물으셨다.",
             "밖으로 뛰어나갔지만 쓰레기차는 이미 떠난 뒤였다.",
             "우리는 쓰레기를 일주일 더 보관해야 했다.",
@@ -4681,12 +4681,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "쓰레기차를 놓쳐서 미안했다."
             },
             {
-              "english": "I had to take it out before the garbage truck came.",
-              "korean": "쓰레기차가 오기 전에 쓰레기를 내놓아야 했다."
+              "english": "That day, I had to take out the trash before the garbage truck came.",
+              "korean": "그날 쓰레기차가 오기 전에 쓰레기를 내놓아야 했다."
             },
             {
-              "english": "I started playing a game and forgot about it.",
-              "korean": "게임을 시작하면서 그 일을 잊어버렸다."
+              "english": "I started playing a game and forgot about the trash.",
+              "korean": "게임을 시작하면서 쓰레기 버리는 것을 잊어버렸다."
             },
             {
               "english": "Later, my mom asked about the trash.",
@@ -4729,14 +4729,24 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "I had to take it out before the garbage truck came.",
-              "korean": "쓰레기차가 오기 전에 쓰레기를 내놓아야 했다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
+              "english": "That day, I had to take out the trash before the garbage truck came.",
+              "korean": "그날, 쓰레기차가 오기 전에 쓰레기를 내놓아야 했다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 3
+                }
+              ]
             },
             {
-              "english": "You know, I started playing a game and forgot about it.",
-              "korean": "있잖아, 게임을 시작하면서 그 일을 잊어버렸다.",
+              "english": "You know, I started playing a game and forgot about the trash.",
+              "korean": "있잖아, 게임을 시작하면서 쓰레기 버리는 것을 잊어버렸다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -5442,8 +5452,8 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once changed my plans to help my sick mom.",
             "I was very worried about her.",
-            "That afternoon, I was going to meet my friend.",
-            "But my mom got sick that morning and needed to rest.",
+            "That morning, my mom got sick and needed to rest.",
+            "But I was going to meet my friend that afternoon.",
             "So I stayed home with her.",
             "I called my friend and explained the situation.",
             "My friend understood, so we decided to meet a week later.",
@@ -5453,8 +5463,8 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once changed my plans to help my sick mom.",
             "I was very worried about her.",
-            "That afternoon, I was going to meet my friend.",
-            "But my mom got sick that morning and needed to rest.",
+            "That morning, my mom got sick and needed to rest.",
+            "But I was going to meet my friend that afternoon.",
             "So I stayed home with her.",
             "I called my friend and explained the situation.",
             "My friend understood, so we decided to meet a week later.",
@@ -5464,8 +5474,8 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다.",
             "엄마가 많이 걱정되었다.",
-            "그날 오후에 친구를 만날 예정이었다.",
-            "하지만 그날 아침 엄마가 아프셔서 쉬셔야 했다.",
+            "그날 아침 엄마가 아프셔서 쉬셔야 했다.",
+            "하지만 그날 오후에 친구를 만날 예정이었다.",
             "그래서 엄마와 함께 집에 남았다.",
             "친구에게 전화해서 상황을 설명했다.",
             "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다.",
@@ -5502,12 +5512,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "엄마가 많이 걱정되었다."
             },
             {
-              "english": "That afternoon, I was going to meet my friend.",
-              "korean": "그날 오후에 친구를 만날 예정이었다."
+              "english": "That morning, my mom got sick and needed to rest.",
+              "korean": "그날 아침 엄마가 아프셔서 쉬셔야 했다."
             },
             {
-              "english": "But my mom got sick that morning and needed to rest.",
-              "korean": "하지만 그날 아침 엄마가 아프셔서 쉬셔야 했다."
+              "english": "But I was going to meet my friend that afternoon.",
+              "korean": "하지만 그날 오후에 친구를 만날 예정이었다."
             },
             {
               "english": "So I stayed home with her.",
@@ -5564,26 +5574,26 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "That afternoon, I was going to meet my friend.",
-              "korean": "그날 오후에 친구를 만날 예정이었다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "Actually, my mom got sick that morning and needed to rest.",
-              "korean": "그런데, 그날 아침 엄마가 아프셔서 쉬셔야 했다.",
+              "english": "That morning, my mom got sick and needed to rest.",
+              "korean": "그날 아침, 엄마가 아프셔서 쉬셔야 했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 13
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 4
+                  "end": 6
                 }
               ]
+            },
+            {
+              "english": "But I was going to meet my friend that afternoon.",
+              "korean": "하지만 그날 오후에 친구를 만날 예정이었다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
             },
             {
               "english": "So, I stayed home with her.",
@@ -5660,7 +5670,7 @@ window.OPIC_STUDY_DATA = {
             "The room gets a lot of sunlight during the day.",
             "My favorite part of the room is my bed.",
             "When I feel tired, I lie down and rest.",
-            "Sometimes I watch videos there before bed.",
+            "Sometimes I watch videos in bed before I sleep.",
             "So my room is the most comfortable place in my home."
           ],
           "speakingChunks": [
@@ -5671,7 +5681,7 @@ window.OPIC_STUDY_DATA = {
             "The room gets a lot of sunlight during the day.",
             "My favorite part of the room is my bed.",
             "When I feel tired, I lie down and rest.",
-            "Sometimes I watch videos there before bed.",
+            "Sometimes I watch videos in bed before I sleep.",
             "So my room is the most comfortable place in my home."
           ],
           "speakingTranslations": [
@@ -5735,7 +5745,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "피곤할 때는 침대에 누워서 쉰다."
             },
             {
-              "english": "Sometimes I watch videos there before bed.",
+              "english": "Sometimes I watch videos in bed before I sleep.",
               "korean": "가끔 잠들기 전에 침대에서 영상을 본다."
             },
             {
@@ -5827,7 +5837,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Sometimes I watch videos there before bed.",
+              "english": "Sometimes I watch videos in bed before I sleep.",
               "korean": "가끔 잠들기 전에 침대에서 영상을 본다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
@@ -7092,9 +7102,9 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once couldn’t help my aunt because I got sick.",
             "I felt very sorry because I said I would help her.",
-            "My aunt asked me to check her house during her trip.",
+            "Before that, my aunt asked me to check her house during her trip.",
             "I had to water the plants and check for packages.",
-            "That morning, I felt very sick and couldn’t go.",
+            "But that morning, I felt very sick and couldn’t go.",
             "I called my aunt and explained the problem.",
             "Then I asked my mom for help.",
             "My mom checked the house for me.",
@@ -7103,9 +7113,9 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once couldn’t help my aunt because I got sick.",
             "I felt very sorry because I said I would help her.",
-            "My aunt asked me to check her house during her trip.",
+            "Before that, my aunt asked me to check her house during her trip.",
             "I had to water the plants and check for packages.",
-            "That morning, I felt very sick and couldn’t go.",
+            "But that morning, I felt very sick and couldn’t go.",
             "I called my aunt and explained the problem.",
             "Then I asked my mom for help.",
             "My mom checked the house for me.",
@@ -7114,9 +7124,9 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 몸이 아파서 이모를 도와드리지 못했다.",
             "이모를 도와드리겠다고 말했기 때문에 정말 미안했다.",
-            "이모는 여행 중에 집을 확인해 달라고 부탁했다.",
+            "그전에 이모는 여행 중에 집을 확인해 달라고 부탁했다.",
             "나는 식물에 물을 주고 택배가 왔는지 확인해야 했다.",
-            "그날 아침 몸이 너무 아파서 갈 수 없었다.",
+            "하지만 그날 아침 몸이 너무 아파서 갈 수 없었다.",
             "이모에게 전화해서 상황을 설명했다.",
             "그 후 엄마에게 도움을 부탁했다.",
             "엄마가 대신 집을 확인해 주셨다.",
@@ -7152,16 +7162,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "이모를 도와드리겠다고 말했기 때문에 정말 미안했다."
             },
             {
-              "english": "My aunt asked me to check her house during her trip.",
-              "korean": "이모는 여행 중에 집을 확인해 달라고 부탁했다."
+              "english": "Before that, my aunt asked me to check her house during her trip.",
+              "korean": "그전에 이모는 여행 중에 집을 확인해 달라고 부탁했다."
             },
             {
               "english": "I had to water the plants and check for packages.",
               "korean": "나는 식물에 물을 주고 택배가 왔는지 확인해야 했다."
             },
             {
-              "english": "That morning, I felt very sick and couldn’t go.",
-              "korean": "그날 아침 몸이 너무 아파서 갈 수 없었다."
+              "english": "But that morning, I felt very sick and couldn’t go.",
+              "korean": "하지만 그날 아침 몸이 너무 아파서 갈 수 없었다."
             },
             {
               "english": "I called my aunt and explained the problem.",
@@ -7214,12 +7224,12 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, my aunt asked me to check her house during her trip.",
-              "korean": "있잖아, 이모는 여행 중에 집을 확인해 달라고 부탁했다.",
+              "english": "Before that, my aunt asked me to check her house during her trip.",
+              "korean": "그전에, 이모는 여행 중에 집을 확인해 달라고 부탁했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 12
                 }
               ],
               "koreanEmphasis": [
@@ -7236,18 +7246,18 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Actually, that morning, I felt very sick and couldn’t go.",
-              "korean": "사실, 그날 아침 몸이 너무 아파서 갈 수 없었다.",
+              "english": "But that morning, I felt very sick and couldn’t go.",
+              "korean": "하지만 그날 아침, 몸이 너무 아파서 갈 수 없었다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 17
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 3
+                  "end": 10
                 }
               ]
             },
@@ -7672,7 +7682,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last Sunday, I met my friend at the park.",
             "I was happy because we met again after a long time.",
-            "It was a sunny afternoon.",
+            "The weather was sunny that day.",
             "We bought some drinks and sat on a bench.",
             "We just talked for a while.",
             "Then we walked around the park and took a few pictures.",
@@ -7682,7 +7692,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Last Sunday, I met my friend at the park.",
             "I was happy because we met again after a long time.",
-            "It was a sunny afternoon.",
+            "The weather was sunny that day.",
             "We bought some drinks and sat on a bench.",
             "We just talked for a while.",
             "Then we walked around the park and took a few pictures.",
@@ -7692,7 +7702,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "지난 일요일에 공원에서 친구를 만났습니다.",
             "오랜만에 다시 만나서 기뻤습니다.",
-            "화창한 오후였습니다.",
+            "그날은 날씨가 맑았습니다.",
             "우리는 음료를 사고 벤치에 앉았습니다.",
             "우리는 잠시 그냥 이야기를 나눴습니다.",
             "그러고 나서 공원을 걸으며 사진을 몇 장 찍었습니다.",
@@ -7729,8 +7739,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "오랜만에 다시 만나서 기뻤습니다."
             },
             {
-              "english": "It was a sunny afternoon.",
-              "korean": "화창한 오후였습니다."
+              "english": "The weather was sunny that day.",
+              "korean": "그날은 날씨가 맑았습니다."
             },
             {
               "english": "We bought some drinks and sat on a bench.",
@@ -7787,8 +7797,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "It was a sunny afternoon.",
-              "korean": "화창한 오후였습니다.",
+              "english": "The weather was sunny that day.",
+              "korean": "그날은 날씨가 맑았습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -7860,7 +7870,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "One time, the wind moved our picnic mat at the park.",
-            "My friend and I were sitting on the grass.",
+            "That day, my friend and I were sitting on the grass.",
             "Suddenly, a strong wind started to blow.",
             "Our mat moved across the grass.",
             "We ran after it.",
@@ -7870,7 +7880,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "One time, the wind moved our picnic mat at the park.",
-            "My friend and I were sitting on the grass.",
+            "That day, my friend and I were sitting on the grass.",
             "Suddenly, a strong wind started to blow.",
             "Our mat moved across the grass.",
             "We ran after it.",
@@ -7880,7 +7890,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingTranslations": [
             "한번은 공원에서 바람이 돗자리를 움직였습니다.",
-            "친구와 저는 잔디밭에 앉아 있었습니다.",
+            "그날 친구와 저는 잔디밭에 앉아 있었습니다.",
             "갑자기 강한 바람이 불기 시작했습니다.",
             "돗자리가 잔디밭 위로 움직였습니다.",
             "우리는 돗자리를 쫓아 달렸습니다.",
@@ -7910,8 +7920,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "한번은 공원에서 바람이 돗자리를 움직였습니다."
             },
             {
-              "english": "My friend and I were sitting on the grass.",
-              "korean": "친구와 저는 잔디밭에 앉아 있었습니다."
+              "english": "That day, my friend and I were sitting on the grass.",
+              "korean": "그날 친구와 저는 잔디밭에 앉아 있었습니다."
             },
             {
               "english": "Suddenly, a strong wind started to blow.",
@@ -7956,8 +7966,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, my friend and I were sitting on the grass.",
-              "korean": "있잖아요, 친구와 저는 잔디밭에 앉아 있었습니다.",
+              "english": "You know, that day, my friend and I were sitting on the grass.",
+              "korean": "있잖아요, 그날 친구와 저는 잔디밭에 앉아 있었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -8672,7 +8682,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once found a free concert while walking in a park.",
             "It was a nice surprise.",
-            "I was walking alone one Saturday afternoon.",
+            "That Saturday afternoon, I was walking alone in the park.",
             "Then I heard music nearby.",
             "A small band was playing there.",
             "I sat down and listened to a few songs.",
@@ -8682,7 +8692,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once found a free concert while walking in a park.",
             "It was a nice surprise.",
-            "I was walking alone one Saturday afternoon.",
+            "That Saturday afternoon, I was walking alone in the park.",
             "Then I heard music nearby.",
             "A small band was playing there.",
             "I sat down and listened to a few songs.",
@@ -8692,7 +8702,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 공원을 걷다가 무료 공연을 발견했습니다.",
             "기분 좋은 뜻밖의 일이었습니다.",
-            "어느 토요일 오후에 혼자 공원을 걷고 있었습니다.",
+            "그 토요일 오후에 혼자 공원을 걷고 있었습니다.",
             "그러다 근처에서 음악이 들렸습니다.",
             "그곳에서 작은 밴드가 연주하고 있었습니다.",
             "저는 앉아서 노래 몇 곡을 들었습니다.",
@@ -8725,8 +8735,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "기분 좋은 뜻밖의 일이었습니다."
             },
             {
-              "english": "I was walking alone one Saturday afternoon.",
-              "korean": "어느 토요일 오후에 혼자 공원을 걷고 있었습니다."
+              "english": "That Saturday afternoon, I was walking alone in the park.",
+              "korean": "그 토요일 오후에 혼자 공원을 걷고 있었습니다."
             },
             {
               "english": "Then I heard music nearby.",
@@ -8783,8 +8793,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I was walking alone one Saturday afternoon.",
-              "korean": "어느 토요일 오후에 혼자 공원을 걷고 있었습니다.",
+              "english": "That Saturday afternoon, I was walking alone in the park.",
+              "korean": "그 토요일 오후에 혼자 공원을 걷고 있었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -9456,7 +9466,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last month, I went to the beach with my friend.",
             "I was happy because we met again after a long time.",
-            "It was a warm afternoon.",
+            "That day, the weather was warm.",
             "We walked near the water and just talked.",
             "Then we sat on the sand and had some drinks.",
             "We watched the sunset and took a few pictures.",
@@ -9466,7 +9476,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Last month, I went to the beach with my friend.",
             "I was happy because we met again after a long time.",
-            "It was a warm afternoon.",
+            "That day, the weather was warm.",
             "We walked near the water and just talked.",
             "Then we sat on the sand and had some drinks.",
             "We watched the sunset and took a few pictures.",
@@ -9476,7 +9486,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "지난달에 친구와 해변에 갔습니다.",
             "오랜만에 다시 만나서 기뻤습니다.",
-            "따뜻한 오후였습니다.",
+            "그날은 날씨가 따뜻했습니다.",
             "물가 근처를 걸으며 그냥 이야기를 나눴습니다.",
             "그러고 나서 모래사장에 앉아 음료를 마셨습니다.",
             "우리는 노을을 보고 사진을 몇 장 찍었습니다.",
@@ -9513,8 +9523,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "오랜만에 다시 만나서 기뻤습니다."
             },
             {
-              "english": "It was a warm afternoon.",
-              "korean": "따뜻한 오후였습니다."
+              "english": "That day, the weather was warm.",
+              "korean": "그날은 날씨가 따뜻했습니다."
             },
             {
               "english": "We walked near the water and just talked.",
@@ -9571,8 +9581,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "It was a warm afternoon.",
-              "korean": "따뜻한 오후였습니다.",
+              "english": "That day, the weather was warm.",
+              "korean": "그날은 날씨가 따뜻했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -9645,7 +9655,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "One time, a bird took my bread at the beach.",
             "I was surprised, but it was funny.",
-            "My friend and I were eating sandwiches on the sand.",
+            "It happened while my friend and I were eating sandwiches on the sand.",
             "I had a small piece of bread in my hand.",
             "Suddenly, the bird came down and took it.",
             "My friend saw it and started laughing.",
@@ -9656,7 +9666,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "One time, a bird took my bread at the beach.",
             "I was surprised, but it was funny.",
-            "My friend and I were eating sandwiches on the sand.",
+            "It happened while my friend and I were eating sandwiches on the sand.",
             "I had a small piece of bread in my hand.",
             "Suddenly, the bird came down and took it.",
             "My friend saw it and started laughing.",
@@ -9667,7 +9677,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 해변에서 새 한 마리가 제 빵을 가져갔습니다.",
             "저는 놀랐지만 웃기기도 했습니다.",
-            "친구와 저는 모래사장에서 샌드위치를 먹고 있었습니다.",
+            "그 일은 친구와 제가 모래사장에서 샌드위치를 먹던 중에 일어났습니다.",
             "제 손에는 작은 빵 조각이 있었습니다.",
             "갑자기 그 새가 내려와 빵을 가져갔습니다.",
             "친구는 그 모습을 보고 웃기 시작했습니다.",
@@ -9701,8 +9711,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 놀랐지만 웃기기도 했습니다."
             },
             {
-              "english": "My friend and I were eating sandwiches on the sand.",
-              "korean": "친구와 저는 모래사장에서 샌드위치를 먹고 있었습니다."
+              "english": "It happened while my friend and I were eating sandwiches on the sand.",
+              "korean": "그 일은 친구와 제가 모래사장에서 샌드위치를 먹던 중에 일어났습니다."
             },
             {
               "english": "I had a small piece of bread in my hand.",
@@ -9763,8 +9773,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "My friend and I were eating sandwiches on the sand.",
-              "korean": "친구와 저는 모래사장에서 샌드위치를 먹고 있었습니다.",
+              "english": "It happened while my friend and I were eating sandwiches on the sand.",
+              "korean": "그 일은 친구와 제가 모래사장에서 샌드위치를 먹던 중에 일어났습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -11809,27 +11819,27 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I started to like rock music in middle school.",
+            "Before that, I only listened to popular songs on the radio.",
             "One day, a friend played a DAY6 song for me.",
             "The guitar sound was strong and exciting.",
-            "Before that, I only listened to popular songs on the radio.",
-            "I liked it, so I found more songs by the band.",
+            "I liked the song, so I found more songs by the band.",
             "Soon, I started listening to rock music every day.",
             "Rock music still gives me energy."
           ],
           "speakingChunks": [
             "I started to like rock music in middle school.",
+            "Before that, I only listened to popular songs on the radio.",
             "One day, a friend played a DAY6 song for me.",
             "The guitar sound was strong and exciting.",
-            "Before that, I only listened to popular songs on the radio.",
-            "I liked it, so I found more songs by the band.",
+            "I liked the song, so I found more songs by the band.",
             "Soon, I started listening to rock music every day.",
             "Rock music still gives me energy."
           ],
           "speakingTranslations": [
             "저는 중학생 때 록 음악을 좋아하게 되었습니다.",
+            "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
             "어느 날 친구가 데이식스 노래를 하나 들려주었습니다.",
             "기타 소리가 강렬하고 신났습니다.",
-            "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
             "그 노래가 좋아서 그 밴드의 다른 노래도 찾아봤습니다.",
             "얼마 지나지 않아 매일 록 음악을 듣기 시작했습니다.",
             "지금도 록 음악을 들으면 힘이 납니다."
@@ -11856,6 +11866,10 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 중학생 때 록 음악을 좋아하게 되었습니다."
             },
             {
+              "english": "Before that, I only listened to popular songs on the radio.",
+              "korean": "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다."
+            },
+            {
               "english": "One day, a friend played a DAY6 song for me.",
               "korean": "어느 날 친구가 데이식스 노래를 하나 들려주었습니다."
             },
@@ -11864,11 +11878,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "기타 소리가 강렬하고 신났습니다."
             },
             {
-              "english": "Before that, I only listened to popular songs on the radio.",
-              "korean": "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다."
-            },
-            {
-              "english": "I liked it, so I found more songs by the band.",
+              "english": "I liked the song, so I found more songs by the band.",
               "korean": "그 노래가 좋아서 그 밴드의 다른 노래도 찾아봤습니다."
             },
             {
@@ -11898,6 +11908,22 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
+              "english": "Actually, before that, I only listened to popular songs on the radio.",
+              "korean": "사실, 그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 3
+                }
+              ]
+            },
+            {
               "english": "One day, a friend played a DAY6 song for me.",
               "korean": "어느 날 친구가 데이식스 노래를 하나 들려주었습니다.",
               "englishEmphasis": [],
@@ -11920,23 +11946,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Actually, before that, I only listened to popular songs on the radio.",
-              "korean": "사실, 그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 9
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 3
-                }
-              ]
-            },
-            {
-              "english": "I mean, I liked it, so I found more songs by the band.",
+              "english": "I mean, I liked the song, so I found more songs by the band.",
               "korean": "그러니까, 그 노래가 좋아서 그 밴드의 다른 노래도 찾아봤습니다.",
               "englishEmphasis": [
                 {
@@ -11992,7 +12002,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "One time, I went to a concert with my friend.",
             "I was surprised because the live music was so loud.",
-            "We went there because my friend really liked the band.",
+            "That day, we went there because my friend really liked the band.",
             "I didn’t know the band very well.",
             "When the music started, the drums and guitar sounded amazing.",
             "Everyone stood up and sang along.",
@@ -12002,7 +12012,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "One time, I went to a concert with my friend.",
             "I was surprised because the live music was so loud.",
-            "We went there because my friend really liked the band.",
+            "That day, we went there because my friend really liked the band.",
             "I didn’t know the band very well.",
             "When the music started, the drums and guitar sounded amazing.",
             "Everyone stood up and sang along.",
@@ -12012,7 +12022,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 친구와 함께 콘서트에 갔습니다.",
             "라이브 음악 소리가 정말 커서 놀랐습니다.",
-            "친구가 그 밴드를 정말 좋아해서 함께 갔습니다.",
+            "그날은 친구가 그 밴드를 정말 좋아해서 함께 갔습니다.",
             "저는 그 밴드를 잘 알지 못했습니다.",
             "음악이 시작되자 드럼과 기타 소리가 정말 멋졌습니다.",
             "모두가 일어나서 노래를 따라 불렀습니다.",
@@ -12045,8 +12055,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "라이브 음악 소리가 정말 커서 놀랐습니다."
             },
             {
-              "english": "We went there because my friend really liked the band.",
-              "korean": "친구가 그 밴드를 정말 좋아해서 함께 갔습니다."
+              "english": "That day, we went there because my friend really liked the band.",
+              "korean": "그날은 친구가 그 밴드를 정말 좋아해서 함께 갔습니다."
             },
             {
               "english": "I didn’t know the band very well.",
@@ -12103,8 +12113,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "We went there because my friend really liked the band.",
-              "korean": "친구가 그 밴드를 정말 좋아해서 함께 갔습니다.",
+              "english": "That day, we went there because my friend really liked the band.",
+              "korean": "그날은 친구가 그 밴드를 정말 좋아해서 함께 갔습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -14196,9 +14206,9 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I started to like the guitar because of a cartoon about a band.",
+            "Before that, I didn’t know much about guitars.",
             "The guitar player looked really cool on stage.",
             "I also liked the strong guitar sound.",
-            "Before that, I didn’t know much about guitars.",
             "After the cartoon, I wanted to play the guitar too.",
             "Soon, I got a guitar and learned some easy chords.",
             "It was hard at first, and my fingers hurt.",
@@ -14206,9 +14216,9 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "I started to like the guitar because of a cartoon about a band.",
+            "Before that, I didn’t know much about guitars.",
             "The guitar player looked really cool on stage.",
             "I also liked the strong guitar sound.",
-            "Before that, I didn’t know much about guitars.",
             "After the cartoon, I wanted to play the guitar too.",
             "Soon, I got a guitar and learned some easy chords.",
             "It was hard at first, and my fingers hurt.",
@@ -14216,9 +14226,9 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingTranslations": [
             "밴드에 관한 만화를 보고 기타를 좋아하게 되었습니다.",
+            "그전에는 기타에 대해 잘 알지 못했습니다.",
             "기타 연주자가 무대 위에서 정말 멋져 보였습니다.",
             "강렬한 기타 소리도 좋았습니다.",
-            "그전에는 기타에 대해 잘 알지 못했습니다.",
             "만화를 본 뒤 저도 기타를 연주하고 싶었습니다.",
             "얼마 지나지 않아 기타를 구해서 쉬운 코드를 배웠습니다.",
             "처음에는 어렵고 손가락도 아팠습니다.",
@@ -14246,16 +14256,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "밴드에 관한 만화를 보고 기타를 좋아하게 되었습니다."
             },
             {
+              "english": "Before that, I didn’t know much about guitars.",
+              "korean": "그전에는 기타에 대해 잘 알지 못했습니다."
+            },
+            {
               "english": "The guitar player looked really cool on stage.",
               "korean": "기타 연주자가 무대 위에서 정말 멋져 보였습니다."
             },
             {
               "english": "I also liked the strong guitar sound.",
               "korean": "강렬한 기타 소리도 좋았습니다."
-            },
-            {
-              "english": "Before that, I didn’t know much about guitars.",
-              "korean": "그전에는 기타에 대해 잘 알지 못했습니다."
             },
             {
               "english": "After the cartoon, I wanted to play the guitar too.",
@@ -14292,6 +14302,22 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
+              "english": "Actually, before that, I didn’t know much about guitars.",
+              "korean": "사실, 그전에는 기타에 대해 잘 알지 못했습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 3
+                }
+              ]
+            },
+            {
               "english": "You know, the guitar player looked really cool on stage.",
               "korean": "있잖아요, 기타 연주자가 무대 위에서 정말 멋져 보였습니다.",
               "englishEmphasis": [
@@ -14312,22 +14338,6 @@ window.OPIC_STUDY_DATA = {
               "korean": "강렬한 기타 소리도 좋았습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
-            },
-            {
-              "english": "Actually, before that, I didn’t know much about guitars.",
-              "korean": "사실, 그전에는 기타에 대해 잘 알지 못했습니다.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 9
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 3
-                }
-              ]
             },
             {
               "english": "After the cartoon, I wanted to play the guitar too.",
@@ -14392,9 +14402,9 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "One time, I played guitar with my band at school.",
             "I was very nervous because I didn’t want to make a mistake.",
-            "We practiced one song together for a few weeks.",
-            "My friend told me to relax.",
-            "Once we started, I focused only on the song.",
+            "Before the show, we practiced one song together for a few weeks.",
+            "Right before we started, my friend told me to relax.",
+            "When the show started, I focused only on the song.",
             "I made one small mistake, but I kept playing.",
             "Everyone clapped when we finished.",
             "I felt very happy after the show."
@@ -14402,9 +14412,9 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "One time, I played guitar with my band at school.",
             "I was very nervous because I didn’t want to make a mistake.",
-            "We practiced one song together for a few weeks.",
-            "My friend told me to relax.",
-            "Once we started, I focused only on the song.",
+            "Before the show, we practiced one song together for a few weeks.",
+            "Right before we started, my friend told me to relax.",
+            "When the show started, I focused only on the song.",
             "I made one small mistake, but I kept playing.",
             "Everyone clapped when we finished.",
             "I felt very happy after the show."
@@ -14412,9 +14422,9 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 학교에서 밴드와 함께 기타를 연주했습니다.",
             "실수하고 싶지 않아서 공연 전에 많이 긴장했습니다.",
-            "우리는 몇 주 동안 한 곡을 함께 연습했습니다.",
-            "친구는 저에게 긴장을 풀라고 말했습니다.",
-            "연주를 시작하자 노래에만 집중했습니다.",
+            "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습했습니다.",
+            "공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다.",
+            "공연이 시작되자 노래에만 집중했습니다.",
             "작은 실수 하나를 했지만 계속 연주했습니다.",
             "연주가 끝나자 모두가 박수를 쳤습니다.",
             "공연이 끝난 뒤 정말 기뻤습니다."
@@ -14445,16 +14455,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "실수하고 싶지 않아서 공연 전에 많이 긴장했습니다."
             },
             {
-              "english": "We practiced one song together for a few weeks.",
-              "korean": "우리는 몇 주 동안 한 곡을 함께 연습했습니다."
+              "english": "Before the show, we practiced one song together for a few weeks.",
+              "korean": "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습했습니다."
             },
             {
-              "english": "My friend told me to relax.",
-              "korean": "친구는 저에게 긴장을 풀라고 말했습니다."
+              "english": "Right before we started, my friend told me to relax.",
+              "korean": "공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다."
             },
             {
-              "english": "Once we started, I focused only on the song.",
-              "korean": "연주를 시작하자 노래에만 집중했습니다."
+              "english": "When the show started, I focused only on the song.",
+              "korean": "공연이 시작되자 노래에만 집중했습니다."
             },
             {
               "english": "I made one small mistake, but I kept playing.",
@@ -14503,14 +14513,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "We practiced one song together for a few weeks.",
-              "korean": "우리는 몇 주 동안 한 곡을 함께 연습했습니다.",
+              "english": "Before the show, we practiced one song together for a few weeks.",
+              "korean": "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "You know, my friend told me to relax.",
-              "korean": "있잖아요, 친구는 저에게 긴장을 풀라고 말했습니다.",
+              "english": "You know, right before we started, my friend told me to relax.",
+              "korean": "있잖아요, 공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -14525,8 +14535,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Anyway, once we started, I focused only on the song.",
-              "korean": "아무튼, 연주를 시작하자 노래에만 집중했습니다.",
+              "english": "Anyway, when the show started, I focused only on the song.",
+              "korean": "아무튼, 공연이 시작되자 노래에만 집중했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -16529,7 +16539,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last Sunday, I went to the movies with my friend.",
             "I really liked the music in the movie.",
-            "I bought the tickets online.",
+            "Before we went, I bought the tickets online.",
             "We arrived early and found our seats.",
             "The music was much better than I expected.",
             "After the movie, we talked about the songs.",
@@ -16538,7 +16548,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Last Sunday, I went to the movies with my friend.",
             "I really liked the music in the movie.",
-            "I bought the tickets online.",
+            "Before we went, I bought the tickets online.",
             "We arrived early and found our seats.",
             "The music was much better than I expected.",
             "After the movie, we talked about the songs.",
@@ -16547,7 +16557,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "지난 일요일에 친구와 영화를 보러 갔습니다.",
             "영화에 나온 음악이 정말 좋았습니다.",
-            "저는 온라인으로 표를 예매했습니다.",
+            "영화를 보러 가기 전에 온라인으로 표를 예매했습니다.",
             "우리는 일찍 도착해서 자리를 찾았습니다.",
             "음악은 기대보다 훨씬 좋았습니다.",
             "영화가 끝난 뒤 우리는 노래들에 관해 이야기했습니다.",
@@ -16583,8 +16593,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "영화에 나온 음악이 정말 좋았습니다."
             },
             {
-              "english": "I bought the tickets online.",
-              "korean": "저는 온라인으로 표를 예매했습니다."
+              "english": "Before we went, I bought the tickets online.",
+              "korean": "영화를 보러 가기 전에 온라인으로 표를 예매했습니다."
             },
             {
               "english": "We arrived early and found our seats.",
@@ -16637,8 +16647,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I bought the tickets online.",
-              "korean": "저는 온라인으로 표를 예매했습니다.",
+              "english": "Before we went, I bought the tickets online.",
+              "korean": "영화를 보러 가기 전에 온라인으로 표를 예매했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -16715,8 +16725,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "My favorite actress is Emma Stone.",
-            "I was happy when she won an Oscar in 2024.",
             "I like her because her acting feels natural.",
+            "I was happy when she won an Oscar in 2024.",
             "I saw a short video of her speech online.",
             "She looked surprised and thankful.",
             "She also thanked many people in her speech.",
@@ -16724,8 +16734,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "My favorite actress is Emma Stone.",
-            "I was happy when she won an Oscar in 2024.",
             "I like her because her acting feels natural.",
+            "I was happy when she won an Oscar in 2024.",
             "I saw a short video of her speech online.",
             "She looked surprised and thankful.",
             "She also thanked many people in her speech.",
@@ -16733,17 +16743,17 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingTranslations": [
             "제가 가장 좋아하는 배우는 Emma Stone입니다.",
-            "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
             "그녀의 연기가 자연스럽게 느껴져서 좋아합니다.",
+            "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
             "저는 온라인에서 그녀의 수상 소감 영상을 짧게 봤습니다.",
             "그녀는 놀라고 감사해 보였습니다.",
             "그녀는 수상 소감에서 많은 사람에게 감사했습니다.",
             "그 후로 그녀를 더욱 좋아하게 되었습니다."
           ],
-          "mainPoint": "My favorite actress is Emma Stone. I was happy when she won an Oscar in 2024.",
+          "mainPoint": "My favorite actress is Emma Stone. I like her because her acting feels natural.",
           "mainPointSentences": [
             "My favorite actress is Emma Stone.",
-            "I was happy when she won an Oscar in 2024."
+            "I like her because her acting feels natural."
           ],
           "mainPointSentenceIndexes": [
             0,
@@ -16766,12 +16776,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "제가 가장 좋아하는 배우는 Emma Stone입니다."
             },
             {
-              "english": "I was happy when she won an Oscar in 2024.",
-              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다."
-            },
-            {
               "english": "I like her because her acting feels natural.",
               "korean": "그녀의 연기가 자연스럽게 느껴져서 좋아합니다."
+            },
+            {
+              "english": "I was happy when she won an Oscar in 2024.",
+              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다."
             },
             {
               "english": "I saw a short video of her speech online.",
@@ -16808,12 +16818,6 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I was happy when she won an Oscar in 2024.",
-              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
               "english": "I mean, I like her because her acting feels natural.",
               "korean": "그러니까, 그녀의 연기가 자연스럽게 느껴져서 좋아합니다.",
               "englishEmphasis": [
@@ -16828,6 +16832,12 @@ window.OPIC_STUDY_DATA = {
                   "end": 5
                 }
               ]
+            },
+            {
+              "english": "I was happy when she won an Oscar in 2024.",
+              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
             },
             {
               "english": "I saw a short video of her speech online.",
@@ -17524,7 +17534,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once booked movie tickets for the wrong day.",
             "I felt really sorry because it was my mistake.",
-            "My friend and I planned to watch a movie on Saturday.",
+            "We wanted to watch a movie on Saturday.",
             "I bought the tickets online, but I chose Sunday.",
             "I noticed the problem when we arrived at the theater.",
             "I told my friend I was sorry.",
@@ -17535,7 +17545,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once booked movie tickets for the wrong day.",
             "I felt really sorry because it was my mistake.",
-            "My friend and I planned to watch a movie on Saturday.",
+            "We wanted to watch a movie on Saturday.",
             "I bought the tickets online, but I chose Sunday.",
             "I noticed the problem when we arrived at the theater.",
             "I told my friend I was sorry.",
@@ -17546,7 +17556,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 영화표를 잘못된 날짜로 예매했습니다.",
             "제 실수라서 정말 미안했습니다.",
-            "친구와 저는 토요일에 영화를 보기로 했습니다.",
+            "우리는 토요일에 영화를 보고 싶었습니다.",
             "온라인으로 표를 샀는데 일요일을 선택했습니다.",
             "영화관에 도착했을 때 문제를 알아차렸습니다.",
             "저는 친구에게 미안하다고 말했습니다.",
@@ -17584,8 +17594,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "제 실수라서 정말 미안했습니다."
             },
             {
-              "english": "My friend and I planned to watch a movie on Saturday.",
-              "korean": "친구와 저는 토요일에 영화를 보기로 했습니다."
+              "english": "We wanted to watch a movie on Saturday.",
+              "korean": "우리는 토요일에 영화를 보고 싶었습니다."
             },
             {
               "english": "I bought the tickets online, but I chose Sunday.",
@@ -17646,8 +17656,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "My friend and I planned to watch a movie on Saturday.",
-              "korean": "친구와 저는 토요일에 영화를 보기로 했습니다.",
+              "english": "We wanted to watch a movie on Saturday.",
+              "korean": "우리는 토요일에 영화를 보고 싶었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -19034,7 +19044,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "One time, a man at the gym showed me how to use a machine.",
             "I was thankful because I could exercise safely.",
-            "I was using the machine too quickly.",
+            "At that time, I was using the machine too quickly.",
             "I didn’t know I was using the machine wrong.",
             "The man told me to slow down.",
             "He showed me how to use the machine.",
@@ -19044,7 +19054,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "One time, a man at the gym showed me how to use a machine.",
             "I was thankful because I could exercise safely.",
-            "I was using the machine too quickly.",
+            "At that time, I was using the machine too quickly.",
             "I didn’t know I was using the machine wrong.",
             "The man told me to slow down.",
             "He showed me how to use the machine.",
@@ -19054,7 +19064,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 헬스장에 있던 한 남자가 기구 사용법을 알려 주었습니다.",
             "안전하게 운동할 수 있게 되어 고마웠습니다.",
-            "저는 기구를 너무 빨리 사용하고 있었습니다.",
+            "그때 저는 기구를 너무 빨리 사용하고 있었습니다.",
             "제가 기구를 잘못 사용하고 있는 줄 몰랐습니다.",
             "그 남자가 천천히 하라고 말했습니다.",
             "그는 기구 사용법을 알려 주었습니다.",
@@ -19087,8 +19097,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "안전하게 운동할 수 있게 되어 고마웠습니다."
             },
             {
-              "english": "I was using the machine too quickly.",
-              "korean": "저는 기구를 너무 빨리 사용하고 있었습니다."
+              "english": "At that time, I was using the machine too quickly.",
+              "korean": "그때 저는 기구를 너무 빨리 사용하고 있었습니다."
             },
             {
               "english": "I didn’t know I was using the machine wrong.",
@@ -19145,18 +19155,18 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, I was using the machine too quickly.",
-              "korean": "있잖아요, 저는 기구를 너무 빨리 사용하고 있었습니다.",
+              "english": "At that time, I was using the machine too quickly.",
+              "korean": "그때, 저는 기구를 너무 빨리 사용하고 있었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 13
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 3
                 }
               ]
             },
@@ -19840,7 +19850,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once canceled a gym visit because I had a bad headache.",
             "I felt sorry because my friend was waiting for me.",
-            "We planned to visit a new gym after school.",
+            "That day, we were going to visit a new gym after school.",
             "I called my friend right away.",
             "I said, “Can we go on Saturday?”",
             "My friend said yes, so I rested at home.",
@@ -19850,7 +19860,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once canceled a gym visit because I had a bad headache.",
             "I felt sorry because my friend was waiting for me.",
-            "We planned to visit a new gym after school.",
+            "That day, we were going to visit a new gym after school.",
             "I called my friend right away.",
             "I said, “Can we go on Saturday?”",
             "My friend said yes, so I rested at home.",
@@ -19860,7 +19870,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 머리가 심하게 아파서 헬스장 방문을 취소했습니다.",
             "친구가 저를 기다리고 있어서 미안했습니다.",
-            "우리는 방과 후에 새 헬스장에 가기로 했습니다.",
+            "그날 우리는 방과 후에 새 헬스장에 가려고 했습니다.",
             "저는 바로 친구에게 전화했습니다.",
             "저는 “토요일에 갈 수 있을까?”라고 말했습니다.",
             "친구가 좋다고 해서 저는 집에서 쉬었습니다.",
@@ -19897,8 +19907,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "친구가 저를 기다리고 있어서 미안했습니다."
             },
             {
-              "english": "We planned to visit a new gym after school.",
-              "korean": "우리는 방과 후에 새 헬스장에 가기로 했습니다."
+              "english": "That day, we were going to visit a new gym after school.",
+              "korean": "그날 우리는 방과 후에 새 헬스장에 가려고 했습니다."
             },
             {
               "english": "I called my friend right away.",
@@ -19955,8 +19965,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, we planned to visit a new gym after school.",
-              "korean": "있잖아요, 우리는 방과 후에 새 헬스장에 가기로 했습니다.",
+              "english": "That day, we were going to visit a new gym after school.",
+              "korean": "그날, 우리는 방과 후에 새 헬스장에 가려고 했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19966,7 +19976,7 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 3
                 }
               ]
             },
@@ -21334,7 +21344,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "One time, I watched a live show during my vacation.",
             "It was a nice surprise.",
-            "My friend and I only planned to have lunch.",
+            "At first, my friend and I only planned to have lunch.",
             "After lunch, we saw a poster for a show.",
             "We bought tickets and went inside.",
             "The music was much better than I expected.",
@@ -21344,7 +21354,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "One time, I watched a live show during my vacation.",
             "It was a nice surprise.",
-            "My friend and I only planned to have lunch.",
+            "At first, my friend and I only planned to have lunch.",
             "After lunch, we saw a poster for a show.",
             "We bought tickets and went inside.",
             "The music was much better than I expected.",
@@ -21354,7 +21364,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 휴가 중에 라이브 공연을 봤습니다.",
             "기분 좋은 뜻밖의 일이었습니다.",
-            "친구와 저는 점심만 먹기로 했습니다.",
+            "처음에는 친구와 점심만 먹기로 했습니다.",
             "점심을 먹은 후 공연 포스터를 봤습니다.",
             "우리는 표를 사서 안으로 들어갔습니다.",
             "음악은 제가 기대한 것보다 훨씬 좋았습니다.",
@@ -21387,8 +21397,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "기분 좋은 뜻밖의 일이었습니다."
             },
             {
-              "english": "My friend and I only planned to have lunch.",
-              "korean": "친구와 저는 점심만 먹기로 했습니다."
+              "english": "At first, my friend and I only planned to have lunch.",
+              "korean": "처음에는 친구와 점심만 먹기로 했습니다."
             },
             {
               "english": "After lunch, we saw a poster for a show.",
@@ -21435,10 +21445,20 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "My friend and I only planned to have lunch.",
-              "korean": "친구와 저는 점심만 먹기로 했습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
+              "english": "At first, my friend and I only planned to have lunch.",
+              "korean": "처음에는, 친구와 점심만 먹기로 했습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 5
+                }
+              ]
             },
             {
               "english": "After lunch, we saw a poster for a show.",
