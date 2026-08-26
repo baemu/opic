@@ -734,6 +734,11 @@ button:disabled {
   color: var(--text);
 }
 
+.mode-button:disabled {
+  color: var(--border-strong);
+  cursor: not-allowed;
+}
+
 .question-card {
   display: flex;
   min-height: 150px;
@@ -897,6 +902,16 @@ button:disabled {
   overflow-wrap: anywhere;
   -webkit-user-select: text;
   user-select: text;
+}
+
+.filler-emphasis {
+  color: var(--accent-dark);
+  font-weight: 750;
+}
+
+.translation-text .filler-emphasis {
+  color: var(--accent-dark);
+  font-weight: 650;
 }
 
 .sentence-tools {

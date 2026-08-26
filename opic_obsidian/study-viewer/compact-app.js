@@ -87,10 +87,11 @@
   };
 
   const savedState = readSavedState();
+  const savedMode = savedState.mode === "speaking" ? "filler" : savedState.mode;
   const state = {
     fileId: savedState.fileId || data?.files?.[0]?.id || "",
     entryId: savedState.entryId || "",
-    mode: savedState.mode || "speaking",
+    mode: ["filler", "final"].includes(savedMode) ? savedMode : "filler",
     rate: Number(savedState.rate || 0.9),
     volume: Number(savedState.volume ?? 1),
     repeat: Number(savedState.repeat || 1),
@@ -386,6 +387,9 @@
     }
 
     ensureSelectedEntry();
+    if (savedState.mode === "speaking") {
+      saveState();
+    }
     elements.rateInput.value = String(state.rate);
     elements.rateValue.textContent = `${state.rate.toFixed(2)}x`;
     elements.volumeInput.value = String(state.volume);
@@ -1325,9 +1329,26 @@
       });
   }
 
+  function hasFillerVersion(entry) {
+    return Array.isArray(entry?.fillerItems) && entry.fillerItems.length > 0;
+  }
+
+  function getEffectiveMode(entry = getSelectedEntry()) {
+    return state.mode === "filler" && hasFillerVersion(entry) ? "filler" : "final";
+  }
+
   function renderMode() {
+    const entry = getSelectedEntry();
+    const effectiveMode = getEffectiveMode(entry);
+    const hasFiller = hasFillerVersion(entry);
     elements.modeButtons.forEach((button) => {
-      button.setAttribute("aria-pressed", button.dataset.mode === state.mode ? "true" : "false");
+      const isFillerButton = button.dataset.mode === "filler";
+      button.disabled = isFillerButton && !hasFiller;
+      button.title = button.disabled ? "이 문제에는 필러 포함 버전이 없습니다." : "";
+      button.setAttribute(
+        "aria-pressed",
+        button.dataset.mode === effectiveMode ? "true" : "false",
+      );
     });
   }
 
@@ -1356,6 +1377,7 @@
     elements.questionFullButton.textContent = entry.question || "Question not found.";
     elements.questionFullButton.dataset.speakText = entry.question || "";
     renderQuestionTranslation();
+    renderMode();
     renderAnswer();
     setStatus("Ready");
   }
@@ -1375,9 +1397,10 @@
 
   function renderAnswer() {
     const entry = getSelectedEntry();
+    const mode = getEffectiveMode(entry);
     const items = getAnswerItems(entry);
     elements.answerMeta.textContent = `${items.length}개 문장`;
-    elements.answerTitle.textContent = state.mode === "speaking" ? "말하기용 답변" : "최종 답변";
+    elements.answerTitle.textContent = mode === "filler" ? "필러 포함 답변" : "최종 답변";
     elements.toggleTranslationsBtn.textContent = state.showTranslations ? "번역 숨기기" : "번역";
     elements.toggleTranslationsBtn.setAttribute("aria-pressed", state.showTranslations ? "true" : "false");
     renderSentenceButtons(elements.answerLines, items, "answer");
@@ -1385,6 +1408,7 @@
 
   function renderSentenceButtons(container, items, type) {
     const entry = getSelectedEntry();
+    const answerMode = getEffectiveMode(entry);
     const mainPointIndexes = type === "answer" ? getMainPointItemIndexes(entry) : [];
     container.innerHTML = "";
     if (!items.length) {
@@ -1395,7 +1419,9 @@
     items.forEach((item, index) => {
       const text = getItemText(item);
       const translation = typeof item === "object" ? item.translation : "";
-      const translationKey = `${state.entryId}:${state.mode}:${index}`;
+      const emphasis = typeof item === "object" ? item.emphasis : [];
+      const translationEmphasis = typeof item === "object" ? item.translationEmphasis : [];
+      const translationKey = `${state.entryId}:${answerMode}:${index}`;
       const isTranslationOpen = state.showTranslations || openTranslations.has(translationKey);
       const isMainPoint = mainPointIndexes.includes(index);
       const wrapper = document.createElement("div");
@@ -1426,8 +1452,9 @@
               : ""
           }
         </span>
-        <span class="sentence-text">${escapeHtml(text)}</span>
+        <span class="sentence-text"></span>
       `;
+      appendEmphasizedText(button.querySelector(".sentence-text"), text, emphasis);
       sentenceMain.append(button);
 
       const sentenceTools = document.createElement("div");
@@ -1466,7 +1493,7 @@
         const translationText = document.createElement("p");
         translationText.className = "translation-text";
         translationText.hidden = !isTranslationOpen;
-        translationText.textContent = translation;
+        appendEmphasizedText(translationText, translation, translationEmphasis);
         wrapper.append(translationText);
       }
 
@@ -1478,18 +1505,55 @@
     if (!entry) {
       return [];
     }
-    const texts = state.mode === "speaking" ? entry.speakingChunks : entry.finalSentences;
-    return texts.map((text, index) => ({
+    if (getEffectiveMode(entry) === "filler") {
+      return entry.fillerItems.map((item) => ({
+        text: item.english,
+        translation: item.korean,
+        emphasis: item.englishEmphasis,
+        translationEmphasis: item.koreanEmphasis,
+      }));
+    }
+
+    return entry.finalSentences.map((text) => ({
       text,
-      translation:
-        state.mode === "speaking"
-          ? entry.speakingTranslations?.[index] || findTranslation(entry, text)
-          : findTranslation(entry, text),
+      translation: findTranslation(entry, text),
+      emphasis: [],
+      translationEmphasis: [],
     }));
   }
 
   function getItemText(item) {
     return typeof item === "object" && item !== null ? item.text : item;
+  }
+
+  function appendEmphasizedText(container, text, ranges) {
+    const value = String(text || "");
+    const validRanges = Array.isArray(ranges)
+      ? ranges
+          .filter(
+            (range) =>
+              Number.isInteger(range?.start) &&
+              Number.isInteger(range?.end) &&
+              range.start >= 0 &&
+              range.end > range.start &&
+              range.end <= value.length,
+          )
+          .sort((a, b) => a.start - b.start)
+      : [];
+    let cursor = 0;
+
+    validRanges.forEach((range) => {
+      if (range.start < cursor) {
+        return;
+      }
+      container.append(document.createTextNode(value.slice(cursor, range.start)));
+      const emphasis = document.createElement("strong");
+      emphasis.className = "filler-emphasis";
+      emphasis.textContent = value.slice(range.start, range.end);
+      container.append(emphasis);
+      cursor = range.end;
+    });
+    container.append(document.createTextNode(value.slice(cursor)));
   }
 
   function renderCategoryList(container, items) {
@@ -1605,11 +1669,13 @@
       return [];
     }
 
-    const items = state.mode === "final" ? entry.finalSentences : entry.speakingChunks;
+    const mode = getEffectiveMode(entry);
+    const items =
+      mode === "filler"
+        ? entry.fillerItems.map((item) => item.english)
+        : entry.finalSentences;
     const storedIndexes =
-      state.mode === "final"
-        ? entry.mainPointSentenceIndexes
-        : entry.mainPointSpeakingChunkIndexes;
+      mode === "filler" ? entry.mainPointFillerIndexes : entry.mainPointSentenceIndexes;
     if (Array.isArray(storedIndexes)) {
       return [...new Set(storedIndexes)].filter(
         (index) => Number.isInteger(index) && index >= 0 && index < items.length,
@@ -1617,9 +1683,7 @@
     }
 
     const legacyIndex = Number(
-      state.mode === "final"
-        ? entry.mainPointSentenceIndex
-        : entry.mainPointSpeakingChunkIndex,
+      mode === "filler" ? entry.mainPointFillerIndex : entry.mainPointSentenceIndex,
     );
     if (Number.isInteger(legacyIndex) && legacyIndex >= 0 && legacyIndex < items.length) {
       return [legacyIndex];
@@ -1653,16 +1717,7 @@
       return exact.korean;
     }
 
-    if (state.mode !== "speaking" || normalizedText.length < 5) {
-      return "";
-    }
-
-    const containingSentence = pairs.find((pair) => {
-      const normalizedEnglish = normalizeEnglish(pair.english);
-      return normalizedEnglish.includes(normalizedText);
-    });
-
-    return containingSentence?.korean || "";
+    return "";
   }
 
   async function updateData() {

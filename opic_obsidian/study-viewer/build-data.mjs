@@ -453,6 +453,68 @@ function parseTranslationPairs(lines) {
   return pairs;
 }
 
+function parseEmphasizedText(value) {
+  const source = cleanText(value);
+  const emphasis = [];
+  let text = "";
+  let cursor = 0;
+  const pattern = /\*\*(.+?)\*\*/g;
+  let match;
+
+  while ((match = pattern.exec(source))) {
+    text += source.slice(cursor, match.index);
+    const start = text.length;
+    text += match[1];
+    emphasis.push({ start, end: text.length });
+    cursor = match.index + match[0].length;
+  }
+
+  text += source.slice(cursor);
+  return {
+    text: text.replace(/\*\*/g, ""),
+    emphasis,
+  };
+}
+
+function parseFillerPairs(lines, entryLabel) {
+  const pairs = [];
+  let pendingEnglish = null;
+  const meaningfulLines = lines.map(cleanText).filter(Boolean);
+
+  for (const line of meaningfulLines) {
+    if (hasHangul(line)) {
+      if (!pendingEnglish) {
+        throw new Error(`Filler translation has no English pair: ${entryLabel}`);
+      }
+      const korean = parseEmphasizedText(line);
+      pairs.push({
+        english: pendingEnglish.text,
+        korean: korean.text,
+        englishEmphasis: pendingEnglish.emphasis,
+        koreanEmphasis: korean.emphasis,
+      });
+      pendingEnglish = null;
+      continue;
+    }
+
+    if (hasEnglish(line)) {
+      if (pendingEnglish) {
+        throw new Error(`Filler English sentence has no Korean pair: ${entryLabel}`);
+      }
+      pendingEnglish = parseEmphasizedText(line);
+    }
+  }
+
+  if (pendingEnglish) {
+    throw new Error(`Filler English sentence has no Korean pair: ${entryLabel}`);
+  }
+  if (pairs.length * 2 !== meaningfulLines.length) {
+    throw new Error(`Filler section has an invalid English/Korean line pair: ${entryLabel}`);
+  }
+
+  return pairs;
+}
+
 function normalizeForAlignment(value) {
   return cleanText(value).toLowerCase().replace(/[^a-z0-9가-힣]+/g, "");
 }
@@ -814,7 +876,12 @@ function parseFile(config) {
     currentEntry.finalSentences = originalFinalSentences;
     currentEntry.speakingChunks = currentEntry.speakingChunks.map(cleanText).filter(Boolean);
     currentEntry.translations = parseTranslationPairs(currentEntry.translationLines);
+    currentEntry.fillerItems = parseFillerPairs(
+      currentEntry.fillerTranslationLines,
+      `${config.fileName} / Set ${currentEntry.set} / Type ${currentEntry.type}`,
+    );
     delete currentEntry.translationLines;
+    delete currentEntry.fillerTranslationLines;
 
     if (currentEntry.translations.length > 0) {
       const translatedEnglish = currentEntry.translations.map((pair) => pair.english);
@@ -845,9 +912,14 @@ function parseFile(config) {
       currentEntry.mainPoint,
       currentEntry.speakingChunks,
     );
+    currentEntry.mainPointFillerIndexes = findMainPointSentenceIndexes(
+      currentEntry.mainPoint,
+      currentEntry.fillerItems.map((item) => item.english),
+    );
     currentEntry.mainPointSentenceIndex = currentEntry.mainPointSentenceIndexes[0] ?? -1;
     currentEntry.mainPointSpeakingChunkIndex =
       currentEntry.mainPointSpeakingChunkIndexes[0] ?? -1;
+    currentEntry.mainPointFillerIndex = currentEntry.mainPointFillerIndexes[0] ?? -1;
 
     if (
       currentEntry.question ||
@@ -903,10 +975,14 @@ function parseFile(config) {
         mainPointSentences: [],
         mainPointSentenceIndexes: [],
         mainPointSpeakingChunkIndexes: [],
+        mainPointFillerIndexes: [],
         mainPointSentenceIndex: -1,
         mainPointSpeakingChunkIndex: -1,
+        mainPointFillerIndex: -1,
         translationLines: [],
+        fillerTranslationLines: [],
         translations: [],
+        fillerItems: [],
       };
       activeSection = "";
       continue;
@@ -935,7 +1011,9 @@ function parseFile(config) {
         activeSection = "final";
       } else if (/opic-speaking-marker|\[말하기용 버전\]/.test(line)) {
         activeSection = "speaking";
-      } else if (/영어\+한국어/.test(line)) {
+      } else if (/\[영어\+한국어\+필러 버전\]/.test(line)) {
+        activeSection = "filler";
+      } else if (/\[영어\+한국어 버전\]/.test(line)) {
         activeSection = "translation";
       } else {
         activeSection = "";
@@ -943,7 +1021,12 @@ function parseFile(config) {
       continue;
     }
 
-    if (activeSection !== "final" && activeSection !== "speaking" && activeSection !== "translation") {
+    if (
+      activeSection !== "final" &&
+      activeSection !== "speaking" &&
+      activeSection !== "translation" &&
+      activeSection !== "filler"
+    ) {
       continue;
     }
 
@@ -961,8 +1044,10 @@ function parseFile(config) {
       currentEntry.finalSentences.push(quoteText);
     } else if (activeSection === "speaking") {
       currentEntry.speakingChunks.push(...splitSpeakingLine(quoteText));
-    } else {
+    } else if (activeSection === "translation") {
       currentEntry.translationLines.push(quoteText);
+    } else {
+      currentEntry.fillerTranslationLines.push(quoteText);
     }
   }
 
@@ -1003,6 +1088,18 @@ const stats = files.reduce(
       (sum, entry) => sum + entry.speakingTranslations.filter(Boolean).length,
       0,
     );
+    total.fillerEntries += file.entries.reduce(
+      (sum, entry) => sum + (entry.fillerItems.length > 0 ? 1 : 0),
+      0,
+    );
+    total.fillerSentences += file.entries.reduce(
+      (sum, entry) => sum + entry.fillerItems.length,
+      0,
+    );
+    total.fillerTranslations += file.entries.reduce(
+      (sum, entry) => sum + entry.fillerItems.filter((item) => item.korean).length,
+      0,
+    );
     total.translations += file.entries.reduce((sum, entry) => sum + entry.translations.length, 0);
     return total;
   },
@@ -1016,6 +1113,9 @@ const stats = files.reduce(
     finalSentences: 0,
     speakingChunks: 0,
     speakingTranslations: 0,
+    fillerEntries: 0,
+    fillerSentences: 0,
+    fillerTranslations: 0,
     translations: 0,
   },
 );
@@ -1035,11 +1135,17 @@ fs.writeFileSync(
 
 console.log(`Wrote ${outputFile}`);
 console.log(
-  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.categories} categories, ${stats.mainPoints} main points, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.translations} final translations.`,
+  `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.categories} categories, ${stats.mainPoints} main points, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.fillerEntries} filler entries, ${stats.fillerSentences} filler sentences, ${stats.fillerTranslations} filler translations, ${stats.translations} final translations.`,
 );
 
 if (stats.speakingTranslations !== stats.speakingChunks) {
   console.warn(
     `Warning: ${stats.speakingChunks - stats.speakingTranslations} speaking translations are missing.`,
+  );
+}
+
+if (stats.fillerTranslations !== stats.fillerSentences) {
+  console.warn(
+    `Warning: ${stats.fillerSentences - stats.fillerTranslations} filler translations are missing.`,
   );
 }
