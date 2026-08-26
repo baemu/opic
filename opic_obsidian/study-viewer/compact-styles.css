@@ -558,14 +558,17 @@ button:disabled {
 
 .category-tooltip {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 6px);
   left: 0;
   z-index: 60;
   display: grid;
-  width: max-content;
-  max-width: min(320px, calc(100vw - 32px));
-  gap: 4px;
-  padding: 9px 10px;
+  width: min(300px, calc(100vw - 32px));
+  max-width: min(300px, calc(100vw - 32px));
+  max-height: min(500px, calc(100dvh - 190px));
+  gap: 8px;
+  padding: 11px 12px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   visibility: hidden;
   border: 1px solid var(--border-strong);
   border-radius: 6px;
@@ -577,7 +580,7 @@ button:disabled {
   font-weight: 400;
   line-height: 1.45;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   transform: translateY(-3px);
   transition:
     opacity 120ms ease,
@@ -585,10 +588,55 @@ button:disabled {
     visibility 120ms ease;
 }
 
-.category-tooltip strong {
+.category-tooltip-heading {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-tooltip-heading strong {
   color: var(--text);
   font-size: 12px;
   font-weight: 700;
+}
+
+.category-rp-badge {
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  font-family: inherit;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.category-tooltip-summary,
+.category-tooltip p {
+  margin: 0;
+}
+
+.category-tooltip-summary {
+  padding: 7px 8px;
+  border-left: 2px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--text);
+  font-weight: 550;
+  word-break: keep-all;
+}
+
+.category-tooltip-overview {
+  display: grid;
+  gap: 6px;
+}
+
+.category-tooltip-overview > div,
+.category-tooltip-section {
+  display: grid;
+  gap: 2px;
 }
 
 .category-tooltip-label {
@@ -597,8 +645,36 @@ button:disabled {
   font-weight: 750;
 }
 
+#categoryTooltipSignals,
 #categoryTooltipFlow {
   white-space: pre-line;
+  word-break: keep-all;
+}
+
+.category-tooltip ol,
+.category-tooltip ul {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.category-tooltip li {
+  padding-left: 1px;
+  word-break: keep-all;
+}
+
+.category-tooltip-cautions {
+  padding-top: 7px;
+  border-top: 1px solid var(--border);
+}
+
+.category-tooltip-common {
+  padding-top: 7px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
   word-break: keep-all;
 }
 
@@ -1776,6 +1852,11 @@ select:focus-visible {
     padding: 17px 15px;
     font-size: 17px;
   }
+
+  .category-tooltip {
+    width: 238px;
+    max-width: 238px;
+  }
 }
 
 /* iPhone 17 Pro portrait: compact navigation and a single readable answer column. */
@@ -2179,6 +2260,12 @@ select:focus-visible {
 
   .answer-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .category-tooltip {
+    width: 220px;
+    max-width: 220px;
+    max-height: calc(100dvh - 230px);
   }
 }
 

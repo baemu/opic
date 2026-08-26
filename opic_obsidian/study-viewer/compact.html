@@ -101,9 +101,32 @@
                   aria-describedby="categoryTooltip"
                 >문제 유형</h2>
                 <div id="categoryTooltip" class="category-tooltip" role="tooltip">
-                  <strong id="categoryTooltipTitle">문제 유형</strong>
-                  <span class="category-tooltip-label">답변 흐름</span>
-                  <span id="categoryTooltipFlow"></span>
+                  <div class="category-tooltip-heading">
+                    <strong id="categoryTooltipTitle">문제 유형</strong>
+                    <span id="categoryTooltipRp" class="category-rp-badge" hidden></span>
+                  </div>
+                  <p id="categoryTooltipSummary" class="category-tooltip-summary"></p>
+                  <div class="category-tooltip-overview">
+                    <div>
+                      <span class="category-tooltip-label">질문 신호</span>
+                      <p id="categoryTooltipSignals"></p>
+                    </div>
+                    <div>
+                      <span class="category-tooltip-label">답변 흐름</span>
+                      <p id="categoryTooltipFlow"></p>
+                    </div>
+                  </div>
+                  <div class="category-tooltip-section">
+                    <span class="category-tooltip-label">전략</span>
+                    <ol id="categoryTooltipStrategy"></ol>
+                  </div>
+                  <div class="category-tooltip-section category-tooltip-cautions">
+                    <span class="category-tooltip-label">주의</span>
+                    <ul id="categoryTooltipCautions"></ul>
+                  </div>
+                  <p class="category-tooltip-common">
+                    공통 · 유형 판별 → MP 하나 → 감정·이유 → 관련 디테일 → 복귀/결론
+                  </p>
                 </div>
               </div>
             </div>

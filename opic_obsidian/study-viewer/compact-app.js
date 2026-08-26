@@ -28,7 +28,12 @@
     entryMeta: document.getElementById("entryMeta"),
     questionCategory: document.getElementById("questionCategory"),
     categoryTooltipTitle: document.getElementById("categoryTooltipTitle"),
+    categoryTooltipRp: document.getElementById("categoryTooltipRp"),
+    categoryTooltipSummary: document.getElementById("categoryTooltipSummary"),
+    categoryTooltipSignals: document.getElementById("categoryTooltipSignals"),
     categoryTooltipFlow: document.getElementById("categoryTooltipFlow"),
+    categoryTooltipStrategy: document.getElementById("categoryTooltipStrategy"),
+    categoryTooltipCautions: document.getElementById("categoryTooltipCautions"),
     answerMeta: document.getElementById("answerMeta"),
     answerTitle: document.getElementById("answerTitle"),
     questionFullButton: document.getElementById("questionFullButton"),
@@ -133,20 +138,196 @@
   const categoryGuides = new Map([
     [
       "Description",
-      { korean: "묘사", flow: "특징 → 느낌 → 이유 → 구체적 디테일 → 마무리" },
+      {
+        korean: "묘사",
+        summary: "한 특징을 중심으로 묘사하고 마지막에 다시 돌아옵니다.",
+        signals: ["Describe", "What is it like / look like?", "Tell me about ..."],
+        flow: "MP → 묘사 보충 → MP 복귀",
+        steps: [
+          "대상과 가장 두드러지는 특징 하나를 먼저 말한다.",
+          "그 특징에 대한 감정과 좋아하거나 싫어하는 이유를 붙인다.",
+          "관련 묘사 1~2개만 보충한다.",
+          "처음 특징으로 돌아와 짧게 마무리한다.",
+        ],
+        cautions: [
+          "방·가구·시설을 전부 나열하지 않는다.",
+          "방 개수·구조처럼 질문이 지정한 정보는 짧게라도 답한다.",
+          "답이 충분하면 Quick Comparison을 억지로 넣지 않는다.",
+        ],
+      },
     ],
-    ["Habit", { korean: "습관", flow: "평소 행동 → 이유 → 반복 디테일 → 변화 → 마무리" }],
+    [
+      "Habit",
+      {
+        korean: "습관",
+        summary: "평소 반복하는 행동 하나와 그 이유를 중심으로 말합니다.",
+        signals: ["usually / normally / often", "whenever / every time", "typical routine"],
+        flow: "현재 행동 MP → 이유·디테일 → 선택적 과거 비교 → 현재 MP",
+        steps: [
+          "반복 행동 하나를 현재형으로 먼저 말한다.",
+          "언제, 얼마나 자주 하는지 덧붙인다.",
+          "그 행동을 하는 개인적인 이유와 작은 디테일을 말한다.",
+          "답이 짧을 때만 과거와 비교한 뒤 현재 습관으로 돌아온다.",
+        ],
+        cautions: [
+          "MP는 감정보다 행동이어야 한다.",
+          "한 번의 긴 사건으로 바뀌지 않게 현재형을 유지한다.",
+          "여러 행동을 한꺼번에 중심으로 잡지 않는다.",
+        ],
+      },
+    ],
     [
       "Past Experience",
-      { korean: "과거 경험", flow: "상황 → 핵심 사건 → 반응 → 해결/결과 → 느낌/교훈" },
+      {
+        korean: "과거 경험",
+        summary: "무슨 일이 있었는지와 당시 감정을 먼저 밝힙니다.",
+        signals: [
+          "last time / memorable",
+          "Tell me about a time",
+          "Have you ever?",
+          "problem / unexpected",
+        ],
+        flow: "사건·감정·이유 → 과정 → 해결·결과",
+        steps: [
+          "핵심 사건과 그때의 감정을 먼저 말한다.",
+          "왜 그렇게 느꼈는지 짧게 설명한다.",
+          "사건의 배경과 진행을 시간 순서로 이어 간다.",
+          "해결 또는 결과와 최종 감정·교훈으로 끝낸다.",
+        ],
+        cautions: [
+          "긴 배경보다 핵심 사건을 먼저 밝힌다.",
+          "한 답변에는 사건 하나만 사용하고 과거형을 유지한다.",
+          "해결되지 않은 일을 억지로 해결된 것처럼 만들지 않는다.",
+        ],
+      },
     ],
     [
       "Comparison",
-      { korean: "비교", flow: "가장 큰 차이 → 과거 → 현재 → 변화 이유 → 마무리" },
+      {
+        korean: "비교",
+        summary: "비교 기준 하나를 정하고 같은 요소끼리 비교합니다.",
+        signals: ["compare / difference", "then and now", "changed", "A and B"],
+        flow: "시간: 현재 → 과거 → 현재 / A·B: 큰 차이 → A → B → 선호",
+        steps: [
+          "시간 비교인지 A/B 비교인지 먼저 구분한다.",
+          "시간 비교는 현재 MP에서 반대되는 과거로 갔다가 현재로 돌아온다.",
+          "A/B 비교는 가장 큰 차이를 먼저 말하고 A와 B를 차례로 설명한다.",
+          "내 선호와 이유 또는 짧은 결론으로 마무리한다.",
+        ],
+        cautions: [
+          "가격·분위기·편리함을 모두 비교하지 말고 기준은 1~2개만 쓴다.",
+          "현재와 과거에서 서로 다른 요소를 비교하지 않는다.",
+          "막히면 과거 → 현재 → 결론만 말해도 된다.",
+        ],
+      },
     ],
     [
       "Role Play",
-      { korean: "롤플레이", flow: "상황 → 질문/요청 → 반응 → 대안 → 마무리" },
+      {
+        korean: "롤플레이",
+        summary: "상대가 있다고 가정하고 질문·요청과 반응을 주고받습니다.",
+        signals: ["ask questions", "call / contact", "problem", "suggest alternatives"],
+        flow: "상황·목적 → 질문/요청 → 가상 답변·반응 → 마무리",
+        steps: [
+          "상황과 통화 목적을 짧게 밝힌다.",
+          "필요한 질문이나 요청을 하나씩 말한다.",
+          "상대의 가상 답을 반복하고 자연스럽게 반응한다.",
+          "감사 또는 다음 행동으로 마무리한다.",
+        ],
+        cautions: [
+          "질문이나 대안을 한꺼번에 나열하지 않는다.",
+          "실제 대화처럼 짧게 반응하며 이어 간다.",
+        ],
+      },
+    ],
+    [
+      "Past Experience + Comparison",
+      {
+        korean: "과거 경험 + 비교",
+        summary: "과거 사건을 설명한 뒤 같은 기준으로 과거와 현재를 비교합니다.",
+        signals: ["Have you ever? / last time", "changed / compare", "then and now"],
+        flow: "사건·감정·이유 → 결과 → 같은 기준의 과거·현재 비교 → 결론",
+        steps: [
+          "핵심 과거 사건과 당시 감정을 먼저 말한다.",
+          "사건의 진행과 결과를 짧게 정리한다.",
+          "그 경험 전후가 어떻게 달라졌는지 같은 기준으로 비교한다.",
+          "현재의 생각이나 선택으로 마무리한다.",
+        ],
+        cautions: [
+          "사건과 비교를 각각 길게 늘이지 않는다.",
+          "비교 기준은 하나, 많아도 두 개만 사용한다.",
+          "과거 사건과 관련 없는 현재 이야기를 붙이지 않는다.",
+        ],
+      },
+    ],
+  ]);
+  const rolePlayGuides = new Map([
+    [
+      "RP11",
+      {
+        korean: "정보 질문·요청",
+        summary: "상대의 답을 가정해 반복하고 반응하면서 정보를 얻습니다.",
+        signals: [
+          "ask 3–4 questions",
+          "find out more",
+          "call / contact",
+          "interested in ...",
+        ],
+        flow: "질문 → 답 반복 → 반응",
+        steps: [
+          "상황과 목적을 한 문장으로 짧게 밝힌다.",
+          "첫 질문을 하고 상대의 가상 답을 반복해 반응한다.",
+          "두 번째·세 번째 질문도 질문 → 답 반복 → 반응 순서로 이어 간다.",
+          "감사하거나 다음 행동을 말하며 끝낸다.",
+        ],
+        cautions: [
+          "질문 세 개를 반응 없이 연속으로 던지지 않는다.",
+          "질문은 보통 세 개면 충분하며 목적과 관련된 정보만 묻는다.",
+        ],
+      },
+    ],
+    [
+      "RP12",
+      {
+        korean: "문제 해결·대안",
+        summary: "문제를 바로 알리고, 첫 해결책이 안 된다고 가정해 다른 대안을 냅니다.",
+        signals: [
+          "problem / cannot",
+          "wrong / broken",
+          "change / refund / reschedule",
+          "alternatives",
+        ],
+        flow: "문제 → 대안 1 → 대안 2 → 결정",
+        steps: [
+          "인사 뒤 문제를 바로 설명한다.",
+          "첫 번째 해결책을 요청한다.",
+          "안 된다는 가상 답에 짧게 반응한다.",
+          "두 번째 해결책을 요청하고, 된다고 가정해 결정·감사로 끝낸다.",
+        ],
+        cautions: [
+          "문제 설명을 길게 끌지 않는다.",
+          "현실적인 대안 두 개면 충분하며 세네 개를 나열하지 않는다.",
+        ],
+      },
+    ],
+    [
+      "RP13",
+      {
+        korean: "비슷한 문제 경험",
+        summary: "형식은 Role Play지만 답변은 Past Experience 방식으로 전개합니다.",
+        signals: ["similar problem", "Have you ever?", "remember a time", "what happened?"],
+        flow: "과거 문제 → 해결 → 결과",
+        steps: [
+          "과거에 생긴 문제와 결과를 먼저 제시한다.",
+          "문제가 발생한 배경과 내가 취한 행동을 설명한다.",
+          "해결 과정을 시간 순서로 이어 간다.",
+          "최종 결과와 감정 또는 이후의 변화로 끝낸다.",
+        ],
+        cautions: [
+          "현재 상황극처럼 말하지 말고 과거형을 유지한다.",
+          "앞 RP12의 소재를 이어 쓰되 한 사건에만 집중한다.",
+        ],
+      },
     ],
   ]);
 
@@ -928,7 +1109,7 @@
   }
 
   function renderPracticeReview(entry, currentIndex, entryCount) {
-    const details = getCategoryDetails(entry.category);
+    const details = getCategoryDetails(entry.category, entry);
     const mainPointIndexes = getFinalMainPointIndexes(entry);
     const mainPointTexts = mainPointIndexes
       .map((index) => entry.finalSentences?.[index])
@@ -1155,14 +1336,20 @@
     const currentIndex = allEntries.findIndex((item) => item.id === entry.id);
 
     elements.entryMeta.textContent = `${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${allEntries.length}`;
-    const categoryDetails = getCategoryDetails(entry.category);
+    const categoryDetails = getCategoryDetails(entry.category, entry);
     elements.questionCategory.textContent = categoryDetails.label;
     elements.questionCategory.setAttribute(
       "aria-label",
-      `문제 유형: ${categoryDetails.title}. 답변 흐름: ${categoryDetails.flow}`,
+      `문제 유형: ${categoryDetails.title}.${categoryDetails.rpCode ? ` ${categoryDetails.rpCode}.` : ""} 답변 흐름: ${categoryDetails.flow}`,
     );
     elements.categoryTooltipTitle.textContent = categoryDetails.title;
+    elements.categoryTooltipRp.textContent = categoryDetails.rpCode;
+    elements.categoryTooltipRp.hidden = !categoryDetails.rpCode;
+    elements.categoryTooltipSummary.textContent = categoryDetails.summary;
+    elements.categoryTooltipSignals.textContent = categoryDetails.signals.join(" · ");
     elements.categoryTooltipFlow.textContent = categoryDetails.flow;
+    renderCategoryList(elements.categoryTooltipStrategy, categoryDetails.steps);
+    renderCategoryList(elements.categoryTooltipCautions, categoryDetails.cautions);
     elements.questionFullButton.textContent = entry.question || "Question not found.";
     elements.questionFullButton.dataset.speakText = entry.question || "";
     renderQuestionTranslation();
@@ -1302,8 +1489,18 @@
     return typeof item === "object" && item !== null ? item.text : item;
   }
 
-  function getCategoryDetails(value) {
-    const categories = String(value || "")
+  function renderCategoryList(container, items) {
+    container.innerHTML = "";
+    items.forEach((text) => {
+      const item = document.createElement("li");
+      item.textContent = text;
+      container.append(item);
+    });
+  }
+
+  function getCategoryDetails(value, entry) {
+    const normalizedValue = String(value || "").trim();
+    const categories = normalizedValue
       .split(/\s*\+\s*/)
       .map((category) => category.trim())
       .filter(Boolean);
@@ -1312,28 +1509,92 @@
       return {
         label: "문제 유형",
         title: "문제 유형",
+        summary: "질문의 핵심을 먼저 답하고 필요한 이유와 디테일만 붙입니다.",
+        signals: ["질문의 핵심 동사와 시제 확인"],
         flow: "핵심 답변 → 이유/디테일 → 마무리",
+        steps: ["질문에 직접 답한다.", "이유와 관련 디테일을 붙인다.", "짧게 결론을 낸다."],
+        cautions: ["질문과 관계없는 외운 답변으로 길게 벗어나지 않는다."],
+        rpCode: "",
       };
     }
 
+    const rpCode = getRolePlayCode(entry);
+    const exactGuide = categoryGuides.get(normalizedValue);
     const guides = categories.map(
-      (category) =>
-        categoryGuides.get(category) || {
-          korean: category,
-          flow: "핵심 답변 → 이유/디테일 → 마무리",
-        },
+      (category) => categoryGuides.get(category) || getFallbackGuide(category),
     );
-    const flow = guides
-      .map((guide) =>
-        categories.length > 1 ? `${guide.korean}: ${guide.flow}` : guide.flow,
-      )
-      .join("\n");
+    const guide =
+      rolePlayGuides.get(rpCode) || exactGuide || mergeCategoryGuides(categories, guides);
 
     return {
-      label: categories.join(" + "),
-      title: `${categories.join(" + ")} · ${guides.map((guide) => guide.korean).join(" + ")}`,
-      flow,
+      label: normalizedValue || categories.join(" + "),
+      title: `${categories.join(" + ")} · ${
+        rpCode ? guide.korean : exactGuide?.korean || guides.map((item) => item.korean).join(" + ")
+      }`,
+      summary: guide.summary,
+      signals: guide.signals,
+      flow: guide.flow,
+      steps: guide.steps,
+      cautions: guide.cautions,
+      rpCode,
     };
+  }
+
+  function getFallbackGuide(category) {
+    return {
+      korean: category,
+      summary: "질문의 핵심을 먼저 답하고 필요한 이유와 디테일만 붙입니다.",
+      signals: ["질문의 핵심 동사와 시제 확인"],
+      flow: "핵심 답변 → 이유/디테일 → 마무리",
+      steps: ["질문에 직접 답한다.", "이유와 관련 디테일을 붙인다.", "짧게 결론을 낸다."],
+      cautions: ["질문과 관계없는 외운 답변으로 길게 벗어나지 않는다."],
+    };
+  }
+
+  function mergeCategoryGuides(categories, guides) {
+    if (guides.length === 1) {
+      return guides[0];
+    }
+
+    return {
+      summary: guides.map((guide) => guide.summary).join(" "),
+      signals: [...new Set(guides.flatMap((guide) => guide.signals))],
+      flow: guides.map((guide, index) => `${categories[index]}: ${guide.flow}`).join("\n"),
+      steps: guides.flatMap((guide, index) =>
+        guide.steps.map((step) => `${categories[index]} · ${step}`),
+      ),
+      cautions: [...new Set(guides.flatMap((guide) => guide.cautions))],
+    };
+  }
+
+  function getRolePlayCode(entry) {
+    if (!entry) {
+      return "";
+    }
+
+    const type = Number(entry.type);
+    const category = String(entry.category || "");
+    if (category.includes("Role Play") && (type === 5 || type === 6)) {
+      return "RP11";
+    }
+    if (category.includes("Role Play") && type === 7) {
+      return "RP12";
+    }
+    if (type !== 8) {
+      return "";
+    }
+
+    const file = data.files.find(
+      (candidate) =>
+        candidate.id === entry.fileId || candidate.entries.some((item) => item.id === entry.id),
+    );
+    const precedingRolePlay = file?.entries.find(
+      (item) =>
+        String(item.set) === String(entry.set) &&
+        Number(item.type) === 7 &&
+        String(item.category || "").includes("Role Play"),
+    );
+    return precedingRolePlay ? "RP13" : "";
   }
 
   function getMainPointItemIndexes(entry) {

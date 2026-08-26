@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-24T19:58:34.112Z",
+  "generatedAt": "2026-08-26T09:49:18.619Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -3035,8 +3035,8 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I once bought a sofa that moved when I sat on it.",
             "Luckily, the store sent me a new one.",
-            "I was worried because the old sofa did not feel safe.",
-            "At first, I checked the floor.",
+            "At first, I was worried because the sofa did not feel safe.",
+            "So I checked the floor first.",
             "The floor was fine, so I checked the sofa.",
             "One leg was shorter than the others.",
             "I called the store and explained the problem.",
@@ -3046,8 +3046,8 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "I once bought a sofa that moved when I sat on it.",
             "Luckily, the store sent me a new one.",
-            "I was worried because the old sofa did not feel safe.",
-            "At first, I checked the floor.",
+            "At first, I was worried because the sofa did not feel safe.",
+            "So I checked the floor first.",
             "The floor was fine, so I checked the sofa.",
             "One leg was shorter than the others.",
             "I called the store and explained the problem.",
@@ -3057,8 +3057,8 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "한번은 앉으면 움직이는 소파를 샀다.",
             "다행히 매장에서 새 소파를 보내 주었다.",
-            "기존 소파가 안전하지 않은 것 같아서 걱정되었다.",
-            "처음에는 바닥을 확인했다.",
+            "처음에는 소파가 안전하지 않은 것 같아서 걱정되었다.",
+            "그래서 먼저 바닥을 확인했다.",
             "바닥에는 문제가 없어서 소파를 확인했다.",
             "소파 다리 하나가 다른 다리보다 짧았다.",
             "매장에 전화해서 문제를 설명했다.",
@@ -3090,12 +3090,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "다행히 매장에서 새 소파를 보내 주었다."
             },
             {
-              "english": "I was worried because the old sofa did not feel safe.",
-              "korean": "기존 소파가 안전하지 않은 것 같아서 걱정되었다."
+              "english": "At first, I was worried because the sofa did not feel safe.",
+              "korean": "처음에는 소파가 안전하지 않은 것 같아서 걱정되었다."
             },
             {
-              "english": "At first, I checked the floor.",
-              "korean": "처음에는 바닥을 확인했다."
+              "english": "So I checked the floor first.",
+              "korean": "그래서 먼저 바닥을 확인했다."
             },
             {
               "english": "The floor was fine, so I checked the sofa.",
@@ -3236,32 +3236,32 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "I clean my room every Saturday.",
             "A clean room helps me feel relaxed.",
-            "First, I pick up any clothes on the floor.",
-            "Then I put my books back on the shelf.",
-            "I also wipe my desk.",
-            "It usually takes about twenty minutes.",
-            "I clean it before it gets too messy.",
-            "That is why I clean my room every Saturday."
+            "First, I wash my bedding.",
+            "Then I wipe the dust off my desk and shelves.",
+            "I also vacuum the floor.",
+            "It usually takes about an hour.",
+            "I feel tired, but the room looks much better.",
+            "After I finish, my room feels clean and comfortable."
           ],
           "speakingChunks": [
             "I clean my room every Saturday.",
             "A clean room helps me feel relaxed.",
-            "First, I pick up any clothes on the floor.",
-            "Then I put my books back on the shelf.",
-            "I also wipe my desk.",
-            "It usually takes about twenty minutes.",
-            "I clean it before it gets too messy.",
-            "That is why I clean my room every Saturday."
+            "First, I wash my bedding.",
+            "Then I wipe the dust off my desk and shelves.",
+            "I also vacuum the floor.",
+            "It usually takes about an hour.",
+            "I feel tired, but the room looks much better.",
+            "After I finish, my room feels clean and comfortable."
           ],
           "speakingTranslations": [
             "나는 매주 토요일에 방을 청소한다.",
             "방이 깨끗하면 마음이 편안해진다.",
-            "먼저 바닥에 있는 옷을 주워 정리한다.",
-            "그런 다음 책을 책장에 다시 꽂는다.",
-            "책상도 닦는다.",
-            "보통 20분 정도 걸린다.",
-            "너무 지저분해지기 전에 청소한다.",
-            "그래서 나는 매주 토요일에 방을 청소한다."
+            "먼저 이불을 세탁한다.",
+            "그런 다음 책상과 선반의 먼지를 닦는다.",
+            "바닥도 청소기로 청소한다.",
+            "보통 한 시간 정도 걸린다.",
+            "피곤하지만 방이 훨씬 깔끔해 보인다.",
+            "청소를 마치고 나면 방이 깨끗하고 편안하게 느껴진다."
           ],
           "mainPoint": "I clean my room every Saturday.",
           "mainPointSentences": [
@@ -3285,28 +3285,28 @@ window.OPIC_STUDY_DATA = {
               "korean": "방이 깨끗하면 마음이 편안해진다."
             },
             {
-              "english": "First, I pick up any clothes on the floor.",
-              "korean": "먼저 바닥에 있는 옷을 주워 정리한다."
+              "english": "First, I wash my bedding.",
+              "korean": "먼저 이불을 세탁한다."
             },
             {
-              "english": "Then I put my books back on the shelf.",
-              "korean": "그런 다음 책을 책장에 다시 꽂는다."
+              "english": "Then I wipe the dust off my desk and shelves.",
+              "korean": "그런 다음 책상과 선반의 먼지를 닦는다."
             },
             {
-              "english": "I also wipe my desk.",
-              "korean": "책상도 닦는다."
+              "english": "I also vacuum the floor.",
+              "korean": "바닥도 청소기로 청소한다."
             },
             {
-              "english": "It usually takes about twenty minutes.",
-              "korean": "보통 20분 정도 걸린다."
+              "english": "It usually takes about an hour.",
+              "korean": "보통 한 시간 정도 걸린다."
             },
             {
-              "english": "I clean it before it gets too messy.",
-              "korean": "너무 지저분해지기 전에 청소한다."
+              "english": "I feel tired, but the room looks much better.",
+              "korean": "피곤하지만 방이 훨씬 깔끔해 보인다."
             },
             {
-              "english": "That is why I clean my room every Saturday.",
-              "korean": "그래서 나는 매주 토요일에 방을 청소한다."
+              "english": "After I finish, my room feels clean and comfortable.",
+              "korean": "청소를 마치고 나면 방이 깨끗하고 편안하게 느껴진다."
             }
           ]
         },
@@ -3617,8 +3617,8 @@ window.OPIC_STUDY_DATA = {
             "Oh, Dad has to work. Okay.",
             "How about next Sunday?",
             "Great, everyone is free then.",
-            "Does one o’clock work for everyone?",
-            "Great, one o’clock works for everyone.",
+            "Is one o’clock okay for everyone?",
+            "Great, everyone is free at one.",
             "Then I will ask them to come next Sunday at one."
           ],
           "speakingChunks": [
@@ -3627,8 +3627,8 @@ window.OPIC_STUDY_DATA = {
             "Oh, Dad has to work. Okay.",
             "How about next Sunday?",
             "Great, everyone is free then.",
-            "Does one o’clock work for everyone?",
-            "Great, one o’clock works for everyone.",
+            "Is one o’clock okay for everyone?",
+            "Great, everyone is free at one.",
             "Then I will ask them to come next Sunday at one."
           ],
           "speakingTranslations": [
@@ -3638,7 +3638,7 @@ window.OPIC_STUDY_DATA = {
             "다음 일요일은 어때?",
             "좋아, 그날은 모두 시간이 되네.",
             "한 시는 모두 괜찮아?",
-            "좋아, 한 시는 모두 괜찮네.",
+            "좋아, 모두 한 시에 시간이 되네.",
             "그러면 다음 일요일 한 시에 오시라고 할게."
           ],
           "mainPoint": "Hey, everyone. I want to invite my friend’s family for lunch.",
@@ -3678,12 +3678,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "좋아, 그날은 모두 시간이 되네."
             },
             {
-              "english": "Does one o’clock work for everyone?",
+              "english": "Is one o’clock okay for everyone?",
               "korean": "한 시는 모두 괜찮아?"
             },
             {
-              "english": "Great, one o’clock works for everyone.",
-              "korean": "좋아, 한 시는 모두 괜찮네."
+              "english": "Great, everyone is free at one.",
+              "korean": "좋아, 모두 한 시에 시간이 되네."
             },
             {
               "english": "Then I will ask them to come next Sunday at one.",
@@ -3794,41 +3794,41 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood.",
-            "We decided to meet a week later, so everything worked out.",
-            "I was worried about my mom.",
-            "I was going to meet my friend that afternoon.",
-            "My mom got sick that morning and needed to rest.",
-            "I stayed home and cleaned the house for her.",
+            "Luckily, my friend understood, and we met a week later.",
+            "This is what happened that day.",
+            "That afternoon, I was going to meet my friend.",
+            "But my mom got sick that morning and needed to rest.",
+            "I was worried about her, so I stayed home.",
             "I called my friend and explained the situation.",
+            "Then I cleaned the house for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingChunks": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood.",
-            "We decided to meet a week later, so everything worked out.",
-            "I was worried about my mom.",
-            "I was going to meet my friend that afternoon.",
-            "My mom got sick that morning and needed to rest.",
-            "I stayed home and cleaned the house for her.",
+            "Luckily, my friend understood, and we met a week later.",
+            "This is what happened that day.",
+            "That afternoon, I was going to meet my friend.",
+            "But my mom got sick that morning and needed to rest.",
+            "I was worried about her, so I stayed home.",
             "I called my friend and explained the situation.",
+            "Then I cleaned the house for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingTranslations": [
             "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다.",
-            "다행히 친구가 이해해 주었다.",
-            "우리는 일주일 뒤에 만나기로 해서 결국 잘 해결되었다.",
-            "엄마가 걱정되었다.",
+            "다행히 친구가 이해해 주었고 우리는 일주일 뒤에 만났다.",
+            "그날 있었던 일은 이렇다.",
             "그날 오후에 친구를 만날 예정이었다.",
-            "그날 아침 엄마가 아프셔서 쉬셔야 했다.",
-            "나는 집에 남아 엄마 대신 집을 청소했다.",
+            "하지만 그날 아침 엄마가 아프셔서 쉬셔야 했다.",
+            "엄마가 걱정되어서 나는 집에 남았다.",
             "친구에게 전화해서 상황을 설명했다.",
+            "그런 다음 엄마 대신 집을 청소했다.",
             "결국 엄마를 도울 수 있어서 다행이었다."
           ],
-          "mainPoint": "I once changed my plans to help my sick mom. Luckily, my friend understood.",
+          "mainPoint": "I once changed my plans to help my sick mom. Luckily, my friend understood, and we met a week later.",
           "mainPointSentences": [
             "I once changed my plans to help my sick mom.",
-            "Luckily, my friend understood."
+            "Luckily, my friend understood, and we met a week later."
           ],
           "mainPointSentenceIndexes": [
             0,
@@ -3846,32 +3846,32 @@ window.OPIC_STUDY_DATA = {
               "korean": "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다."
             },
             {
-              "english": "Luckily, my friend understood.",
-              "korean": "다행히 친구가 이해해 주었다."
+              "english": "Luckily, my friend understood, and we met a week later.",
+              "korean": "다행히 친구가 이해해 주었고 우리는 일주일 뒤에 만났다."
             },
             {
-              "english": "We decided to meet a week later, so everything worked out.",
-              "korean": "우리는 일주일 뒤에 만나기로 해서 결국 잘 해결되었다."
+              "english": "This is what happened that day.",
+              "korean": "그날 있었던 일은 이렇다."
             },
             {
-              "english": "I was worried about my mom.",
-              "korean": "엄마가 걱정되었다."
-            },
-            {
-              "english": "I was going to meet my friend that afternoon.",
+              "english": "That afternoon, I was going to meet my friend.",
               "korean": "그날 오후에 친구를 만날 예정이었다."
             },
             {
-              "english": "My mom got sick that morning and needed to rest.",
-              "korean": "그날 아침 엄마가 아프셔서 쉬셔야 했다."
+              "english": "But my mom got sick that morning and needed to rest.",
+              "korean": "하지만 그날 아침 엄마가 아프셔서 쉬셔야 했다."
             },
             {
-              "english": "I stayed home and cleaned the house for her.",
-              "korean": "나는 집에 남아 엄마 대신 집을 청소했다."
+              "english": "I was worried about her, so I stayed home.",
+              "korean": "엄마가 걱정되어서 나는 집에 남았다."
             },
             {
               "english": "I called my friend and explained the situation.",
               "korean": "친구에게 전화해서 상황을 설명했다."
+            },
+            {
+              "english": "Then I cleaned the house for my mom.",
+              "korean": "그런 다음 엄마 대신 집을 청소했다."
             },
             {
               "english": "In the end, I was glad I could help my mom.",
@@ -4182,8 +4182,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "One weekend, my family found old photos while cleaning the house.",
-            "It became a special day because we shared old memories and laughed together.",
-            "Our house was messy, so we decided to clean it together.",
+            "The photos made the day special because they brought back old memories.",
+            "That morning, our house was messy, so we decided to clean it together.",
             "I found a box while cleaning my room.",
             "It was full of old family photos.",
             "We stopped cleaning and looked at them together.",
@@ -4192,8 +4192,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "One weekend, my family found old photos while cleaning the house.",
-            "It became a special day because we shared old memories and laughed together.",
-            "Our house was messy, so we decided to clean it together.",
+            "The photos made the day special because they brought back old memories.",
+            "That morning, our house was messy, so we decided to clean it together.",
             "I found a box while cleaning my room.",
             "It was full of old family photos.",
             "We stopped cleaning and looked at them together.",
@@ -4202,8 +4202,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingTranslations": [
             "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했다.",
-            "함께 옛 추억을 나누고 웃어서 특별한 날이 되었다.",
-            "집이 지저분해서 함께 청소하기로 했다.",
+            "그 사진들은 옛 추억을 떠올리게 해서 그날을 특별하게 만들었다.",
+            "그날 아침 집이 지저분해서 함께 청소하기로 했다.",
             "나는 내 방을 청소하다가 상자 하나를 발견했다.",
             "상자 안에는 오래된 가족사진이 가득했다.",
             "우리는 청소를 멈추고 함께 사진들을 보았다.",
@@ -4228,12 +4228,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했다."
             },
             {
-              "english": "It became a special day because we shared old memories and laughed together.",
-              "korean": "함께 옛 추억을 나누고 웃어서 특별한 날이 되었다."
+              "english": "The photos made the day special because they brought back old memories.",
+              "korean": "그 사진들은 옛 추억을 떠올리게 해서 그날을 특별하게 만들었다."
             },
             {
-              "english": "Our house was messy, so we decided to clean it together.",
-              "korean": "집이 지저분해서 함께 청소하기로 했다."
+              "english": "That morning, our house was messy, so we decided to clean it together.",
+              "korean": "그날 아침 집이 지저분해서 함께 청소하기로 했다."
             },
             {
               "english": "I found a box while cleaning my room.",
