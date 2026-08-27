@@ -272,6 +272,145 @@ button {
   padding: 0 18px;
 }
 
+.review-list.is-exam-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.exam-controls {
+  display: flex;
+  max-width: 1540px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 auto 10px;
+  padding: 10px 18px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--panel-subtle);
+}
+
+.exam-summary {
+  margin: 2px 0 0;
+  color: var(--body);
+  font-family: var(--font-korean);
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.exam-actions,
+.exam-source-selects {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.exam-combo {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-subtle);
+}
+
+.exam-combo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 58px;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.exam-combo-header h3 {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.exam-source-selects label {
+  display: grid;
+  grid-template-columns: auto minmax(92px, 150px);
+  gap: 5px;
+  align-items: center;
+  color: var(--muted);
+  font-family: var(--font-korean);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.exam-source-selects label:last-child {
+  grid-template-columns: auto 76px;
+}
+
+.exam-source-selects select {
+  height: 32px;
+  min-width: 0;
+  padding: 0 25px 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.exam-source-selects label.is-single-set {
+  opacity: 0.62;
+}
+
+.exam-entry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 8px;
+}
+
+.exam-entry-grid .review-card {
+  height: 100%;
+  background: var(--panel);
+}
+
+.exam-entry-grid .review-card-toggle {
+  grid-template-columns: 48px minmax(0, 1fr) 20px;
+  gap: 9px;
+  padding: 11px;
+}
+
+.type-number.has-question-number {
+  width: 46px;
+  height: 42px;
+  grid-template-rows: auto auto;
+  align-content: center;
+  gap: 0;
+}
+
+.type-number.has-question-number small {
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.type-number strong {
+  font: inherit;
+}
+
+.type-number.has-question-number strong {
+  margin-top: 3px;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.exam-entry-grid .korean-flow {
+  font-size: 12.5px;
+}
+
+.exam-entry-grid .english-detail {
+  padding-left: 56px;
+}
+
 .review-card {
   align-self: start;
   overflow: hidden;
@@ -526,6 +665,10 @@ button {
   .review-list {
     grid-template-columns: 1fr;
   }
+
+  .exam-entry-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
@@ -558,6 +701,10 @@ button {
     min-height: 30px;
     padding: 0 9px;
     font-size: 10.5px;
+  }
+
+  .header-actions {
+    gap: 4px;
   }
 
   .topic-nav {
@@ -598,6 +745,67 @@ button {
   .review-list {
     gap: 8px;
     padding: 0 10px;
+  }
+
+  .exam-controls {
+    align-items: stretch;
+    margin-bottom: 8px;
+    padding: 9px 10px;
+  }
+
+  .exam-actions {
+    flex: 0 0 auto;
+  }
+
+  .exam-actions .primary-link {
+    display: inline-flex;
+    min-height: 30px;
+    padding: 0 9px;
+    font-size: 10.5px;
+  }
+
+  .exam-combo-header {
+    align-items: end;
+    padding: 9px 10px;
+  }
+
+  .exam-source-selects {
+    gap: 5px;
+  }
+
+  .exam-source-selects label {
+    display: block;
+  }
+
+  .exam-source-selects label > span {
+    display: none;
+  }
+
+  .exam-source-selects select {
+    max-width: 112px;
+  }
+
+  .exam-source-selects label:last-child select {
+    width: 82px;
+  }
+
+  .exam-entry-grid {
+    gap: 7px;
+    padding: 7px;
+  }
+
+  .exam-entry-grid .review-card-toggle {
+    grid-template-columns: 42px minmax(0, 1fr) 18px;
+    padding: 10px 8px;
+  }
+
+  .type-number.has-question-number {
+    width: 40px;
+    height: 38px;
+  }
+
+  .exam-entry-grid .english-detail {
+    padding-left: 51px;
   }
 
   .review-card-toggle {

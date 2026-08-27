@@ -200,6 +200,9 @@
                 <button class="practice-kind-button" type="button" data-practice-kind="selected" aria-pressed="false">
                   선택 연습
                 </button>
+                <button class="practice-kind-button" type="button" data-practice-kind="exam" aria-pressed="false">
+                  시험 순서
+                </button>
               </div>
 
               <section id="practiceRandomPanel" class="practice-setup-panel">
@@ -209,22 +212,27 @@
               <section id="practiceSelectedPanel" class="practice-setup-panel" hidden>
                 <p id="practiceSelectedMeta" class="practice-selected-meta">-</p>
                 <p id="practiceSelectedQuestion" class="practice-selected-question"></p>
-
-                <fieldset class="practice-duration-fieldset">
-                  <legend>답변 시간</legend>
-                  <div class="practice-duration-presets">
-                    <button type="button" data-practice-duration="30">30초</button>
-                    <button type="button" data-practice-duration="45">45초</button>
-                    <button type="button" data-practice-duration="60">60초</button>
-                    <button type="button" data-practice-duration="90">90초</button>
-                  </div>
-                  <label class="practice-duration-custom">
-                    <span>직접 입력</span>
-                    <input id="practiceDurationInput" type="number" min="10" max="300" step="5" inputmode="numeric" value="60" />
-                    <span>초</span>
-                  </label>
-                </fieldset>
               </section>
+
+              <section id="practiceExamPanel" class="practice-setup-panel practice-exam-panel" hidden>
+                <p id="practiceExamSummary" class="practice-setup-summary">4개 Combo · 12문제 · 돌발 제외</p>
+                <div id="practiceExamPlan" class="practice-exam-plan"></div>
+              </section>
+
+              <fieldset id="practiceDurationFieldset" class="practice-duration-fieldset" hidden>
+                <legend>문제당 답변 시간</legend>
+                <div class="practice-duration-presets">
+                  <button type="button" data-practice-duration="30">30초</button>
+                  <button type="button" data-practice-duration="45">45초</button>
+                  <button type="button" data-practice-duration="60">60초</button>
+                  <button type="button" data-practice-duration="90">90초</button>
+                </div>
+                <label class="practice-duration-custom">
+                  <span>직접 입력</span>
+                  <input id="practiceDurationInput" type="number" min="10" max="300" step="5" inputmode="numeric" value="60" />
+                  <span>초</span>
+                </label>
+              </fieldset>
 
               <button id="practiceSetupStartBtn" class="primary-button practice-main-button" type="button">
                 랜덤 문제 시작

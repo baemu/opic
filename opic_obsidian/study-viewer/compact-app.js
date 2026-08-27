@@ -4,6 +4,7 @@
   const data = window.OPIC_STUDY_DATA;
   const storageKey = "opic-compact-study-viewer";
   const practiceStorageKey = "opic-practice-progress";
+  const examPlanStorageKey = "opic-exam-practice-plan";
 
   const elements = {
     statsText: document.getElementById("statsText"),
@@ -60,6 +61,10 @@
     practiceSelectedPanel: document.getElementById("practiceSelectedPanel"),
     practiceSelectedMeta: document.getElementById("practiceSelectedMeta"),
     practiceSelectedQuestion: document.getElementById("practiceSelectedQuestion"),
+    practiceExamPanel: document.getElementById("practiceExamPanel"),
+    practiceExamSummary: document.getElementById("practiceExamSummary"),
+    practiceExamPlan: document.getElementById("practiceExamPlan"),
+    practiceDurationFieldset: document.getElementById("practiceDurationFieldset"),
     practiceDurationButtons: Array.from(document.querySelectorAll("[data-practice-duration]")),
     practiceDurationInput: document.getElementById("practiceDurationInput"),
     practiceSetupStartBtn: document.getElementById("practiceSetupStartBtn"),
@@ -126,6 +131,8 @@
     timerId: null,
     attemptNumber: 0,
     checks: {},
+    examQueue: [],
+    examIndex: 0,
   };
   const topicLabels = new Map([
     [1, "Family"],
@@ -137,6 +144,12 @@
     [7, "Gym"],
     [8, "Vacation"],
   ]);
+  const examPatterns = [
+    { label: "Combo I", range: "Q2–Q4", types: [1, 2, 3], startQuestion: 2 },
+    { label: "Combo II", range: "Q5–Q7", types: [1, 3, 4], startQuestion: 5 },
+    { label: "Combo III", range: "Q8–Q10", types: [1, 3, 4], startQuestion: 8 },
+    { label: "Combo IV", range: "Q11–Q13", types: [6, 7, 8], startQuestion: 11 },
+  ];
   const categoryGuides = new Map([
     [
       "Description",
@@ -408,6 +421,16 @@
     refreshVoices();
     render();
 
+    if (new URLSearchParams(window.location.search).get("practice") === "exam") {
+      window.requestAnimationFrame(() => {
+        openPractice();
+        setPracticeKind("exam");
+        const cleanUrl = new URL(window.location.href);
+        cleanUrl.searchParams.delete("practice");
+        window.history.replaceState(null, "", cleanUrl);
+      });
+    }
+
     if ("speechSynthesis" in window) {
       window.speechSynthesis.addEventListener("voiceschanged", refreshVoices);
     }
@@ -670,6 +693,8 @@
     practice.durationSec = state.practiceDurationSec;
     practice.setupFileId = file.id;
     practice.setupEntryId = entry.id;
+    practice.examQueue = [];
+    practice.examIndex = 0;
     resetPracticeState(entry, "setup", file.id);
     practice.open = true;
     document.body.classList.add("practice-open");
@@ -706,7 +731,11 @@
   }
 
   function setPracticeKind(kind) {
-    if (!practice.open || practice.phase !== "setup" || !["random", "selected"].includes(kind)) {
+    if (
+      !practice.open ||
+      practice.phase !== "setup" ||
+      !["random", "selected", "exam"].includes(kind)
+    ) {
       return;
     }
     practice.kind = kind;
@@ -747,14 +776,21 @@
       return;
     }
 
-    if (practice.kind === "selected") {
+    if (practice.kind === "selected" || practice.kind === "exam") {
       commitPracticeDurationInput();
     }
 
-    const selection =
-      practice.kind === "random"
-        ? chooseRandomPracticeEntry(`${practice.setupFileId}:${practice.setupEntryId}`)
-        : findPracticeSelection(practice.setupFileId, practice.setupEntryId);
+    let selection;
+    if (practice.kind === "exam") {
+      practice.examQueue = buildExamPracticeQueue();
+      practice.examIndex = 0;
+      selection = getExamQueueSelection(practice.examIndex);
+    } else {
+      selection =
+        practice.kind === "random"
+          ? chooseRandomPracticeEntry(`${practice.setupFileId}:${practice.setupEntryId}`)
+          : findPracticeSelection(practice.setupFileId, practice.setupEntryId);
+    }
     if (!selection) {
       return;
     }
@@ -769,6 +805,93 @@
     const file = data.files.find((item) => item.id === fileId);
     const entry = file?.entries.find((item) => item.id === entryId);
     return file && entry ? { file, entry } : null;
+  }
+
+  function readExamPracticePlan() {
+    try {
+      const stored = JSON.parse(localStorage.getItem(examPlanStorageKey) || "{}");
+      return Array.isArray(stored.combos) ? stored.combos : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function getLatestPracticeFiles() {
+    const latest = new Map();
+    data.files.forEach((file) => {
+      const current = latest.get(file.number);
+      if (!current || getPracticeFileVersion(file) >= getPracticeFileVersion(current)) {
+        latest.set(file.number, file);
+      }
+    });
+    return [...latest.values()].sort((a, b) => a.number - b.number);
+  }
+
+  function getPracticeFileVersion(file) {
+    const slug = String(file.title || "").replace(/^\d+\.\s*/, "");
+    const match = slug.match(/(\d+)$/);
+    return match ? Number(match[1]) : 1;
+  }
+
+  function getValidPracticeSets(file, types) {
+    if (!file) {
+      return [];
+    }
+    return [...new Set(file.entries.map((entry) => String(entry.set)))].filter((set) =>
+      types.every((type) =>
+        file.entries.some(
+          (entry) => String(entry.set) === set && Number(entry.type) === Number(type),
+        ),
+      ),
+    );
+  }
+
+  function getExamPlanSelections() {
+    const latestFiles = getLatestPracticeFiles();
+    const storedCombos = readExamPracticePlan();
+    return examPatterns.map((pattern, comboIndex) => {
+      const stored = storedCombos[comboIndex] || {};
+      const requestedTopic = Number(stored.topicNumber);
+      const file =
+        latestFiles.find((item) => item.number === requestedTopic) ||
+        latestFiles[comboIndex % Math.max(1, latestFiles.length)];
+      const validSets = getValidPracticeSets(file, pattern.types);
+      const requestedSet = String(stored.set || "");
+      return {
+        ...pattern,
+        file,
+        set: validSets.includes(requestedSet) ? requestedSet : validSets[0] || "",
+      };
+    });
+  }
+
+  function buildExamPracticeQueue() {
+    return getExamPlanSelections().flatMap((selection) =>
+      selection.types.flatMap((type, typeIndex) => {
+        const entry = selection.file?.entries.find(
+          (item) => String(item.set) === selection.set && Number(item.type) === Number(type),
+        );
+        if (!entry) {
+          return [];
+        }
+        return [
+          {
+            fileId: selection.file.id,
+            entryId: entry.id,
+            comboLabel: selection.label,
+            comboRange: selection.range,
+            questionNumber: selection.startQuestion + typeIndex,
+            type,
+          },
+        ];
+      }),
+    );
+  }
+
+  function getExamQueueSelection(index) {
+    const item = practice.examQueue[index];
+    const selection = item ? findPracticeSelection(item.fileId, item.entryId) : null;
+    return selection ? { ...selection, item } : null;
   }
 
   function getPracticePool() {
@@ -813,6 +936,24 @@
         return;
       }
       cancelSpeechSession();
+      activatePracticeEntry(selection.file, selection.entry);
+      resetPracticeState(selection.entry, "ready", selection.file.id);
+      renderPractice();
+      window.requestAnimationFrame(() => elements.practiceListenBtn?.focus());
+      return;
+    }
+
+    if (practice.kind === "exam") {
+      if (practice.examIndex >= practice.examQueue.length - 1) {
+        closePractice();
+        return;
+      }
+      const selection = getExamQueueSelection(practice.examIndex + 1);
+      if (!selection) {
+        return;
+      }
+      cancelSpeechSession();
+      practice.examIndex += 1;
       activatePracticeEntry(selection.file, selection.entry);
       resetPracticeState(selection.entry, "ready", selection.file.id);
       renderPractice();
@@ -985,7 +1126,7 @@
   }
 
   function isTimedPractice() {
-    return practice.kind === "selected";
+    return practice.kind === "selected" || practice.kind === "exam";
   }
 
   function getPracticeTimeLimitMs() {
@@ -1010,21 +1151,29 @@
 
     const file = getPracticeFile();
     const entries = file?.entries || [];
-    const currentIndex = entries.findIndex((item) => item.id === entry.id);
-    if (practice.phase === "setup") {
+    const fileEntryIndex = entries.findIndex((item) => item.id === entry.id);
+    const currentIndex = practice.kind === "exam" ? practice.examIndex : fileEntryIndex;
+    const entryCount = practice.kind === "exam" ? practice.examQueue.length : entries.length;
+    if (practice.phase === "setup" && practice.kind === "exam") {
+      elements.practiceMeta.textContent = "시험 순서 · 4개 Combo · Q2–Q13 · Type 9·10 제외";
+    } else if (practice.phase === "setup") {
       elements.practiceMeta.textContent = `전체 ${data.stats.entries}문제 · 현재 선택 ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type}`;
     } else if (practice.kind === "random" && practice.phase !== "review") {
       elements.practiceMeta.textContent = "랜덤 실전 · 문제 비공개";
+    } else if (practice.kind === "exam") {
+      const item = practice.examQueue[practice.examIndex];
+      elements.practiceMeta.textContent = item
+        ? `시험 순서 · ${item.comboLabel} · Q${item.questionNumber} · ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entryCount}`
+        : "시험 순서 · Q2–Q13";
     } else {
-      const kindLabel = practice.kind === "random" ? "랜덤 실전" : "선택 연습";
-      elements.practiceMeta.textContent = `${kindLabel} · ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entries.length}`;
+      elements.practiceMeta.textContent = `선택 연습 · ${entry.fileTitle} · Set ${entry.set} · Type ${entry.type} · ${currentIndex + 1}/${entryCount}`;
     }
     const isReview = practice.phase === "review";
     elements.practiceRunView.hidden = isReview;
     elements.practiceReviewView.hidden = !isReview;
 
     if (isReview) {
-      renderPracticeReview(entry, currentIndex, entries.length);
+      renderPracticeReview(entry, currentIndex, entryCount);
     } else {
       renderPracticeRun();
     }
@@ -1082,6 +1231,8 @@
     const selectedFile = data.files.find((file) => file.id === practice.setupFileId);
     const selectedEntry = selectedFile?.entries.find((entry) => entry.id === practice.setupEntryId);
     const isRandom = practice.kind === "random";
+    const isSelected = practice.kind === "selected";
+    const isExam = practice.kind === "exam";
 
     elements.practiceKindButtons.forEach((button) => {
       button.setAttribute(
@@ -1090,13 +1241,34 @@
       );
     });
     elements.practiceRandomPanel.hidden = !isRandom;
-    elements.practiceSelectedPanel.hidden = isRandom;
+    elements.practiceSelectedPanel.hidden = !isSelected;
+    elements.practiceExamPanel.hidden = !isExam;
+    elements.practiceDurationFieldset.hidden = isRandom;
     elements.practiceRandomSummary.textContent = `${data.stats.entries}개 문제 · 시간 제한 없음`;
-    elements.practiceSetupStartBtn.textContent = isRandom ? "랜덤 문제 시작" : "선택 문제 시작";
+    elements.practiceSetupStartBtn.textContent = isRandom
+      ? "랜덤 문제 시작"
+      : isExam
+        ? "시험 순서 시작"
+        : "선택 문제 시작";
 
     if (selectedEntry) {
       elements.practiceSelectedMeta.textContent = `${selectedEntry.fileTitle} · Set ${selectedEntry.set} · Type ${selectedEntry.type}`;
       elements.practiceSelectedQuestion.textContent = selectedEntry.question;
+    }
+    if (isExam) {
+      const selections = getExamPlanSelections();
+      elements.practiceExamSummary.textContent = `4개 Combo · 12문제 · 문제당 ${practice.durationSec}초 · Type 9·10 제외`;
+      elements.practiceExamPlan.innerHTML = selections
+        .map(
+          (selection) => `
+            <div class="practice-exam-plan-item">
+              <strong>${escapeHtml(selection.label)}</strong>
+              <span>${escapeHtml(selection.range)}</span>
+              <b>${escapeHtml(topicLabels.get(selection.file?.number) || selection.file?.title || "-")}</b>
+              <small>Set ${escapeHtml(selection.set || "-")} · T${selection.types.join(" → T")}</small>
+            </div>`,
+        )
+        .join("");
     }
     if (elements.practiceDurationInput && document.activeElement !== elements.practiceDurationInput) {
       elements.practiceDurationInput.value = String(practice.durationSec);
@@ -1111,6 +1283,9 @@
         Number(button.dataset.practiceDuration) === practice.durationSec ? "true" : "false",
       );
     });
+    if (practice.open && practice.phase === "setup" && practice.kind === "exam") {
+      elements.practiceExamSummary.textContent = `4개 Combo · 12문제 · 문제당 ${practice.durationSec}초 · Type 9·10 제외`;
+    }
   }
 
   function renderPracticeReview(entry, currentIndex, entryCount) {
@@ -1131,10 +1306,21 @@
     elements.practiceResultTime.textContent = isTimedPractice()
       ? `${formatPracticeDuration(practice.elapsedMs)} / ${formatPracticeDuration(getPracticeTimeLimitMs())}`
       : formatPracticeDuration(practice.elapsedMs);
-    elements.practiceAttemptText.textContent = `${practice.kind === "random" ? "랜덤" : "선택"} · ${practice.attemptNumber}회차 완료`;
-    elements.practiceNextBtn.textContent = practice.kind === "random" ? "다른 랜덤" : "다음 문제";
+    const isExam = practice.kind === "exam";
+    const examItem = isExam ? practice.examQueue[practice.examIndex] : null;
+    const attemptLabel =
+      practice.kind === "random" ? "랜덤" : isExam ? `시험 순서 · Q${examItem?.questionNumber || "-"}` : "선택";
+    elements.practiceAttemptText.textContent = `${attemptLabel} · ${practice.attemptNumber}회차 완료`;
+    elements.practiceNextBtn.textContent =
+      practice.kind === "random"
+        ? "다른 랜덤"
+        : isExam && currentIndex >= entryCount - 1
+          ? "시험 연습 종료"
+          : "다음 문제";
     elements.practiceNextBtn.disabled =
-      practice.kind === "random" ? getPracticePool().length <= 1 : currentIndex >= entryCount - 1;
+      practice.kind === "random"
+        ? getPracticePool().length <= 1
+        : !isExam && currentIndex >= entryCount - 1;
     elements.practiceCategory.textContent = details.label;
     elements.practiceFlow.textContent = details.flow;
     elements.practiceQuestion.textContent = entry.question || "";

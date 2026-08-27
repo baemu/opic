@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-27T22:20:27.563Z",
+  "generatedAt": "2026-08-27T23:08:09.196Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -18623,35 +18623,35 @@ window.OPIC_STUDY_DATA = {
             "What types of movies do you enjoy seeing?"
           ],
           "finalSentences": [
-            "I like movies with good music.",
-            "The music makes the movie more exciting.",
-            "I usually watch dramas or animated movies.",
-            "I don’t need a difficult story.",
-            "I just want to enjoy the music and the mood.",
+            "I like musical movies the most.",
+            "They are fun because they have a lot of good songs.",
+            "The music makes each scene more exciting.",
+            "I also enjoy watching the actors sing and dance.",
+            "The stories are usually easy to understand.",
             "After the movie, I often listen to the songs again.",
-            "That’s why this kind of movie is my favorite."
+            "So, musical movies are perfect for me."
           ],
           "speakingChunks": [
-            "I like movies with good music.",
-            "The music makes the movie more exciting.",
-            "I usually watch dramas or animated movies.",
-            "I don’t need a difficult story.",
-            "I just want to enjoy the music and the mood.",
+            "I like musical movies the most.",
+            "They are fun because they have a lot of good songs.",
+            "The music makes each scene more exciting.",
+            "I also enjoy watching the actors sing and dance.",
+            "The stories are usually easy to understand.",
             "After the movie, I often listen to the songs again.",
-            "That’s why this kind of movie is my favorite."
+            "So, musical movies are perfect for me."
           ],
           "speakingTranslations": [
-            "저는 음악이 좋은 영화를 좋아합니다.",
-            "음악이 영화를 더 신나게 만들어 줍니다.",
-            "보통 드라마나 애니메이션 영화를 봅니다.",
-            "복잡한 이야기는 필요하지 않습니다.",
-            "저는 그저 음악과 분위기를 즐기고 싶습니다.",
-            "영화가 끝난 뒤에는 그 노래들을 다시 듣곤 합니다.",
-            "그래서 이런 영화를 가장 좋아합니다."
+            "저는 뮤지컬 영화를 가장 좋아합니다.",
+            "좋은 노래가 많이 나와서 재미있습니다.",
+            "음악은 각 장면을 더 흥미롭게 만들어 줍니다.",
+            "배우들이 노래하고 춤추는 모습을 보는 것도 좋아합니다.",
+            "이야기도 보통 이해하기 쉽습니다.",
+            "영화를 본 뒤에는 그 노래들을 자주 다시 듣습니다.",
+            "그래서 뮤지컬 영화는 저에게 딱 맞습니다."
           ],
-          "mainPoint": "I like movies with good music.",
+          "mainPoint": "I like musical movies the most.",
           "mainPointSentences": [
-            "I like movies with good music."
+            "I like musical movies the most."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -18667,38 +18667,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I like movies with good music.",
-              "korean": "저는 음악이 좋은 영화를 좋아합니다."
+              "english": "I like musical movies the most.",
+              "korean": "저는 뮤지컬 영화를 가장 좋아합니다."
             },
             {
-              "english": "The music makes the movie more exciting.",
-              "korean": "음악이 영화를 더 신나게 만들어 줍니다."
+              "english": "They are fun because they have a lot of good songs.",
+              "korean": "좋은 노래가 많이 나와서 재미있습니다."
             },
             {
-              "english": "I usually watch dramas or animated movies.",
-              "korean": "보통 드라마나 애니메이션 영화를 봅니다."
+              "english": "The music makes each scene more exciting.",
+              "korean": "음악은 각 장면을 더 흥미롭게 만들어 줍니다."
             },
             {
-              "english": "I don’t need a difficult story.",
-              "korean": "복잡한 이야기는 필요하지 않습니다."
+              "english": "I also enjoy watching the actors sing and dance.",
+              "korean": "배우들이 노래하고 춤추는 모습을 보는 것도 좋아합니다."
             },
             {
-              "english": "I just want to enjoy the music and the mood.",
-              "korean": "저는 그저 음악과 분위기를 즐기고 싶습니다."
+              "english": "The stories are usually easy to understand.",
+              "korean": "이야기도 보통 이해하기 쉽습니다."
             },
             {
               "english": "After the movie, I often listen to the songs again.",
-              "korean": "영화가 끝난 뒤에는 그 노래들을 다시 듣곤 합니다."
+              "korean": "영화를 본 뒤에는 그 노래들을 자주 다시 듣습니다."
             },
             {
-              "english": "That’s why this kind of movie is my favorite.",
-              "korean": "그래서 이런 영화를 가장 좋아합니다."
+              "english": "So, musical movies are perfect for me.",
+              "korean": "그래서 뮤지컬 영화는 저에게 딱 맞습니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, I like movies with good music.",
-              "korean": "음, 저는 음악이 좋은 영화를 좋아합니다.",
+              "english": "Well, I like musical movies the most.",
+              "korean": "음, 저는 뮤지컬 영화를 가장 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18713,8 +18713,30 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, the music makes the movie more exciting.",
-              "korean": "그러니까, 음악이 영화를 더 신나게 만들어 줍니다.",
+              "english": "You know, they are fun because they have a lot of good songs.",
+              "korean": "있잖아요, 좋은 노래가 많이 나와서 재미있습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 5
+                }
+              ]
+            },
+            {
+              "english": "The music makes each scene more exciting.",
+              "korean": "음악은 각 장면을 더 흥미롭게 만들어 줍니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "I mean, I also enjoy watching the actors sing and dance.",
+              "korean": "그러니까, 배우들이 노래하고 춤추는 모습을 보는 것도 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18729,36 +18751,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I usually watch dramas or animated movies.",
-              "korean": "보통 드라마나 애니메이션 영화를 봅니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You know, I don’t need a difficult story.",
-              "korean": "있잖아요, 복잡한 이야기는 필요하지 않습니다.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 9
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 5
-                }
-              ]
-            },
-            {
-              "english": "I just want to enjoy the music and the mood.",
-              "korean": "저는 그저 음악과 분위기를 즐기고 싶습니다.",
+              "english": "The stories are usually easy to understand.",
+              "korean": "이야기도 보통 이해하기 쉽습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
               "english": "Actually, after the movie, I often listen to the songs again.",
-              "korean": "사실, 영화가 끝난 뒤에는 그 노래들을 다시 듣곤 합니다.",
+              "korean": "사실, 영화를 본 뒤에는 그 노래들을 자주 다시 듣습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18773,8 +18773,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, this kind of movie is my favorite.",
-              "korean": "그래서요, 이런 영화를 가장 좋아합니다.",
+              "english": "So, yeah, musical movies are perfect for me.",
+              "korean": "그래서요, 뮤지컬 영화는 저에게 딱 맞습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18791,22 +18791,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "음악이 좋은 영화를 좋아함",
-              "음악이 영화를 더 신나게 만들어 줌",
-              "보통 드라마나 애니메이션 영화를 봄",
-              "복잡한 이야기는 필요하지 않음",
-              "그저 음악과 분위기를 즐기고 싶음",
-              "영화가 끝난 뒤에는 그 노래들을 다시 듣곤 함",
-              "이런 영화를 가장 좋아함"
+              "뮤지컬 영화를 가장 좋아함",
+              "좋은 노래가 많이 나와서 재미있음",
+              "음악은 각 장면을 더 흥미롭게 만들어 줌",
+              "배우들이 노래하고 춤추는 모습을 보는 것도 좋아함",
+              "이야기도 보통 이해하기 쉽음",
+              "영화를 본 뒤에는 그 노래들을 자주 다시 들음",
+              "뮤지컬 영화는 저에게 딱 맞음"
             ],
             "englishSkeleton": [
-              "I like movies with good music.",
-              "The music makes the movie more exciting.",
-              "I usually watch dramas or animated movies.",
-              "I don’t need a difficult story.",
-              "I just want to enjoy the music and the mood.",
+              "I like musical movies the most.",
+              "They are fun because they have a lot of good songs.",
+              "The music makes each scene more exciting.",
+              "I also enjoy watching the actors sing and dance.",
+              "The stories are usually easy to understand.",
               "After the movie, I often listen to the songs again.",
-              "That’s why this kind of movie is my favorite."
+              "So, musical movies are perfect for me."
             ]
           }
         },
@@ -18825,35 +18825,35 @@ window.OPIC_STUDY_DATA = {
             "What do you typically do when going to see a movie?"
           ],
           "finalSentences": [
-            "I usually book my movie ticket online.",
-            "I do it a day or two before the movie.",
-            "First, I check the movie time.",
-            "Then I choose a seat in the middle.",
-            "I like that seat because I can see the screen well.",
-            "After I book the ticket, I send it to my friend.",
-            "Booking online is easy, so I do it every time."
+            "I usually go to the movies with a friend.",
+            "Before we go, we book our tickets online because it is easy.",
+            "First, we check the movie time.",
+            "Then we choose seats in the middle because we can see the screen well.",
+            "At the theater, we buy popcorn and drinks.",
+            "After the movie, we talk about our favorite scenes.",
+            "I always enjoy this simple routine."
           ],
           "speakingChunks": [
-            "I usually book my movie ticket online.",
-            "I do it a day or two before the movie.",
-            "First, I check the movie time.",
-            "Then I choose a seat in the middle.",
-            "I like that seat because I can see the screen well.",
-            "After I book the ticket, I send it to my friend.",
-            "Booking online is easy, so I do it every time."
+            "I usually go to the movies with a friend.",
+            "Before we go, we book our tickets online because it is easy.",
+            "First, we check the movie time.",
+            "Then we choose seats in the middle because we can see the screen well.",
+            "At the theater, we buy popcorn and drinks.",
+            "After the movie, we talk about our favorite scenes.",
+            "I always enjoy this simple routine."
           ],
           "speakingTranslations": [
-            "저는 보통 영화표를 온라인으로 예매합니다.",
-            "영화를 보기 하루나 이틀 전에 예매합니다.",
+            "저는 보통 친구와 영화를 보러 갑니다.",
+            "편리해서 영화를 보러 가기 전에 온라인으로 표를 예매합니다.",
             "먼저 영화 시간을 확인합니다.",
-            "그리고 가운데 자리를 고릅니다.",
-            "그 자리에서는 화면이 잘 보여서 좋습니다.",
-            "예매한 뒤에는 친구에게 티켓을 보냅니다.",
-            "온라인 예매가 쉬워서 매번 이렇게 합니다."
+            "그리고 화면이 잘 보이는 가운데 자리를 고릅니다.",
+            "영화관에서는 팝콘과 음료를 삽니다.",
+            "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기합니다.",
+            "저는 이런 간단한 루틴이 늘 즐겁습니다."
           ],
-          "mainPoint": "I usually book my movie ticket online.",
+          "mainPoint": "I usually go to the movies with a friend.",
           "mainPointSentences": [
-            "I usually book my movie ticket online."
+            "I usually go to the movies with a friend."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -18869,38 +18869,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I usually book my movie ticket online.",
-              "korean": "저는 보통 영화표를 온라인으로 예매합니다."
+              "english": "I usually go to the movies with a friend.",
+              "korean": "저는 보통 친구와 영화를 보러 갑니다."
             },
             {
-              "english": "I do it a day or two before the movie.",
-              "korean": "영화를 보기 하루나 이틀 전에 예매합니다."
+              "english": "Before we go, we book our tickets online because it is easy.",
+              "korean": "편리해서 영화를 보러 가기 전에 온라인으로 표를 예매합니다."
             },
             {
-              "english": "First, I check the movie time.",
+              "english": "First, we check the movie time.",
               "korean": "먼저 영화 시간을 확인합니다."
             },
             {
-              "english": "Then I choose a seat in the middle.",
-              "korean": "그리고 가운데 자리를 고릅니다."
+              "english": "Then we choose seats in the middle because we can see the screen well.",
+              "korean": "그리고 화면이 잘 보이는 가운데 자리를 고릅니다."
             },
             {
-              "english": "I like that seat because I can see the screen well.",
-              "korean": "그 자리에서는 화면이 잘 보여서 좋습니다."
+              "english": "At the theater, we buy popcorn and drinks.",
+              "korean": "영화관에서는 팝콘과 음료를 삽니다."
             },
             {
-              "english": "After I book the ticket, I send it to my friend.",
-              "korean": "예매한 뒤에는 친구에게 티켓을 보냅니다."
+              "english": "After the movie, we talk about our favorite scenes.",
+              "korean": "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기합니다."
             },
             {
-              "english": "Booking online is easy, so I do it every time.",
-              "korean": "온라인 예매가 쉬워서 매번 이렇게 합니다."
+              "english": "I always enjoy this simple routine.",
+              "korean": "저는 이런 간단한 루틴이 늘 즐겁습니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, I usually book my movie ticket online.",
-              "korean": "음, 저는 보통 영화표를 온라인으로 예매합니다.",
+              "english": "Well, I usually go to the movies with a friend.",
+              "korean": "음, 저는 보통 친구와 영화를 보러 갑니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18915,56 +18915,58 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I do it a day or two before the movie.",
-              "korean": "영화를 보기 하루나 이틀 전에 예매합니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "First, I check the movie time.",
-              "korean": "먼저 영화 시간을 확인합니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "Then I choose a seat in the middle.",
-              "korean": "그리고 가운데 자리를 고릅니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You know, I like that seat. I mean, I can see the screen well.",
-              "korean": "있잖아요, 그 자리가 좋습니다. 그러니까, 화면이 잘 보입니다.",
+              "english": "You know, before we go, we book our tickets online because it is easy.",
+              "korean": "있잖아요, 편리해서 영화를 보러 가기 전에 온라인으로 표를 예매합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
                   "end": 9
-                },
-                {
-                  "start": 28,
-                  "end": 35
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
                   "end": 5
-                },
-                {
-                  "start": 18,
-                  "end": 23
                 }
               ]
             },
             {
-              "english": "After I book the ticket, I send it to my friend.",
-              "korean": "예매한 뒤에는 친구에게 티켓을 보냅니다.",
+              "english": "First, we check the movie time.",
+              "korean": "먼저 영화 시간을 확인합니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, I book my tickets online every time because it’s easy.",
-              "korean": "그래서요, 온라인 예매가 쉬워서 매번 온라인으로 예매합니다.",
+              "english": "Then we choose seats in the middle because we can see the screen well.",
+              "korean": "그리고 화면이 잘 보이는 가운데 자리를 고릅니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Actually, at the theater, we buy popcorn and drinks.",
+              "korean": "사실, 영화관에서는 팝콘과 음료를 삽니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 3
+                }
+              ]
+            },
+            {
+              "english": "After the movie, we talk about our favorite scenes.",
+              "korean": "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기합니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "So, yeah, I always enjoy this simple routine.",
+              "korean": "그래서요, 저는 이런 간단한 루틴이 늘 즐겁습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -18981,22 +18983,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "보통 영화표를 온라인으로 예매함",
-              "영화를 보기 하루나 이틀 전에 예매함",
+              "보통 친구와 영화를 보러 감",
+              "편리해서 영화를 보러 가기 전에 온라인으로 표를 예매함",
               "먼저 영화 시간을 확인함",
-              "그리고 가운데 자리를 고름",
-              "그 자리에서는 화면이 잘 보여서 좋음",
-              "예매한 뒤에는 친구에게 티켓을 보냄",
-              "온라인 예매가 쉬워서 매번 이렇게 함"
+              "그리고 화면이 잘 보이는 가운데 자리를 고름",
+              "영화관에서는 팝콘과 음료를 삽니다",
+              "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기함",
+              "이런 간단한 루틴이 늘 즐겁음"
             ],
             "englishSkeleton": [
-              "I usually book my movie ticket online.",
-              "I do it a day or two before the movie.",
-              "First, I check the movie time.",
-              "Then I choose a seat in the middle.",
-              "I like that seat because I can see the screen well.",
-              "After I book the ticket, I send it to my friend.",
-              "Booking online is easy, so I do it every time."
+              "I usually go to the movies with a friend.",
+              "Before we go, we book our tickets online because it is easy.",
+              "First, we check the movie time.",
+              "Then we choose seats in the middle because we can see the screen well.",
+              "At the theater, we buy popcorn and drinks.",
+              "After the movie, we talk about our favorite scenes.",
+              "I always enjoy this simple routine."
             ]
           }
         },
@@ -19015,36 +19017,39 @@ window.OPIC_STUDY_DATA = {
             "Reflect back to the last movie that you recently went to."
           ],
           "finalSentences": [
-            "Last Sunday, I went to the movies with my friend.",
-            "I really liked the music in the movie.",
-            "Before we went, I bought the tickets online.",
-            "We arrived early and found our seats.",
-            "The music was much better than I expected.",
-            "After the movie, we talked about the songs.",
-            "We both had a good time."
+            "Last Sunday, I went to see The Odyssey with my friend.",
+            "I was excited because this movie finally came out.",
+            "We watched it in IMAX at CGV Incheon.",
+            "The screen was huge, and the sound was amazing.",
+            "The movie was more exciting than I expected.",
+            "I really liked the action scenes and the music.",
+            "After the movie, we talked about our favorite scenes.",
+            "We both had a great time."
           ],
           "speakingChunks": [
-            "Last Sunday, I went to the movies with my friend.",
-            "I really liked the music in the movie.",
-            "Before we went, I bought the tickets online.",
-            "We arrived early and found our seats.",
-            "The music was much better than I expected.",
-            "After the movie, we talked about the songs.",
-            "We both had a good time."
+            "Last Sunday, I went to see The Odyssey with my friend.",
+            "I was excited because this movie finally came out.",
+            "We watched it in IMAX at CGV Incheon.",
+            "The screen was huge, and the sound was amazing.",
+            "The movie was more exciting than I expected.",
+            "I really liked the action scenes and the music.",
+            "After the movie, we talked about our favorite scenes.",
+            "We both had a great time."
           ],
           "speakingTranslations": [
-            "지난 일요일에 친구와 영화를 보러 갔습니다.",
-            "영화에 나온 음악이 정말 좋았습니다.",
-            "영화를 보러 가기 전에 온라인으로 표를 예매했습니다.",
-            "우리는 일찍 도착해서 자리를 찾았습니다.",
-            "음악은 기대보다 훨씬 좋았습니다.",
-            "영화가 끝난 뒤 우리는 노래들에 관해 이야기했습니다.",
-            "우리 둘 다 즐거운 시간을 보냈습니다."
+            "지난 일요일에 친구와 오디세이를 보러 갔습니다.",
+            "기다리던 영화가 드디어 개봉해서 기대되었습니다.",
+            "우리는 CGV 인천에서 IMAX로 봤습니다.",
+            "화면은 매우 컸고 음향도 훌륭했습니다.",
+            "영화는 기대보다 더 흥미진진했습니다.",
+            "저는 액션 장면과 음악이 정말 좋았습니다.",
+            "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기했습니다.",
+            "우리 둘 다 정말 즐거운 시간을 보냈습니다."
           ],
-          "mainPoint": "Last Sunday, I went to the movies with my friend. I really liked the music in the movie.",
+          "mainPoint": "Last Sunday, I went to see The Odyssey with my friend. I was excited because this movie finally came out.",
           "mainPointSentences": [
-            "Last Sunday, I went to the movies with my friend.",
-            "I really liked the music in the movie."
+            "Last Sunday, I went to see The Odyssey with my friend.",
+            "I was excited because this movie finally came out."
           ],
           "mainPointSentenceIndexes": [
             0,
@@ -19063,38 +19068,42 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "Last Sunday, I went to the movies with my friend.",
-              "korean": "지난 일요일에 친구와 영화를 보러 갔습니다."
+              "english": "Last Sunday, I went to see The Odyssey with my friend.",
+              "korean": "지난 일요일에 친구와 오디세이를 보러 갔습니다."
             },
             {
-              "english": "I really liked the music in the movie.",
-              "korean": "영화에 나온 음악이 정말 좋았습니다."
+              "english": "I was excited because this movie finally came out.",
+              "korean": "기다리던 영화가 드디어 개봉해서 기대되었습니다."
             },
             {
-              "english": "Before we went, I bought the tickets online.",
-              "korean": "영화를 보러 가기 전에 온라인으로 표를 예매했습니다."
+              "english": "We watched it in IMAX at CGV Incheon.",
+              "korean": "우리는 CGV 인천에서 IMAX로 봤습니다."
             },
             {
-              "english": "We arrived early and found our seats.",
-              "korean": "우리는 일찍 도착해서 자리를 찾았습니다."
+              "english": "The screen was huge, and the sound was amazing.",
+              "korean": "화면은 매우 컸고 음향도 훌륭했습니다."
             },
             {
-              "english": "The music was much better than I expected.",
-              "korean": "음악은 기대보다 훨씬 좋았습니다."
+              "english": "The movie was more exciting than I expected.",
+              "korean": "영화는 기대보다 더 흥미진진했습니다."
             },
             {
-              "english": "After the movie, we talked about the songs.",
-              "korean": "영화가 끝난 뒤 우리는 노래들에 관해 이야기했습니다."
+              "english": "I really liked the action scenes and the music.",
+              "korean": "저는 액션 장면과 음악이 정말 좋았습니다."
             },
             {
-              "english": "We both had a good time.",
-              "korean": "우리 둘 다 즐거운 시간을 보냈습니다."
+              "english": "After the movie, we talked about our favorite scenes.",
+              "korean": "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기했습니다."
+            },
+            {
+              "english": "We both had a great time.",
+              "korean": "우리 둘 다 정말 즐거운 시간을 보냈습니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Hmm, let me think. Last Sunday, I went to the movies with my friend.",
-              "korean": "음, 생각해 볼게요. 지난 일요일에 친구와 영화를 보러 갔습니다.",
+              "english": "Hmm, let me think. Last Sunday, I went to see The Odyssey with my friend.",
+              "korean": "음, 생각해 볼게요. 지난 일요일에 친구와 오디세이를 보러 갔습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19109,8 +19118,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, I really liked the music in the movie.",
-              "korean": "있잖아요, 영화에 나온 음악이 정말 좋았습니다.",
+              "english": "Honestly, I was excited because this movie finally came out.",
+              "korean": "솔직히, 기다리던 영화가 드디어 개봉해서 기대되었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19120,25 +19129,25 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 4
                 }
               ]
             },
             {
-              "english": "Before we went, I bought the tickets online.",
-              "korean": "영화를 보러 가기 전에 온라인으로 표를 예매했습니다.",
+              "english": "We watched it in IMAX at CGV Incheon.",
+              "korean": "우리는 CGV 인천에서 IMAX로 봤습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "We arrived early and found our seats.",
-              "korean": "우리는 일찍 도착해서 자리를 찾았습니다.",
+              "english": "The screen was huge, and the sound was amazing.",
+              "korean": "화면은 매우 컸고 음향도 훌륭했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Actually, the music was much better than I expected.",
-              "korean": "사실, 음악은 기대보다 훨씬 좋았습니다.",
+              "english": "Actually, the movie was more exciting than I expected.",
+              "korean": "사실, 영화는 기대보다 더 흥미진진했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19153,8 +19162,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, after the movie, we talked about the songs.",
-              "korean": "그러니까, 영화가 끝난 뒤 우리는 노래들에 관해 이야기했습니다.",
+              "english": "I mean, I really liked the action scenes and the music.",
+              "korean": "그러니까, 저는 액션 장면과 음악이 정말 좋았습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19169,8 +19178,24 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, we both had a good time.",
-              "korean": "그래서요, 우리 둘 다 즐거운 시간을 보냈습니다.",
+              "english": "Anyway, after the movie, we talked about our favorite scenes.",
+              "korean": "아무튼, 영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기했습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 7
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 4
+                }
+              ]
+            },
+            {
+              "english": "So, yeah, we both had a great time.",
+              "korean": "그래서요, 우리 둘 다 정말 즐거운 시간을 보냈습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19187,22 +19212,24 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "지난 일요일에 친구와 영화를 보러 갔음",
-              "영화에 나온 음악이 정말 좋았음",
-              "영화를 보러 가기 전에 온라인으로 표를 예매함",
-              "우리는 일찍 도착해서 자리를 찾았음",
-              "음악은 기대보다 훨씬 좋았음",
-              "영화가 끝난 뒤 우리는 노래들에 관해 이야기함",
-              "우리 둘 다 즐거운 시간을 보냈음"
+              "지난 일요일에 친구와 오디세이를 보러 갔음",
+              "기다리던 영화가 드디어 개봉해서 기대됨",
+              "우리는 CGV 인천에서 IMAX로 봤음",
+              "화면은 매우 컸고 음향도 훌륭함",
+              "영화는 기대보다 더 흥미진진함",
+              "액션 장면과 음악이 정말 좋았음",
+              "영화가 끝난 뒤에는 마음에 들었던 장면에 대해 이야기함",
+              "우리 둘 다 정말 즐거운 시간을 보냈음"
             ],
             "englishSkeleton": [
-              "Last Sunday, I went to the movies with my friend.",
-              "I really liked the music in the movie.",
-              "Before we went, I bought the tickets online.",
-              "We arrived early and found our seats.",
-              "The music was much better than I expected.",
-              "After the movie, we talked about the songs.",
-              "We both had a good time."
+              "Last Sunday, I went to see The Odyssey with my friend.",
+              "I was excited because this movie finally came out.",
+              "We watched it in IMAX at CGV Incheon.",
+              "The screen was huge, and the sound was amazing.",
+              "The movie was more exciting than I expected.",
+              "I really liked the action scenes and the music.",
+              "After the movie, we talked about our favorite scenes.",
+              "We both had a great time."
             ]
           }
         },
@@ -19224,7 +19251,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "My favorite actress is Emma Stone.",
             "I like her because her acting feels natural.",
-            "I was happy when she won an Oscar in 2024.",
+            "I was happy when she got an Oscar in 2024.",
             "I saw a short video of her speech online.",
             "She looked surprised and thankful.",
             "She also thanked many people in her speech.",
@@ -19233,7 +19260,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "My favorite actress is Emma Stone.",
             "I like her because her acting feels natural.",
-            "I was happy when she won an Oscar in 2024.",
+            "I was happy when she got an Oscar in 2024.",
             "I saw a short video of her speech online.",
             "She looked surprised and thankful.",
             "She also thanked many people in her speech.",
@@ -19278,7 +19305,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "그녀의 연기가 자연스럽게 느껴져서 좋아합니다."
             },
             {
-              "english": "I was happy when she won an Oscar in 2024.",
+              "english": "I was happy when she got an Oscar in 2024.",
               "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다."
             },
             {
@@ -19332,7 +19359,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I was happy when she won an Oscar in 2024.",
+              "english": "I was happy when she got an Oscar in 2024.",
               "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
@@ -19405,7 +19432,7 @@ window.OPIC_STUDY_DATA = {
             "englishSkeleton": [
               "My favorite actress is Emma Stone.",
               "I like her because her acting feels natural.",
-              "I was happy when she won an Oscar in 2024.",
+              "I was happy when she got an Oscar in 2024.",
               "I saw a short video of her speech online.",
               "She looked surprised and thankful.",
               "She also thanked many people in her speech.",
@@ -25680,12 +25707,12 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "categories": 145,
     "mainPoints": 121,
-    "finalSentences": 1217,
-    "speakingChunks": 1208,
-    "speakingTranslations": 1208,
+    "finalSentences": 1218,
+    "speakingChunks": 1209,
+    "speakingTranslations": 1209,
     "fillerEntries": 81,
-    "fillerSentences": 669,
-    "fillerTranslations": 669,
-    "translations": 1217
+    "fillerSentences": 670,
+    "fillerTranslations": 670,
+    "translations": 1218
   }
 };

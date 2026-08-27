@@ -1121,7 +1121,7 @@ body.practice-open {
 
 .practice-kind-switch {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 3px;
   padding: 3px;
   border: 1px solid var(--border);
@@ -1164,6 +1164,48 @@ body.practice-open {
   font-size: 16px;
   font-weight: 620;
   text-align: center;
+}
+
+.practice-exam-panel {
+  gap: 10px;
+}
+
+.practice-exam-plan {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.practice-exam-plan-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 3px 8px;
+  padding: 8px 9px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-subtle);
+}
+
+.practice-exam-plan-item strong {
+  color: var(--accent-dark);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.practice-exam-plan-item span {
+  overflow: hidden;
+  color: var(--text);
+  font-family: var(--font-korean);
+  font-size: 11px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.practice-exam-plan-item small {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 9px;
 }
 
 .practice-selected-meta {

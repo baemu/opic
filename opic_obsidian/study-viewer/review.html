@@ -25,6 +25,9 @@
           </div>
         </div>
         <div class="header-actions">
+          <button id="toggleViewBtn" class="secondary-button" type="button" aria-pressed="false">
+            시험 순서
+          </button>
           <button id="toggleEnglishBtn" class="secondary-button" type="button" aria-pressed="false">
             영어 모두 보기
           </button>
@@ -32,7 +35,7 @@
         </div>
       </header>
 
-      <nav class="topic-nav" aria-label="복습 주제">
+      <nav id="topicNav" class="topic-nav" aria-label="복습 주제">
         <div id="topicTabs" class="topic-tabs"></div>
       </nav>
 
@@ -43,9 +46,20 @@
             <h2 id="topicTitle">주제</h2>
             <span id="entryCount" class="entry-count"></span>
           </div>
-          <p class="review-hint">한국어 흐름으로 내용을 떠올리고, 막히는 문제만 눌러 영어 뼈대를 확인하세요.</p>
+          <p id="reviewHint" class="review-hint">한국어 흐름으로 내용을 떠올리고, 막히는 문제만 눌러 영어 뼈대를 확인하세요.</p>
         </div>
         <div id="setTabs" class="set-tabs" aria-label="세트"></div>
+      </section>
+
+      <section id="examControls" class="exam-controls" hidden>
+        <div>
+          <p class="eyebrow">Q2–Q13 · 돌발 제외</p>
+          <p class="exam-summary">4개 Combo · 12문제 · T9·T10 제외</p>
+        </div>
+        <div class="exam-actions">
+          <button id="randomizeExamBtn" class="secondary-button" type="button">주제 섞기</button>
+          <a id="startExamPracticeLink" class="primary-link" href="./compact.html?practice=exam">이 순서로 연습</a>
+        </div>
       </section>
 
       <section id="reviewList" class="review-list" aria-live="polite"></section>

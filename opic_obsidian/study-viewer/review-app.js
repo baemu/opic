@@ -4,6 +4,7 @@
   const data = window.OPIC_STUDY_DATA;
   const storageKey = "opic-quick-review";
   const studyStorageKey = "opic-compact-study-viewer";
+  const examPlanStorageKey = "opic-exam-practice-plan";
   const topicLabels = new Map([
     [1, "Family"],
     [2, "Park"],
@@ -14,15 +15,27 @@
     [7, "Gym"],
     [8, "Vacation"],
   ]);
+  const examPatterns = [
+    { label: "Combo I", range: "Q2–Q4", types: [1, 2, 3], startQuestion: 2 },
+    { label: "Combo II", range: "Q5–Q7", types: [1, 3, 4], startQuestion: 5 },
+    { label: "Combo III", range: "Q8–Q10", types: [1, 3, 4], startQuestion: 8 },
+    { label: "Combo IV", range: "Q11–Q13", types: [6, 7, 8], startQuestion: 11 },
+  ];
 
   const elements = {
     reviewStats: document.getElementById("reviewStats"),
+    topicNav: document.getElementById("topicNav"),
     topicTabs: document.getElementById("topicTabs"),
     sourceName: document.getElementById("sourceName"),
     topicTitle: document.getElementById("topicTitle"),
     entryCount: document.getElementById("entryCount"),
     setTabs: document.getElementById("setTabs"),
     reviewList: document.getElementById("reviewList"),
+    reviewHint: document.getElementById("reviewHint"),
+    examControls: document.getElementById("examControls"),
+    randomizeExamBtn: document.getElementById("randomizeExamBtn"),
+    startExamPracticeLink: document.getElementById("startExamPracticeLink"),
+    toggleViewBtn: document.getElementById("toggleViewBtn"),
     toggleEnglishBtn: document.getElementById("toggleEnglishBtn"),
   };
 
@@ -30,6 +43,7 @@
   const studyState = readJson(studyStorageKey);
   const latestFiles = getLatestFiles(data?.files || []);
   const state = {
+    viewMode: savedState.viewMode === "exam" ? "exam" : "topic",
     topicNumber: Number(savedState.topicNumber) || latestFiles[0]?.number || 1,
     set: String(savedState.set || ""),
     openEntryIds: new Set(Array.isArray(savedState.openEntryIds) ? savedState.openEntryIds : []),
@@ -37,6 +51,7 @@
     rate: Number(studyState.rate || 0.9),
     volume: Number(studyState.volume ?? 1),
     voiceURI: studyState.voiceURI || "",
+    examCombos: makeExamCombos(savedState.examCombos),
   };
 
   let voices = [];
@@ -97,9 +112,7 @@
       const listenAllButton = event.target.closest("[data-speak-entry]");
       if (listenAllButton) {
         event.stopPropagation();
-        const entry = getCurrentEntries().find(
-          (item) => item.id === listenAllButton.dataset.speakEntry,
-        );
+        const entry = findEntryById(listenAllButton.dataset.speakEntry);
         speak(entry?.review?.englishSkeleton?.join(" ") || "", listenAllButton);
         return;
       }
@@ -111,31 +124,73 @@
       toggleEntry(toggle.dataset.entryToggle);
     });
 
+    elements.reviewList.addEventListener("change", (event) => {
+      const topicSelect = event.target.closest("[data-exam-topic-index]");
+      if (topicSelect) {
+        updateExamComboTopic(Number(topicSelect.dataset.examTopicIndex), topicSelect.value);
+        return;
+      }
+
+      const setSelect = event.target.closest("[data-exam-set-index]");
+      if (setSelect) {
+        updateExamComboSet(Number(setSelect.dataset.examSetIndex), setSelect.value);
+      }
+    });
+
     elements.toggleEnglishBtn.addEventListener("click", () => {
       state.showAllEnglish = !state.showAllEnglish;
       state.openEntryIds.clear();
       cancelSpeech();
       saveState();
       renderToggleLabel();
-      renderCards();
+      renderCurrentCards();
     });
+
+    elements.toggleViewBtn.addEventListener("click", () => {
+      state.viewMode = state.viewMode === "topic" ? "exam" : "topic";
+      state.openEntryIds.clear();
+      state.showAllEnglish = false;
+      cancelSpeech();
+      saveState();
+      render();
+    });
+
+    elements.randomizeExamBtn.addEventListener("click", randomizeExamTopics);
+    elements.startExamPracticeLink.addEventListener("click", saveExamPracticePlan);
 
     window.addEventListener("beforeunload", cancelSpeech);
   }
 
   function render() {
-    const file = getCurrentFile();
-    const entries = getCurrentEntries();
     const totalEntries = latestFiles.reduce((sum, item) => sum + item.entries.length, 0);
 
     elements.reviewStats.textContent = `${latestFiles.length}개 주제 · ${totalEntries}개 문제`;
-    elements.sourceName.textContent = file.sourceFile || `${file.title}.md`;
-    elements.topicTitle.textContent = topicLabels.get(file.number) || getTopicSlug(file);
-    elements.entryCount.textContent = `Set ${state.set} · ${entries.length}개`;
-    renderTopics();
-    renderSets();
+    elements.topicNav.hidden = state.viewMode === "exam";
+    elements.examControls.hidden = state.viewMode !== "exam";
+    elements.reviewList.classList.toggle("is-exam-view", state.viewMode === "exam");
+    elements.toggleViewBtn.textContent = state.viewMode === "exam" ? "주제별 보기" : "시험 순서";
+    elements.toggleViewBtn.setAttribute("aria-pressed", state.viewMode === "exam" ? "true" : "false");
+
+    if (state.viewMode === "exam") {
+      elements.sourceName.textContent = "Q2–Q13 · 유형 9·10 제외";
+      elements.topicTitle.textContent = "실제 출제 순서";
+      elements.entryCount.textContent = "4 Combos · 12문제";
+      elements.reviewHint.textContent = "각 Combo의 주제와 Set을 정한 뒤 실제 순서대로 한국어 흐름과 영어 뼈대를 확인하세요.";
+      elements.setTabs.hidden = true;
+      saveExamPracticePlan();
+    } else {
+      const file = getCurrentFile();
+      const entries = getCurrentEntries();
+      elements.sourceName.textContent = file.sourceFile || `${file.title}.md`;
+      elements.topicTitle.textContent = topicLabels.get(file.number) || getTopicSlug(file);
+      elements.entryCount.textContent = `Set ${state.set} · ${entries.length}개`;
+      elements.reviewHint.textContent = "한국어 흐름으로 내용을 떠올리고, 막히는 문제만 눌러 영어 뼈대를 확인하세요.";
+      renderTopics();
+      renderSets();
+    }
+
     renderToggleLabel();
-    renderCards();
+    renderCurrentCards();
   }
 
   function renderTopics() {
@@ -176,6 +231,14 @@
     );
   }
 
+  function renderCurrentCards() {
+    if (state.viewMode === "exam") {
+      renderExamCards();
+    } else {
+      renderCards();
+    }
+  }
+
   function renderCards() {
     const entries = getCurrentEntries();
     elements.reviewList.innerHTML = "";
@@ -190,12 +253,78 @@
       const card = document.createElement("article");
       card.className = `review-card${isOpen ? " is-open" : ""}`;
       card.dataset.entryId = entry.id;
-      card.innerHTML = makeCardHtml(entry, isOpen);
+      card.innerHTML = makeCardHtml(entry, isOpen, { cardKey: entry.id });
       elements.reviewList.append(card);
     });
   }
 
-  function makeCardHtml(entry, isOpen) {
+  function renderExamCards() {
+    elements.reviewList.innerHTML = "";
+
+    examPatterns.forEach((pattern, comboIndex) => {
+      const combo = state.examCombos[comboIndex];
+      const file = latestFiles.find((item) => item.number === combo.topicNumber) || latestFiles[0];
+      const validSets = getValidSets(file, pattern.types);
+      const set = validSets.includes(String(combo.set)) ? String(combo.set) : validSets[0] || "";
+      const entries = pattern.types
+        .map((type) =>
+          file.entries.find(
+            (entry) => String(entry.set) === set && Number(entry.type) === Number(type),
+          ),
+        )
+        .filter(Boolean);
+      const section = document.createElement("section");
+      section.className = "exam-combo";
+      section.innerHTML = `
+        <header class="exam-combo-header">
+          <div>
+            <p class="eyebrow">${pattern.label} · ${pattern.range}</p>
+            <h3>${pattern.types.map((type) => `T${type}`).join(" → ")}</h3>
+          </div>
+          <div class="exam-source-selects">
+            <label>
+              <span>주제</span>
+              <select data-exam-topic-index="${comboIndex}">
+                ${latestFiles
+                  .map(
+                    (item) =>
+                      `<option value="${item.number}"${item.number === file.number ? " selected" : ""}>${item.number}. ${escapeHtml(topicLabels.get(item.number) || getTopicSlug(item))}</option>`,
+                  )
+                  .join("")}
+              </select>
+            </label>
+            <label${validSets.length <= 1 ? ' class="is-single-set"' : ""}>
+              <span>Set</span>
+              <select data-exam-set-index="${comboIndex}"${validSets.length <= 1 ? " disabled" : ""}>
+                ${validSets
+                  .map(
+                    (item) =>
+                      `<option value="${escapeHtml(item)}"${item === set ? " selected" : ""}>Set ${escapeHtml(item)}</option>`,
+                  )
+                  .join("")}
+              </select>
+            </label>
+          </div>
+        </header>
+        <div class="exam-entry-grid"></div>
+      `;
+
+      const grid = section.querySelector(".exam-entry-grid");
+      entries.forEach((entry, index) => {
+        const questionNumber = pattern.startQuestion + index;
+        const cardKey = `exam-${comboIndex}-${entry.id}`;
+        const isOpen = state.showAllEnglish || state.openEntryIds.has(cardKey);
+        const card = document.createElement("article");
+        card.className = `review-card${isOpen ? " is-open" : ""}`;
+        card.dataset.entryId = entry.id;
+        card.innerHTML = makeCardHtml(entry, isOpen, { cardKey, questionNumber });
+        grid.append(card);
+      });
+      elements.reviewList.append(section);
+    });
+  }
+
+  function makeCardHtml(entry, isOpen, options = {}) {
     const review = entry.review || {};
     const koreanFlow = Array.isArray(review.koreanFlow) ? review.koreanFlow : [];
     const englishSkeleton = Array.isArray(review.englishSkeleton)
@@ -204,6 +333,8 @@
     const rpCode = getRolePlayCode(entry);
     const question = entry.questionTranslation || entry.question || "";
     const englishPreview = entry.mainPoint || englishSkeleton[0] || "";
+    const cardKey = options.cardKey || entry.id;
+    const questionNumber = Number(options.questionNumber) || 0;
     const mainPoints = new Set(
       Array.isArray(entry.mainPointSentenceIndexes) ? entry.mainPointSentenceIndexes : [],
     );
@@ -212,11 +343,14 @@
       <button
         class="review-card-toggle"
         type="button"
-        data-entry-toggle="${escapeHtml(entry.id)}"
+        data-entry-toggle="${escapeHtml(cardKey)}"
         aria-expanded="${isOpen ? "true" : "false"}"
-        aria-controls="detail-${escapeHtml(entry.id)}"
+        aria-controls="detail-${escapeHtml(cardKey)}"
       >
-        <span class="type-number">T${escapeHtml(entry.type)}</span>
+        <span class="type-number${questionNumber ? " has-question-number" : ""}">
+          ${questionNumber ? `<small>Q${questionNumber}</small>` : ""}
+          <strong>T${escapeHtml(entry.type)}</strong>
+        </span>
         <span class="review-card-body">
           <span class="review-card-meta">
             <span class="category-label">${escapeHtml(entry.category || "Answer")}</span>
@@ -228,7 +362,7 @@
         </span>
         <span class="expand-mark" aria-hidden="true">⌄</span>
       </button>
-      <div id="detail-${escapeHtml(entry.id)}" class="english-detail"${isOpen ? "" : " hidden"}>
+      <div id="detail-${escapeHtml(cardKey)}" class="english-detail"${isOpen ? "" : " hidden"}>
         <div class="english-heading">
           <h3>English skeleton</h3>
           <button class="listen-button" type="button" data-speak-entry="${escapeHtml(entry.id)}">▶ 전체 듣기</button>
@@ -279,7 +413,7 @@
     cancelSpeech();
     saveState();
     renderToggleLabel();
-    renderCards();
+    renderCurrentCards();
   }
 
   function getCurrentFile() {
@@ -288,6 +422,115 @@
 
   function getCurrentEntries() {
     return getCurrentFile().entries.filter((entry) => String(entry.set) === state.set);
+  }
+
+  function findEntryById(entryId) {
+    for (const file of latestFiles) {
+      const entry = file.entries.find((item) => item.id === entryId);
+      if (entry) {
+        return entry;
+      }
+    }
+    return null;
+  }
+
+  function makeExamCombos(savedCombos) {
+    const saved = Array.isArray(savedCombos) ? savedCombos : [];
+    return examPatterns.map((pattern, index) => {
+      const requestedTopic = Number(saved[index]?.topicNumber);
+      const file =
+        latestFiles.find((item) => item.number === requestedTopic) ||
+        latestFiles[index % Math.max(1, latestFiles.length)];
+      const validSets = getValidSets(file, pattern.types);
+      const requestedSet = String(saved[index]?.set || "");
+      return {
+        topicNumber: file?.number || 1,
+        set: validSets.includes(requestedSet) ? requestedSet : validSets[0] || "",
+      };
+    });
+  }
+
+  function getValidSets(file, types) {
+    if (!file) {
+      return [];
+    }
+    return unique(file.entries.map((entry) => String(entry.set))).filter((set) =>
+      types.every((type) =>
+        file.entries.some(
+          (entry) => String(entry.set) === set && Number(entry.type) === Number(type),
+        ),
+      ),
+    );
+  }
+
+  function updateExamComboTopic(comboIndex, topicNumber) {
+    const pattern = examPatterns[comboIndex];
+    const file = latestFiles.find((item) => item.number === Number(topicNumber));
+    if (!pattern || !file) {
+      return;
+    }
+    const validSets = getValidSets(file, pattern.types);
+    state.examCombos[comboIndex] = {
+      topicNumber: file.number,
+      set: validSets[0] || "",
+    };
+    state.openEntryIds.clear();
+    cancelSpeech();
+    saveState();
+    renderExamCards();
+  }
+
+  function updateExamComboSet(comboIndex, set) {
+    const combo = state.examCombos[comboIndex];
+    const pattern = examPatterns[comboIndex];
+    const file = latestFiles.find((item) => item.number === combo?.topicNumber);
+    if (!combo || !pattern || !getValidSets(file, pattern.types).includes(String(set))) {
+      return;
+    }
+    combo.set = String(set);
+    state.openEntryIds.clear();
+    cancelSpeech();
+    saveState();
+    renderExamCards();
+  }
+
+  function randomizeExamTopics() {
+    const shuffled = [...latestFiles].sort(() => Math.random() - 0.5);
+    state.examCombos = examPatterns.map((pattern, index) => {
+      const file = shuffled[index % shuffled.length];
+      return {
+        topicNumber: file.number,
+        set: getValidSets(file, pattern.types)[0] || "",
+      };
+    });
+    state.openEntryIds.clear();
+    state.showAllEnglish = false;
+    cancelSpeech();
+    saveState();
+    renderToggleLabel();
+    renderExamCards();
+  }
+
+  function saveExamPracticePlan() {
+    try {
+      localStorage.setItem(
+        examPlanStorageKey,
+        JSON.stringify({
+          version: 1,
+          combos: state.examCombos.map((combo, index) => ({
+            label: examPatterns[index].label,
+            range: examPatterns[index].range,
+            types: examPatterns[index].types,
+            startQuestion: examPatterns[index].startQuestion,
+            topicNumber: combo.topicNumber,
+            set: combo.set,
+          })),
+          savedAt: new Date().toISOString(),
+        }),
+      );
+    } catch {
+      // The exam plan falls back to default topics when storage is unavailable.
+    }
   }
 
   function ensureSelection() {
@@ -329,7 +572,8 @@
     if (type !== 8) {
       return "";
     }
-    const precedingRolePlay = getCurrentFile().entries.some(
+    const file = latestFiles.find((item) => item.entries.some((candidate) => candidate.id === entry.id));
+    const precedingRolePlay = file?.entries.some(
       (item) =>
         String(item.set) === String(entry.set) &&
         Number(item.type) === 7 &&
@@ -407,12 +651,15 @@
       localStorage.setItem(
         storageKey,
         JSON.stringify({
+          viewMode: state.viewMode,
           topicNumber: state.topicNumber,
           set: state.set,
           openEntryIds: [...state.openEntryIds],
           showAllEnglish: state.showAllEnglish,
+          examCombos: state.examCombos,
         }),
       );
+      saveExamPracticePlan();
     } catch {
       // The review page still works when storage is unavailable.
     }
