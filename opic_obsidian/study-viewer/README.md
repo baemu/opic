@@ -20,6 +20,8 @@ Markdown 파일을 수정한 뒤 로컬 화면만 확인할 때는 `OPIc-study.b
 
 답변 문장을 수정할 때는 Markdown의 `[영어+한국어 버전]`을 수정합니다. 이 영역의 영어와 한국어 문장 쌍이 최종 답변 화면의 기준이며, 수정된 영어는 말하기용에도 자동 반영됩니다.
 
+학습 화면 상단의 `시험 직전`을 누르면 빠른 복습 화면이 열립니다. 주제별 최신 수정본을 자동으로 선택하고, `[영어+한국어 버전]`의 한국어 문장을 짧은 기억 흐름으로 바꾸며 영어 문장은 말하기 뼈대로 표시합니다. Markdown을 수정한 뒤 `OPIc-study.bat` 또는 `OPIc-publish.bat`을 실행하면 복습 화면도 함께 갱신됩니다.
+
 ## 아이폰·아이패드 사용
 
 공개 주소는 `https://baemu.github.io/opic/`입니다.
@@ -42,6 +44,9 @@ Markdown 파일을 수정한 뒤 로컬 화면만 확인할 때는 `OPIc-study.b
 - `compact.html`: 학습 화면
 - `compact-app.js`: 화면 및 음성 기능
 - `compact-styles.css`: 화면 디자인
+- `review.html`: 시험 직전 복습 화면
+- `review-app.js`: 최신본 선택, 복습 흐름, 영어 펼치기 및 음성 기능
+- `review-styles.css`: 복습 화면 디자인
 - `manifest.webmanifest`: 홈 화면 앱 설정
 - `service-worker.js`: 오프라인 실행 및 온라인 업데이트
 - `DESIGN-claude.md`: 디자인 원본 문서

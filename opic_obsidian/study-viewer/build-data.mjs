@@ -527,6 +527,164 @@ function normalizeEnglish(value) {
     .trim();
 }
 
+const reviewCueEndings = [
+  [/아닙니다$/u, "아님"],
+  [/있었습니다$/u, "있었음"],
+  [/없었습니다$/u, "없었음"],
+  [/되었습니다$/u, "됨"],
+  [/됐습니다$/u, "됨"],
+  [/시작했습니다$/u, "시작함"],
+  [/좋아했습니다$/u, "좋아했음"],
+  [/좋아합니다$/u, "좋아함"],
+  [/좋았습니다$/u, "좋았음"],
+  [/좋습니다$/u, "좋음"],
+  [/하고 싶습니다$/u, "하고 싶음"],
+  [/고 싶습니다$/u, "고 싶음"],
+  [/하지 않습니다$/u, "하지 않음"],
+  [/않았습니다$/u, "않았음"],
+  [/않습니다$/u, "않음"],
+  [/기억합니다$/u, "기억함"],
+  [/연습합니다$/u, "연습함"],
+  [/말했습니다$/u, "말했음"],
+  [/보냈습니다$/u, "보냈음"],
+  [/들었습니다$/u, "들었음"],
+  [/갔습니다$/u, "갔음"],
+  [/왔습니다$/u, "왔음"],
+  [/봤습니다$/u, "봤음"],
+  [/에 삽니다$/u, "에 거주함"],
+  [/틉니다$/u, "재생함"],
+  [/낍니다$/u, "착용함"],
+  [/느껴집니다$/u, "느껴짐"],
+  [/나아집니다$/u, "나아짐"],
+  [/고릅니다$/u, "고름"],
+  [/보냅니다$/u, "보냄"],
+  [/몸을 풉니다$/u, "워밍업함"],
+  [/나눕니다$/u, "나눔"],
+  [/푸릅니다$/u, "푸름"],
+  [/듭니다$/u, "듦"],
+  [/했습니다$/u, "함"],
+  [/합니다$/u, "함"],
+  [/됩니다$/u, "됨"],
+  [/있습니다$/u, "있음"],
+  [/없습니다$/u, "없음"],
+  [/갑니다$/u, "감"],
+  [/옵니다$/u, "옴"],
+  [/봅니다$/u, "봄"],
+  [/듣습니다$/u, "들음"],
+  [/걷습니다$/u, "걸음"],
+  [/먹습니다$/u, "먹음"],
+  [/마십니다$/u, "마심"],
+  [/읽습니다$/u, "읽음"],
+  [/입습니다$/u, "입음"],
+  [/씁니다$/u, "씀"],
+  [/탑니다$/u, "탐"],
+  [/줍니다$/u, "줌"],
+  [/납니다$/u, "남"],
+  [/느낍니다$/u, "느낌"],
+  [/입니다$/u, ""],
+  [/습니다$/u, "음"],
+  [/느껴진다$/u, "느껴짐"],
+  [/편안해진다$/u, "편안해짐"],
+  [/편해진다$/u, "편해짐"],
+  [/도움이 된다$/u, "도움 됨"],
+  [/들어온다$/u, "들어옴"],
+  [/나눈다$/u, "나눔"],
+  [/지낸다$/u, "지냄"],
+  [/도와준다$/u, "도와줌"],
+  [/하신다$/u, "함"],
+  [/버리신다$/u, "버림"],
+  [/보인다$/u, "보임"],
+  [/앉는다$/u, "앉음"],
+  [/닦는다$/u, "닦음"],
+  [/걸린다$/u, "걸림"],
+  [/먹는다$/u, "먹음"],
+  [/쉰다$/u, "쉼"],
+  [/본다$/u, "봄"],
+  [/보낸다$/u, "보냄"],
+  [/청소한다$/u, "청소함"],
+  [/한다$/u, "함"],
+  [/했다$/u, "했음"],
+  [/끊겼다$/u, "끊김"],
+  [/생겼다$/u, "생김"],
+  [/썼다$/u, "사용함"],
+  [/알려 주었다$/u, "알려 줌"],
+  [/두었다$/u, "둠"],
+  [/마셨다$/u, "마심"],
+  [/샀다$/u, "삼"],
+  [/짧았다$/u, "짧았음"],
+  [/보내 주었다$/u, "보내 줌"],
+  [/싫었다$/u, "싫었음"],
+  [/치웠다$/u, "치움"],
+  [/주셨다$/u, "주심"],
+  [/끝냈다$/u, "끝냄"],
+  [/배웠다$/u, "배움"],
+  [/잊어버렸다$/u, "잊어버림"],
+  [/잊었다$/u, "잊음"],
+  [/물으셨다$/u, "물으심"],
+  [/내놓았다$/u, "내놓음"],
+  [/바꿨다$/u, "바꿈"],
+  [/남았다$/u, "남음"],
+  [/보았다$/u, "봄"],
+  [/웃었다$/u, "웃음"],
+  [/없었다$/u, "없었음"],
+  [/작았다$/u, "작았음"],
+  [/어려웠다$/u, "어려웠음"],
+  [/편안하다$/u, "편안함"],
+  [/다행이었다$/u, "다행이었음"],
+  [/예정이었다$/u, "예정이었음"],
+  [/뒤였다$/u, "뒤였음"],
+  [/침대이다$/u, "침대"],
+  [/곳이다$/u, "곳"],
+  [/아니다$/u, "아님"],
+  [/있는다$/u, "있음"],
+  [/든다$/u, "듦"],
+  [/있다는 것이다$/u, "있음"],
+  [/하는 것이다$/u, "함"],
+  [/였다$/u, "였음"],
+  [/되었다$/u, "됨"],
+  [/있다$/u, "있음"],
+  [/없다$/u, "없음"],
+  [/좋다$/u, "좋음"],
+];
+
+function makeReviewCue(value) {
+  let cue = cleanText(value)
+    .replace(/[.!]+$/u, "")
+    .replace(/^(?:저는|제가|나는|내가)\s+/u, "")
+    .replace(/^그들의\s+노래/u, "노래")
+    .replace(/^(?:그래서|그래서요|결국|어쨌든),?\s*/u, "")
+    .trim();
+
+  if (!cue || /[?]$/u.test(cue)) {
+    return cue;
+  }
+
+  for (const [pattern, replacement] of reviewCueEndings) {
+    if (pattern.test(cue)) {
+      cue = cue.replace(pattern, replacement).trim();
+      break;
+    }
+  }
+
+  return cue;
+}
+
+function buildReviewSummary(entry) {
+  const pairedTranslations = entry.translations.filter(
+    (pair) => pair.english && pair.korean,
+  );
+  const fallbackPairs = entry.speakingChunks.map((english, index) => ({
+    english,
+    korean: entry.speakingTranslations[index] || "",
+  }));
+  const pairs = pairedTranslations.length > 0 ? pairedTranslations : fallbackPairs;
+
+  return {
+    koreanFlow: pairs.map((pair) => makeReviewCue(pair.korean)).filter(Boolean),
+    englishSkeleton: pairs.map((pair) => cleanText(pair.english)).filter(Boolean),
+  };
+}
+
 const categoryNames = new Map([
   ["description", "Description"],
   ["habit", "Habit"],
@@ -920,6 +1078,7 @@ function parseFile(config) {
     currentEntry.mainPointSpeakingChunkIndex =
       currentEntry.mainPointSpeakingChunkIndexes[0] ?? -1;
     currentEntry.mainPointFillerIndex = currentEntry.mainPointFillerIndexes[0] ?? -1;
+    currentEntry.review = buildReviewSummary(currentEntry);
 
     if (
       currentEntry.question ||
@@ -983,6 +1142,10 @@ function parseFile(config) {
         fillerTranslationLines: [],
         translations: [],
         fillerItems: [],
+        review: {
+          koreanFlow: [],
+          englishSkeleton: [],
+        },
       };
       activeSection = "";
       continue;

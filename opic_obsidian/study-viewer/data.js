@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-27T21:40:37.911Z",
+  "generatedAt": "2026-08-27T22:20:27.563Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -111,7 +111,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 전체적으로 우리 집은 화려하지는 않지만 가족에게 매우 편안한 공간이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "가족과 함께 일반적인 한국 아파트에 산다",
+              "우리 집에는 방 세 개, 거실, 주방, 화장실 두 개가 있음",
+              "집에 들어가면 거실이 가장 먼저 보임",
+              "그곳에는 TV, 소파, 식탁, 그리고 식물들이 있음",
+              "거실은 우리 가족이 가장 자주 모이는 공간이다",
+              "우리는 쉬고 싶을 때 소파에 앉아서 넷플릭스나 유튜브를 봄",
+              "특히 늦은 밤에 그곳에 혼자 앉아 조용히 영화를 보는 것을 좋아함",
+              "전체적으로 우리 집은 화려하지는 않지만 가족에게 매우 편안한 공간이다"
+            ],
+            "englishSkeleton": [
+              "I live in a typical Korean apartment with my family.",
+              "My home has three rooms, a living room, a kitchen, and two bathrooms.",
+              "When you walk in, you can see the living room first.",
+              "There is a TV, a sofa, a dining table, and some plants there.",
+              "The living room is the place where my family gathers most often.",
+              "We sit on the sofa and watch Netflix or YouTube when we want to rest.",
+              "I especially like sitting there alone late at night and watching a movie quietly.",
+              "So overall, my home is not fancy, but it is a very comfortable place for my family."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-2-2",
@@ -210,7 +232,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "요즘은 너무 피곤해서 자주 하지는 못하지만, 여전히 내가 가장 좋아하는 집 루틴이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "집에서는 보통 침대나 소파에서 쉼",
+              "평일에는 학교나 할 일을 마친 뒤 넷플릭스나 유튜브를 자주 봄",
+              "집에서는 너무 진지한 일을 하려고 하지 않는다",
+              "그냥 누워서 편하게 시간을 보냄",
+              "주말 오후에는 가끔 늦게까지 자거나 침대에서 영상을 봄",
+              "하지만 내가 가장 좋아하는 시간은 모두가 잠든 늦은 밤이다",
+              "그때 나는 거실 소파에 앉아 혼자 영화를 봄",
+              "요즘은 너무 피곤해서 자주 하지는 못하지만, 여전히 내가 가장 좋아하는 집 루틴이다"
+            ],
+            "englishSkeleton": [
+              "At home, I usually relax on my bed or on the sofa.",
+              "On weekdays, after school or after finishing my work, I often watch Netflix or YouTube.",
+              "I do not try to do anything too serious at home.",
+              "I just lie down and spend time comfortably.",
+              "On weekend afternoons, I sometimes sleep late or watch videos in bed.",
+              "But my favorite time is late at night, after everyone goes to sleep.",
+              "At that time, I sit on the living room sofa and watch a movie alone.",
+              "These days I am often too tired to do it, but it is still my favorite home routine."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-3-3",
@@ -309,7 +353,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "오래 지속되지는 않았지만 집에서 물과 엘리베이터가 얼마나 중요한지 깨닫게 해 준 경험이었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "지난여름에 비가 정말 많이 와서 우리 아파트에 문제가 생김",
+              "우리 아파트 지하주차장이 침수됨",
+              "그 때문에 아파트 시설 몇 군데에 문제가 생김",
+              "엘리베이터가 잠시 멈췄고, 집의 물도 끊김",
+              "하루 정도밖에 지속되지 않았지만 매우 불편했음",
+              "가장 힘든 점은 여름에 제대로 씻을 수 없었다는 것이다",
+              "가족들도 놀랐지만 우리는 물을 아껴 쓰면서 기다렸다",
+              "오래 지속되지는 않았지만 집에서 물과 엘리베이터가 얼마나 중요한지 깨닫게 해 준 경험이었다"
+            ],
+            "englishSkeleton": [
+              "Last summer, it rained really hard, and my apartment had a problem.",
+              "The underground parking lot in my apartment got flooded.",
+              "Because of that, some apartment facilities had problems.",
+              "The elevator stopped working for a while, and the water in my home was also cut off.",
+              "It lasted only about a day, but it was very uncomfortable.",
+              "The hardest part was that I could not wash properly in the summer.",
+              "My family was surprised, but we used water carefully and waited.",
+              "It did not last long, but it made me realize how important water and elevators are at home."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-4-4",
@@ -407,7 +473,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 경험 이후로 나는 아파트 공지를 더 꼼꼼히 확인하게 되었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "집에서 가장 기억에 남는 문제는 지난여름에 물이 안 나왔던 일이었다",
+              "심한 폭우가 온 뒤에 생긴 일이라 우리 아파트 물 공급이 잠시 멈췄다",
+              "다행히 단수 몇 시간 전에 공지를 봄",
+              "우리 가족은 미리 양동이와 병에 물을 받아 둠",
+              "우리는 그 물을 욕실과 주방에 보관했음",
+              "처음에는 단수가 금방 끝날 줄 알았지만 예상보다 오래 지속됨",
+              "그래도 물을 준비해 두었기 때문에 화장실을 쓰고 조금 씻을 수 있었다",
+              "그 경험 이후로 나는 아파트 공지를 더 꼼꼼히 확인하게 됨"
+            ],
+            "englishSkeleton": [
+              "The most memorable problem at home was when we had no water last summer.",
+              "It happened after very heavy rain, so the water supply in my apartment stopped for a while.",
+              "Luckily, we saw a notice a few hours before the outage.",
+              "So my family filled buckets and bottles with water in advance.",
+              "We kept the water in the bathroom and the kitchen.",
+              "At first, I thought the outage would end quickly, but it lasted longer than expected.",
+              "Still, we could use the bathroom and wash a little because we had prepared water.",
+              "After that experience, I started checking apartment notices more carefully."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-5-5",
@@ -502,7 +590,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 공간에서는 보통 무엇을 하나요?"
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "당신의 집에 대해 몇 가지 질문이 있음",
+              "먼저, 집에 마당이 있나요?",
+              "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금함",
+              "집에는 방이 몇 개 있나요?",
+              "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+              "가족들은 보통 어디에서 함께 시간을 보내나요?",
+              "또 집에서 가장 좋아하는 공간은 어디인가요?",
+              "그 공간에서는 보통 무엇을 하나요?"
+            ],
+            "englishSkeleton": [
+              "I have a few questions about your house.",
+              "First, do you have a yard?",
+              "I heard many houses in the United States have a yard, so I wonder how yours looks.",
+              "How many rooms are there in your house?",
+              "Is the floor plan similar to a Korean apartment, or is it very different?",
+              "Where does your family usually spend time together?",
+              "Also, what is your favorite space in the house?",
+              "What do you usually do in that space?"
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-6-6",
@@ -597,7 +707,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "이 조건에 맞는 소파 몇 가지를 보여 주실 수 있나요?"
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 거실에 둘 소파를 찾고 있음",
+              "우선 가죽 소파였으면 좋겠음",
+              "저희 집 인테리어가 밝은 편이라 밝은 색상이 잘 어울릴 것 같음",
+              "베이지색이나 연한 회색 소파가 있나요?",
+              "길이가 약 2미터 정도인 소파면 충분할 것 같음",
+              "거실이 좁아 보일 수 있어서 너무 큰 소파는 원하지 않음",
+              "또 너무 딱딱하지 않고 편한 제품이었으면 좋겠음",
+              "이 조건에 맞는 소파 몇 가지를 보여 주실 수 있나요?"
+            ],
+            "englishSkeleton": [
+              "Hello, I am looking for a sofa for my living room.",
+              "First of all, I would like a leather sofa.",
+              "My home interior is bright, so I think a light color would look good.",
+              "Do you have beige or light gray sofas?",
+              "I think a sofa around two meters long would be enough.",
+              "I do not want a very large sofa because my living room may look too small.",
+              "I also want something comfortable, not too hard.",
+              "Could you show me a few sofas that match these conditions?"
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-7-7",
@@ -701,7 +833,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "언제 가능한지 알려 주세요."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 최근에 매장에서 소파를 샀음",
+              "소파에 몇 가지 문제가 있어서 전화함",
+              "먼저 소파 한 부분의 색상이 다릅니다",
+              "밝은색 소파라서 그 차이가 쉽게 보",
+              "또 소파의 수평이 맞지 않는 것 같음",
+              "조금 움직일 때마다 소리가 남",
+              "누군가 와서 확인하거나 수리해 주실 수 있나요?",
+              "수리가 불가능하다면 교환을 받을 수 있을까요?",
+              "언제 가능한지 알려 주세요"
+            ],
+            "englishSkeleton": [
+              "Hello, I bought a sofa from your store recently.",
+              "I am calling because there are some problems with it.",
+              "First, one part of the sofa has a different color.",
+              "Since it is a light-colored sofa, the difference is easy to notice.",
+              "Also, I do not think the sofa is level.",
+              "It makes a noise whenever I move it a little.",
+              "Could someone come and check it or repair it?",
+              "If repair is not possible, could I get a replacement?",
+              "Please let me know when this can be done."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-1-type-8-8",
@@ -805,7 +961,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "처음에는 스트레스였지만 결국 문제는 해결되었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "기억하는 문제 하나는 거실에 둘 새 소파를 샀을 때 일어났다",
+              "이전에는 소파가 없어서 나는 기대하고 있었다",
+              "하지만 소파가 도착했을 때 바로 문제를 발견했음",
+              "한 부분의 색상이 다른 부분들과 달랐다",
+              "또 소파의 수평이 맞지 않아서 움직일 때 소리가 났다",
+              "짜증이 났고 “이건 제대로 된 것 같지 않다.”라고 생각했음",
+              "고객센터에 연락해서 문제를 설명했음",
+              "다행히 그들은 일주일 안에 무료로 교환해 주었다",
+              "처음에는 스트레스였지만 결국 문제는 해결됨"
+            ],
+            "englishSkeleton": [
+              "One problem I remember happened when I bought a new sofa for my living room.",
+              "I was excited because we did not have a sofa before.",
+              "But when the sofa arrived, I noticed a problem right away.",
+              "One part of it had a different color from the other parts.",
+              "Also, the sofa was not level, so it made a noise when I moved it.",
+              "I was annoyed and thought, “This does not look right.”",
+              "So I contacted customer service and explained the problem.",
+              "Luckily, they replaced it for free within a week.",
+              "It was stressful at first, but the problem was solved in the end."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-1-9",
@@ -901,7 +1081,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 완벽한 시스템은 아니지만 각자 간단한 방식으로 도우려고 한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "우리 집에서는 가족마다 다른 역할이 있음",
+              "엄마는 보통 요리와 주방일을 맡으신다",
+              "아빠는 자주 쓰레기를 버리고 분리수거를 함",
+              "보통 내 방을 청소하고 작은 집안일을 돕는다",
+              "가끔은 저녁 식사 후 설거지도 돕는다",
+              "솔직히 이런 집안일이 항상 재미있는 것은 아님",
+              "하지만 모두가 집을 함께 사용하기 때문에 필요하다고 생각함",
+              "완벽한 시스템은 아니지만 각자 간단한 방식으로 도우려고 함"
+            ],
+            "englishSkeleton": [
+              "In my home, each family member has different responsibilities.",
+              "My mom usually takes care of cooking and the kitchen.",
+              "My dad often takes out the trash and handles recycling.",
+              "As for me, I usually clean my room and help with small chores.",
+              "Sometimes I also help wash the dishes after dinner.",
+              "To be honest, these chores are not always fun.",
+              "But I think they are necessary because everyone uses the house together.",
+              "So we do not have a perfect system, but each person tries to help in a simple way."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-2-10",
@@ -997,7 +1199,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "작은 루틴이지만 집 생활을 더 편하게 만들어 준다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "보통 내 책임을 조금씩 처리함",
+              "예를 들어 일주일에 한 번은 내 방을 청소하려고 함",
+              "매일 대청소를 하지는 않는다",
+              "대신 방이 지저분해지면 물건을 제자리에 돌려놓는다",
+              "저녁 식사 후에는 가끔 식탁을 치우거나 설거지를 돕는다",
+              "주말에는 아빠가 부탁하시면 분리수거를 도울 때도 있음",
+              "예전에는 이런 일을 미루곤 했지만 요즘은 더 일찍 하려고 함",
+              "작은 루틴이지만 집 생활을 더 편하게 만들어 준다"
+            ],
+            "englishSkeleton": [
+              "I usually handle my responsibilities little by little.",
+              "For example, I try to clean my room once a week.",
+              "I do not do a big cleaning every day.",
+              "Instead, I put things back in place when my room gets messy.",
+              "After dinner, I sometimes help clear the table or wash the dishes.",
+              "On weekends, I may help with recycling if my dad asks me.",
+              "I used to delay these things, but these days I try to do them earlier.",
+              "It is a small routine, but it makes home life easier."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-3-11",
@@ -1092,7 +1316,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 작은 집안일들이 내가 조금씩 책임감을 배우는 데 도움이 되었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "어렸을 때 나는 집에서 몇 가지 작은 책임이 있었다",
+              "내 주된 일은 장난감을 치우고 방을 깔끔하게 유지하는 것이었다",
+              "가끔 엄마는 저녁 식사 전에 식탁 차리는 것도 도와 달라고 하셨다",
+              "그때는 이런 일이 중요하다고 생각하지 않았다",
+              "그냥 더 놀고 싶어서 자주 불평했음",
+              "하지만 부모님은 내 물건은 내가 챙겨야 한다고 계속 알려 주심",
+              "이제는 부모님이 왜 그러셨는지 이해함",
+              "그 작은 집안일들이 내가 조금씩 책임감을 배우는 데 도움이 됨"
+            ],
+            "englishSkeleton": [
+              "When I was a child, I had a few small responsibilities at home.",
+              "My main job was to clean up my toys and keep my room neat.",
+              "Sometimes my mom also asked me to help set the table before dinner.",
+              "At that time, I did not think these jobs were important.",
+              "I just wanted to play more, so I often complained.",
+              "But my parents kept reminding me to take care of my own things.",
+              "Now I understand why they did that.",
+              "Those small chores helped me learn responsibility little by little."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-4-12",
@@ -1187,7 +1433,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 후로는 나중에 하겠다고 말하기보다 집안일을 바로 하려고 했다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "엄마가 부탁한 일을 하지 않았던 때가 기억난다",
+              "수거 시간 전에 쓰레기를 버려야 했음",
+              "하지만 게임을 시작했고 그 일을 완전히 잊어버림",
+              "나중에 엄마가 “쓰레기 버렸니?”라고 물으심",
+              "그 순간 내가 하지 않았다는 것을 깨달았다",
+              "쓰레기는 다음 수거일까지 집에 있어야 했음",
+              "가족에게 일을 더 만들었기 때문에 정말 미안했음",
+              "그 후로는 나중에 하겠다고 말하기보다 집안일을 바로 하려고 했음"
+            ],
+            "englishSkeleton": [
+              "I remember one time when I did not do a task my mom asked me to do.",
+              "I was supposed to take out the trash before the collection time.",
+              "But I started playing a game and completely forgot about it.",
+              "Later, my mom asked me, “Did you take out the trash?”",
+              "At that moment, I realized I had not done it.",
+              "The trash had to stay at home until the next collection day.",
+              "I felt really sorry because it made extra work for my family.",
+              "After that, I tried to do chores right away instead of saying I would do them later."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-5-13",
@@ -1282,7 +1550,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 공간에서는 보통 무엇을 하나요?"
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "당신의 집에 대해 몇 가지 질문이 있음",
+              "먼저, 집에 마당이 있나요?",
+              "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금함",
+              "집에는 방이 몇 개 있나요?",
+              "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+              "가족들은 보통 어디에서 함께 시간을 보내나요?",
+              "또 집에서 가장 좋아하는 공간은 어디인가요?",
+              "그 공간에서는 보통 무엇을 하나요?"
+            ],
+            "englishSkeleton": [
+              "I have a few questions about your house.",
+              "First, do you have a yard?",
+              "I heard many houses in the United States have a yard, so I wonder how yours looks.",
+              "How many rooms are there in your house?",
+              "Is the floor plan similar to a Korean apartment, or is it very different?",
+              "Where does your family usually spend time together?",
+              "Also, what is your favorite space in the house?",
+              "What do you usually do in that space?"
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-6-14",
@@ -1386,7 +1676,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "제대로 계획할 수 있도록 의견을 말해 줘."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕, 다른 가족을 우리 집에 점심 식사로 초대하고 싶어",
+              "결정하기 전에 몇 가지 질문을 해야 해",
+              "먼저 모두에게 어떤 날짜가 가장 좋을까?",
+              "이번 토요일이 좋을까, 아니면 다음 일요일이 더 좋을까?",
+              "또 몇 시에 초대하면 좋을까?",
+              "모두가 앉을 의자와 식기가 충분할까?",
+              "어떤 음식을 준비해야 할까?",
+              "알레르기나 먹지 못하는 음식이 있는 사람이 있다면 그것도 확인해야 해",
+              "제대로 계획할 수 있도록 의견을 말해 줘"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to invite another family to our house for lunch.",
+              "Before I decide, I need to ask a few questions.",
+              "First, what date would be best for everyone?",
+              "Would this Saturday or next Sunday be better?",
+              "Also, what time should we invite them?",
+              "Do we have enough chairs and dishes for everyone?",
+              "What kind of food should we prepare?",
+              "If anyone has an allergy or a food they cannot eat, we should check that too.",
+              "Please tell me your ideas so I can plan it properly."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-7-15",
@@ -1493,7 +1807,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "다시 한 번 변경하게 되어 정말 죄송합니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 정말 죄송하지만 오늘 점심 계획을 바꿔야 할 것 같음",
+              "오늘 아침에 가족 중 한 명이 갑자기 아팠음",
+              "오늘 당신의 가족을 초대하는 것은 좋은 생각이 아닌 것 같음",
+              "너무 갑작스럽다는 것을 알고 있고, 그 점 정말 죄송함",
+              "대신 다음 주말에 만날 수 있을까요?",
+              "그게 어렵다면 당신 가족에게 맞는 다른 날을 정할 수도 있음",
+              "모두가 괜찮아진 뒤 식당에서 만날 수도 있음",
+              "이 메시지를 들으면 다시 전화해 주세요",
+              "다시 한 번 변경하게 되어 정말 죄송함"
+            ],
+            "englishSkeleton": [
+              "Hi, I am really sorry, but we need to change our lunch plan for today.",
+              "This morning, one of my family members suddenly got sick.",
+              "So I do not think it is a good idea to invite your family over today.",
+              "I know this is very sudden, and I am sorry about that.",
+              "Could we meet next weekend instead?",
+              "Or if that is difficult, we can choose another day that works for your family.",
+              "We could also meet at a restaurant later when everyone feels better.",
+              "Please call me back when you get this message.",
+              "Again, I am really sorry for the change."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-2-type-8-16",
@@ -1601,7 +1939,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 경험은 가끔은 가족이 먼저일 수 있다는 것을 떠올리게 해 주었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "네, 가족을 도와야 해서 계획을 바꾼 적이 있음",
+              "주말 오후에 친구를 만나기로 되어 있었다",
+              "하지만 그날 아침 엄마가 갑자기 몸이 안 좋아져서 집에서 도움이 필요했음",
+              "엄마는 쉬어야 해서 나는 청소와 간단한 집안일을 도왔다",
+              "친구에게 전화해서 “미안한데 오늘은 집에 있어야 해.”라고 말했음",
+              "다행히 친구는 상황을 이해해 주었다",
+              "우리는 계획을 다음 주로 옮겼다",
+              "처음에는 스트레스를 받았지만 엄마를 도울 수 있어서 다행이었음",
+              "그 경험은 가끔은 가족이 먼저일 수 있다는 것을 떠올리게 해 주었다"
+            ],
+            "englishSkeleton": [
+              "Yes, I once had to change my plan because I needed to help my family.",
+              "I was planning to meet a friend on a weekend afternoon.",
+              "But that morning, my mom suddenly felt sick and needed help at home.",
+              "She had to rest, so I helped with cleaning and some simple chores.",
+              "I called my friend and said, “I am sorry, but I need to stay home today.”",
+              "Luckily, my friend understood the situation.",
+              "We moved our plan to the next week.",
+              "At first, I felt stressed, but I was glad I could help my mom.",
+              "That experience reminded me that family sometimes has to come first."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-1-17",
@@ -1702,7 +2064,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 내 방은 단순하지만 집에서 가장 편안한 장소이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "가장 많은 시간을 보내는 방은 내 방이다",
+              "아주 크지는 않지만 필요한 것은 다 있음",
+              "침대, 책상, 의자, 옷장, 그리고 컴퓨터가 있음",
+              "보통 책상에서 공부하고 게임을 하거나 영상을 보기도 함",
+              "피곤할 때는 그냥 침대에 누워 잠시 쉼",
+              "가장 좋아하는 점은 그곳이 내 개인 공간이라는 것이다",
+              "혼자 있을 수 있고 조용히 생각하고 다른 사람을 방해하지 않고 쉴 수 있음",
+              "내 방은 단순하지만 집에서 가장 편안한 장소이다"
+            ],
+            "englishSkeleton": [
+              "The room I spend the most time in is my room.",
+              "It is not very big, but it has everything I need.",
+              "There is a bed, a desk, a chair, a closet, and my computer.",
+              "I usually study at my desk and also play games or watch videos there.",
+              "When I feel tired, I just lie on my bed and rest for a while.",
+              "What I like most is that it is my private space.",
+              "I can be alone, think quietly, and relax without bothering anyone.",
+              "So my room is simple, but it is the most comfortable place in my house."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-2-18",
@@ -1797,7 +2181,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "나에게 이런 가족 시간은 편안하고 따뜻하게 느껴진다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "우리 가족은 보통 저녁 시간에 함께 시간을 보냄",
+              "우리는 자주 저녁을 같이 먹고 하루 이야기를 함",
+              "대화가 항상 특별한 것은 아니지만 나는 그 짧은 시간이 좋음",
+              "저녁 식사 후에는 거실에 앉아 TV나 넷플릭스를 봄",
+              "가끔은 같은 프로그램을 보면서 자연스럽게 이야기를 나눔",
+              "평일에는 모두 바빠서 오래 함께 있지는 못함",
+              "하지만 주말에는 낮에도 함께 밥을 먹거나 거실에서 쉬는 경우가 많다",
+              "나에게 이런 가족 시간은 편안하고 따뜻하게 느껴짐"
+            ],
+            "englishSkeleton": [
+              "My family usually spends time together in the evening.",
+              "We often eat dinner together and talk about our day.",
+              "The conversations are not always special, but I like that small time.",
+              "After dinner, we sit in the living room and watch TV or Netflix.",
+              "Sometimes we talk naturally while watching the same program.",
+              "On weekdays, we cannot spend a long time together because everyone is busy.",
+              "But on weekends, we often eat together or rest in the living room during the day.",
+              "For me, this family time feels comfortable and warm."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-3-19",
@@ -1901,7 +2307,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 어릴 때 집도 좋았지만, 일상생활에는 지금 집이 더 좋다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "어릴 때 집과 지금 집의 가장 큰 차이는 개인 공간이다",
+              "어렸을 때 우리 집은 지금보다 조금 더 작았음",
+              "내 방이 따로 없어서 가끔 불편했음",
+              "화장실도 하나뿐이라 아침 시간이 바쁠 때가 있었다",
+              "물론 가족과 함께 살던 곳이라 그 집에도 좋은 기억은 있음",
+              "하지만 지금은 내 방이 있음",
+              "혼자 공부하고 게임하고 쉴 수 있어서 훨씬 더 편하다",
+              "지금은 화장실도 두 개라서 아침이 더 편하다",
+              "어릴 때 집도 좋았지만, 일상생활에는 지금 집이 더 좋음"
+            ],
+            "englishSkeleton": [
+              "The biggest difference between my childhood home and my current home is personal space.",
+              "When I was young, my home was a little smaller than now.",
+              "I did not have my own room, so it was sometimes uncomfortable.",
+              "There was also only one bathroom, so mornings could be busy.",
+              "Of course, I still have good memories of that home because I lived there with my family.",
+              "But now I have my own room.",
+              "I can study, play games, and rest alone, so it is much more comfortable.",
+              "We also have two bathrooms now, so mornings are easier.",
+              "So I liked my childhood home, but my current home is better for daily life."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-4-20",
@@ -2001,7 +2431,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "집이 깨끗해졌을 때 나는 정말 뿌듯했다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "가족과의 기억에 남는 경험은 우리가 함께 집 전체를 청소했을 때이다",
+              "집이 지저분해져서 우리는 어느 주말에 청소하기로 했음",
+              "엄마는 주방과 냉장고를 정리하셨다",
+              "아빠는 무거운 가구를 옮기고 거실을 청소하셨다",
+              "내 방을 정리하고 필요 없는 물건을 버렸다",
+              "청소하는 동안 예전에 쓰던 오래된 물건들을 발견했음",
+              "우리는 그것들을 보며 옛 추억에 대해 이야기했음",
+              "청소는 힘들었지만 함께해서 덜 지루했음",
+              "집이 깨끗해졌을 때 나는 정말 뿌듯했음"
+            ],
+            "englishSkeleton": [
+              "A memorable experience with my family happened when we cleaned the whole house together.",
+              "The house had become messy, so we decided to clean it on one weekend.",
+              "My mom cleaned the kitchen and the refrigerator.",
+              "My dad moved some heavy furniture and cleaned the living room.",
+              "I cleaned my room and threw away things I did not need.",
+              "While cleaning, we found some old items we used before.",
+              "We looked at them and talked about old memories.",
+              "The cleaning was tiring, but it was less boring because we did it together.",
+              "When the house became clean, I felt really proud."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-5-21",
@@ -2096,7 +2550,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 공간에서는 보통 무엇을 하나요?"
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "당신의 집에 대해 몇 가지 질문이 있음",
+              "먼저, 집에 마당이 있나요?",
+              "미국의 많은 집에는 마당이 있다고 들어서 당신의 마당은 어떤지 궁금함",
+              "집에는 방이 몇 개 있나요?",
+              "구조가 한국 아파트와 비슷한가요, 아니면 많이 다른가요?",
+              "가족들은 보통 어디에서 함께 시간을 보내나요?",
+              "또 집에서 가장 좋아하는 공간은 어디인가요?",
+              "그 공간에서는 보통 무엇을 하나요?"
+            ],
+            "englishSkeleton": [
+              "I have a few questions about your house.",
+              "First, do you have a yard?",
+              "I heard many houses in the United States have a yard, so I wonder how yours looks.",
+              "How many rooms are there in your house?",
+              "Is the floor plan similar to a Korean apartment, or is it very different?",
+              "Where does your family usually spend time together?",
+              "Also, what is your favorite space in the house?",
+              "What do you usually do in that space?"
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-6-22",
@@ -2204,7 +2680,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "제가 모든 것을 잘 확인해 두겠습니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 여행 가시기 전에 집에 대해 몇 가지 질문하고 싶어요",
+              "먼저 집에는 어떻게 들어가면 될까요?",
+              "현관 비밀번호가 있나요, 아니면 어딘가에 열쇠를 두셨나요?",
+              "여행 중 제가 꼭 해야 하는 가장 중요한 일은 무엇인가요?",
+              "화분에는 얼마나 자주 물을 주면 될까요?",
+              "또 제가 받아야 할 택배가 있나요?",
+              "예상치 못한 일이 생기면 어디로 연락하면 될까요?",
+              "너무 걱정하지 마시고 여행 잘 다녀오세요",
+              "모든 것을 잘 확인해 두겠음"
+            ],
+            "englishSkeleton": [
+              "Hi, before you leave for your trip, I want to ask a few questions about your home.",
+              "First, how should I get into the house?",
+              "Is there a door password, or did you leave a key somewhere?",
+              "What are the most important things I need to do while you are away?",
+              "How often should I water the plants?",
+              "Also, are there any packages I need to receive?",
+              "If something unexpected happens, where should I contact you?",
+              "Do not worry too much, and have a good trip.",
+              "I will check everything carefully."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-7-23",
@@ -2305,7 +2805,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "이 메시지를 확인하시면 전화나 메시지를 주세요."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 방금 집에 도착했는데 문제가 있음",
+              "말씀해 주신 장소를 확인했지만 열쇠를 찾을 수 없음",
+              "지금 집 안으로 들어갈 수 없음",
+              "열쇠 위치를 다시 한 번 알려 주실 수 있나요?",
+              "아니면 이웃이나 경비실에 열쇠를 맡겨 두셨나요?",
+              "다른 비상 열쇠가 있다면 어디에 있는지 알려 주세요",
+              "근처에서 잠시 기다리겠음",
+              "이 메시지를 확인하시면 전화나 메시지를 주세요"
+            ],
+            "englishSkeleton": [
+              "Hello, I just arrived at your house, but there is a problem.",
+              "I checked the place you told me about, but I cannot find the key.",
+              "So right now, I cannot get inside the house.",
+              "Could you please tell me the key location one more time?",
+              "Or did you leave the key with a neighbor or at the security office?",
+              "If there is another emergency key, please let me know where it is.",
+              "I will wait nearby for a while.",
+              "Please call me back or send me a message when you see this."
+            ]
+          }
         },
         {
           "id": "script-1-family-house2-set-3-type-8-24",
@@ -2408,7 +2930,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "큰 문제는 없었고 엄마가 도와주셔서 정말 고마웠다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "한 번 친척 집을 봐주기로 약속했지만 갑자기 갈 수 없게 된 적이 있음",
+              "친척이 며칠 동안 여행을 가면서 나에게 집을 확인해 달라고 부탁했음",
+              "화분에 물을 주고 택배가 있으면 받아야 했음",
+              "하지만 그날 아침 몸이 아파서 쉽게 밖에 나갈 수 없었음",
+              "처음에는 정말 걱정됐고 미안했음",
+              "엄마에게 상황을 설명하고 도움을 부탁했음",
+              "다행히 엄마가 나 대신 그곳에 가서 화분과 택배를 확인해 주심",
+              "다음 날 몸이 나아져서 내가 남은 일을 마무리하러 갔다",
+              "큰 문제는 없었고 엄마가 도와주셔서 정말 고마웠다"
+            ],
+            "englishSkeleton": [
+              "I once promised to take care of my relative’s home, but I suddenly could not go.",
+              "My relative was going on a trip for a few days and asked me to check the house.",
+              "I was supposed to water the plants and receive any packages.",
+              "But that morning, I felt sick and could not go outside easily.",
+              "At first, I was really worried and felt sorry.",
+              "So I explained the situation to my mom and asked her for help.",
+              "Luckily, she went there instead of me and checked the plants and packages.",
+              "The next day, I felt better and went to finish the rest of the tasks.",
+              "There was no big problem, and I was really thankful that my mom helped me."
+            ]
+          }
         }
       ]
     },
@@ -2625,7 +3171,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가족과 함께 일반적인 한국 아파트에 거주함",
+              "그곳은 편안하게 느껴짐",
+              "우리 가족은 거실에서 자주 함께 시간을 보냄",
+              "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있음",
+              "집에 들어오면 거실이 바로 보임",
+              "거기에는 소파와 TV, 식탁이 있음",
+              "우리는 보통 소파에 앉음",
+              "우리는 TV를 보고 이야기를 나눔",
+              "전체적으로 우리 아파트는 소박하지만 따뜻하고 편안함"
+            ],
+            "englishSkeleton": [
+              "I live in a typical Korean apartment with my family.",
+              "I feel comfortable there.",
+              "My family often spends time together in the living room.",
+              "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
+              "You see the living room as soon as you come in.",
+              "There’s a sofa, a TV, and a dining table there.",
+              "We usually sit on the sofa.",
+              "We watch TV and talk.",
+              "So overall, our apartment is simple, but it’s warm and comfortable."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-2-2",
@@ -2808,7 +3378,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "집에서는 바쁜 하루를 보낸 뒤 보통 침대에서 쉼",
+              "집에 오면 자주 피곤해서 이 조용한 시간을 좋아함",
+              "평일에는 집에 도착하면 샤워함",
+              "그 후 침대에 누워 잠깐 유튜브를 봄",
+              "주말에는 보통 집에서 지냄",
+              "영상을 보면서 조금 더 오래 쉼",
+              "이 간단한 습관은 기분이 나아지는 데 도움 됨"
+            ],
+            "englishSkeleton": [
+              "At home, I usually rest on my bed after a busy day.",
+              "I’m often tired when I get home, so I enjoy this quiet time.",
+              "On weekdays, I take a shower when I get home.",
+              "After that, I lie on my bed and watch YouTube for a short time.",
+              "On weekends, I usually stay home.",
+              "I watch videos and rest a little longer.",
+              "This simple routine helps me feel better."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-3-3",
@@ -2991,7 +3581,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난여름 우리 아파트의 물이 끊김",
+              "정말 불편했음",
+              "며칠 동안 비가 많이 온 뒤에 그 일이 생김",
+              "물은 하루 정도 끊김",
+              "우리 가족은 미리 받아 둔 물을 아주 아껴 사용함",
+              "물이 다시 나오자 정말 안심이 됨",
+              "그 후로 아파트 공지를 더 자주 확인하기 시작했음"
+            ],
+            "englishSkeleton": [
+              "Last summer, the water in our apartment was cut off.",
+              "It was very uncomfortable.",
+              "It happened after several days of heavy rain.",
+              "The water was cut off for about a day.",
+              "My family used the water we had saved very carefully.",
+              "When the water came back, I felt really relieved.",
+              "After that, I started checking apartment notices more often."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-4-4",
@@ -3198,7 +3808,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난여름 폭우가 내린 뒤 우리 집의 물이 끊김",
+              "물이 언제 다시 나올지 몰라서 걱정됨",
+              "그전에 관리사무소에서 물이 끊길 거라고 알려 줌",
+              "우리 가족은 병과 양동이에 물을 받아 둠",
+              "우리는 받아 둔 물을 화장실에 보관했음",
+              "그 물은 씻을 때 사용했음",
+              "마실 때는 생수를 마심",
+              "다음 날 물이 다시 나와서 안심했음"
+            ],
+            "englishSkeleton": [
+              "Last summer, our water was cut off after heavy rain.",
+              "I was worried because we didn’t know when the water would come back.",
+              "Before that, the apartment office warned us that the water would stop.",
+              "My family filled bottles and buckets with water.",
+              "We kept the water in the bathroom.",
+              "We used it for washing.",
+              "We drank bottled water.",
+              "The water came back the next day, so I felt relieved."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-5-5",
@@ -3424,7 +4056,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 집에 대해 더 알고 싶음",
+              "마당이 있나요?",
+              "아, 작은 마당이 있군요. 좋겠네요",
+              "집에는 방이 몇 개 있나요?",
+              "아, 방이 다섯 개군요. 많네요",
+              "가족은 보통 어디에서 함께 시간을 보내나요?",
+              "거실에서 함께 시간을 보내는군요. 알겠음",
+              "어느 방을 가장 좋아하나요?",
+              "주방이요? 좋네요",
+              "집에 관해 이야기해 주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to know more about your house.",
+              "Do you have a yard?",
+              "Oh, you have a small yard. That sounds nice.",
+              "How many rooms are there in your house?",
+              "Oh, it has five rooms. That’s a lot.",
+              "Where does your family usually spend time together?",
+              "So you spend time in the living room. I see.",
+              "Which room do you like best?",
+              "Oh, the kitchen. That sounds nice.",
+              "Thank you for telling me about your house."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-6-6",
@@ -3631,7 +4289,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 작은 소파를 찾고 있음",
+              "거실에 둘 소파",
+              "연한 회색 소파를 원함",
+              "부드럽고 편안한 소파를 원함",
+              "그런 제품이 있나요?",
+              "아, 그런 소파가 있군요? 좋아요. 앉아 봐도 될까요?",
+              "앉아 보니 편안하네요",
+              "가격이 얼마인가요?",
+              "아, 500달러군요? 괜찮네요. 이 소파를 사고 싶음"
+            ],
+            "englishSkeleton": [
+              "Hello, I’m looking for a small sofa.",
+              "It’s for my living room.",
+              "I want a light gray one.",
+              "I want a soft and comfortable sofa.",
+              "Do you have anything like that?",
+              "Oh, you have one? Great. Can I sit on it?",
+              "It feels nice.",
+              "How much is it?",
+              "Oh, five hundred dollars? That’s okay. I’d like to buy it."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-7-7",
@@ -3840,7 +4522,31 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 제가 산 소파에 문제가 있음",
+              "앉으면 소파가 움직",
+              "큰 소리도 남",
+              "누군가 와서 고쳐 주실 수 있나요?",
+              "아, 이번 주에는 아무도 올 수 없나요? 알겠음",
+              "그러면 새 소파를 받을 수 있을까요?",
+              "좋아요, 감사함",
+              "내일 영수증을 가져갈 수 있음",
+              "도와주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, there’s a problem with the sofa I bought.",
+              "It moves when I sit on it.",
+              "It also makes a loud noise.",
+              "Could someone come and fix it?",
+              "Oh, no one can come this week? Okay.",
+              "Then can I get a new sofa?",
+              "Great, thank you.",
+              "I can bring the receipt tomorrow.",
+              "Thank you for your help."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-1-type-8-8",
@@ -4040,7 +4746,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 앉으면 움직이는 소파를 삼",
+              "소파가 안전하지 않은 것 같아서 걱정됨",
+              "먼저 바닥을 확인했음",
+              "바닥에는 문제가 없어서 소파를 확인했음",
+              "소파 다리 하나가 다른 다리보다 짧았음",
+              "매장에 전화해서 문제를 설명했음",
+              "일주일 뒤 매장에서 새 소파를 보내 줌",
+              "새 소파는 흔들리지 않아서 안심이 됨"
+            ],
+            "englishSkeleton": [
+              "I once bought a sofa that moved when I sat on it.",
+              "I was worried because the sofa didn’t feel safe.",
+              "So I checked the floor first.",
+              "The floor was fine, so I checked the sofa.",
+              "One leg was shorter than the others.",
+              "I called the store and explained the problem.",
+              "A week later, the store sent me a new sofa.",
+              "The new sofa was stable, so I felt relieved."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-1-9",
@@ -4250,7 +4978,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "우리 집에서는 가족이 집안일을 나누어 함",
+              "이렇게 하면 모두가 더 편해져서 나는 이 방식이 좋음",
+              "엄마는 보통 요리하고 주방을 청소함",
+              "아빠는 쓰레기와 재활용품을 버림",
+              "주로 맡은 일은 내 방을 깨끗하게 유지함",
+              "가끔은 저녁 식사 후에 설거지를 함",
+              "우리는 맡은 일을 제때 하려고 함",
+              "누군가 바쁘면 다른 사람이 도와줌",
+              "집안일을 나누면 집에서 생활하기가 더 편해짐"
+            ],
+            "englishSkeleton": [
+              "At home, my family shares the housework.",
+              "I like this because it makes things easier for everyone.",
+              "My mom usually cooks and cleans the kitchen.",
+              "My dad takes out the trash and the recycling.",
+              "My main job is to keep my room clean.",
+              "Sometimes I wash the dishes after dinner.",
+              "We try to do our jobs on time.",
+              "If someone is busy, another person helps.",
+              "So sharing the work makes home life easier."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-2-10",
@@ -4435,7 +5187,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "매주 토요일에 방을 청소함",
+              "방이 깨끗하면 마음이 편안해짐",
+              "먼저 이불을 세탁함",
+              "그런 다음 책상과 선반의 먼지를 닦음",
+              "바닥도 청소기로 청소함",
+              "보통 한 시간 걸림",
+              "피곤하지만 방이 훨씬 깔끔해 보임",
+              "청소를 마치고 나면 방이 깨끗하고 편안하게 느껴짐"
+            ],
+            "englishSkeleton": [
+              "I clean my room every Saturday.",
+              "A clean room helps me feel relaxed.",
+              "First, I wash my blanket.",
+              "Then I wipe the dust off my desk and shelves.",
+              "I also vacuum the floor.",
+              "It usually takes an hour.",
+              "I get tired, but the room looks much better.",
+              "After I finish, my room feels clean and comfortable."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-3-11",
@@ -4608,7 +5382,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "어렸을 때 내가 주로 맡은 일은 방 청소였음",
+              "처음에는 계속 놀고 싶어서 방 청소가 싫었음",
+              "매일 저녁 나는 놀고 난 뒤 장난감을 치움",
+              "바닥에 있는 옷도 주워 정리했음",
+              "부모님은 자주 나에게 정리하라고 알려 주심",
+              "보통 잠자리에 들기 전에 청소를 끝냄",
+              "시간이 지나면서 혼자서 하는 법을 배움"
+            ],
+            "englishSkeleton": [
+              "My main job as a child was cleaning my room.",
+              "I didn’t like it at first because I wanted to keep playing.",
+              "Every evening, I put my toys away after playing.",
+              "I also picked up clothes from the floor.",
+              "My parents often reminded me to clean up.",
+              "I usually finished before bedtime.",
+              "Over time, I learned to do it by myself."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-4-12",
@@ -4814,7 +5608,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "어렸을 때 한 번 쓰레기 버리는 것을 잊음",
+              "쓰레기차를 놓쳐서 미안했음",
+              "그날 쓰레기차가 오기 전에 쓰레기를 내놓아야 했음",
+              "게임을 시작하면서 쓰레기 버리는 것을 잊어버림",
+              "나중에 엄마가 쓰레기에 대해 물으심",
+              "밖으로 뛰어나갔지만 쓰레기차는 이미 떠난 뒤였음",
+              "우리는 쓰레기를 일주일 더 보관해야 했음",
+              "그 후로는 항상 쓰레기를 제때 내놓음"
+            ],
+            "englishSkeleton": [
+              "As a child, I once forgot to take out the trash.",
+              "I felt sorry because we missed the garbage truck.",
+              "That day, I had to take out the trash before the garbage truck came.",
+              "I started playing a game and forgot about the trash.",
+              "Later, my mom asked about the trash.",
+              "I ran outside, but the truck was already gone.",
+              "We had to keep the trash for another week.",
+              "After that, I always took out the trash on time."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-5-13",
@@ -5040,7 +5856,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 집에 대해 더 알고 싶음",
+              "마당이 있나요?",
+              "아, 작은 마당이 있군요. 좋겠네요",
+              "집에는 방이 몇 개 있나요?",
+              "아, 방이 다섯 개군요. 많네요",
+              "가족은 보통 어디에서 함께 시간을 보내나요?",
+              "거실에서 함께 시간을 보내는군요. 알겠음",
+              "어느 방을 가장 좋아하나요?",
+              "주방이요? 좋네요",
+              "집에 관해 이야기해 주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to know more about your house.",
+              "Do you have a yard?",
+              "Oh, you have a small yard. That sounds nice.",
+              "How many rooms are there in your house?",
+              "Oh, it has five rooms. That’s a lot.",
+              "Where does your family usually spend time together?",
+              "So you spend time in the living room. I see.",
+              "Which room do you like best?",
+              "Oh, the kitchen. That sounds nice.",
+              "Thank you for telling me about your house."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-6-14",
@@ -5248,7 +6090,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "다들, 친구 가족을 점심 식사에 초대하고 싶어",
+              "이번 토요일은 모두 괜찮아?",
+              "아빠는 일하셔야 해? 알겠어",
+              "다음 일요일은 어때?",
+              "좋아, 그날은 모두 시간이 되네",
+              "한 시는 모두 괜찮아?",
+              "좋아, 모두 한 시에 시간이 되네",
+              "그러면 다음 일요일 한 시에 오시라고 할게"
+            ],
+            "englishSkeleton": [
+              "Hey, everyone. I want to invite my friend’s family for lunch.",
+              "Is this Saturday good for everyone?",
+              "Oh, Dad has to work. Okay.",
+              "How about next Sunday?",
+              "Great, everyone is free then.",
+              "Is one o’clock okay for everyone?",
+              "Great, everyone is free at one.",
+              "Then I’ll ask them to come next Sunday at one."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-7-15",
@@ -5432,7 +6296,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕, 미안하지만 오늘 점심 약속을 취소해야 해",
+              "오늘 아침에 엄마가 아프셨어",
+              "엄마가 쉬셔야 해서 우리 집에서 점심을 먹을 수 없어",
+              "대신 다음 주말에 만날 수 있을까?",
+              "아니면 다른 날 식당에서 점심을 먹어도 돼",
+              "이 메시지를 확인하면 전화해 줘",
+              "다시 한번 정말 미안해"
+            ],
+            "englishSkeleton": [
+              "Hi, I’m sorry, but we need to cancel our lunch today.",
+              "My mom got sick this morning.",
+              "She needs to rest, so we can’t have lunch at my house.",
+              "Can we meet next weekend instead?",
+              "Or we can have lunch at a restaurant another day.",
+              "Please call me when you get this message.",
+              "Again, I’m really sorry."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-2-type-8-16",
@@ -5645,7 +6529,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 아픈 엄마를 돕기 위해 계획을 바꿈",
+              "엄마가 많이 걱정됨",
+              "그날 아침 엄마가 아프셔서 쉬셔야 했음",
+              "하지만 그날 오후에 친구를 만날 예정이었음",
+              "엄마와 함께 집에 남음",
+              "친구에게 전화해서 상황을 설명했음",
+              "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했음",
+              "그런 다음 엄마 대신 집을 청소했음",
+              "엄마를 도울 수 있어서 다행이었음"
+            ],
+            "englishSkeleton": [
+              "I once changed my plans to help my sick mom.",
+              "I was very worried about her.",
+              "That morning, my mom got sick and needed to rest.",
+              "But I was going to meet my friend that afternoon.",
+              "So I stayed home with her.",
+              "I called my friend and explained the situation.",
+              "My friend understood, so we decided to meet a week later.",
+              "Then I cleaned the house for my mom.",
+              "In the end, I was glad I could help my mom."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-1-17",
@@ -5858,7 +6766,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "대부분의 시간을 내 방에서 보냄",
+              "내 방은 조용해서 편하게 쉴 수 있음",
+              "방이 아주 크지는 않지만 필요한 것은 모두 있음",
+              "침대는 창문 옆에 있음",
+              "낮에는 방에 햇빛이 많이 들어옴",
+              "방에서 내가 가장 좋아하는 곳은 침대",
+              "피곤할 때는 침대에 누워서 쉼",
+              "가끔 잠들기 전에 침대에서 영상을 봄",
+              "내 방은 우리 집에서 가장 편안한 곳"
+            ],
+            "englishSkeleton": [
+              "I spend most of my time in my room.",
+              "It’s quiet, so I can relax there.",
+              "It isn’t very big, but it has everything I need.",
+              "My bed is next to the window.",
+              "The room gets a lot of sunlight during the day.",
+              "My favorite part of the room is my bed.",
+              "When I feel tired, I lie down and rest.",
+              "Sometimes I watch videos in bed before I sleep.",
+              "So my room is the most comfortable place in my home."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-2-18",
@@ -6054,7 +6986,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "우리 가족은 보통 집에서 함께 저녁을 먹음",
+              "가족과 이야기할 수 있어서 나는 이 시간이 좋음",
+              "우리는 보통 저녁에 함께 식탁에 앉음",
+              "식사하면서 그날 있었던 일을 이야기함",
+              "특별한 이야기를 하는 것은 아님",
+              "평일에는 가끔 저녁을 빨리 먹음",
+              "주말에는 조금 더 오래 함께 앉아 있음",
+              "함께 저녁을 먹으면 가족과 더 가까워진 기분이 듦"
+            ],
+            "englishSkeleton": [
+              "My family usually eats dinner together at home.",
+              "I enjoy this time because I can talk with my family.",
+              "We usually sit at the table together in the evening.",
+              "While we eat, we talk about our day.",
+              "We don’t talk about anything special.",
+              "On weekdays, we sometimes eat quickly.",
+              "On weekends, we sit together a little longer.",
+              "So eating dinner together helps me feel close to my family."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-3-19",
@@ -6250,7 +7204,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 큰 변화는 지금은 내 방이 있음",
+              "지금 집이 더 편안함",
+              "어렸을 때는 우리 집이 더 작았음",
+              "방을 함께 써야 했음",
+              "가끔 혼자 공부하거나 쉬기가 어려웠음",
+              "지금은 나만의 조용한 방이 있음",
+              "그곳에서 혼자 공부하고 쉴 수 있음",
+              "예전 집도 좋았지만 지금 집이 더 좋음"
+            ],
+            "englishSkeleton": [
+              "The biggest change is that I have my own room now.",
+              "My home is more comfortable now.",
+              "When I was young, our home was smaller.",
+              "I had to share a room.",
+              "Sometimes it was hard to study or rest alone.",
+              "Now I have a quiet room of my own.",
+              "I can study and rest there by myself.",
+              "I liked my old home, but my home is better now."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-4-20",
@@ -6446,7 +7422,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했음",
+              "그 사진들을 보며 행복했던 많은 순간을 떠올려서 그날이 특별했음",
+              "그날 아침 집이 지저분해서 함께 청소하기로 했음",
+              "내 방을 청소하다가 상자 하나를 발견했음",
+              "상자 안에는 오래된 가족사진이 가득했음",
+              "우리는 청소를 멈추고 함께 사진들을 봄",
+              "우리는 추억을 이야기하며 많이 웃음",
+              "나는 아직도 그날을 기억함"
+            ],
+            "englishSkeleton": [
+              "One weekend, my family found old photos while cleaning the house.",
+              "The photos made the day special because we remembered many happy times.",
+              "That morning, our house was messy, so we decided to clean it together.",
+              "I found a box while cleaning my room.",
+              "It was full of old family photos.",
+              "We stopped cleaning and looked at them together.",
+              "We talked about our memories and laughed a lot.",
+              "That’s why I still remember that day."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-5-21",
@@ -6672,7 +7670,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 집에 대해 더 알고 싶음",
+              "집에 마당이 있나요?",
+              "아, 작은 마당이 있군요. 좋겠네요",
+              "집에는 방이 몇 개 있나요?",
+              "아, 방이 다섯 개군요. 많네요",
+              "가족은 보통 어디에서 함께 시간을 보내나요?",
+              "거실에서 함께 시간을 보내는군요. 알겠음",
+              "어느 방을 가장 좋아하나요?",
+              "주방이요? 좋네요",
+              "집에 관해 이야기해 주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to know more about your house.",
+              "Do you have a yard?",
+              "Oh, you have a small yard. That sounds nice.",
+              "How many rooms are there in your house?",
+              "Oh, it has five rooms. That’s a lot.",
+              "Where does your family usually spend time together?",
+              "So you spend time in the living room. I see.",
+              "Which room do you like best?",
+              "Oh, the kitchen. That sounds nice.",
+              "Thank you for telling me about your house."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-6-22",
@@ -6896,7 +7920,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕, 여행 가기 전에 집에 관해 물어보고 싶어",
+              "열쇠를 어디에 둘 거야?",
+              "알겠어, 열쇠는 화분 아래에 둘 거구나",
+              "식물에는 얼마나 자주 물을 줘야 해?",
+              "알겠어, 이틀에 한 번씩 물을 줄게",
+              "택배가 왔는지도 확인해야 해?",
+              "알겠어, 택배가 오면 집 안에 들여놓을게",
+              "문제가 생기면 어떻게 연락하면 돼?",
+              "좋아, 문자로 연락할게",
+              "여행 잘 다녀와. 내가 모두 잘 처리할게"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to ask about your house before your trip.",
+              "Where will you leave the key?",
+              "Okay, the key will be under the flowerpot.",
+              "How often should I water the plants?",
+              "Okay, I’ll water them every two days.",
+              "Do I need to check for packages?",
+              "Okay, I’ll bring them inside.",
+              "How can I contact you if there’s a problem?",
+              "Great, I’ll text you.",
+              "Have a good trip. I’ll take care of everything."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-7-23",
@@ -7081,7 +8131,27 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕, 네 집에 왔는데 열쇠를 찾을 수가 없어",
+              "화분 아래를 확인했는데 열쇠가 없어",
+              "안으로 들어갈 수가 없어",
+              "다른 열쇠가 있다면 어디에 있는지 알려 줘",
+              "아니면 이웃에게 도움을 요청할게",
+              "일단 밖에서 기다릴게",
+              "이 메시지를 확인하면 나에게 전화해 줘"
+            ],
+            "englishSkeleton": [
+              "Hi, I’m at your house, but I can’t find the key.",
+              "I checked under the flowerpot, but it isn’t there.",
+              "So I can’t get inside.",
+              "If there’s another key, please tell me where it is.",
+              "Or I can ask a neighbor for help.",
+              "I’ll wait outside for now.",
+              "Please call me when you get this message."
+            ]
+          }
         },
         {
           "id": "script-1-family-house3-set-3-type-8-24",
@@ -7295,7 +8365,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 몸이 아파서 이모를 도와드리지 못했음",
+              "이모를 도와드리겠다고 말했기 때문에 정말 미안했음",
+              "그전에 이모는 여행 중에 집을 확인해 달라고 부탁했음",
+              "식물에 물을 주고 택배가 왔는지 확인해야 했음",
+              "하지만 그날 아침 몸이 너무 아파서 갈 수 없었음",
+              "이모에게 전화해서 상황을 설명했음",
+              "그 후 엄마에게 도움을 부탁했음",
+              "엄마가 대신 집을 확인해 주심",
+              "엄마 덕분에 모든 일이 잘 해결됨"
+            ],
+            "englishSkeleton": [
+              "I once couldn’t help my aunt because I got sick.",
+              "I felt very sorry because I said I would help her.",
+              "Before that, my aunt asked me to check her house during her trip.",
+              "I had to water the plants and check for packages.",
+              "But that morning, I felt very sick and couldn’t go.",
+              "I called my aunt and explained the problem.",
+              "Then I asked my mom for help.",
+              "My mom checked the house for me.",
+              "Thanks to my mom, everything was okay."
+            ]
+          }
         }
       ]
     },
@@ -7477,7 +8571,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 좋아하는 공원에는 길고 조용한 산책로가 있음",
+              "그곳을 걸으면 마음이 편안해져서 정말 좋아함",
+              "그 공원은 제 집 근처에 있음",
+              "산책로 양쪽에는 키 큰 나무들이 있음",
+              "벤치도 몇 개 있음",
+              "스트레스를 받을 때 그곳을 걷는 것을 좋아함",
+              "길고 조용한 산책로가 그 공원에서 제가 가장 좋아하는 부분"
+            ],
+            "englishSkeleton": [
+              "My favorite park has a long, quiet walking path.",
+              "I love it because walking there helps me relax.",
+              "It’s near my home.",
+              "There are tall trees on both sides of the path.",
+              "There are also a few benches.",
+              "I like to walk there when I feel stressed.",
+              "So the long, quiet path is my favorite part of the park."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-2-2",
@@ -7663,7 +8777,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "공원에 가면 보통 천천히 산책함",
+              "공부한 뒤에 마음을 편하게 해 주기 때문에 산책을 좋아함",
+              "방과 후에 그곳에 자주 감",
+              "갈 때마다 같은 산책로를 따라 걸음",
+              "30분 동안 걸음",
+              "걸으면서 음악을 자주 들음",
+              "나무를 바라보고 신선한 공기를 마심",
+              "저는 이 가벼운 산책을 좋아함"
+            ],
+            "englishSkeleton": [
+              "I usually take a slow walk when I go to the park.",
+              "I like it because it helps me relax after studying.",
+              "I often go there after school.",
+              "I follow the same path every time.",
+              "I walk for thirty minutes.",
+              "I often listen to music while I walk.",
+              "I look at the trees and the sky, and I get some fresh air.",
+              "That’s why I enjoy this simple walk."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-3-3",
@@ -7852,7 +8988,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난 일요일에 공원에서 친구를 만났음",
+              "오랜만에 다시 만나서 기뻤음",
+              "그날은 날씨가 맑았음",
+              "우리는 음료를 사고 벤치에 앉았음",
+              "우리는 잠시 그냥 이야기를 나눴음",
+              "그러고 나서 공원을 걸으며 사진을 몇 장 찍었음",
+              "약 두 시간 뒤에 집으로 돌아갔음",
+              "함께 즐거운 시간을 보냈음"
+            ],
+            "englishSkeleton": [
+              "Last Sunday, I met my friend at the park.",
+              "I was happy because we met again after a long time.",
+              "The weather was sunny that day.",
+              "We bought some drinks and sat on a bench.",
+              "We just talked for a while.",
+              "Then we walked around the park and took a few pictures.",
+              "After about two hours, we went home.",
+              "We had a good time together."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-4-4",
@@ -8047,7 +9205,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 공원에서 바람이 돗자리를 움직였음",
+              "그날 친구와 저는 잔디밭에 앉아 있었음",
+              "갑자기 강한 바람이 불기 시작함",
+              "돗자리가 잔디밭 위로 움직였음",
+              "우리는 돗자리를 쫓아 달렸음",
+              "나무 옆에서 돗자리를 잡았음",
+              "우리는 서로를 바라보다가 웃기 시작함",
+              "놀랐지만 재미있는 경험이었음"
+            ],
+            "englishSkeleton": [
+              "One time, the wind moved our picnic mat at the park.",
+              "That day, my friend and I were sitting on the grass.",
+              "Suddenly, a strong wind started to blow.",
+              "Our mat moved across the grass.",
+              "We ran after it.",
+              "I caught it next to a tree.",
+              "We looked at each other and started laughing.",
+              "I was surprised, but it was a funny experience."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-5-5",
@@ -8245,7 +9425,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕, 네가 가는 공원에 관해 물어보고 싶어",
+              "너는 보통 어느 공원에 가?",
+              "아, 보통 네 집 근처 공원에 가는구나",
+              "좋을 것 같아",
+              "그 공원을 왜 좋아해?",
+              "그렇구나. 조용한 산책로를 좋아하는구나",
+              "그곳에서 보통 무엇을 해?",
+              "그곳에서 산책하면 편안할 것 같아",
+              "이야기해 줘서 고마워"
+            ],
+            "englishSkeleton": [
+              "Hey, I want to ask you about the park you go to.",
+              "Which park do you usually go to?",
+              "Oh, you usually go to the park near your home.",
+              "That sounds nice.",
+              "Why do you like that park?",
+              "I see. You like the quiet walking path.",
+              "What do you usually do there?",
+              "Walking there sounds relaxing.",
+              "Thanks for telling me."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-6-6",
@@ -8467,7 +9671,33 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "좋아, 다음 주말에 공원에 가자",
+              "우리 어느 공원에 갈 거야?",
+              "아, 네 집 근처 공원이 좋겠다",
+              "우리 몇 시에 만날까?",
+              "1시가 좋아",
+              "우리 물이나 간식이 필요할까?",
+              "좋아, 내가 물을 좀 가져갈게",
+              "우리는 그곳에 얼마나 오래 있을 거야?",
+              "두 시간이면 좋아",
+              "좋아, 다음 주말에 보자"
+            ],
+            "englishSkeleton": [
+              "Okay, let’s go to the park next weekend.",
+              "Where are we going?",
+              "Oh, the park near your home sounds good.",
+              "What time can you meet?",
+              "One o’clock is good for me.",
+              "Do we need water or snacks?",
+              "Okay, I’ll bring some water.",
+              "How long will we stay there?",
+              "Two hours is good.",
+              "Great, see you next weekend."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-7-7",
@@ -8663,7 +9893,29 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "이번 주말에는 공원이 문을 닫는대",
+              "방금 공원 웹사이트에서 안내문을 봤어",
+              "네 집 근처의 다른 공원에 갈 수 있을까?",
+              "아, 그곳에는 가고 싶지 않구나? 알겠어",
+              "그럼 다음 주말에 그 공원에 갈 수 있을까?",
+              "다음 주말은 괜찮다고? 좋아",
+              "토요일에 가자",
+              "이해해 줘서 고마워"
+            ],
+            "englishSkeleton": [
+              "The park will be closed this weekend.",
+              "I just saw a notice on the park website.",
+              "Can we go to a different park near your home?",
+              "Oh, you don't want to go there? I understand.",
+              "Then, can we go to the park next weekend?",
+              "Oh, next weekend is good for you? Great.",
+              "Let's go on Saturday.",
+              "Thanks for understanding."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-1-type-8-8",
@@ -8858,7 +10110,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 공원을 걷다가 무료 공연을 발견함",
+              "기분 좋은 뜻밖의 일이었음",
+              "그 토요일 오후에 혼자 공원을 걷고 있었음",
+              "그러다 근처에서 음악이 들렸음",
+              "그곳에서 작은 밴드가 연주하고 있었음",
+              "앉아서 노래 몇 곡을 들었음",
+              "사람들은 웃으며 박수를 쳤음",
+              "아직도 그날을 기억함"
+            ],
+            "englishSkeleton": [
+              "I once found a free concert while walking in a park.",
+              "It was a nice surprise.",
+              "That Saturday afternoon, I was walking alone in the park.",
+              "Then I heard music nearby.",
+              "A small band was playing there.",
+              "I sat down and listened to a few songs.",
+              "People smiled and clapped.",
+              "That’s why I still remember that day."
+            ]
+          }
         },
         {
           "id": "script-2-park-set-2-type-7-9",
@@ -9067,7 +10341,31 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "미안하지만 한 시간 뒤에는 너를 데리러 갈 수 없어",
+              "그때 집에서 엄마를 도와야 해",
+              "두 시간 뒤에는 너를 데리러 갈 수 있어",
+              "그때까지 기다릴 수 있을까?",
+              "아, 그렇게 오래 기다릴 수 없구나? 알겠어",
+              "그럼 택시를 탈 수 있을까?",
+              "아, 택시를 탈 수 있구나? 다행이다",
+              "도착하면 문자해 줘",
+              "다시 한번, 데리러 가지 못해서 미안해"
+            ],
+            "englishSkeleton": [
+              "I’m sorry, but I can’t pick you up in an hour.",
+              "I have to help my mom at home then.",
+              "I can pick you up in two hours.",
+              "Can you wait until then?",
+              "Oh, you can't wait that long? I understand.",
+              "Then, could you take a taxi?",
+              "Oh, you can take a taxi? Great.",
+              "Text me when you get there.",
+              "Again, I’m sorry I can’t pick you up."
+            ]
+          }
         }
       ]
     },
@@ -9262,7 +10560,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 좋아하는 해변은 넓고 조용함",
+              "탁 트인 바다 풍경을 보면 기분이 상쾌해져서 정말 좋아함",
+              "그 해변은 제주도에 있음",
+              "모래는 깨끗하고 부드럽음",
+              "바닷물은 맑고 푸름",
+              "아침에는 보통 해변이 조용함",
+              "모래사장에 앉아 바다를 바라보는 것을 좋아함",
+              "이 해변을 가장 좋아함"
+            ],
+            "englishSkeleton": [
+              "My favorite beach is wide and quiet.",
+              "I love it because the open ocean view makes me feel refreshed.",
+              "It’s on Jeju Island.",
+              "The sand is clean and soft.",
+              "The water is clear and blue.",
+              "The beach is usually quiet in the morning.",
+              "I like to sit on the sand and look at the ocean.",
+              "That’s why this beach is my favorite."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-2-2",
@@ -9447,7 +10767,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "해변에 가면 보통 석양을 봄",
+              "석양을 보면 기분이 상쾌해져서 정말 좋아함",
+              "보통 해가 지기 전에 그곳에 감",
+              "모래사장에서 조용한 자리를 찾음",
+              "그러고 나서 앉아서 바다를 바라봄",
+              "하늘은 천천히 주황색과 분홍색으로 변함",
+              "석양 사진을 몇 장 찍음",
+              "저는 해변에 가면 항상 석양을 봄"
+            ],
+            "englishSkeleton": [
+              "I usually watch the sunset when I go to the beach.",
+              "I love watching it because it makes me feel refreshed.",
+              "I usually go there before sunset.",
+              "I find a quiet place on the sand.",
+              "Then I sit down and look at the ocean.",
+              "The sky slowly turns orange and pink.",
+              "I take some pictures of the sunset.",
+              "That’s why I always watch the sunset at the beach."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-3-3",
@@ -9636,7 +10978,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난달에 친구와 해변에 갔음",
+              "오랜만에 다시 만나서 기뻤음",
+              "그날은 날씨가 따뜻하고 화창함",
+              "물가 근처를 걸으며 그냥 이야기를 나눴음",
+              "그러고 나서 모래사장에 앉아 음료를 마셨음",
+              "우리는 노을을 보고 사진을 몇 장 찍었음",
+              "약 두 시간 뒤에 집으로 돌아갔음",
+              "함께 즐거운 시간을 보냈음"
+            ],
+            "englishSkeleton": [
+              "Last month, I went to the beach with my friend.",
+              "I was happy because we met again after a long time.",
+              "That day, the weather was warm and sunny.",
+              "We walked near the water and just talked.",
+              "Then we sat on the sand and had some drinks.",
+              "We watched the sunset and took some pictures.",
+              "After about two hours, we went home.",
+              "We had a good time together."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-4-4",
@@ -9854,7 +11218,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 해변에서 새 한 마리가 제 빵을 가져갔음",
+              "놀랐지만 웃기기도 함",
+              "그 일은 친구와 제가 모래사장에서 샌드위치를 먹던 중에 일어났음",
+              "제 손에는 작은 빵 조각이 있었음",
+              "갑자기 그 새가 내려와 빵을 가져갔음",
+              "친구는 그 모습을 보고 웃기 시작함",
+              "저도 함께 웃었음",
+              "우리는 음식을 얼른 다시 가방에 넣었음",
+              "우리는 아직도 그 일을 떠올리며 웃음"
+            ],
+            "englishSkeleton": [
+              "One time, a bird took my bread at the beach.",
+              "I was surprised, but it was funny.",
+              "It happened while my friend and I were eating sandwiches on the sand.",
+              "I had a small piece of bread in my hand.",
+              "Suddenly, the bird came down and took it.",
+              "My friend saw it and started laughing.",
+              "I laughed too.",
+              "So we quickly put the food back in the bag.",
+              "We still laugh about it."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-5-5",
@@ -10062,7 +11450,31 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕, 네가 가는 해변에 관해 물어보고 싶어",
+              "너는 보통 어느 해변에 가?",
+              "아, 제주도에 있는 해변에 가는구나",
+              "좋을 것 같아",
+              "그곳에서 수영할 수 있어?",
+              "좋아. 나도 그곳에서 수영하고 싶어",
+              "언제 가는 게 좋을까?",
+              "아, 저녁이 좋다고? 괜찮을 것 같아",
+              "이야기해 줘서 고마워"
+            ],
+            "englishSkeleton": [
+              "Hey, I want to ask you about the beach you go to.",
+              "Which beach do you usually go to?",
+              "Oh, you go to a beach on Jeju Island.",
+              "That sounds nice.",
+              "Can we swim there?",
+              "Great. I want to swim there.",
+              "When should I go?",
+              "Oh, the evening? That sounds good.",
+              "Thanks for telling me."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-6-6",
@@ -10284,7 +11696,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "좋아, 이번 주말에 해변에 가자",
+              "우리 어디로 가는 거야?",
+              "아, 제주도구나. 정말 좋겠다",
+              "몇 시에 만날 수 있어?",
+              "10시가 좋아",
+              "우리 수건이 필요해?",
+              "좋아, 내가 하나 가져갈게",
+              "우리 수영할 거야?",
+              "좋아, 여벌 옷을 가져갈게",
+              "이번 주말에 보자"
+            ],
+            "englishSkeleton": [
+              "Okay, let’s go to the beach this weekend.",
+              "Where are we going?",
+              "Oh, Jeju Island. That sounds great.",
+              "What time can you meet?",
+              "Ten o’clock is good for me.",
+              "Do we need a towel?",
+              "Great, I’ll bring one.",
+              "Are we swimming?",
+              "Okay, I’ll bring extra clothes.",
+              "See you this weekend."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-7-7",
@@ -10480,7 +11918,29 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "이번 주말에 비가 올 거야",
+              "해변 계획을 바꿔야 해",
+              "다음 주말에 해변에 갈 수 있을까?",
+              "아, 다음 주말에는 못 가는구나? 알겠어",
+              "그럼 이번 주말에 실내 수영장에 갈 수 있을까?",
+              "아, 실내 수영장에 갈 수 있다고? 좋아",
+              "토요일에 그곳에서 만나자",
+              "이해해 줘서 고마워"
+            ],
+            "englishSkeleton": [
+              "It will rain this weekend.",
+              "We need to change our beach plan.",
+              "Can we go to the beach next weekend?",
+              "Oh, you can’t go next weekend? Okay.",
+              "Then, can we go to an indoor pool this weekend?",
+              "Oh, you can go to the indoor pool? Great.",
+              "Let's meet there on Saturday.",
+              "Thanks for understanding."
+            ]
+          }
         },
         {
           "id": "script-3-beach-set-1-type-8-8",
@@ -10675,7 +12135,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 큰 파도가 저를 덮쳐서 물에 빠졌음",
+              "정말 무서웠음",
+              "지난여름에 일어난 일이었음",
+              "바다가 잔잔해 보여서 물가 근처를 걸었음",
+              "갑자기 큰 파도가 제 다리를 덮쳤음",
+              "물에 빠졌고 친구가 물에서 나오도록 도와주었음",
+              "옷은 젖었지만 저는 괜찮았음",
+              "그 후에는 정말 안도함"
+            ],
+            "englishSkeleton": [
+              "One time, a big wave hit me, and I fell into the water.",
+              "It was very scary.",
+              "It happened last summer.",
+              "The sea looked calm, so I walked near the water.",
+              "Suddenly, a big wave hit my legs.",
+              "I fell into the water, and my friend helped me get out.",
+              "My clothes were wet, but I was okay.",
+              "I felt very relieved after that."
+            ]
+          }
         }
       ]
     },
@@ -10775,7 +12257,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나에게 음악은 하루의 분위기를 바꾸는 가장 쉬운 방법이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "락과 밴드 음악 듣는 것을 가장 즐긴다",
+              "특히 기타 소리가 또렷하게 들리는 노래를 좋아함",
+              "그 소리는 강하고 시원하게 느껴져서 스트레스를 푸는 데 도움 됨",
+              "많은 음악가를 아는 것은 아니지만, 너바나 같은 밴드를 자주 듣는다",
+              "솔직한 감정과 단순한 가사가 있는 노래를 좋아함",
+              "학교가 끝난 뒤 이런 음악을 들으면 기분이 훨씬 가벼워진다",
+              "가끔은 케이팝도 듣지만, 락과 밴드 음악이 나의 주된 선택이다",
+              "나에게 음악은 하루의 분위기를 바꾸는 가장 쉬운 방법이다"
+            ],
+            "englishSkeleton": [
+              "I enjoy listening to rock and band music the most.",
+              "I especially like songs where I can hear the guitar sound clearly.",
+              "The sound feels powerful and fresh, so it helps me relieve stress.",
+              "I do not know a lot of musicians, but I often listen to bands like Nirvana.",
+              "I like songs with honest feelings and simple lyrics.",
+              "When I listen to this kind of music after school, my mood gets much lighter.",
+              "Sometimes I listen to K-pop too, but rock and band music are my main choices.",
+              "So for me, music is the easiest way to change the mood of my day."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-2-2",
@@ -10865,7 +12369,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 음악을 일상적인 습관이자 특별한 경험으로 즐긴다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "보통 이동할 때 에어팟으로 음악을 듣는다",
+              "버스나 지하철을 탈 때 나는 자주 내 플레이리스트를 튼다",
+              "특히 학교에 가거나 집에 돌아올 때 시간이 훨씬 짧게 느껴지게 해 준다",
+              "공부할 때는 잔잔한 음악을 듣는다",
+              "하지만 기분 전환이 필요할 때는 락이나 밴드 음악을 듣는다",
+              "라디오는 거의 듣지 않고 주로 유튜브 뮤직을 사용함",
+              "가끔 내가 좋아하는 가수나 밴드가 한국에 오면 콘서트에 간다",
+              "나는 음악을 일상적인 습관이자 특별한 경험으로 즐긴다"
+            ],
+            "englishSkeleton": [
+              "I usually listen to music with my AirPods when I am moving around.",
+              "When I take the bus or subway, I often play my playlist.",
+              "It makes the time feel much shorter, especially when I go to school or come back home.",
+              "When I study, I listen to calm music.",
+              "But when I need to refresh my mood, I listen to rock or band music.",
+              "I do not really listen to the radio, and I mostly use YouTube Music.",
+              "Sometimes, if a singer or band I like comes to Korea, I go to a concert.",
+              "So I enjoy music as a daily habit and also as a special experience."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-3-3",
@@ -10960,7 +12486,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 내 음악 취향은 대중적인 케이팝에서 더 개성 있는 밴드 음악으로 바뀌었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "중학교 때 처음 음악에 관심을 갖게 됨",
+              "그때는 케이팝을 많이 들었다",
+              "따라 부르기 쉬워서 쉬운 멜로디가 있는 노래를 좋아했음",
+              "하지만 고등학교 때 친구 한 명이 나에게 밴드 음악을 소개해 주었다",
+              "그 친구가 나에게 너바나 노래를 들려줬는데, 솔직히 처음에는 조금 낯설게 느껴졌다",
+              "하지만 기타와 드럼 소리가 정말 멋지게 느껴져서 금방 관심이 생김",
+              "그 후로 나는 락과 밴드 음악을 더 자주 듣기 시작했음",
+              "예전에는 듣기 쉬운 노래를 골랐지만, 이제는 악기와 분위기도 중요하게 생각함",
+              "내 음악 취향은 대중적인 케이팝에서 더 개성 있는 밴드 음악으로 바뀌었다"
+            ],
+            "englishSkeleton": [
+              "I first became interested in music when I was in middle school.",
+              "Back then, I listened to a lot of K-pop.",
+              "I liked songs with easy melodies because they were easy to sing along to.",
+              "But in high school, one of my friends introduced me to band music.",
+              "He played a Nirvana song for me, and honestly, it felt a little unfamiliar at first.",
+              "But the guitar and drum sounds felt so cool, so I became interested quickly.",
+              "After that, I started listening to rock and band music more often.",
+              "Before, I chose songs that were easy to listen to, but now I also care about the instruments and the mood.",
+              "So my music taste changed from popular K-pop to more unique band music."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-4-4",
@@ -11055,7 +12605,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그날 이후 나는 라이브 음악이 단순히 듣는 것이 아니라 느끼는 것이라는 걸 깨달았다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "가장 기억에 남는 라이브 음악 경험은 친구와 콘서트에 갔을 때였음",
+              "주말 저녁이었고, 친구가 나에게 같이 밴드 콘서트에 가자고 했음",
+              "공연장은 아주 크지는 않았지만 무대가 관객과 가까웠다",
+              "분위기가 정말 생생하게 느껴졌다",
+              "처음에는 그 밴드를 잘 몰라서 큰 기대를 하지 않았다",
+              "하지만 공연이 시작되자 기타와 드럼 소리가 매우 강렬했음",
+              "사람들은 박수를 치고 함께 노래했고, 나는 그 에너지가 정말 좋았다",
+              "이어폰으로 듣는 것과 완전히 다르게 느껴져서 놀랐다",
+              "그날 이후 나는 라이브 음악이 단순히 듣는 것이 아니라 느끼는 것이라는 걸 깨달았다"
+            ],
+            "englishSkeleton": [
+              "The most memorable live music experience I had was when I went to a concert with my friend.",
+              "It was a weekend evening, and my friend asked me to go to a band concert with him.",
+              "The concert hall was not very big, but the stage was close to the audience.",
+              "So the atmosphere felt really alive.",
+              "At first, I did not expect much because I did not know the band well.",
+              "But when the performance started, the guitar and drum sounds were very powerful.",
+              "People were clapping and singing together, and I really liked that energy.",
+              "I was surprised because it felt completely different from listening with earphones.",
+              "After that day, I realized that live music is not just something you hear. It is something you feel."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-5-5",
@@ -11151,7 +12725,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "기회가 된다면 언젠가 당신의 연주를 꼭 들어보고 싶어요."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 오케스트라에서 바이올린을 연주한다고 들었어요",
+              "정말 흥미롭게 들려서 몇 가지 질문이 있어요",
+              "첫째, 바이올린은 처음 언제 시작했나요?",
+              "바이올린을 선택한 특별한 이유가 있었나요?",
+              "또 하루나 일주일에 얼마나 자주 연습하나요?",
+              "혼자 연습하는 것과 오케스트라와 함께 연주하는 것의 가장 큰 차이는 무엇인가요?",
+              "그리고 지금까지 가장 기억에 남는 공연은 무엇이었나요?",
+              "바이올린 연주에서 가장 어렵지만 재미있는 부분도 궁금해요",
+              "기회가 된다면 언젠가 당신의 연주를 꼭 들어보고 싶어요"
+            ],
+            "englishSkeleton": [
+              "Hello, I heard that you play the violin in an orchestra.",
+              "That sounds really interesting, so I have a few questions.",
+              "First, when did you first start playing the violin?",
+              "Was there a special reason you chose the violin?",
+              "Also, how often do you practice in a day or in a week?",
+              "What is the biggest difference between practicing alone and playing with an orchestra?",
+              "And what was the most memorable performance you have ever had?",
+              "I am also curious about the most difficult but fun part of playing the violin.",
+              "If I have a chance, I would love to listen to your performance someday."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-6-6",
@@ -11241,7 +12839,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "시간 있을 때 모델 몇 개 추천해 줘. 정말 고마울 것 같아."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "야, 내가 MP3 플레이어를 사려고 생각 중인데, 네가 이런 기기를 잘 안다고 들었어",
+              "통학하거나 산책할 때 그것을 사용하고 싶어",
+              "첫째, 초보자에게 좋은 MP3 플레이어 모델이 있을까?",
+              "너무 비싼 것은 원하지 않는데, 어느 정도 가격대가 괜찮을까?",
+              "또 많은 노래를 넣고 싶다면 저장 용량은 얼마나 필요할까?",
+              "배터리 수명도 중요한데, 사기 전에 무엇을 확인해야 할까?",
+              "온라인으로 사는 게 나을까, 아니면 먼저 매장에서 보는 게 나을까?",
+              "시간 있을 때 모델 몇 개 추천해 줘. 정말 고마울 것 같아"
+            ],
+            "englishSkeleton": [
+              "Hey, I am thinking about buying an MP3 player, and I heard you know a lot about these devices.",
+              "I want to use it when I commute or take a walk.",
+              "First, is there a good MP3 player model for beginners?",
+              "I do not want something too expensive, so what price range would be okay?",
+              "Also, how much storage do I need if I want to put many songs in it?",
+              "Battery life is important too, so what should I check before buying one?",
+              "Do you think it is better to buy it online or to see it at a store first?",
+              "When you have time, please recommend a few models to me. I would really appreciate it."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-7-7",
@@ -11337,7 +12957,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "어떤 선택지가 가장 좋은지 말해 줘. 최대한 빨리 해결할게."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "야, 정말 미안한데 내가 실수로 네 MP3 플레이어를 망가뜨렸어",
+              "가방에서 꺼내다가 손에서 미끄러져 바닥에 떨어졌어",
+              "지금 화면 한쪽이 깨졌고, 전원이 잘 켜지지 않아",
+              "네게 빌린 거라서 정말 미안하게 생각해",
+              "오늘 수리점에 가져가서 고칠 수 있는지 확인해 볼게",
+              "물론 수리비는 내가 낼게",
+              "수리가 너무 오래 걸리거나 불가능하면 같은 모델이나 비슷한 새 제품을 사 줄게",
+              "네가 당장 필요하다면 우선 다른 MP3 플레이어를 빌리거나 사 줄 수도 있어",
+              "어떤 선택지가 가장 좋은지 말해 줘. 최대한 빨리 해결할게"
+            ],
+            "englishSkeleton": [
+              "Hey, I am really sorry, but I accidentally broke your MP3 player.",
+              "I was taking it out of my bag, and it slipped from my hand and fell on the floor.",
+              "Now one side of the screen is cracked, and it does not turn on easily.",
+              "I feel really bad because I borrowed it from you.",
+              "I will take it to a repair shop today and check if it can be fixed.",
+              "Of course, I will pay for the repair.",
+              "If the repair takes too long or is impossible, I will buy you the same model or a similar new one.",
+              "If you need one right away, I can also rent or buy another MP3 player for you first.",
+              "Please tell me what option is best. I will fix this as quickly as possible."
+            ]
+          }
         },
         {
           "id": "script-4-music-set-1-type-8-8",
@@ -11437,7 +13081,33 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 이후로 나는 이어폰을 작은 케이스에 넣어 보관한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "기억하는 장비 문제 하나는 이어폰 한쪽이 갑자기 작동하지 않았을 때이다",
+              "통학할 때 음악을 들어서 거의 매일 이어폰을 사용함",
+              "어느 날 버스에 있었는데 오른쪽 이어폰 소리가 계속 끊김",
+              "처음에는 음악 앱 문제라고 생각해서 앱을 다시 시작했음",
+              "하지만 같은 일이 다시 일어났다",
+              "집에 와서 이어폰을 다른 기기에 연결했지만 오른쪽은 여전히 제대로 작동하지 않았다",
+              "다음 날 그것을 산 매장에 가져갔다",
+              "다행히 아직 보증 기간 안이라서 교환을 받았다",
+              "처음에는 짜증났지만 문제가 빨리 해결되어 안심했음",
+              "그 이후로 나는 이어폰을 작은 케이스에 넣어 보관함"
+            ],
+            "englishSkeleton": [
+              "One equipment problem I remember is when one side of my earphones suddenly stopped working.",
+              "I use earphones almost every day because I listen to music when I commute.",
+              "One day, I was on the bus, and the sound from the right earphone kept cutting out.",
+              "At first, I thought it was a problem with the music app, so I restarted it.",
+              "But the same thing happened again.",
+              "When I got home, I connected the earphones to another device, but the right side still did not work properly.",
+              "So the next day, I took them to the store where I bought them.",
+              "Luckily, they were still under warranty, so I got a replacement.",
+              "It was annoying at first, but I was relieved because the problem was solved quickly.",
+              "Since then, I keep my earphones in a small case."
+            ]
+          }
         }
       ]
     },
@@ -11629,7 +13299,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 좋아하는 음악은 록 음악",
+              "가장 좋아하는 밴드는 요루시카",
+              "노래에는 강렬한 기타와 드럼 소리가 있음",
+              "보컬의 맑은 목소리도 좋아함",
+              "피곤할 때 요루시카의 노래를 재생함",
+              "그 음악을 들으면 정신이 들고 힘이 남",
+              "록 음악을 자주 들음"
+            ],
+            "englishSkeleton": [
+              "My favorite kind of music is rock music.",
+              "My favorite band is Yorushika.",
+              "Their songs have strong guitar and drum sounds.",
+              "I also like the singer’s clear voice.",
+              "When I feel tired, I play one of their songs.",
+              "The music wakes me up and gives me energy.",
+              "That’s why I listen to rock music so often."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-2-2",
@@ -11801,7 +13491,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "보통 버스에서 음악을 들음",
+              "음악을 들으면 버스 타는 시간이 덜 지루함",
+              "거의 매일 버스를 타고 학교에 감",
+              "자리에 앉아 에어팟을 착용함",
+              "그리고 좋아하는 록 노래를 재생함",
+              "같은 노래를 다시 틀 때도 많음",
+              "음악을 들으면 버스에서 보내는 시간이 더 짧게 느껴짐"
+            ],
+            "englishSkeleton": [
+              "I usually listen to music on the bus.",
+              "Music makes the bus ride less boring.",
+              "I take the bus to school almost every day.",
+              "I sit down and put on my AirPods.",
+              "Then I play a rock song that I like.",
+              "I often play the same song again.",
+              "The bus ride feels shorter with music."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-3-3",
@@ -11983,7 +13693,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "중학생 때 록 음악을 좋아하게 됨",
+              "그전에는 라디오에서 나오는 인기 있는 노래만 들었음",
+              "어느 날 친구가 요루시카 노래를 하나 들려주었음",
+              "기타 소리가 강렬하고 신났음",
+              "그 노래가 좋아서 그 밴드의 다른 노래도 찾아봤음",
+              "얼마 지나지 않아 매일 록 음악을 듣기 시작함",
+              "지금도 록 음악을 들으면 힘이 남"
+            ],
+            "englishSkeleton": [
+              "I started to like rock music in middle school.",
+              "Before that, I only listened to popular songs",
+              "One day, a friend played a Yorushika song for me.",
+              "The guitar sound was strong and exciting.",
+              "I liked the song, so I found more songs by the band.",
+              "Soon, I started listening to rock music every day.",
+              "Rock music still gives me energy."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-4-4",
@@ -12178,7 +13908,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 친구와 함께 콘서트에 갔음",
+              "라이브 음악 소리가 정말 커서 놀랐음",
+              "그날은 친구가 그 밴드를 정말 좋아해서 함께 갔음",
+              "그 밴드를 잘 알지 못함",
+              "음악이 시작되자 드럼과 기타 소리가 정말 멋졌음",
+              "모두가 일어나서 노래를 따라 불렀음",
+              "저도 음악에 맞춰 박수를 치며 즐거운 시간을 보냈음",
+              "콘서트가 끝난 후 그 밴드를 좋아하게 됨"
+            ],
+            "englishSkeleton": [
+              "One time, I went to a concert with my friend.",
+              "I was surprised because the live music was so loud.",
+              "That day, we went there because my friend really liked the band.",
+              "I didn’t know the band very well.",
+              "When the music started, the drums and guitar sounded amazing.",
+              "Everyone stood up and sang along.",
+              "I clapped along and had a great time.",
+              "After the concert, I started to like the band."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-5-5",
@@ -12402,7 +14154,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 오케스트라에서 바이올린을 연주한다고 들었음",
+              "언제 바이올린 연주를 시작했나요?",
+              "아, 중학생 때 시작하셨군요. 흥미롭네요",
+              "오케스트라와 얼마나 자주 연습하나요?",
+              "일주일에 세 번 연습하시는군요. 정말 자주 하시네요",
+              "보통 어떤 종류의 음악을 연주하나요?",
+              "아, 클래식 음악을 연주하시는군요. 저도 클래식 음악을 좋아함",
+              "무대에서 연주할 때 어떤 기분이 드나요?",
+              "그렇군요. 긴장되지만 신이 나시는군요",
+              "알려 주셔서 감사합니다. 언젠가 연주를 듣고 싶음"
+            ],
+            "englishSkeleton": [
+              "Hi, I heard that you play the violin in an orchestra.",
+              "When did you start playing the violin?",
+              "Oh, you started in middle school. That’s interesting.",
+              "How often do you practice with the orchestra?",
+              "You practice three times a week. That’s a lot.",
+              "What kind of music do you usually play?",
+              "Oh, you play classical music. I like it too.",
+              "How do you feel when you play on stage?",
+              "I see. You feel nervous but excited.",
+              "Thanks for telling me. I want to hear you play someday."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-6-6",
@@ -12627,7 +14405,33 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "MP3 플레이어를 사고 싶어",
+              "네 도움이 필요해",
+              "어떤 모델을 추천해?",
+              "아, 그 모델? 괜찮은 것 같아",
+              "얼마야?",
+              "아, 40달러라고? 괜찮아",
+              "하루 종일 사용할 수 있어?",
+              "아, 하루 종일? 좋아",
+              "어디에서 살 수 있어?",
+              "아, 온라인에서 사면 되는구나. 알겠어, 도와줘서 고마워"
+            ],
+            "englishSkeleton": [
+              "Hey, I want to buy an MP3 player.",
+              "I need your help.",
+              "Which model do you recommend?",
+              "Oh, that model? That sounds good.",
+              "How much is it?",
+              "Oh, forty dollars? That’s okay.",
+              "Can I use it all day?",
+              "Oh, all day? Great.",
+              "Where can I buy it?",
+              "Oh, I can buy it online. Okay, thanks for your help."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-7-7",
@@ -12825,7 +14629,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "정말 미안해",
+              "네 MP3 플레이어를 떨어뜨려서 화면이 깨졌어",
+              "가방에서 꺼냈는데 떨어뜨렸어",
+              "이 일 때문에 정말 미안한 마음이야",
+              "수리점에 가져가도 될까?",
+              "아, 고칠 수 없구나. 그렇구나",
+              "그러면 새것을 사 줘도 될까?",
+              "알겠어. 오늘 하나 살게. 정말 미안해"
+            ],
+            "englishSkeleton": [
+              "Hey, I’m really sorry.",
+              "I dropped your MP3 player and broke the screen.",
+              "I took it from my bag, but I dropped it.",
+              "I feel really bad about it.",
+              "Can I take it to a repair shop?",
+              "Oh, it can’t be fixed. I see.",
+              "Then can I buy you a new one?",
+              "Okay, I’ll buy one today. I’m really sorry."
+            ]
+          }
         },
         {
           "id": "script-4-music2-set-1-type-8-8",
@@ -13024,7 +14850,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 버스에서 제 이어폰이 작동하지 않았음",
+              "매일 사용하던 이어폰이라서 속상함",
+              "오른쪽에서는 아무 소리도 들리지 않았음",
+              "처음에는 블루투스가 문제라고 생각함",
+              "블루투스를 껐다 켰지만 오른쪽은 여전히 작동하지 않았음",
+              "다음 날 이어폰을 매장에 가져갔음",
+              "직원이 이어폰을 확인하고 새것으로 바꿔 주었음",
+              "새 이어폰을 빨리 받아서 다행이었음"
+            ],
+            "englishSkeleton": [
+              "One time, my earphones stopped working on the bus.",
+              "I was upset because I used them every day.",
+              "I couldn’t hear any sound from the right side.",
+              "At first, I thought Bluetooth was the problem.",
+              "I turned Bluetooth off and on, but the right side still didn’t work.",
+              "The next day, I took them to the store.",
+              "They checked them and gave me new earphones",
+              "I was glad to get new earphones so quickly."
+            ]
+          }
         }
       ]
     },
@@ -13129,7 +14977,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 일렉기타는 나에게 어렵지만 정말 재미있는 취미이기도 하다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "즐겨 연주하는 악기는 일렉기타이다",
+              "전문 연주자는 아니고, 그냥 취미로 가볍게 연주함",
+              "보통 쉬운 락 음악이나 밴드 곡을 연주하는 것을 좋아함",
+              "이런 노래들 중 많은 곡은 코드가 단순해서 연습하기에 너무 부담스럽지 않다",
+              "일렉기타를 연주할 때 그 소리는 강하고 시원하게 느껴짐",
+              "그것은 내가 스트레스를 조금 푸는 데 도움 됨",
+              "다른 사람들에게 방해가 되지 않기 때문에 특히 방에서 헤드폰을 끼고 혼자 연습하는 것을 좋아함",
+              "보통 이미 듣고 있는 밴드나 가수의 쉬운 노래를 고른다",
+              "일렉기타는 나에게 어렵지만 정말 재미있는 취미이기도 하다"
+            ],
+            "englishSkeleton": [
+              "The instrument I enjoy playing is the electric guitar.",
+              "I am not a professional player, and I just play it lightly as a hobby.",
+              "I usually like playing easy rock songs or band songs.",
+              "Many of these songs have simple chords, so they are not too stressful to practice.",
+              "When I play the electric guitar, the sound feels powerful and fresh.",
+              "It helps me relieve stress a little.",
+              "I especially like practicing alone in my room with headphones because I do not bother other people.",
+              "I usually choose easy songs by bands or singers I already listen to.",
+              "So the electric guitar is difficult for me, but it is also a really fun hobby."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-2-2",
@@ -13224,7 +15096,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "짧은 루틴이지만 나를 차분하게 해 준다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "보통 집에서 혼자 일렉기타를 연습함",
+              "장소는 거의 항상 내 방이고, 보통 저녁 식사 후나 자기 전에 연습함",
+              "매일 연습할 수는 없지만 일주일에 두세 번은 기타를 잡으려고 노력함",
+              "한 번 연습할 때는 약 20분에서 30분 정도밖에 하지 않는다",
+              "먼저 쉬운 코드 몇 개나 짧은 리프를 천천히 연주함",
+              "그다음 내가 좋아하는 노래 한 곡을 연습함",
+              "모르는 부분이 있으면 유튜브 영상을 보고 따라 함",
+              "가끔은 친구에게 짧은 부분을 연주해 주지만, 대부분은 혼자 연습함",
+              "짧은 루틴이지만 나를 차분하게 해 준다"
+            ],
+            "englishSkeleton": [
+              "I usually practice electric guitar alone at home.",
+              "The place is almost always my room, and I usually practice after dinner or before bed.",
+              "I cannot practice every day, but I try to pick up my guitar two or three times a week.",
+              "Each practice session is only about twenty to thirty minutes.",
+              "First, I slowly play a few easy chords or a short riff.",
+              "Then I practice one song that I like.",
+              "When I do not know a part, I watch a YouTube video and follow it.",
+              "Sometimes I play a short part for a friend, but most of the time I practice alone.",
+              "It is a short routine, but it makes me feel calm."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-3-3",
@@ -13324,7 +15220,33 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 기타는 여전히 스트레스를 푸는 데 좋은 취미이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "밴드 애니메이션을 본 뒤 처음 기타에 관심을 갖게 됨",
+              "그 애니메이션에서 주인공이 일렉기타를 연주했는데 정말 멋져 보였음",
+              "그때 나는 “나도 혼자 밴드 음악을 연주하고 싶다.”라고 생각했음",
+              "집 근처 기타 학원에 등록해서 약 1년 동안 레슨을 받았다",
+              "선생님은 나에게 기본 코드, 손가락 위치, 쉬운 밴드 곡을 천천히 가르쳐 주었다",
+              "처음에는 손가락이 아팠고 코드를 바꾸는 것이 정말 어려웠음",
+              "여러 번 포기하고 싶었다",
+              "하지만 내가 좋아하는 노래의 작은 부분이라도 연주할 수 있었을 때 뿌듯함을 느꼈다",
+              "지금은 바빠서 더 이상 학원에 가지 않지만, 여전히 집에서 연습함",
+              "기타는 여전히 스트레스를 푸는 데 좋은 취미이다"
+            ],
+            "englishSkeleton": [
+              "I first became interested in guitar after watching a band animation.",
+              "In the animation, the main character played the electric guitar, and it looked really cool.",
+              "At that time, I thought, \"I want to play band music by myself too.\"",
+              "So I joined a guitar academy near my home and took lessons for about a year.",
+              "My teacher slowly taught me basic chords, finger positions, and easy band songs.",
+              "At first, my fingers hurt, and changing chords was really hard.",
+              "I wanted to give up many times.",
+              "But when I could play even a small part of a song I liked, I felt proud.",
+              "Now I am busy, so I do not go to the academy anymore, but I still practice at home.",
+              "So guitar is still a great hobby for relieving stress."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-4-4",
@@ -13424,7 +15346,33 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 아직도 그것을 기억한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "가장 기억에 남는 일렉기타 경험은 학교 밴드 동아리 공연에서 연주한 것이었다",
+              "그때 나는 밴드 동아리 친구들과 쉬운 밴드 곡 하나를 준비했음",
+              "공연 전에는 사람들 앞에서 실수할까 봐 정말 긴장했음",
+              "친구 한 명이 나에게 “괜찮아. 끝까지 계속 연주하기만 해.”라고 말했음",
+              "그 말 덕분에 기분이 조금 나아졌다",
+              "공연이 시작되자 기타와 드럼 소리가 함께 어우러져 분위기가 매우 생생하게 느껴졌다",
+              "중간에 작은 코드 실수를 했지만 멈추지는 않았다",
+              "공연이 끝났을 때 사람들은 우리에게 박수를 쳐 주었다",
+              "완벽하지는 않았지만 내가 정말 밴드의 일부가 된 것처럼 느꼈다",
+              "나는 아직도 그것을 기억함"
+            ],
+            "englishSkeleton": [
+              "The most memorable electric guitar experience I had was playing at a school band club performance.",
+              "At that time, I prepared one easy band song with my band club friends.",
+              "Before the performance, I was really nervous because I was afraid of making a mistake in front of people.",
+              "One friend told me, \"It is okay. Just keep playing until the end.\"",
+              "That made me feel a little better.",
+              "When the performance started, the guitar and drum sounds together made the atmosphere feel very alive.",
+              "In the middle, I made a small chord mistake, but I did not stop.",
+              "When the performance ended, people clapped for us.",
+              "It was not perfect, but I felt like I was really part of a band.",
+              "That is why I still remember it."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-5-5",
@@ -13525,7 +15473,33 @@ window.OPIC_STUDY_DATA = {
               "korean": "괜찮다면 언젠가 같이 밴드로 연습해 볼래?"
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "야, 너도 악기를 연주한다고 들었어",
+              "정말 궁금해서 몇 가지 질문이 있어",
+              "첫째, 어떤 악기를 연주해?",
+              "무엇 때문에 그 악기를 연주하기 시작했어?",
+              "또 그 악기를 얼마나 오래 연주했어?",
+              "보통 언제 어디에서 연습해?",
+              "보통 혼자 연주해, 아니면 친구들이나 다른 사람들과 함께 연주해?",
+              "어떤 종류의 음악을 연주하는 것을 가장 좋아해?",
+              "너도 밴드 음악을 좋아해?",
+              "괜찮다면 언젠가 같이 밴드로 연습해 볼래?"
+            ],
+            "englishSkeleton": [
+              "Hey, I heard that you also play a musical instrument.",
+              "I have a few questions because I am really curious.",
+              "First, what instrument do you play?",
+              "What made you start playing that instrument?",
+              "Also, how long have you been playing it?",
+              "When and where do you usually practice?",
+              "Do you usually play alone, or do you play with friends or other people?",
+              "What kind of music do you like playing the most?",
+              "Do you like band music too?",
+              "If you are okay with it, do you want to practice as a band together sometime?"
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-6-6",
@@ -13615,7 +15589,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "감사합니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 밴드 연습용 일렉기타를 사고 싶어서 전화함",
+              "락이나 밴드 음악에 좋은 일렉기타가 있는지 알고 싶음",
+              "일반적인 가격대를 알려 주실 수 있나요?",
+              "또 너무 비싸지 않으면서 강하고 깨끗한 소리가 나는 모델을 추천해 주실 수 있나요?",
+              "기타를 살 때 앰프, 케이블, 피크, 튜너 같은 기본 물품도 매장에서 살 수 있나요?",
+              "한 가지 더 질문하겠습니다. 방문해서 앰프로 소리를 테스트해 볼 수 있는 시간이 있나요?",
+              "가능하다면 이 번호로 다시 전화해 주세요",
+              "감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, I am calling because I want to buy an electric guitar for band practice.",
+              "I would like to know if you have any electric guitars that are good for rock or band music.",
+              "Could you tell me the usual price range?",
+              "Also, could you recommend a model that is not too expensive but has a strong and clean sound?",
+              "When I buy a guitar, can I also buy basic items like an amp, a cable, picks, and a tuner at your store?",
+              "One more question: is there a time when I can visit and test the sound with an amp?",
+              "If possible, please call me back at this number.",
+              "Thank you."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-7-7",
@@ -13711,7 +15707,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "시간 되실 때 이 번호로 다시 전화해 주세요."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 며칠 전에 매장에서 일렉기타를 샀음",
+              "그 기타에 문제가 있는 것 같아서 전화함",
+              "집에서 연습할 때 몇몇 줄에서 이상한 윙윙거리는 소리가 나는 것을 알아차렸음",
+              "또 기타를 조율한 뒤에도 잠시 후 음정이 다시 내려감",
+              "새 기타이고 바로 연습하고 싶었기 때문에 조금 실망함",
+              "가능하다면 매장에 가져가서 먼저 점검을 받고 싶음",
+              "간단한 문제라면 수리해 주실 수 있나요?",
+              "하지만 문제가 심각하다면 같은 모델로 교환할 수 있을까요?",
+              "시간 되실 때 이 번호로 다시 전화해 주세요"
+            ],
+            "englishSkeleton": [
+              "Hello, I bought an electric guitar from your store a few days ago.",
+              "I am calling because I think there is a problem with it.",
+              "When I practiced at home, I noticed a strange buzzing sound from some strings.",
+              "Also, even after I tune the guitar, the pitch goes down again after a short time.",
+              "I was a little disappointed because it is a new guitar, and I wanted to practice right away.",
+              "If possible, I would like to bring it to the store and have it checked first.",
+              "If it is a simple problem, could you repair it?",
+              "But if the problem is serious, could I exchange it for the same model?",
+              "Please call me back at this number when you have time."
+            ]
+          }
         },
         {
           "id": "script-5-inst-set-1-type-8-8",
@@ -13811,7 +15831,33 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 이후로 나는 기타를 어딘가에 가져갈 때 항상 여분의 줄, 튜너, 케이블을 챙긴다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "기억하는 악기 문제 하나는 학교 밴드 동아리 리허설 중에 일어났다",
+              "우리는 공연 전에 마지막으로 곡을 확인하고 있었다",
+              "갑자기 내 기타의 높은 줄 중 하나가 끊어졌다",
+              "곧 무대에 올라가야 했기 때문에 나는 정말 놀랐다",
+              "잠시 동안 나는 “내가 전체 공연을 망치면 어떡하지?”라고 생각했음",
+              "다행히 밴드 동아리 친구 한 명이 여분의 줄을 가지고 있었다",
+              "그 친구가 내가 빠르게 줄을 갈 수 있도록 도와주었고, 나는 기타를 다시 조율했음",
+              "시간이 많지 않아서 여전히 긴장했지만 우리는 공연을 마쳤다",
+              "완벽하지는 않았지만 문제를 해결하고 무대를 끝냈기 때문에 뿌듯했음",
+              "그 이후로 나는 기타를 어딘가에 가져갈 때 항상 여분의 줄, 튜너, 케이블을 챙긴다"
+            ],
+            "englishSkeleton": [
+              "One instrument problem I remember happened during a school band club rehearsal.",
+              "We were checking our song one last time before the performance.",
+              "Suddenly, one of the high strings on my guitar broke.",
+              "I was really shocked because we had to go on stage soon.",
+              "For a moment, I thought, \"What if I ruin the whole performance?\"",
+              "Luckily, one of my band club friends had an extra string.",
+              "He helped me change it quickly, and I tuned the guitar again.",
+              "I was still nervous because we did not have much time, but we finished the performance.",
+              "It was not perfect, but I felt proud because we solved the problem and finished the stage.",
+              "Since then, I always bring extra strings, a tuner, and a cable when I take my guitar somewhere."
+            ]
+          }
         }
       ]
     },
@@ -14003,7 +16049,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 좋아하는 악기는 일렉기타",
+              "보통 집에서 쉬운 록 노래를 연주함",
+              "강한 소리를 들으면 신이 남",
+              "쉬운 코드 하나로 좋은 소리를 낼 수 있음",
+              "코드를 바꾸는 것은 가끔 어렵음",
+              "하지만 연주가 잘되면 만족스럽음",
+              "저는 일렉기타 연주를 좋아함"
+            ],
+            "englishSkeleton": [
+              "My favorite instrument is the electric guitar.",
+              "I usually play simple rock songs at home.",
+              "The strong sound makes me excited.",
+              "One easy chord can sound good.",
+              "Changing chords is sometimes hard for me.",
+              "But I feel satisfied when I play well.",
+              "That’s why I enjoy playing the electric guitar."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-2-2",
@@ -14188,7 +16254,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "보통 집에서 일렉기타를 연습함",
+              "바쁜 하루를 보낸 뒤 긴장을 푸는 데 도움이 됨",
+              "일주일에 서너 번 연습함",
+              "한 번에 약 한 시간 정도 연습함",
+              "가장 좋아하는 기타 솔로를 연습함",
+              "그리고 그 부분을 계속 반복해서 연주함",
+              "완벽하게 연주하려고 하지는 않음",
+              "그냥 음악을 즐기면 기분이 나아짐"
+            ],
+            "englishSkeleton": [
+              "I usually practice the electric guitar at home.",
+              "It helps me relax after a busy day.",
+              "I do this three or four times a week.",
+              "Each time, I practice for about an hour.",
+              "I practice my favorite guitar solo.",
+              "Then I play that part again and again.",
+              "I don’t try to play it perfectly.",
+              "I just enjoy the music and feel better."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-3-3",
@@ -14383,7 +16471,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "밴드에 관한 애니메이션을 본 뒤 기타를 좋아하게 됨",
+              "그전에는 기타에 대해 잘 알지 못함",
+              "기타 연주자가 무대 위에서 정말 멋져 보였음",
+              "강렬한 기타 소리도 좋았음",
+              "애니메이션을 본 뒤 저도 기타를 연주하고 싶었음",
+              "얼마 지나지 않아 기타를 구해서 쉬운 코드를 배웠음",
+              "처음에는 어렵고 손가락도 아팠음",
+              "하지만 처음으로 노래를 연주했을 때 정말 신이 났음"
+            ],
+            "englishSkeleton": [
+              "I started to like the guitar after watching an anime about a band.",
+              "Before that, I didn’t know much about guitars.",
+              "The guitar player looked really cool on stage.",
+              "I also liked the strong guitar sound.",
+              "After the anime, I wanted to play the guitar too.",
+              "Soon, I got a guitar and learned some easy chords.",
+              "It was hard at first, and my fingers hurt.",
+              "But I felt excited when I played my first song."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-4-4",
@@ -14578,7 +16688,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 학교에서 밴드와 함께 기타를 연주함",
+              "실수하고 싶지 않아서 공연 전에 많이 긴장함",
+              "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습함",
+              "공연을 시작하기 전에 친구가 긴장을 풀라고 함",
+              "공연이 시작되자 기타 연주에 집중함",
+              "작은 실수 하나를 했지만 계속 연주함",
+              "연주가 끝나자 모두가 박수를 쳤음",
+              "공연이 끝난 뒤 정말 기뻤음"
+            ],
+            "englishSkeleton": [
+              "One time, I played guitar with my band at school.",
+              "I was very nervous because I didn’t want to make a mistake.",
+              "Before the show, we practiced one song together for a few weeks.",
+              "Before we started, my friend told me to relax.",
+              "When the show started, I focused on playing the guitar.",
+              "I made one small mistake, but I kept playing.",
+              "Everyone clapped when we finished.",
+              "I felt very happy after the show."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-5-5",
@@ -14800,7 +16932,33 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "네가 악기를 연주한다고 들었어",
+              "어떤 악기를 연주해?",
+              "아, 피아노를 연주하는구나. 멋지다",
+              "언제 연주를 시작했어?",
+              "중학생 때 시작했구나. 정말 오래됐네",
+              "얼마나 자주 연습해?",
+              "일주일에 세 번이면 꽤 자주 하네",
+              "어떤 음악을 연주하는 것을 좋아해?",
+              "아, 팝송을 좋아하는구나. 재미있겠다",
+              "알려 줘서 고마워. 언젠가 네 연주를 듣고 싶어"
+            ],
+            "englishSkeleton": [
+              "Hey, I heard that you play a musical instrument.",
+              "What instrument do you play?",
+              "Oh, you play the piano. That sounds great.",
+              "When did you start playing it?",
+              "You started in middle school. That’s a long time.",
+              "How often do you practice?",
+              "Three times a week is a lot.",
+              "What kind of music do you like to play?",
+              "Oh, you like pop songs. That sounds fun.",
+              "Thanks for telling me. I want to hear you play someday."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-6-6",
@@ -15025,7 +17183,33 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 일렉기타를 사고 싶음",
+              "초보자라서 가격이 괜찮은 좋은 기타를 원함",
+              "초보자에게 좋은 기타를 추천해 주실 수 있나요?",
+              "아, 그 모델은 연주하기 쉽군요. 괜찮은 것 같음",
+              "가격은 얼마인가요?",
+              "그렇군요. 그 가격이면 괜찮음",
+              "구매하기 전에 기타를 연주해 볼 수 있나요?",
+              "좋습니다. 도움이 되겠네요",
+              "기타 가방은 무료인가요?",
+              "아, 무료군요. 좋네요. 도와주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, I want to buy an electric guitar.",
+              "I’m a beginner, so I want a good guitar at a good price.",
+              "Could you recommend a good guitar for a beginner?",
+              "Oh, that model is easy to play. That sounds good.",
+              "How much is it?",
+              "I see. That price is okay for me.",
+              "Can I try the guitar before I buy it?",
+              "Great. That will help me.",
+              "Is the guitar bag free?",
+              "Oh, it’s free. That’s great. Thank you for your help."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-7-7",
@@ -15232,7 +17416,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 새 기타에 문제가 있음",
+              "며칠 전에 이 매장에서 샀음",
+              "기타를 칠 때 줄 하나에서 윙윙거리는 소리가 남",
+              "그 소리 때문에 연습을 할 수 없음",
+              "오늘 수리해 주실 수 있나요?",
+              "아, 오늘은 수리가 안 되는군요. 그렇군요",
+              "그러면 새 기타로 교환할 수 있을까요?",
+              "좋습니다. 감사함",
+              "오늘 오후에 매장으로 가져가겠음"
+            ],
+            "englishSkeleton": [
+              "Hello, I have a problem with my new guitar.",
+              "I bought it from your store a few days ago.",
+              "One string makes a buzzing sound when I play it.",
+              "I can’t practice because of the sound.",
+              "Can you fix it today?",
+              "Oh, it can’t be fixed today. I see.",
+              "Then can I exchange it for a new one?",
+              "Great, thank you.",
+              "I’ll bring it to the store this afternoon."
+            ]
+          }
         },
         {
           "id": "script-5-inst2-set-1-type-8-8",
@@ -15250,30 +17458,36 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "One time, a guitar string broke during band practice.",
-            "I was very worried because our show was in one hour.",
-            "While we practiced, I heard a loud sound.",
-            "I looked down and saw the broken string.",
-            "My friend had an extra string, so we put it on right away.",
-            "We finished the show with no more problems.",
-            "I was happy that we could finish the show."
+            "I was really worried because our concert was in one hour.",
+            "I thought, “Oh no, what should I do?”",
+            "Luckily, my friend had an extra string.",
+            "My friend helped me change it right away.",
+            "Then we practiced again.",
+            "We finished the concert without any problems.",
+            "I was so relieved and thanked my friend.",
+            "Since then, I always bring extra strings."
           ],
           "speakingChunks": [
             "One time, a guitar string broke during band practice.",
-            "I was very worried because our show was in one hour.",
-            "While we practiced, I heard a loud sound.",
-            "I looked down and saw the broken string.",
-            "My friend had an extra string, so we put it on right away.",
-            "We finished the show with no more problems.",
-            "I was happy that we could finish the show."
+            "I was really worried because our concert was in one hour.",
+            "I thought, “Oh no, what should I do?”",
+            "Luckily, my friend had an extra string.",
+            "My friend helped me change it right away.",
+            "Then we practiced again.",
+            "We finished the concert without any problems.",
+            "I was so relieved and thanked my friend.",
+            "Since then, I always bring extra strings."
           ],
           "speakingTranslations": [
             "한번은 밴드 연습 중에 기타 줄 하나가 끊어졌습니다.",
             "우리 공연이 한 시간 뒤에 있어서 정말 걱정했습니다.",
-            "연습하던 중 큰 소리가 들렸습니다.",
-            "아래를 보니 기타 줄이 끊어져 있었습니다.",
-            "친구에게 여분의 줄이 있어서 바로 끼웠습니다.",
-            "우리는 더 이상의 문제 없이 공연을 마쳤습니다.",
-            "공연을 끝낼 수 있어서 기뻤습니다."
+            "저는 “이런, 이제 어떻게 하지?”라고 생각했습니다.",
+            "다행히 친구에게 여분의 줄이 있었다.",
+            "친구가 바로 줄을 교체해 주었습니다.",
+            "그런 다음 우리는 다시 연습했습니다.",
+            "우리는 아무 문제 없이 공연을 마쳤습니다.",
+            "저는 정말 안도했고 친구에게 고맙다고 했습니다.",
+            "그 이후로 저는 항상 여분의 기타 줄을 챙깁니다."
           ],
           "mainPoint": "One time, a guitar string broke during band practice. I was very worried because our show was in one hour.",
           "mainPointSentences": [
@@ -15301,28 +17515,36 @@ window.OPIC_STUDY_DATA = {
               "korean": "한번은 밴드 연습 중에 기타 줄 하나가 끊어졌습니다."
             },
             {
-              "english": "I was very worried because our show was in one hour.",
+              "english": "I was really worried because our concert was in one hour.",
               "korean": "우리 공연이 한 시간 뒤에 있어서 정말 걱정했습니다."
             },
             {
-              "english": "While we practiced, I heard a loud sound.",
-              "korean": "연습하던 중 큰 소리가 들렸습니다."
+              "english": "I thought, “Oh no, what should I do?”",
+              "korean": "저는 “이런, 이제 어떻게 하지?”라고 생각했습니다."
             },
             {
-              "english": "I looked down and saw the broken string.",
-              "korean": "아래를 보니 기타 줄이 끊어져 있었습니다."
+              "english": "Luckily, my friend had an extra string.",
+              "korean": "다행히 친구에게 여분의 줄이 있었습니다."
             },
             {
-              "english": "My friend had an extra string, so we put it on right away.",
-              "korean": "친구에게 여분의 줄이 있어서 바로 끼웠습니다."
+              "english": "My friend helped me change it right away.",
+              "korean": "친구가 바로 줄을 교체해 주었습니다."
             },
             {
-              "english": "We finished the show with no more problems.",
-              "korean": "우리는 더 이상의 문제 없이 공연을 마쳤습니다."
+              "english": "Then we practiced again.",
+              "korean": "그런 다음 우리는 다시 연습했습니다."
             },
             {
-              "english": "I was happy that we could finish the show.",
-              "korean": "공연을 끝낼 수 있어서 기뻤습니다."
+              "english": "We finished the concert without any problems.",
+              "korean": "우리는 아무 문제 없이 공연을 마쳤습니다."
+            },
+            {
+              "english": "I was so relieved and thanked my friend.",
+              "korean": "저는 정말 안도했고 친구에게 고맙다고 했습니다."
+            },
+            {
+              "english": "Since then, I always bring extra strings.",
+              "korean": "그 이후로 저는 항상 여분의 기타 줄을 챙깁니다."
             }
           ],
           "fillerItems": [
@@ -15343,7 +17565,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Honestly, I was very worried because our show was in one hour.",
+              "english": "Honestly, I was really worried because our concert was in one hour.",
               "korean": "솔직히, 우리 공연이 한 시간 뒤에 있어서 정말 걱정했습니다.",
               "englishEmphasis": [
                 {
@@ -15359,36 +17581,42 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "While we practiced, I heard a loud sound.",
-              "korean": "연습하던 중 큰 소리가 들렸습니다.",
+              "english": "I thought, “Oh no, what should I do?”",
+              "korean": "저는 “이런, 이제 어떻게 하지?”라고 생각했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I looked down and saw the broken string.",
-              "korean": "아래를 보니 기타 줄이 끊어져 있었습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "Actually, my friend had an extra string, so we put it on right away.",
-              "korean": "사실, 친구에게 여분의 줄이 있어서 바로 끼웠습니다.",
+              "english": "Luckily, my friend had an extra string.",
+              "korean": "다행히, 친구에게 여분의 줄이 있었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 8
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 3
+                  "end": 4
                 }
               ]
             },
             {
-              "english": "Anyway, we finished the show with no more problems.",
-              "korean": "아무튼, 우리는 더 이상의 문제 없이 공연을 마쳤습니다.",
+              "english": "My friend helped me change it right away.",
+              "korean": "친구가 바로 줄을 교체해 주었습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Then we practiced again.",
+              "korean": "그런 다음 우리는 다시 연습했습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Anyway, we finished the concert without any problems.",
+              "korean": "아무튼, 우리는 아무 문제 없이 공연을 마쳤습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -15403,8 +17631,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, I was happy that we could finish the show.",
-              "korean": "그래서요, 공연을 끝낼 수 있어서 기뻤습니다.",
+              "english": "So, yeah, I was so relieved and thanked my friend.",
+              "korean": "그래서요, 저는 정말 안도했고 친구에게 고맙다고 했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -15417,8 +17645,38 @@ window.OPIC_STUDY_DATA = {
                   "end": 5
                 }
               ]
+            },
+            {
+              "english": "Since then, I always bring extra strings.",
+              "korean": "그 이후로 저는 항상 여분의 기타 줄을 챙깁니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 밴드 연습 중에 기타 줄 하나가 끊어졌음",
+              "우리 공연이 한 시간 뒤에 있어서 정말 걱정함",
+              "“이런, 이제 어떻게 하지?”라고 생각함",
+              "다행히 친구에게 여분의 줄이 있었음",
+              "친구가 바로 줄을 교체해 주었음",
+              "그런 다음 우리는 다시 연습함",
+              "우리는 아무 문제 없이 공연을 마쳤음",
+              "정말 안도했고 친구에게 고맙다고 함",
+              "그 이후로 저는 항상 여분의 기타 줄을 챙깁니다"
+            ],
+            "englishSkeleton": [
+              "One time, a guitar string broke during band practice.",
+              "I was really worried because our concert was in one hour.",
+              "I thought, “Oh no, what should I do?”",
+              "Luckily, my friend had an extra string.",
+              "My friend helped me change it right away.",
+              "Then we practiced again.",
+              "We finished the concert without any problems.",
+              "I was so relieved and thanked my friend.",
+              "Since then, I always bring extra strings."
+            ]
+          }
         }
       ]
     },
@@ -15517,7 +17775,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 보통 강한 분위기와 기억에 남는 음악이 있는 영화를 고른다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "좋은 음악이 있는 영화를 정말 좋아함",
+              "항상 액션이나 코미디 같은 장르로 영화를 고르지는 않는다",
+              "나에게는 영화의 분위기가 더 중요하다",
+              "영화에 훌륭한 음악이 있으면 장면들이 내 기억에 훨씬 오래 남는다",
+              "가끔은 영화를 본 뒤 사운드트랙을 다시 듣기도 함",
+              "친구들과 최고의 장면과 그 장면의 음악에 대해 이야기하는 것도 좋아함",
+              "그것은 영화를 더 특별하게 느껴지게 함",
+              "나는 보통 강한 분위기와 기억에 남는 음악이 있는 영화를 고른다"
+            ],
+            "englishSkeleton": [
+              "I really enjoy movies with good music.",
+              "I do not always choose a movie by genre, like action or comedy.",
+              "For me, the mood of the movie is more important.",
+              "When a movie has great music, the scenes stay in my mind much longer.",
+              "Sometimes I even listen to the soundtrack again after watching the movie.",
+              "I also like talking with my friends about the best scene and the music from that scene.",
+              "It makes the movie feel more special.",
+              "So I usually choose movies that have a strong mood and memorable music."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-2-2",
@@ -15612,7 +17892,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그것은 친구와 시간을 보내는 재미있는 방법이기도 하다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "보통 친구와 영화를 보러 간다",
+              "영화 전에 우리는 시간을 확인하고 영화관 근처에서 만난다",
+              "시간이 충분하면 먼저 간단한 것을 먹거나 커피를 마신다",
+              "그다음 티켓과 음료를 사고 영화관 안으로 들어간다",
+              "영화 중에는 이야기와 음악을 즐기고 싶어서 보통 조용히 집중함",
+              "영화가 끝난 뒤 우리는 바로 집에 가지 않는다",
+              "우리는 자주 카페에 가서 최고의 장면들에 대해 이야기함",
+              "나에게 영화 보기는 영화 자체만을 의미하지 않는다",
+              "그것은 친구와 시간을 보내는 재미있는 방법이기도 하다"
+            ],
+            "englishSkeleton": [
+              "I usually go to see movies with a friend.",
+              "Before the movie, we check the time and meet near the theater.",
+              "If we have enough time, we eat something simple or drink coffee first.",
+              "Then we buy the tickets and drinks and go into the theater.",
+              "During the movie, I usually focus quietly because I want to enjoy the story and music.",
+              "After the movie, we do not go home right away.",
+              "We often go to a cafe and talk about the best scenes.",
+              "For me, watching a movie is not just about the movie itself.",
+              "It is also a fun way to spend time with a friend."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-3-3",
@@ -15707,7 +18011,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 아직도 그것을 선명하게 기억한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "기억하는 가장 최근의 영화 경험은 주말 오후였음",
+              "친한 친구와 프로젝트 헤일 메리를 보러 갔다",
+              "우리는 먼저 쇼핑몰에서 만나 간단한 점심을 먹었다",
+              "그 후 영화관에 가서 시간을 확인하고 티켓과 음료를 삼",
+              "영화 중에는 장면과 음악이 정말 인상적이어서 예상보다 더 집중했음",
+              "내 친구도 그것을 즐기는 것처럼 보였음",
+              "영화가 끝난 뒤 우리는 근처 카페에 가서 우리가 좋아했던 장면들에 대해 이야기했음",
+              "하루 전체가 단순했지만 편안하고 재미있게 느껴졌다",
+              "나는 아직도 그것을 선명하게 기억함"
+            ],
+            "englishSkeleton": [
+              "The most recent movie experience I remember was on a weekend afternoon.",
+              "I went to see Project Hail Mary with a close friend.",
+              "We met at the mall first and had a simple lunch.",
+              "After that, we went to the theater, checked the time, and bought tickets and drinks.",
+              "During the movie, I was more focused than I expected because the scenes and music were really impressive.",
+              "My friend also seemed to enjoy it.",
+              "After the movie, we went to a nearby cafe and talked about our favorite scenes.",
+              "The whole day was simple, but it felt comfortable and fun.",
+              "That is why I still remember it clearly."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-4-4",
@@ -15798,7 +18126,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "“그녀는 좋은 이미지도 가지고 있구나.”라고 생각했다. 많은 영화 팬들도 비슷하게 느꼈을 것 같아서 그 순간이 기억에 남았다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "정말 좋아하는 배우 한 명은 엠마 스톤이다",
+              "그녀가 자연스럽게 연기하고 영화마다 다른 분위기를 보여 주기 때문에 나는 그녀를 좋아함",
+              "나에게 인상 깊었던 뉴스 하나는 그녀가 2024년에 영화 Poor Things로 아카데미 여우주연상을 받았을 때였음",
+              "그녀의 수상 소감 짧은 영상을 봤는데, 그녀는 매우 놀라고 감정이 북받친 것처럼 보였음",
+              "나에게 인상 깊었던 것은 상 자체뿐만 아니라 그녀의 태도였음",
+              "그녀는 거만하지 않고 겸손하고 감사하는 사람처럼 보였음",
+              "“그녀는 단순히 좋은 배우만은 아니구나.”라고 생각했음",
+              "“그녀는 좋은 이미지도 가지고 있구나.”라고 생각했다. 많은 영화 팬들도 비슷하게 느꼈을 것 같아서 그 순간이 기억에 남음"
+            ],
+            "englishSkeleton": [
+              "One actress I really like is Emma Stone.",
+              "I like her because she acts naturally and shows different moods in different movies.",
+              "One news story that impressed me was when she won the Best Actress Oscar in 2024 for Poor Things.",
+              "I saw a short clip of her award speech, and she looked very surprised and emotional.",
+              "What impressed me was not only the award itself, but also her attitude.",
+              "She seemed humble and thankful, not arrogant.",
+              "I thought, \"She is not just a good actress.",
+              "She also has a good image.\" I think many movie fans felt the same way, so that moment was memorable."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-5-5",
@@ -15893,7 +18243,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "네 취향을 알면 나중에 함께 영화를 고르기가 더 쉬울 것 같아."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "오, 너도 영화 보는 것을 좋아해?",
+              "네 영화 취향에 대해 몇 가지 질문이 있어",
+              "첫째, 어떤 종류의 영화를 가장 좋아해?",
+              "액션, 코미디, 드라마, 아니면 다른 것을 더 좋아해?",
+              "둘째, 왜 그런 종류의 영화를 좋아해?",
+              "셋째, 보통 혼자 영화를 봐, 아니면 친구나 가족과 함께 가?",
+              "그리고 최근에 본 영화 중 가장 기억에 남는 영화는 뭐야?",
+              "정말 좋아했던 장면이나 음악이 있었어?",
+              "네 취향을 알면 나중에 함께 영화를 고르기가 더 쉬울 것 같아"
+            ],
+            "englishSkeleton": [
+              "Oh, you enjoy watching movies too?",
+              "I have a few questions about your movie taste.",
+              "First, what kind of movies do you like the most?",
+              "Do you prefer action, comedy, drama, or something else?",
+              "Second, why do you like that type of movie?",
+              "Third, do you usually watch movies alone, or do you go with friends or family?",
+              "Also, what is the most memorable movie you watched recently?",
+              "Was there a scene or music that you really liked?",
+              "If I know your taste, it will be easier to choose a movie together later."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-6-6",
@@ -15983,7 +18357,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "도와주셔서 감사합니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 친구와 영화를 보고 싶어서 전화함",
+              "티켓을 사기 전에 몇 가지 질문을 드리고 싶음",
+              "첫째, 오늘 저녁 프로젝트 헤일 메리 상영 시간이 어떻게 되나요?",
+              "둘째, 성인 티켓 한 장은 얼마인가요?",
+              "셋째, 아직 나란히 붙은 좌석 두 자리가 있나요?",
+              "그리고 온라인이나 전화로 티켓을 예약할 수 있나요?",
+              "이 세부 사항들을 알려 주시면 친구와 이야기하고 바로 티켓을 예약하겠음",
+              "도와주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, I am calling because I want to watch a movie with my friend.",
+              "I would like to ask a few questions before buying tickets.",
+              "First, what are the showtimes for Project Hail Mary this evening?",
+              "Second, how much is one adult ticket?",
+              "Third, are there still two seats available next to each other?",
+              "Also, can I reserve the tickets online or by phone?",
+              "If you can tell me these details, I will talk to my friend and book the tickets right away.",
+              "Thank you for your help."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-7-7",
@@ -16069,7 +18465,27 @@ window.OPIC_STUDY_DATA = {
               "korean": "도와주시면 정말 감사하겠습니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 방금 제 티켓을 확인했는데 실수가 있는 것 같음",
+              "저녁 7시 영화 티켓을 원했는데, 이 티켓에는 5시라고 되어 있음",
+              "7시에 친구를 만나기 때문에 이 티켓을 사용할 수 없음",
+              "좌석이 남아 있다면 7시 상영으로 바꿔 주실 수 있나요?",
+              "그게 불가능하다면 다음 가능한 상영 시간으로 옮겨 주실 수 있나요?",
+              "그리고 둘 다 안 된다면 환불이나 매장 크레딧을 받을 수 있을까요?",
+              "도와주시면 정말 감사하겠음"
+            ],
+            "englishSkeleton": [
+              "Hello, I just checked my ticket, and I think there is a mistake.",
+              "I wanted a ticket for the 7 p.m. movie, but this ticket says 5 p.m.",
+              "I am meeting my friend at 7, so I cannot use this ticket.",
+              "Could you please change it to the 7 p.m. showing if there are seats left?",
+              "If that is not possible, could you move us to the next available showing?",
+              "And if neither option works, could I get a refund or store credit?",
+              "I would really appreciate your help."
+            ]
+          }
         },
         {
           "id": "script-6-movie-set-1-type-8-8",
@@ -16159,7 +18575,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그 이후로 나는 티켓을 사기 전에 항상 날짜와 시간을 두 번 확인한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "한 번 친구와 영화 티켓 문제가 있었던 적이 있음",
+              "우리는 주말 저녁에 쇼핑몰 영화관 티켓을 온라인으로 예매했음",
+              "우리는 모든 준비가 끝났다고 생각해서 편안한 기분으로 영화관에 갔다",
+              "하지만 예약을 확인했을 때 내가 날짜를 잘못 선택했다는 것을 깨달았다",
+              "정말 당황해서 친구에게 “정말 미안해.”라고 말했음",
+              "“이건 내 실수야.” 우리는 매표소에 가서 상황을 설명했음",
+              "다행히 그날 같은 영화의 좌석이 있어서 직원이 우리 티켓을 바꿔 주었다",
+              "그 이후로 나는 티켓을 사기 전에 항상 날짜와 시간을 두 번 확인함"
+            ],
+            "englishSkeleton": [
+              "I once had a movie ticket problem with my friend.",
+              "We booked tickets online for a weekend evening at a mall theater.",
+              "We thought everything was ready, so we went to the theater in a relaxed mood.",
+              "But when we checked the reservation, I realized I had selected the wrong date.",
+              "I was really embarrassed and said to my friend, \"I am so sorry.",
+              "This is my mistake.\" We went to the ticket booth and explained the situation.",
+              "Luckily, there were seats for the same movie that day, so the staff changed our tickets.",
+              "Since then, I always double-check the date and time before buying tickets."
+            ]
+          }
         }
       ]
     },
@@ -16350,7 +18788,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "음악이 좋은 영화를 좋아함",
+              "음악이 영화를 더 신나게 만들어 줌",
+              "보통 드라마나 애니메이션 영화를 봄",
+              "복잡한 이야기는 필요하지 않음",
+              "그저 음악과 분위기를 즐기고 싶음",
+              "영화가 끝난 뒤에는 그 노래들을 다시 듣곤 함",
+              "이런 영화를 가장 좋아함"
+            ],
+            "englishSkeleton": [
+              "I like movies with good music.",
+              "The music makes the movie more exciting.",
+              "I usually watch dramas or animated movies.",
+              "I don’t need a difficult story.",
+              "I just want to enjoy the music and the mood.",
+              "After the movie, I often listen to the songs again.",
+              "That’s why this kind of movie is my favorite."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-2-2",
@@ -16520,7 +18978,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "보통 영화표를 온라인으로 예매함",
+              "영화를 보기 하루나 이틀 전에 예매함",
+              "먼저 영화 시간을 확인함",
+              "그리고 가운데 자리를 고름",
+              "그 자리에서는 화면이 잘 보여서 좋음",
+              "예매한 뒤에는 친구에게 티켓을 보냄",
+              "온라인 예매가 쉬워서 매번 이렇게 함"
+            ],
+            "englishSkeleton": [
+              "I usually book my movie ticket online.",
+              "I do it a day or two before the movie.",
+              "First, I check the movie time.",
+              "Then I choose a seat in the middle.",
+              "I like that seat because I can see the screen well.",
+              "After I book the ticket, I send it to my friend.",
+              "Booking online is easy, so I do it every time."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-3-3",
@@ -16706,7 +19184,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난 일요일에 친구와 영화를 보러 갔음",
+              "영화에 나온 음악이 정말 좋았음",
+              "영화를 보러 가기 전에 온라인으로 표를 예매함",
+              "우리는 일찍 도착해서 자리를 찾았음",
+              "음악은 기대보다 훨씬 좋았음",
+              "영화가 끝난 뒤 우리는 노래들에 관해 이야기함",
+              "우리 둘 다 즐거운 시간을 보냈음"
+            ],
+            "englishSkeleton": [
+              "Last Sunday, I went to the movies with my friend.",
+              "I really liked the music in the movie.",
+              "Before we went, I bought the tickets online.",
+              "We arrived early and found our seats.",
+              "The music was much better than I expected.",
+              "After the movie, we talked about the songs.",
+              "We both had a good time."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-4-4",
@@ -16893,7 +19391,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가장 좋아하는 배우는 Emma Stone",
+              "그녀의 연기가 자연스럽게 느껴져서 좋아함",
+              "그녀가 2024년에 오스카상을 받았을 때 기뻤음",
+              "온라인에서 그녀의 수상 소감 영상을 짧게 봤음",
+              "그녀는 놀라고 감사해 보였음",
+              "그녀는 수상 소감에서 많은 사람에게 감사함",
+              "그 후로 그녀를 더욱 좋아하게 됨"
+            ],
+            "englishSkeleton": [
+              "My favorite actress is Emma Stone.",
+              "I like her because her acting feels natural.",
+              "I was happy when she won an Oscar in 2024.",
+              "I saw a short video of her speech online.",
+              "She looked surprised and thankful.",
+              "She also thanked many people in her speech.",
+              "After that, I liked her even more."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-5-5",
@@ -17105,7 +19623,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 영화를 좋아한다고 들었음",
+              "보통 어떤 종류의 영화를 보나요?",
+              "아, 코미디를 좋아하는군요. 재미있겠네요",
+              "왜 코미디를 좋아하나요?",
+              "그렇군요. 코미디를 보면 긴장이 풀리는군요",
+              "보통 누구와 영화를 보나요?",
+              "아, 가족과 함께 영화를 보는군요. 좋겠네요",
+              "마지막으로 어떤 영화를 봤나요?",
+              "아, 코미디 영화를 봤군요. 이야기해 줘서 고마워요"
+            ],
+            "englishSkeleton": [
+              "Hi, I heard you like movies.",
+              "What kind of movies do you usually watch?",
+              "Oh, you like comedies. That sounds fun.",
+              "Why do you like comedies?",
+              "I see. Comedies help you relax.",
+              "Who do you usually watch movies with?",
+              "Oh, you watch movies with your family. That sounds nice.",
+              "What movie did you watch last?",
+              "Oh, you watched a comedy. Thanks for telling me."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-6-6",
@@ -17313,7 +19855,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 영화표 두 장을 사고 싶음",
+              "영화는 몇 시에 시작하나요?",
+              "7시에 시작하는군요. 좋음",
+              "붙어 있는 좌석 두 자리가 있나요?",
+              "가운데 자리 두 개요? 좋음",
+              "티켓 두 장은 얼마인가요?",
+              "20달러요? 알겠음",
+              "온라인으로 결제할 수 있나요?",
+              "좋습니다. 지금 온라인으로 예매하겠음"
+            ],
+            "englishSkeleton": [
+              "Hello, I’d like to buy two movie tickets.",
+              "What time does the movie start?",
+              "It starts at seven. Great.",
+              "Do you have two seats together?",
+              "Two seats in the middle? Great.",
+              "How much are the two tickets?",
+              "Twenty dollars? Okay.",
+              "Can I pay online?",
+              "Great. I’ll book them online now."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-7-7",
@@ -17515,7 +20081,29 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 제 영화표에 문제가 있음",
+              "표가 오늘이 아니라 내일 날짜로 되어 있음",
+              "오늘 더 늦은 상영으로 바꿔 주실 수 있나요?",
+              "아, 남은 좌석이 없나요? 알겠음",
+              "그러면 환불받을 수 있나요?",
+              "환불받을 수 있군요. 좋음",
+              "다른 날 표를 새로 사겠음",
+              "도와주셔서 감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, there’s a problem with my movie tickets.",
+              "The tickets are for tomorrow, not today.",
+              "Could you change my tickets to a later show today?",
+              "Oh, there are no seats left? I understand.",
+              "Then, could I get a refund?",
+              "Oh, I can get a refund. Great.",
+              "I’ll buy new tickets for another day.",
+              "Thank you for your help."
+            ]
+          }
         },
         {
           "id": "script-6-movie2-set-1-type-8-8",
@@ -17727,7 +20315,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 영화표를 잘못된 날짜로 예매함",
+              "제 실수라서 정말 미안함",
+              "우리는 토요일에 영화를 보고 싶었음",
+              "온라인으로 표를 샀는데 일요일을 선택함",
+              "영화관에 도착했을 때 문제를 알아차렸음",
+              "친구에게 미안하다고 말했음",
+              "토요일 영화에 빈자리가 두 개 있었음",
+              "직원이 표를 바꿔 주어서 우리는 영화를 볼 수 있었음",
+              "마음이 훨씬 편해졌음"
+            ],
+            "englishSkeleton": [
+              "I once booked movie tickets for the wrong day.",
+              "I felt really sorry because it was my mistake.",
+              "We wanted to watch a movie on Saturday.",
+              "I bought the tickets online, but I chose Sunday.",
+              "I noticed the problem when we arrived at the theater.",
+              "I told my friend I was sorry.",
+              "There were two empty seats for the Saturday movie.",
+              "The staff changed our tickets, so we could watch the movie.",
+              "In the end, I felt much better."
+            ]
+          }
         }
       ]
     },
@@ -17826,7 +20438,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나에게 이 헬스장은 루틴을 유지하기에 편안한 장소이다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "다니는 헬스장은 집 근처에 있는 작은 헬스장이다",
+              "걸어서 약 10분 정도 걸려서 내가 가기에 매우 쉽다",
+              "그 헬스장은 화려하지는 않지만 깨끗하고 조용하다",
+              "그곳에는 러닝머신, 자전거, 웨이트 머신, 덤벨, 그리고 작은 스트레칭 공간이 있음",
+              "락커와 샤워실도 있어서 운동 후에 편리하다",
+              "가장 좋아하는 점은 너무 붐비지 않는다는 것이다",
+              "전문가가 아니지만 그곳에서는 부담을 느끼지 않는다",
+              "나에게 이 헬스장은 루틴을 유지하기에 편안한 장소이다"
+            ],
+            "englishSkeleton": [
+              "The gym I go to is a small gym near my home.",
+              "It takes about ten minutes to walk there, so it is very easy for me to visit.",
+              "The gym is not fancy, but it is clean and quiet.",
+              "It has treadmills, bikes, weight machines, dumbbells, and a small stretching area.",
+              "There are also lockers and shower rooms, so it is convenient after exercising.",
+              "What I like most is that it is not too crowded.",
+              "I do not feel pressure there, even though I am not an expert.",
+              "So for me, this gym is a comfortable place to keep my routine."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-2-2",
@@ -17916,7 +20550,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 이 루틴을 유지하려고 노력한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "보통 평일 저녁에 헬스장에 간다",
+              "가기 전에 운동복으로 갈아입고 가방에 물병을 넣는다",
+              "헬스장에 도착하면 물건을 락커에 넣고 조금 몸을 푼다",
+              "그다음 먼저 웨이트 트레이닝을 하는데, 주로 간단한 덤벨 운동과 기본 머신을 함",
+              "좋은 자세를 더 중요하게 생각해서 아주 무거운 무게를 들지는 않는다",
+              "그 후에는 러닝머신에서 약 10분 정도 유산소 운동으로 마무리함",
+              "긴 운동은 아니지만 운동 후에는 항상 상쾌함을 느낀다",
+              "나는 이 루틴을 유지하려고 노력함"
+            ],
+            "englishSkeleton": [
+              "I usually go to the gym on weekday evenings.",
+              "Before I go, I change into workout clothes and put a water bottle in my bag.",
+              "When I get to the gym, I put my things in a locker and warm up a little.",
+              "Then I do weight training first, mostly simple dumbbell exercises and basic machines.",
+              "I do not lift very heavy weights because I care more about good posture.",
+              "After that, I finish with about ten minutes of cardio on the treadmill.",
+              "It is not a long workout, but I always feel refreshed after it.",
+              "That is why I try to keep this routine."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-3-3",
@@ -18006,7 +20662,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "지금도 나는 집 근처 헬스장에 가서 그 루틴을 유지한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "군대에 있을 때 운동에 관심을 갖게 됨",
+              "그때 몇몇 동료 병사들이 일과 후에 자주 웨이트 트레이닝을 했음",
+              "처음에는 운동에 대해 잘 몰라서 그냥 그들을 따라 했음",
+              "그들은 나에게 기본 동작을 보여 주고 머신 사용법을 알려 줌",
+              "솔직히 처음에는 힘들고 조금 어색했음",
+              "하지만 운동하고 나면 이상하게 상쾌함을 느꼈다",
+              "속으로 “아, 이거 실제로 나한테 좋구나.”라고 생각했다. 그 이후로 운동은 습관이 됨",
+              "지금도 나는 집 근처 헬스장에 가서 그 루틴을 유지함"
+            ],
+            "englishSkeleton": [
+              "I became interested in working out when I was in the army.",
+              "At that time, some of my fellow soldiers often did weight training after work.",
+              "At first, I did not know much about exercise, so I just followed them.",
+              "They showed me basic movements and told me how to use the machines.",
+              "Honestly, it was hard and a little awkward at first.",
+              "But after exercising, I felt strangely refreshed.",
+              "I thought to myself, \"Oh, this is actually good for me.\" Since then, working out has become a habit.",
+              "Even now, I go to a gym near my home and keep that routine."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-4-4",
@@ -18096,7 +20774,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 그 작은 순간이 아직도 나에게 기억에 남는다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "선명하게 기억하는 헬스장 경험 하나는 군대에 있을 때 일어났다",
+              "동료 병사들과 덤벨 운동을 하고 있었다",
+              "내가 제대로 하고 있다고 생각했지만, 친구 한 명이 나를 보고 “너 어깨가 너무 많이 올라가고 있어.”라고 말했음",
+              "“천천히 해.” 처음에는 내 자세가 잘못된 줄 몰라서 조금 민망했음",
+              "하지만 그는 친절하게 설명해 주고 올바른 방법을 보여 주었다",
+              "자세를 바꾸고 나니 운동이 훨씬 더 안정적으로 느껴졌다",
+              "그날 나는 좋은 자세가 무거운 무게보다 더 중요하다는 것을 배움",
+              "그 작은 순간이 아직도 나에게 기억에 남는다"
+            ],
+            "englishSkeleton": [
+              "One gym experience I remember clearly happened when I was in the army.",
+              "I was doing a dumbbell exercise with my fellow soldiers.",
+              "I thought I was doing it correctly, but one of my friends watched me and said, \"Your shoulders are going up too much.",
+              "Slow down.\" At first, I felt a little embarrassed because I did not know my posture was wrong.",
+              "But he explained it kindly and showed me the right way.",
+              "After I changed my posture, the exercise felt much more stable.",
+              "That day, I learned that good form is more important than heavy weight.",
+              "So that small moment is still memorable for me."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-5-5",
@@ -18201,7 +20901,35 @@ window.OPIC_STUDY_DATA = {
               "korean": "괜찮아 보이면 언젠가 너와 함께 방문해 보고 싶어."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "오, 너 재미있는 헬스장에 다녀?",
+              "흥미롭게 들리네",
+              "나도 좋은 헬스장을 찾고 있어서 몇 가지 질문이 있어",
+              "첫째, 네 헬스장은 어디에 있어?",
+              "집이나 학교에서 가까워?",
+              "둘째, 어떤 종류의 장비가 있어?",
+              "러닝머신, 덤벨, 기본 웨이트 머신이 있어?",
+              "셋째, 초보자에게 분위기가 좋아?",
+              "너무 부담스럽게 느껴지는 장소는 원하지 않아",
+              "그리고 월 이용료는 얼마야?",
+              "괜찮아 보이면 언젠가 너와 함께 방문해 보고 싶어"
+            ],
+            "englishSkeleton": [
+              "Oh, you go to a fun gym?",
+              "That sounds interesting.",
+              "I am looking for a good gym too, so I have a few questions.",
+              "First, where is your gym located?",
+              "Is it close to your home or school?",
+              "Second, what kind of equipment does it have?",
+              "Does it have treadmills, dumbbells, and basic weight machines?",
+              "Third, is the atmosphere good for beginners?",
+              "I do not want a place that feels too stressful.",
+              "Also, how much is the monthly fee?",
+              "If it sounds good, I would like to visit it with you sometime."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-6-6",
@@ -18296,7 +21024,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "감사합니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 이 지역에 새로 열린 헬스장에 관심이 있어서 전화함",
+              "등록하기 전에 몇 가지 질문을 드리고 싶음",
+              "첫째, 운영 시간이 어떻게 되나요?",
+              "둘째, 러닝머신, 웨이트 머신, 덤벨 같은 기본 장비가 충분히 있나요?",
+              "셋째, 초보자를 위한 간단한 안내를 제공하나요?",
+              "전문가가 아니라서 그런 안내가 도움이 될 것 같음",
+              "그리고 월 이용료는 얼마이며, 체험 방문이 가능한가요?",
+              "가능하다면 이번 주에 방문해서 둘러보고 싶음",
+              "감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, I am calling because I am interested in the new gym that opened in this area.",
+              "I would like to ask a few questions before I join.",
+              "First, what are your opening hours?",
+              "Second, do you have enough basic equipment, like treadmills, weight machines, and dumbbells?",
+              "Third, do you offer any simple guidance for beginners?",
+              "I am not an expert, so that would be helpful.",
+              "Also, how much is the monthly fee, and is there a trial visit available?",
+              "If possible, I would like to visit this week and look around.",
+              "Thank you."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-7-7",
@@ -18387,7 +21139,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "너에게 어떤 게 괜찮은지 말해 줘."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "야, 정말 미안한데 오늘 오후 계획을 바꿔야 할 것 같아",
+              "우리가 새 헬스장에 같이 가려고 했는데, 갑자기 팀 프로젝트 회의가 생겼어",
+              "그걸 빠질 수 없어서 오늘은 못 갈 것 같아",
+              "너와 같이 가는 걸 기대하고 있었어서 미안해",
+              "네가 시간이 되면 대신 내일 저녁에 갈 수 있을까?",
+              "아니면 이번 주말 아침에 갈 수도 있어",
+              "네가 오늘 먼저 확인하고 싶다면 먼저 가도 되고, 나는 나중에 방문할게",
+              "너에게 어떤 게 괜찮은지 말해 줘"
+            ],
+            "englishSkeleton": [
+              "Hey, I am really sorry, but I think I need to change our plan for this afternoon.",
+              "We were going to visit the new gym together, but I suddenly have a team project meeting.",
+              "I cannot skip it, so I do not think I can make it today.",
+              "I was looking forward to going with you, so I feel bad.",
+              "If you are free, can we go tomorrow evening instead?",
+              "Or maybe we can go this weekend in the morning.",
+              "If you want to check it out today, you can go first, and I will visit later.",
+              "Please tell me what works for you."
+            ]
+          }
         },
         {
           "id": "script-7-gym-set-1-type-8-8",
@@ -18477,7 +21251,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 처음에는 변경이 스트레스였지만 결과적으로 잘 해결되었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "네, 나는 한 번 친구와의 계획을 바꿔야 했던 적이 있음",
+              "우리는 평일 오후에 새 헬스장을 방문할 계획이었다",
+              "우리는 시설을 둘러보고 회원권에 대해 물어보려고 했음",
+              "하지만 그날 갑자기 팀 프로젝트 회의가 생겨서 갈 수 없었음",
+              "바로 친구에게 전화해서 “정말 미안한데 주말로 옮길 수 있을까?”라고 말했다. 다행히 친구는 이해해 주었다",
+              "우리는 그것을 토요일 아침으로 다시 잡았다",
+              "우리는 함께 헬스장을 방문했고, 잠깐 러닝머신을 사용했으며, 좋은 경험을 했음",
+              "처음에는 변경이 스트레스였지만 결과적으로 잘 해결됨"
+            ],
+            "englishSkeleton": [
+              "Yes, I once had to change a plan with my friend.",
+              "We were planning to visit a new gym on a weekday afternoon.",
+              "We wanted to look around the facilities and maybe ask about membership.",
+              "But that day, I suddenly had a team project meeting, so I could not go.",
+              "I called my friend right away and said, \"I am really sorry, but can we move it to the weekend?\" Luckily, my friend understood.",
+              "We rescheduled it for Saturday morning.",
+              "In the end, we visited the gym together, used the treadmill for a short time, and had a good experience.",
+              "So the change was stressful at first, but it worked out fine."
+            ]
+          }
         }
       ]
     },
@@ -18658,7 +21454,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "다니는 헬스장은 작고 조용함",
+              "사람이 붐비지 않아서 좋음",
+              "보통 그곳에는 사람이 몇 명밖에 없음",
+              "기다리지 않고 웨이트 기구를 사용할 수 있음",
+              "음악도 너무 크지 않음",
+              "운동에 집중할 수 있음",
+              "그곳에서 편안하게 운동할 수 있음"
+            ],
+            "englishSkeleton": [
+              "The gym I go to is small and quiet.",
+              "I like it because it isn’t crowded.",
+              "There are usually only a few people there.",
+              "I can use the weight machines without waiting.",
+              "The music isn’t too loud.",
+              "So I can focus on my workout.",
+              "That's why I feel comfortable there."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-2-2",
@@ -18830,7 +21646,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "헬스장에서 보통 간단한 웨이트 트레이닝을 함",
+              "그러면 몸이 더 강해지는 느낌이 듦",
+              "보통 평일 저녁에 감",
+              "먼저 10분 정도 워밍업함",
+              "그다음 덤벨이나 웨이트 기구를 사용함",
+              "매일 다른 신체 부위를 운동함",
+              "운동을 단순하게 해서 꾸준히 할 수 있음"
+            ],
+            "englishSkeleton": [
+              "I usually do simple weight training at the gym.",
+              "It makes me feel stronger.",
+              "I usually go on weekday evenings.",
+              "First, I warm up for about ten minutes.",
+              "Then I use dumbbells or a weight machine.",
+              "I exercise a different body part each day.",
+              "I keep it simple, so I can exercise regularly."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-3-3",
@@ -19025,7 +21861,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "군대에 있을 때 운동을 시작함",
+              "제 주변의 많은 사람이 매일 운동함",
+              "저도 운동해 보고 싶었음",
+              "처음에는 무엇을 해야 할지 몰랐음",
+              "그들을 따라 팔굽혀펴기를 함",
+              "힘들었지만 조금씩 몸이 강해졌음",
+              "그 후 운동이 습관이 됨",
+              "지금도 꾸준히 운동함"
+            ],
+            "englishSkeleton": [
+              "I started working out when I was in the army.",
+              "Many people around me exercised every day.",
+              "I wanted to try it too.",
+              "At first, I didn’t know what to do.",
+              "So I followed them and did push-ups.",
+              "It was hard, but I slowly got stronger.",
+              "After that, exercise became a habit.",
+              "I still work out regularly."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-4-4",
@@ -19220,7 +22078,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 헬스장에 있던 한 남자가 기구 사용법을 알려 주었음",
+              "안전하게 운동할 수 있게 되어 고마웠음",
+              "그때 저는 기구를 너무 빨리 사용하고 있었음",
+              "기구를 잘못 사용하고 있는 줄 몰랐음",
+              "그 남자가 천천히 하라고 말했음",
+              "그는 기구 사용법을 알려 주었음",
+              "다시 해 보니 훨씬 편하게 느껴졌음",
+              "아직도 그 유용한 조언을 기억함"
+            ],
+            "englishSkeleton": [
+              "One time, a man at the gym showed me how to use a machine.",
+              "I was thankful because I could exercise safely.",
+              "At that time, I was using the machine too quickly.",
+              "I didn’t know I was using the machine wrong.",
+              "The man told me to slow down.",
+              "He showed me how to use the machine.",
+              "I tried again, and it felt much better.",
+              "I still remember that helpful advice."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-5-5",
@@ -19419,7 +22299,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 다니는 헬스장에 관해 알고 싶음",
+              "그 헬스장은 어디에 있나요?",
+              "아, 집 근처에 있군요. 좋네요",
+              "어떤 운동 기구가 있나요?",
+              "아, 웨이트 기구가 많군요. 좋네요",
+              "저녁에는 보통 붐비나요?",
+              "그렇군요. 많이 붐비지 않네요. 좋음",
+              "고마워요. 그 헬스장에 가 보고 싶음"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to know about your gym.",
+              "Where is it?",
+              "Oh, it’s near your home. That’s nice.",
+              "What machines does it have?",
+              "Oh, it has many weight machines. That sounds good.",
+              "Is it usually crowded in the evening?",
+              "I see. It isn’t too crowded. Great.",
+              "Thanks. I want to visit your gym."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-6-6",
@@ -19627,7 +22529,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 새 헬스장에 방문하고 싶음",
+              "어디에 있나요?",
+              "지하철역 근처에 있군요. 좋음",
+              "몇 시에 문을 닫나요?",
+              "10시에 문을 닫는군요. 좋음",
+              "한 달에 얼마인가요?",
+              "한 달에 50달러요? 알겠음",
+              "일일권도 있나요?",
+              "일일권이요? 좋습니다. 이번 주말에 방문하겠음"
+            ],
+            "englishSkeleton": [
+              "Hello, I’d like to visit your new gym.",
+              "Where is it?",
+              "It’s near the subway station. Great.",
+              "What time do you close?",
+              "You close at ten. Great.",
+              "How much is it per month?",
+              "Fifty dollars a month? Okay.",
+              "Do you have a one-day pass?",
+              "A one-day pass? Great. I'll visit this weekend."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-7-7",
@@ -19831,7 +22757,29 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "미안한데 오늘 헬스장에 갈 수 없어",
+              "머리가 많이 아파",
+              "내일 저녁에 갈 수 있을까?",
+              "아, 내일은 바쁘구나. 알겠어",
+              "그러면 이번 토요일 오후는 어때?",
+              "아, 토요일은 괜찮구나. 좋아",
+              "오늘은 쉬고 토요일에 만날게",
+              "계획을 바꿔서 다시 한번 미안해"
+            ],
+            "englishSkeleton": [
+              "Hey, I’m sorry, but I can’t go to the gym today.",
+              "I have a bad headache.",
+              "Could we go tomorrow evening?",
+              "Oh, you’re busy tomorrow. I understand.",
+              "Then, how about Saturday afternoon?",
+              "Oh, Saturday is good for you. Great.",
+              "I’ll rest today and see you on Saturday.",
+              "Sorry again for changing our plan."
+            ]
+          }
         },
         {
           "id": "script-7-gym2-set-1-type-8-8",
@@ -20030,7 +22978,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 머리가 심하게 아파서 헬스장 방문을 취소함",
+              "친구가 저를 기다리고 있어서 미안함",
+              "그날 우리는 방과 후에 새 헬스장에 가려고 함",
+              "바로 친구에게 전화함",
+              "“토요일에 갈 수 있을까?”라고 말했음",
+              "친구가 좋다고 해서 저는 집에서 쉬었음",
+              "토요일에는 몸이 나아졌음",
+              "우리는 함께 즐겁게 운동함"
+            ],
+            "englishSkeleton": [
+              "I once canceled a gym visit because I had a bad headache.",
+              "I felt sorry because my friend was waiting for me.",
+              "That day, we were going to visit a new gym after school.",
+              "I called my friend right away.",
+              "I said, “Can we go on Saturday?”",
+              "My friend said yes, so I rested at home.",
+              "On Saturday, I felt better.",
+              "We had a good workout together."
+            ]
+          }
         }
       ]
     },
@@ -20129,7 +23099,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 나는 나를 편안하게 해 주는 사람들과 휴가를 보내는 것을 좋아한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "방학이나 휴가 때 보통 가족과 친한 친구들과 시간을 보내는 것을 좋아함",
+              "항상 멀리 여행할 필요는 없음",
+              "나에게는 장소보다 함께 있는 사람들이 더 중요하다",
+              "바쁜 학교 생활 중에는 그들과 이야기할 시간이 충분하지 않다",
+              "방학이나 휴가가 있으면 함께 밥을 먹거나 집에서 영화를 보거나 카페에 가는 것을 즐긴다",
+              "친한 친구들과는 가끔 산책을 하거나 작은 공연을 보러 간다",
+              "이 활동들은 단순하지만 나를 편안하게 해 준다",
+              "나는 나를 편안하게 해 주는 사람들과 휴가를 보내는 것을 좋아함"
+            ],
+            "englishSkeleton": [
+              "When I am on vacation, I usually like spending time with my family and close friends.",
+              "I do not always need to travel far.",
+              "For me, the people I am with are more important than the place.",
+              "During busy school days, I do not have enough time to talk with them.",
+              "So when I have a vacation, I enjoy eating together, watching a movie at home, or going to a cafe.",
+              "With close friends, I sometimes go for a walk or see a small performance.",
+              "These activities are simple, but they make me feel comfortable.",
+              "That is why I like spending vacation with people who make me feel relaxed."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-2-2",
@@ -20219,7 +23211,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "함께 있는 사람들을 즐길 수 있어서 나는 느린 활동을 더 좋아한다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "방학이나 휴가 동안 나는 가족과 친구들과 간단한 활동을 하는 것을 즐긴다",
+              "가족과는 보통 집에서 맛있는 음식을 먹고 함께 영화를 봄",
+              "가끔은 동네 근처에서 짧게 산책을 함",
+              "이런 것들은 특별하지는 않지만 따뜻하고 편안하게 느껴짐",
+              "친구들을 만나면 우리는 자주 카페에 가서 오랫동안 이야기함",
+              "시간이 충분하면 작은 공연이나 영화를 보러 간다",
+              "너무 바쁜 휴가 계획을 세우는 것을 좋아하지 않는다",
+              "함께 있는 사람들을 즐길 수 있어서 나는 느린 활동을 더 좋아함"
+            ],
+            "englishSkeleton": [
+              "During vacation, I enjoy doing simple activities with my family and friends.",
+              "With my family, I usually eat good food at home and watch a movie together.",
+              "Sometimes we take a short walk near our neighborhood.",
+              "These things are not special, but they feel warm and comfortable.",
+              "When I meet my friends, we often go to a cafe and talk for a long time.",
+              "If we have enough time, we go to see a small performance or a movie.",
+              "I do not like making a very busy vacation plan.",
+              "I prefer slow activities because I can enjoy the people I am with."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-3-3",
@@ -20309,7 +23323,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "화려한 휴가는 아니었지만 매우 만족스러웠다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "최근에 집에서 보낸 휴가 날 하나는 지난 방학 때였음",
+              "그날 아침에는 알람을 맞추지 않아서 조금 늦게 일어났다",
+              "서두를 필요가 없어서 처음부터 기분이 좋았다",
+              "가족과 집에서 점심을 먹고 사소한 것들에 대해 이야기했음",
+              "오후에는 집 근처 카페에서 친한 친구를 만났다",
+              "우리는 커피를 마시며 학교와 휴가 계획에 대해 이야기했음",
+              "저녁에는 집에 돌아와 간단히 저녁을 먹고 내 방에서 영화를 봤다",
+              "화려한 휴가는 아니었지만 매우 만족스러웠다"
+            ],
+            "englishSkeleton": [
+              "One recent vacation day I spent at home was during my last school break.",
+              "That morning, I did not set an alarm, so I woke up a little late.",
+              "It felt nice from the beginning because I did not have to rush.",
+              "I had lunch at home with my family, and we talked about small things.",
+              "In the afternoon, I met a close friend at a cafe near my home.",
+              "We drank coffee and talked about school and our vacation plans.",
+              "In the evening, I came back home, had a simple dinner, and watched a movie in my room.",
+              "It was not a fancy vacation, but it was very satisfying."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-4-4",
@@ -20404,7 +23440,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "그래서 그것은 내가 가장 좋아하는 휴가 기억 중 하나가 되었다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "만족스러웠던 휴가 경험 하나는 친한 친구와 함께 있을 때 생김",
+              "그날 우리는 큰 계획이 없었음",
+              "우리는 그냥 카페에 가서 커피를 마시고 근처 작은 광장을 걸어 다녔다",
+              "그때 우리는 무료 음악 공연 안내판을 봄",
+              "시간이 있어서 우리는 잠시 그것을 보기로 했음",
+              "무대는 작았지만 음악은 정말 좋았고 사람들은 자연스럽게 박수를 치고 있었다",
+              "전혀 계획하지 않았던 일이라서 나는 놀랐다",
+              "그 작은 공연 때문에 하루 전체가 특별하게 느껴졌다",
+              "그것은 내가 가장 좋아하는 휴가 기억 중 하나가 됨"
+            ],
+            "englishSkeleton": [
+              "One satisfying vacation experience happened when I was with a close friend.",
+              "We did not have a big plan that day.",
+              "We just went to a cafe, had coffee, and walked around a small square nearby.",
+              "Then we saw a sign for a free music performance.",
+              "We had time, so we decided to watch it for a while.",
+              "The stage was small, but the music was really nice, and people were clapping naturally.",
+              "I was surprised because we had not planned it at all.",
+              "That small performance made the whole day feel special.",
+              "So it became one of my favorite vacation memories."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-5-5",
@@ -20499,7 +23559,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "나중에 비슷한 것을 해 볼 수도 있어서 네 생각을 듣고 싶어."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "네가 휴가를 어떻게 보내는지 궁금해",
+              "첫째, 휴가 동안 보통 누구와 시간을 보내?",
+              "그 사람들은 가족이야, 친구야, 아니면 다른 사람이야?",
+              "둘째, 그들과 보통 무엇을 해?",
+              "함께 밥을 먹거나, 여행하거나, 영화를 보거나, 그냥 집에서 쉬어?",
+              "셋째, 왜 그 사람들과 시간을 보내는 것을 즐겨?",
+              "또 휴가 동안 보통 집에 있어, 아니면 밖에 나가는 것을 더 좋아해?",
+              "마지막으로, 그들과 함께한 기억에 남는 휴가 경험이 하나 있어?",
+              "나중에 비슷한 것을 해 볼 수도 있어서 네 생각을 듣고 싶어"
+            ],
+            "englishSkeleton": [
+              "I am curious about how you spend your vacation.",
+              "First, who do you usually spend time with during vacation?",
+              "Are they your family members, friends, or someone else?",
+              "Second, what do you usually do with them?",
+              "Do you eat together, travel, watch movies, or just relax at home?",
+              "Third, why do you enjoy spending time with those people?",
+              "Also, do you usually stay at home during vacation, or do you prefer going outside?",
+              "Finally, do you have one memorable vacation experience with them?",
+              "I want to hear your ideas because I may try something similar later."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-6-6",
@@ -20594,7 +23678,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "감사합니다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 오늘 밤 공연 티켓 두 장을 사고 싶어서 전화함",
+              "휴가 중이고 친구와 함께 가고 싶음",
+              "첫째, 공연은 몇 시에 시작하나요?",
+              "둘째, 아직 나란히 붙은 좌석 두 자리가 있나요?",
+              "셋째, 티켓 가격은 얼마인가요?",
+              "그리고 온라인으로 결제할 수 있나요, 아니면 매표소에서 결제해야 하나요?",
+              "한 가지 더 질문하겠습니다. 티켓을 휴대폰으로 받을 수 있나요, 아니면 공연장에서 수령해야 하나요?",
+              "예약 절차를 설명해 주시면 바로 예매하고 싶음",
+              "감사함"
+            ],
+            "englishSkeleton": [
+              "Hello, I am calling because I want to buy two tickets for a performance tonight.",
+              "I am on vacation, and I would like to go with my friend.",
+              "First, what time does the performance start?",
+              "Second, are there still two seats available next to each other?",
+              "Third, how much are the tickets?",
+              "Also, can I pay online, or do I need to pay at the ticket office?",
+              "One more question: can I receive the tickets on my phone, or should I pick them up at the venue?",
+              "If you explain the reservation process, I would like to book them right away.",
+              "Thank you."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-7-7",
@@ -20685,7 +23793,29 @@ window.OPIC_STUDY_DATA = {
               "korean": "다시 한 번 정말 미안해."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "야, 정말 미안한데 오늘 공연에 갈 수 없을 것 같아",
+              "오늘 아침부터 몸이 안 좋았고 지금은 열과 목 통증이 있어",
+              "우리 둘 다 기대하고 있었다는 걸 알아서 마음이 정말 안 좋아",
+              "그래도 가고 싶다면 다른 친구를 데려가서 내 티켓을 써도 돼",
+              "아니면 내가 매표소에 전화해서 환불이나 티켓 양도가 가능한지 확인할게",
+              "둘 다 안 되면 나중에 다른 공연 티켓을 사 줄게",
+              "네가 무엇을 선호하는지 말해 줘",
+              "다시 한 번 정말 미안해"
+            ],
+            "englishSkeleton": [
+              "Hey, I am really sorry, but I do not think I can go to the performance today.",
+              "I felt sick this morning, and now I have a fever and a sore throat.",
+              "I know we were both looking forward to it, so I feel terrible.",
+              "If you still want to go, you can take another friend with you and use my ticket.",
+              "Or I can call the ticket office and check if a refund or ticket transfer is possible.",
+              "If neither option works, I will buy tickets for another performance later.",
+              "Please tell me what you prefer.",
+              "Again, I am really sorry."
+            ]
+          }
         },
         {
           "id": "script-8-vacation-set-1-type-8-8",
@@ -20780,7 +23910,31 @@ window.OPIC_STUDY_DATA = {
               "korean": "나중에 친구와 나는 다른 공연을 함께 예매하기로 했다."
             }
           ],
-          "fillerItems": []
+          "fillerItems": [],
+          "review": {
+            "koreanFlow": [
+              "네, 나는 휴가 중에 공연 티켓을 샀지만 가지 못했던 적이 있음",
+              "친구와 작은 콘서트를 보러 갈 계획이었다",
+              "우리는 티켓 두 장을 미리 샀고 둘 다 신이 나 있었다",
+              "하지만 공연 당일 아침에 갑자기 열이 나고 목이 아팠다",
+              "처음에는 그래도 갈 수 있다고 생각했지만 상태가 더 나빠졌다",
+              "바로 친구에게 전화해서 상황을 설명했음",
+              "다행히 다른 친구가 나 대신 갈 수 있어서 나는 티켓을 양도했음",
+              "실망스러웠지만 티켓이 낭비되지 않아서 안심했음",
+              "나중에 친구와 나는 다른 공연을 함께 예매하기로 했음"
+            ],
+            "englishSkeleton": [
+              "Yes, I once bought a performance ticket during vacation, but I could not go.",
+              "I had planned to see a small concert with my friend.",
+              "We bought two tickets in advance, and we were both excited.",
+              "But on the morning of the performance, I suddenly had a fever and a sore throat.",
+              "At first, I thought I could still go, but my condition got worse.",
+              "I called my friend right away and explained the situation.",
+              "Luckily, another friend was able to go instead of me, so I transferred my ticket.",
+              "I was disappointed, but I was relieved that the ticket was not wasted.",
+              "Later, my friend and I decided to book another performance together."
+            ]
+          }
         }
       ]
     },
@@ -20971,7 +24125,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "가족과 함께 휴가를 보내는 것을 좋아함",
+              "가족과 함께 있으면 마음이 편안함",
+              "우리는 보통 조용한 식당에서 함께 식사함",
+              "천천히 식사하며 이야기를 나눔",
+              "아무도 서두르지 않음",
+              "잠시 학교 생각을 잊을 수 있음",
+              "가족과 함께하는 휴가를 좋아함"
+            ],
+            "englishSkeleton": [
+              "I like spending my vacation with my family.",
+              "I feel relaxed when I’m with them.",
+              "We usually eat together at a quiet restaurant.",
+              "We take our time and talk.",
+              "No one is in a hurry.",
+              "I can forget about school for a while.",
+              "That's why I enjoy vacations with my family."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-2-2",
@@ -21143,7 +24317,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "휴가 중에는 보통 가족과 천천히 식사함",
+              "아무도 서두를 필요가 없어서 좋음",
+              "우리는 조용한 식당에 감",
+              "음식을 주문하고 천천히 식사함",
+              "식사하면서 일상 이야기를 함",
+              "우리는 식사하면서 편하게 쉴 수 있음",
+              "이것이 제가 가장 좋아하는 휴가 활동"
+            ],
+            "englishSkeleton": [
+              "During vacation, I usually eat slowly with my family.",
+              "I like this because no one has to hurry.",
+              "We go to a quiet restaurant.",
+              "We order food and take our time.",
+              "While we eat, we talk about our daily lives.",
+              "We can relax while we eat.",
+              "It's my favorite vacation activity."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-3-3",
@@ -21325,7 +24519,27 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "지난 방학 때 집에서 조용한 하루를 보냈음",
+              "피곤해서 쉬고 싶었음",
+              "아침에는 늦잠을 잤음",
+              "그다음 간단하게 점심을 먹었음",
+              "오후에는 침대에서 유튜브를 봤음",
+              "저녁에는 가족과 함께 저녁을 먹었음",
+              "특별한 일은 하지 않았지만 기분이 훨씬 좋아졌음"
+            ],
+            "englishSkeleton": [
+              "During my last school break, I spent a quiet day at home.",
+              "I was tired, so I wanted to rest.",
+              "I slept late in the morning.",
+              "Then I had a simple lunch.",
+              "In the afternoon, I watched YouTube on my bed.",
+              "In the evening, I had dinner with my family.",
+              "I did nothing special, but I felt much better."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-4-4",
@@ -21520,7 +24734,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 휴가 중에 라이브 공연을 봤음",
+              "기분 좋은 뜻밖의 일이었음",
+              "처음에는 친구와 점심만 먹기로 함",
+              "점심을 먹은 후 공연 포스터를 봤음",
+              "우리는 표를 사서 안으로 들어갔음",
+              "음악은 제가 기대한 것보다 훨씬 좋았음",
+              "친구와 저는 즐거운 시간을 보냈음",
+              "그 공연 덕분에 그날이 특별해졌음"
+            ],
+            "englishSkeleton": [
+              "One time, I watched a live show during my vacation.",
+              "It was a nice surprise.",
+              "At first, my friend and I only planned to have lunch.",
+              "After lunch, we saw a poster for a show.",
+              "We bought tickets and went inside.",
+              "The music was much better than I expected.",
+              "My friend and I had a great time.",
+              "That show made the day special."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-5-5",
@@ -21732,7 +24968,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 휴가에 관해 알고 싶음",
+              "보통 누구와 휴가를 보내나요?",
+              "아, 가족과 함께 보내는군요. 좋네요",
+              "보통 함께 무엇을 하나요?",
+              "함께 여유롭게 식사하는군요. 편안하겠네요",
+              "보통 함께 어디에 가나요?",
+              "조용한 곳에 가는군요. 좋네요",
+              "왜 가족과 함께하는 휴가를 좋아하나요?",
+              "그렇군요. 가족과 있으면 편안하군요. 이야기해 줘서 고마워요"
+            ],
+            "englishSkeleton": [
+              "Hi, I want to know about your vacations.",
+              "Who do you usually spend your vacation with?",
+              "Oh, you spend it with your family. That sounds nice.",
+              "What do you usually do together?",
+              "You often have long meals. That sounds relaxing.",
+              "Where do you usually go together?",
+              "You go to quiet places. I like that.",
+              "Why do you like vacations with your family?",
+              "I see. You feel comfortable with them. Thanks for sharing."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-6-6",
@@ -21940,7 +25200,31 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶음",
+              "공연은 몇 시에 시작하나요?",
+              "8시에 시작하는군요. 좋음",
+              "붙어 있는 좌석 두 자리가 있나요?",
+              "가운데 자리요? 좋음",
+              "표 두 장은 얼마인가요?",
+              "40달러요? 알겠음",
+              "모바일 티켓을 받을 수 있나요?",
+              "좋습니다. 지금 예매하겠음"
+            ],
+            "englishSkeleton": [
+              "Hello, I’d like to buy two tickets for tonight's show.",
+              "What time does the show start?",
+              "It starts at eight. Great.",
+              "Do you have two seats together?",
+              "Seats in the middle? Great.",
+              "How much are the tickets?",
+              "Forty dollars? Okay.",
+              "Can I get mobile tickets?",
+              "Great. I'll book them now."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-7-7",
@@ -22149,7 +25433,31 @@ window.OPIC_STUDY_DATA = {
               "englishEmphasis": [],
               "koreanEmphasis": []
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "미안한데 오늘 공연에 갈 수 없어",
+              "열이 나",
+              "다른 친구와 함께 갈 수 있어?",
+              "그 친구가 내 표를 사용하면 돼",
+              "아, 함께 갈 다른 친구가 없구나? 알겠어",
+              "그러면 내가 환불을 요청할게. 괜찮아?",
+              "알겠어, 그렇게 할게",
+              "지금 매표소에 전화할게",
+              "다시 한번 미안해. 매표소에서 뭐라고 하는지 알려 줄게"
+            ],
+            "englishSkeleton": [
+              "Hey, I’m sorry, but I can’t go to the show today.",
+              "I have a fever.",
+              "Can you go with another friend?",
+              "That friend can use my ticket.",
+              "Oh, no one else can go? I understand.",
+              "Then, I can ask for a refund. Is that okay?",
+              "Okay, I’ll do that.",
+              "I’ll call the ticket office now.",
+              "Sorry again. I'll let you know what they say."
+            ]
+          }
         },
         {
           "id": "script-8-vacation2-set-1-type-8-8",
@@ -22338,7 +25646,29 @@ window.OPIC_STUDY_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "review": {
+            "koreanFlow": [
+              "한번은 아파서 공연에 가지 못함",
+              "약속을 취소해야 해서 정말 미안함",
+              "그날 아침에 열이 났음",
+              "바로 친구에게 전화함",
+              "“미안하지만 갈 수 없어.”라고 말했음",
+              "제 친구는 함께 갈 다른 사람을 찾았음",
+              "그 사람에게 제 표를 보냈음",
+              "아쉬웠지만 누군가 그 표를 사용할 수 있어서 다행이었음"
+            ],
+            "englishSkeleton": [
+              "I once missed a show because I got sick.",
+              "I felt really sorry because I had to cancel.",
+              "That morning, I had a fever.",
+              "I called my friend right away.",
+              "I said, “I’m sorry, but I can’t go.”",
+              "My friend found someone else to go with.",
+              "I sent my ticket to that person.",
+              "I was sad, but I was glad someone used the ticket."
+            ]
+          }
         }
       ]
     }
@@ -22350,12 +25680,12 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "categories": 145,
     "mainPoints": 121,
-    "finalSentences": 1215,
-    "speakingChunks": 1206,
-    "speakingTranslations": 1206,
+    "finalSentences": 1217,
+    "speakingChunks": 1208,
+    "speakingTranslations": 1208,
     "fillerEntries": 81,
-    "fillerSentences": 667,
-    "fillerTranslations": 667,
-    "translations": 1215
+    "fillerSentences": 669,
+    "fillerTranslations": 669,
+    "translations": 1217
   }
 };

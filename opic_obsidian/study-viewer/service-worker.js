@@ -1,11 +1,14 @@
 "use strict";
 
-const CACHE_NAME = "opic-practice-v8";
+const CACHE_NAME = "opic-practice-v9";
 const APP_SHELL = [
   "./index.html",
   "./compact.html",
   "./compact-styles.css",
   "./compact-app.js",
+  "./review.html",
+  "./review-styles.css",
+  "./review-app.js",
   "./data.js",
   "./manifest.webmanifest",
   "./icons/apple-touch-icon.png",

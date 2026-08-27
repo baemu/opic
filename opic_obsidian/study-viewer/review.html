@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf9f5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>시험 직전 복습 | OPIc Practice</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="stylesheet" href="./review-styles.css" />
+  </head>
+  <body>
+    <main class="review-shell">
+      <header class="review-header">
+        <div class="review-brand">
+          <a class="icon-link" href="./compact.html" aria-label="학습 화면으로 돌아가기" title="학습 화면">←</a>
+          <div>
+            <h1>시험 직전 복습</h1>
+            <p id="reviewStats">불러오는 중...</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="toggleEnglishBtn" class="secondary-button" type="button" aria-pressed="false">
+            영어 모두 보기
+          </button>
+          <a class="primary-link" href="./compact.html">학습 화면</a>
+        </div>
+      </header>
+
+      <nav class="topic-nav" aria-label="복습 주제">
+        <div id="topicTabs" class="topic-tabs"></div>
+      </nav>
+
+      <section class="review-toolbar">
+        <div class="review-heading">
+          <p id="sourceName" class="eyebrow">-</p>
+          <div class="title-row">
+            <h2 id="topicTitle">주제</h2>
+            <span id="entryCount" class="entry-count"></span>
+          </div>
+          <p class="review-hint">한국어 흐름으로 내용을 떠올리고, 막히는 문제만 눌러 영어 뼈대를 확인하세요.</p>
+        </div>
+        <div id="setTabs" class="set-tabs" aria-label="세트"></div>
+      </section>
+
+      <section id="reviewList" class="review-list" aria-live="polite"></section>
+    </main>
+
+    <script>
+      (() => {
+        const requestedVersion = new URLSearchParams(window.location.search).get("v");
+        const assetVersion =
+          window.location.protocol === "file:" ? "" : requestedVersion || String(Date.now());
+        const suffix = assetVersion ? `?v=${encodeURIComponent(assetVersion)}` : "";
+        const dataScript = document.createElement("script");
+
+        const loadApp = () => {
+          const appScript = document.createElement("script");
+          appScript.src = `./review-app.js${suffix}`;
+          document.body.append(appScript);
+        };
+
+        dataScript.src = `./data.js${suffix}`;
+        dataScript.addEventListener("load", loadApp, { once: true });
+        dataScript.addEventListener("error", loadApp, { once: true });
+        document.body.append(dataScript);
+      })();
+    </script>
+  </body>
+</html>
