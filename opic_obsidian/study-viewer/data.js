@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-27T23:08:09.196Z",
+  "generatedAt": "2026-08-27T23:20:19.988Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -19251,28 +19251,31 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "My favorite actress is Emma Stone.",
             "I like her because her acting feels natural.",
-            "I was happy when she got an Oscar in 2024.",
+            "In 2024, I saw on the news that she got an Oscar.",
+            "She got it for the movie Poor Things.",
             "I saw a short video of her speech online.",
-            "She looked surprised and thankful.",
-            "She also thanked many people in her speech.",
+            "She looked surprised and very happy.",
+            "I was happy for her too.",
             "After that, I liked her even more."
           ],
           "speakingChunks": [
             "My favorite actress is Emma Stone.",
             "I like her because her acting feels natural.",
-            "I was happy when she got an Oscar in 2024.",
+            "In 2024, I saw on the news that she got an Oscar.",
+            "She got it for the movie Poor Things.",
             "I saw a short video of her speech online.",
-            "She looked surprised and thankful.",
-            "She also thanked many people in her speech.",
+            "She looked surprised and very happy.",
+            "I was happy for her too.",
             "After that, I liked her even more."
           ],
           "speakingTranslations": [
             "제가 가장 좋아하는 배우는 Emma Stone입니다.",
             "그녀의 연기가 자연스럽게 느껴져서 좋아합니다.",
-            "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
+            "2024년에 그녀가 오스카상을 받았다는 소식을 봤습니다.",
+            "그녀는 영화 《Poor Things》로 그 상을 받았습니다.",
             "저는 온라인에서 그녀의 수상 소감 영상을 짧게 봤습니다.",
-            "그녀는 놀라고 감사해 보였습니다.",
-            "그녀는 수상 소감에서 많은 사람에게 감사했습니다.",
+            "그녀는 놀라고 매우 기뻐 보였습니다.",
+            "저도 그녀가 상을 받아서 기뻤습니다.",
             "그 후로 그녀를 더욱 좋아하게 되었습니다."
           ],
           "mainPoint": "My favorite actress is Emma Stone. I like her because her acting feels natural.",
@@ -19305,20 +19308,24 @@ window.OPIC_STUDY_DATA = {
               "korean": "그녀의 연기가 자연스럽게 느껴져서 좋아합니다."
             },
             {
-              "english": "I was happy when she got an Oscar in 2024.",
-              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다."
+              "english": "In 2024, I saw on the news that she got an Oscar.",
+              "korean": "2024년에 그녀가 오스카상을 받았다는 소식을 봤습니다."
+            },
+            {
+              "english": "She got it for the movie Poor Things.",
+              "korean": "그녀는 영화 《Poor Things》로 그 상을 받았습니다."
             },
             {
               "english": "I saw a short video of her speech online.",
               "korean": "저는 온라인에서 그녀의 수상 소감 영상을 짧게 봤습니다."
             },
             {
-              "english": "She looked surprised and thankful.",
-              "korean": "그녀는 놀라고 감사해 보였습니다."
+              "english": "She looked surprised and very happy.",
+              "korean": "그녀는 놀라고 매우 기뻐 보였습니다."
             },
             {
-              "english": "She also thanked many people in her speech.",
-              "korean": "그녀는 수상 소감에서 많은 사람에게 감사했습니다."
+              "english": "I was happy for her too.",
+              "korean": "저도 그녀가 상을 받아서 기뻤습니다."
             },
             {
               "english": "After that, I liked her even more.",
@@ -19359,8 +19366,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I was happy when she got an Oscar in 2024.",
-              "korean": "그녀가 2024년에 오스카상을 받았을 때 기뻤습니다.",
+              "english": "In 2024, I saw on the news that she got an Oscar.",
+              "korean": "2024년에 그녀가 오스카상을 받았다는 소식을 봤습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "She got it for the movie Poor Things.",
+              "korean": "그녀는 영화 《Poor Things》로 그 상을 받았습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -19371,8 +19384,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "She looked kind of surprised and thankful.",
-              "korean": "그녀는 조금 놀라고 감사해 보였습니다.",
+              "english": "She looked kind of surprised and very happy.",
+              "korean": "그녀는 조금 놀라고 매우 기뻐 보였습니다.",
               "englishEmphasis": [
                 {
                   "start": 11,
@@ -19387,8 +19400,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, she also thanked many people in her speech.",
-              "korean": "있잖아요, 그녀는 수상 소감에서 많은 사람에게 감사했습니다.",
+              "english": "You know, I was happy for her too.",
+              "korean": "있잖아요, 저도 그녀가 상을 받아서 기뻤습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19423,19 +19436,21 @@ window.OPIC_STUDY_DATA = {
             "koreanFlow": [
               "가장 좋아하는 배우는 Emma Stone",
               "그녀의 연기가 자연스럽게 느껴져서 좋아함",
-              "그녀가 2024년에 오스카상을 받았을 때 기뻤음",
+              "2024년에 그녀가 오스카상을 받았다는 소식을 봤음",
+              "그녀는 영화 《Poor Things》로 그 상을 받았음",
               "온라인에서 그녀의 수상 소감 영상을 짧게 봤음",
-              "그녀는 놀라고 감사해 보였음",
-              "그녀는 수상 소감에서 많은 사람에게 감사함",
+              "그녀는 놀라고 매우 기뻐 보였음",
+              "저도 그녀가 상을 받아서 기뻤음",
               "그 후로 그녀를 더욱 좋아하게 됨"
             ],
             "englishSkeleton": [
               "My favorite actress is Emma Stone.",
               "I like her because her acting feels natural.",
-              "I was happy when she got an Oscar in 2024.",
+              "In 2024, I saw on the news that she got an Oscar.",
+              "She got it for the movie Poor Things.",
               "I saw a short video of her speech online.",
-              "She looked surprised and thankful.",
-              "She also thanked many people in her speech.",
+              "She looked surprised and very happy.",
+              "I was happy for her too.",
               "After that, I liked her even more."
             ]
           }
@@ -19691,8 +19706,8 @@ window.OPIC_STUDY_DATA = {
             "Contact the movie theater and ask questions to buy tickets."
           ],
           "finalSentences": [
-            "Hello, I’d like to buy two movie tickets.",
-            "What time does the movie start?",
+            "Hi, I want two movie tickets.",
+            "Well, what time is the movie?",
             "It starts at seven. Great.",
             "Do you have two seats together?",
             "Two seats in the middle? Great.",
@@ -19702,8 +19717,8 @@ window.OPIC_STUDY_DATA = {
             "Great. I’ll book them online now."
           ],
           "speakingChunks": [
-            "Hello, I’d like to buy two movie tickets.",
-            "What time does the movie start?",
+            "Hi, I want two movie tickets.",
+            "Well, what time is the movie?",
             "It starts at seven. Great.",
             "Do you have two seats together?",
             "Two seats in the middle? Great.",
@@ -19713,8 +19728,8 @@ window.OPIC_STUDY_DATA = {
             "Great. I’ll book them online now."
           ],
           "speakingTranslations": [
-            "안녕하세요, 영화표 두 장을 사고 싶습니다.",
-            "영화는 몇 시에 시작하나요?",
+            "안녕하세요, 영화표 두 장 주세요.",
+            "음, 영화가 몇 시인가요?",
             "7시에 시작하는군요. 좋습니다.",
             "붙어 있는 좌석 두 자리가 있나요?",
             "가운데 자리 두 개요? 좋습니다.",
@@ -19741,12 +19756,12 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "Hello, I’d like to buy two movie tickets.",
-              "korean": "안녕하세요, 영화표 두 장을 사고 싶습니다."
+              "english": "Hi, I want two movie tickets.",
+              "korean": "안녕하세요, 영화표 두 장 주세요."
             },
             {
-              "english": "What time does the movie start?",
-              "korean": "영화는 몇 시에 시작하나요?"
+              "english": "Well, what time is the movie?",
+              "korean": "음, 영화가 몇 시인가요?"
             },
             {
               "english": "It starts at seven. Great.",
@@ -19779,14 +19794,14 @@ window.OPIC_STUDY_DATA = {
           ],
           "fillerItems": [
             {
-              "english": "Hello, I’d like to buy two movie tickets.",
-              "korean": "안녕하세요, 영화표 두 장을 사고 싶습니다.",
+              "english": "Hi, I want two movie tickets.",
+              "korean": "안녕하세요, 영화표 두 장 주세요.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Well, what time does the movie start?",
-              "korean": "음, 영화는 몇 시에 시작하나요?",
+              "english": "Well, what time is the movie?",
+              "korean": "음, 영화가 몇 시인가요?",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -19885,8 +19900,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "안녕하세요, 영화표 두 장을 사고 싶음",
-              "영화는 몇 시에 시작하나요?",
+              "안녕하세요, 영화표 두 장 주세요",
+              "음, 영화가 몇 시인가요?",
               "7시에 시작하는군요. 좋음",
               "붙어 있는 좌석 두 자리가 있나요?",
               "가운데 자리 두 개요? 좋음",
@@ -19896,8 +19911,8 @@ window.OPIC_STUDY_DATA = {
               "좋습니다. 지금 온라인으로 예매하겠음"
             ],
             "englishSkeleton": [
-              "Hello, I’d like to buy two movie tickets.",
-              "What time does the movie start?",
+              "Hi, I want two movie tickets.",
+              "Well, what time is the movie?",
               "It starts at seven. Great.",
               "Do you have two seats together?",
               "Two seats in the middle? Great.",
@@ -25707,12 +25722,12 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "categories": 145,
     "mainPoints": 121,
-    "finalSentences": 1218,
-    "speakingChunks": 1209,
-    "speakingTranslations": 1209,
+    "finalSentences": 1219,
+    "speakingChunks": 1210,
+    "speakingTranslations": 1210,
     "fillerEntries": 81,
-    "fillerSentences": 670,
-    "fillerTranslations": 670,
-    "translations": 1218
+    "fillerSentences": 671,
+    "fillerTranslations": 671,
+    "translations": 1219
   }
 };
