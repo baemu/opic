@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-26T22:35:41.486Z",
+  "generatedAt": "2026-08-27T21:40:37.911Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -9280,32 +9280,32 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I usually watch the sunset when I go to the beach.",
-            "I love watching it because it makes me feel calm.",
+            "I love watching it because it makes me feel refreshed.",
             "I usually go there before sunset.",
             "I find a quiet place on the sand.",
             "Then I sit down and look at the ocean.",
-            "I put my phone away.",
             "The sky slowly turns orange and pink.",
+            "I take some pictures of the sunset.",
             "That’s why I always watch the sunset at the beach."
           ],
           "speakingChunks": [
             "I usually watch the sunset when I go to the beach.",
-            "I love watching it because it makes me feel calm.",
+            "I love watching it because it makes me feel refreshed.",
             "I usually go there before sunset.",
             "I find a quiet place on the sand.",
             "Then I sit down and look at the ocean.",
-            "I put my phone away.",
             "The sky slowly turns orange and pink.",
+            "I take some pictures of the sunset.",
             "That’s why I always watch the sunset at the beach."
           ],
           "speakingTranslations": [
             "저는 해변에 가면 보통 석양을 봅니다.",
-            "석양을 보면 마음이 차분해져서 정말 좋아합니다.",
+            "석양을 보면 기분이 상쾌해져서 정말 좋아합니다.",
             "저는 보통 해가 지기 전에 그곳에 갑니다.",
             "모래사장에서 조용한 자리를 찾습니다.",
             "그러고 나서 앉아서 바다를 바라봅니다.",
-            "휴대전화를 치워 둡니다.",
             "하늘은 천천히 주황색과 분홍색으로 변합니다.",
+            "석양 사진을 몇 장 찍습니다.",
             "그래서 저는 해변에 가면 항상 석양을 봅니다."
           ],
           "mainPoint": "I usually watch the sunset when I go to the beach.",
@@ -9330,8 +9330,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 해변에 가면 보통 석양을 봅니다."
             },
             {
-              "english": "I love watching it because it makes me feel calm.",
-              "korean": "석양을 보면 마음이 차분해져서 정말 좋아합니다."
+              "english": "I love watching it because it makes me feel refreshed.",
+              "korean": "석양을 보면 기분이 상쾌해져서 정말 좋아합니다."
             },
             {
               "english": "I usually go there before sunset.",
@@ -9346,12 +9346,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "그러고 나서 앉아서 바다를 바라봅니다."
             },
             {
-              "english": "I put my phone away.",
-              "korean": "휴대전화를 치워 둡니다."
-            },
-            {
               "english": "The sky slowly turns orange and pink.",
               "korean": "하늘은 천천히 주황색과 분홍색으로 변합니다."
+            },
+            {
+              "english": "I take some pictures of the sunset.",
+              "korean": "석양 사진을 몇 장 찍습니다."
             },
             {
               "english": "That’s why I always watch the sunset at the beach.",
@@ -9376,8 +9376,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, I love watching it because it makes me feel calm.",
-              "korean": "있잖아요, 석양을 보면 마음이 차분해져서 정말 좋아합니다.",
+              "english": "You know, I love watching it because it makes me feel refreshed.",
+              "korean": "있잖아요, 석양을 보면 기분이 상쾌해져서 정말 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -9410,12 +9410,18 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Anyway, I put my phone away.",
-              "korean": "아무튼, 휴대전화를 치워 둡니다.",
+              "english": "The sky slowly turns orange and pink.",
+              "korean": "하늘은 천천히 주황색과 분홍색으로 변합니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Then, I take some pictures of the sunset.",
+              "korean": "그다음, 석양 사진을 몇 장 찍습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 5
                 }
               ],
               "koreanEmphasis": [
@@ -9424,12 +9430,6 @@ window.OPIC_STUDY_DATA = {
                   "end": 4
                 }
               ]
-            },
-            {
-              "english": "The sky slowly turns orange and pink.",
-              "korean": "하늘은 천천히 주황색과 분홍색으로 변합니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
             },
             {
               "english": "So, yeah, I always watch the sunset at the beach.",
@@ -9466,27 +9466,27 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last month, I went to the beach with my friend.",
             "I was happy because we met again after a long time.",
-            "That day, the weather was warm.",
+            "That day, the weather was warm and sunny.",
             "We walked near the water and just talked.",
             "Then we sat on the sand and had some drinks.",
-            "We watched the sunset and took a few pictures.",
+            "We watched the sunset and took some pictures.",
             "After about two hours, we went home.",
             "We had a good time together."
           ],
           "speakingChunks": [
             "Last month, I went to the beach with my friend.",
             "I was happy because we met again after a long time.",
-            "That day, the weather was warm.",
+            "That day, the weather was warm and sunny.",
             "We walked near the water and just talked.",
             "Then we sat on the sand and had some drinks.",
-            "We watched the sunset and took a few pictures.",
+            "We watched the sunset and took some pictures.",
             "After about two hours, we went home.",
             "We had a good time together."
           ],
           "speakingTranslations": [
             "지난달에 친구와 해변에 갔습니다.",
             "오랜만에 다시 만나서 기뻤습니다.",
-            "그날은 날씨가 따뜻했습니다.",
+            "그날은 날씨가 따뜻하고 화창했습니다.",
             "물가 근처를 걸으며 그냥 이야기를 나눴습니다.",
             "그러고 나서 모래사장에 앉아 음료를 마셨습니다.",
             "우리는 노을을 보고 사진을 몇 장 찍었습니다.",
@@ -9523,8 +9523,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "오랜만에 다시 만나서 기뻤습니다."
             },
             {
-              "english": "That day, the weather was warm.",
-              "korean": "그날은 날씨가 따뜻했습니다."
+              "english": "That day, the weather was warm and sunny.",
+              "korean": "그날은 날씨가 따뜻하고 화창했습니다."
             },
             {
               "english": "We walked near the water and just talked.",
@@ -9535,7 +9535,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "그러고 나서 모래사장에 앉아 음료를 마셨습니다."
             },
             {
-              "english": "We watched the sunset and took a few pictures.",
+              "english": "We watched the sunset and took some pictures.",
               "korean": "우리는 노을을 보고 사진을 몇 장 찍었습니다."
             },
             {
@@ -9581,8 +9581,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "That day, the weather was warm.",
-              "korean": "그날은 날씨가 따뜻했습니다.",
+              "english": "That day, the weather was warm and sunny.",
+              "korean": "그날은 날씨가 따뜻하고 화창했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -9599,7 +9599,7 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "We watched the sunset and took a few pictures.",
+              "english": "We watched the sunset and took some pictures.",
               "korean": "우리는 노을을 보고 사진을 몇 장 찍었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
@@ -9660,7 +9660,7 @@ window.OPIC_STUDY_DATA = {
             "Suddenly, the bird came down and took it.",
             "My friend saw it and started laughing.",
             "I laughed too.",
-            "We quickly put the rest of our food away.",
+            "So we quickly put the food back in the bag.",
             "We still laugh about it."
           ],
           "speakingChunks": [
@@ -9671,7 +9671,7 @@ window.OPIC_STUDY_DATA = {
             "Suddenly, the bird came down and took it.",
             "My friend saw it and started laughing.",
             "I laughed too.",
-            "We quickly put the rest of our food away.",
+            "So we quickly put the food back in the bag.",
             "We still laugh about it."
           ],
           "speakingTranslations": [
@@ -9682,7 +9682,7 @@ window.OPIC_STUDY_DATA = {
             "갑자기 그 새가 내려와 빵을 가져갔습니다.",
             "친구는 그 모습을 보고 웃기 시작했습니다.",
             "저도 함께 웃었습니다.",
-            "우리는 남은 음식을 재빨리 치웠습니다.",
+            "그래서 우리는 음식을 얼른 다시 가방에 넣었습니다.",
             "우리는 아직도 그 일을 떠올리며 웃습니다."
           ],
           "mainPoint": "One time, a bird took my bread at the beach.",
@@ -9731,8 +9731,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "저도 함께 웃었습니다."
             },
             {
-              "english": "We quickly put the rest of our food away.",
-              "korean": "우리는 남은 음식을 재빨리 치웠습니다."
+              "english": "So we quickly put the food back in the bag.",
+              "korean": "그래서 우리는 음식을 얼른 다시 가방에 넣었습니다."
             },
             {
               "english": "We still laugh about it.",
@@ -9823,12 +9823,12 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Anyway, we quickly put the rest of our food away.",
-              "korean": "아무튼, 우리는 남은 음식을 재빨리 치웠습니다.",
+              "english": "So, we quickly put the food back in the bag.",
+              "korean": "그래서, 우리는 음식을 얼른 다시 가방에 넣었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 3
                 }
               ],
               "koreanEmphasis": [
@@ -9873,7 +9873,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Hey, I want to ask you about the beach you go to.",
             "Which beach do you usually go to?",
-            "Oh, you go to a beach on the east coast.",
+            "Oh, you go to a beach on Jeju Island.",
             "That sounds nice.",
             "Can we swim there?",
             "Great. I want to swim there.",
@@ -9884,7 +9884,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Hey, I want to ask you about the beach you go to.",
             "Which beach do you usually go to?",
-            "Oh, you go to a beach on the east coast.",
+            "Oh, you go to a beach on Jeju Island.",
             "That sounds nice.",
             "Can we swim there?",
             "Great. I want to swim there.",
@@ -9895,7 +9895,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "안녕, 네가 가는 해변에 관해 물어보고 싶어.",
             "너는 보통 어느 해변에 가?",
-            "아, 동해안에 있는 해변에 가는구나.",
+            "아, 제주도에 있는 해변에 가는구나.",
             "좋을 것 같아.",
             "그곳에서 수영할 수 있어?",
             "좋아. 나도 그곳에서 수영하고 싶어.",
@@ -9929,8 +9929,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "너는 보통 어느 해변에 가?"
             },
             {
-              "english": "Oh, you go to a beach on the east coast.",
-              "korean": "아, 동해안에 있는 해변에 가는구나."
+              "english": "Oh, you go to a beach on Jeju Island.",
+              "korean": "아, 제주도에 있는 해변에 가는구나."
             },
             {
               "english": "That sounds nice.",
@@ -9981,8 +9981,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Oh, you go to a beach on the east coast.",
-              "korean": "아, 동해안에 있는 해변에 가는구나.",
+              "english": "Oh, you go to a beach on Jeju Island.",
+              "korean": "아, 제주도에 있는 해변에 가는구나.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10082,31 +10082,31 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Okay, let’s go to the beach this weekend.",
             "Where are we going?",
-            "Oh, the beach near the station. That’s close.",
+            "Oh, Jeju Island. That sounds great.",
             "What time can you meet?",
             "Ten o’clock is good for me.",
             "Do we need a towel?",
             "Great, I’ll bring one.",
-            "Are we going to swim?",
+            "Are we swimming?",
             "Okay, I’ll bring extra clothes.",
             "See you this weekend."
           ],
           "speakingChunks": [
             "Okay, let’s go to the beach this weekend.",
             "Where are we going?",
-            "Oh, the beach near the station. That’s close.",
+            "Oh, Jeju Island. That sounds great.",
             "What time can you meet?",
             "Ten o’clock is good for me.",
             "Do we need a towel?",
             "Great, I’ll bring one.",
-            "Are we going to swim?",
+            "Are we swimming?",
             "Okay, I’ll bring extra clothes.",
             "See you this weekend."
           ],
           "speakingTranslations": [
             "좋아, 이번 주말에 해변에 가자.",
             "우리 어디로 가는 거야?",
-            "아, 역 근처 해변이구나. 가깝네.",
+            "아, 제주도구나. 정말 좋겠다.",
             "몇 시에 만날 수 있어?",
             "나는 10시가 좋아.",
             "우리 수건이 필요해?",
@@ -10141,8 +10141,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "우리 어디로 가는 거야?"
             },
             {
-              "english": "Oh, the beach near the station. That’s close.",
-              "korean": "아, 역 근처 해변이구나. 가깝네."
+              "english": "Oh, Jeju Island. That sounds great.",
+              "korean": "아, 제주도구나. 정말 좋겠다."
             },
             {
               "english": "What time can you meet?",
@@ -10161,7 +10161,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "좋아, 내가 하나 가져갈게."
             },
             {
-              "english": "Are we going to swim?",
+              "english": "Are we swimming?",
               "korean": "우리 수영할 거야?"
             },
             {
@@ -10197,8 +10197,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Oh, the beach near the station. That’s close.",
-              "korean": "아, 역 근처 해변이구나. 가깝네.",
+              "english": "Oh, Jeju Island. That sounds great.",
+              "korean": "아, 제주도구나. 정말 좋겠다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10257,7 +10257,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Are we going to swim?",
+              "english": "Are we swimming?",
               "korean": "우리 수영할 거야?",
               "englishEmphasis": [],
               "koreanEmphasis": []
@@ -10302,38 +10302,38 @@ window.OPIC_STUDY_DATA = {
             "Tell your friend and give alternatives."
           ],
           "finalSentences": [
-            "It’s going to rain this weekend.",
+            "It will rain this weekend.",
             "We need to change our beach plan.",
             "Can we go to the beach next weekend?",
-            "Oh, next weekend isn’t good for you? I see.",
+            "Oh, you can’t go next weekend? Okay.",
             "Then, can we go to an indoor pool this weekend?",
             "Oh, you can go to the indoor pool? Great.",
             "Let's meet there on Saturday.",
             "Thanks for understanding."
           ],
           "speakingChunks": [
-            "It’s going to rain this weekend.",
+            "It will rain this weekend.",
             "We need to change our beach plan.",
             "Can we go to the beach next weekend?",
-            "Oh, next weekend isn’t good for you? I see.",
+            "Oh, you can’t go next weekend? Okay.",
             "Then, can we go to an indoor pool this weekend?",
             "Oh, you can go to the indoor pool? Great.",
             "Let's meet there on Saturday.",
             "Thanks for understanding."
           ],
           "speakingTranslations": [
-            "이번 주말에는 비가 올 예정이야.",
+            "이번 주말에 비가 올 거야.",
             "해변 계획을 바꿔야 해.",
             "다음 주말에 해변에 갈 수 있을까?",
-            "아, 다음 주말은 네가 안 되는구나? 알겠어.",
+            "아, 다음 주말에는 못 가는구나? 알겠어.",
             "그럼 이번 주말에 실내 수영장에 갈 수 있을까?",
             "아, 실내 수영장에 갈 수 있다고? 좋아.",
             "토요일에 그곳에서 만나자.",
             "이해해 줘서 고마워."
           ],
-          "mainPoint": "It’s going to rain this weekend.",
+          "mainPoint": "It will rain this weekend.",
           "mainPointSentences": [
-            "It’s going to rain this weekend."
+            "It will rain this weekend."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -10349,8 +10349,8 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "It’s going to rain this weekend.",
-              "korean": "이번 주말에는 비가 올 예정이야."
+              "english": "It will rain this weekend.",
+              "korean": "이번 주말에 비가 올 거야."
             },
             {
               "english": "We need to change our beach plan.",
@@ -10361,8 +10361,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "다음 주말에 해변에 갈 수 있을까?"
             },
             {
-              "english": "Oh, next weekend isn’t good for you? I see.",
-              "korean": "아, 다음 주말은 네가 안 되는구나? 알겠어."
+              "english": "Oh, you can’t go next weekend? Okay.",
+              "korean": "아, 다음 주말에는 못 가는구나? 알겠어."
             },
             {
               "english": "Then, can we go to an indoor pool this weekend?",
@@ -10383,8 +10383,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "fillerItems": [
             {
-              "english": "Well, it’s going to rain this weekend.",
-              "korean": "음, 이번 주말에는 비가 올 예정이야.",
+              "english": "Well, it will rain this weekend.",
+              "korean": "음, 이번 주말에 비가 올 거야.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10421,8 +10421,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Oh, next weekend isn’t good for you? I see.",
-              "korean": "아, 다음 주말은 네가 안 되는구나? 알겠어.",
+              "english": "Oh, you can’t go next weekend? Okay.",
+              "korean": "아, 다음 주말에는 못 가는구나? 알겠어.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10497,38 +10497,38 @@ window.OPIC_STUDY_DATA = {
             "Have you had an unforgettable or scary experience at the beach?"
           ],
           "finalSentences": [
-            "I once fell down because of a big wave at the beach.",
+            "One time, a big wave hit me, and I fell into the water.",
             "It was very scary.",
             "It happened last summer.",
-            "The sea looked calm, so I went into the water.",
+            "The sea looked calm, so I walked near the water.",
             "Suddenly, a big wave hit my legs.",
-            "I fell down, and my friend helped me stand up.",
+            "I fell into the water, and my friend helped me get out.",
             "My clothes were wet, but I was okay.",
             "I felt very relieved after that."
           ],
           "speakingChunks": [
-            "I once fell down because of a big wave at the beach.",
+            "One time, a big wave hit me, and I fell into the water.",
             "It was very scary.",
             "It happened last summer.",
-            "The sea looked calm, so I went into the water.",
+            "The sea looked calm, so I walked near the water.",
             "Suddenly, a big wave hit my legs.",
-            "I fell down, and my friend helped me stand up.",
+            "I fell into the water, and my friend helped me get out.",
             "My clothes were wet, but I was okay.",
             "I felt very relieved after that."
           ],
           "speakingTranslations": [
-            "한번은 해변에서 큰 파도 때문에 넘어졌습니다.",
+            "한번은 큰 파도가 저를 덮쳐서 물에 빠졌습니다.",
             "정말 무서웠습니다.",
             "지난여름에 일어난 일이었습니다.",
-            "바다가 잔잔해 보여서 물에 들어갔습니다.",
+            "바다가 잔잔해 보여서 물가 근처를 걸었습니다.",
             "갑자기 큰 파도가 제 다리를 덮쳤습니다.",
-            "저는 넘어졌고 친구가 일으켜 주었습니다.",
+            "저는 물에 빠졌고 친구가 물에서 나오도록 도와주었습니다.",
             "옷은 젖었지만 저는 괜찮았습니다.",
             "그 후에는 정말 안도했습니다."
           ],
-          "mainPoint": "I once fell down because of a big wave at the beach.",
+          "mainPoint": "One time, a big wave hit me, and I fell into the water.",
           "mainPointSentences": [
-            "I once fell down because of a big wave at the beach."
+            "One time, a big wave hit me, and I fell into the water."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -10544,8 +10544,8 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I once fell down because of a big wave at the beach.",
-              "korean": "한번은 해변에서 큰 파도 때문에 넘어졌습니다."
+              "english": "One time, a big wave hit me, and I fell into the water.",
+              "korean": "한번은 큰 파도가 저를 덮쳐서 물에 빠졌습니다."
             },
             {
               "english": "It was very scary.",
@@ -10556,16 +10556,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "지난여름에 일어난 일이었습니다."
             },
             {
-              "english": "The sea looked calm, so I went into the water.",
-              "korean": "바다가 잔잔해 보여서 물에 들어갔습니다."
+              "english": "The sea looked calm, so I walked near the water.",
+              "korean": "바다가 잔잔해 보여서 물가 근처를 걸었습니다."
             },
             {
               "english": "Suddenly, a big wave hit my legs.",
               "korean": "갑자기 큰 파도가 제 다리를 덮쳤습니다."
             },
             {
-              "english": "I fell down, and my friend helped me stand up.",
-              "korean": "저는 넘어졌고 친구가 일으켜 주었습니다."
+              "english": "I fell into the water, and my friend helped me get out.",
+              "korean": "저는 물에 빠졌고 친구가 물에서 나오도록 도와주었습니다."
             },
             {
               "english": "My clothes were wet, but I was okay.",
@@ -10578,8 +10578,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "fillerItems": [
             {
-              "english": "Well, I once fell down because of a big wave at the beach.",
-              "korean": "음, 한번은 해변에서 큰 파도 때문에 넘어졌습니다.",
+              "english": "Well, one time, a big wave hit me, and I fell into the water.",
+              "korean": "음, 한번은 큰 파도가 저를 덮쳐서 물에 빠졌습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10616,8 +10616,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "You know, the sea looked calm, so I went into the water.",
-              "korean": "있잖아요, 바다가 잔잔해 보여서 물에 들어갔습니다.",
+              "english": "You know, the sea looked calm, so I walked near the water.",
+              "korean": "있잖아요, 바다가 잔잔해 보여서 물가 근처를 걸었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -10648,8 +10648,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I fell down, and my friend helped me stand up.",
-              "korean": "저는 넘어졌고 친구가 일으켜 주었습니다.",
+              "english": "I fell into the water, and my friend helped me get out.",
+              "korean": "저는 물에 빠졌고 친구가 물에서 나오도록 도와주었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -11465,28 +11465,28 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "My favorite kind of music is rock music.",
-            "My favorite band is DAY6.",
+            "My favorite band is Yorushika.",
             "Their songs have strong guitar and drum sounds.",
-            "Their songs are also easy to sing.",
+            "I also like the singer’s clear voice.",
             "When I feel tired, I play one of their songs.",
             "The music wakes me up and gives me energy.",
             "That’s why I listen to rock music so often."
           ],
           "speakingChunks": [
             "My favorite kind of music is rock music.",
-            "My favorite band is DAY6.",
+            "My favorite band is Yorushika.",
             "Their songs have strong guitar and drum sounds.",
-            "Their songs are also easy to sing.",
+            "I also like the singer’s clear voice.",
             "When I feel tired, I play one of their songs.",
             "The music wakes me up and gives me energy.",
             "That’s why I listen to rock music so often."
           ],
           "speakingTranslations": [
             "제가 가장 좋아하는 음악은 록 음악입니다.",
-            "제가 가장 좋아하는 밴드는 데이식스입니다.",
+            "제가 가장 좋아하는 밴드는 요루시카입니다.",
             "그들의 노래에는 강렬한 기타와 드럼 소리가 있습니다.",
-            "그들의 노래는 부르기도 쉽습니다.",
-            "피곤할 때 데이식스의 노래를 틉니다.",
+            "저는 보컬의 맑은 목소리도 좋아합니다.",
+            "피곤할 때 요루시카의 노래를 틉니다.",
             "그 음악을 들으면 정신이 들고 힘이 납니다.",
             "그래서 록 음악을 자주 듣습니다."
           ],
@@ -11512,20 +11512,20 @@ window.OPIC_STUDY_DATA = {
               "korean": "제가 가장 좋아하는 음악은 록 음악입니다."
             },
             {
-              "english": "My favorite band is DAY6.",
-              "korean": "제가 가장 좋아하는 밴드는 데이식스입니다."
+              "english": "My favorite band is Yorushika.",
+              "korean": "제가 가장 좋아하는 밴드는 요루시카입니다."
             },
             {
               "english": "Their songs have strong guitar and drum sounds.",
               "korean": "그들의 노래에는 강렬한 기타와 드럼 소리가 있습니다."
             },
             {
-              "english": "Their songs are also easy to sing.",
-              "korean": "그들의 노래는 부르기도 쉽습니다."
+              "english": "I also like the singer’s clear voice.",
+              "korean": "저는 보컬의 맑은 목소리도 좋아합니다."
             },
             {
               "english": "When I feel tired, I play one of their songs.",
-              "korean": "피곤할 때 데이식스의 노래를 틉니다."
+              "korean": "피곤할 때 요루시카의 노래를 틉니다."
             },
             {
               "english": "The music wakes me up and gives me energy.",
@@ -11554,8 +11554,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "My favorite band is DAY6.",
-              "korean": "제가 가장 좋아하는 밴드는 데이식스입니다.",
+              "english": "My favorite band is Yorushika.",
+              "korean": "제가 가장 좋아하는 밴드는 요루시카입니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -11576,8 +11576,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, their songs are also easy to sing.",
-              "korean": "있잖아요, 그들의 노래는 부르기도 쉽습니다.",
+              "english": "You know, I also like the singer’s clear voice.",
+              "korean": "있잖아요, 저는 보컬의 맑은 목소리도 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -11593,7 +11593,7 @@ window.OPIC_STUDY_DATA = {
             },
             {
               "english": "When I feel kind of tired, I play one of their songs.",
-              "korean": "조금 피곤할 때 데이식스의 노래를 틉니다.",
+              "korean": "조금 피곤할 때 요루시카의 노래를 틉니다.",
               "englishEmphasis": [
                 {
                   "start": 12,
@@ -11647,7 +11647,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I usually listen to music on the bus.",
-            "Music makes the trip less boring.",
+            "Music makes the bus ride less boring.",
             "I take the bus to school almost every day.",
             "I sit down and put on my AirPods.",
             "Then I play a rock song that I like.",
@@ -11656,7 +11656,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "I usually listen to music on the bus.",
-            "Music makes the trip less boring.",
+            "Music makes the bus ride less boring.",
             "I take the bus to school almost every day.",
             "I sit down and put on my AirPods.",
             "Then I play a rock song that I like.",
@@ -11665,7 +11665,7 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingTranslations": [
             "저는 보통 버스에서 음악을 듣습니다.",
-            "음악을 들으면 이동 시간이 덜 지루합니다.",
+            "음악을 들으면 버스 타는 시간이 덜 지루합니다.",
             "저는 거의 매일 버스를 타고 학교에 갑니다.",
             "자리에 앉아 에어팟을 낍니다.",
             "그리고 좋아하는 록 노래를 틉니다.",
@@ -11694,8 +11694,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 보통 버스에서 음악을 듣습니다."
             },
             {
-              "english": "Music makes the trip less boring.",
-              "korean": "음악을 들으면 이동 시간이 덜 지루합니다."
+              "english": "Music makes the bus ride less boring.",
+              "korean": "음악을 들으면 버스 타는 시간이 덜 지루합니다."
             },
             {
               "english": "I take the bus to school almost every day.",
@@ -11736,8 +11736,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, music makes the trip less boring.",
-              "korean": "있잖아요, 음악을 들으면 이동 시간이 덜 지루합니다.",
+              "english": "You know, music makes the bus ride less boring.",
+              "korean": "있잖아요, 음악을 들으면 버스 타는 시간이 덜 지루합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -11819,8 +11819,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I started to like rock music in middle school.",
-            "Before that, I only listened to popular songs on the radio.",
-            "One day, a friend played a DAY6 song for me.",
+            "Before that, I only listened to popular songs",
+            "One day, a friend played a Yorushika song for me.",
             "The guitar sound was strong and exciting.",
             "I liked the song, so I found more songs by the band.",
             "Soon, I started listening to rock music every day.",
@@ -11828,8 +11828,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "speakingChunks": [
             "I started to like rock music in middle school.",
-            "Before that, I only listened to popular songs on the radio.",
-            "One day, a friend played a DAY6 song for me.",
+            "Before that, I only listened to popular songs",
+            "One day, a friend played a Yorushika song for me.",
             "The guitar sound was strong and exciting.",
             "I liked the song, so I found more songs by the band.",
             "Soon, I started listening to rock music every day.",
@@ -11838,7 +11838,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "저는 중학생 때 록 음악을 좋아하게 되었습니다.",
             "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
-            "어느 날 친구가 데이식스 노래를 하나 들려주었습니다.",
+            "어느 날 친구가 요루시카 노래를 하나 들려주었습니다.",
             "기타 소리가 강렬하고 신났습니다.",
             "그 노래가 좋아서 그 밴드의 다른 노래도 찾아봤습니다.",
             "얼마 지나지 않아 매일 록 음악을 듣기 시작했습니다.",
@@ -11866,12 +11866,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 중학생 때 록 음악을 좋아하게 되었습니다."
             },
             {
-              "english": "Before that, I only listened to popular songs on the radio.",
+              "english": "Before that, I only listened to popular songs",
               "korean": "그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다."
             },
             {
-              "english": "One day, a friend played a DAY6 song for me.",
-              "korean": "어느 날 친구가 데이식스 노래를 하나 들려주었습니다."
+              "english": "One day, a friend played a Yorushika song for me.",
+              "korean": "어느 날 친구가 요루시카 노래를 하나 들려주었습니다."
             },
             {
               "english": "The guitar sound was strong and exciting.",
@@ -11908,7 +11908,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Actually, before that, I only listened to popular songs on the radio.",
+              "english": "Actually, before that, I only listened to popular songs",
               "korean": "사실, 그전에는 라디오에서 나오는 인기 있는 노래만 들었습니다.",
               "englishEmphasis": [
                 {
@@ -11924,8 +11924,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "One day, a friend played a DAY6 song for me.",
-              "korean": "어느 날 친구가 데이식스 노래를 하나 들려주었습니다.",
+              "english": "One day, a friend played a Yorushika song for me.",
+              "korean": "어느 날 친구가 요루시카 노래를 하나 들려주었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -12007,7 +12007,7 @@ window.OPIC_STUDY_DATA = {
             "When the music started, the drums and guitar sounded amazing.",
             "Everyone stood up and sang along.",
             "I clapped along and had a great time.",
-            "After the concert, I kept listening to that band's songs."
+            "After the concert, I started to like the band."
           ],
           "speakingChunks": [
             "One time, I went to a concert with my friend.",
@@ -12017,7 +12017,7 @@ window.OPIC_STUDY_DATA = {
             "When the music started, the drums and guitar sounded amazing.",
             "Everyone stood up and sang along.",
             "I clapped along and had a great time.",
-            "After the concert, I kept listening to that band's songs."
+            "After the concert, I started to like the band."
           ],
           "speakingTranslations": [
             "한번은 친구와 함께 콘서트에 갔습니다.",
@@ -12027,7 +12027,7 @@ window.OPIC_STUDY_DATA = {
             "음악이 시작되자 드럼과 기타 소리가 정말 멋졌습니다.",
             "모두가 일어나서 노래를 따라 불렀습니다.",
             "저도 음악에 맞춰 박수를 치며 즐거운 시간을 보냈습니다.",
-            "콘서트가 끝난 뒤에도 그 밴드의 노래를 계속 들었습니다."
+            "콘서트가 끝난 후 그 밴드를 좋아하게 되었습니다."
           ],
           "mainPoint": "One time, I went to a concert with my friend.",
           "mainPointSentences": [
@@ -12075,8 +12075,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "저도 음악에 맞춰 박수를 치며 즐거운 시간을 보냈습니다."
             },
             {
-              "english": "After the concert, I kept listening to that band's songs.",
-              "korean": "콘서트가 끝난 뒤에도 그 밴드의 노래를 계속 들었습니다."
+              "english": "After the concert, I started to like the band.",
+              "korean": "콘서트가 끝난 후 그 밴드를 좋아하게 되었습니다."
             }
           ],
           "fillerItems": [
@@ -12163,8 +12163,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Anyway, after the concert, I kept listening to that band's songs.",
-              "korean": "아무튼, 콘서트가 끝난 뒤에도 그 밴드의 노래를 계속 들었습니다.",
+              "english": "Anyway, after the concert, I started to like the band.",
+              "korean": "아무튼, 콘서트가 끝난 후 그 밴드를 좋아하게 되었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -12421,36 +12421,36 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Hey, I want to buy an MP3 player.",
             "I need your help.",
-            "Which one is easy to use?",
-            "Oh, that one is easy to use. That sounds good.",
-            "How much does it cost?",
-            "It costs forty dollars. That’s okay for me.",
+            "Which model do you recommend?",
+            "Oh, that model? That sounds good.",
+            "How much is it?",
+            "Oh, forty dollars? That’s okay.",
             "Can I use it all day?",
-            "Great. I can use it all day.",
+            "Oh, all day? Great.",
             "Where can I buy it?",
             "Oh, I can buy it online. Okay, thanks for your help."
           ],
           "speakingChunks": [
             "Hey, I want to buy an MP3 player.",
             "I need your help.",
-            "Which one is easy to use?",
-            "Oh, that one is easy to use. That sounds good.",
-            "How much does it cost?",
-            "It costs forty dollars. That’s okay for me.",
+            "Which model do you recommend?",
+            "Oh, that model? That sounds good.",
+            "How much is it?",
+            "Oh, forty dollars? That’s okay.",
             "Can I use it all day?",
-            "Great. I can use it all day.",
+            "Oh, all day? Great.",
             "Where can I buy it?",
             "Oh, I can buy it online. Okay, thanks for your help."
           ],
           "speakingTranslations": [
             "있잖아, MP3 플레이어를 사고 싶어.",
             "네 도움이 필요해.",
-            "어떤 게 사용하기 쉬워?",
-            "아, 그 제품은 사용하기 쉽구나. 괜찮은 것 같아.",
-            "가격은 얼마야?",
-            "40달러구나. 그 정도면 괜찮아.",
+            "어떤 모델을 추천해?",
+            "아, 그 모델? 괜찮은 것 같아.",
+            "얼마야?",
+            "아, 40달러라고? 괜찮아.",
             "하루 종일 사용할 수 있어?",
-            "좋아. 하루 종일 사용할 수 있겠네.",
+            "아, 하루 종일? 좋아.",
             "어디에서 살 수 있어?",
             "아, 온라인에서 사면 되는구나. 알겠어, 도와줘서 고마워."
           ],
@@ -12484,28 +12484,28 @@ window.OPIC_STUDY_DATA = {
               "korean": "네 도움이 필요해."
             },
             {
-              "english": "Which one is easy to use?",
-              "korean": "어떤 게 사용하기 쉬워?"
+              "english": "Which model do you recommend?",
+              "korean": "어떤 모델을 추천해?"
             },
             {
-              "english": "Oh, that one is easy to use. That sounds good.",
-              "korean": "아, 그 제품은 사용하기 쉽구나. 괜찮은 것 같아."
+              "english": "Oh, that model? That sounds good.",
+              "korean": "아, 그 모델? 괜찮은 것 같아."
             },
             {
-              "english": "How much does it cost?",
-              "korean": "가격은 얼마야?"
+              "english": "How much is it?",
+              "korean": "얼마야?"
             },
             {
-              "english": "It costs forty dollars. That’s okay for me.",
-              "korean": "40달러구나. 그 정도면 괜찮아."
+              "english": "Oh, forty dollars? That’s okay.",
+              "korean": "아, 40달러라고? 괜찮아."
             },
             {
               "english": "Can I use it all day?",
               "korean": "하루 종일 사용할 수 있어?"
             },
             {
-              "english": "Great. I can use it all day.",
-              "korean": "좋아. 하루 종일 사용할 수 있겠네."
+              "english": "Oh, all day? Great.",
+              "korean": "아, 하루 종일? 좋아."
             },
             {
               "english": "Where can I buy it?",
@@ -12530,8 +12530,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Well, which one is easy to use?",
-              "korean": "음, 어떤 게 사용하기 쉬워?",
+              "english": "Well, which model do you recommend?",
+              "korean": "음, 어떤 모델을 추천해?",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -12546,8 +12546,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Oh, that one is easy to use. That sounds good.",
-              "korean": "아, 그 제품은 사용하기 쉽구나. 괜찮은 것 같아.",
+              "english": "Oh, that model? That sounds good.",
+              "korean": "아, 그 모델? 괜찮은 것 같아.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -12562,24 +12562,24 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "How much does it cost?",
-              "korean": "가격은 얼마야?",
+              "english": "How much is it?",
+              "korean": "얼마야?",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I see. It costs forty dollars. That’s okay for me.",
-              "korean": "그렇구나. 40달러구나. 그 정도면 괜찮아.",
+              "english": "Oh, forty dollars? That’s okay.",
+              "korean": "아, 40달러라고? 괜찮아.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 6
+                  "end": 3
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 2
                 }
               ]
             },
@@ -12590,18 +12590,18 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Great. I can use it all day.",
-              "korean": "좋아. 하루 종일 사용할 수 있겠네.",
+              "english": "Oh, all day? Great.",
+              "korean": "아, 하루 종일? 좋아.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 6
+                  "end": 3
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 3
+                  "end": 2
                 }
               ]
             },
@@ -12647,8 +12647,8 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Hey, I’m really sorry.",
             "I dropped your MP3 player and broke the screen.",
-            "It fell when I took it out of my bag.",
-            "I feel really bad because it was yours.",
+            "I took it from my bag, but I dropped it.",
+            "I feel really bad about it.",
             "Can I take it to a repair shop?",
             "Oh, it can’t be fixed. I see.",
             "Then can I buy you a new one?",
@@ -12657,8 +12657,8 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Hey, I’m really sorry.",
             "I dropped your MP3 player and broke the screen.",
-            "It fell when I took it out of my bag.",
-            "I feel really bad because it was yours.",
+            "I took it from my bag, but I dropped it.",
+            "I feel really bad about it.",
             "Can I take it to a repair shop?",
             "Oh, it can’t be fixed. I see.",
             "Then can I buy you a new one?",
@@ -12667,8 +12667,8 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "정말 미안해.",
             "네 MP3 플레이어를 떨어뜨려서 화면이 깨졌어.",
-            "가방에서 꺼낼 때 떨어졌어.",
-            "네 물건이라서 마음이 정말 안 좋아.",
+            "가방에서 꺼냈는데 떨어뜨렸어.",
+            "이 일 때문에 정말 미안한 마음이야.",
             "내가 수리점에 가져가도 될까?",
             "아, 고칠 수 없구나. 그렇구나.",
             "그러면 새것을 사 줘도 될까?",
@@ -12704,12 +12704,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "네 MP3 플레이어를 떨어뜨려서 화면이 깨졌어."
             },
             {
-              "english": "It fell when I took it out of my bag.",
-              "korean": "가방에서 꺼낼 때 떨어졌어."
+              "english": "I took it from my bag, but I dropped it.",
+              "korean": "가방에서 꺼냈는데 떨어뜨렸어."
             },
             {
-              "english": "I feel really bad because it was yours.",
-              "korean": "네 물건이라서 마음이 정말 안 좋아."
+              "english": "I feel really bad about it.",
+              "korean": "이 일 때문에 정말 미안한 마음이야."
             },
             {
               "english": "Can I take it to a repair shop?",
@@ -12752,14 +12752,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "It fell when I took it out of my bag.",
-              "korean": "가방에서 꺼낼 때 떨어졌어.",
+              "english": "I took it from my bag, but I dropped it.",
+              "korean": "가방에서 꺼냈는데 떨어뜨렸어.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I feel really bad because it was yours.",
-              "korean": "네 물건이라서 마음이 정말 안 좋아.",
+              "english": "I feel really bad about it.",
+              "korean": "이 일 때문에 정말 미안한 마음이야.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -12845,31 +12845,31 @@ window.OPIC_STUDY_DATA = {
             "One time, my earphones stopped working on the bus.",
             "I was upset because I used them every day.",
             "I couldn’t hear any sound from the right side.",
-            "At first, I thought the music app was the problem.",
-            "I restarted the app, but the right side still didn’t work.",
-            "So I took the earphones back to the store.",
-            "The next day, the store gave me new earphones for free.",
-            "I was happy to get new earphones so quickly."
+            "At first, I thought Bluetooth was the problem.",
+            "I turned Bluetooth off and on, but the right side still didn’t work.",
+            "The next day, I took them to the store.",
+            "They checked them and gave me new earphones",
+            "I was glad to get new earphones so quickly."
           ],
           "speakingChunks": [
             "One time, my earphones stopped working on the bus.",
             "I was upset because I used them every day.",
             "I couldn’t hear any sound from the right side.",
-            "At first, I thought the music app was the problem.",
-            "I restarted the app, but the right side still didn’t work.",
-            "So I took the earphones back to the store.",
-            "The next day, the store gave me new earphones for free.",
-            "I was happy to get new earphones so quickly."
+            "At first, I thought Bluetooth was the problem.",
+            "I turned Bluetooth off and on, but the right side still didn’t work.",
+            "The next day, I took them to the store.",
+            "They checked them and gave me new earphones",
+            "I was glad to get new earphones so quickly."
           ],
           "speakingTranslations": [
             "한번은 버스에서 제 이어폰이 작동하지 않았습니다.",
             "매일 사용하던 이어폰이라서 속상했습니다.",
             "오른쪽에서는 아무 소리도 들리지 않았습니다.",
-            "처음에는 음악 앱에 문제가 있다고 생각했습니다.",
-            "앱을 다시 시작했지만 오른쪽은 여전히 작동하지 않았습니다.",
-            "그래서 이어폰을 매장에 다시 가져갔습니다.",
-            "다음 날 매장에서 새 이어폰을 무료로 주었습니다.",
-            "새 이어폰을 빨리 받아서 기뻤습니다."
+            "처음에는 블루투스가 문제라고 생각했습니다.",
+            "블루투스를 껐다 켰지만 오른쪽은 여전히 작동하지 않았습니다.",
+            "다음 날 이어폰을 매장에 가져갔습니다.",
+            "직원이 이어폰을 확인하고 새것으로 바꿔 주었습니다.",
+            "새 이어폰을 빨리 받아서 다행이었습니다."
           ],
           "mainPoint": "One time, my earphones stopped working on the bus. I was upset because I used them every day.",
           "mainPointSentences": [
@@ -12905,24 +12905,24 @@ window.OPIC_STUDY_DATA = {
               "korean": "오른쪽에서는 아무 소리도 들리지 않았습니다."
             },
             {
-              "english": "At first, I thought the music app was the problem.",
-              "korean": "처음에는 음악 앱에 문제가 있다고 생각했습니다."
+              "english": "At first, I thought Bluetooth was the problem.",
+              "korean": "처음에는 블루투스가 문제라고 생각했습니다."
             },
             {
-              "english": "I restarted the app, but the right side still didn’t work.",
-              "korean": "앱을 다시 시작했지만 오른쪽은 여전히 작동하지 않았습니다."
+              "english": "I turned Bluetooth off and on, but the right side still didn’t work.",
+              "korean": "블루투스를 껐다 켰지만 오른쪽은 여전히 작동하지 않았습니다."
             },
             {
-              "english": "So I took the earphones back to the store.",
-              "korean": "그래서 이어폰을 매장에 다시 가져갔습니다."
+              "english": "The next day, I took them to the store.",
+              "korean": "다음 날 이어폰을 매장에 가져갔습니다."
             },
             {
-              "english": "The next day, the store gave me new earphones for free.",
-              "korean": "다음 날 매장에서 새 이어폰을 무료로 주었습니다."
+              "english": "They checked them and gave me new earphones",
+              "korean": "직원이 이어폰을 확인하고 새것으로 바꿔 주었습니다."
             },
             {
-              "english": "I was happy to get new earphones so quickly.",
-              "korean": "새 이어폰을 빨리 받아서 기뻤습니다."
+              "english": "I was glad to get new earphones so quickly.",
+              "korean": "새 이어폰을 빨리 받아서 다행이었습니다."
             }
           ],
           "fillerItems": [
@@ -12975,20 +12975,20 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "At first, I thought the music app was the problem.",
-              "korean": "처음에는 음악 앱에 문제가 있다고 생각했습니다.",
+              "english": "At first, I thought Bluetooth was the problem.",
+              "korean": "처음에는 블루투스가 문제라고 생각했습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I restarted the app, but the right side still didn’t work.",
-              "korean": "앱을 다시 시작했지만 오른쪽은 여전히 작동하지 않았습니다.",
+              "english": "I turned Bluetooth off and on, but the right side still didn’t work.",
+              "korean": "블루투스를 껐다 켰지만 오른쪽은 여전히 작동하지 않았습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Anyway, I took the earphones back to the store.",
-              "korean": "아무튼, 이어폰을 매장에 다시 가져갔습니다.",
+              "english": "Anyway, the next day, I took them to the store.",
+              "korean": "아무튼, 다음 날 이어폰을 매장에 가져갔습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -13003,14 +13003,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "The next day, the store gave me new earphones for free.",
-              "korean": "다음 날 매장에서 새 이어폰을 무료로 주었습니다.",
+              "english": "They checked them and gave me new earphones",
+              "korean": "직원이 이어폰을 확인하고 새것으로 바꿔 주었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, I was happy to get new earphones so quickly.",
-              "korean": "그래서요, 새 이어폰을 빨리 받아서 기뻤습니다.",
+              "english": "So, yeah, I was glad to get new earphones so quickly.",
+              "korean": "그래서요, 새 이어폰을 빨리 받아서 다행이었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -13840,29 +13840,29 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "My favorite instrument is the electric guitar.",
             "I usually play simple rock songs at home.",
-            "The strong sound makes every song exciting.",
-            "Even one easy chord can sound good.",
+            "The strong sound makes me excited.",
+            "One easy chord can sound good.",
             "Changing chords is sometimes hard for me.",
-            "But I feel happy when a song starts to sound right.",
-            "That’s why the electric guitar is my favorite instrument."
+            "But I feel satisfied when I play well.",
+            "That’s why I enjoy playing the electric guitar."
           ],
           "speakingChunks": [
             "My favorite instrument is the electric guitar.",
             "I usually play simple rock songs at home.",
-            "The strong sound makes every song exciting.",
-            "Even one easy chord can sound good.",
+            "The strong sound makes me excited.",
+            "One easy chord can sound good.",
             "Changing chords is sometimes hard for me.",
-            "But I feel happy when a song starts to sound right.",
-            "That’s why the electric guitar is my favorite instrument."
+            "But I feel satisfied when I play well.",
+            "That’s why I enjoy playing the electric guitar."
           ],
           "speakingTranslations": [
             "제가 가장 좋아하는 악기는 일렉기타입니다.",
             "저는 보통 집에서 쉬운 록 노래를 연주합니다.",
-            "강렬한 소리 덕분에 어떤 노래든 신나게 들립니다.",
-            "쉬운 코드 하나만 쳐도 좋은 소리가 납니다.",
+            "강한 소리를 들으면 신이 납니다.",
+            "쉬운 코드 하나로 좋은 소리를 낼 수 있습니다.",
             "코드를 바꾸는 것은 가끔 어렵습니다.",
-            "하지만 노래가 제대로 들리기 시작하면 기분이 좋습니다.",
-            "그래서 일렉기타는 제가 가장 좋아하는 악기입니다."
+            "하지만 연주가 잘되면 만족스럽습니다.",
+            "그래서 저는 일렉기타 연주를 좋아합니다."
           ],
           "mainPoint": "My favorite instrument is the electric guitar.",
           "mainPointSentences": [
@@ -13890,24 +13890,24 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 보통 집에서 쉬운 록 노래를 연주합니다."
             },
             {
-              "english": "The strong sound makes every song exciting.",
-              "korean": "강렬한 소리 덕분에 어떤 노래든 신나게 들립니다."
+              "english": "The strong sound makes me excited.",
+              "korean": "강한 소리를 들으면 신이 납니다."
             },
             {
-              "english": "Even one easy chord can sound good.",
-              "korean": "쉬운 코드 하나만 쳐도 좋은 소리가 납니다."
+              "english": "One easy chord can sound good.",
+              "korean": "쉬운 코드 하나로 좋은 소리를 낼 수 있습니다."
             },
             {
               "english": "Changing chords is sometimes hard for me.",
               "korean": "코드를 바꾸는 것은 가끔 어렵습니다."
             },
             {
-              "english": "But I feel happy when a song starts to sound right.",
-              "korean": "하지만 노래가 제대로 들리기 시작하면 기분이 좋습니다."
+              "english": "But I feel satisfied when I play well.",
+              "korean": "하지만 연주가 잘되면 만족스럽습니다."
             },
             {
-              "english": "That’s why the electric guitar is my favorite instrument.",
-              "korean": "그래서 일렉기타는 제가 가장 좋아하는 악기입니다."
+              "english": "That’s why I enjoy playing the electric guitar.",
+              "korean": "그래서 저는 일렉기타 연주를 좋아합니다."
             }
           ],
           "fillerItems": [
@@ -13944,14 +13944,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "The strong sound makes every song exciting.",
-              "korean": "강렬한 소리 덕분에 어떤 노래든 신나게 들립니다.",
+              "english": "The strong sound makes me excited.",
+              "korean": "강한 소리를 들으면 신이 납니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I mean, even one easy chord can sound good.",
-              "korean": "그러니까, 쉬운 코드 하나만 쳐도 좋은 소리가 납니다.",
+              "english": "I mean, one easy chord can sound good.",
+              "korean": "그러니까, 쉬운 코드 하나로 좋은 소리를 낼 수 있습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -13982,14 +13982,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "But I feel happy when a song starts to sound right.",
-              "korean": "하지만 노래가 제대로 들리기 시작하면 기분이 좋습니다.",
+              "english": "But I feel satisfied when I play well.",
+              "korean": "하지만 연주가 잘되면 만족스럽습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, the electric guitar is my favorite instrument.",
-              "korean": "그래서요, 일렉기타는 제가 가장 좋아하는 악기입니다.",
+              "english": "So, yeah, that’s why I enjoy playing the electric guitar.",
+              "korean": "그래서요, 저는 일렉기타 연주를 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -14023,8 +14023,8 @@ window.OPIC_STUDY_DATA = {
             "I usually practice the electric guitar at home.",
             "It helps me relax after a busy day.",
             "I do this three or four times a week.",
-            "Each time, I practice for about twenty minutes.",
-            "I choose one short part of a song I like.",
+            "Each time, I practice for about an hour.",
+            "I practice my favorite guitar solo.",
             "Then I play that part again and again.",
             "I don’t try to play it perfectly.",
             "I just enjoy the music and feel better."
@@ -14033,8 +14033,8 @@ window.OPIC_STUDY_DATA = {
             "I usually practice the electric guitar at home.",
             "It helps me relax after a busy day.",
             "I do this three or four times a week.",
-            "Each time, I practice for about twenty minutes.",
-            "I choose one short part of a song I like.",
+            "Each time, I practice for about an hour.",
+            "I practice my favorite guitar solo.",
             "Then I play that part again and again.",
             "I don’t try to play it perfectly.",
             "I just enjoy the music and feel better."
@@ -14043,8 +14043,8 @@ window.OPIC_STUDY_DATA = {
             "저는 보통 집에서 일렉기타를 연습합니다.",
             "바쁜 하루를 보낸 뒤 긴장을 푸는 데 도움이 됩니다.",
             "일주일에 서너 번 연습합니다.",
-            "한 번에 약 20분 정도 연습합니다.",
-            "좋아하는 노래에서 짧은 부분 하나를 고릅니다.",
+            "한 번에 약 한 시간 정도 연습합니다.",
+            "제가 가장 좋아하는 기타 솔로를 연습합니다.",
             "그리고 그 부분을 계속 반복해서 연주합니다.",
             "완벽하게 연주하려고 하지는 않습니다.",
             "그냥 음악을 즐기면 기분이 나아집니다."
@@ -14079,12 +14079,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "일주일에 서너 번 연습합니다."
             },
             {
-              "english": "Each time, I practice for about twenty minutes.",
-              "korean": "한 번에 약 20분 정도 연습합니다."
+              "english": "Each time, I practice for about an hour.",
+              "korean": "한 번에 약 한 시간 정도 연습합니다."
             },
             {
-              "english": "I choose one short part of a song I like.",
-              "korean": "좋아하는 노래에서 짧은 부분 하나를 고릅니다."
+              "english": "I practice my favorite guitar solo.",
+              "korean": "제가 가장 좋아하는 기타 솔로를 연습합니다."
             },
             {
               "english": "Then I play that part again and again.",
@@ -14139,14 +14139,14 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Each time, I practice for about twenty minutes.",
-              "korean": "한 번에 약 20분 정도 연습합니다.",
+              "english": "Each time, I practice for about an hour.",
+              "korean": "한 번에 약 한 시간 정도 연습합니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I choose one short part of a song I like.",
-              "korean": "좋아하는 노래에서 짧은 부분 하나를 고릅니다.",
+              "english": "I practice my favorite guitar solo.",
+              "korean": "제가 가장 좋아하는 기타 솔로를 연습합니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -14205,38 +14205,38 @@ window.OPIC_STUDY_DATA = {
             "Discuss your initial interest in playing this instrument."
           ],
           "finalSentences": [
-            "I started to like the guitar because of a cartoon about a band.",
+            "I started to like the guitar after watching an anime about a band.",
             "Before that, I didn’t know much about guitars.",
             "The guitar player looked really cool on stage.",
             "I also liked the strong guitar sound.",
-            "After the cartoon, I wanted to play the guitar too.",
+            "After the anime, I wanted to play the guitar too.",
             "Soon, I got a guitar and learned some easy chords.",
             "It was hard at first, and my fingers hurt.",
             "But I felt excited when I played my first song."
           ],
           "speakingChunks": [
-            "I started to like the guitar because of a cartoon about a band.",
+            "I started to like the guitar after watching an anime about a band.",
             "Before that, I didn’t know much about guitars.",
             "The guitar player looked really cool on stage.",
             "I also liked the strong guitar sound.",
-            "After the cartoon, I wanted to play the guitar too.",
+            "After the anime, I wanted to play the guitar too.",
             "Soon, I got a guitar and learned some easy chords.",
             "It was hard at first, and my fingers hurt.",
             "But I felt excited when I played my first song."
           ],
           "speakingTranslations": [
-            "밴드에 관한 만화를 보고 기타를 좋아하게 되었습니다.",
+            "밴드에 관한 애니메이션을 본 뒤 기타를 좋아하게 되었습니다.",
             "그전에는 기타에 대해 잘 알지 못했습니다.",
             "기타 연주자가 무대 위에서 정말 멋져 보였습니다.",
             "강렬한 기타 소리도 좋았습니다.",
-            "만화를 본 뒤 저도 기타를 연주하고 싶었습니다.",
+            "애니메이션을 본 뒤 저도 기타를 연주하고 싶었습니다.",
             "얼마 지나지 않아 기타를 구해서 쉬운 코드를 배웠습니다.",
             "처음에는 어렵고 손가락도 아팠습니다.",
             "하지만 처음으로 노래를 연주했을 때 정말 신이 났습니다."
           ],
-          "mainPoint": "I started to like the guitar because of a cartoon about a band.",
+          "mainPoint": "I started to like the guitar after watching an anime about a band.",
           "mainPointSentences": [
-            "I started to like the guitar because of a cartoon about a band."
+            "I started to like the guitar after watching an anime about a band."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -14252,8 +14252,8 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I started to like the guitar because of a cartoon about a band.",
-              "korean": "밴드에 관한 만화를 보고 기타를 좋아하게 되었습니다."
+              "english": "I started to like the guitar after watching an anime about a band.",
+              "korean": "밴드에 관한 애니메이션을 본 뒤 기타를 좋아하게 되었습니다."
             },
             {
               "english": "Before that, I didn’t know much about guitars.",
@@ -14268,8 +14268,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "강렬한 기타 소리도 좋았습니다."
             },
             {
-              "english": "After the cartoon, I wanted to play the guitar too.",
-              "korean": "만화를 본 뒤 저도 기타를 연주하고 싶었습니다."
+              "english": "After the anime, I wanted to play the guitar too.",
+              "korean": "애니메이션을 본 뒤 저도 기타를 연주하고 싶었습니다."
             },
             {
               "english": "Soon, I got a guitar and learned some easy chords.",
@@ -14286,8 +14286,8 @@ window.OPIC_STUDY_DATA = {
           ],
           "fillerItems": [
             {
-              "english": "Well, I started to like the guitar because of a cartoon about a band.",
-              "korean": "음, 밴드에 관한 만화를 보고 기타를 좋아하게 되었습니다.",
+              "english": "Well, I started to like the guitar after watching an anime about a band.",
+              "korean": "음, 밴드에 관한 애니메이션을 본 뒤 기타를 좋아하게 되었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -14340,8 +14340,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "After the cartoon, I wanted to play the guitar too.",
-              "korean": "만화를 본 뒤 저도 기타를 연주하고 싶었습니다.",
+              "english": "After the anime, I wanted to play the guitar too.",
+              "korean": "애니메이션을 본 뒤 저도 기타를 연주하고 싶었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -14403,8 +14403,8 @@ window.OPIC_STUDY_DATA = {
             "One time, I played guitar with my band at school.",
             "I was very nervous because I didn’t want to make a mistake.",
             "Before the show, we practiced one song together for a few weeks.",
-            "Right before we started, my friend told me to relax.",
-            "When the show started, I focused only on the song.",
+            "Before we started, my friend told me to relax.",
+            "When the show started, I focused on playing the guitar.",
             "I made one small mistake, but I kept playing.",
             "Everyone clapped when we finished.",
             "I felt very happy after the show."
@@ -14413,8 +14413,8 @@ window.OPIC_STUDY_DATA = {
             "One time, I played guitar with my band at school.",
             "I was very nervous because I didn’t want to make a mistake.",
             "Before the show, we practiced one song together for a few weeks.",
-            "Right before we started, my friend told me to relax.",
-            "When the show started, I focused only on the song.",
+            "Before we started, my friend told me to relax.",
+            "When the show started, I focused on playing the guitar.",
             "I made one small mistake, but I kept playing.",
             "Everyone clapped when we finished.",
             "I felt very happy after the show."
@@ -14423,8 +14423,8 @@ window.OPIC_STUDY_DATA = {
             "한번은 학교에서 밴드와 함께 기타를 연주했습니다.",
             "실수하고 싶지 않아서 공연 전에 많이 긴장했습니다.",
             "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습했습니다.",
-            "공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다.",
-            "공연이 시작되자 노래에만 집중했습니다.",
+            "공연을 시작하기 전에 친구가 긴장을 풀라고 했습니다.",
+            "공연이 시작되자 기타 연주에 집중했습니다.",
             "작은 실수 하나를 했지만 계속 연주했습니다.",
             "연주가 끝나자 모두가 박수를 쳤습니다.",
             "공연이 끝난 뒤 정말 기뻤습니다."
@@ -14459,12 +14459,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "공연 전에 우리는 몇 주 동안 한 곡을 함께 연습했습니다."
             },
             {
-              "english": "Right before we started, my friend told me to relax.",
-              "korean": "공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다."
+              "english": "Before we started, my friend told me to relax.",
+              "korean": "공연을 시작하기 전에 친구가 긴장을 풀라고 했습니다."
             },
             {
-              "english": "When the show started, I focused only on the song.",
-              "korean": "공연이 시작되자 노래에만 집중했습니다."
+              "english": "When the show started, I focused on playing the guitar.",
+              "korean": "공연이 시작되자 기타 연주에 집중했습니다."
             },
             {
               "english": "I made one small mistake, but I kept playing.",
@@ -14519,8 +14519,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "You know, right before we started, my friend told me to relax.",
-              "korean": "있잖아요, 공연을 시작하기 직전에 친구가 긴장을 풀라고 했습니다.",
+              "english": "You know, before we started, my friend told me to relax.",
+              "korean": "있잖아요, 공연을 시작하기 전에 친구가 긴장을 풀라고 했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -14535,8 +14535,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Anyway, when the show started, I focused only on the song.",
-              "korean": "아무튼, 공연이 시작되자 노래에만 집중했습니다.",
+              "english": "Anyway, when the show started, I focused on playing the guitar.",
+              "korean": "아무튼, 공연이 시작되자 기타 연주에 집중했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -14818,39 +14818,39 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "Hello, I want to buy an electric guitar.",
-            "I’m a beginner, so I need a guitar that’s easy to play.",
+            "I’m a beginner, so I want a good guitar at a good price.",
             "Could you recommend a good guitar for a beginner?",
             "Oh, that model is easy to play. That sounds good.",
-            "How much does it cost?",
+            "How much is it?",
             "I see. That price is okay for me.",
             "Can I try the guitar before I buy it?",
             "Great. That will help me.",
-            "Does it come with an amp?",
-            "Oh, it comes with a small amp. Thank you for your help."
+            "Is the guitar bag free?",
+            "Oh, it’s free. That’s great. Thank you for your help."
           ],
           "speakingChunks": [
             "Hello, I want to buy an electric guitar.",
-            "I’m a beginner, so I need a guitar that’s easy to play.",
+            "I’m a beginner, so I want a good guitar at a good price.",
             "Could you recommend a good guitar for a beginner?",
             "Oh, that model is easy to play. That sounds good.",
-            "How much does it cost?",
+            "How much is it?",
             "I see. That price is okay for me.",
             "Can I try the guitar before I buy it?",
             "Great. That will help me.",
-            "Does it come with an amp?",
-            "Oh, it comes with a small amp. Thank you for your help."
+            "Is the guitar bag free?",
+            "Oh, it’s free. That’s great. Thank you for your help."
           ],
           "speakingTranslations": [
             "안녕하세요, 일렉기타를 사고 싶습니다.",
-            "저는 초보자라서 연주하기 쉬운 기타가 필요합니다.",
+            "저는 초보자라서 가격이 괜찮은 좋은 기타를 원합니다.",
             "초보자에게 좋은 기타를 추천해 주실 수 있나요?",
             "아, 그 모델은 연주하기 쉽군요. 괜찮은 것 같습니다.",
             "가격은 얼마인가요?",
             "그렇군요. 그 가격이면 괜찮습니다.",
             "구매하기 전에 기타를 연주해 볼 수 있나요?",
             "좋습니다. 도움이 되겠네요.",
-            "앰프가 함께 들어 있나요?",
-            "아, 작은 앰프가 함께 들어 있군요. 도와주셔서 감사합니다."
+            "기타 가방은 무료인가요?",
+            "아, 무료군요. 좋네요. 도와주셔서 감사합니다."
           ],
           "mainPoint": "Hello, I want to buy an electric guitar. I’m a beginner, so I need a guitar that’s easy to play.",
           "mainPointSentences": [
@@ -14878,8 +14878,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "안녕하세요, 일렉기타를 사고 싶습니다."
             },
             {
-              "english": "I’m a beginner, so I need a guitar that’s easy to play.",
-              "korean": "저는 초보자라서 연주하기 쉬운 기타가 필요합니다."
+              "english": "I’m a beginner, so I want a good guitar at a good price.",
+              "korean": "저는 초보자라서 가격이 괜찮은 좋은 기타를 원합니다."
             },
             {
               "english": "Could you recommend a good guitar for a beginner?",
@@ -14890,7 +14890,7 @@ window.OPIC_STUDY_DATA = {
               "korean": "아, 그 모델은 연주하기 쉽군요. 괜찮은 것 같습니다."
             },
             {
-              "english": "How much does it cost?",
+              "english": "How much is it?",
               "korean": "가격은 얼마인가요?"
             },
             {
@@ -14906,12 +14906,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "좋습니다. 도움이 되겠네요."
             },
             {
-              "english": "Does it come with an amp?",
-              "korean": "앰프가 함께 들어 있나요?"
+              "english": "Is the guitar bag free?",
+              "korean": "기타 가방은 무료인가요?"
             },
             {
-              "english": "Oh, it comes with a small amp. Thank you for your help.",
-              "korean": "아, 작은 앰프가 함께 들어 있군요. 도와주셔서 감사합니다."
+              "english": "Oh, it’s free. That’s great. Thank you for your help.",
+              "korean": "아, 무료군요. 좋네요. 도와주셔서 감사합니다."
             }
           ],
           "fillerItems": [
@@ -14922,8 +14922,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "I’m a beginner, so I need a guitar that’s easy to play.",
-              "korean": "저는 초보자라서 연주하기 쉬운 기타가 필요합니다.",
+              "english": "I’m a beginner, so I want a good guitar at a good price.",
+              "korean": "저는 초보자라서 가격이 괜찮은 좋은 기타를 원합니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -14960,7 +14960,7 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "How much does it cost?",
+              "english": "How much is it?",
               "korean": "가격은 얼마인가요?",
               "englishEmphasis": [],
               "koreanEmphasis": []
@@ -15004,24 +15004,24 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Does it come with an amp?",
-              "korean": "앰프가 함께 들어 있나요?",
+              "english": "Is the guitar bag free?",
+              "korean": "기타 가방은 무료인가요?",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Perfect. It comes with a small amp. Thank you for your help.",
-              "korean": "딱 좋습니다. 작은 앰프가 함께 들어 있군요. 도와주셔서 감사합니다.",
+              "english": "Oh, it’s free. That’s great. Thank you for your help.",
+              "korean": "아, 무료군요. 좋네요. 도와주셔서 감사합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 8
+                  "end": 3
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 2
                 }
               ]
             }
