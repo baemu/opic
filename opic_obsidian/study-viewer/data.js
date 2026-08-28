@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-28T09:32:39.198Z",
+  "generatedAt": "2026-08-28T11:17:06.794Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -6295,9 +6295,9 @@ window.OPIC_STUDY_DATA = {
             "I was very worried about her.",
             "That morning, my mom got sick and needed to rest.",
             "But I was going to watch a movie with my friend that afternoon.",
-            "So I stayed home with her.",
-            "I called my friend and explained the situation.",
-            "My friend understood, so we decided to watch the movie a week later.",
+            "So I called my friend and canceled our movie plans.",
+            "My friend understood.",
+            "We decided to watch the movie a week later.",
             "I also made lunch for my mom.",
             "In the end, I was glad I could help my mom."
           ],
@@ -6306,9 +6306,9 @@ window.OPIC_STUDY_DATA = {
             "I was very worried about her.",
             "That morning, my mom got sick and needed to rest.",
             "But I was going to watch a movie with my friend that afternoon.",
-            "So I stayed home with her.",
-            "I called my friend and explained the situation.",
-            "My friend understood, so we decided to watch the movie a week later.",
+            "So I called my friend and canceled our movie plans.",
+            "My friend understood.",
+            "We decided to watch the movie a week later.",
             "I also made lunch for my mom.",
             "In the end, I was glad I could help my mom."
           ],
@@ -6317,9 +6317,9 @@ window.OPIC_STUDY_DATA = {
             "엄마가 많이 걱정되었다.",
             "그날 아침 엄마가 아프셔서 쉬셔야 했다.",
             "하지만 그날 오후에 친구와 영화를 볼 예정이었다.",
-            "그래서 엄마와 함께 집에 남았다.",
-            "친구에게 전화해서 상황을 설명했다.",
-            "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다.",
+            "그래서 친구에게 전화해서 영화 약속을 취소했다.",
+            "친구는 이해해 주었다.",
+            "우리는 일주일 뒤에 영화를 보기로 했다.",
             "나는 엄마를 위해 점심도 만들었다.",
             "결국 엄마를 도울 수 있어서 다행이었다."
           ],
@@ -6361,16 +6361,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "하지만 그날 오후에 친구와 영화를 볼 예정이었다."
             },
             {
-              "english": "So I stayed home with her.",
-              "korean": "그래서 엄마와 함께 집에 남았다."
+              "english": "So I called my friend and canceled our movie plans.",
+              "korean": "그래서 친구에게 전화해서 영화 약속을 취소했다."
             },
             {
-              "english": "I called my friend and explained the situation.",
-              "korean": "친구에게 전화해서 상황을 설명했다."
+              "english": "My friend understood.",
+              "korean": "친구는 이해해 주었다."
             },
             {
-              "english": "My friend understood, so we decided to watch the movie a week later.",
-              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다."
+              "english": "We decided to watch the movie a week later.",
+              "korean": "우리는 일주일 뒤에 영화를 보기로 했다."
             },
             {
               "english": "I also made lunch for my mom.",
@@ -6437,8 +6437,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "So, I stayed home with her.",
-              "korean": "그래서, 엄마와 함께 집에 남았다.",
+              "english": "So, I called my friend and canceled our movie plans.",
+              "korean": "그래서, 친구에게 전화해서 영화 약속을 취소했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6453,14 +6453,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I called my friend and explained the situation.",
-              "korean": "친구에게 전화해서 상황을 설명했다.",
+              "english": "My friend understood.",
+              "korean": "친구는 이해해 주었다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "My friend understood, so we decided to watch the movie a week later.",
-              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다.",
+              "english": "We decided to watch the movie a week later.",
+              "korean": "우리는 일주일 뒤에 영화를 보기로 했다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -6493,9 +6493,9 @@ window.OPIC_STUDY_DATA = {
               "엄마가 많이 걱정됨",
               "그날 아침 엄마가 아프셔서 쉬셔야 했음",
               "하지만 그날 오후에 친구와 영화를 볼 예정이었음",
-              "엄마와 함께 집에 남음",
-              "친구에게 전화해서 상황을 설명했음",
-              "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했음",
+              "친구에게 전화해서 영화 약속을 취소했음",
+              "친구는 이해해 주었다",
+              "우리는 일주일 뒤에 영화를 보기로 했음",
               "엄마를 위해 점심도 만들었다",
               "엄마를 도울 수 있어서 다행이었음"
             ],
@@ -6504,9 +6504,9 @@ window.OPIC_STUDY_DATA = {
               "I was very worried about her.",
               "That morning, my mom got sick and needed to rest.",
               "But I was going to watch a movie with my friend that afternoon.",
-              "So I stayed home with her.",
-              "I called my friend and explained the situation.",
-              "My friend understood, so we decided to watch the movie a week later.",
+              "So I called my friend and canceled our movie plans.",
+              "My friend understood.",
+              "We decided to watch the movie a week later.",
               "I also made lunch for my mom.",
               "In the end, I was glad I could help my mom."
             ]
@@ -6736,35 +6736,35 @@ window.OPIC_STUDY_DATA = {
             "Describe how you spend time with your family in your house."
           ],
           "finalSentences": [
-            "My family usually eats dinner together at home.",
-            "I enjoy this time because I can talk with my family.",
+            "My family and I usually talk while we eat dinner.",
+            "I like this because everyone is together.",
             "We usually sit at the table together in the evening.",
             "While we eat, we talk about our day.",
             "We don’t talk about anything special.",
             "We can talk more on weekends than on weekdays.",
-            "So eating dinner together helps me feel close to my family."
+            "So I like talking with my family while we eat dinner."
           ],
           "speakingChunks": [
-            "My family usually eats dinner together at home.",
-            "I enjoy this time because I can talk with my family.",
+            "My family and I usually talk while we eat dinner.",
+            "I like this because everyone is together.",
             "We usually sit at the table together in the evening.",
             "While we eat, we talk about our day.",
             "We don’t talk about anything special.",
             "We can talk more on weekends than on weekdays.",
-            "So eating dinner together helps me feel close to my family."
+            "So I like talking with my family while we eat dinner."
           ],
           "speakingTranslations": [
-            "우리 가족은 보통 집에서 함께 저녁을 먹는다.",
-            "가족과 이야기할 수 있어서 나는 이 시간이 좋다.",
+            "우리 가족과 나는 보통 저녁을 먹으면서 이야기한다.",
+            "모두 함께 있어서 이 시간이 좋다.",
             "우리는 보통 저녁에 함께 식탁에 앉는다.",
             "식사하면서 그날 있었던 일을 이야기한다.",
             "특별한 이야기를 하는 것은 아니다.",
             "주말에는 평일보다 더 많이 이야기할 수 있다.",
-            "그래서 함께 저녁을 먹으면 가족과 더 가까워진 기분이 든다."
+            "그래서 저녁을 먹으면서 가족과 이야기하는 것을 좋아한다."
           ],
-          "mainPoint": "My family usually eats dinner together at home.",
+          "mainPoint": "My family and I usually talk while we eat dinner.",
           "mainPointSentences": [
-            "My family usually eats dinner together at home."
+            "My family and I usually talk while we eat dinner."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -6780,12 +6780,12 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "My family usually eats dinner together at home.",
-              "korean": "우리 가족은 보통 집에서 함께 저녁을 먹는다."
+              "english": "My family and I usually talk while we eat dinner.",
+              "korean": "우리 가족과 나는 보통 저녁을 먹으면서 이야기한다."
             },
             {
-              "english": "I enjoy this time because I can talk with my family.",
-              "korean": "가족과 이야기할 수 있어서 나는 이 시간이 좋다."
+              "english": "I like this because everyone is together.",
+              "korean": "모두 함께 있어서 이 시간이 좋다."
             },
             {
               "english": "We usually sit at the table together in the evening.",
@@ -6804,14 +6804,14 @@ window.OPIC_STUDY_DATA = {
               "korean": "주말에는 평일보다 더 많이 이야기할 수 있다."
             },
             {
-              "english": "So eating dinner together helps me feel close to my family.",
-              "korean": "그래서 함께 저녁을 먹으면 가족과 더 가까워진 기분이 든다."
+              "english": "So I like talking with my family while we eat dinner.",
+              "korean": "그래서 저녁을 먹으면서 가족과 이야기하는 것을 좋아한다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, my family usually eats dinner together at home.",
-              "korean": "음, 우리 가족은 보통 집에서 함께 저녁을 먹는다.",
+              "english": "Well, my family and I usually talk while we eat dinner.",
+              "korean": "음, 우리 가족과 나는 보통 저녁을 먹으면서 이야기한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6826,8 +6826,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I enjoy this time because I can talk with my family.",
-              "korean": "가족과 이야기할 수 있어서 나는 이 시간이 좋다.",
+              "english": "I like this because everyone is together.",
+              "korean": "모두 함께 있어서 이 시간이 좋다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -6886,8 +6886,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, eating dinner together helps me feel close to my family.",
-              "korean": "그래서, 함께 저녁을 먹으면 가족과 더 가까워진 기분이 든다.",
+              "english": "So, yeah, I like talking with my family while we eat dinner.",
+              "korean": "그래서, 저녁을 먹으면서 가족과 이야기하는 것을 좋아한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6904,22 +6904,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "우리 가족은 보통 집에서 함께 저녁을 먹음",
-              "가족과 이야기할 수 있어서 나는 이 시간이 좋음",
+              "우리 가족과 나는 보통 저녁을 먹으면서 이야기함",
+              "모두 함께 있어서 이 시간이 좋음",
               "우리는 보통 저녁에 함께 식탁에 앉음",
               "식사하면서 그날 있었던 일을 이야기함",
               "특별한 이야기를 하는 것은 아님",
               "주말에는 평일보다 더 많이 이야기할 수 있음",
-              "함께 저녁을 먹으면 가족과 더 가까워진 기분이 듦"
+              "저녁을 먹으면서 가족과 이야기하는 것을 좋아함"
             ],
             "englishSkeleton": [
-              "My family usually eats dinner together at home.",
-              "I enjoy this time because I can talk with my family.",
+              "My family and I usually talk while we eat dinner.",
+              "I like this because everyone is together.",
               "We usually sit at the table together in the evening.",
               "While we eat, we talk about our day.",
               "We don’t talk about anything special.",
               "We can talk more on weekends than on weekdays.",
-              "So eating dinner together helps me feel close to my family."
+              "So I like talking with my family while we eat dinner."
             ]
           }
         },
@@ -7152,38 +7152,41 @@ window.OPIC_STUDY_DATA = {
             "What made this experience special or unique?"
           ],
           "finalSentences": [
-            "One weekend, my family found old photos while cleaning the house.",
-            "The photos made the day special because we remembered many happy times.",
-            "That morning, our house was messy, so we decided to clean it together.",
-            "I found a box while cleaning my room.",
-            "It was full of old family photos.",
-            "We stopped cleaning and looked at them together.",
-            "We talked about our memories and laughed a lot.",
-            "That’s why I still remember that day."
+            "Last summer, our water was cut off after heavy rain.",
+            "It had never happened before, so my family and I were worried.",
+            "The apartment office told us the water would stop.",
+            "My family filled bottles and buckets with water.",
+            "We kept the water in the bathroom.",
+            "We used it for washing and drank bottled water.",
+            "The water was cut off for about a day.",
+            "When it came back the next day, we all felt relieved.",
+            "It was special because my family worked together, so I still remember that day."
           ],
           "speakingChunks": [
-            "One weekend, my family found old photos while cleaning the house.",
-            "The photos made the day special because we remembered many happy times.",
-            "That morning, our house was messy, so we decided to clean it together.",
-            "I found a box while cleaning my room.",
-            "It was full of old family photos.",
-            "We stopped cleaning and looked at them together.",
-            "We talked about our memories and laughed a lot.",
-            "That’s why I still remember that day."
+            "Last summer, our water was cut off after heavy rain.",
+            "It had never happened before, so my family and I were worried.",
+            "The apartment office told us the water would stop.",
+            "My family filled bottles and buckets with water.",
+            "We kept the water in the bathroom.",
+            "We used it for washing and drank bottled water.",
+            "The water was cut off for about a day.",
+            "When it came back the next day, we all felt relieved.",
+            "It was special because my family worked together, so I still remember that day."
           ],
           "speakingTranslations": [
-            "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했다.",
-            "그 사진들을 보며 행복했던 많은 순간을 떠올려서 그날이 특별했다.",
-            "그날 아침 집이 지저분해서 함께 청소하기로 했다.",
-            "나는 내 방을 청소하다가 상자 하나를 발견했다.",
-            "상자 안에는 오래된 가족사진이 가득했다.",
-            "우리는 청소를 멈추고 함께 사진들을 보았다.",
-            "우리는 추억을 이야기하며 많이 웃었다.",
-            "그래서 나는 아직도 그날을 기억한다."
+            "지난여름 폭우가 내린 뒤 우리 집의 물이 끊겼다.",
+            "이런 일이 처음이라 가족 모두가 걱정했다.",
+            "관리사무소에서 물이 끊길 거라고 알려 주었다.",
+            "우리 가족은 병과 양동이에 물을 받아 두었다.",
+            "우리는 받아 둔 물을 화장실에 보관했다.",
+            "씻을 때는 받아 둔 물을 사용하고, 마실 때는 생수를 마셨다.",
+            "물은 하루 정도 끊겼다.",
+            "다음 날 물이 다시 나오자 우리 모두 안심했다.",
+            "가족이 함께 대처해서 특별했고, 그래서 나는 아직도 그날을 기억한다."
           ],
-          "mainPoint": "One weekend, my family found old photos while cleaning the house.",
+          "mainPoint": "Last summer, our water was cut off after heavy rain.",
           "mainPointSentences": [
-            "One weekend, my family found old photos while cleaning the house."
+            "Last summer, our water was cut off after heavy rain."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -7199,42 +7202,46 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "One weekend, my family found old photos while cleaning the house.",
-              "korean": "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했다."
+              "english": "Last summer, our water was cut off after heavy rain.",
+              "korean": "지난여름 폭우가 내린 뒤 우리 집의 물이 끊겼다."
             },
             {
-              "english": "The photos made the day special because we remembered many happy times.",
-              "korean": "그 사진들을 보며 행복했던 많은 순간을 떠올려서 그날이 특별했다."
+              "english": "It had never happened before, so my family and I were worried.",
+              "korean": "이런 일이 처음이라 가족 모두가 걱정했다."
             },
             {
-              "english": "That morning, our house was messy, so we decided to clean it together.",
-              "korean": "그날 아침 집이 지저분해서 함께 청소하기로 했다."
+              "english": "The apartment office told us the water would stop.",
+              "korean": "관리사무소에서 물이 끊길 거라고 알려 주었다."
             },
             {
-              "english": "I found a box while cleaning my room.",
-              "korean": "나는 내 방을 청소하다가 상자 하나를 발견했다."
+              "english": "My family filled bottles and buckets with water.",
+              "korean": "우리 가족은 병과 양동이에 물을 받아 두었다."
             },
             {
-              "english": "It was full of old family photos.",
-              "korean": "상자 안에는 오래된 가족사진이 가득했다."
+              "english": "We kept the water in the bathroom.",
+              "korean": "우리는 받아 둔 물을 화장실에 보관했다."
             },
             {
-              "english": "We stopped cleaning and looked at them together.",
-              "korean": "우리는 청소를 멈추고 함께 사진들을 보았다."
+              "english": "We used it for washing and drank bottled water.",
+              "korean": "씻을 때는 받아 둔 물을 사용하고, 마실 때는 생수를 마셨다."
             },
             {
-              "english": "We talked about our memories and laughed a lot.",
-              "korean": "우리는 추억을 이야기하며 많이 웃었다."
+              "english": "The water was cut off for about a day.",
+              "korean": "물은 하루 정도 끊겼다."
             },
             {
-              "english": "That’s why I still remember that day.",
-              "korean": "그래서 나는 아직도 그날을 기억한다."
+              "english": "When it came back the next day, we all felt relieved.",
+              "korean": "다음 날 물이 다시 나오자 우리 모두 안심했다."
+            },
+            {
+              "english": "It was special because my family worked together, so I still remember that day.",
+              "korean": "가족이 함께 대처해서 특별했고, 그래서 나는 아직도 그날을 기억한다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Hmm, let me think. One weekend, my family found old photos while cleaning the house.",
-              "korean": "음, 생각해 보니, 어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했다.",
+              "english": "Hmm, let me think. Last summer, our water was cut off after heavy rain.",
+              "korean": "음, 생각해 보니, 지난여름 폭우가 내린 뒤 우리 집의 물이 끊겼다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7249,42 +7256,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "The photos made the day special because we remembered many happy times.",
-              "korean": "그 사진들을 보며 행복했던 많은 순간을 떠올려서 그날이 특별했다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "That morning, our house was messy, so we decided to clean it together.",
-              "korean": "그날 아침 집이 지저분해서 함께 청소하기로 했다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "I found a box while cleaning my room.",
-              "korean": "나는 내 방을 청소하다가 상자 하나를 발견했다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "Actually, it was full of old family photos.",
-              "korean": "사실, 상자 안에는 오래된 가족사진이 가득했다.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 9
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 3
-                }
-              ]
-            },
-            {
-              "english": "You know, we stopped cleaning and looked at them together.",
-              "korean": "있잖아, 우리는 청소를 멈추고 함께 사진들을 보았다.",
+              "english": "Honestly, it had never happened before, so my family and I were worried.",
+              "korean": "솔직히, 이런 일이 처음이라 가족 모두가 걱정했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7299,24 +7272,84 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, we talked about our memories and laughed a lot.",
-              "korean": "그러니까, 우리는 추억을 이야기하며 많이 웃었다.",
+              "english": "The apartment office told us the water would stop.",
+              "korean": "관리사무소에서 물이 끊길 거라고 알려 주었다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "So, my family filled bottles and buckets with water.",
+              "korean": "그래서, 우리 가족은 병과 양동이에 물을 받아 두었다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 3
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 4
                 }
               ]
             },
             {
-              "english": "So, yeah, I still remember that day.",
-              "korean": "그래서, 나는 아직도 그날을 기억한다.",
+              "english": "You know, we kept the water in the bathroom.",
+              "korean": "있잖아, 우리는 받아 둔 물을 화장실에 보관했다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 4
+                }
+              ]
+            },
+            {
+              "english": "We used it for washing and drank bottled water.",
+              "korean": "씻을 때는 받아 둔 물을 사용하고, 마실 때는 생수를 마셨다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Actually, the water was cut off for about a day.",
+              "korean": "사실, 물은 하루 정도 끊겼다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 9
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 3
+                }
+              ]
+            },
+            {
+              "english": "Luckily, when it came back the next day, we all felt relieved.",
+              "korean": "다행히, 다음 날 물이 다시 나오자 우리 모두 안심했다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 8
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 4
+                }
+              ]
+            },
+            {
+              "english": "So, yeah, it was special because my family worked together, so I still remember that day.",
+              "korean": "그래서, 가족이 함께 대처해서 특별했고, 나는 아직도 그날을 기억한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7333,24 +7366,26 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "어느 주말, 우리 가족은 집을 청소하다가 오래된 사진들을 발견했음",
-              "그 사진들을 보며 행복했던 많은 순간을 떠올려서 그날이 특별했음",
-              "그날 아침 집이 지저분해서 함께 청소하기로 했음",
-              "내 방을 청소하다가 상자 하나를 발견했음",
-              "상자 안에는 오래된 가족사진이 가득했음",
-              "우리는 청소를 멈추고 함께 사진들을 봄",
-              "우리는 추억을 이야기하며 많이 웃음",
-              "나는 아직도 그날을 기억함"
+              "지난여름 폭우가 내린 뒤 우리 집의 물이 끊김",
+              "이런 일이 처음이라 가족 모두가 걱정했음",
+              "관리사무소에서 물이 끊길 거라고 알려 줌",
+              "우리 가족은 병과 양동이에 물을 받아 둠",
+              "우리는 받아 둔 물을 화장실에 보관했음",
+              "씻을 때는 받아 둔 물을 사용하고, 마실 때는 생수를 마심",
+              "물은 하루 정도 끊김",
+              "다음 날 물이 다시 나오자 우리 모두 안심했음",
+              "가족이 함께 대처해서 특별했고, 그래서 나는 아직도 그날을 기억함"
             ],
             "englishSkeleton": [
-              "One weekend, my family found old photos while cleaning the house.",
-              "The photos made the day special because we remembered many happy times.",
-              "That morning, our house was messy, so we decided to clean it together.",
-              "I found a box while cleaning my room.",
-              "It was full of old family photos.",
-              "We stopped cleaning and looked at them together.",
-              "We talked about our memories and laughed a lot.",
-              "That’s why I still remember that day."
+              "Last summer, our water was cut off after heavy rain.",
+              "It had never happened before, so my family and I were worried.",
+              "The apartment office told us the water would stop.",
+              "My family filled bottles and buckets with water.",
+              "We kept the water in the bathroom.",
+              "We used it for washing and drank bottled water.",
+              "The water was cut off for about a day.",
+              "When it came back the next day, we all felt relieved.",
+              "It was special because my family worked together, so I still remember that day."
             ]
           }
         },
@@ -25649,12 +25684,12 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "categories": 145,
     "mainPoints": 121,
-    "finalSentences": 1216,
-    "speakingChunks": 1207,
-    "speakingTranslations": 1207,
+    "finalSentences": 1217,
+    "speakingChunks": 1208,
+    "speakingTranslations": 1208,
     "fillerEntries": 81,
-    "fillerSentences": 668,
-    "fillerTranslations": 668,
-    "translations": 1216
+    "fillerSentences": 669,
+    "fillerTranslations": 669,
+    "translations": 1217
   }
 };
