@@ -1,5 +1,5 @@
 window.OPIC_STUDY_DATA = {
-  "generatedAt": "2026-08-27T23:20:19.988Z",
+  "generatedAt": "2026-08-28T09:32:39.198Z",
   "sourceDirectory": "../output/scripts",
   "files": [
     {
@@ -2983,36 +2983,33 @@ window.OPIC_STUDY_DATA = {
           ],
           "finalSentences": [
             "I live in a typical Korean apartment with my family.",
-            "I feel comfortable there.",
-            "My family often spends time together in the living room.",
             "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
             "You see the living room as soon as you come in.",
             "There’s a sofa, a TV, and a dining table there.",
+            "My family often spends time together in the living room.",
             "We usually sit on the sofa.",
             "We watch TV and talk.",
-            "So overall, our apartment is simple, but it’s warm and comfortable."
+            "So overall, I feel very comfortable in our apartment."
           ],
           "speakingChunks": [
             "I live in a typical Korean apartment with my family.",
-            "I feel comfortable there.",
-            "My family often spends time together in the living room.",
             "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
             "You see the living room as soon as you come in.",
             "There’s a sofa, a TV, and a dining table there.",
+            "My family often spends time together in the living room.",
             "We usually sit on the sofa.",
             "We watch TV and talk.",
-            "So overall, our apartment is simple, but it’s warm and comfortable."
+            "So overall, I feel very comfortable in our apartment."
           ],
           "speakingTranslations": [
             "저는 가족과 함께 일반적인 한국 아파트에 삽니다.",
-            "그곳은 편안하게 느껴진다.",
-            "우리 가족은 거실에서 자주 함께 시간을 보낸다.",
             "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있다.",
             "집에 들어오면 거실이 바로 보인다.",
             "거기에는 소파와 TV, 식탁이 있다.",
+            "우리 가족은 거실에서 자주 함께 시간을 보낸다.",
             "우리는 보통 소파에 앉는다.",
             "우리는 TV를 보고 이야기를 나눈다.",
-            "그래서 전체적으로 우리 아파트는 소박하지만 따뜻하고 편안하다."
+            "그래서 전체적으로 우리 아파트에서 아주 편안하게 지낸다."
           ],
           "mainPoint": "I live in a typical Korean apartment with my family.",
           "mainPointSentences": [
@@ -3036,14 +3033,6 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 가족과 함께 일반적인 한국 아파트에 삽니다."
             },
             {
-              "english": "I feel comfortable there.",
-              "korean": "그곳은 편안하게 느껴진다."
-            },
-            {
-              "english": "My family often spends time together in the living room.",
-              "korean": "우리 가족은 거실에서 자주 함께 시간을 보낸다."
-            },
-            {
               "english": "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
               "korean": "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있다."
             },
@@ -3056,6 +3045,10 @@ window.OPIC_STUDY_DATA = {
               "korean": "거기에는 소파와 TV, 식탁이 있다."
             },
             {
+              "english": "My family often spends time together in the living room.",
+              "korean": "우리 가족은 거실에서 자주 함께 시간을 보낸다."
+            },
+            {
               "english": "We usually sit on the sofa.",
               "korean": "우리는 보통 소파에 앉는다."
             },
@@ -3064,8 +3057,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "우리는 TV를 보고 이야기를 나눈다."
             },
             {
-              "english": "So overall, our apartment is simple, but it’s warm and comfortable.",
-              "korean": "그래서 전체적으로 우리 아파트는 소박하지만 따뜻하고 편안하다."
+              "english": "So overall, I feel very comfortable in our apartment.",
+              "korean": "그래서 전체적으로 우리 아파트에서 아주 편안하게 지낸다."
             }
           ],
           "fillerItems": [
@@ -3086,8 +3079,20 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I feel comfortable there.",
-              "korean": "그곳은 편안하게 느껴진다.",
+              "english": "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
+              "korean": "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "You see the living room as soon as you come in.",
+              "korean": "집에 들어오면 거실이 바로 보인다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "There’s a sofa, a TV, and a dining table there.",
+              "korean": "거기에는 소파와 TV, 식탁이 있다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -3106,24 +3111,6 @@ window.OPIC_STUDY_DATA = {
                   "end": 5
                 }
               ]
-            },
-            {
-              "english": "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
-              "korean": "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You see the living room as soon as you come in.",
-              "korean": "집에 들어오면 거실이 바로 보인다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "There’s a sofa, a TV, and a dining table there.",
-              "korean": "거기에는 소파와 TV, 식탁이 있다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
             },
             {
               "english": "We usually sit on the sofa.",
@@ -3148,26 +3135,18 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, our apartment is kind of simple, but it’s warm and comfortable.",
-              "korean": "그래서, 전체적으로 우리 아파트는 조금 소박하지만 따뜻하고 편안하다.",
+              "english": "So, yeah, I feel very comfortable in our apartment.",
+              "korean": "그래서, 전체적으로 우리 아파트에서 아주 편안하게 지낸다.",
               "englishEmphasis": [
                 {
                   "start": 0,
                   "end": 9
-                },
-                {
-                  "start": 27,
-                  "end": 34
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
                   "end": 4
-                },
-                {
-                  "start": 19,
-                  "end": 21
                 }
               ]
             }
@@ -3175,25 +3154,23 @@ window.OPIC_STUDY_DATA = {
           "review": {
             "koreanFlow": [
               "가족과 함께 일반적인 한국 아파트에 거주함",
-              "그곳은 편안하게 느껴짐",
-              "우리 가족은 거실에서 자주 함께 시간을 보냄",
               "우리 아파트에는 침실 세 개, 거실, 주방, 화장실 두 개가 있음",
               "집에 들어오면 거실이 바로 보임",
               "거기에는 소파와 TV, 식탁이 있음",
+              "우리 가족은 거실에서 자주 함께 시간을 보냄",
               "우리는 보통 소파에 앉음",
               "우리는 TV를 보고 이야기를 나눔",
-              "전체적으로 우리 아파트는 소박하지만 따뜻하고 편안함"
+              "전체적으로 우리 아파트에서 아주 편안하게 지냄"
             ],
             "englishSkeleton": [
               "I live in a typical Korean apartment with my family.",
-              "I feel comfortable there.",
-              "My family often spends time together in the living room.",
               "Our apartment has three bedrooms, a living room, a kitchen, and two bathrooms.",
               "You see the living room as soon as you come in.",
               "There’s a sofa, a TV, and a dining table there.",
+              "My family often spends time together in the living room.",
               "We usually sit on the sofa.",
               "We watch TV and talk.",
-              "So overall, our apartment is simple, but it’s warm and comfortable."
+              "So overall, I feel very comfortable in our apartment."
             ]
           }
         },
@@ -3213,35 +3190,35 @@ window.OPIC_STUDY_DATA = {
             "During the week and on the weekends, what types of things do you do?"
           ],
           "finalSentences": [
-            "At home, I usually rest on my bed after a busy day.",
-            "I’m often tired when I get home, so I enjoy this quiet time.",
+            "At home, I usually practice the electric guitar after a busy day.",
+            "It helps me feel better.",
             "On weekdays, I take a shower when I get home.",
-            "After that, I lie on my bed and watch YouTube for a short time.",
-            "On weekends, I usually stay home.",
-            "I watch videos and rest a little longer.",
-            "This simple routine helps me feel better."
+            "Then I practice the guitar for thirty minutes.",
+            "On weekends, I practice for about an hour.",
+            "I practice my favorite guitar solo again and again.",
+            "This is my favorite way to spend time at home."
           ],
           "speakingChunks": [
-            "At home, I usually rest on my bed after a busy day.",
-            "I’m often tired when I get home, so I enjoy this quiet time.",
+            "At home, I usually practice the electric guitar after a busy day.",
+            "It helps me feel better.",
             "On weekdays, I take a shower when I get home.",
-            "After that, I lie on my bed and watch YouTube for a short time.",
-            "On weekends, I usually stay home.",
-            "I watch videos and rest a little longer.",
-            "This simple routine helps me feel better."
+            "Then I practice the guitar for thirty minutes.",
+            "On weekends, I practice for about an hour.",
+            "I practice my favorite guitar solo again and again.",
+            "This is my favorite way to spend time at home."
           ],
           "speakingTranslations": [
-            "집에서는 바쁜 하루를 보낸 뒤 보통 침대에서 쉰다.",
-            "집에 오면 자주 피곤해서 이 조용한 시간을 좋아한다.",
+            "집에서는 바쁜 하루를 보낸 뒤 보통 일렉기타를 연습한다.",
+            "기타를 연습하면 기분이 나아진다.",
             "평일에는 집에 도착하면 샤워한다.",
-            "그 후 침대에 누워 잠깐 유튜브를 본다.",
-            "주말에는 보통 집에서 지낸다.",
-            "영상을 보면서 조금 더 오래 쉰다.",
-            "이 간단한 습관은 기분이 나아지는 데 도움이 된다."
+            "그런 다음 30분 동안 기타를 연습한다.",
+            "주말에는 한 시간 정도 연습한다.",
+            "좋아하는 기타 솔로를 반복해서 연습한다.",
+            "나는 집에서 이렇게 시간을 보내는 것을 가장 좋아한다."
           ],
-          "mainPoint": "At home, I usually rest on my bed after a busy day.",
+          "mainPoint": "At home, I usually practice the electric guitar after a busy day.",
           "mainPointSentences": [
-            "At home, I usually rest on my bed after a busy day."
+            "At home, I usually practice the electric guitar after a busy day."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -3257,38 +3234,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "At home, I usually rest on my bed after a busy day.",
-              "korean": "집에서는 바쁜 하루를 보낸 뒤 보통 침대에서 쉰다."
+              "english": "At home, I usually practice the electric guitar after a busy day.",
+              "korean": "집에서는 바쁜 하루를 보낸 뒤 보통 일렉기타를 연습한다."
             },
             {
-              "english": "I’m often tired when I get home, so I enjoy this quiet time.",
-              "korean": "집에 오면 자주 피곤해서 이 조용한 시간을 좋아한다."
+              "english": "It helps me feel better.",
+              "korean": "기타를 연습하면 기분이 나아진다."
             },
             {
               "english": "On weekdays, I take a shower when I get home.",
               "korean": "평일에는 집에 도착하면 샤워한다."
             },
             {
-              "english": "After that, I lie on my bed and watch YouTube for a short time.",
-              "korean": "그 후 침대에 누워 잠깐 유튜브를 본다."
+              "english": "Then I practice the guitar for thirty minutes.",
+              "korean": "그런 다음 30분 동안 기타를 연습한다."
             },
             {
-              "english": "On weekends, I usually stay home.",
-              "korean": "주말에는 보통 집에서 지낸다."
+              "english": "On weekends, I practice for about an hour.",
+              "korean": "주말에는 한 시간 정도 연습한다."
             },
             {
-              "english": "I watch videos and rest a little longer.",
-              "korean": "영상을 보면서 조금 더 오래 쉰다."
+              "english": "I practice my favorite guitar solo again and again.",
+              "korean": "좋아하는 기타 솔로를 반복해서 연습한다."
             },
             {
-              "english": "This simple routine helps me feel better.",
-              "korean": "이 간단한 습관은 기분이 나아지는 데 도움이 된다."
+              "english": "This is my favorite way to spend time at home.",
+              "korean": "나는 집에서 이렇게 시간을 보내는 것을 가장 좋아한다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, at home, I usually rest on my bed after a busy day.",
-              "korean": "음, 집에서는 바쁜 하루를 보낸 뒤 보통 침대에서 쉰다.",
+              "english": "Well, at home, I usually practice the electric guitar after a busy day.",
+              "korean": "음, 집에서는 바쁜 하루를 보낸 뒤 보통 일렉기타를 연습한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -3303,36 +3280,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I’m often kind of tired when I get home, so I enjoy this quiet time.",
-              "korean": "집에 오면 자주 조금 피곤해서 이 조용한 시간을 좋아한다.",
-              "englishEmphasis": [
-                {
-                  "start": 10,
-                  "end": 17
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 9,
-                  "end": 11
-                }
-              ]
-            },
-            {
-              "english": "On weekdays, I take a shower when I get home.",
-              "korean": "평일에는 집에 도착하면 샤워한다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "After that, I lie on my bed and watch YouTube for a short time.",
-              "korean": "그 후 침대에 누워 잠깐 유튜브를 본다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You know, on weekends, I usually stay home.",
-              "korean": "있잖아, 주말에는 보통 집에서 지낸다.",
+              "english": "You know, it helps me feel better.",
+              "korean": "있잖아, 기타를 연습하면 기분이 나아진다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -3347,8 +3296,26 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, I watch videos and rest a little longer.",
-              "korean": "그러니까, 영상을 보면서 조금 더 오래 쉰다.",
+              "english": "On weekdays, I take a shower when I get home.",
+              "korean": "평일에는 집에 도착하면 샤워한다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Then I practice the guitar for thirty minutes.",
+              "korean": "그런 다음 30분 동안 기타를 연습한다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "On weekends, I practice for about an hour.",
+              "korean": "주말에는 한 시간 정도 연습한다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "I mean, I practice my favorite guitar solo again and again.",
+              "korean": "그러니까, 좋아하는 기타 솔로를 반복해서 연습한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -3363,8 +3330,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, this simple routine helps me feel better.",
-              "korean": "그래서, 이 간단한 습관은 기분이 나아지는 데 도움이 된다.",
+              "english": "So, yeah, this is my favorite way to spend time at home.",
+              "korean": "그래서, 나는 집에서 이렇게 시간을 보내는 것을 가장 좋아한다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -3381,22 +3348,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "집에서는 바쁜 하루를 보낸 뒤 보통 침대에서 쉼",
-              "집에 오면 자주 피곤해서 이 조용한 시간을 좋아함",
+              "집에서는 바쁜 하루를 보낸 뒤 보통 일렉기타를 연습함",
+              "기타를 연습하면 기분이 나아진다",
               "평일에는 집에 도착하면 샤워함",
-              "그 후 침대에 누워 잠깐 유튜브를 봄",
-              "주말에는 보통 집에서 지냄",
-              "영상을 보면서 조금 더 오래 쉼",
-              "이 간단한 습관은 기분이 나아지는 데 도움 됨"
+              "그런 다음 30분 동안 기타를 연습함",
+              "주말에는 한 시간 정도 연습함",
+              "좋아하는 기타 솔로를 반복해서 연습함",
+              "집에서 이렇게 시간을 보내는 것을 가장 좋아함"
             ],
             "englishSkeleton": [
-              "At home, I usually rest on my bed after a busy day.",
-              "I’m often tired when I get home, so I enjoy this quiet time.",
+              "At home, I usually practice the electric guitar after a busy day.",
+              "It helps me feel better.",
               "On weekdays, I take a shower when I get home.",
-              "After that, I lie on my bed and watch YouTube for a short time.",
-              "On weekends, I usually stay home.",
-              "I watch videos and rest a little longer.",
-              "This simple routine helps me feel better."
+              "Then I practice the guitar for thirty minutes.",
+              "On weekends, I practice for about an hour.",
+              "I practice my favorite guitar solo again and again.",
+              "This is my favorite way to spend time at home."
             ]
           }
         },
@@ -3422,7 +3389,7 @@ window.OPIC_STUDY_DATA = {
             "The water was cut off for about a day.",
             "My family used the water we had saved very carefully.",
             "When the water came back, I felt really relieved.",
-            "After that, I started checking apartment notices more often."
+            "So now, we always keep some bottled water at home."
           ],
           "speakingChunks": [
             "Last summer, the water in our apartment was cut off.",
@@ -3431,7 +3398,7 @@ window.OPIC_STUDY_DATA = {
             "The water was cut off for about a day.",
             "My family used the water we had saved very carefully.",
             "When the water came back, I felt really relieved.",
-            "After that, I started checking apartment notices more often."
+            "So now, we always keep some bottled water at home."
           ],
           "speakingTranslations": [
             "지난여름 우리 아파트의 물이 끊겼다.",
@@ -3440,7 +3407,7 @@ window.OPIC_STUDY_DATA = {
             "물은 하루 정도 끊겼다.",
             "우리 가족은 미리 받아 둔 물을 아주 아껴 썼다.",
             "물이 다시 나오자 정말 안심이 되었다.",
-            "그 후로 아파트 공지를 더 자주 확인하기 시작했다."
+            "그래서 지금은 집에 항상 생수를 준비해 둔다."
           ],
           "mainPoint": "Last summer, the water in our apartment was cut off.",
           "mainPointSentences": [
@@ -3484,8 +3451,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "물이 다시 나오자 정말 안심이 되었다."
             },
             {
-              "english": "After that, I started checking apartment notices more often.",
-              "korean": "그 후로 아파트 공지를 더 자주 확인하기 시작했다."
+              "english": "So now, we always keep some bottled water at home.",
+              "korean": "그래서 지금은 집에 항상 생수를 준비해 둔다."
             }
           ],
           "fillerItems": [
@@ -3566,18 +3533,18 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, after that, I started checking apartment notices more often.",
-              "korean": "그래서, 그 후로 아파트 공지를 더 자주 확인하기 시작했다.",
+              "english": "So now, we always keep some bottled water at home.",
+              "korean": "그래서 지금은, 집에 항상 생수를 준비해 둔다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 7
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 4
+                  "end": 8
                 }
               ]
             }
@@ -3590,7 +3557,7 @@ window.OPIC_STUDY_DATA = {
               "물은 하루 정도 끊김",
               "우리 가족은 미리 받아 둔 물을 아주 아껴 사용함",
               "물이 다시 나오자 정말 안심이 됨",
-              "그 후로 아파트 공지를 더 자주 확인하기 시작했음"
+              "지금은 집에 항상 생수를 준비해 둔다"
             ],
             "englishSkeleton": [
               "Last summer, the water in our apartment was cut off.",
@@ -3599,7 +3566,7 @@ window.OPIC_STUDY_DATA = {
               "The water was cut off for about a day.",
               "My family used the water we had saved very carefully.",
               "When the water came back, I felt really relieved.",
-              "After that, I started checking apartment notices more often."
+              "So now, we always keep some bottled water at home."
             ]
           }
         },
@@ -3622,7 +3589,7 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Last summer, our water was cut off after heavy rain.",
             "I was worried because we didn’t know when the water would come back.",
-            "Before that, the apartment office warned us that the water would stop.",
+            "The apartment office told us the water would stop.",
             "My family filled bottles and buckets with water.",
             "We kept the water in the bathroom.",
             "We used it for washing.",
@@ -3632,7 +3599,7 @@ window.OPIC_STUDY_DATA = {
           "speakingChunks": [
             "Last summer, our water was cut off after heavy rain.",
             "I was worried because we didn’t know when the water would come back.",
-            "Before that, the apartment office warned us that the water would stop.",
+            "The apartment office told us the water would stop.",
             "My family filled bottles and buckets with water.",
             "We kept the water in the bathroom.",
             "We used it for washing.",
@@ -3642,7 +3609,7 @@ window.OPIC_STUDY_DATA = {
           "speakingTranslations": [
             "지난여름 폭우가 내린 뒤 우리 집의 물이 끊겼다.",
             "물이 언제 다시 나올지 몰라서 걱정되었다.",
-            "그전에 관리사무소에서 물이 끊길 거라고 알려 주었다.",
+            "관리사무소에서 물이 끊길 거라고 알려 주었다.",
             "우리 가족은 병과 양동이에 물을 받아 두었다.",
             "우리는 받아 둔 물을 화장실에 보관했다.",
             "그 물은 씻을 때 사용했다.",
@@ -3675,8 +3642,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "물이 언제 다시 나올지 몰라서 걱정되었다."
             },
             {
-              "english": "Before that, the apartment office warned us that the water would stop.",
-              "korean": "그전에 관리사무소에서 물이 끊길 거라고 알려 주었다."
+              "english": "The apartment office told us the water would stop.",
+              "korean": "관리사무소에서 물이 끊길 거라고 알려 주었다."
             },
             {
               "english": "My family filled bottles and buckets with water.",
@@ -3733,20 +3700,10 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Before that, the apartment office warned us that the water would stop.",
-              "korean": "그전에, 관리사무소에서 물이 끊길 거라고 알려 주었다.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 12
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 4
-                }
-              ]
+              "english": "The apartment office told us the water would stop.",
+              "korean": "관리사무소에서 물이 끊길 거라고 알려 주었다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
             },
             {
               "english": "You know, my family filled bottles and buckets with water.",
@@ -3813,7 +3770,7 @@ window.OPIC_STUDY_DATA = {
             "koreanFlow": [
               "지난여름 폭우가 내린 뒤 우리 집의 물이 끊김",
               "물이 언제 다시 나올지 몰라서 걱정됨",
-              "그전에 관리사무소에서 물이 끊길 거라고 알려 줌",
+              "관리사무소에서 물이 끊길 거라고 알려 줌",
               "우리 가족은 병과 양동이에 물을 받아 둠",
               "우리는 받아 둔 물을 화장실에 보관했음",
               "그 물은 씻을 때 사용했음",
@@ -3823,7 +3780,7 @@ window.OPIC_STUDY_DATA = {
             "englishSkeleton": [
               "Last summer, our water was cut off after heavy rain.",
               "I was worried because we didn’t know when the water would come back.",
-              "Before that, the apartment office warned us that the water would stop.",
+              "The apartment office told us the water would stop.",
               "My family filled bottles and buckets with water.",
               "We kept the water in the bathroom.",
               "We used it for washing.",
@@ -4791,7 +4748,7 @@ window.OPIC_STUDY_DATA = {
             "I like this because it makes things easier for everyone.",
             "My mom usually cooks and cleans the kitchen.",
             "My dad takes out the trash and the recycling.",
-            "My main job is to keep my room clean.",
+            "My main job is to clean the bathroom.",
             "Sometimes I wash the dishes after dinner.",
             "We try to do our jobs on time.",
             "If someone is busy, another person helps.",
@@ -4802,7 +4759,7 @@ window.OPIC_STUDY_DATA = {
             "I like this because it makes things easier for everyone.",
             "My mom usually cooks and cleans the kitchen.",
             "My dad takes out the trash and the recycling.",
-            "My main job is to keep my room clean.",
+            "My main job is to clean the bathroom.",
             "Sometimes I wash the dishes after dinner.",
             "We try to do our jobs on time.",
             "If someone is busy, another person helps.",
@@ -4813,7 +4770,7 @@ window.OPIC_STUDY_DATA = {
             "이렇게 하면 모두가 더 편해져서 나는 이 방식이 좋다.",
             "엄마는 보통 요리하고 주방을 청소하신다.",
             "아빠는 쓰레기와 재활용품을 버리신다.",
-            "내가 주로 맡은 일은 내 방을 깨끗하게 유지하는 것이다.",
+            "내가 주로 맡은 일은 화장실을 청소하는 것이다.",
             "가끔은 저녁 식사 후에 설거지를 한다.",
             "우리는 맡은 일을 제때 하려고 한다.",
             "누군가 바쁘면 다른 사람이 도와준다.",
@@ -4853,8 +4810,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "아빠는 쓰레기와 재활용품을 버리신다."
             },
             {
-              "english": "My main job is to keep my room clean.",
-              "korean": "내가 주로 맡은 일은 내 방을 깨끗하게 유지하는 것이다."
+              "english": "My main job is to clean the bathroom.",
+              "korean": "내가 주로 맡은 일은 화장실을 청소하는 것이다."
             },
             {
               "english": "Sometimes I wash the dishes after dinner.",
@@ -4909,8 +4866,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Actually, my main job is to keep my room clean.",
-              "korean": "사실, 내가 주로 맡은 일은 내 방을 깨끗하게 유지하는 것이다.",
+              "english": "Actually, my main job is to clean the bathroom.",
+              "korean": "사실, 내가 주로 맡은 일은 화장실을 청소하는 것이다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -4985,7 +4942,7 @@ window.OPIC_STUDY_DATA = {
               "이렇게 하면 모두가 더 편해져서 나는 이 방식이 좋음",
               "엄마는 보통 요리하고 주방을 청소함",
               "아빠는 쓰레기와 재활용품을 버림",
-              "주로 맡은 일은 내 방을 깨끗하게 유지함",
+              "주로 맡은 일은 화장실을 청소함",
               "가끔은 저녁 식사 후에 설거지를 함",
               "우리는 맡은 일을 제때 하려고 함",
               "누군가 바쁘면 다른 사람이 도와줌",
@@ -4996,7 +4953,7 @@ window.OPIC_STUDY_DATA = {
               "I like this because it makes things easier for everyone.",
               "My mom usually cooks and cleans the kitchen.",
               "My dad takes out the trash and the recycling.",
-              "My main job is to keep my room clean.",
+              "My main job is to clean the bathroom.",
               "Sometimes I wash the dishes after dinner.",
               "We try to do our jobs on time.",
               "If someone is busy, another person helps.",
@@ -5227,35 +5184,35 @@ window.OPIC_STUDY_DATA = {
             "What specific responsibilities were assigned to you and how did you handle them?"
           ],
           "finalSentences": [
-            "My main job as a child was cleaning my room.",
-            "I didn’t like it at first because I wanted to keep playing.",
-            "Every evening, I put my toys away after playing.",
-            "I also picked up clothes from the floor.",
-            "My parents often reminded me to clean up.",
-            "I usually finished before bedtime.",
-            "Over time, I learned to do it by myself."
+            "When I was a child, I had to clean my room.",
+            "I didn’t like it because I wanted to play.",
+            "Every evening, I put my toys away.",
+            "I also picked up my clothes.",
+            "My mom often told me to clean up.",
+            "I usually did it before bed.",
+            "Later, I learned to do it by myself."
           ],
           "speakingChunks": [
-            "My main job as a child was cleaning my room.",
-            "I didn’t like it at first because I wanted to keep playing.",
-            "Every evening, I put my toys away after playing.",
-            "I also picked up clothes from the floor.",
-            "My parents often reminded me to clean up.",
-            "I usually finished before bedtime.",
-            "Over time, I learned to do it by myself."
+            "When I was a child, I had to clean my room.",
+            "I didn’t like it because I wanted to play.",
+            "Every evening, I put my toys away.",
+            "I also picked up my clothes.",
+            "My mom often told me to clean up.",
+            "I usually did it before bed.",
+            "Later, I learned to do it by myself."
           ],
           "speakingTranslations": [
-            "어렸을 때 내가 주로 맡은 일은 방 청소였다.",
-            "처음에는 계속 놀고 싶어서 방 청소가 싫었다.",
-            "매일 저녁 나는 놀고 난 뒤 장난감을 치웠다.",
-            "바닥에 있는 옷도 주워 정리했다.",
-            "부모님은 자주 나에게 정리하라고 알려 주셨다.",
-            "보통 잠자리에 들기 전에 청소를 끝냈다.",
-            "시간이 지나면서 혼자서 하는 법을 배웠다."
+            "어렸을 때 나는 방을 청소해야 했다.",
+            "놀고 싶어서 그 일이 싫었다.",
+            "매일 저녁 장난감을 치웠다.",
+            "옷도 주워서 정리했다.",
+            "엄마는 자주 정리하라고 말씀하셨다.",
+            "보통 자기 전에 했다.",
+            "나중에는 혼자 하는 법을 배웠다."
           ],
-          "mainPoint": "My main job as a child was cleaning my room.",
+          "mainPoint": "When I was a child, I had to clean my room.",
           "mainPointSentences": [
-            "My main job as a child was cleaning my room."
+            "When I was a child, I had to clean my room."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -5271,38 +5228,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "My main job as a child was cleaning my room.",
-              "korean": "어렸을 때 내가 주로 맡은 일은 방 청소였다."
+              "english": "When I was a child, I had to clean my room.",
+              "korean": "어렸을 때 나는 방을 청소해야 했다."
             },
             {
-              "english": "I didn’t like it at first because I wanted to keep playing.",
-              "korean": "처음에는 계속 놀고 싶어서 방 청소가 싫었다."
+              "english": "I didn’t like it because I wanted to play.",
+              "korean": "놀고 싶어서 그 일이 싫었다."
             },
             {
-              "english": "Every evening, I put my toys away after playing.",
-              "korean": "매일 저녁 나는 놀고 난 뒤 장난감을 치웠다."
+              "english": "Every evening, I put my toys away.",
+              "korean": "매일 저녁 장난감을 치웠다."
             },
             {
-              "english": "I also picked up clothes from the floor.",
-              "korean": "바닥에 있는 옷도 주워 정리했다."
+              "english": "I also picked up my clothes.",
+              "korean": "옷도 주워서 정리했다."
             },
             {
-              "english": "My parents often reminded me to clean up.",
-              "korean": "부모님은 자주 나에게 정리하라고 알려 주셨다."
+              "english": "My mom often told me to clean up.",
+              "korean": "엄마는 자주 정리하라고 말씀하셨다."
             },
             {
-              "english": "I usually finished before bedtime.",
-              "korean": "보통 잠자리에 들기 전에 청소를 끝냈다."
+              "english": "I usually did it before bed.",
+              "korean": "보통 자기 전에 했다."
             },
             {
-              "english": "Over time, I learned to do it by myself.",
-              "korean": "시간이 지나면서 혼자서 하는 법을 배웠다."
+              "english": "Later, I learned to do it by myself.",
+              "korean": "나중에는 혼자 하는 법을 배웠다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Hmm, let me think. My main job as a child was cleaning my room.",
-              "korean": "음, 생각해 보니, 어렸을 때 내가 주로 맡은 일은 방 청소였다.",
+              "english": "Hmm, let me think. When I was a child, I had to clean my room.",
+              "korean": "음, 생각해 보니, 어렸을 때 나는 방을 청소해야 했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -5317,8 +5274,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, I didn’t like it at first because I wanted to keep playing.",
-              "korean": "있잖아, 처음에는 계속 놀고 싶어서 방 청소가 싫었다.",
+              "english": "Honestly, I didn’t like it because I wanted to play.",
+              "korean": "솔직히, 놀고 싶어서 그 일이 싫었다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -5333,42 +5290,42 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, every evening, I put my toys away after playing.",
-              "korean": "그러니까, 매일 저녁 나는 놀고 난 뒤 장난감을 치웠다.",
+              "english": "Every evening, I put my toys away.",
+              "korean": "매일 저녁 장난감을 치웠다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "I also picked up my clothes.",
+              "korean": "옷도 주워서 정리했다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "You know, my mom often told me to clean up.",
+              "korean": "있잖아, 엄마는 자주 정리하라고 말씀하셨다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 9
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 4
                 }
               ]
             },
             {
-              "english": "I also picked up clothes from the floor.",
-              "korean": "바닥에 있는 옷도 주워 정리했다.",
+              "english": "I usually did it before bed.",
+              "korean": "보통 자기 전에 했다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "My parents often reminded me to clean up.",
-              "korean": "부모님은 자주 나에게 정리하라고 알려 주셨다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "I usually finished before bedtime.",
-              "korean": "보통 잠자리에 들기 전에 청소를 끝냈다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "So, yeah, over time, I learned to do it by myself.",
-              "korean": "그래서, 시간이 지나면서 혼자서 하는 법을 배웠다.",
+              "english": "So, yeah, later, I learned to do it by myself.",
+              "korean": "그래서, 나중에는 혼자 하는 법을 배웠다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -5385,22 +5342,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "어렸을 때 내가 주로 맡은 일은 방 청소였음",
-              "처음에는 계속 놀고 싶어서 방 청소가 싫었음",
-              "매일 저녁 나는 놀고 난 뒤 장난감을 치움",
-              "바닥에 있는 옷도 주워 정리했음",
-              "부모님은 자주 나에게 정리하라고 알려 주심",
-              "보통 잠자리에 들기 전에 청소를 끝냄",
-              "시간이 지나면서 혼자서 하는 법을 배움"
+              "어렸을 때 나는 방을 청소해야 했음",
+              "놀고 싶어서 그 일이 싫었음",
+              "매일 저녁 장난감을 치움",
+              "옷도 주워서 정리했음",
+              "엄마는 자주 정리하라고 말씀하셨다",
+              "보통 자기 전에 했음",
+              "나중에는 혼자 하는 법을 배움"
             ],
             "englishSkeleton": [
-              "My main job as a child was cleaning my room.",
-              "I didn’t like it at first because I wanted to keep playing.",
-              "Every evening, I put my toys away after playing.",
-              "I also picked up clothes from the floor.",
-              "My parents often reminded me to clean up.",
-              "I usually finished before bedtime.",
-              "Over time, I learned to do it by myself."
+              "When I was a child, I had to clean my room.",
+              "I didn’t like it because I wanted to play.",
+              "Every evening, I put my toys away.",
+              "I also picked up my clothes.",
+              "My mom often told me to clean up.",
+              "I usually did it before bed.",
+              "Later, I learned to do it by myself."
             ]
           }
         },
@@ -5427,7 +5384,7 @@ window.OPIC_STUDY_DATA = {
             "Later, my mom asked about the trash.",
             "I ran outside, but the truck was already gone.",
             "We had to keep the trash for another week.",
-            "After that, I always took out the trash on time."
+            "After that, I started doing my tasks early."
           ],
           "speakingChunks": [
             "As a child, I once forgot to take out the trash.",
@@ -5437,7 +5394,7 @@ window.OPIC_STUDY_DATA = {
             "Later, my mom asked about the trash.",
             "I ran outside, but the truck was already gone.",
             "We had to keep the trash for another week.",
-            "After that, I always took out the trash on time."
+            "After that, I started doing my tasks early."
           ],
           "speakingTranslations": [
             "어렸을 때 한 번 쓰레기 버리는 것을 잊었다.",
@@ -5447,7 +5404,7 @@ window.OPIC_STUDY_DATA = {
             "나중에 엄마가 쓰레기에 대해 물으셨다.",
             "밖으로 뛰어나갔지만 쓰레기차는 이미 떠난 뒤였다.",
             "우리는 쓰레기를 일주일 더 보관해야 했다.",
-            "그 후로는 항상 쓰레기를 제때 내놓았다."
+            "그 후로는 할 일을 미리 하기 시작했다."
           ],
           "mainPoint": "As a child, I once forgot to take out the trash.",
           "mainPointSentences": [
@@ -5495,8 +5452,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "우리는 쓰레기를 일주일 더 보관해야 했다."
             },
             {
-              "english": "After that, I always took out the trash on time.",
-              "korean": "그 후로는 항상 쓰레기를 제때 내놓았다."
+              "english": "After that, I started doing my tasks early.",
+              "korean": "그 후로는 할 일을 미리 하기 시작했다."
             }
           ],
           "fillerItems": [
@@ -5593,8 +5550,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "So, yeah, after that, I always took out the trash on time.",
-              "korean": "그래서, 그 후로는 항상 쓰레기를 제때 내놓았다.",
+              "english": "So, yeah, after that, I started doing my tasks early.",
+              "korean": "그래서, 그 후로는 할 일을 미리 하기 시작했다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -5618,7 +5575,7 @@ window.OPIC_STUDY_DATA = {
               "나중에 엄마가 쓰레기에 대해 물으심",
               "밖으로 뛰어나갔지만 쓰레기차는 이미 떠난 뒤였음",
               "우리는 쓰레기를 일주일 더 보관해야 했음",
-              "그 후로는 항상 쓰레기를 제때 내놓음"
+              "그 후로는 할 일을 미리 하기 시작했음"
             ],
             "englishSkeleton": [
               "As a child, I once forgot to take out the trash.",
@@ -5628,7 +5585,7 @@ window.OPIC_STUDY_DATA = {
               "Later, my mom asked about the trash.",
               "I ran outside, but the truck was already gone.",
               "We had to keep the trash for another week.",
-              "After that, I always took out the trash on time."
+              "After that, I started doing my tasks early."
             ]
           }
         },
@@ -6134,7 +6091,7 @@ window.OPIC_STUDY_DATA = {
             "Hi, I’m sorry, but we need to cancel our lunch today.",
             "My mom got sick this morning.",
             "She needs to rest, so we can’t have lunch at my house.",
-            "Can we meet next weekend instead?",
+            "Maybe we can meet next weekend instead.",
             "Or we can have lunch at a restaurant another day.",
             "Please call me when you get this message.",
             "Again, I’m really sorry."
@@ -6143,7 +6100,7 @@ window.OPIC_STUDY_DATA = {
             "Hi, I’m sorry, but we need to cancel our lunch today.",
             "My mom got sick this morning.",
             "She needs to rest, so we can’t have lunch at my house.",
-            "Can we meet next weekend instead?",
+            "Maybe we can meet next weekend instead.",
             "Or we can have lunch at a restaurant another day.",
             "Please call me when you get this message.",
             "Again, I’m really sorry."
@@ -6152,7 +6109,7 @@ window.OPIC_STUDY_DATA = {
             "안녕, 미안하지만 오늘 점심 약속을 취소해야 해.",
             "오늘 아침에 엄마가 아프셨어.",
             "엄마가 쉬셔야 해서 우리 집에서 점심을 먹을 수 없어.",
-            "대신 다음 주말에 만날 수 있을까?",
+            "대신 다음 주말에 만나면 좋을 것 같아.",
             "아니면 다른 날 식당에서 점심을 먹어도 돼.",
             "이 메시지를 확인하면 전화해 줘.",
             "다시 한번 정말 미안해."
@@ -6187,8 +6144,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "엄마가 쉬셔야 해서 우리 집에서 점심을 먹을 수 없어."
             },
             {
-              "english": "Can we meet next weekend instead?",
-              "korean": "대신 다음 주말에 만날 수 있을까?"
+              "english": "Maybe we can meet next weekend instead.",
+              "korean": "대신 다음 주말에 만나면 좋을 것 같아."
             },
             {
               "english": "Or we can have lunch at a restaurant another day.",
@@ -6243,8 +6200,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Maybe we can meet next weekend instead?",
-              "korean": "혹시 다음 주말에 만날 수 있을까?",
+              "english": "Maybe we can meet next weekend instead.",
+              "korean": "혹시 대신 다음 주말에 만나는 건 어때?",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6302,7 +6259,7 @@ window.OPIC_STUDY_DATA = {
               "안녕, 미안하지만 오늘 점심 약속을 취소해야 해",
               "오늘 아침에 엄마가 아프셨어",
               "엄마가 쉬셔야 해서 우리 집에서 점심을 먹을 수 없어",
-              "대신 다음 주말에 만날 수 있을까?",
+              "대신 다음 주말에 만나면 좋을 것 같아",
               "아니면 다른 날 식당에서 점심을 먹어도 돼",
               "이 메시지를 확인하면 전화해 줘",
               "다시 한번 정말 미안해"
@@ -6311,7 +6268,7 @@ window.OPIC_STUDY_DATA = {
               "Hi, I’m sorry, but we need to cancel our lunch today.",
               "My mom got sick this morning.",
               "She needs to rest, so we can’t have lunch at my house.",
-              "Can we meet next weekend instead?",
+              "Maybe we can meet next weekend instead.",
               "Or we can have lunch at a restaurant another day.",
               "Please call me when you get this message.",
               "Again, I’m really sorry."
@@ -6337,33 +6294,33 @@ window.OPIC_STUDY_DATA = {
             "I once changed my plans to help my sick mom.",
             "I was very worried about her.",
             "That morning, my mom got sick and needed to rest.",
-            "But I was going to meet my friend that afternoon.",
+            "But I was going to watch a movie with my friend that afternoon.",
             "So I stayed home with her.",
             "I called my friend and explained the situation.",
-            "My friend understood, so we decided to meet a week later.",
-            "Then I cleaned the house for my mom.",
+            "My friend understood, so we decided to watch the movie a week later.",
+            "I also made lunch for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingChunks": [
             "I once changed my plans to help my sick mom.",
             "I was very worried about her.",
             "That morning, my mom got sick and needed to rest.",
-            "But I was going to meet my friend that afternoon.",
+            "But I was going to watch a movie with my friend that afternoon.",
             "So I stayed home with her.",
             "I called my friend and explained the situation.",
-            "My friend understood, so we decided to meet a week later.",
-            "Then I cleaned the house for my mom.",
+            "My friend understood, so we decided to watch the movie a week later.",
+            "I also made lunch for my mom.",
             "In the end, I was glad I could help my mom."
           ],
           "speakingTranslations": [
             "한번은 아픈 엄마를 돕기 위해 계획을 바꿨다.",
             "엄마가 많이 걱정되었다.",
             "그날 아침 엄마가 아프셔서 쉬셔야 했다.",
-            "하지만 그날 오후에 친구를 만날 예정이었다.",
+            "하지만 그날 오후에 친구와 영화를 볼 예정이었다.",
             "그래서 엄마와 함께 집에 남았다.",
             "친구에게 전화해서 상황을 설명했다.",
-            "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다.",
-            "그런 다음 엄마 대신 집을 청소했다.",
+            "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다.",
+            "나는 엄마를 위해 점심도 만들었다.",
             "결국 엄마를 도울 수 있어서 다행이었다."
           ],
           "mainPoint": "I once changed my plans to help my sick mom. I was very worried about her.",
@@ -6400,8 +6357,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "그날 아침 엄마가 아프셔서 쉬셔야 했다."
             },
             {
-              "english": "But I was going to meet my friend that afternoon.",
-              "korean": "하지만 그날 오후에 친구를 만날 예정이었다."
+              "english": "But I was going to watch a movie with my friend that afternoon.",
+              "korean": "하지만 그날 오후에 친구와 영화를 볼 예정이었다."
             },
             {
               "english": "So I stayed home with her.",
@@ -6412,12 +6369,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "친구에게 전화해서 상황을 설명했다."
             },
             {
-              "english": "My friend understood, so we decided to meet a week later.",
-              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다."
+              "english": "My friend understood, so we decided to watch the movie a week later.",
+              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다."
             },
             {
-              "english": "Then I cleaned the house for my mom.",
-              "korean": "그런 다음 엄마 대신 집을 청소했다."
+              "english": "I also made lunch for my mom.",
+              "korean": "나는 엄마를 위해 점심도 만들었다."
             },
             {
               "english": "In the end, I was glad I could help my mom.",
@@ -6474,8 +6431,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "But I was going to meet my friend that afternoon.",
-              "korean": "하지만 그날 오후에 친구를 만날 예정이었다.",
+              "english": "But I was going to watch a movie with my friend that afternoon.",
+              "korean": "하지만 그날 오후에 친구와 영화를 볼 예정이었다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -6502,14 +6459,14 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "My friend understood, so we decided to meet a week later.",
-              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했다.",
+              "english": "My friend understood, so we decided to watch the movie a week later.",
+              "korean": "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Then I cleaned the house for my mom.",
-              "korean": "그런 다음 엄마 대신 집을 청소했다.",
+              "english": "I also made lunch for my mom.",
+              "korean": "나는 엄마를 위해 점심도 만들었다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
@@ -6535,22 +6492,22 @@ window.OPIC_STUDY_DATA = {
               "한번은 아픈 엄마를 돕기 위해 계획을 바꿈",
               "엄마가 많이 걱정됨",
               "그날 아침 엄마가 아프셔서 쉬셔야 했음",
-              "하지만 그날 오후에 친구를 만날 예정이었음",
+              "하지만 그날 오후에 친구와 영화를 볼 예정이었음",
               "엄마와 함께 집에 남음",
               "친구에게 전화해서 상황을 설명했음",
-              "친구가 이해해 주어서 우리는 일주일 뒤에 만나기로 했음",
-              "그런 다음 엄마 대신 집을 청소했음",
+              "친구가 이해해 주어서 우리는 일주일 뒤에 영화를 보기로 했음",
+              "엄마를 위해 점심도 만들었다",
               "엄마를 도울 수 있어서 다행이었음"
             ],
             "englishSkeleton": [
               "I once changed my plans to help my sick mom.",
               "I was very worried about her.",
               "That morning, my mom got sick and needed to rest.",
-              "But I was going to meet my friend that afternoon.",
+              "But I was going to watch a movie with my friend that afternoon.",
               "So I stayed home with her.",
               "I called my friend and explained the situation.",
-              "My friend understood, so we decided to meet a week later.",
-              "Then I cleaned the house for my mom.",
+              "My friend understood, so we decided to watch the movie a week later.",
+              "I also made lunch for my mom.",
               "In the end, I was glad I could help my mom."
             ]
           }
@@ -6571,100 +6528,89 @@ window.OPIC_STUDY_DATA = {
             "Describe it to me."
           ],
           "finalSentences": [
-            "I spend most of my time in my room.",
-            "It’s quiet, so I can relax there.",
-            "It isn’t very big, but it has everything I need.",
-            "My bed is next to the window.",
-            "The room gets a lot of sunlight during the day.",
-            "My favorite part of the room is my bed.",
-            "When I feel tired, I lie down and rest.",
-            "Sometimes I watch videos in bed before I sleep.",
-            "So my room is the most comfortable place in my home."
+            "I spend most of my time in the living room.",
+            "It feels very comfortable.",
+            "There’s a sofa, a TV, and a dining table there.",
+            "I usually spend time there late at night.",
+            "The living room is very quiet then.",
+            "I sit on the sofa and watch Netflix on TV.",
+            "I can relax there by myself.",
+            "That’s why the living room is my favorite place at home."
           ],
           "speakingChunks": [
-            "I spend most of my time in my room.",
-            "It’s quiet, so I can relax there.",
-            "It isn’t very big, but it has everything I need.",
-            "My bed is next to the window.",
-            "The room gets a lot of sunlight during the day.",
-            "My favorite part of the room is my bed.",
-            "When I feel tired, I lie down and rest.",
-            "Sometimes I watch videos in bed before I sleep.",
-            "So my room is the most comfortable place in my home."
+            "I spend most of my time in the living room.",
+            "It feels very comfortable.",
+            "There’s a sofa, a TV, and a dining table there.",
+            "I usually spend time there late at night.",
+            "The living room is very quiet then.",
+            "I sit on the sofa and watch Netflix on TV.",
+            "I can relax there by myself.",
+            "That’s why the living room is my favorite place at home."
           ],
           "speakingTranslations": [
-            "나는 대부분의 시간을 내 방에서 보낸다.",
-            "내 방은 조용해서 편하게 쉴 수 있다.",
-            "방이 아주 크지는 않지만 필요한 것은 모두 있다.",
-            "침대는 창문 옆에 있다.",
-            "낮에는 방에 햇빛이 많이 들어온다.",
-            "방에서 내가 가장 좋아하는 곳은 침대이다.",
-            "피곤할 때는 침대에 누워서 쉰다.",
-            "가끔 잠들기 전에 침대에서 영상을 본다.",
-            "그래서 내 방은 우리 집에서 가장 편안한 곳이다."
+            "나는 대부분의 시간을 거실에서 보낸다.",
+            "거실은 매우 편안하게 느껴진다.",
+            "거기에는 소파와 TV, 식탁이 있다.",
+            "나는 보통 늦은 밤에 거실에서 시간을 보낸다.",
+            "그때는 거실이 매우 조용하다.",
+            "나는 소파에 앉아서 TV로 넷플릭스를 본다.",
+            "그곳에서 혼자 편하게 쉴 수 있다.",
+            "그래서 거실은 집에서 내가 가장 좋아하는 곳이다."
           ],
-          "mainPoint": "I spend most of my time in my room. It’s quiet, so I can relax there.",
+          "mainPoint": "I spend most of my time in the living room.",
           "mainPointSentences": [
-            "I spend most of my time in my room.",
-            "It’s quiet, so I can relax there."
+            "I spend most of my time in the living room."
           ],
           "mainPointSentenceIndexes": [
-            0,
-            1
+            0
           ],
           "mainPointSpeakingChunkIndexes": [
-            0,
-            1
+            0
           ],
           "mainPointFillerIndexes": [
-            0,
-            1
+            0
           ],
           "mainPointSentenceIndex": 0,
           "mainPointSpeakingChunkIndex": 0,
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I spend most of my time in my room.",
-              "korean": "나는 대부분의 시간을 내 방에서 보낸다."
+              "english": "I spend most of my time in the living room.",
+              "korean": "나는 대부분의 시간을 거실에서 보낸다."
             },
             {
-              "english": "It’s quiet, so I can relax there.",
-              "korean": "내 방은 조용해서 편하게 쉴 수 있다."
+              "english": "It feels very comfortable.",
+              "korean": "거실은 매우 편안하게 느껴진다."
             },
             {
-              "english": "It isn’t very big, but it has everything I need.",
-              "korean": "방이 아주 크지는 않지만 필요한 것은 모두 있다."
+              "english": "There’s a sofa, a TV, and a dining table there.",
+              "korean": "거기에는 소파와 TV, 식탁이 있다."
             },
             {
-              "english": "My bed is next to the window.",
-              "korean": "침대는 창문 옆에 있다."
+              "english": "I usually spend time there late at night.",
+              "korean": "나는 보통 늦은 밤에 거실에서 시간을 보낸다."
             },
             {
-              "english": "The room gets a lot of sunlight during the day.",
-              "korean": "낮에는 방에 햇빛이 많이 들어온다."
+              "english": "The living room is very quiet then.",
+              "korean": "그때는 거실이 매우 조용하다."
             },
             {
-              "english": "My favorite part of the room is my bed.",
-              "korean": "방에서 내가 가장 좋아하는 곳은 침대이다."
+              "english": "I sit on the sofa and watch Netflix on TV.",
+              "korean": "나는 소파에 앉아서 TV로 넷플릭스를 본다."
             },
             {
-              "english": "When I feel tired, I lie down and rest.",
-              "korean": "피곤할 때는 침대에 누워서 쉰다."
+              "english": "I can relax there by myself.",
+              "korean": "그곳에서 혼자 편하게 쉴 수 있다."
             },
             {
-              "english": "Sometimes I watch videos in bed before I sleep.",
-              "korean": "가끔 잠들기 전에 침대에서 영상을 본다."
-            },
-            {
-              "english": "So my room is the most comfortable place in my home.",
-              "korean": "그래서 내 방은 우리 집에서 가장 편안한 곳이다."
+              "english": "That’s why the living room is my favorite place at home.",
+              "korean": "그래서 거실은 집에서 내가 가장 좋아하는 곳이다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, I spend most of my time in my room.",
-              "korean": "음, 나는 대부분의 시간을 내 방에서 보낸다.",
+              "english": "Well, I spend most of my time in the living room.",
+              "korean": "음, 나는 대부분의 시간을 거실에서 보낸다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6679,42 +6625,20 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "It’s quiet, so I can relax there.",
-              "korean": "내 방은 조용해서 편하게 쉴 수 있다.",
+              "english": "It feels very comfortable.",
+              "korean": "거실은 매우 편안하게 느껴진다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "It isn’t very big, but it actually has everything I need.",
-              "korean": "방이 아주 크지는 않지만 사실 필요한 것은 모두 있다.",
-              "englishEmphasis": [
-                {
-                  "start": 26,
-                  "end": 34
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 14,
-                  "end": 16
-                }
-              ]
-            },
-            {
-              "english": "My bed is next to the window.",
-              "korean": "침대는 창문 옆에 있다.",
+              "english": "There’s a sofa, a TV, and a dining table there.",
+              "korean": "거기에는 소파와 TV, 식탁이 있다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "The room gets a lot of sunlight during the day.",
-              "korean": "낮에는 방에 햇빛이 많이 들어온다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You know, my favorite part of the room is my bed.",
-              "korean": "있잖아, 방에서 내가 가장 좋아하는 곳은 침대이다.",
+              "english": "You know, I usually spend time there late at night.",
+              "korean": "있잖아, 나는 보통 늦은 밤에 거실에서 시간을 보낸다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6729,8 +6653,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, when I feel tired, I lie down and rest.",
-              "korean": "그러니까, 피곤할 때는 침대에 누워서 쉰다.",
+              "english": "The living room is very quiet then.",
+              "korean": "그때는 거실이 매우 조용하다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "I mean, I sit on the sofa and watch Netflix on TV.",
+              "korean": "그러니까, 나는 소파에 앉아서 TV로 넷플릭스를 본다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6745,14 +6675,14 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Sometimes I watch videos in bed before I sleep.",
-              "korean": "가끔 잠들기 전에 침대에서 영상을 본다.",
+              "english": "I can relax there by myself.",
+              "korean": "그곳에서 혼자 편하게 쉴 수 있다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, my room is the most comfortable place in my home.",
-              "korean": "그래서, 내 방은 우리 집에서 가장 편안한 곳이다.",
+              "english": "So, yeah, that’s why the living room is my favorite place at home.",
+              "korean": "그래서, 거실은 집에서 내가 가장 좋아하는 곳이다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6769,26 +6699,24 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "대부분의 시간을 내 방에서 보냄",
-              "내 방은 조용해서 편하게 쉴 수 있음",
-              "방이 아주 크지는 않지만 필요한 것은 모두 있음",
-              "침대는 창문 옆에 있음",
-              "낮에는 방에 햇빛이 많이 들어옴",
-              "방에서 내가 가장 좋아하는 곳은 침대",
-              "피곤할 때는 침대에 누워서 쉼",
-              "가끔 잠들기 전에 침대에서 영상을 봄",
-              "내 방은 우리 집에서 가장 편안한 곳"
+              "대부분의 시간을 거실에서 보냄",
+              "거실은 매우 편안하게 느껴짐",
+              "거기에는 소파와 TV, 식탁이 있음",
+              "보통 늦은 밤에 거실에서 시간을 보냄",
+              "그때는 거실이 매우 조용하다",
+              "소파에 앉아서 TV로 넷플릭스를 봄",
+              "그곳에서 혼자 편하게 쉴 수 있음",
+              "거실은 집에서 내가 가장 좋아하는 곳"
             ],
             "englishSkeleton": [
-              "I spend most of my time in my room.",
-              "It’s quiet, so I can relax there.",
-              "It isn’t very big, but it has everything I need.",
-              "My bed is next to the window.",
-              "The room gets a lot of sunlight during the day.",
-              "My favorite part of the room is my bed.",
-              "When I feel tired, I lie down and rest.",
-              "Sometimes I watch videos in bed before I sleep.",
-              "So my room is the most comfortable place in my home."
+              "I spend most of my time in the living room.",
+              "It feels very comfortable.",
+              "There’s a sofa, a TV, and a dining table there.",
+              "I usually spend time there late at night.",
+              "The living room is very quiet then.",
+              "I sit on the sofa and watch Netflix on TV.",
+              "I can relax there by myself.",
+              "That’s why the living room is my favorite place at home."
             ]
           }
         },
@@ -6813,8 +6741,7 @@ window.OPIC_STUDY_DATA = {
             "We usually sit at the table together in the evening.",
             "While we eat, we talk about our day.",
             "We don’t talk about anything special.",
-            "On weekdays, we sometimes eat quickly.",
-            "On weekends, we sit together a little longer.",
+            "We can talk more on weekends than on weekdays.",
             "So eating dinner together helps me feel close to my family."
           ],
           "speakingChunks": [
@@ -6823,8 +6750,7 @@ window.OPIC_STUDY_DATA = {
             "We usually sit at the table together in the evening.",
             "While we eat, we talk about our day.",
             "We don’t talk about anything special.",
-            "On weekdays, we sometimes eat quickly.",
-            "On weekends, we sit together a little longer.",
+            "We can talk more on weekends than on weekdays.",
             "So eating dinner together helps me feel close to my family."
           ],
           "speakingTranslations": [
@@ -6833,8 +6759,7 @@ window.OPIC_STUDY_DATA = {
             "우리는 보통 저녁에 함께 식탁에 앉는다.",
             "식사하면서 그날 있었던 일을 이야기한다.",
             "특별한 이야기를 하는 것은 아니다.",
-            "평일에는 가끔 저녁을 빨리 먹는다.",
-            "주말에는 조금 더 오래 함께 앉아 있는다.",
+            "주말에는 평일보다 더 많이 이야기할 수 있다.",
             "그래서 함께 저녁을 먹으면 가족과 더 가까워진 기분이 든다."
           ],
           "mainPoint": "My family usually eats dinner together at home.",
@@ -6875,12 +6800,8 @@ window.OPIC_STUDY_DATA = {
               "korean": "특별한 이야기를 하는 것은 아니다."
             },
             {
-              "english": "On weekdays, we sometimes eat quickly.",
-              "korean": "평일에는 가끔 저녁을 빨리 먹는다."
-            },
-            {
-              "english": "On weekends, we sit together a little longer.",
-              "korean": "주말에는 조금 더 오래 함께 앉아 있는다."
+              "english": "We can talk more on weekends than on weekdays.",
+              "korean": "주말에는 평일보다 더 많이 이야기할 수 있다."
             },
             {
               "english": "So eating dinner together helps me feel close to my family.",
@@ -6949,14 +6870,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "On weekdays, we sometimes eat quickly.",
-              "korean": "평일에는 가끔 저녁을 빨리 먹는다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "Actually, on weekends, we sit together a little longer.",
-              "korean": "사실, 주말에는 조금 더 오래 함께 앉아 있는다.",
+              "english": "Actually, we can talk more on weekends than on weekdays.",
+              "korean": "사실, 주말에는 평일보다 더 많이 이야기할 수 있다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -6994,8 +6909,7 @@ window.OPIC_STUDY_DATA = {
               "우리는 보통 저녁에 함께 식탁에 앉음",
               "식사하면서 그날 있었던 일을 이야기함",
               "특별한 이야기를 하는 것은 아님",
-              "평일에는 가끔 저녁을 빨리 먹음",
-              "주말에는 조금 더 오래 함께 앉아 있음",
+              "주말에는 평일보다 더 많이 이야기할 수 있음",
               "함께 저녁을 먹으면 가족과 더 가까워진 기분이 듦"
             ],
             "englishSkeleton": [
@@ -7004,8 +6918,7 @@ window.OPIC_STUDY_DATA = {
               "We usually sit at the table together in the evening.",
               "While we eat, we talk about our day.",
               "We don’t talk about anything special.",
-              "On weekdays, we sometimes eat quickly.",
-              "On weekends, we sit together a little longer.",
+              "We can talk more on weekends than on weekdays.",
               "So eating dinner together helps me feel close to my family."
             ]
           }
@@ -7026,38 +6939,35 @@ window.OPIC_STUDY_DATA = {
             "Describe how it has changed over the years."
           ],
           "finalSentences": [
-            "The biggest change is that I have my own room now.",
-            "My home is more comfortable now.",
-            "When I was young, our home was smaller.",
+            "When I was a child, I didn’t have my own room, but now I do.",
+            "Our home was smaller then.",
             "I had to share a room.",
-            "Sometimes it was hard to study or rest alone.",
-            "Now I have a quiet room of my own.",
-            "I can study and rest there by myself.",
-            "I liked my old home, but my home is better now."
+            "It was hard to study or rest alone.",
+            "But now, I have my own quiet room.",
+            "I’m free to study or rest there whenever I want.",
+            "So my home is much more comfortable now."
           ],
           "speakingChunks": [
-            "The biggest change is that I have my own room now.",
-            "My home is more comfortable now.",
-            "When I was young, our home was smaller.",
+            "When I was a child, I didn’t have my own room, but now I do.",
+            "Our home was smaller then.",
             "I had to share a room.",
-            "Sometimes it was hard to study or rest alone.",
-            "Now I have a quiet room of my own.",
-            "I can study and rest there by myself.",
-            "I liked my old home, but my home is better now."
+            "It was hard to study or rest alone.",
+            "But now, I have my own quiet room.",
+            "I’m free to study or rest there whenever I want.",
+            "So my home is much more comfortable now."
           ],
           "speakingTranslations": [
-            "가장 큰 변화는 지금은 내 방이 있다는 것이다.",
-            "그래서 지금 집이 더 편안하다.",
-            "내가 어렸을 때는 우리 집이 더 작았다.",
+            "어렸을 때는 나만의 방이 없었지만 지금은 있다.",
+            "그때 우리 집은 더 작았다.",
             "나는 방을 함께 써야 했다.",
-            "가끔 혼자 공부하거나 쉬기가 어려웠다.",
-            "지금은 나만의 조용한 방이 있다.",
-            "그곳에서 혼자 공부하고 쉴 수 있다.",
-            "예전 집도 좋았지만 지금 집이 더 좋다."
+            "혼자 공부하거나 쉬기가 어려웠다.",
+            "하지만 지금은 나만의 조용한 방이 있다.",
+            "그곳에서는 원할 때 자유롭게 공부하거나 쉴 수 있다.",
+            "그래서 지금 우리 집이 훨씬 더 편안하다."
           ],
-          "mainPoint": "The biggest change is that I have my own room now.",
+          "mainPoint": "When I was a child, I didn’t have my own room, but now I do.",
           "mainPointSentences": [
-            "The biggest change is that I have my own room now."
+            "When I was a child, I didn’t have my own room, but now I do."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -7073,42 +6983,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "The biggest change is that I have my own room now.",
-              "korean": "가장 큰 변화는 지금은 내 방이 있다는 것이다."
+              "english": "When I was a child, I didn’t have my own room, but now I do.",
+              "korean": "어렸을 때는 나만의 방이 없었지만 지금은 있다."
             },
             {
-              "english": "My home is more comfortable now.",
-              "korean": "그래서 지금 집이 더 편안하다."
-            },
-            {
-              "english": "When I was young, our home was smaller.",
-              "korean": "내가 어렸을 때는 우리 집이 더 작았다."
+              "english": "Our home was smaller then.",
+              "korean": "그때 우리 집은 더 작았다."
             },
             {
               "english": "I had to share a room.",
               "korean": "나는 방을 함께 써야 했다."
             },
             {
-              "english": "Sometimes it was hard to study or rest alone.",
-              "korean": "가끔 혼자 공부하거나 쉬기가 어려웠다."
+              "english": "It was hard to study or rest alone.",
+              "korean": "혼자 공부하거나 쉬기가 어려웠다."
             },
             {
-              "english": "Now I have a quiet room of my own.",
-              "korean": "지금은 나만의 조용한 방이 있다."
+              "english": "But now, I have my own quiet room.",
+              "korean": "하지만 지금은 나만의 조용한 방이 있다."
             },
             {
-              "english": "I can study and rest there by myself.",
-              "korean": "그곳에서 혼자 공부하고 쉴 수 있다."
+              "english": "I’m free to study or rest there whenever I want.",
+              "korean": "그곳에서는 원할 때 자유롭게 공부하거나 쉴 수 있다."
             },
             {
-              "english": "I liked my old home, but my home is better now.",
-              "korean": "예전 집도 좋았지만 지금 집이 더 좋다."
+              "english": "So my home is much more comfortable now.",
+              "korean": "그래서 지금 우리 집이 훨씬 더 편안하다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, the biggest change is that I have my own room now.",
-              "korean": "음, 가장 큰 변화는 지금은 내 방이 있다는 것이다.",
+              "english": "Well, when I was a child, I didn’t have my own room, but now I do.",
+              "korean": "음, 어렸을 때는 나만의 방이 없었지만 지금은 있다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7121,12 +7027,6 @@ window.OPIC_STUDY_DATA = {
                   "end": 2
                 }
               ]
-            },
-            {
-              "english": "My home is more comfortable now.",
-              "korean": "그래서 지금 집이 더 편안하다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
             },
             {
               "english": "Back then, our home was smaller.",
@@ -7151,8 +7051,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "I mean, sometimes it was hard to study or rest alone.",
-              "korean": "그러니까, 가끔 혼자 공부하거나 쉬기가 어려웠다.",
+              "english": "I mean, it was hard to study or rest alone.",
+              "korean": "그러니까, 혼자 공부하거나 쉬기가 어려웠다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7167,30 +7067,40 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Now I have a quiet room of my own.",
-              "korean": "지금은 나만의 조용한 방이 있다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "I can actually study and rest there by myself.",
-              "korean": "그곳에서는 실제로 혼자 공부하고 쉴 수 있다.",
+              "english": "But now, I have my own quiet room.",
+              "korean": "하지만 지금은, 나만의 조용한 방이 있다.",
               "englishEmphasis": [
                 {
-                  "start": 6,
-                  "end": 14
+                  "start": 0,
+                  "end": 8
                 }
               ],
               "koreanEmphasis": [
                 {
-                  "start": 6,
-                  "end": 9
+                  "start": 0,
+                  "end": 8
                 }
               ]
             },
             {
-              "english": "So, yeah, I liked my old home, but my home is better now.",
-              "korean": "그래서, 예전 집도 좋았지만 지금 집이 더 좋다.",
+              "english": "I’m free to study or rest there whenever I want.",
+              "korean": "그곳에서는 원할 때 자유롭게 공부하거나 쉴 수 있다.",
+              "englishEmphasis": [
+                {
+                  "start": 4,
+                  "end": 11
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 11,
+                  "end": 15
+                }
+              ]
+            },
+            {
+              "english": "So, yeah, my home is much more comfortable now.",
+              "korean": "그래서, 지금 우리 집이 훨씬 더 편안하다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -7207,24 +7117,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "가장 큰 변화는 지금은 내 방이 있음",
-              "지금 집이 더 편안함",
-              "어렸을 때는 우리 집이 더 작았음",
+              "어렸을 때는 나만의 방이 없었지만 지금은 있음",
+              "그때 우리 집은 더 작았음",
               "방을 함께 써야 했음",
-              "가끔 혼자 공부하거나 쉬기가 어려웠음",
-              "지금은 나만의 조용한 방이 있음",
-              "그곳에서 혼자 공부하고 쉴 수 있음",
-              "예전 집도 좋았지만 지금 집이 더 좋음"
+              "혼자 공부하거나 쉬기가 어려웠음",
+              "하지만 지금은 나만의 조용한 방이 있음",
+              "그곳에서는 원할 때 자유롭게 공부하거나 쉴 수 있음",
+              "지금 우리 집이 훨씬 더 편안함"
             ],
             "englishSkeleton": [
-              "The biggest change is that I have my own room now.",
-              "My home is more comfortable now.",
-              "When I was young, our home was smaller.",
+              "When I was a child, I didn’t have my own room, but now I do.",
+              "Our home was smaller then.",
               "I had to share a room.",
-              "Sometimes it was hard to study or rest alone.",
-              "Now I have a quiet room of my own.",
-              "I can study and rest there by myself.",
-              "I liked my old home, but my home is better now."
+              "It was hard to study or rest alone.",
+              "But now, I have my own quiet room.",
+              "I’m free to study or rest there whenever I want.",
+              "So my home is much more comfortable now."
             ]
           }
         },
@@ -19941,30 +19849,30 @@ window.OPIC_STUDY_DATA = {
           "finalSentences": [
             "Hello, there’s a problem with my movie tickets.",
             "The tickets are for tomorrow, not today.",
-            "Could you change my tickets to a later show today?",
+            "Well, could you change my tickets to today?",
             "Oh, there are no seats left? I understand.",
-            "Then, could I get a refund?",
-            "Oh, I can get a refund. Great.",
+            "Then, could you cancel my tickets?",
+            "Oh, you can cancel them. Great.",
             "I’ll buy new tickets for another day.",
             "Thank you for your help."
           ],
           "speakingChunks": [
             "Hello, there’s a problem with my movie tickets.",
             "The tickets are for tomorrow, not today.",
-            "Could you change my tickets to a later show today?",
+            "Well, could you change my tickets to today?",
             "Oh, there are no seats left? I understand.",
-            "Then, could I get a refund?",
-            "Oh, I can get a refund. Great.",
+            "Then, could you cancel my tickets?",
+            "Oh, you can cancel them. Great.",
             "I’ll buy new tickets for another day.",
             "Thank you for your help."
           ],
           "speakingTranslations": [
             "안녕하세요, 제 영화표에 문제가 있습니다.",
             "표가 오늘이 아니라 내일 날짜로 되어 있습니다.",
-            "오늘 더 늦은 상영으로 바꿔 주실 수 있나요?",
+            "음, 제 표를 오늘 날짜로 바꿔 주실 수 있나요?",
             "아, 남은 좌석이 없나요? 알겠습니다.",
-            "그러면 환불받을 수 있나요?",
-            "환불받을 수 있군요. 좋습니다.",
+            "그러면 제 표를 취소해 주실 수 있나요?",
+            "아, 취소해 주실 수 있군요. 좋습니다.",
             "다른 날 표를 새로 사겠습니다.",
             "도와주셔서 감사합니다."
           ],
@@ -19998,20 +19906,20 @@ window.OPIC_STUDY_DATA = {
               "korean": "표가 오늘이 아니라 내일 날짜로 되어 있습니다."
             },
             {
-              "english": "Could you change my tickets to a later show today?",
-              "korean": "오늘 더 늦은 상영으로 바꿔 주실 수 있나요?"
+              "english": "Well, could you change my tickets to today?",
+              "korean": "음, 제 표를 오늘 날짜로 바꿔 주실 수 있나요?"
             },
             {
               "english": "Oh, there are no seats left? I understand.",
               "korean": "아, 남은 좌석이 없나요? 알겠습니다."
             },
             {
-              "english": "Then, could I get a refund?",
-              "korean": "그러면 환불받을 수 있나요?"
+              "english": "Then, could you cancel my tickets?",
+              "korean": "그러면 제 표를 취소해 주실 수 있나요?"
             },
             {
-              "english": "Oh, I can get a refund. Great.",
-              "korean": "환불받을 수 있군요. 좋습니다."
+              "english": "Oh, you can cancel them. Great.",
+              "korean": "아, 취소해 주실 수 있군요. 좋습니다."
             },
             {
               "english": "I’ll buy new tickets for another day.",
@@ -20036,8 +19944,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Well, could you change my tickets to a later show today?",
-              "korean": "음, 오늘 더 늦은 상영으로 바꿔 주실 수 있나요?",
+              "english": "Well, could you change my tickets to today?",
+              "korean": "음, 제 표를 오늘 날짜로 바꿔 주실 수 있나요?",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -20076,28 +19984,32 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Then, could I get a refund?",
-              "korean": "그러면 환불받을 수 있나요?",
+              "english": "Then, could you cancel my tickets?",
+              "korean": "그러면 제 표를 취소해 주실 수 있나요?",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Oh, I can get a refund. Great.",
-              "korean": "환불받을 수 있군요. 좋습니다.",
+              "english": "Oh, you can cancel them. Great.",
+              "korean": "아, 취소해 주실 수 있군요. 좋습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
                   "end": 3
                 },
                 {
-                  "start": 24,
-                  "end": 30
+                  "start": 25,
+                  "end": 31
                 }
               ],
               "koreanEmphasis": [
                 {
-                  "start": 12,
-                  "end": 17
+                  "start": 0,
+                  "end": 2
+                },
+                {
+                  "start": 17,
+                  "end": 22
                 }
               ]
             },
@@ -20128,20 +20040,20 @@ window.OPIC_STUDY_DATA = {
             "koreanFlow": [
               "안녕하세요, 제 영화표에 문제가 있음",
               "표가 오늘이 아니라 내일 날짜로 되어 있음",
-              "오늘 더 늦은 상영으로 바꿔 주실 수 있나요?",
+              "음, 제 표를 오늘 날짜로 바꿔 주실 수 있나요?",
               "아, 남은 좌석이 없나요? 알겠음",
-              "그러면 환불받을 수 있나요?",
-              "환불받을 수 있군요. 좋음",
+              "그러면 제 표를 취소해 주실 수 있나요?",
+              "아, 취소해 주실 수 있군요. 좋음",
               "다른 날 표를 새로 사겠음",
               "도와주셔서 감사함"
             ],
             "englishSkeleton": [
               "Hello, there’s a problem with my movie tickets.",
               "The tickets are for tomorrow, not today.",
-              "Could you change my tickets to a later show today?",
+              "Well, could you change my tickets to today?",
               "Oh, there are no seats left? I understand.",
-              "Then, could I get a refund?",
-              "Oh, I can get a refund. Great.",
+              "Then, could you cancel my tickets?",
+              "Oh, you can cancel them. Great.",
               "I’ll buy new tickets for another day.",
               "Thank you for your help."
             ]
@@ -20168,9 +20080,9 @@ window.OPIC_STUDY_DATA = {
             "I bought the tickets online, but I chose Sunday.",
             "I noticed the problem when we arrived at the theater.",
             "I told my friend I was sorry.",
-            "There were two empty seats for the Saturday movie.",
+            "Luckily, they still had two seats for Saturday.",
             "The staff changed our tickets, so we could watch the movie.",
-            "In the end, I felt much better."
+            "So now, I always check the date before I buy movie tickets."
           ],
           "speakingChunks": [
             "I once booked movie tickets for the wrong day.",
@@ -20179,9 +20091,9 @@ window.OPIC_STUDY_DATA = {
             "I bought the tickets online, but I chose Sunday.",
             "I noticed the problem when we arrived at the theater.",
             "I told my friend I was sorry.",
-            "There were two empty seats for the Saturday movie.",
+            "Luckily, they still had two seats for Saturday.",
             "The staff changed our tickets, so we could watch the movie.",
-            "In the end, I felt much better."
+            "So now, I always check the date before I buy movie tickets."
           ],
           "speakingTranslations": [
             "한번은 영화표를 잘못된 날짜로 예매했습니다.",
@@ -20190,9 +20102,9 @@ window.OPIC_STUDY_DATA = {
             "온라인으로 표를 샀는데 일요일을 선택했습니다.",
             "영화관에 도착했을 때 문제를 알아차렸습니다.",
             "저는 친구에게 미안하다고 말했습니다.",
-            "토요일 영화에 빈자리가 두 개 있었습니다.",
+            "다행히 토요일 표가 두 자리 남아 있었습니다.",
             "직원이 표를 바꿔 주어서 우리는 영화를 볼 수 있었습니다.",
-            "결국 마음이 훨씬 편해졌습니다."
+            "그래서 지금은 영화표를 사기 전에 항상 날짜를 확인합니다."
           ],
           "mainPoint": "I once booked movie tickets for the wrong day. I felt really sorry because it was my mistake.",
           "mainPointSentences": [
@@ -20240,16 +20152,16 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 친구에게 미안하다고 말했습니다."
             },
             {
-              "english": "There were two empty seats for the Saturday movie.",
-              "korean": "토요일 영화에 빈자리가 두 개 있었습니다."
+              "english": "Luckily, they still had two seats for Saturday.",
+              "korean": "다행히 토요일 표가 두 자리 남아 있었습니다."
             },
             {
               "english": "The staff changed our tickets, so we could watch the movie.",
               "korean": "직원이 표를 바꿔 주어서 우리는 영화를 볼 수 있었습니다."
             },
             {
-              "english": "In the end, I felt much better.",
-              "korean": "결국 마음이 훨씬 편해졌습니다."
+              "english": "So now, I always check the date before I buy movie tickets.",
+              "korean": "그래서 지금은 영화표를 사기 전에 항상 날짜를 확인합니다."
             }
           ],
           "fillerItems": [
@@ -20320,12 +20232,12 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Anyway, there were two empty seats for the Saturday movie.",
-              "korean": "아무튼, 토요일 영화에 빈자리가 두 개 있었습니다.",
+              "english": "Luckily, they still had two seats for Saturday.",
+              "korean": "다행히, 토요일 표가 두 자리 남아 있었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 8
                 }
               ],
               "koreanEmphasis": [
@@ -20342,18 +20254,18 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, in the end, I felt much better.",
-              "korean": "그래서, 결국 마음이 훨씬 편해졌습니다.",
+              "english": "So now, I always check the date before I buy movie tickets.",
+              "korean": "그래서 지금은, 영화표를 사기 전에 항상 날짜를 확인합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 7
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 4
+                  "end": 8
                 }
               ]
             }
@@ -20366,9 +20278,9 @@ window.OPIC_STUDY_DATA = {
               "온라인으로 표를 샀는데 일요일을 선택함",
               "영화관에 도착했을 때 문제를 알아차렸음",
               "친구에게 미안하다고 말했음",
-              "토요일 영화에 빈자리가 두 개 있었음",
+              "다행히 토요일 표가 두 자리 남아 있었음",
               "직원이 표를 바꿔 주어서 우리는 영화를 볼 수 있었음",
-              "마음이 훨씬 편해졌음"
+              "지금은 영화표를 사기 전에 항상 날짜를 확인함"
             ],
             "englishSkeleton": [
               "I once booked movie tickets for the wrong day.",
@@ -20377,9 +20289,9 @@ window.OPIC_STUDY_DATA = {
               "I bought the tickets online, but I chose Sunday.",
               "I noticed the problem when we arrived at the theater.",
               "I told my friend I was sorry.",
-              "There were two empty seats for the Saturday movie.",
+              "Luckily, they still had two seats for Saturday.",
               "The staff changed our tickets, so we could watch the movie.",
-              "In the end, I felt much better."
+              "So now, I always check the date before I buy movie tickets."
             ]
           }
         }
@@ -24002,35 +23914,35 @@ window.OPIC_STUDY_DATA = {
             "Identify the people you enjoy seeing and spending time with while on vacation."
           ],
           "finalSentences": [
-            "I like spending my vacation with my family.",
-            "I feel relaxed when I’m with them.",
-            "We usually eat together at a quiet restaurant.",
-            "We take our time and talk.",
-            "No one is in a hurry.",
-            "I can forget about school for a while.",
-            "That's why I enjoy vacations with my family."
+            "I like spending my vacation with a close friend.",
+            "I feel comfortable when I’m with my friend.",
+            "We usually go to the movies during vacation.",
+            "We choose a movie together.",
+            "We buy popcorn and drinks.",
+            "After the movie, we talk about it.",
+            "That’s why I enjoy spending my vacation with my friend."
           ],
           "speakingChunks": [
-            "I like spending my vacation with my family.",
-            "I feel relaxed when I’m with them.",
-            "We usually eat together at a quiet restaurant.",
-            "We take our time and talk.",
-            "No one is in a hurry.",
-            "I can forget about school for a while.",
-            "That's why I enjoy vacations with my family."
+            "I like spending my vacation with a close friend.",
+            "I feel comfortable when I’m with my friend.",
+            "We usually go to the movies during vacation.",
+            "We choose a movie together.",
+            "We buy popcorn and drinks.",
+            "After the movie, we talk about it.",
+            "That’s why I enjoy spending my vacation with my friend."
           ],
           "speakingTranslations": [
-            "저는 가족과 함께 휴가를 보내는 것을 좋아합니다.",
-            "가족과 함께 있으면 마음이 편안합니다.",
-            "우리는 보통 조용한 식당에서 함께 식사합니다.",
-            "천천히 식사하며 이야기를 나눕니다.",
-            "아무도 서두르지 않습니다.",
-            "잠시 학교 생각을 잊을 수 있습니다.",
-            "그래서 가족과 함께하는 휴가를 좋아합니다."
+            "저는 친한 친구와 함께 휴가를 보내는 것을 좋아합니다.",
+            "친구와 함께 있으면 마음이 편합니다.",
+            "우리는 휴가 중에 보통 영화를 보러 갑니다.",
+            "우리는 함께 영화를 고릅니다.",
+            "우리는 팝콘과 음료를 삽니다.",
+            "영화가 끝난 뒤 우리는 영화에 관해 이야기합니다.",
+            "그래서 저는 친구와 함께 휴가를 보내는 것을 좋아합니다."
           ],
-          "mainPoint": "I like spending my vacation with my family.",
+          "mainPoint": "I like spending my vacation with a close friend.",
           "mainPointSentences": [
-            "I like spending my vacation with my family."
+            "I like spending my vacation with a close friend."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -24046,38 +23958,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "I like spending my vacation with my family.",
-              "korean": "저는 가족과 함께 휴가를 보내는 것을 좋아합니다."
+              "english": "I like spending my vacation with a close friend.",
+              "korean": "저는 친한 친구와 함께 휴가를 보내는 것을 좋아합니다."
             },
             {
-              "english": "I feel relaxed when I’m with them.",
-              "korean": "가족과 함께 있으면 마음이 편안합니다."
+              "english": "I feel comfortable when I’m with my friend.",
+              "korean": "친구와 함께 있으면 마음이 편합니다."
             },
             {
-              "english": "We usually eat together at a quiet restaurant.",
-              "korean": "우리는 보통 조용한 식당에서 함께 식사합니다."
+              "english": "We usually go to the movies during vacation.",
+              "korean": "우리는 휴가 중에 보통 영화를 보러 갑니다."
             },
             {
-              "english": "We take our time and talk.",
-              "korean": "천천히 식사하며 이야기를 나눕니다."
+              "english": "We choose a movie together.",
+              "korean": "우리는 함께 영화를 고릅니다."
             },
             {
-              "english": "No one is in a hurry.",
-              "korean": "아무도 서두르지 않습니다."
+              "english": "We buy popcorn and drinks.",
+              "korean": "우리는 팝콘과 음료를 삽니다."
             },
             {
-              "english": "I can forget about school for a while.",
-              "korean": "잠시 학교 생각을 잊을 수 있습니다."
+              "english": "After the movie, we talk about it.",
+              "korean": "영화가 끝난 뒤 우리는 영화에 관해 이야기합니다."
             },
             {
-              "english": "That's why I enjoy vacations with my family.",
-              "korean": "그래서 가족과 함께하는 휴가를 좋아합니다."
+              "english": "That’s why I enjoy spending my vacation with my friend.",
+              "korean": "그래서 저는 친구와 함께 휴가를 보내는 것을 좋아합니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, I like spending my vacation with my family.",
-              "korean": "음, 저는 가족과 함께 휴가를 보내는 것을 좋아합니다.",
+              "english": "Well, I like spending my vacation with a close friend.",
+              "korean": "음, 저는 친한 친구와 함께 휴가를 보내는 것을 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24092,8 +24004,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I mean, I feel relaxed when I'm with them.",
-              "korean": "그러니까, 가족과 함께 있으면 마음이 편안합니다.",
+              "english": "I mean, I feel comfortable when I’m with my friend.",
+              "korean": "그러니까, 친구와 함께 있으면 마음이 편합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24108,8 +24020,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "You know, we usually eat together at a quiet restaurant.",
-              "korean": "있잖아요, 우리는 보통 조용한 식당에서 함께 식사합니다.",
+              "english": "You know, we usually go to the movies during vacation.",
+              "korean": "있잖아요, 우리는 휴가 중에 보통 영화를 보러 갑니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24124,36 +24036,26 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "We take our time and talk.",
-              "korean": "천천히 식사하며 이야기를 나눕니다.",
+              "english": "We choose a movie together.",
+              "korean": "우리는 함께 영화를 고릅니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "No one is in a hurry.",
-              "korean": "아무도 서두르지 않습니다.",
+              "english": "We buy popcorn and drinks.",
+              "korean": "우리는 팝콘과 음료를 삽니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I can actually forget about school for a while.",
-              "korean": "잠시 학교 생각을 정말로 잊을 수 있습니다.",
-              "englishEmphasis": [
-                {
-                  "start": 6,
-                  "end": 14
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 10,
-                  "end": 13
-                }
-              ]
+              "english": "After the movie, we talk about it.",
+              "korean": "영화가 끝난 뒤 우리는 영화에 관해 이야기합니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, I enjoy vacations with my family.",
-              "korean": "그래서, 가족과 함께하는 휴가를 좋아합니다.",
+              "english": "So, yeah, that’s why I enjoy spending my vacation with my friend.",
+              "korean": "그래서, 저는 친구와 함께 휴가를 보내는 것을 좋아합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24170,22 +24072,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "가족과 함께 휴가를 보내는 것을 좋아함",
-              "가족과 함께 있으면 마음이 편안함",
-              "우리는 보통 조용한 식당에서 함께 식사함",
-              "천천히 식사하며 이야기를 나눔",
-              "아무도 서두르지 않음",
-              "잠시 학교 생각을 잊을 수 있음",
-              "가족과 함께하는 휴가를 좋아함"
+              "친한 친구와 함께 휴가를 보내는 것을 좋아함",
+              "친구와 함께 있으면 마음이 편함",
+              "우리는 휴가 중에 보통 영화를 보러 감",
+              "우리는 함께 영화를 고름",
+              "우리는 팝콘과 음료를 삽니다",
+              "영화가 끝난 뒤 우리는 영화에 관해 이야기함",
+              "저는 친구와 함께 휴가를 보내는 것을 좋아함"
             ],
             "englishSkeleton": [
-              "I like spending my vacation with my family.",
-              "I feel relaxed when I’m with them.",
-              "We usually eat together at a quiet restaurant.",
-              "We take our time and talk.",
-              "No one is in a hurry.",
-              "I can forget about school for a while.",
-              "That's why I enjoy vacations with my family."
+              "I like spending my vacation with a close friend.",
+              "I feel comfortable when I’m with my friend.",
+              "We usually go to the movies during vacation.",
+              "We choose a movie together.",
+              "We buy popcorn and drinks.",
+              "After the movie, we talk about it.",
+              "That’s why I enjoy spending my vacation with my friend."
             ]
           }
         },
@@ -24204,35 +24106,35 @@ window.OPIC_STUDY_DATA = {
             "What activities do you enjoy doing with people while on vacation?"
           ],
           "finalSentences": [
-            "During vacation, I usually eat slowly with my family.",
-            "I like this because no one has to hurry.",
-            "We go to a quiet restaurant.",
-            "We order food and take our time.",
-            "While we eat, we talk about our daily lives.",
-            "We can relax while we eat.",
-            "It's my favorite vacation activity."
+            "During vacation, I usually go to the movies with my friend.",
+            "I like this because we both love movies.",
+            "We choose a movie online.",
+            "We buy tickets and popcorn.",
+            "Then we watch the movie together.",
+            "After the movie, we talk about it.",
+            "Watching movies is my favorite vacation activity."
           ],
           "speakingChunks": [
-            "During vacation, I usually eat slowly with my family.",
-            "I like this because no one has to hurry.",
-            "We go to a quiet restaurant.",
-            "We order food and take our time.",
-            "While we eat, we talk about our daily lives.",
-            "We can relax while we eat.",
-            "It's my favorite vacation activity."
+            "During vacation, I usually go to the movies with my friend.",
+            "I like this because we both love movies.",
+            "We choose a movie online.",
+            "We buy tickets and popcorn.",
+            "Then we watch the movie together.",
+            "After the movie, we talk about it.",
+            "Watching movies is my favorite vacation activity."
           ],
           "speakingTranslations": [
-            "휴가 중에는 보통 가족과 천천히 식사합니다.",
-            "아무도 서두를 필요가 없어서 좋습니다.",
-            "우리는 조용한 식당에 갑니다.",
-            "음식을 주문하고 천천히 식사합니다.",
-            "식사하면서 일상 이야기를 합니다.",
-            "우리는 식사하면서 편하게 쉴 수 있습니다.",
-            "이것이 제가 가장 좋아하는 휴가 활동입니다."
+            "휴가 중에는 보통 친구와 영화를 보러 갑니다.",
+            "우리 둘 다 영화를 좋아해서 이 활동이 좋습니다.",
+            "우리는 온라인으로 영화를 고릅니다.",
+            "우리는 표와 팝콘을 삽니다.",
+            "그런 다음 함께 영화를 봅니다.",
+            "영화가 끝난 뒤 영화에 관해 이야기합니다.",
+            "영화를 보는 것은 제가 가장 좋아하는 휴가 활동입니다."
           ],
-          "mainPoint": "During vacation, I usually eat slowly with my family.",
+          "mainPoint": "During vacation, I usually go to the movies with my friend.",
           "mainPointSentences": [
-            "During vacation, I usually eat slowly with my family."
+            "During vacation, I usually go to the movies with my friend."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -24248,38 +24150,38 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "During vacation, I usually eat slowly with my family.",
-              "korean": "휴가 중에는 보통 가족과 천천히 식사합니다."
+              "english": "During vacation, I usually go to the movies with my friend.",
+              "korean": "휴가 중에는 보통 친구와 영화를 보러 갑니다."
             },
             {
-              "english": "I like this because no one has to hurry.",
-              "korean": "아무도 서두를 필요가 없어서 좋습니다."
+              "english": "I like this because we both love movies.",
+              "korean": "우리 둘 다 영화를 좋아해서 이 활동이 좋습니다."
             },
             {
-              "english": "We go to a quiet restaurant.",
-              "korean": "우리는 조용한 식당에 갑니다."
+              "english": "We choose a movie online.",
+              "korean": "우리는 온라인으로 영화를 고릅니다."
             },
             {
-              "english": "We order food and take our time.",
-              "korean": "음식을 주문하고 천천히 식사합니다."
+              "english": "We buy tickets and popcorn.",
+              "korean": "우리는 표와 팝콘을 삽니다."
             },
             {
-              "english": "While we eat, we talk about our daily lives.",
-              "korean": "식사하면서 일상 이야기를 합니다."
+              "english": "Then we watch the movie together.",
+              "korean": "그런 다음 함께 영화를 봅니다."
             },
             {
-              "english": "We can relax while we eat.",
-              "korean": "우리는 식사하면서 편하게 쉴 수 있습니다."
+              "english": "After the movie, we talk about it.",
+              "korean": "영화가 끝난 뒤 영화에 관해 이야기합니다."
             },
             {
-              "english": "It's my favorite vacation activity.",
-              "korean": "이것이 제가 가장 좋아하는 휴가 활동입니다."
+              "english": "Watching movies is my favorite vacation activity.",
+              "korean": "영화를 보는 것은 제가 가장 좋아하는 휴가 활동입니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, during vacation, I usually eat slowly with my family.",
-              "korean": "음, 휴가 중에는 보통 가족과 천천히 식사합니다.",
+              "english": "Well, during vacation, I usually go to the movies with my friend.",
+              "korean": "음, 휴가 중에는 보통 친구와 영화를 보러 갑니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24294,20 +24196,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "I like this because no one has to hurry.",
-              "korean": "아무도 서두를 필요가 없어서 좋습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "We go to a quiet restaurant.",
-              "korean": "우리는 조용한 식당에 갑니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "You know, we order food and take our time.",
-              "korean": "있잖아요, 음식을 주문하고 천천히 식사합니다.",
+              "english": "You know, I like this because we both love movies.",
+              "korean": "있잖아요, 우리 둘 다 영화를 좋아해서 이 활동이 좋습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24322,30 +24212,42 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "While we eat, we talk about our daily lives.",
-              "korean": "식사하면서 일상 이야기를 합니다.",
+              "english": "We choose a movie online.",
+              "korean": "우리는 온라인으로 영화를 고릅니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "I mean, we can relax while we eat.",
-              "korean": "그러니까, 우리는 식사하면서 편하게 쉴 수 있습니다.",
+              "english": "We buy tickets and popcorn.",
+              "korean": "우리는 표와 팝콘을 삽니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "Then, we watch the movie together.",
+              "korean": "그런 다음, 함께 영화를 봅니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 7
+                  "end": 5
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 6
                 }
               ]
             },
             {
-              "english": "So, yeah, it's my favorite vacation activity.",
-              "korean": "그래서, 이것이 제가 가장 좋아하는 휴가 활동입니다.",
+              "english": "After the movie, we talk about it.",
+              "korean": "영화가 끝난 뒤 영화에 관해 이야기합니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "So, yeah, watching movies is my favorite vacation activity.",
+              "korean": "그래서, 영화를 보는 것은 제가 가장 좋아하는 휴가 활동입니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24362,22 +24264,22 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "휴가 중에는 보통 가족과 천천히 식사함",
-              "아무도 서두를 필요가 없어서 좋음",
-              "우리는 조용한 식당에 감",
-              "음식을 주문하고 천천히 식사함",
-              "식사하면서 일상 이야기를 함",
-              "우리는 식사하면서 편하게 쉴 수 있음",
-              "이것이 제가 가장 좋아하는 휴가 활동"
+              "휴가 중에는 보통 친구와 영화를 보러 감",
+              "우리 둘 다 영화를 좋아해서 이 활동이 좋음",
+              "우리는 온라인으로 영화를 고름",
+              "우리는 표와 팝콘을 삽니다",
+              "그런 다음 함께 영화를 봄",
+              "영화가 끝난 뒤 영화에 관해 이야기함",
+              "영화를 보는 것은 제가 가장 좋아하는 휴가 활동"
             ],
             "englishSkeleton": [
-              "During vacation, I usually eat slowly with my family.",
-              "I like this because no one has to hurry.",
-              "We go to a quiet restaurant.",
-              "We order food and take our time.",
-              "While we eat, we talk about our daily lives.",
-              "We can relax while we eat.",
-              "It's my favorite vacation activity."
+              "During vacation, I usually go to the movies with my friend.",
+              "I like this because we both love movies.",
+              "We choose a movie online.",
+              "We buy tickets and popcorn.",
+              "Then we watch the movie together.",
+              "After the movie, we talk about it.",
+              "Watching movies is my favorite vacation activity."
             ]
           }
         },
@@ -24598,38 +24500,41 @@ window.OPIC_STUDY_DATA = {
             "Discuss an unexpected, unusual, or satisfying experience while on vacation."
           ],
           "finalSentences": [
-            "One time, I watched a live show during my vacation.",
+            "I once found a free concert while walking in a park.",
             "It was a nice surprise.",
-            "At first, my friend and I only planned to have lunch.",
-            "After lunch, we saw a poster for a show.",
-            "We bought tickets and went inside.",
-            "The music was much better than I expected.",
+            "That Saturday afternoon, my friend and I were walking around the park.",
+            "Then we heard music nearby.",
+            "A small band was playing there.",
+            "We sat down and listened to some songs.",
+            "People smiled and clapped.",
             "My friend and I had a great time.",
-            "That show made the day special."
+            "That’s why I still remember that day."
           ],
           "speakingChunks": [
-            "One time, I watched a live show during my vacation.",
+            "I once found a free concert while walking in a park.",
             "It was a nice surprise.",
-            "At first, my friend and I only planned to have lunch.",
-            "After lunch, we saw a poster for a show.",
-            "We bought tickets and went inside.",
-            "The music was much better than I expected.",
+            "That Saturday afternoon, my friend and I were walking around the park.",
+            "Then we heard music nearby.",
+            "A small band was playing there.",
+            "We sat down and listened to some songs.",
+            "People smiled and clapped.",
             "My friend and I had a great time.",
-            "That show made the day special."
+            "That’s why I still remember that day."
           ],
           "speakingTranslations": [
-            "한번은 휴가 중에 라이브 공연을 봤습니다.",
+            "한번은 공원을 걷다가 무료 공연을 발견했습니다.",
             "기분 좋은 뜻밖의 일이었습니다.",
-            "처음에는 친구와 점심만 먹기로 했습니다.",
-            "점심을 먹은 후 공연 포스터를 봤습니다.",
-            "우리는 표를 사서 안으로 들어갔습니다.",
-            "음악은 제가 기대한 것보다 훨씬 좋았습니다.",
+            "그 토요일 오후에 친구와 공원을 걷고 있었습니다.",
+            "그러다 근처에서 음악이 들렸습니다.",
+            "그곳에서 작은 밴드가 연주하고 있었습니다.",
+            "우리는 앉아서 노래를 몇 곡 들었습니다.",
+            "사람들은 웃으며 박수를 쳤습니다.",
             "친구와 저는 즐거운 시간을 보냈습니다.",
-            "그 공연 덕분에 그날이 특별해졌습니다."
+            "그래서 아직도 그날을 기억합니다."
           ],
-          "mainPoint": "One time, I watched a live show during my vacation.",
+          "mainPoint": "I once found a free concert while walking in a park.",
           "mainPointSentences": [
-            "One time, I watched a live show during my vacation."
+            "I once found a free concert while walking in a park."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -24645,64 +24550,62 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "One time, I watched a live show during my vacation.",
-              "korean": "한번은 휴가 중에 라이브 공연을 봤습니다."
+              "english": "I once found a free concert while walking in a park.",
+              "korean": "한번은 공원을 걷다가 무료 공연을 발견했습니다."
             },
             {
               "english": "It was a nice surprise.",
               "korean": "기분 좋은 뜻밖의 일이었습니다."
             },
             {
-              "english": "At first, my friend and I only planned to have lunch.",
-              "korean": "처음에는 친구와 점심만 먹기로 했습니다."
+              "english": "That Saturday afternoon, my friend and I were walking around the park.",
+              "korean": "그 토요일 오후에 친구와 공원을 걷고 있었습니다."
             },
             {
-              "english": "After lunch, we saw a poster for a show.",
-              "korean": "점심을 먹은 후 공연 포스터를 봤습니다."
+              "english": "Then we heard music nearby.",
+              "korean": "그러다 근처에서 음악이 들렸습니다."
             },
             {
-              "english": "We bought tickets and went inside.",
-              "korean": "우리는 표를 사서 안으로 들어갔습니다."
+              "english": "A small band was playing there.",
+              "korean": "그곳에서 작은 밴드가 연주하고 있었습니다."
             },
             {
-              "english": "The music was much better than I expected.",
-              "korean": "음악은 제가 기대한 것보다 훨씬 좋았습니다."
+              "english": "We sat down and listened to some songs.",
+              "korean": "우리는 앉아서 노래를 몇 곡 들었습니다."
+            },
+            {
+              "english": "People smiled and clapped.",
+              "korean": "사람들은 웃으며 박수를 쳤습니다."
             },
             {
               "english": "My friend and I had a great time.",
               "korean": "친구와 저는 즐거운 시간을 보냈습니다."
             },
             {
-              "english": "That show made the day special.",
-              "korean": "그 공연 덕분에 그날이 특별해졌습니다."
+              "english": "That’s why I still remember that day.",
+              "korean": "그래서 아직도 그날을 기억합니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Well, one time, I watched a live show during my vacation.",
-              "korean": "음, 한번은 휴가 중에 라이브 공연을 봤습니다.",
+              "english": "Hmm, let me think. I once found a free concert while walking in a park.",
+              "korean": "음, 생각해 볼게요. 한번은 공원을 걷다가 무료 공연을 발견했습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 18
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 2
+                  "end": 11
                 }
               ]
             },
             {
-              "english": "It was a nice surprise.",
-              "korean": "기분 좋은 뜻밖의 일이었습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
-            },
-            {
-              "english": "At first, my friend and I only planned to have lunch.",
-              "korean": "처음에는, 친구와 점심만 먹기로 했습니다.",
+              "english": "You know, it was a nice surprise.",
+              "korean": "있잖아요, 기분 좋은 뜻밖의 일이었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24717,30 +24620,30 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "After lunch, we saw a poster for a show.",
-              "korean": "점심을 먹은 후 공연 포스터를 봤습니다.",
+              "english": "That Saturday afternoon, my friend and I were walking around the park.",
+              "korean": "그 토요일 오후에 친구와 공원을 걷고 있었습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "You know, we bought tickets and went inside.",
-              "korean": "있잖아요, 우리는 표를 사서 안으로 들어갔습니다.",
+              "english": "Then, we heard music nearby.",
+              "korean": "그러다, 근처에서 음악이 들렸습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 9
+                  "end": 5
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 5
+                  "end": 4
                 }
               ]
             },
             {
-              "english": "Actually, the music was much better than I expected.",
-              "korean": "사실, 음악은 제가 기대한 것보다 훨씬 좋았습니다.",
+              "english": "Actually, a small band was playing there.",
+              "korean": "사실, 그곳에서 작은 밴드가 연주하고 있었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24755,14 +24658,26 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
+              "english": "We sat down and listened to some songs.",
+              "korean": "우리는 앉아서 노래를 몇 곡 들었습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
+              "english": "People smiled and clapped.",
+              "korean": "사람들은 웃으며 박수를 쳤습니다.",
+              "englishEmphasis": [],
+              "koreanEmphasis": []
+            },
+            {
               "english": "My friend and I had a great time.",
               "korean": "친구와 저는 즐거운 시간을 보냈습니다.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, that show made the day special.",
-              "korean": "그래서, 그 공연 덕분에 그날이 특별해졌습니다.",
+              "english": "So, yeah, that’s why I still remember that day.",
+              "korean": "그래서, 아직도 그날을 기억합니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -24779,24 +24694,26 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "한번은 휴가 중에 라이브 공연을 봤음",
+              "한번은 공원을 걷다가 무료 공연을 발견함",
               "기분 좋은 뜻밖의 일이었음",
-              "처음에는 친구와 점심만 먹기로 함",
-              "점심을 먹은 후 공연 포스터를 봤음",
-              "우리는 표를 사서 안으로 들어갔음",
-              "음악은 제가 기대한 것보다 훨씬 좋았음",
+              "그 토요일 오후에 친구와 공원을 걷고 있었음",
+              "그러다 근처에서 음악이 들렸음",
+              "그곳에서 작은 밴드가 연주하고 있었음",
+              "우리는 앉아서 노래를 몇 곡 들었음",
+              "사람들은 웃으며 박수를 쳤음",
               "친구와 저는 즐거운 시간을 보냈음",
-              "그 공연 덕분에 그날이 특별해졌음"
+              "아직도 그날을 기억함"
             ],
             "englishSkeleton": [
-              "One time, I watched a live show during my vacation.",
+              "I once found a free concert while walking in a park.",
               "It was a nice surprise.",
-              "At first, my friend and I only planned to have lunch.",
-              "After lunch, we saw a poster for a show.",
-              "We bought tickets and went inside.",
-              "The music was much better than I expected.",
+              "That Saturday afternoon, my friend and I were walking around the park.",
+              "Then we heard music nearby.",
+              "A small band was playing there.",
+              "We sat down and listened to some songs.",
+              "People smiled and clapped.",
               "My friend and I had a great time.",
-              "That show made the day special."
+              "That’s why I still remember that day."
             ]
           }
         },
@@ -25051,41 +24968,41 @@ window.OPIC_STUDY_DATA = {
             "Call the ticket office to buy two performance tickets while on vacation."
           ],
           "finalSentences": [
-            "Hello, I’d like to buy two tickets for tonight's show.",
-            "What time does the show start?",
-            "It starts at eight. Great.",
+            "Hi, I want two tickets for tonight's show.",
+            "Well, what time is the show?",
+            "It starts at seven. Great.",
             "Do you have two seats together?",
-            "Seats in the middle? Great.",
-            "How much are the tickets?",
-            "Forty dollars? Okay.",
-            "Can I get mobile tickets?",
-            "Great. I'll book them now."
+            "Two seats in the middle? Great.",
+            "How much are the two tickets?",
+            "Twenty dollars? Okay.",
+            "Can I pay online?",
+            "Great. I’ll book them online now."
           ],
           "speakingChunks": [
-            "Hello, I’d like to buy two tickets for tonight's show.",
-            "What time does the show start?",
-            "It starts at eight. Great.",
+            "Hi, I want two tickets for tonight's show.",
+            "Well, what time is the show?",
+            "It starts at seven. Great.",
             "Do you have two seats together?",
-            "Seats in the middle? Great.",
-            "How much are the tickets?",
-            "Forty dollars? Okay.",
-            "Can I get mobile tickets?",
-            "Great. I'll book them now."
+            "Two seats in the middle? Great.",
+            "How much are the two tickets?",
+            "Twenty dollars? Okay.",
+            "Can I pay online?",
+            "Great. I’ll book them online now."
           ],
           "speakingTranslations": [
-            "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶습니다.",
-            "공연은 몇 시에 시작하나요?",
-            "8시에 시작하는군요. 좋습니다.",
+            "안녕하세요, 오늘 밤 공연 표 두 장 주세요.",
+            "음, 공연이 몇 시인가요?",
+            "7시에 시작하는군요. 좋습니다.",
             "붙어 있는 좌석 두 자리가 있나요?",
-            "가운데 자리요? 좋습니다.",
+            "가운데 자리 두 개요? 좋습니다.",
             "표 두 장은 얼마인가요?",
-            "40달러요? 알겠습니다.",
-            "모바일 티켓을 받을 수 있나요?",
-            "좋습니다. 지금 예매하겠습니다."
+            "20달러요? 알겠습니다.",
+            "온라인으로 결제할 수 있나요?",
+            "좋습니다. 지금 온라인으로 예매하겠습니다."
           ],
-          "mainPoint": "Hello, I’d like to buy two tickets for tonight's show.",
+          "mainPoint": "Hi, I want two tickets for tonight's show.",
           "mainPointSentences": [
-            "Hello, I’d like to buy two tickets for tonight's show."
+            "Hi, I want two tickets for tonight's show."
           ],
           "mainPointSentenceIndexes": [
             0
@@ -25101,68 +25018,68 @@ window.OPIC_STUDY_DATA = {
           "mainPointFillerIndex": 0,
           "translations": [
             {
-              "english": "Hello, I’d like to buy two tickets for tonight's show.",
-              "korean": "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶습니다."
+              "english": "Hi, I want two tickets for tonight's show.",
+              "korean": "안녕하세요, 오늘 밤 공연 표 두 장 주세요."
             },
             {
-              "english": "What time does the show start?",
-              "korean": "공연은 몇 시에 시작하나요?"
+              "english": "Well, what time is the show?",
+              "korean": "음, 공연이 몇 시인가요?"
             },
             {
-              "english": "It starts at eight. Great.",
-              "korean": "8시에 시작하는군요. 좋습니다."
+              "english": "It starts at seven. Great.",
+              "korean": "7시에 시작하는군요. 좋습니다."
             },
             {
               "english": "Do you have two seats together?",
               "korean": "붙어 있는 좌석 두 자리가 있나요?"
             },
             {
-              "english": "Seats in the middle? Great.",
-              "korean": "가운데 자리요? 좋습니다."
+              "english": "Two seats in the middle? Great.",
+              "korean": "가운데 자리 두 개요? 좋습니다."
             },
             {
-              "english": "How much are the tickets?",
+              "english": "How much are the two tickets?",
               "korean": "표 두 장은 얼마인가요?"
             },
             {
-              "english": "Forty dollars? Okay.",
-              "korean": "40달러요? 알겠습니다."
+              "english": "Twenty dollars? Okay.",
+              "korean": "20달러요? 알겠습니다."
             },
             {
-              "english": "Can I get mobile tickets?",
-              "korean": "모바일 티켓을 받을 수 있나요?"
+              "english": "Can I pay online?",
+              "korean": "온라인으로 결제할 수 있나요?"
             },
             {
-              "english": "Great. I'll book them now.",
-              "korean": "좋습니다. 지금 예매하겠습니다."
+              "english": "Great. I’ll book them online now.",
+              "korean": "좋습니다. 지금 온라인으로 예매하겠습니다."
             }
           ],
           "fillerItems": [
             {
-              "english": "Hello, I'd like to buy two tickets for tonight's show.",
-              "korean": "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶습니다.",
+              "english": "Hi, I want two tickets for tonight's show.",
+              "korean": "안녕하세요, 오늘 밤 공연 표 두 장 주세요.",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "First, what time does the show start?",
-              "korean": "먼저, 공연은 몇 시에 시작하나요?",
+              "english": "Well, what time is the show?",
+              "korean": "음, 공연이 몇 시인가요?",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 6
+                  "end": 5
                 }
               ],
               "koreanEmphasis": [
                 {
                   "start": 0,
-                  "end": 3
+                  "end": 2
                 }
               ]
             },
             {
-              "english": "It starts at eight. Great.",
-              "korean": "8시에 시작하는군요. 좋습니다.",
+              "english": "It starts at seven. Great.",
+              "korean": "7시에 시작하는군요. 좋습니다.",
               "englishEmphasis": [
                 {
                   "start": 20,
@@ -25183,34 +25100,34 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "Seats in the middle? Great.",
-              "korean": "가운데 자리요? 좋습니다.",
+              "english": "Two seats in the middle? Great.",
+              "korean": "가운데 자리 두 개요? 좋습니다.",
               "englishEmphasis": [
                 {
-                  "start": 21,
-                  "end": 27
+                  "start": 25,
+                  "end": 31
                 }
               ],
               "koreanEmphasis": [
                 {
-                  "start": 9,
-                  "end": 14
+                  "start": 13,
+                  "end": 18
                 }
               ]
             },
             {
-              "english": "How much are the tickets?",
+              "english": "How much are the two tickets?",
               "korean": "표 두 장은 얼마인가요?",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Forty dollars? Okay.",
-              "korean": "40달러요? 알겠습니다.",
+              "english": "Twenty dollars? Okay.",
+              "korean": "20달러요? 알겠습니다.",
               "englishEmphasis": [
                 {
-                  "start": 15,
-                  "end": 20
+                  "start": 16,
+                  "end": 21
                 }
               ],
               "koreanEmphasis": [
@@ -25221,18 +25138,18 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Can I get mobile tickets?",
-              "korean": "모바일 티켓을 받을 수 있나요?",
+              "english": "Can I pay online?",
+              "korean": "온라인으로 결제할 수 있나요?",
               "englishEmphasis": [],
               "koreanEmphasis": []
             },
             {
-              "english": "Great. I'll book them now.",
-              "korean": "좋습니다. 지금 예매하겠습니다.",
+              "english": "Perfect. I’ll book them online now.",
+              "korean": "좋습니다. 지금 온라인으로 예매하겠습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
-                  "end": 6
+                  "end": 8
                 }
               ],
               "koreanEmphasis": [
@@ -25245,26 +25162,26 @@ window.OPIC_STUDY_DATA = {
           ],
           "review": {
             "koreanFlow": [
-              "안녕하세요, 오늘 밤 공연 표 두 장을 사고 싶음",
-              "공연은 몇 시에 시작하나요?",
-              "8시에 시작하는군요. 좋음",
+              "안녕하세요, 오늘 밤 공연 표 두 장 주세요",
+              "음, 공연이 몇 시인가요?",
+              "7시에 시작하는군요. 좋음",
               "붙어 있는 좌석 두 자리가 있나요?",
-              "가운데 자리요? 좋음",
+              "가운데 자리 두 개요? 좋음",
               "표 두 장은 얼마인가요?",
-              "40달러요? 알겠음",
-              "모바일 티켓을 받을 수 있나요?",
-              "좋습니다. 지금 예매하겠음"
+              "20달러요? 알겠음",
+              "온라인으로 결제할 수 있나요?",
+              "좋습니다. 지금 온라인으로 예매하겠음"
             ],
             "englishSkeleton": [
-              "Hello, I’d like to buy two tickets for tonight's show.",
-              "What time does the show start?",
-              "It starts at eight. Great.",
+              "Hi, I want two tickets for tonight's show.",
+              "Well, what time is the show?",
+              "It starts at seven. Great.",
               "Do you have two seats together?",
-              "Seats in the middle? Great.",
-              "How much are the tickets?",
-              "Forty dollars? Okay.",
-              "Can I get mobile tickets?",
-              "Great. I'll book them now."
+              "Two seats in the middle? Great.",
+              "How much are the two tickets?",
+              "Twenty dollars? Okay.",
+              "Can I pay online?",
+              "Great. I’ll book them online now."
             ]
           }
         },
@@ -25289,9 +25206,8 @@ window.OPIC_STUDY_DATA = {
             "Can you go with another friend?",
             "That friend can use my ticket.",
             "Oh, no one else can go? I understand.",
-            "Then, I can ask for a refund. Is that okay?",
-            "Okay, I’ll do that.",
-            "I’ll call the ticket office now.",
+            "Then, I can call the ticket office and cancel my ticket. Is that okay?",
+            "Okay, I’ll call them now.",
             "Sorry again. I'll let you know what they say."
           ],
           "speakingChunks": [
@@ -25300,9 +25216,8 @@ window.OPIC_STUDY_DATA = {
             "Can you go with another friend?",
             "That friend can use my ticket.",
             "Oh, no one else can go? I understand.",
-            "Then, I can ask for a refund. Is that okay?",
-            "Okay, I’ll do that.",
-            "I’ll call the ticket office now.",
+            "Then, I can call the ticket office and cancel my ticket. Is that okay?",
+            "Okay, I’ll call them now.",
             "Sorry again. I'll let you know what they say."
           ],
           "speakingTranslations": [
@@ -25311,9 +25226,8 @@ window.OPIC_STUDY_DATA = {
             "다른 친구와 함께 갈 수 있어?",
             "그 친구가 내 표를 사용하면 돼.",
             "아, 함께 갈 다른 친구가 없구나? 알겠어.",
-            "그러면 내가 환불을 요청할게. 괜찮아?",
-            "알겠어, 그렇게 할게.",
-            "지금 매표소에 전화할게.",
+            "그러면 매표소에 전화해서 내 표를 취소할게. 괜찮아?",
+            "알겠어, 지금 전화할게.",
             "다시 한번 미안해. 매표소에서 뭐라고 하는지 알려 줄게."
           ],
           "mainPoint": "Hey, I’m sorry, but I can’t go to the show today.",
@@ -25354,16 +25268,12 @@ window.OPIC_STUDY_DATA = {
               "korean": "아, 함께 갈 다른 친구가 없구나? 알겠어."
             },
             {
-              "english": "Then, I can ask for a refund. Is that okay?",
-              "korean": "그러면 내가 환불을 요청할게. 괜찮아?"
+              "english": "Then, I can call the ticket office and cancel my ticket. Is that okay?",
+              "korean": "그러면 매표소에 전화해서 내 표를 취소할게. 괜찮아?"
             },
             {
-              "english": "Okay, I’ll do that.",
-              "korean": "알겠어, 그렇게 할게."
-            },
-            {
-              "english": "I’ll call the ticket office now.",
-              "korean": "지금 매표소에 전화할게."
+              "english": "Okay, I’ll call them now.",
+              "korean": "알겠어, 지금 전화할게."
             },
             {
               "english": "Sorry again. I'll let you know what they say.",
@@ -25422,8 +25332,8 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Then, I can ask for a refund. Is that okay?",
-              "korean": "그러면, 내가 환불을 요청할게. 괜찮아?",
+              "english": "Then, I can call the ticket office and cancel my ticket. Is that okay?",
+              "korean": "그러면, 매표소에 전화해서 내 표를 취소할게. 괜찮아?",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -25438,28 +25348,12 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "Okay, I’ll do that.",
-              "korean": "알겠어, 그렇게 할게.",
+              "english": "Okay, I’ll call them now.",
+              "korean": "알겠어, 지금 전화할게.",
               "englishEmphasis": [
                 {
                   "start": 0,
                   "end": 5
-                }
-              ],
-              "koreanEmphasis": [
-                {
-                  "start": 0,
-                  "end": 4
-                }
-              ]
-            },
-            {
-              "english": "Anyway, I'll call the ticket office now.",
-              "korean": "아무튼, 지금 매표소에 전화할게.",
-              "englishEmphasis": [
-                {
-                  "start": 0,
-                  "end": 7
                 }
               ],
               "koreanEmphasis": [
@@ -25483,9 +25377,8 @@ window.OPIC_STUDY_DATA = {
               "다른 친구와 함께 갈 수 있어?",
               "그 친구가 내 표를 사용하면 돼",
               "아, 함께 갈 다른 친구가 없구나? 알겠어",
-              "그러면 내가 환불을 요청할게. 괜찮아?",
-              "알겠어, 그렇게 할게",
-              "지금 매표소에 전화할게",
+              "그러면 매표소에 전화해서 내 표를 취소할게. 괜찮아?",
+              "알겠어, 지금 전화할게",
               "다시 한번 미안해. 매표소에서 뭐라고 하는지 알려 줄게"
             ],
             "englishSkeleton": [
@@ -25494,9 +25387,8 @@ window.OPIC_STUDY_DATA = {
               "Can you go with another friend?",
               "That friend can use my ticket.",
               "Oh, no one else can go? I understand.",
-              "Then, I can ask for a refund. Is that okay?",
-              "Okay, I’ll do that.",
-              "I’ll call the ticket office now.",
+              "Then, I can call the ticket office and cancel my ticket. Is that okay?",
+              "Okay, I’ll call them now.",
               "Sorry again. I'll let you know what they say."
             ]
           }
@@ -25521,9 +25413,10 @@ window.OPIC_STUDY_DATA = {
             "That morning, I had a fever.",
             "I called my friend right away.",
             "I said, “I’m sorry, but I can’t go.”",
-            "My friend found someone else to go with.",
+            "I asked, “Can you go with another friend?”",
+            "Luckily, my friend found someone else.",
             "I sent my ticket to that person.",
-            "I was sad, but I was glad someone used the ticket."
+            "I was glad someone could use my ticket."
           ],
           "speakingChunks": [
             "I once missed a show because I got sick.",
@@ -25531,9 +25424,10 @@ window.OPIC_STUDY_DATA = {
             "That morning, I had a fever.",
             "I called my friend right away.",
             "I said, “I’m sorry, but I can’t go.”",
-            "My friend found someone else to go with.",
+            "I asked, “Can you go with another friend?”",
+            "Luckily, my friend found someone else.",
             "I sent my ticket to that person.",
-            "I was sad, but I was glad someone used the ticket."
+            "I was glad someone could use my ticket."
           ],
           "speakingTranslations": [
             "한번은 아파서 공연에 가지 못했습니다.",
@@ -25541,9 +25435,10 @@ window.OPIC_STUDY_DATA = {
             "그날 아침에 열이 났습니다.",
             "저는 바로 친구에게 전화했습니다.",
             "저는 “미안하지만 갈 수 없어.”라고 말했습니다.",
-            "제 친구는 함께 갈 다른 사람을 찾았습니다.",
+            "저는 “다른 친구와 함께 갈 수 있어?”라고 물었습니다.",
+            "다행히 친구는 함께 갈 다른 사람을 찾았습니다.",
             "저는 그 사람에게 제 표를 보냈습니다.",
-            "아쉬웠지만 누군가 그 표를 사용할 수 있어서 다행이었습니다."
+            "누군가 제 표를 사용할 수 있어서 다행이었습니다."
           ],
           "mainPoint": "I once missed a show because I got sick. I felt really sorry because I had to cancel.",
           "mainPointSentences": [
@@ -25587,16 +25482,20 @@ window.OPIC_STUDY_DATA = {
               "korean": "저는 “미안하지만 갈 수 없어.”라고 말했습니다."
             },
             {
-              "english": "My friend found someone else to go with.",
-              "korean": "제 친구는 함께 갈 다른 사람을 찾았습니다."
+              "english": "I asked, “Can you go with another friend?”",
+              "korean": "저는 “다른 친구와 함께 갈 수 있어?”라고 물었습니다."
+            },
+            {
+              "english": "Luckily, my friend found someone else.",
+              "korean": "다행히 친구는 함께 갈 다른 사람을 찾았습니다."
             },
             {
               "english": "I sent my ticket to that person.",
               "korean": "저는 그 사람에게 제 표를 보냈습니다."
             },
             {
-              "english": "I was sad, but I was glad someone used the ticket.",
-              "korean": "아쉬웠지만 누군가 그 표를 사용할 수 있어서 다행이었습니다."
+              "english": "I was glad someone could use my ticket.",
+              "korean": "누군가 제 표를 사용할 수 있어서 다행이었습니다."
             }
           ],
           "fillerItems": [
@@ -25661,10 +25560,36 @@ window.OPIC_STUDY_DATA = {
               ]
             },
             {
-              "english": "My friend found someone else to go with.",
-              "korean": "제 친구는 함께 갈 다른 사람을 찾았습니다.",
-              "englishEmphasis": [],
-              "koreanEmphasis": []
+              "english": "I asked, “Can you go with another friend?”",
+              "korean": "저는 “다른 친구와 함께 갈 수 있어?”라고 물었습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 9,
+                  "end": 42
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 3,
+                  "end": 22
+                }
+              ]
+            },
+            {
+              "english": "Luckily, my friend found someone else.",
+              "korean": "다행히, 친구는 함께 갈 다른 사람을 찾았습니다.",
+              "englishEmphasis": [
+                {
+                  "start": 0,
+                  "end": 8
+                }
+              ],
+              "koreanEmphasis": [
+                {
+                  "start": 0,
+                  "end": 4
+                }
+              ]
             },
             {
               "english": "I sent my ticket to that person.",
@@ -25673,8 +25598,8 @@ window.OPIC_STUDY_DATA = {
               "koreanEmphasis": []
             },
             {
-              "english": "So, yeah, I was sad, but I was glad someone used the ticket.",
-              "korean": "그래서, 아쉬웠지만 누군가 그 표를 사용할 수 있어서 다행이었습니다.",
+              "english": "So, yeah, I was glad someone could use my ticket.",
+              "korean": "그래서, 누군가 제 표를 사용할 수 있어서 다행이었습니다.",
               "englishEmphasis": [
                 {
                   "start": 0,
@@ -25696,9 +25621,10 @@ window.OPIC_STUDY_DATA = {
               "그날 아침에 열이 났음",
               "바로 친구에게 전화함",
               "“미안하지만 갈 수 없어.”라고 말했음",
-              "제 친구는 함께 갈 다른 사람을 찾았음",
+              "“다른 친구와 함께 갈 수 있어?”라고 물었음",
+              "다행히 친구는 함께 갈 다른 사람을 찾았음",
               "그 사람에게 제 표를 보냈음",
-              "아쉬웠지만 누군가 그 표를 사용할 수 있어서 다행이었음"
+              "누군가 제 표를 사용할 수 있어서 다행이었음"
             ],
             "englishSkeleton": [
               "I once missed a show because I got sick.",
@@ -25706,9 +25632,10 @@ window.OPIC_STUDY_DATA = {
               "That morning, I had a fever.",
               "I called my friend right away.",
               "I said, “I’m sorry, but I can’t go.”",
-              "My friend found someone else to go with.",
+              "I asked, “Can you go with another friend?”",
+              "Luckily, my friend found someone else.",
               "I sent my ticket to that person.",
-              "I was sad, but I was glad someone used the ticket."
+              "I was glad someone could use my ticket."
             ]
           }
         }
@@ -25722,12 +25649,12 @@ window.OPIC_STUDY_DATA = {
     "questionTranslations": 145,
     "categories": 145,
     "mainPoints": 121,
-    "finalSentences": 1219,
-    "speakingChunks": 1210,
-    "speakingTranslations": 1210,
+    "finalSentences": 1216,
+    "speakingChunks": 1207,
+    "speakingTranslations": 1207,
     "fillerEntries": 81,
-    "fillerSentences": 671,
-    "fillerTranslations": 671,
-    "translations": 1219
+    "fillerSentences": 668,
+    "fillerTranslations": 668,
+    "translations": 1216
   }
 };
