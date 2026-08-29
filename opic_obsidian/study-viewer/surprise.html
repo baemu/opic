@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#faf9f5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>돌발 대비 | OPIc Practice</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="stylesheet" href="./surprise-styles.css" />
+  </head>
+  <body>
+    <main class="surprise-shell">
+      <header class="app-header">
+        <div class="app-brand">
+          <a class="icon-button" href="./compact.html" aria-label="학습 화면으로 돌아가기" title="학습 화면">←</a>
+          <div>
+            <h1>돌발 대비</h1>
+            <p id="appStats">불러오는 중...</p>
+          </div>
+        </div>
+        <nav class="header-actions" aria-label="화면 전환">
+          <button class="mode-button" type="button" data-view-mode="study" aria-pressed="true">답변 학습</button>
+          <button class="mode-button" type="button" data-view-mode="drill" aria-pressed="false">5초 선택</button>
+          <button id="randomPracticeBtn" class="primary-button" type="button">랜덤 돌발</button>
+          <a class="header-link" href="./review.html">시험 직전</a>
+        </nav>
+      </header>
+
+      <section id="studyView" class="study-view">
+        <section class="world-band" aria-label="돌발 세계관 선택">
+          <div class="search-area">
+            <label class="topic-search">
+              <span>주제 찾기</span>
+              <input id="topicSearchInput" type="search" placeholder="예: 날씨, 은행, AI" autocomplete="off" />
+            </label>
+            <div id="topicSearchResults" class="topic-search-results" hidden></div>
+          </div>
+          <div id="worldTabs" class="world-tabs" role="tablist" aria-label="9개 공통 세계관"></div>
+        </section>
+
+        <section class="study-toolbar">
+          <div class="world-heading">
+            <p id="worldNumber" class="eyebrow">WORLD 1</p>
+            <h2 id="worldTitle">세계관</h2>
+            <p id="worldTopics" class="world-topics"></p>
+          </div>
+          <div id="categoryTabs" class="category-tabs" role="tablist" aria-label="답변 카테고리"></div>
+        </section>
+
+        <section class="memory-strip">
+          <span>공통 흐름</span>
+          <p id="worldFlow"></p>
+        </section>
+
+        <section class="answer-workspace">
+          <aside class="question-pane">
+            <div class="question-meta">
+              <span id="entryCategory" class="category-badge">Description</span>
+              <span id="entryPosition">1 / 5</span>
+            </div>
+            <h2>Question</h2>
+            <p id="questionEnglish" class="question-english"></p>
+            <p id="questionKorean" class="question-korean"></p>
+            <div class="question-actions">
+              <button id="playQuestionBtn" class="primary-button" type="button">▶ 문제 듣기</button>
+              <button id="copyQuestionBtn" class="icon-button" type="button" aria-label="문제 정보 복사" title="문제 정보 복사">⧉</button>
+            </div>
+
+            <section class="memory-points" aria-labelledby="memoryTitle">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">3 SENTENCES</p>
+                  <h3 id="memoryTitle">암기 포인트</h3>
+                </div>
+                <button id="playMemoryBtn" class="text-button" type="button">▶ 듣기</button>
+              </div>
+              <ol id="memoryPointList"></ol>
+            </section>
+
+            <div class="question-footer-actions">
+              <button id="worldPracticeBtn" class="secondary-button" type="button">이 세계관 연습</button>
+              <button id="toggleReplacementBtn" class="secondary-button" type="button" aria-expanded="false">바꿔쓰기</button>
+            </div>
+          </aside>
+
+          <section class="answer-pane">
+            <header class="answer-header">
+              <div>
+                <p id="answerCount" class="eyebrow">8 SENTENCES</p>
+                <h2>최종 답변</h2>
+              </div>
+              <div class="answer-actions">
+                <button id="toggleTranslationsBtn" class="secondary-button" type="button" aria-pressed="true">번역 숨기기</button>
+                <button id="playAnswerBtn" class="primary-button" type="button">▶ 전체 듣기</button>
+              </div>
+            </header>
+            <div id="answerLines" class="answer-lines"></div>
+          </section>
+        </section>
+
+        <section id="replacementPanel" class="replacement-panel" hidden>
+          <header>
+            <div>
+              <p class="eyebrow">ADAPT</p>
+              <h2>주제에 맞게 바꾸기</h2>
+            </div>
+            <button id="closeReplacementBtn" class="icon-button" type="button" aria-label="바꿔쓰기 닫기">×</button>
+          </header>
+          <div class="replacement-grid">
+            <section>
+              <h3>이 답변에서 교체</h3>
+              <div id="replacementList" class="replacement-list"></div>
+            </section>
+            <section>
+              <h3>이 세계관의 대응 주제</h3>
+              <div id="mappedTopicList" class="mapped-topic-list"></div>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section id="drillView" class="drill-view" hidden>
+        <header class="drill-heading">
+          <div>
+            <p class="eyebrow">5-SECOND ROUTING</p>
+            <h2>주제 → 세계관 → 카테고리</h2>
+            <p>문제를 보고 5초 안에 사용할 세계관과 첫 문장을 떠올리세요.</p>
+          </div>
+          <button id="nextDrillBtn" class="secondary-button" type="button">다음 문제</button>
+        </header>
+        <section class="drill-stage">
+          <div class="drill-timer" aria-live="polite">
+            <strong id="drillSeconds">5</strong>
+            <span>seconds</span>
+          </div>
+          <div class="drill-question">
+            <p id="drillIndex" class="eyebrow">RANDOM 1 / 45</p>
+            <h3 id="drillQuestion"></h3>
+            <button id="playDrillQuestionBtn" class="text-button" type="button">▶ 문제 듣기</button>
+          </div>
+          <button id="revealDrillBtn" class="primary-button drill-reveal-button" type="button">정답 확인</button>
+          <div id="drillAnswer" class="drill-answer" hidden>
+            <div class="drill-answer-labels">
+              <span id="drillWorld"></span>
+              <span id="drillCategory"></span>
+            </div>
+            <p id="drillQuestionKorean" class="drill-question-korean"></p>
+            <div class="drill-route">
+              <span>공통 흐름</span>
+              <p id="drillFlow"></p>
+            </div>
+            <div class="drill-first-sentence">
+              <span>첫 문장</span>
+              <p id="drillFirstSentence"></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <section id="practiceOverlay" class="practice-overlay" hidden aria-modal="true" role="dialog" aria-labelledby="practiceTitle">
+      <header class="practice-header">
+        <div>
+          <p id="practiceMeta" class="eyebrow">랜덤 돌발</p>
+          <h2 id="practiceTitle">돌발 실전 연습</h2>
+        </div>
+        <button id="closePracticeBtn" class="icon-button" type="button" aria-label="실전 연습 닫기">×</button>
+      </header>
+
+      <div id="practiceSetup" class="practice-setup">
+        <p id="practiceScopeText" class="practice-scope-text"></p>
+        <div class="practice-duration" aria-label="답변 시간">
+          <span>답변 시간</span>
+          <div>
+            <button type="button" data-practice-duration="45">45초</button>
+            <button type="button" data-practice-duration="60" aria-pressed="true">60초</button>
+            <button type="button" data-practice-duration="90">90초</button>
+          </div>
+        </div>
+        <button id="startPracticeBtn" class="primary-button practice-main-button" type="button">연습 시작</button>
+      </div>
+
+      <div id="practiceSession" class="practice-session" hidden>
+        <p id="practicePhase" class="eyebrow">준비</p>
+        <div class="listen-progress" aria-label="문제 청취 횟수">
+          <span data-listen-step="1">1</span><i></i><span data-listen-step="2">2</span>
+        </div>
+        <h3 id="practiceMessage">문제를 들어보세요.</h3>
+        <time id="practiceTimer" datetime="PT60S" hidden>01:00</time>
+        <div class="practice-session-actions">
+          <button id="practiceListenBtn" class="primary-button practice-main-button" type="button">▶ 문제 듣기 1/2</button>
+          <button id="practiceAnswerBtn" class="secondary-button practice-main-button" type="button" hidden>답변 시작</button>
+          <button id="practiceFinishBtn" class="primary-button practice-main-button" type="button" hidden>답변 완료</button>
+        </div>
+      </div>
+
+      <div id="practiceReview" class="practice-review" hidden>
+        <header>
+          <div>
+            <p class="eyebrow">ANSWER CHECK</p>
+            <h3><span id="practiceResultWorld"></span> · <span id="practiceResultCategory"></span></h3>
+          </div>
+          <strong id="practiceResultTime">00:00</strong>
+        </header>
+        <div class="practice-review-grid">
+          <section class="practice-review-summary">
+            <h4>문제</h4>
+            <p id="practiceResultQuestion"></p>
+            <p id="practiceResultQuestionKo"></p>
+            <h4>암기 포인트</h4>
+            <ol id="practiceResultMemory"></ol>
+          </section>
+          <section class="practice-review-answer">
+            <div id="practiceResultAnswer" class="practice-result-answer"></div>
+          </section>
+        </div>
+        <div class="practice-review-actions">
+          <button id="retryPracticeBtn" class="secondary-button" type="button">다시 연습</button>
+          <button id="nextPracticeBtn" class="primary-button" type="button">다른 문제</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="statusToast" class="status-toast" role="status" aria-live="polite" hidden></div>
+
+    <script>
+      (() => {
+        const requestedVersion = new URLSearchParams(window.location.search).get("v");
+        const assetVersion =
+          window.location.protocol === "file:" ? "" : requestedVersion || String(Date.now());
+        const suffix = assetVersion ? `?v=${encodeURIComponent(assetVersion)}` : "";
+        const dataScript = document.createElement("script");
+        dataScript.src = `./surprise-data.js${suffix}`;
+        dataScript.addEventListener("load", () => {
+          const appScript = document.createElement("script");
+          appScript.src = `./surprise-app.js${suffix}`;
+          document.body.append(appScript);
+        }, { once: true });
+        document.body.append(dataScript);
+      })();
+    </script>
+  </body>
+</html>

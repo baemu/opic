@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -7,10 +8,16 @@ const __dirname = path.dirname(__filename);
 
 const sourceDir = path.resolve(__dirname, "..", "output", "scripts");
 const outputFile = path.resolve(__dirname, "data.js");
+const surpriseOutputFile = path.resolve(__dirname, "surprise-data.js");
+const surpriseMasterFile = path.resolve(sourceDir, "surprise-topic-master.md");
+const surpriseTranslationsFile = path.resolve(__dirname, "surprise-translations.json");
 const speakingTranslationsFile = path.resolve(__dirname, "speaking-translations.json");
 
 const speakingTranslationOverrides = new Map(
   Object.entries(JSON.parse(fs.readFileSync(speakingTranslationsFile, "utf8"))),
+);
+const surpriseTranslationOverrides = JSON.parse(
+  fs.readFileSync(surpriseTranslationsFile, "utf8"),
 );
 
 const sourceFileCollator = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
@@ -395,6 +402,114 @@ function cleanText(value) {
     .replace(/`/g, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function getMarkdownSection(text, heading) {
+  const marker = `## ${heading}`;
+  const start = text.indexOf(marker);
+  if (start < 0) {
+    return "";
+  }
+  const contentStart = start + marker.length;
+  const rest = text.slice(contentStart);
+  const nextHeading = rest.search(/\n##\s+/);
+  return nextHeading < 0 ? rest : rest.slice(0, nextHeading);
+}
+
+function parseMarkdownTable(section) {
+  return section
+    .split("\n")
+    .filter((line) => /^\|.*\|\s*$/.test(line))
+    .map((line) =>
+      line
+        .slice(1, line.lastIndexOf("|"))
+        .split("|")
+        .map((cell) => cell.trim()),
+    )
+    .filter((cells) => !cells.every((cell) => /^:?-{3,}:?$/.test(cell)));
+}
+
+function getLinkedFileName(value) {
+  const match = String(value).match(/\(([^)]+\.md)\)/i);
+  return match ? path.basename(match[1]) : "";
+}
+
+function makeSafeSlug(value) {
+  return String(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function parseSurpriseMaster() {
+  if (!fs.existsSync(surpriseMasterFile)) {
+    throw new Error(`Missing surprise master file: ${surpriseMasterFile}`);
+  }
+
+  const text = fs.readFileSync(surpriseMasterFile, "utf8").replace(/\r\n/g, "\n");
+  const worldviewRows = parseMarkdownTable(getMarkdownSection(text, "9개 공통 세계관"));
+  const worldviews = worldviewRows
+    .slice(1)
+    .map((cells) => ({
+      number: Number(cleanText(cells[0])),
+      name: cleanText(cells[1]),
+      primaryTopics: cleanText(cells[2])
+        .split(/\s*,\s*/)
+        .filter(Boolean),
+      fileName: getLinkedFileName(cells[3]),
+    }))
+    .filter((item) => item.number && item.name && item.fileName);
+
+  const flowSection = getMarkdownSection(text, "세계관별 핵심 기억 흐름");
+  const flowMatches = [...flowSection.matchAll(/^###\s+(\d+)\.\s+(.+?)\s*$[\s\S]*?^`([^`]+)`\s*$/gm)];
+  const flowByNumber = new Map(
+    flowMatches.map((match) => [Number(match[1]), cleanText(match[3])]),
+  );
+  worldviews.forEach((worldview) => {
+    worldview.flow = flowByNumber.get(worldview.number) || "";
+    worldview.id = makeSafeSlug(path.basename(worldview.fileName, ".md"));
+  });
+
+  const topicRows = parseMarkdownTable(getMarkdownSection(text, "돌발 주제별 선택표"));
+  const topicMap = topicRows
+    .slice(1)
+    .map((cells) => ({
+      topic: cleanText(cells[0]),
+      primaryWorldview: Number(cleanText(cells[1]).match(/^\d+/)?.[0] || 0),
+      secondaryWorldview: Number(cleanText(cells[2]).match(/^\d+/)?.[0] || 0),
+      keywords: cleanText(cells[3])
+        .split(/\s*,\s*/)
+        .filter(Boolean),
+    }))
+    .filter((item) => item.topic && item.primaryWorldview);
+
+  const commonRows = parseMarkdownTable(getMarkdownSection(text, "공통 문장 교체표"));
+  const commonSentences = commonRows
+    .slice(1)
+    .map((cells) => ({ base: cleanText(cells[0]), examples: cleanText(cells[1]) }))
+    .filter((item) => item.base);
+
+  const mustChange = getMarkdownSection(text, "주제 전환 시 반드시 바꿀 것")
+    .split("\n")
+    .filter((line) => /^-\s+/.test(line))
+    .map((line) => cleanText(line.replace(/^-\s+/, "")));
+  const minimumStudy = getMarkdownSection(text, "최소 암기 방법")
+    .split("\n")
+    .filter((line) => /^-\s+/.test(line))
+    .map((line) => cleanText(line.replace(/^-\s+/, "")));
+
+  if (worldviews.length !== 9) {
+    throw new Error(`Expected 9 surprise worldviews, found ${worldviews.length}.`);
+  }
+
+  return {
+    title: cleanText(text.match(/^#\s+(.+)$/m)?.[1] || "OPIc 돌발주제 대비"),
+    worldviews,
+    topicMap,
+    commonSentences,
+    mustChange,
+    minimumStudy,
+  };
 }
 
 function getQuestionTranslation(question) {
@@ -1029,11 +1144,35 @@ function parseFile(config) {
     }
 
     currentEntry.questionSentences = splitSentences(currentEntry.question);
-    currentEntry.questionTranslation = getQuestionTranslation(currentEntry.question);
+    currentEntry.questionTranslation =
+      currentEntry.questionTranslation || getQuestionTranslation(currentEntry.question);
     const originalFinalSentences = currentEntry.finalSentences.map(cleanText).filter(Boolean);
     currentEntry.finalSentences = originalFinalSentences;
     currentEntry.speakingChunks = currentEntry.speakingChunks.map(cleanText).filter(Boolean);
     currentEntry.translations = parseTranslationPairs(currentEntry.translationLines);
+    const translationOverride = config.translationEntries?.[String(currentEntry.type)];
+    if (translationOverride) {
+      const sourceHash = createHash("sha256")
+        .update([currentEntry.question, ...originalFinalSentences].join("\n"))
+        .digest("hex");
+      if (translationOverride.sourceHash !== sourceHash) {
+        throw new Error(
+          `Surprise translation is stale: ${config.fileName} / Type ${currentEntry.type}`,
+        );
+      }
+      currentEntry.questionTranslation = cleanText(translationOverride.questionKo);
+      if (Array.isArray(translationOverride.sentenceKo)) {
+        if (translationOverride.sentenceKo.length !== originalFinalSentences.length) {
+          throw new Error(
+            `Surprise translation count mismatch: ${config.fileName} / Type ${currentEntry.type}`,
+          );
+        }
+        currentEntry.translations = originalFinalSentences.map((english, index) => ({
+          english,
+          korean: cleanText(translationOverride.sentenceKo[index]),
+        }));
+      }
+    }
     currentEntry.fillerItems = parseFillerPairs(
       currentEntry.fillerTranslationLines,
       `${config.fileName} / Set ${currentEntry.set} / Type ${currentEntry.type}`,
@@ -1060,7 +1199,9 @@ function parseFile(config) {
       getSpeakingTranslation(chunk, currentEntry.translations),
     );
     currentEntry.mainPoint =
-      mainPointsBySlot.get(`${currentEntry.set}|${currentEntry.type}`) || "";
+      mainPointsBySlot.get(`${currentEntry.set}|${currentEntry.type}`) ||
+      (config.worldviewId ? currentEntry.mainPoint || currentEntry.memoryPoints[0] : "") ||
+      "";
     currentEntry.mainPointSentences = splitSentences(currentEntry.mainPoint);
     currentEntry.mainPointSentenceIndexes = findMainPointSentenceIndexes(
       currentEntry.mainPoint,
@@ -1079,6 +1220,12 @@ function parseFile(config) {
       currentEntry.mainPointSpeakingChunkIndexes[0] ?? -1;
     currentEntry.mainPointFillerIndex = currentEntry.mainPointFillerIndexes[0] ?? -1;
     currentEntry.review = buildReviewSummary(currentEntry);
+
+    if (!config.worldviewId) {
+      delete currentEntry.koreanNotes;
+      delete currentEntry.memoryPoints;
+      delete currentEntry.replacementLines;
+    }
 
     if (
       currentEntry.question ||
@@ -1107,7 +1254,7 @@ function parseFile(config) {
 
     match = line.match(/^### Type\s+(.+?)\s*$/);
     if (match) {
-      currentType = cleanText(match[1]);
+      currentType = cleanText(match[1]).match(/^\d+/)?.[0] || cleanText(match[1]);
       activeSection = "";
       continue;
     }
@@ -1142,6 +1289,9 @@ function parseFile(config) {
         fillerTranslationLines: [],
         translations: [],
         fillerItems: [],
+        koreanNotes: [],
+        memoryPoints: [],
+        replacementLines: [],
         review: {
           koreanFlow: [],
           englishSkeleton: [],
@@ -1169,6 +1319,20 @@ function parseFile(config) {
       continue;
     }
 
+    match = line.match(/^- `핵심 포인트 한 가지:`\s*(.+?)\s*$/);
+    if (match) {
+      if (config.worldviewId) {
+        currentEntry.mainPoint = cleanText(match[1]);
+      }
+      continue;
+    }
+
+    match = line.match(/^- `question_ko:`\s*(.+?)\s*$/);
+    if (match) {
+      currentEntry.questionTranslation = cleanText(match[1]);
+      continue;
+    }
+
     if (/^#####\s+/.test(line)) {
       if (/opic-final-marker|\[최종 답변\]/.test(line)) {
         activeSection = "final";
@@ -1178,8 +1342,29 @@ function parseFile(config) {
         activeSection = "filler";
       } else if (/\[영어\+한국어 버전\]/.test(line)) {
         activeSection = "translation";
+      } else if (/^#####\s+Korean Notes/i.test(line)) {
+        activeSection = "korean-notes";
+      } else if (/\[암기 포인트\]/.test(line)) {
+        activeSection = "memory";
+      } else if (/\[바꿔 쓰기 표현\]/.test(line)) {
+        activeSection = "replacement";
       } else {
         activeSection = "";
+      }
+      continue;
+    }
+
+    if (["korean-notes", "memory", "replacement"].includes(activeSection)) {
+      match = line.match(/^-\s+(.+?)\s*$/);
+      if (match) {
+        const value = cleanText(match[1]);
+        if (activeSection === "korean-notes") {
+          currentEntry.koreanNotes.push(value);
+        } else if (activeSection === "memory") {
+          currentEntry.memoryPoints.push(value);
+        } else {
+          currentEntry.replacementLines.push(value);
+        }
       }
       continue;
     }
@@ -1216,12 +1401,79 @@ function parseFile(config) {
 
   finishEntry();
 
+  const { translationEntries, ...publicConfig } = config;
   return {
-    ...config,
+    ...publicConfig,
     path: path.relative(__dirname, path.resolve(sourceDir, config.fileName)).replace(/\\/g, "/"),
     entries,
   };
 }
+
+const surpriseMaster = parseSurpriseMaster();
+const surpriseFiles = surpriseMaster.worldviews.map((worldview) =>
+  parseFile({
+    id: `surprise-${worldview.number}-${worldview.id}`,
+    number: worldview.number,
+    fileName: worldview.fileName,
+    title: `${worldview.number}. ${worldview.name}`,
+    worldviewId: worldview.id,
+    worldviewName: worldview.name,
+    primaryTopics: worldview.primaryTopics,
+    flow: worldview.flow,
+    translationEntries: surpriseTranslationOverrides[worldview.fileName] || {},
+  }),
+);
+fillMissingCategories(surpriseFiles);
+surpriseFiles.forEach((file) => {
+  file.entries.forEach((entry) => {
+    if (entry.koreanNotes.length) {
+      entry.review.koreanFlow = [...entry.koreanNotes];
+    }
+  });
+});
+
+const surpriseStats = {
+  files: surpriseFiles.length,
+  entries: surpriseFiles.reduce((sum, file) => sum + file.entries.length, 0),
+  questionTranslations: surpriseFiles.reduce(
+    (sum, file) => sum + file.entries.filter((entry) => entry.questionTranslation).length,
+    0,
+  ),
+  finalSentences: surpriseFiles.reduce(
+    (sum, file) => sum + file.entries.reduce((count, entry) => count + entry.finalSentences.length, 0),
+    0,
+  ),
+  translations: surpriseFiles.reduce(
+    (sum, file) => sum + file.entries.reduce((count, entry) => count + entry.translations.length, 0),
+    0,
+  ),
+  memoryPoints: surpriseFiles.reduce(
+    (sum, file) => sum + file.entries.reduce((count, entry) => count + entry.memoryPoints.length, 0),
+    0,
+  ),
+};
+
+if (surpriseStats.entries !== 45) {
+  throw new Error(`Expected 45 surprise entries, found ${surpriseStats.entries}.`);
+}
+if (surpriseStats.questionTranslations !== surpriseStats.entries) {
+  throw new Error(
+    `Missing ${surpriseStats.entries - surpriseStats.questionTranslations} surprise question translations.`,
+  );
+}
+if (surpriseStats.translations !== surpriseStats.finalSentences) {
+  throw new Error(
+    `Missing ${surpriseStats.finalSentences - surpriseStats.translations} surprise answer translations.`,
+  );
+}
+
+const surpriseData = {
+  generatedAt: new Date().toISOString(),
+  sourceDirectory: path.relative(__dirname, sourceDir).replace(/\\/g, "/"),
+  master: surpriseMaster,
+  files: surpriseFiles,
+  stats: surpriseStats,
+};
 
 const files = sourceFiles.map(parseFile);
 fillMissingCategories(files);
@@ -1295,10 +1547,19 @@ fs.writeFileSync(
   `window.OPIC_STUDY_DATA = ${JSON.stringify(data, null, 2)};\n`,
   "utf8",
 );
+fs.writeFileSync(
+  surpriseOutputFile,
+  `window.OPIC_SURPRISE_DATA = ${JSON.stringify(surpriseData, null, 2)};\n`,
+  "utf8",
+);
 
 console.log(`Wrote ${outputFile}`);
+console.log(`Wrote ${surpriseOutputFile}`);
 console.log(
   `Loaded ${stats.files} files, ${stats.entries} entries, ${stats.questions} question sentences, ${stats.questionTranslations} question translations, ${stats.categories} categories, ${stats.mainPoints} main points, ${stats.finalSentences} final sentences, ${stats.speakingChunks} speaking chunks, ${stats.speakingTranslations} speaking translations, ${stats.fillerEntries} filler entries, ${stats.fillerSentences} filler sentences, ${stats.fillerTranslations} filler translations, ${stats.translations} final translations.`,
+);
+console.log(
+  `Loaded ${surpriseStats.files} surprise worlds, ${surpriseStats.entries} entries, ${surpriseStats.questionTranslations} question translations, ${surpriseStats.finalSentences} final sentences, ${surpriseStats.translations} final translations, ${surpriseStats.memoryPoints} memory points.`,
 );
 
 if (stats.speakingTranslations !== stats.speakingChunks) {

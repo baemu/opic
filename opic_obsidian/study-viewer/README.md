@@ -22,6 +22,8 @@ Markdown 파일을 수정한 뒤 로컬 화면만 확인할 때는 `OPIc-study.b
 
 학습 화면 상단의 `시험 직전`을 누르면 빠른 복습 화면이 열립니다. 주제별 최신 수정본을 자동으로 선택하고, `[영어+한국어 버전]`의 한국어 문장을 짧은 기억 흐름으로 바꾸며 영어 문장은 말하기 뼈대로 표시합니다. `시험 순서` 보기에서는 Combo별 주제와 Set을 고른 뒤 실제 순서인 `T1→T2→T3 / T1→T3→T4 / T1→T3→T4 / T6→T7→T8`로 Q2~Q13을 복습하거나 바로 실전 연습할 수 있습니다. 준비하지 않는 Type 9·10은 포함하지 않습니다. Markdown을 수정한 뒤 `OPIc-study.bat` 또는 `OPIc-publish.bat`을 실행하면 복습 화면도 함께 갱신됩니다.
 
+학습 화면 상단의 `돌발 대비`를 누르면 `surprise-topic-master.md`를 기준으로 만든 돌발 전용 화면이 열립니다. 30개 주제를 9개 세계관으로 묶어 학습하며, 각 세계관은 5개 답변 유형, 3개 암기 포인트, 바꿔 쓰기 표현과 문장별 번역을 제공합니다. `5초 선택`은 문제를 보고 5초 안에 세계관과 답변 흐름을 떠올리는 훈련이고, `랜덤 돌발`은 문제를 최대 두 번 들은 뒤 정한 시간 동안 답하는 연습입니다.
+
 ## 아이폰·아이패드 사용
 
 공개 주소는 `https://baemu.github.io/opic/`입니다.
@@ -47,6 +49,12 @@ Markdown 파일을 수정한 뒤 로컬 화면만 확인할 때는 `OPIc-study.b
 - `review.html`: 시험 직전 복습 화면
 - `review-app.js`: 최신본 선택, 복습 흐름, 영어 펼치기 및 음성 기능
 - `review-styles.css`: 복습 화면 디자인
+- `surprise-topic-master.md`: 돌발 주제와 9개 세계관 연결 기준
+- `surprise-translations.json`: 돌발 문제·답변 한국어 번역 보조 자료
+- `surprise-data.js`: 변환된 돌발 학습 데이터
+- `surprise.html`: 돌발 답변 학습 및 실전 연습 화면
+- `surprise-app.js`: 돌발 탐색, 음성, 5초 선택 및 실전 연습 기능
+- `surprise-styles.css`: 돌발 화면 디자인
 - `manifest.webmanifest`: 홈 화면 앱 설정
 - `service-worker.js`: 오프라인 실행 및 온라인 업데이트
 - `DESIGN-claude.md`: 디자인 원본 문서

@@ -46,6 +46,10 @@ jobs:
           cp opic_obsidian/study-viewer/review.html _site/review.html
           cp opic_obsidian/study-viewer/review-app.js _site/review-app.js
           cp opic_obsidian/study-viewer/review-styles.css _site/review-styles.css
+          cp opic_obsidian/study-viewer/surprise.html _site/surprise.html
+          cp opic_obsidian/study-viewer/surprise-app.js _site/surprise-app.js
+          cp opic_obsidian/study-viewer/surprise-styles.css _site/surprise-styles.css
+          cp opic_obsidian/study-viewer/surprise-data.js _site/surprise-data.js
           cp opic_obsidian/study-viewer/data.js _site/data.js
           cp opic_obsidian/study-viewer/manifest.webmanifest _site/manifest.webmanifest
           cp opic_obsidian/study-viewer/service-worker.js _site/service-worker.js
