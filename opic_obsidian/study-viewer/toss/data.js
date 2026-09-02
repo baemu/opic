@@ -3,6 +3,525 @@ window.TOEIC_SPEAKING_DATA = {
   "title": "TOEIC Speaking",
   "parts": [
     {
+      "id": "part2",
+      "number": 2,
+      "title": "Part 2 사진 묘사",
+      "entries": [
+        {
+          "number": 1,
+          "section": "사진 묘사 시작하기",
+          "label": "촬영 장소",
+          "english": [
+            "This is a picture taken at a park."
+          ],
+          "korean": [
+            "이것은 공원에서 찍힌 사진이에요."
+          ]
+        },
+        {
+          "number": 2,
+          "section": "사진 묘사 시작하기",
+          "label": "가장 먼저 보이는 것",
+          "english": [
+            "The first thing I can see in this picture is two women."
+          ],
+          "korean": [
+            "이 사진에서 가장 먼저 볼 수 있는 것은 두 명의 여자예요."
+          ]
+        },
+        {
+          "number": 3,
+          "section": "사진 묘사 시작하기",
+          "label": "전경·중앙·배경",
+          "english": [
+            "In the foreground of the picture, I can see a fountain.",
+            "In the middle of the picture, I can see a fountain.",
+            "In the background of the picture, I can see a fountain."
+          ],
+          "korean": [
+            "사진의 전경에는 분수대가 보여요.",
+            "사진의 중앙에는 분수대가 보여요.",
+            "사진의 배경에는 분수대가 보여요."
+          ]
+        },
+        {
+          "number": 4,
+          "section": "사진 묘사 시작하기",
+          "label": "왼쪽·오른쪽",
+          "english": [
+            "On the left side of the picture, there is a sidewalk.",
+            "On the right side of the picture, there is a sidewalk."
+          ],
+          "korean": [
+            "사진의 왼쪽에는 보도가 있어요.",
+            "사진의 오른쪽에는 보도가 있어요."
+          ]
+        },
+        {
+          "number": 5,
+          "section": "사진 묘사 시작하기",
+          "label": "옆",
+          "english": [
+            "Next to her, there is another woman."
+          ],
+          "korean": [
+            "그녀의 옆에 또 다른 여자가 있어요."
+          ]
+        },
+        {
+          "number": 6,
+          "section": "사진 묘사 시작하기",
+          "label": "뒤",
+          "english": [
+            "Behind her, I can see two men standing."
+          ],
+          "korean": [
+            "그녀의 뒤에 서 있는 두 명의 남성이 보여요."
+          ]
+        },
+        {
+          "number": 7,
+          "section": "사진 묘사 시작하기",
+          "label": "대부분의 복장",
+          "english": [
+            "Most of them are wearing formal clothes."
+          ],
+          "korean": [
+            "그들 중 대부분은 정장을 입고 있어요."
+          ]
+        },
+        {
+          "number": 8,
+          "section": "사진 묘사 시작하기",
+          "label": "일부의 복장",
+          "english": [
+            "Some of them are wearing casual clothes."
+          ],
+          "korean": [
+            "그들 중 일부는 캐주얼한 옷을 입고 있어요."
+          ]
+        },
+        {
+          "number": 9,
+          "section": "카페·레스토랑",
+          "label": "메뉴판 보기",
+          "english": [
+            "She is looking at a menu."
+          ],
+          "korean": [
+            "그녀는 메뉴판을 보고 있어요."
+          ]
+        },
+        {
+          "number": 10,
+          "section": "카페·레스토랑",
+          "label": "적기",
+          "english": [
+            "He is writing something down."
+          ],
+          "korean": [
+            "그는 무언가를 적고 있어요."
+          ]
+        },
+        {
+          "number": 11,
+          "section": "카페·레스토랑",
+          "label": "물 마시기",
+          "english": [
+            "He is drinking some water."
+          ],
+          "korean": [
+            "그는 물을 마시고 있어요."
+          ]
+        },
+        {
+          "number": 12,
+          "section": "카페·레스토랑",
+          "label": "음식 제공하기",
+          "english": [
+            "She is serving food to customers."
+          ],
+          "korean": [
+            "그녀는 고객들에게 음식을 제공하고 있어요."
+          ]
+        },
+        {
+          "number": 13,
+          "section": "카페·레스토랑",
+          "label": "컵 들기",
+          "english": [
+            "She is holding a cup."
+          ],
+          "korean": [
+            "그녀는 컵을 들고 있어요."
+          ]
+        },
+        {
+          "number": 14,
+          "section": "카페·레스토랑",
+          "label": "계산대에 서기",
+          "english": [
+            "They are standing at the cashier."
+          ],
+          "korean": [
+            "그들은 계산대에 서 있어요."
+          ]
+        },
+        {
+          "number": 15,
+          "section": "카페·레스토랑",
+          "label": "대화하기",
+          "english": [
+            "They are having a conversation."
+          ],
+          "korean": [
+            "그들은 대화를 나누고 있어요."
+          ]
+        },
+        {
+          "number": 16,
+          "section": "카페·레스토랑",
+          "label": "가방 안 보기",
+          "english": [
+            "She is looking into a bag."
+          ],
+          "korean": [
+            "그녀는 가방 안을 들여다보고 있어요."
+          ]
+        },
+        {
+          "number": 17,
+          "section": "카페·레스토랑",
+          "label": "고객 돕기",
+          "english": [
+            "He is helping customers."
+          ],
+          "korean": [
+            "그는 고객들을 돕고 있어요."
+          ]
+        },
+        {
+          "number": 18,
+          "section": "카페·레스토랑",
+          "label": "테이블에 앉기",
+          "english": [
+            "They are sitting at a table."
+          ],
+          "korean": [
+            "그들은 테이블에 앉아 있어요."
+          ]
+        },
+        {
+          "number": 19,
+          "section": "상점·쇼핑몰",
+          "label": "물건 찾기",
+          "english": [
+            "He is looking for something."
+          ],
+          "korean": [
+            "그는 무언가를 찾고 있어요."
+          ]
+        },
+        {
+          "number": 20,
+          "section": "상점·쇼핑몰",
+          "label": "신용카드 건네기",
+          "english": [
+            "He is handing over a credit card."
+          ],
+          "korean": [
+            "그는 신용카드를 건네주고 있어요."
+          ]
+        },
+        {
+          "number": 21,
+          "section": "상점·쇼핑몰",
+          "label": "카트 밀기",
+          "english": [
+            "He is pushing a cart."
+          ],
+          "korean": [
+            "그는 카트를 밀고 있어요."
+          ]
+        },
+        {
+          "number": 22,
+          "section": "상점·쇼핑몰",
+          "label": "제품 보기",
+          "english": [
+            "He is looking at a product."
+          ],
+          "korean": [
+            "그는 제품을 보고 있어요."
+          ]
+        },
+        {
+          "number": 23,
+          "section": "상점·쇼핑몰",
+          "label": "줄 서기",
+          "english": [
+            "They are waiting in line."
+          ],
+          "korean": [
+            "그들은 줄을 서서 기다리고 있어요."
+          ]
+        },
+        {
+          "number": 24,
+          "section": "상점·쇼핑몰",
+          "label": "물건 정리하기",
+          "english": [
+            "They are arranging items."
+          ],
+          "korean": [
+            "그들은 물건들을 정리하고 있어요."
+          ]
+        },
+        {
+          "number": 25,
+          "section": "상점·쇼핑몰",
+          "label": "쇼핑백 들기",
+          "english": [
+            "She is holding a shopping bag."
+          ],
+          "korean": [
+            "그녀는 쇼핑백을 들고 있어요."
+          ]
+        },
+        {
+          "number": 26,
+          "section": "상점·쇼핑몰",
+          "label": "물건에 손 뻗기",
+          "english": [
+            "He is reaching for an item."
+          ],
+          "korean": [
+            "그는 물건을 집으려고 손을 뻗고 있어요."
+          ]
+        },
+        {
+          "number": 27,
+          "section": "상점·쇼핑몰",
+          "label": "비닐봉지 들기",
+          "english": [
+            "He is holding a plastic bag."
+          ],
+          "korean": [
+            "그는 비닐봉지를 들고 있어요."
+          ]
+        },
+        {
+          "number": 28,
+          "section": "사무실·회의실",
+          "label": "손 들기",
+          "english": [
+            "He is raising his hand."
+          ],
+          "korean": [
+            "그는 한 손을 들고 있어요."
+          ]
+        },
+        {
+          "number": 29,
+          "section": "사무실·회의실",
+          "label": "문서 들기",
+          "english": [
+            "She is holding a document."
+          ],
+          "korean": [
+            "그녀는 문서를 들고 있어요."
+          ]
+        },
+        {
+          "number": 30,
+          "section": "사무실·회의실",
+          "label": "발표하기",
+          "english": [
+            "He is making a presentation."
+          ],
+          "korean": [
+            "그는 발표를 하고 있어요."
+          ]
+        },
+        {
+          "number": 31,
+          "section": "사무실·회의실",
+          "label": "태블릿 사용하기",
+          "english": [
+            "He is using a tablet PC."
+          ],
+          "korean": [
+            "그는 태블릿을 사용하고 있어요."
+          ]
+        },
+        {
+          "number": 32,
+          "section": "사무실·회의실",
+          "label": "문서 읽기",
+          "english": [
+            "They are reading a document."
+          ],
+          "korean": [
+            "그들은 문서를 읽고 있어요."
+          ]
+        },
+        {
+          "number": 33,
+          "section": "사무실·회의실",
+          "label": "옷걸이에 걸기",
+          "english": [
+            "He is hanging his clothes on a rack."
+          ],
+          "korean": [
+            "그는 옷걸이에 옷을 걸고 있어요."
+          ]
+        },
+        {
+          "number": 34,
+          "section": "사무실·회의실",
+          "label": "종이 줍기",
+          "english": [
+            "She is picking up a piece of paper."
+          ],
+          "korean": [
+            "그녀는 종이 한 장을 줍고 있어요."
+          ]
+        },
+        {
+          "number": 35,
+          "section": "거리·야외",
+          "label": "사진 찍기",
+          "english": [
+            "There is a man taking a picture."
+          ],
+          "korean": [
+            "사진을 찍고 있는 한 남자가 있어요."
+          ]
+        },
+        {
+          "number": 36,
+          "section": "거리·야외",
+          "label": "개 산책시키기",
+          "english": [
+            "She is walking a dog."
+          ],
+          "korean": [
+            "그녀는 개를 산책시키고 있어요."
+          ]
+        },
+        {
+          "number": 37,
+          "section": "거리·야외",
+          "label": "바닥에 눕기",
+          "english": [
+            "He is lying on the ground."
+          ],
+          "korean": [
+            "그는 바닥에 누워 있어요."
+          ]
+        },
+        {
+          "number": 38,
+          "section": "거리·야외",
+          "label": "유모차 밀기",
+          "english": [
+            "She is pushing a baby stroller."
+          ],
+          "korean": [
+            "그녀는 유모차를 밀고 있어요."
+          ]
+        },
+        {
+          "number": 39,
+          "section": "거리·야외",
+          "label": "보트 타기",
+          "english": [
+            "He is riding a boat."
+          ],
+          "korean": [
+            "그는 보트를 타고 있어요."
+          ]
+        },
+        {
+          "number": 40,
+          "section": "거리·야외",
+          "label": "트럭에 상자 싣기",
+          "english": [
+            "He is loading a box into a truck."
+          ],
+          "korean": [
+            "그는 트럭에 상자를 싣고 있어요."
+          ]
+        },
+        {
+          "number": 41,
+          "section": "거리·야외",
+          "label": "해변 의자에서 쉬기",
+          "english": [
+            "He is relaxing on a beach chair."
+          ],
+          "korean": [
+            "그는 해변 의자에서 쉬고 있어요."
+          ]
+        },
+        {
+          "number": 42,
+          "section": "거리·야외",
+          "label": "계단 내려가기",
+          "english": [
+            "They are walking down the stairs."
+          ],
+          "korean": [
+            "그들은 계단을 내려가고 있어요."
+          ]
+        },
+        {
+          "number": 43,
+          "section": "거리·야외",
+          "label": "길 건너기",
+          "english": [
+            "They are crossing the street."
+          ],
+          "korean": [
+            "그들은 길을 건너고 있어요."
+          ]
+        },
+        {
+          "number": 44,
+          "section": "거리·야외",
+          "label": "길 걷기",
+          "english": [
+            "They are walking on the street."
+          ],
+          "korean": [
+            "그들은 길을 걸어가고 있어요."
+          ]
+        },
+        {
+          "number": 45,
+          "section": "거리·야외",
+          "label": "스마트폰 보기",
+          "english": [
+            "She is looking at a smartphone."
+          ],
+          "korean": [
+            "그녀는 스마트폰을 보고 있어요."
+          ]
+        },
+        {
+          "number": 46,
+          "section": "거리·야외",
+          "label": "공연하기",
+          "english": [
+            "They are performing."
+          ],
+          "korean": [
+            "그들은 공연하고 있어요."
+          ]
+        }
+      ]
+    },
+    {
       "id": "part3",
       "number": 3,
       "title": "Part 3 만능문장",
@@ -69,28 +588,6 @@ window.TOEIC_SPEAKING_DATA = {
         {
           "number": 6,
           "section": "정보·관계",
-          "label": "유용한 정보 2",
-          "english": [
-            "I can get a lot of useful information from books."
-          ],
-          "korean": [
-            "나는 책에서 많은 유용한 정보를 얻을 수 있다."
-          ]
-        },
-        {
-          "number": 7,
-          "section": "정보·관계",
-          "label": "유용한 정보 3",
-          "english": [
-            "I can get a lot of useful information on the Internet."
-          ],
-          "korean": [
-            "나는 인터넷에서 많은 유용한 정보를 얻을 수 있다."
-          ]
-        },
-        {
-          "number": 8,
-          "section": "정보·관계",
           "label": "믿을 만한 정보",
           "english": [
             "It's more reliable, so the information is more trustworthy."
@@ -100,7 +597,7 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 9,
+          "number": 7,
           "section": "정보·관계",
           "label": "언제 어디서나",
           "english": [
@@ -111,51 +608,7 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 10,
-          "section": "정보·관계",
-          "label": "대면 장점 1",
-          "english": [
-            "It is more personal, and builds a closer relationship."
-          ],
-          "korean": [
-            "이것은 더 개인적이고 더 가까운 인간관계를 쌓게 해 준다."
-          ]
-        },
-        {
-          "number": 11,
-          "section": "정보·관계",
-          "label": "대면 장점 2",
-          "english": [
-            "It causes less misunderstanding."
-          ],
-          "korean": [
-            "이것은 오해를 덜 일으킨다."
-          ]
-        },
-        {
-          "number": 12,
-          "section": "선호·장소",
-          "label": "좋아하는 일",
-          "english": [
-            "It's my favorite thing to do."
-          ],
-          "korean": [
-            "이것은 내가 가장 좋아하는 일이다."
-          ]
-        },
-        {
-          "number": 13,
-          "section": "선호·장소",
-          "label": "행복",
-          "english": [
-            "It makes me happy, and I can forget about my worries."
-          ],
-          "korean": [
-            "이것은 나를 행복하게 해 주고 걱정을 잊게 해 준다."
-          ]
-        },
-        {
-          "number": 14,
+          "number": 8,
           "section": "선호·장소",
           "label": "좋은 시설",
           "english": [
@@ -166,9 +619,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 15,
+          "number": 9,
           "section": "선호·장소",
-          "label": "핫플레이스",
+          "label": "인기 있는 장소",
           "english": [
             "It's a well-liked place so people love it."
           ],
@@ -177,9 +630,31 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 16,
+          "number": 10,
+          "section": "새것·필요",
+          "label": "오래된 물건",
+          "english": [
+            "They are too old so I think it's good to have new ones."
+          ],
+          "korean": [
+            "그것들은 너무 오래되어서 새로운 것이 있으면 좋을 것 같다."
+          ]
+        },
+        {
+          "number": 11,
+          "section": "새것·필요",
+          "label": "더 많은 가게",
+          "english": [
+            "If we have more stores here, it would be more convenient."
+          ],
+          "korean": [
+            "여기에 더 많은 가게가 있다면 더 편리할 것이다."
+          ]
+        },
+        {
+          "number": 12,
           "section": "제약·낭비",
-          "label": "예산 부족 1",
+          "label": "빠듯한 예산",
           "english": [
             "I'm a student so my budget is tight."
           ],
@@ -188,9 +663,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 17,
+          "number": 13,
           "section": "제약·낭비",
-          "label": "예산 부족 2",
+          "label": "구매 여유 부족",
           "english": [
             "I can't afford to buy expensive things."
           ],
@@ -199,9 +674,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 18,
+          "number": 14,
           "section": "제약·낭비",
-          "label": "돈 낭비 1",
+          "label": "돈을 낭비하고 싶지 않음",
           "english": [
             "I don't want to waste too much money on that."
           ],
@@ -210,9 +685,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 19,
+          "number": 15,
           "section": "제약·낭비",
-          "label": "돈 낭비 2",
+          "label": "돈 낭비",
           "english": [
             "It's a waste of money."
           ],
@@ -221,9 +696,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 20,
+          "number": 16,
           "section": "제약·낭비",
-          "label": "시간 부족 1",
+          "label": "학업으로 바쁨",
           "english": [
             "I'm a student and I'm so busy with my school work."
           ],
@@ -232,9 +707,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 21,
+          "number": 17,
           "section": "제약·낭비",
-          "label": "시간 부족 2",
+          "label": "시간 부족",
           "english": [
             "I don't have much time."
           ],
@@ -243,9 +718,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 22,
+          "number": 18,
           "section": "제약·낭비",
-          "label": "시간 부족 3",
+          "label": "시간을 낭비하고 싶지 않음",
           "english": [
             "I don't want to waste too much time on that."
           ],
@@ -254,7 +729,7 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 23,
+          "number": 19,
           "section": "제약·낭비",
           "label": "시간 낭비",
           "english": [
@@ -265,119 +740,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 24,
-          "section": "방식·선택",
-          "label": "재미",
-          "english": [
-            "It's more fun and entertaining, so I don't get bored."
-          ],
-          "korean": [
-            "이것은 더 재미있고 즐거워서 지루하지 않다."
-          ]
-        },
-        {
-          "number": 25,
-          "section": "방식·선택",
-          "label": "같이 1",
-          "english": [
-            "I think it's more fun to do things in a group."
-          ],
-          "korean": [
-            "나는 여러 명이 같이 하는 것이 더 재미있다고 생각한다."
-          ]
-        },
-        {
-          "number": 26,
-          "section": "방식·선택",
-          "label": "같이 2",
-          "english": [
-            "I can meet new people and make friends."
-          ],
-          "korean": [
-            "나는 새로운 사람들을 만나고 친구를 만들 수 있다."
-          ]
-        },
-        {
-          "number": 27,
-          "section": "방식·선택",
-          "label": "혼자 1",
-          "english": [
-            "I feel more comfortable and I can focus better."
-          ],
-          "korean": [
-            "나는 더 편안함을 느끼고 더 잘 집중할 수 있다."
-          ]
-        },
-        {
-          "number": 28,
-          "section": "방식·선택",
-          "label": "혼자 2",
-          "english": [
-            "I don't have to waste time waiting for other people."
-          ],
-          "korean": [
-            "나는 다른 사람들을 기다리느라 시간을 낭비할 필요가 없다."
-          ]
-        },
-        {
-          "number": 29,
-          "section": "방식·선택",
-          "label": "집 1",
-          "english": [
-            "I feel more comfortable at home."
-          ],
-          "korean": [
-            "나는 집에서 더 편안함을 느낀다."
-          ]
-        },
-        {
-          "number": 30,
-          "section": "방식·선택",
-          "label": "집 2",
-          "english": [
-            "I can save time because I don't have to waste time going out."
-          ],
-          "korean": [
-            "밖에 나가는 데 시간을 쓰지 않아도 되기 때문에 시간을 절약할 수 있다."
-          ]
-        },
-        {
-          "number": 31,
+          "number": 20,
           "section": "새것·필요",
-          "label": "새로운 것 1",
-          "english": [
-            "They are too old so I think it's good to have new ones."
-          ],
-          "korean": [
-            "그것들은 너무 오래되어서 새로운 것이 있으면 좋을 것 같다."
-          ]
-        },
-        {
-          "number": 32,
-          "section": "새것·필요",
-          "label": "새로운 것 2",
-          "english": [
-            "They are too outdated so I think it's good to have new ones."
-          ],
-          "korean": [
-            "그것들은 너무 구식이어서 새로운 것이 있으면 좋을 것 같다."
-          ]
-        },
-        {
-          "number": 33,
-          "section": "새것·필요",
-          "label": "새로운 것 3",
-          "english": [
-            "If we have more stores here, it would be more convenient."
-          ],
-          "korean": [
-            "여기에 더 많은 가게가 있다면 더 편리할 것이다."
-          ]
-        },
-        {
-          "number": 34,
-          "section": "새것·필요",
-          "label": "필요 1",
+          "label": "필요함",
           "english": [
             "It's very necessary for me."
           ],
@@ -386,9 +751,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 35,
+          "number": 21,
           "section": "새것·필요",
-          "label": "필요 2",
+          "label": "자주 사용함",
           "english": [
             "I frequently use it."
           ],
@@ -397,9 +762,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 36,
+          "number": 22,
           "section": "경험·제품",
-          "label": "좋은 경험 1",
+          "label": "행복한 경험",
           "english": [
             "It makes me happy and I can have a great experience."
           ],
@@ -408,9 +773,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 37,
+          "number": 23,
           "section": "경험·제품",
-          "label": "좋은 경험 2",
+          "label": "좋은 분위기와 경험",
           "english": [
             "They provide a happy environment and a pleasant experience."
           ],
@@ -419,7 +784,18 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 38,
+          "number": 24,
+          "section": "경험·제품",
+          "label": "새로운 것에 도전",
+          "english": [
+            "I like to try new things."
+          ],
+          "korean": [
+            "나는 새로운 것을 시도해 보는 것을 좋아한다."
+          ]
+        },
+        {
+          "number": 25,
           "section": "경험·제품",
           "label": "믿을 만한 제품",
           "english": [
@@ -430,9 +806,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 39,
+          "number": 26,
           "section": "경험·제품",
-          "label": "인기 있는 것",
+          "label": "인기 있는 제품",
           "english": [
             "It's a popular item so people will love it."
           ],
@@ -441,9 +817,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 40,
+          "number": 27,
           "section": "경험·제품",
-          "label": "선물 1",
+          "label": "특별한 의미",
           "english": [
             "It has sentimental value."
           ],
@@ -452,20 +828,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 41,
+          "number": 28,
           "section": "경험·제품",
-          "label": "도전",
-          "english": [
-            "I like to try new things."
-          ],
-          "korean": [
-            "나는 새로운 것을 시도해 보는 것을 좋아한다."
-          ]
-        },
-        {
-          "number": 42,
-          "section": "경험·제품",
-          "label": "선물 2",
+          "label": "좋은 선물",
           "english": [
             "It's a good gift."
           ],
@@ -474,9 +839,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 43,
+          "number": 29,
           "section": "습관·장점",
-          "label": "루틴 1",
+          "label": "일상의 일부",
           "english": [
             "It's part of my routine."
           ],
@@ -485,9 +850,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 44,
+          "number": 30,
           "section": "습관·장점",
-          "label": "루틴 2",
+          "label": "습관",
           "english": [
             "It's my habit."
           ],
@@ -496,9 +861,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 45,
+          "number": 31,
           "section": "습관·장점",
-          "label": "좋아한다 1",
+          "label": "정말 좋았음",
           "english": [
             "I really liked it."
           ],
@@ -507,9 +872,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 46,
+          "number": 32,
           "section": "습관·장점",
-          "label": "좋아한다 2",
+          "label": "훌륭했음",
           "english": [
             "It was great."
           ],
@@ -518,9 +883,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 47,
+          "number": 33,
           "section": "습관·장점",
-          "label": "좋아한다 3",
+          "label": "근사했음",
           "english": [
             "It was awesome."
           ],
@@ -529,9 +894,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 48,
+          "number": 34,
           "section": "습관·장점",
-          "label": "장점 1",
+          "label": "더 싸고 빠름",
           "english": [
             "It's cheaper and faster."
           ],
@@ -540,9 +905,9 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 49,
+          "number": 35,
           "section": "습관·장점",
-          "label": "장점 2",
+          "label": "편리하고 유용함",
           "english": [
             "It's very convenient and useful."
           ],
@@ -551,14 +916,574 @@ window.TOEIC_SPEAKING_DATA = {
           ]
         },
         {
-          "number": 50,
+          "number": 36,
           "section": "습관·장점",
-          "label": "장점 3",
+          "label": "도움이 됨",
           "english": [
             "It's very helpful for me."
           ],
           "korean": [
             "이것은 나에게 매우 도움이 된다."
+          ]
+        },
+        {
+          "number": 37,
+          "section": "방식·선택",
+          "label": "좋아하는 일",
+          "english": [
+            "It's my favorite thing to do."
+          ],
+          "korean": [
+            "이것은 내가 가장 좋아하는 일이다."
+          ]
+        },
+        {
+          "number": 38,
+          "section": "방식·선택",
+          "label": "행복과 걱정 해소",
+          "english": [
+            "It makes me happy, and I can forget about my worries."
+          ],
+          "korean": [
+            "이것은 나를 행복하게 해 주고 걱정을 잊게 해 준다."
+          ]
+        },
+        {
+          "number": 39,
+          "section": "방식·선택",
+          "label": "재미와 즐거움",
+          "english": [
+            "It's more fun and entertaining, so I don't get bored."
+          ],
+          "korean": [
+            "이것은 더 재미있고 즐거워서 지루하지 않다."
+          ]
+        },
+        {
+          "number": 40,
+          "section": "방식·선택",
+          "label": "여럿이 함께",
+          "english": [
+            "I think it's more fun to do things in a group."
+          ],
+          "korean": [
+            "나는 여러 명이 같이 하는 것이 더 재미있다고 생각한다."
+          ]
+        },
+        {
+          "number": 41,
+          "section": "방식·선택",
+          "label": "새로운 사람과 친구",
+          "english": [
+            "I can meet new people and make friends."
+          ],
+          "korean": [
+            "나는 새로운 사람들을 만나고 친구를 만들 수 있다."
+          ]
+        },
+        {
+          "number": 42,
+          "section": "방식·선택",
+          "label": "편안함과 집중",
+          "english": [
+            "I feel more comfortable and I can focus better."
+          ],
+          "korean": [
+            "나는 더 편안함을 느끼고 더 잘 집중할 수 있다."
+          ]
+        },
+        {
+          "number": 43,
+          "section": "방식·선택",
+          "label": "기다릴 필요 없음",
+          "english": [
+            "I don't have to waste time waiting for other people."
+          ],
+          "korean": [
+            "나는 다른 사람들을 기다리느라 시간을 낭비할 필요가 없다."
+          ]
+        },
+        {
+          "number": 44,
+          "section": "방식·선택",
+          "label": "집에서 편안함",
+          "english": [
+            "I feel more comfortable at home."
+          ],
+          "korean": [
+            "나는 집에서 더 편안함을 느낀다."
+          ]
+        },
+        {
+          "number": 45,
+          "section": "방식·선택",
+          "label": "외출 시간 절약",
+          "english": [
+            "I can save time because I don't have to waste time going out."
+          ],
+          "korean": [
+            "밖에 나가는 데 시간을 쓰지 않아도 되기 때문에 시간을 절약할 수 있다."
+          ]
+        },
+        {
+          "number": 46,
+          "section": "정보·관계",
+          "label": "더 가까운 관계",
+          "english": [
+            "It is more personal, and builds a closer relationship."
+          ],
+          "korean": [
+            "이것은 더 개인적이고 더 가까운 인간관계를 쌓게 해 준다."
+          ]
+        },
+        {
+          "number": 47,
+          "section": "정보·관계",
+          "label": "오해 감소",
+          "english": [
+            "It causes less misunderstanding."
+          ],
+          "korean": [
+            "이것은 오해를 덜 일으킨다."
+          ]
+        },
+        {
+          "number": 48,
+          "section": "보조 문장",
+          "label": "책에서 유용한 정보",
+          "english": [
+            "I can get a lot of useful information from books."
+          ],
+          "korean": [
+            "나는 책에서 많은 유용한 정보를 얻을 수 있다."
+          ]
+        },
+        {
+          "number": 49,
+          "section": "보조 문장",
+          "label": "인터넷에서 유용한 정보",
+          "english": [
+            "I can get a lot of useful information on the Internet."
+          ],
+          "korean": [
+            "나는 인터넷에서 많은 유용한 정보를 얻을 수 있다."
+          ]
+        },
+        {
+          "number": 50,
+          "section": "보조 문장",
+          "label": "구식 물건",
+          "english": [
+            "They are too outdated so I think it's good to have new ones."
+          ],
+          "korean": [
+            "그것들은 너무 구식이어서 새로운 것이 있으면 좋을 것 같다."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part4",
+      "number": 4,
+      "title": "Part 4 표 보고 답하기",
+      "entries": [
+        {
+          "number": 1,
+          "section": "일정표",
+          "label": "날짜와 장소",
+          "english": [
+            "The conference will be held on June 20th at Hilton Hotel."
+          ],
+          "korean": [
+            "회의가 6월 20일에 힐튼 호텔에서 개최될 예정이에요."
+          ]
+        },
+        {
+          "number": 2,
+          "section": "일정표",
+          "label": "시작 시간",
+          "english": [
+            "The meeting will start at 9:00 a.m."
+          ],
+          "korean": [
+            "미팅은 오전 9시에 시작할 거예요."
+          ]
+        },
+        {
+          "number": 3,
+          "section": "일정표",
+          "label": "종료 시간",
+          "english": [
+            "The seminar will finish at 5:00 p.m."
+          ],
+          "korean": [
+            "세미나는 오후 5시에 끝날 거예요."
+          ]
+        },
+        {
+          "number": 4,
+          "section": "일정표",
+          "label": "잘못된 정보 정정",
+          "english": [
+            "No, I'm afraid that you have the wrong information.",
+            "Actually, the registration and coffee session will start at 9:00 a.m."
+          ],
+          "korean": [
+            "아니요, 유감스럽지만 잘못 알고 계십니다.",
+            "사실은 등록 및 커피 타임은 오전 9시에 시작할 거예요."
+          ]
+        },
+        {
+          "number": 5,
+          "section": "일정표",
+          "label": "두 일정 설명",
+          "english": [
+            "There are two sessions.",
+            "First, at 1 p.m., there is a workshop on Social Media Marketing by Ray Kingston.",
+            "Next, at 2:30 p.m., there is a discussion on Appealing to Sports Fans through Marketing by Kevin Delmont."
+          ],
+          "korean": [
+            "두 개의 세션이 있어요.",
+            "먼저 오후 1시에는 레이 킹스턴의 소셜 미디어 마케팅에 관한 워크숍이 있어요.",
+            "다음으로 오후 2시 30분에는 마케팅을 통해 스포츠 팬들에게 어필하기에 대한 케빈 델몬트의 토론이 있어요."
+          ]
+        },
+        {
+          "number": 6,
+          "section": "개인 일정표",
+          "label": "출발",
+          "english": [
+            "You will depart from San Francisco at 10 a.m."
+          ],
+          "korean": [
+            "당신은 오전 10시에 샌프란시스코에서 출발할 거예요."
+          ]
+        },
+        {
+          "number": 7,
+          "section": "개인 일정표",
+          "label": "도착",
+          "english": [
+            "You will arrive in Los Angeles at 3 p.m."
+          ],
+          "korean": [
+            "당신은 오후 3시에 로스앤젤레스에 도착할 거예요."
+          ]
+        },
+        {
+          "number": 8,
+          "section": "개인 일정표",
+          "label": "항공편",
+          "english": [
+            "You will take Korean Air 105."
+          ],
+          "korean": [
+            "당신은 대한항공 105기를 탈 거예요."
+          ]
+        },
+        {
+          "number": 9,
+          "section": "개인 일정표",
+          "label": "숙박",
+          "english": [
+            "You will stay at Glen Hotel."
+          ],
+          "korean": [
+            "당신은 글렌 호텔에 머무를 거예요."
+          ]
+        },
+        {
+          "number": 10,
+          "section": "개인 일정표",
+          "label": "식사·미팅",
+          "english": [
+            "You will have lunch.",
+            "You will have dinner.",
+            "You will have a meeting."
+          ],
+          "korean": [
+            "당신은 점심 식사를 할 거예요.",
+            "당신은 저녁 식사를 할 거예요.",
+            "당신은 회의를 할 거예요."
+          ]
+        },
+        {
+          "number": 11,
+          "section": "개인 일정표",
+          "label": "연설·발표·강의",
+          "english": [
+            "You will give a speech.",
+            "You will give a presentation.",
+            "You will give a lecture."
+          ],
+          "korean": [
+            "당신은 연설을 할 거예요.",
+            "당신은 프레젠테이션을 할 거예요.",
+            "당신은 강의를 할 거예요."
+          ]
+        },
+        {
+          "number": 12,
+          "section": "개인 일정표",
+          "label": "취소",
+          "english": [
+            "There was supposed to be an interview, but it has been canceled."
+          ],
+          "korean": [
+            "인터뷰가 예정되어 있었으나 취소되었어요."
+          ]
+        },
+        {
+          "number": 13,
+          "section": "개인 일정표",
+          "label": "연기",
+          "english": [
+            "There was supposed to be a meeting, but it has been postponed."
+          ],
+          "korean": [
+            "미팅이 예정되어 있었으나 연기되었어요."
+          ]
+        },
+        {
+          "number": 14,
+          "section": "개인 일정표",
+          "label": "일정 변경",
+          "english": [
+            "There was supposed to be a meeting with Jane White at 2 p.m. on Tuesday, but it has been rescheduled to Friday."
+          ],
+          "korean": [
+            "화요일 오후 2시에 제인 화이트 씨와의 미팅이 예정되어 있었으나 금요일로 조정되었어요."
+          ]
+        },
+        {
+          "number": 15,
+          "section": "이력서",
+          "label": "학위",
+          "english": [
+            "She got a master's degree in Design from Vancouver Art University in 2010."
+          ],
+          "korean": [
+            "그녀는 2010년에 밴쿠버 예술대학교에서 디자인 전공으로 석사 학위를 취득했어요."
+          ]
+        },
+        {
+          "number": 16,
+          "section": "이력서",
+          "label": "과거 경력",
+          "english": [
+            "From 2015 to 2017, she worked at Jasper Fashion Magazine as a director."
+          ],
+          "korean": [
+            "2015년부터 2017년까지 그녀는 재스퍼 패션 잡지사에서 이사로 일했어요."
+          ]
+        },
+        {
+          "number": 17,
+          "section": "이력서",
+          "label": "현재 경력",
+          "english": [
+            "From 2017 up to now, she has worked at Toronto Fashion Magazine as a chief editor."
+          ],
+          "korean": [
+            "2017년부터 지금까지 그녀는 토론토 패션 잡지사에서 편집장으로 일하고 있어요."
+          ]
+        },
+        {
+          "number": 18,
+          "section": "이력서",
+          "label": "자격 판단",
+          "english": [
+            "I think she is qualified because ___."
+          ],
+          "korean": [
+            "저는 그녀가 자격을 갖췄다고 생각해요. 왜냐하면 ___이기 때문이에요."
+          ]
+        },
+        {
+          "number": 19,
+          "section": "이력서",
+          "label": "외국어",
+          "english": [
+            "He is fluent in Spanish."
+          ],
+          "korean": [
+            "그는 스페인어를 유창하게 구사해요."
+          ]
+        },
+        {
+          "number": 20,
+          "section": "이력서",
+          "label": "자격증",
+          "english": [
+            "She is certified in Pilates."
+          ],
+          "korean": [
+            "그녀는 필라테스 자격증이 있어요."
+          ]
+        },
+        {
+          "number": 21,
+          "section": "이력서",
+          "label": "분야 경험",
+          "english": [
+            "He has experience in education."
+          ],
+          "korean": [
+            "그는 교육 분야에 경험이 있어요."
+          ]
+        },
+        {
+          "number": 22,
+          "section": "면접 일정표",
+          "label": "면접 시간",
+          "english": [
+            "You will interview Jessica Anderson at 9:00 a.m."
+          ],
+          "korean": [
+            "당신은 제시카 앤더슨과 오전 9시에 면접을 볼 거예요."
+          ]
+        },
+        {
+          "number": 23,
+          "section": "면접 일정표",
+          "label": "지원자와 지원 직무",
+          "english": [
+            "There is an interview with John White from Eco Electronics who is applying for the marketing director position."
+          ],
+          "korean": [
+            "마케팅 부장직에 지원하는 에코전자의 존 화이트 씨와 면접이 있어요."
+          ]
+        },
+        {
+          "number": 24,
+          "section": "면접 일정표",
+          "label": "경력 연수",
+          "english": [
+            "She has 5 years of experience."
+          ],
+          "korean": [
+            "그녀는 5년의 경력이 있어요."
+          ]
+        },
+        {
+          "number": 25,
+          "section": "면접 일정표",
+          "label": "지원 직무",
+          "english": [
+            "He is applying for the editor position."
+          ],
+          "korean": [
+            "그는 편집자 직책에 지원하고 있어요."
+          ]
+        },
+        {
+          "number": 26,
+          "section": "수업 시간표",
+          "label": "수업료 지불",
+          "english": [
+            "You have to pay 20 dollars for the oil painting class."
+          ],
+          "korean": [
+            "오일 페인팅 수업으로 20달러를 지불하셔야 해요."
+          ]
+        },
+        {
+          "number": 27,
+          "section": "수업 시간표",
+          "label": "가격",
+          "english": [
+            "It's 20 dollars."
+          ],
+          "korean": [
+            "그것은 20달러예요."
+          ]
+        },
+        {
+          "number": 28,
+          "section": "수업 시간표",
+          "label": "등록 기한",
+          "english": [
+            "You should register by January 3rd."
+          ],
+          "korean": [
+            "1월 3일까지 등록하셔야 해요."
+          ]
+        },
+        {
+          "number": 29,
+          "section": "수업 시간표",
+          "label": "회원 가격",
+          "english": [
+            "If you are a member, it's 20 dollars."
+          ],
+          "korean": [
+            "당신이 회원이라면 20달러예요."
+          ]
+        },
+        {
+          "number": 30,
+          "section": "수업 시간표",
+          "label": "무료",
+          "english": [
+            "It's free."
+          ],
+          "korean": [
+            "그것은 무료예요."
+          ]
+        },
+        {
+          "number": 31,
+          "section": "수업 시간표",
+          "label": "회원 전용",
+          "english": [
+            "It's for members."
+          ],
+          "korean": [
+            "그것은 회원들을 위한 것이에요."
+          ]
+        },
+        {
+          "number": 32,
+          "section": "수업 시간표",
+          "label": "수업명",
+          "english": [
+            "There is a Cooking for Beginners class."
+          ],
+          "korean": [
+            "'초보자를 위한 요리' 수업이 있어요."
+          ]
+        },
+        {
+          "number": 33,
+          "section": "수업 시간표",
+          "label": "강사와 수업",
+          "english": [
+            "Sean Kim will teach the Painting class."
+          ],
+          "korean": [
+            "션 킴 강사가 '회화' 수업을 지도할 거예요."
+          ]
+        },
+        {
+          "number": 34,
+          "section": "수업 시간표",
+          "label": "수업 주제",
+          "english": [
+            "There is a class on French art history."
+          ],
+          "korean": [
+            "프랑스 예술사에 관한 수업이 있어요."
+          ]
+        },
+        {
+          "number": 35,
+          "section": "수업 시간표",
+          "label": "강사와 주제",
+          "english": [
+            "Jennifer Huston will teach a class on computer skills."
+          ],
+          "korean": [
+            "제니퍼 휴스턴 강사가 컴퓨터 기술에 관한 수업을 지도할 예정이에요."
           ]
         }
       ]
@@ -570,46 +1495,46 @@ window.TOEIC_SPEAKING_DATA = {
       "entries": [
         {
           "number": 1,
-          "section": "경험·교육",
+          "section": "다양한 경험",
           "label": "새로운 것 배우기",
           "english": [
             "They can learn new things."
           ],
           "korean": [
-            "그들은 새로운 것들을 배울 수 있다."
+            "그들은 새로운 것들을 배울 수 있어요."
           ]
         },
         {
           "number": 2,
-          "section": "경험·교육",
+          "section": "다양한 경험",
           "label": "인맥 넓히기",
           "english": [
             "They can meet new people and expand their network."
           ],
           "korean": [
-            "그들은 새로운 사람을 만나고 인맥을 넓힐 수 있다."
+            "그들은 새로운 사람들을 만나고 인맥을 넓힐 수 있어요."
           ]
         },
         {
           "number": 3,
-          "section": "경험·교육",
+          "section": "다양한 경험",
           "label": "견문 넓히기",
           "english": [
-            "They can have a lot of (new) experience and broaden their perspective."
+            "They can have a lot of new experiences and broaden their perspective."
           ],
           "korean": [
-            "그들은 많은 것을 경험하고 견문을 넓힐 수 있다."
+            "그들은 많은 것을 경험하고 견문을 넓힐 수 있어요."
           ]
         },
         {
           "number": 4,
-          "section": "경험·교육",
+          "section": "다양한 경험",
           "label": "성숙도 부족",
           "english": [
             "They can't make good decisions because they are not mature enough."
           ],
           "korean": [
-            "그들은 아직 충분히 성숙하지 못해서 좋은 결정을 내리지 못한다."
+            "그들은 아직 충분히 성숙하지 않아서 올바른 결정을 내릴 수 없어요."
           ]
         },
         {
@@ -620,18 +1545,18 @@ window.TOEIC_SPEAKING_DATA = {
             "They will be distracted."
           ],
           "korean": [
-            "그들은 집중하지 못하게 될 것이다."
+            "그들은 집중력이 분산될 거예요."
           ]
         },
         {
           "number": 6,
           "section": "집중",
-          "label": "학업·업무 집중",
+          "label": "공부·일에 집중",
           "english": [
             "They can't focus on their studies/work."
           ],
           "korean": [
-            "그들은 학업이나 업무에 집중할 수 없다."
+            "그들은 공부나 일에 집중할 수가 없어요."
           ]
         },
         {
@@ -642,7 +1567,7 @@ window.TOEIC_SPEAKING_DATA = {
             "They can't get good grades at school."
           ],
           "korean": [
-            "그들은 학교에서 좋은 성적을 받을 수 없다."
+            "그들은 학교에서 좋은 성적을 받을 수 없어요."
           ]
         },
         {
@@ -653,7 +1578,7 @@ window.TOEIC_SPEAKING_DATA = {
             "They will fall behind in class."
           ],
           "korean": [
-            "그들은 학업에서 뒤처질 것이다."
+            "그들은 학급에서 뒤처질 거예요."
           ]
         },
         {
@@ -664,546 +1589,650 @@ window.TOEIC_SPEAKING_DATA = {
             "They can't work efficiently."
           ],
           "korean": [
-            "그들은 효율적으로 일할 수 없다."
+            "그들은 효율적으로 일할 수 없어요."
           ]
         },
         {
           "number": 10,
-          "section": "돈·절약",
+          "section": "돈",
           "label": "돈 절약",
           "english": [
             "They can save money."
           ],
           "korean": [
-            "그들은 돈을 절약할 수 있다."
+            "그들은 돈을 절약할 수 있어요."
           ]
         },
         {
           "number": 11,
-          "section": "돈·절약",
+          "section": "돈",
           "label": "높은 생활비",
           "english": [
             "The cost of living is too high."
           ],
           "korean": [
-            "생활비가 너무 비싸다."
+            "생활비가 너무 비싸요."
           ]
         },
         {
           "number": 12,
-          "section": "돈·절약",
+          "section": "돈",
           "label": "생계의 어려움",
           "english": [
             "They can't make a living."
           ],
           "korean": [
-            "그들은 먹고살기가 힘들다."
+            "그들은 생계를 유지할 수 없어요."
           ]
         },
         {
           "number": 13,
-          "section": "돈·절약",
+          "section": "돈",
           "label": "높은 급여",
           "english": [
+            "I can get a high salary.",
             "I can get a higher salary."
           ],
           "korean": [
-            "나는 더 높은 급여를 받을 수 있다."
+            "저는 높은 급여를 받을 수 있어요.",
+            "저는 더 높은 급여를 받을 수 있어요."
           ]
         },
         {
           "number": 14,
-          "section": "돈·쓰임",
-          "label": "비싼 가격",
-          "english": [
-            "The cost of N is too expensive."
-          ],
-          "korean": [
-            "N의 가격이 너무 비싸다."
-          ]
-        },
-        {
-          "number": 15,
-          "section": "돈·쓰임",
-          "label": "돈 낭비",
-          "english": [
-            "It's a waste of money."
-          ],
-          "korean": [
-            "이것은 돈 낭비다."
-          ]
-        },
-        {
-          "number": 16,
-          "section": "돈·쓰임",
+          "section": "돈",
           "label": "좋은 투자",
           "english": [
             "That's a good investment because it makes lives better."
           ],
           "korean": [
-            "그것은 삶을 더 낫게 만들어 주는 좋은 투자다."
+            "그것은 삶을 더 낫게 만들어 주기 때문에 좋은 투자예요."
           ]
         },
         {
-          "number": 17,
+          "number": 15,
           "section": "혼자 vs 같이",
           "label": "더 나은 집중",
           "english": [
             "They can focus better."
           ],
           "korean": [
-            "그들은 더 잘 집중할 수 있다."
+            "그들은 더 잘 집중할 수 있어요."
           ]
         },
         {
-          "number": 18,
+          "number": 16,
           "section": "혼자 vs 같이",
           "label": "방해 없음",
           "english": [
             "They will not be distracted by others."
           ],
           "korean": [
-            "그들은 다른 사람들에게 방해받지 않을 것이다."
+            "그들은 다른 사람들 때문에 방해받지 않을 거예요."
           ]
         },
         {
-          "number": 19,
+          "number": 17,
           "section": "혼자 vs 같이",
           "label": "자기 일정",
           "english": [
             "They can set their own schedule."
           ],
           "korean": [
-            "그들은 자신의 일정을 정할 수 있다."
+            "그들은 그들만의 일정을 짤 수 있어요."
           ]
         },
         {
-          "number": 20,
+          "number": 18,
           "section": "혼자 vs 같이",
           "label": "더 많은 자유",
           "english": [
             "They can have more freedom."
           ],
           "korean": [
-            "그들은 더 자유로울 수 있다."
+            "그들은 더 많은 자유를 가질 수 있어요."
           ]
         },
         {
-          "number": 21,
-          "section": "혼자 vs 같이",
-          "label": "편안함",
-          "english": [
-            "They feel more comfortable."
-          ],
-          "korean": [
-            "그들은 더 편안함을 느낀다."
-          ]
-        },
-        {
-          "number": 22,
-          "section": "혼자 vs 같이",
-          "label": "재미",
-          "english": [
-            "It's fun and entertaining."
-          ],
-          "korean": [
-            "이것은 재미있고 즐거움을 준다."
-          ]
-        },
-        {
-          "number": 23,
+          "number": 19,
           "section": "혼자 vs 같이",
           "label": "정보 공유",
           "english": [
             "They can get information and share it with other people."
           ],
           "korean": [
-            "그들은 정보를 얻고 다른 사람들과 공유할 수 있다."
+            "그들은 정보를 얻고 그것을 다른 사람들과 공유할 수 있어요."
           ]
         },
         {
-          "number": 24,
+          "number": 20,
           "section": "혼자 vs 같이",
           "label": "가족 같은 느낌",
           "english": [
             "It feels more like a family."
           ],
           "korean": [
-            "더 가족처럼 느껴진다."
+            "그것은 더 가족처럼 느껴져요."
+          ]
+        },
+        {
+          "number": 21,
+          "section": "기술",
+          "label": "유용한·최신 정보",
+          "english": [
+            "They can get a lot of useful information on the Internet.",
+            "They can get the latest information on the Internet."
+          ],
+          "korean": [
+            "그들은 인터넷에서 많은 유용한 정보를 얻을 수 있어요.",
+            "그들은 인터넷에서 최신 정보를 얻을 수 있어요."
+          ]
+        },
+        {
+          "number": 22,
+          "section": "기술",
+          "label": "속도와 편의",
+          "english": [
+            "It's faster and more convenient."
+          ],
+          "korean": [
+            "그것은 더 빠르고 더 편리해요."
+          ]
+        },
+        {
+          "number": 23,
+          "section": "기술",
+          "label": "부정확한 정보",
+          "english": [
+            "There is a lot of inaccurate information on the Internet, so it's not reliable."
+          ],
+          "korean": [
+            "인터넷에는 많은 부정확한 정보가 있어서 믿을 만하지 않아요."
+          ]
+        },
+        {
+          "number": 24,
+          "section": "기술",
+          "label": "학생 집중 분산",
+          "english": [
+            "It is very distracting for students, so students can't focus on their studies/work."
+          ],
+          "korean": [
+            "그것은 학생들의 집중을 분산시켜서 학생들은 공부나 일에 집중할 수 없어요."
           ]
         },
         {
           "number": 25,
-          "section": "기술·장점",
-          "label": "유용한 최신 정보",
-          "english": [
-            "They can get a lot of useful information/latest information on the Internet."
-          ],
-          "korean": [
-            "그들은 인터넷에서 많은 유용한 정보나 최신 정보를 얻을 수 있다."
-          ]
-        },
-        {
-          "number": 26,
-          "section": "기술·장점",
-          "label": "언제 어디서나",
-          "english": [
-            "They can [verb] anytime anywhere on their smartphones."
-          ],
-          "korean": [
-            "그들은 언제 어디서나 스마트폰으로 [동사]할 수 있다."
-          ]
-        },
-        {
-          "number": 27,
-          "section": "기술·장점",
-          "label": "속도와 편의",
-          "english": [
-            "It's faster and convenient."
-          ],
-          "korean": [
-            "이것은 더 빠르고 편리하다."
-          ]
-        },
-        {
-          "number": 28,
-          "section": "기술·단점",
-          "label": "부정확한 정보",
-          "english": [
-            "There is a lot of inaccurate information on the Internet so it's not reliable."
-          ],
-          "korean": [
-            "인터넷에는 부정확한 정보가 많아서 믿을 만하지 않다."
-          ]
-        },
-        {
-          "number": 29,
-          "section": "기술·단점",
-          "label": "학생 집중 분산",
-          "english": [
-            "It is very distracting for students so they can't focus on their studies/work."
-          ],
-          "korean": [
-            "이것은 학생들의 집중을 크게 방해해서 학업이나 업무에 집중하지 못하게 한다."
-          ]
-        },
-        {
-          "number": 30,
-          "section": "기술·단점",
-          "label": "돈 낭비",
-          "english": [
-            "It's a waste of money."
-          ],
-          "korean": [
-            "이것은 돈 낭비다."
-          ]
-        },
-        {
-          "number": 31,
-          "section": "기술·단점",
-          "label": "너무 비쌈",
-          "english": [
-            "It's too expensive."
-          ],
-          "korean": [
-            "이것은 너무 비싸다."
-          ]
-        },
-        {
-          "number": 32,
-          "section": "아날로그·장점",
+          "section": "기술",
           "label": "즉각적인 답변",
           "english": [
             "I can get responses right away."
           ],
           "korean": [
-            "나는 즉각적인 답변을 받을 수 있다."
+            "저는 즉시 답변을 받을 수 있어요."
           ]
         },
         {
-          "number": 33,
-          "section": "아날로그·장점",
+          "number": 26,
+          "section": "기술",
           "label": "감정 이해",
           "english": [
-            "I can understand the feeling of the speaker more accurately."
+            "I can understand the speaker's feeling more accurately."
           ],
           "korean": [
-            "나는 화자의 감정을 더 정확하게 이해할 수 있다."
+            "저는 화자의 감정을 더 정확하게 이해할 수 있어요."
           ]
         },
         {
-          "number": 34,
-          "section": "사회성",
-          "label": "좋은 업무 분위기",
+          "number": 27,
+          "section": "성격과 능력",
+          "label": "친근한 분위기",
           "english": [
-            "They can make a friendly (work) atmosphere."
+            "They can create a friendly atmosphere.",
+            "They can create a friendly work atmosphere."
           ],
           "korean": [
-            "그들은 좋은 업무 분위기를 만들 수 있다."
+            "그들은 친근한 분위기를 만들 수 있어요.",
+            "그들은 친근한 업무 분위기를 만들 수 있어요."
           ]
         },
         {
-          "number": 35,
-          "section": "사회성",
+          "number": 28,
+          "section": "성격과 능력",
           "label": "더 나은 소통",
           "english": [
             "They can communicate with others better."
           ],
           "korean": [
-            "그들은 다른 사람들과 더 잘 소통할 수 있다."
+            "그들은 다른 사람들과 더 잘 소통할 수 있어요."
           ]
         },
         {
-          "number": 36,
-          "section": "사회성",
+          "number": 29,
+          "section": "성격과 능력",
           "label": "팀워크와 관계",
           "english": [
             "They can be good team players and make good relationships with others."
           ],
           "korean": [
-            "그들은 좋은 팀원이 되고 다른 사람들과 좋은 관계를 맺을 수 있다."
+            "그들은 훌륭한 팀원이 될 수 있고 다른 사람들과 좋은 관계를 맺을 수 있어요."
           ]
         },
         {
-          "number": 37,
-          "section": "성품·성격",
+          "number": 30,
+          "section": "성격과 능력",
           "label": "좋은 평판",
           "english": [
             "They can have a good reputation."
           ],
           "korean": [
-            "그들은 좋은 평판을 얻을 수 있다."
+            "그들은 좋은 평판을 받을 수 있어요."
           ]
         },
         {
-          "number": 38,
-          "section": "성품·성격",
+          "number": 31,
+          "section": "성격과 능력",
           "label": "영향력",
           "english": [
             "They can be very influential."
           ],
           "korean": [
-            "그들은 매우 영향력 있을 수 있다."
+            "그들은 매우 영향력이 있을 수 있어요."
           ]
         },
         {
-          "number": 39,
-          "section": "성품·성격",
+          "number": 32,
+          "section": "성격과 능력",
           "label": "동기 부여",
           "english": [
             "They can motivate others."
           ],
           "korean": [
-            "그들은 다른 사람들에게 동기를 부여할 수 있다."
+            "그들은 다른 사람들을 동기 부여할 수 있어요."
           ]
         },
         {
-          "number": 40,
-          "section": "지식·능력·재능",
+          "number": 33,
+          "section": "성격과 능력",
           "label": "변화와 경쟁",
           "english": [
             "Everything is always changing and there is a lot of competition."
           ],
           "korean": [
-            "모든 것이 계속 변하고 경쟁이 치열하다."
+            "모든 것이 항상 변화하고 경쟁이 치열해요."
           ]
         },
         {
-          "number": 41,
-          "section": "지식·능력·재능",
+          "number": 34,
+          "section": "성격과 능력",
           "label": "도전과 어려움",
           "english": [
             "They face a lot of challenges and difficulties."
           ],
           "korean": [
-            "그들은 많은 도전과 어려움에 직면한다."
+            "그들은 많은 도전과 어려움에 직면해요."
           ]
         },
         {
-          "number": 42,
-          "section": "지식·능력·재능",
-          "label": "창의적 대처",
+          "number": 35,
+          "section": "성격과 능력",
+          "label": "자신감으로 대처",
           "english": [
-            "He is able to handle a variety of situations due to his creativity."
+            "He is able to handle a variety of situations due to his confidence."
           ],
           "korean": [
-            "그는 창의력 덕분에 다양한 상황을 잘 처리할 수 있다."
+            "그는 자신감 덕분에 다양한 상황을 처리할 수 있어요."
           ]
         },
         {
-          "number": 43,
-          "section": "조언 구하기",
-          "label": "경험과 지식",
+          "number": 36,
+          "section": "성격과 능력",
+          "label": "경험·지식",
           "english": [
-            "They have a lot of experience/knowledge."
+            "They have a lot of experience.",
+            "They have a lot of knowledge."
           ],
           "korean": [
-            "그들은 많은 경험과 지식을 가지고 있다."
+            "그들은 많은 경험을 가지고 있어요.",
+            "그들은 많은 지식을 가지고 있어요."
           ]
         },
         {
-          "number": 44,
-          "section": "업무환경",
+          "number": 37,
+          "section": "업무 환경과 기업 성공",
           "label": "효율과 생산성",
           "english": [
             "Employees can work more efficiently and productively."
           ],
           "korean": [
-            "직원들은 더 효율적이고 생산적으로 일할 수 있다."
+            "직원들은 더 효율적이고 더 생산적으로 일할 수 있어요."
           ]
         },
         {
-          "number": 45,
-          "section": "업무환경",
+          "number": 38,
+          "section": "업무 환경과 기업 성공",
           "label": "직장 만족",
           "english": [
             "Employees can be more satisfied with their jobs."
           ],
           "korean": [
-            "직원들은 자신의 직장에 더 만족할 수 있다."
+            "직원들은 그들의 직업에 더 만족할 수 있어요."
           ]
         },
         {
-          "number": 46,
-          "section": "업무환경",
-          "label": "더 나은 환경",
+          "number": 39,
+          "section": "업무 환경과 기업 성공",
+          "label": "더 나은 업무 환경",
           "english": [
             "It can make a better work environment."
           ],
           "korean": [
-            "이것은 더 나은 업무 환경을 만들 수 있다."
+            "그것은 더 나은 업무 환경을 만들 수 있어요."
           ]
         },
         {
-          "number": 47,
-          "section": "업무환경",
+          "number": 40,
+          "section": "업무 환경과 기업 성공",
           "label": "전문성 부족",
           "english": [
             "They might appear less professional."
           ],
           "korean": [
-            "그들은 덜 전문적으로 보일 수 있다."
+            "그들은 덜 전문적으로 보일 수 있어요."
           ]
         },
         {
-          "number": 48,
-          "section": "기업 성공",
+          "number": 41,
+          "section": "업무 환경과 기업 성공",
           "label": "고객 만족과 충성",
           "english": [
             "Customers will feel satisfied and remain loyal."
           ],
           "korean": [
-            "고객들은 만족하고 계속 충성 고객으로 남을 것이다."
+            "고객들은 만족감을 느낄 것이고 계속 충성할 거예요."
           ]
         },
         {
-          "number": 49,
-          "section": "기업 성공",
+          "number": 42,
+          "section": "업무 환경과 기업 성공",
           "label": "고객 유치",
           "english": [
             "It will attract more customers."
           ],
           "korean": [
-            "이것은 더 많은 고객을 끌어들일 것이다."
+            "그것은 더 많은 고객을 유치할 거예요."
           ]
         },
         {
-          "number": 50,
-          "section": "기업 성공",
+          "number": 43,
+          "section": "업무 환경과 기업 성공",
           "label": "사업 성공",
           "english": [
             "The business will be more successful."
           ],
           "korean": [
-            "그 기업은 더 성공할 것이다."
+            "그 사업은 더 성공할 거예요."
           ]
         },
         {
-          "number": 51,
-          "section": "효과적인 광고",
-          "label": "자주 이용하는 매체",
+          "number": 44,
+          "section": "업무 환경과 기업 성공",
+          "label": "효과적인 소셜 미디어",
           "english": [
-            "People frequently use N so it will be very effective."
+            "People frequently use social media, so it will be very effective."
           ],
           "korean": [
-            "사람들이 N을 자주 이용하므로 매우 효과적일 것이다."
+            "사람들은 소셜 미디어를 자주 이용해서 그것은 매우 효과적일 거예요."
           ]
         },
         {
-          "number": 52,
-          "section": "스트레스·건강",
+          "number": 45,
+          "section": "스트레스와 건강",
           "label": "스트레스 완화",
           "english": [
             "It relieves their stress and they can relax."
           ],
           "korean": [
-            "이것은 그들의 스트레스를 풀어 주고 쉴 수 있게 한다."
+            "그것은 그들의 스트레스를 풀어 주고 그들은 편히 쉴 수 있어요."
           ]
         },
         {
-          "number": 53,
-          "section": "스트레스·건강",
+          "number": 46,
+          "section": "스트레스와 건강",
           "label": "건강에 좋음",
           "english": [
-            "It is good for their (physical/mental) health."
+            "It is good for their physical health.",
+            "It is good for their mental health."
           ],
           "korean": [
-            "이것은 그들의 신체적 또는 정신적 건강에 좋다."
+            "그것은 그들의 신체적 건강에 좋아요.",
+            "그것은 그들의 정신적 건강에 좋아요."
           ]
         },
         {
-          "number": 54,
-          "section": "스트레스·건강",
+          "number": 47,
+          "section": "스트레스와 건강",
           "label": "건강에 나쁨",
           "english": [
             "It is not good for their health."
           ],
           "korean": [
-            "이것은 그들의 건강에 좋지 않다."
+            "그것은 그들의 건강에 좋지 않아요."
           ]
         },
         {
-          "number": 55,
+          "number": 48,
+          "section": "스트레스와 건강",
+          "label": "건강한 습관",
+          "english": [
+            "It can develop healthy habits."
+          ],
+          "korean": [
+            "그것은 건강한 습관들을 기를 수 있어요."
+          ]
+        },
+        {
+          "number": 49,
+          "section": "스트레스와 건강",
+          "label": "건강하지 않은 습관",
+          "english": [
+            "It can develop unhealthy habits."
+          ],
+          "korean": [
+            "그것은 건강하지 않은 습관들을 기를 수 있어요."
+          ]
+        },
+        {
+          "number": 50,
           "section": "환경",
           "label": "환경에 좋음",
           "english": [
             "It is good for the environment."
           ],
           "korean": [
-            "이것은 환경에 좋다."
+            "그것은 환경에 좋아요."
           ]
         },
         {
-          "number": 56,
+          "number": 51,
           "section": "환경",
           "label": "심각한 오염",
           "english": [
             "Pollution is a serious issue these days."
           ],
           "korean": [
-            "환경 오염은 요즘 매우 심각한 문제다."
+            "환경 오염은 요즘 심각한 문제예요."
           ]
         },
         {
-          "number": 57,
+          "number": 52,
           "section": "환경",
           "label": "깨끗한 환경",
           "english": [
             "It can make a cleaner environment."
           ],
           "korean": [
-            "이것은 더 깨끗한 환경을 만들 수 있다."
+            "그것은 더 깨끗한 환경을 만들 수 있어요."
           ]
         },
         {
-          "number": 58,
+          "number": 53,
           "section": "환경",
           "label": "환경 보호",
           "english": [
             "We will be able to protect the environment."
           ],
           "korean": [
-            "우리는 환경을 보호할 수 있을 것이다."
+            "우리는 환경을 보호할 수 있을 거예요."
+          ]
+        },
+        {
+          "number": 54,
+          "section": "과거 vs 현재",
+          "label": "정보 검색 비교 답변",
+          "english": [
+            "Most of all, people can find answers very quickly on the Internet.",
+            "So, they can save time and get the information right away.",
+            "However, in the past, people had to go to the library and look through books.",
+            "So, it took a long time to find what they were looking for."
+          ],
+          "korean": [
+            "무엇보다도 사람들은 인터넷에서 아주 빠르게 답을 찾을 수 있어요.",
+            "그래서 시간을 절약할 수 있고 정보를 바로 얻을 수 있어요.",
+            "하지만 예전에는 사람들이 도서관에 가서 책을 뒤져야 했어요.",
+            "그래서 원하는 것을 찾는 데 시간이 오래 걸렸어요."
+          ]
+        },
+        {
+          "number": 55,
+          "section": "과거 vs 현재",
+          "label": "예전의 교실 수업",
+          "english": [
+            "Previously, students had to go to a classroom to study."
+          ],
+          "korean": [
+            "예전에는 학생들이 공부를 하기 위해 교실에 가야만 했어요."
+          ]
+        },
+        {
+          "number": 56,
+          "section": "과거 vs 현재",
+          "label": "요즘의 온라인 수업",
+          "english": [
+            "But these days, they can study online without going anywhere."
+          ],
+          "korean": [
+            "하지만 요즘은 어디 가지 않아도 온라인으로 공부할 수 있어요."
+          ]
+        },
+        {
+          "number": 57,
+          "section": "과거 vs 현재",
+          "label": "택시 이용 비교",
+          "english": [
+            "People used to wait for a taxi, but now they use mobile apps to call a taxi."
+          ],
+          "korean": [
+            "사람들이 예전에는 택시를 기다리곤 했지만 지금은 택시를 부르기 위해 모바일 애플리케이션을 사용해요."
+          ]
+        },
+        {
+          "number": 58,
+          "section": "과거 vs 현재",
+          "label": "온라인 정보 비교",
+          "english": [
+            "Compared to the past, people can get information more easily and quickly online."
+          ],
+          "korean": [
+            "과거와 비교하면 사람들은 온라인에서 정보를 더욱 쉽고 빠르게 얻을 수 있어요."
+          ]
+        },
+        {
+          "number": 59,
+          "section": "과거 vs 현재",
+          "label": "기술과 재택근무",
+          "english": [
+            "Thanks to technology, many workers can work from home and save time."
+          ],
+          "korean": [
+            "기술 덕분에 많은 직장인들이 재택근무를 하고 시간을 절약할 수 있어요."
+          ]
+        },
+        {
+          "number": 60,
+          "section": "보조 문장",
+          "label": "N의 비싼 가격",
+          "english": [
+            "The cost of N is too expensive."
+          ],
+          "korean": [
+            "N의 가격이 너무 비싸요."
+          ]
+        },
+        {
+          "number": 61,
+          "section": "보조 문장",
+          "label": "돈 낭비",
+          "english": [
+            "It's a waste of money."
+          ],
+          "korean": [
+            "그것은 돈 낭비예요."
+          ]
+        },
+        {
+          "number": 62,
+          "section": "보조 문장",
+          "label": "편안함",
+          "english": [
+            "They feel more comfortable."
+          ],
+          "korean": [
+            "그들은 더 편안함을 느껴요."
+          ]
+        },
+        {
+          "number": 63,
+          "section": "보조 문장",
+          "label": "재미",
+          "english": [
+            "It's fun and entertaining."
+          ],
+          "korean": [
+            "그것은 재미있고 즐거움을 줘요."
+          ]
+        },
+        {
+          "number": 64,
+          "section": "보조 문장",
+          "label": "언제 어디서나",
+          "english": [
+            "They can [verb] anytime anywhere on their smartphones."
+          ],
+          "korean": [
+            "그들은 언제 어디서나 스마트폰으로 [동사]할 수 있어요."
+          ]
+        },
+        {
+          "number": 65,
+          "section": "보조 문장",
+          "label": "너무 비쌈",
+          "english": [
+            "It's too expensive."
+          ],
+          "korean": [
+            "그것은 너무 비싸요."
+          ]
+        },
+        {
+          "number": 66,
+          "section": "보조 문장",
+          "label": "창의력으로 대처",
+          "english": [
+            "He is able to handle a variety of situations due to his creativity."
+          ],
+          "korean": [
+            "그는 창의력 덕분에 다양한 상황을 잘 처리할 수 있어요."
           ]
         }
       ],
@@ -1348,10 +2377,10 @@ window.TOEIC_SPEAKING_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-09-02T00:17:12.274Z",
+  "generatedAt": "2026-09-02T02:42:12.847Z",
   "stats": {
-    "parts": 2,
-    "entries": 108,
-    "englishLines": 110
+    "parts": 4,
+    "entries": 197,
+    "englishLines": 217
   }
 };

@@ -1,6 +1,6 @@
 window.OPIC_STUDY_DATA = {
   "owner": "민석",
-  "generatedAt": "2026-09-02T00:17:12.369Z",
+  "generatedAt": "2026-09-02T02:42:12.947Z",
   "sourceDirectory": "../output/audio/민석/영어script",
   "files": [
     {

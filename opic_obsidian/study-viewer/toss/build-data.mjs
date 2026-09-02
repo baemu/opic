@@ -9,8 +9,10 @@ const outputFile = path.join(__dirname, "data.js");
 const data = JSON.parse(fs.readFileSync(sourceFile, "utf8"));
 
 const expectedCounts = new Map([
+  ["part2", 46],
   ["part3", 50],
-  ["part5", 58],
+  ["part4", 35],
+  ["part5", 66],
 ]);
 
 if (!Array.isArray(data.parts) || data.parts.length !== expectedCounts.size) {

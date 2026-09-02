@@ -802,18 +802,33 @@ button:disabled {
   }
 
   .study-nav {
-    overflow-x: auto;
-    justify-content: flex-start;
-    scrollbar-width: none;
-  }
-
-  .study-nav::-webkit-scrollbar {
-    display: none;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 5px;
+    overflow: visible;
   }
 
   .part-tabs,
   .view-tabs {
-    flex: 0 0 auto;
+    display: grid;
+    width: 100%;
+  }
+
+  .part-tabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .view-tabs {
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+  }
+
+  .part-tabs button,
+  .view-tabs button {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    gap: 5px;
   }
 
   .reference-grid {
@@ -869,7 +884,7 @@ button:disabled {
   }
 
   .part-tabs button {
-    min-width: 92px;
+    min-width: 0;
   }
 
   .filter-bar {

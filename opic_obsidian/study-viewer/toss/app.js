@@ -47,7 +47,9 @@
   const saved = readJson(storageKey);
   const opicSettings = readJson(opicStorageKey);
   const state = {
-    partId: data?.parts?.some((part) => part.id === saved.partId) ? saved.partId : "part3",
+    partId: data?.parts?.some((part) => part.id === saved.partId)
+      ? saved.partId
+      : data?.parts?.[0]?.id || "part2",
     view: ["list", "memorize", "reference"].includes(saved.view) ? saved.view : "list",
     section: "all",
     query: "",
@@ -67,7 +69,7 @@
   let toastTimer = null;
 
   function init() {
-    if (!data || !Array.isArray(data.parts) || data.parts.length !== 2) {
+    if (!data || !Array.isArray(data.parts) || data.parts.length !== 4) {
       document.body.innerHTML =
         '<main class="load-error"><h1>토익스피킹 데이터를 찾을 수 없습니다.</h1><p>toss/build-data.mjs를 다시 실행해 주세요.</p></main>';
       return;
@@ -201,7 +203,7 @@
 
   function render() {
     const part = getCurrentPart();
-    elements.appStats.textContent = `${data.stats.entries}개 문장 · Part 3·5`;
+    elements.appStats.textContent = `${data.stats.entries}개 카드 · Part 2·3·4·5`;
     elements.partTabs.innerHTML = data.parts
       .map(
         (item) => `
