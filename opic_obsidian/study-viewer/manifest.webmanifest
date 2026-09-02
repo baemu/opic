@@ -1,7 +1,7 @@
 {
-  "name": "OPIc Practice",
-  "short_name": "OPIc",
-  "description": "OPIc 문제와 답변을 듣고 반복해서 공부하는 오프라인 학습 앱",
+  "name": "Speaking Practice",
+  "short_name": "Speaking",
+  "description": "OPIc과 TOEIC Speaking 문장을 듣고 반복해서 공부하는 오프라인 학습 앱",
   "id": "./compact.html",
   "start_url": "./compact.html",
   "scope": "./",

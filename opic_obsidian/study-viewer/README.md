@@ -2,6 +2,8 @@
 
 `output/scripts`의 Markdown 파일을 읽어서 영어 문제와 답변을 클릭 재생용 화면으로 보여줍니다.
 
+메인 화면의 `오픽 | 토스` 탭으로 시험을 전환합니다. 토스 화면은 `toss/source.json`에 정리한 Part 3·Part 5 만능문장을 사용하며, 전체 문장 보기·암기 카드·문장 TTS·한국어 번역 숨기기를 제공합니다.
+
 ## 포함 규칙
 
 `build-data.mjs`는 `output/scripts`에서 아래 형식의 파일을 자동으로 포함합니다.
@@ -57,4 +59,10 @@ Markdown 파일을 수정한 뒤 로컬 화면만 확인할 때는 `OPIc-study.b
 - `surprise-styles.css`: 돌발 화면 디자인
 - `manifest.webmanifest`: 홈 화면 앱 설정
 - `service-worker.js`: 오프라인 실행 및 온라인 업데이트
+- `toss/source.json`: 토익스피킹 Part 3·5 원본 학습 데이터
+- `toss/build-data.mjs`: 토익스피킹 데이터 검증 및 변환
+- `toss/data.js`: 변환된 토익스피킹 데이터
+- `toss/index.html`: 토익스피킹 학습 화면
+- `toss/app.js`: 검색, 암기 카드 및 음성 기능
+- `toss/styles.css`: 토익스피킹 화면 디자인
 - `DESIGN-claude.md`: 디자인 원본 문서

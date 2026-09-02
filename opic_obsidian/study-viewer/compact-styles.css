@@ -111,6 +111,52 @@ button:disabled {
   white-space: nowrap;
 }
 
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.exam-switch {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  align-items: center;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--panel-subtle);
+}
+
+.exam-switch a {
+  display: inline-grid;
+  min-width: 48px;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  place-items: center;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.exam-switch a:hover {
+  color: var(--text);
+}
+
+.exam-switch a.is-active {
+  border-color: var(--accent);
+  background: var(--panel);
+  color: var(--accent-dark);
+}
+
 .brand p {
   margin: 0;
   padding-left: 10px;
@@ -2382,6 +2428,17 @@ select:focus-visible {
 }
 
 @media (max-width: 600px) {
+  .brand p {
+    display: none;
+  }
+
+  .exam-switch a {
+    min-width: 42px;
+    min-height: 26px;
+    padding: 0 7px;
+    font-size: 11px;
+  }
+
   .header-actions {
     gap: 4px;
   }

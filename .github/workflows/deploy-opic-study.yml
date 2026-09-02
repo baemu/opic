@@ -34,11 +34,13 @@ jobs:
 
       - name: Build study data
         working-directory: opic_obsidian/study-viewer
-        run: node build-data.mjs
+        run: |
+          node build-data.mjs
+          node toss/build-data.mjs
 
       - name: Prepare static site
         run: |
-          mkdir -p _site/icons _site/minseok/icons
+          mkdir -p _site/icons _site/minseok/icons _site/toss
           cp opic_obsidian/study-viewer/index.html _site/index.html
           cp opic_obsidian/study-viewer/compact.html _site/compact.html
           cp opic_obsidian/study-viewer/compact-app.js _site/compact-app.js
@@ -54,6 +56,10 @@ jobs:
           cp opic_obsidian/study-viewer/manifest.webmanifest _site/manifest.webmanifest
           cp opic_obsidian/study-viewer/service-worker.js _site/service-worker.js
           cp opic_obsidian/study-viewer/icons/*.png _site/icons/
+          cp opic_obsidian/study-viewer/toss/index.html _site/toss/index.html
+          cp opic_obsidian/study-viewer/toss/app.js _site/toss/app.js
+          cp opic_obsidian/study-viewer/toss/styles.css _site/toss/styles.css
+          cp opic_obsidian/study-viewer/toss/data.js _site/toss/data.js
           cp opic_obsidian/study-viewer-minseok/index.html _site/minseok/index.html
           cp opic_obsidian/study-viewer-minseok/compact.html _site/minseok/compact.html
           cp opic_obsidian/study-viewer-minseok/compact-app.js _site/minseok/compact-app.js

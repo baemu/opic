@@ -4,6 +4,7 @@ setlocal
 set "VIEWER_DIR=%~dp0"
 set "OBSIDIAN_DIR=%VIEWER_DIR%.."
 set "MINSEOK_DIR=%OBSIDIAN_DIR%\study-viewer-minseok"
+set "TOSS_DIR=%VIEWER_DIR%toss"
 
 where node.exe >nul 2>&1
 if errorlevel 1 (
@@ -16,6 +17,12 @@ if errorlevel 1 (
 echo Updating OPIc study data...
 call :build "%VIEWER_DIR%"
 if errorlevel 1 goto :failed
+
+if exist "%TOSS_DIR%\build-data.mjs" (
+  echo Updating TOEIC Speaking study data...
+  call :build "%TOSS_DIR%"
+  if errorlevel 1 goto :failed
+)
 
 if exist "%MINSEOK_DIR%\build-data.mjs" (
   echo Updating Minseok study data...
