@@ -3259,9 +3259,9 @@ window.TOEIC_SPEAKING_DATA = {
         "id": "ih-review",
         "tab": "IH 후기 전략",
         "target": "IH",
-        "title": "IH 시험 전략",
-        "summary": "짧고 확실한 문장으로 정해 둔 답변 흐름을 끝까지 수행한다.",
-        "disclaimer": "공식 시간과 문항 형식은 IIBC 안내를 기준으로 했으며, 공부법은 개인 후기를 IH 연습용으로 재구성했습니다. 메모는 시험장에서 감독 안내로 허용된 공간과 시간 안에서만 사용하세요.",
+        "title": "1트 무과금 IH 후기 전략",
+        "summary": "빈 시간을 노트테이킹에 쓰고, 문항마다 말할 문장 수와 이유·근거 조합을 미리 정한다.",
+        "disclaimer": "공식 시간과 문항 형식은 IIBC 안내를 기준으로 표시했습니다. 나머지는 링크된 원글 작성자가 2주 공부 후 첫 시험에서 IH를 받은 개인 전략을 요약한 것이며, 공식 채점 기준이 아닙니다. 메모는 시험장에서 감독 안내로 허용된 공간과 시간 안에서만 사용하세요.",
         "sources": [
           {
             "label": "공식 시험 형식 · IIBC",
@@ -3269,7 +3269,7 @@ window.TOEIC_SPEAKING_DATA = {
             "kind": "official"
           },
           {
-            "label": "IH 공부 후기 · 커뮤니티",
+            "label": "원문 · 1트 무과금 IH 후기 (2주 공부법)",
             "url": "https://gall.dcinside.com/mgallery/board/view/?id=toeicspeaking&no=42110",
             "kind": "community"
           }
@@ -3278,25 +3278,25 @@ window.TOEIC_SPEAKING_DATA = {
           {
             "id": "overview",
             "tab": "전체 흐름",
-            "kicker": "IH RUNBOOK",
-            "title": "문장 수를 먼저 정하고, 쉬운 영어로 끝까지",
-            "lead": "IH 연습에서는 어려운 표현을 늘리기보다 파트별 답변 순서와 문장 수를 고정해 머뭇거림을 줄이는 것이 핵심입니다.",
+            "kicker": "COMMUNITY REVIEW · FIRST-TRY IH",
+            "title": "빈 시간 노트테이킹과 고정 문장 수",
+            "lead": "원글의 핵심은 시험 중 활용할 수 있는 짧은 시간에 다음 파트의 틀을 적고, 답변마다 말할 문장 수를 미리 정해 불필요한 즉흥 문장을 줄이는 것입니다.",
             "facts": [
               {
-                "label": "전체",
-                "value": "11문항"
+                "label": "작성자 결과",
+                "value": "첫 시험 IH"
               },
               {
-                "label": "시험 시간",
-                "value": "약 20분"
+                "label": "공부 기간",
+                "value": "2주"
               },
               {
-                "label": "목표",
-                "value": "IH"
+                "label": "영어 배경",
+                "value": "TOEIC 810"
               },
               {
-                "label": "핵심",
-                "value": "짧고 완결된 답변"
+                "label": "핵심 전략",
+                "value": "노트 + 문장 수 고정"
               }
             ],
             "timings": [
@@ -3345,61 +3345,67 @@ window.TOEIC_SPEAKING_DATA = {
             ],
             "checklists": [
               {
-                "title": "시험 전체 운영",
+                "title": "원글의 시간대별 노트테이킹",
                 "items": [
-                  "각 파트에 들어가기 전에 사용할 답변 순서와 목표 문장 수를 떠올린다.",
-                  "긴 문장 하나보다 짧고 정확한 문장 두 개를 선택한다.",
-                  "생각이 나지 않으면 새로운 내용을 만들지 말고 준비한 이유와 근거를 연결한다.",
-                  "한 문장을 포기하더라도 멈추지 않고 결론까지 말한다."
+                  "Part 1 안내 방송 동안 Part 2 사진 묘사 틀을 적기 시작한다.",
+                  "Q1·2 준비와 답변은 정석대로 하고, 답변 후 남는 약 10~15초에 Part 2 틀을 마무리한다.",
+                  "Part 2 안내 방송 동안 Q7·Q11에 쓸 형용사 키워드를 적는다.",
+                  "Part 3부터는 준비한 키워드와 고정한 문장 수에 맞춰 답한다."
                 ]
               },
               {
-                "title": "메모 사용 원칙",
+                "title": "원글에서 정한 답변 분량",
                 "items": [
-                  "메모가 허용된 경우에만 문장 전체가 아닌 위치·시간·이유 키워드를 적는다.",
-                  "시험장의 감독 안내가 개인 후기의 방법보다 항상 우선한다."
+                  "Q3·4 사람 사진은 5문장, 사람이 없는 사진은 4문장을 기준으로 한다.",
+                  "Q5·6은 에코잉을 활용한 2문장으로 답한다.",
+                  "Q7은 에코잉 → 이유 → 근거 → 결론의 약 4문장으로 답한다.",
+                  "Q11은 에코잉 → 이유 1·근거 1 → 이유 2·근거 2 → 경험의 약 8문장으로 답한다."
+                ]
+              },
+              {
+                "title": "원글의 메모 배치",
+                "items": [
+                  "원글 작성자는 OMR 뒷면 왼쪽에 Q3·4용 사진 묘사 틀을 두 개 적었습니다.",
+                  "오른쪽에는 Q7·Q11에 연결할 형용사 키워드를 짧게 적었습니다.",
+                  "이 배치는 실제 시험에서 해당 공간의 필기가 허용된 경우에만 참고합니다."
                 ]
               }
             ],
-            "flowTitle": "파트별 한 줄 운영법",
+            "flowTitle": "원글의 시험 중 준비 순서",
             "flow": [
               {
                 "number": "1",
-                "title": "Part 1",
-                "description": "어려운 발음과 끊어 읽을 위치를 확인하고 자신 있게 낭독한다."
+                "title": "Part 1 안내",
+                "description": "Part 2에서 쓸 장소·중심 대상·세부 묘사·분위기 빈칸을 적는다."
               },
               {
                 "number": "2",
-                "title": "Part 2",
-                "description": "장소, 중심 대상, 세부 묘사, 분위기를 4~5문장으로 말한다."
+                "title": "Q1·2 남는 시간",
+                "description": "각 답변 뒤 남은 시간에 Part 2용 두 사진의 빈칸을 마무리한다."
               },
               {
                 "number": "3",
-                "title": "Part 3",
-                "description": "질문 표현을 활용해 바로 답하고 빈도·사람·시간 중 하나를 덧붙인다."
+                "title": "Part 2 안내",
+                "description": "conve-, effici-, relax-, enjoy-, edu-처럼 Q7·Q11용 이유 키워드를 적는다."
               },
               {
                 "number": "4",
-                "title": "Part 4",
-                "description": "자료에서 이름·시간·전치사·중복 정보를 먼저 표시한다."
-              },
-              {
-                "number": "5",
-                "title": "Part 5",
-                "description": "의견과 두 가지 이유를 먼저 확보한 뒤 경험이나 결론으로 마무리한다."
+                "title": "Part 3~5",
+                "description": "문항별로 정해 둔 문장 수와 형용사·근거 조합을 그대로 적용한다."
               }
             ],
             "warnings": [
-              "목표 문장 수는 말이 막히지 않도록 돕는 연습 기준이며 점수를 보장하는 공식 채점 기준은 아닙니다.",
-              "정확하지 않은 고급 표현을 억지로 쓰기보다 익숙한 어휘로 논리를 완성하세요."
+              "원글 작성자는 TOEIC 810점이며 영어 논문을 자주 읽고 영어 대화 경험이 있었습니다. 같은 공부 기간이 모든 사람에게 적용되는 것은 아닙니다.",
+              "원글의 OMR 뒷면 필기 방법은 공식 규칙이 아닙니다. 실제 시험에서는 감독 안내와 허용된 메모 공간을 우선하세요.",
+              "문장 수는 작성자가 머뭇거림을 줄이기 위해 정한 개인 기준이며 공식 채점 기준이 아닙니다."
             ]
           },
           {
             "id": "part1",
             "tab": "Part 1",
             "kicker": "Q1–2 · READ A TEXT ALOUD",
-            "title": "속도보다 명료한 발음과 의미 단위",
-            "lead": "준비 시간에 한 번 끝까지 읽고, 막히는 단어와 긴 구간만 느리게 다시 연습합니다.",
+            "title": "한 번 읽고, 막히는 부분만 아주 느리게",
+            "lead": "원글에서는 Part 1을 자신감과 발음의 영역으로 보고, 준비 시간에 지문을 한 번 읽은 뒤 버벅이는 단어나 구문을 매우 느리게 반복하는 연습을 권합니다.",
             "facts": [
               {
                 "label": "준비",
@@ -3410,69 +3416,55 @@ window.TOEIC_SPEAKING_DATA = {
                 "value": "각 45초"
               },
               {
-                "label": "목표",
-                "value": "끊김 없는 낭독"
+                "label": "원글 초점",
+                "value": "자신감 · 발음"
               }
             ],
             "checklists": [
               {
-                "title": "45초 준비 체크",
+                "title": "원글의 45초 준비법",
                 "items": [
-                  "지문을 한 번 끝까지 읽어 전체 흐름을 파악한다.",
-                  "이름·숫자·날짜·긴 단어처럼 틀리기 쉬운 부분을 다시 읽는다.",
-                  "쉼표와 문장 구조를 기준으로 의미 단위를 나눈다.",
-                  "마지막에는 실제 답변 속도로 첫 문장을 시작해 본다."
+                  "먼저 지문을 처음부터 끝까지 한 번 읽는다.",
+                  "읽다가 버벅인 단어나 구문만 골라낸다.",
+                  "어려운 부분을 평소보다 훨씬 느린 속도로 정확하게 반복한다.",
+                  "답변에서는 자신 있게 읽고, 억지로 속도를 높이지 않는다."
                 ]
               }
             ],
-            "flowTitle": "낭독 순서",
+            "flowTitle": "준비 순서",
             "flow": [
               {
                 "number": "1",
-                "title": "Scan",
-                "description": "숫자, 고유명사, 발음이 긴 단어를 먼저 찾는다."
+                "title": "전체 읽기",
+                "description": "지문을 한 번 끝까지 읽어 막히는 곳을 찾는다."
               },
               {
                 "number": "2",
-                "title": "Chunk",
-                "description": "주어·동사와 전치사구를 의미 단위로 묶어 읽는다."
+                "title": "어려운 부분 선택",
+                "description": "단어 전체가 아니라 실제로 버벅인 단어와 구문에 집중한다."
               },
               {
                 "number": "3",
-                "title": "Stress",
-                "description": "핵심 명사와 동사를 조금 더 분명하게 말한다."
+                "title": "아주 느리게",
+                "description": "정확한 소리가 날 때까지 느린 속도로 여러 번 읽는다."
               },
               {
                 "number": "4",
-                "title": "Deliver",
-                "description": "실수해도 되돌아가지 않고 일정한 속도로 계속 읽는다."
-              }
-            ],
-            "templateTitle": "의미 단위 연습",
-            "templates": [
-              {
-                "id": "part1-chunking",
-                "title": "안내 문장",
-                "caption": "핵심 정보가 들리도록 끊어 읽기",
-                "english": [
-                  "The conference will begin at nine in the main auditorium."
-                ],
-                "korean": [
-                  "그 회의는 오전 9시에 대강당에서 시작합니다."
-                ]
+                "title": "자신 있게 답변",
+                "description": "실전에서는 준비한 발음을 유지하며 끝까지 읽는다."
               }
             ],
             "warnings": [
-              "빨리 읽기 위해 단어 끝소리와 숫자를 흐리지 마세요.",
-              "한 단어를 틀렸다고 처음부터 다시 읽지 마세요."
+              "이 파트에 별도의 복잡한 템플릿을 추가한 것은 원글의 방식이 아닙니다.",
+              "빠르게 읽는 것보다 막히는 단어를 줄이고 자신 있게 끝까지 읽는 데 집중하세요."
             ]
           },
           {
             "id": "part2",
             "tab": "Part 2",
             "kicker": "Q3–4 · DESCRIBE A PICTURE",
-            "title": "장소부터 분위기까지 4~5문장",
-            "lead": "사진 속 모든 것을 설명하려 하지 말고 눈에 잘 보이는 대상만 정해진 순서로 묘사합니다.",
+            "title": "사람 사진 5문장, 사물 사진 4문장",
+            "lead": "원글은 Part 1부터 두 사진의 답변 틀을 미리 적어 두고, 사람 유무에 따라 정해 둔 순서로 보이는 내용만 채우는 방식을 사용했습니다.",
             "facts": [
               {
                 "label": "준비",
@@ -3483,278 +3475,307 @@ window.TOEIC_SPEAKING_DATA = {
                 "value": "각 30초"
               },
               {
-                "label": "IH 목표",
-                "value": "4~5문장"
+                "label": "사람 사진",
+                "value": "5문장"
+              },
+              {
+                "label": "사물 사진",
+                "value": "4문장"
               }
             ],
             "checklists": [
               {
-                "title": "45초 준비 체크",
+                "title": "Part 2 전에 적어 둘 빈칸",
                 "items": [
-                  "실내·실외와 구체적인 장소를 먼저 정한다.",
-                  "사람 사진이면 공통 행동 뒤에 한두 명의 세부 행동을 고른다.",
-                  "사람이 없으면 중앙, 왼쪽·오른쪽, 배경 순으로 사물을 고른다.",
-                  "마지막 분위기 문장을 미리 결정한다."
+                  "This is a picture taken ... 으로 시작할 장소 빈칸을 만든다.",
+                  "The first thing I can see is ... 로 중심 대상을 말할 빈칸을 만든다.",
+                  "사람 사진은 One of them ... 과 The other(s) ... 두 그룹용 빈칸을 만든다.",
+                  "Overall, it looks ... 로 마칠 분위기 빈칸을 만든다."
                 ]
               }
             ],
-            "flowTitle": "사진 묘사 순서",
+            "flowTitle": "사진 유형별 원글 순서",
             "flow": [
               {
                 "number": "1",
                 "title": "장소",
-                "description": "This is a picture taken ... 으로 시작한다."
+                "description": "실내·실외와 사진이 찍힌 장소를 말한다."
               },
               {
                 "number": "2",
                 "title": "중심 대상",
-                "description": "가장 먼저 보이는 사람이나 사물을 말한다."
+                "description": "사람 사진은 공통 행동이나 복장을 동명사구로 묘사한다."
               },
               {
                 "number": "3",
-                "title": "세부 묘사",
-                "description": "행동·옷차림·위치 중 쉬운 내용을 두 문장 말한다."
+                "title": "첫 번째 그룹",
+                "description": "One of them is ... 로 한 사람이나 한 그룹의 행동을 말한다."
               },
               {
                 "number": "4",
+                "title": "나머지 그룹",
+                "description": "The other person is ... 또는 The others are ... 로 나머지를 말한다."
+              },
+              {
+                "number": "5",
                 "title": "분위기",
-                "description": "busy, peaceful, lively, organized 등으로 마무리한다."
+                "description": "Overall, it looks ... 로 전체 인상을 짧게 마친다."
               }
             ],
-            "templateTitle": "사진 유형별 5문장",
+            "templateTitle": "원글의 사진 유형별 틀",
             "templates": [
               {
                 "id": "part2-people",
-                "title": "사람이 있는 사진",
-                "caption": "장소 → 공통 모습 → 개인 행동 → 배경 → 분위기",
+                "title": "사람이 있는 사진 · 5문장",
+                "caption": "장소 → 공통 모습 → 한 명 → 나머지 → 분위기",
                 "english": [
-                  "This is a picture taken in a cafe.",
-                  "The first thing I can see is a group of people sitting at a table.",
-                  "One of them is holding a menu, and the others are talking.",
-                  "In the background, I can see a server carrying some dishes.",
-                  "Overall, the cafe looks busy and lively."
+                  "This is a picture taken at a construction site.",
+                  "The first thing I can see is a group of three people wearing safety helmets.",
+                  "One of them is moving some boxes.",
+                  "The others are looking at a checklist.",
+                  "Overall, it looks like they are working hard."
                 ],
                 "korean": [
-                  "이것은 카페에서 찍힌 사진입니다.",
-                  "가장 먼저 보이는 것은 테이블에 앉아 있는 사람들입니다.",
-                  "한 명은 메뉴판을 들고 있고 다른 사람들은 대화하고 있습니다.",
-                  "배경에는 접시를 나르는 직원이 보입니다.",
-                  "전체적으로 카페는 바쁘고 활기차 보입니다."
+                  "이것은 건설 현장에서 찍힌 사진입니다.",
+                  "가장 먼저 보이는 것은 안전모를 쓴 세 사람입니다.",
+                  "그중 한 명은 상자 몇 개를 옮기고 있습니다.",
+                  "나머지 사람들은 점검표를 보고 있습니다.",
+                  "전체적으로 그들은 열심히 일하는 것처럼 보입니다."
                 ]
               },
               {
                 "id": "part2-objects",
-                "title": "사람이 없는 사진",
-                "caption": "장소 → 중앙 → 옆 → 배경 → 분위기",
+                "title": "사람이 없는 사진 · 4문장",
+                "caption": "장소 → 사물과 위치 → 반대편 → 분위기",
                 "english": [
-                  "This is a picture taken in an office.",
-                  "In the middle of the picture, there is a large table.",
-                  "On the left side, I can see several chairs.",
-                  "In the background, there are some shelves.",
-                  "Overall, the office looks clean and organized."
+                  "This is a picture taken outdoors.",
+                  "The first thing I can see is a car on the left side of the picture.",
+                  "On the opposite side, there are some bags.",
+                  "Overall, it looks like a quiet place."
                 ],
                 "korean": [
-                  "이것은 사무실에서 찍힌 사진입니다.",
-                  "사진 중앙에는 큰 테이블이 있습니다.",
-                  "왼쪽에는 의자 여러 개가 보입니다.",
-                  "배경에는 선반 몇 개가 있습니다.",
-                  "전체적으로 사무실은 깨끗하고 정돈되어 보입니다."
+                  "이것은 야외에서 찍힌 사진입니다.",
+                  "가장 먼저 보이는 것은 사진 왼쪽에 있는 자동차입니다.",
+                  "반대편에는 가방 몇 개가 있습니다.",
+                  "전체적으로 조용한 장소처럼 보입니다."
                 ]
               }
             ],
             "warnings": [
-              "보이지 않는 관계나 상황을 자세히 추측하지 마세요.",
-              "정확한 단어가 생각나지 않으면 더 쉬운 상위 표현으로 바꾸고 계속 말하세요."
+              "사람이 없는 사진은 원글에서도 한 문장 적은 4문장을 감수하는 방식입니다.",
+              "원글은 완벽한 묘사보다 버벅이지 않고 준비한 틀을 끝내는 것을 우선했습니다."
             ]
           },
           {
             "id": "part3",
             "tab": "Part 3",
             "kicker": "Q5–7 · RESPOND TO QUESTIONS",
-            "title": "질문을 재활용하고 세부 정보 하나 추가하기",
-            "lead": "질문의 표현을 첫 문장에 활용하면 준비 시간을 줄이고 답변의 방향을 바로 보여 줄 수 있습니다.",
+            "title": "Q5·6은 에코잉 2문장, Q7은 4문장",
+            "lead": "원글의 에코잉은 질문 표현을 최대한 재사용해 첫 문장을 만드는 방식입니다. Q5·6은 쉬운 세부 정보 하나를 덧붙이고, Q7은 Q11 구조를 줄여 답합니다.",
             "facts": [
               {
-                "label": "Q5–6",
-                "value": "15초 · 2문장"
+                "label": "Q5·6 답변",
+                "value": "각 15초"
               },
               {
-                "label": "Q7",
-                "value": "30초 · 4문장"
+                "label": "Q5·6 목표",
+                "value": "2문장"
               },
               {
-                "label": "준비",
-                "value": "각 3초"
+                "label": "Q7 답변",
+                "value": "30초"
+              },
+              {
+                "label": "Q7 목표",
+                "value": "약 4문장"
               }
             ],
             "checklists": [
               {
-                "title": "3초 안에 고를 정보",
+                "title": "원글이 익혀 두라고 한 짧은 표현",
                 "items": [
-                  "빈도: once or twice a week처럼 바로 말할 수 있는 숫자를 고른다.",
-                  "사람: alone, with my friend, with my family 중 하나를 고른다.",
-                  "시간: in the morning, after work, on weekends 중 하나를 고른다.",
-                  "기간: for about ten minutes처럼 짧은 세부 정보를 덧붙인다."
+                  "빈도: once or twice a week",
+                  "사람: with my friend",
+                  "시간대: in the morning / afternoon / evening",
+                  "소요 시간: about ten minutes"
                 ]
               }
             ],
-            "flowTitle": "문항별 답변 순서",
+            "flowTitle": "문항별 원글 답변 공식",
             "flow": [
               {
-                "number": "Q5–6",
-                "title": "대답 + 세부 정보",
-                "description": "질문 표현으로 직접 답한 뒤 빈도·사람·시간 중 하나를 붙인다."
+                "number": "Q5·6-1",
+                "title": "에코잉",
+                "description": "질문의 표현을 활용해 직접 답하는 첫 문장을 만든다."
+              },
+              {
+                "number": "Q5·6-2",
+                "title": "세부 정보",
+                "description": "빈도·사람·시간·소요 시간 중 말하기 쉬운 하나를 덧붙인다."
               },
               {
                 "number": "Q7-1",
-                "title": "의견",
-                "description": "선택이나 선호를 첫 문장에서 분명히 말한다."
+                "title": "에코잉",
+                "description": "질문의 선택이나 주장에 바로 답한다."
               },
               {
                 "number": "Q7-2",
                 "title": "이유",
-                "description": "convenient, relaxing 같은 익숙한 이유를 고른다."
+                "description": "미리 적어 둔 형용사 하나를 이유로 사용한다."
               },
               {
                 "number": "Q7-3",
-                "title": "근거와 결론",
-                "description": "구체적인 효과 한 문장과 짧은 결론으로 끝낸다."
+                "title": "근거",
+                "description": "그 형용사와 외워 둔 효과 문장을 연결한다."
+              },
+              {
+                "number": "Q7-4",
+                "title": "결론",
+                "description": "처음의 선택이나 주장을 다시 말하며 마무리한다."
               }
             ],
-            "templateTitle": "15초·30초 답변 예시",
+            "templateTitle": "원글 방식의 2문장·4문장 예시",
             "templates": [
               {
                 "id": "part3-short-answer",
-                "title": "Q5–6 · 2문장",
-                "caption": "직접 답변 + 빈도·사람·시간",
+                "title": "Q5·6 · 에코잉 + 세부 정보",
+                "caption": "말하기 편한 설정을 빠르게 선택",
                 "english": [
-                  "I usually exercise twice a week.",
-                  "I normally go to the gym with my friend in the evening."
+                  "I exercise once or twice a week.",
+                  "I usually exercise with my friend in the evening."
                 ],
                 "korean": [
-                  "저는 보통 일주일에 두 번 운동합니다.",
-                  "저는 보통 저녁에 친구와 헬스장에 갑니다."
+                  "저는 일주일에 한두 번 운동합니다.",
+                  "저는 보통 저녁에 친구와 함께 운동합니다."
                 ]
               },
               {
                 "id": "part3-long-answer",
-                "title": "Q7 · 4문장",
-                "caption": "의견 → 이유 → 근거 → 결론",
+                "title": "Q7 · 에코잉 → 이유 → 근거 → 결론",
+                "caption": "Q11에서 이유 한 묶음만 사용",
                 "english": [
-                  "I prefer working from home.",
-                  "The main reason is that it is convenient.",
-                  "I can save commuting time and focus better on my work.",
-                  "That is why working from home is a better choice for me."
+                  "I agree that exercise is important for students.",
+                  "The main reason is that it is fun.",
+                  "Students can enjoy it with their friends.",
+                  "That is why I think exercise is important for students."
                 ],
                 "korean": [
-                  "저는 재택근무를 선호합니다.",
-                  "가장 큰 이유는 편리하기 때문입니다.",
-                  "통근 시간을 절약하고 업무에 더 잘 집중할 수 있습니다.",
-                  "그래서 재택근무가 저에게 더 좋은 선택입니다."
+                  "저는 운동이 학생들에게 중요하다는 데 동의합니다.",
+                  "가장 큰 이유는 재미있기 때문입니다.",
+                  "학생들은 친구들과 함께 운동을 즐길 수 있습니다.",
+                  "그래서 저는 운동이 학생들에게 중요하다고 생각합니다."
                 ]
               }
             ],
             "warnings": [
-              "사실과 완전히 일치하는 답을 찾느라 시간을 쓰지 말고 말하기 쉬운 설정을 선택하세요.",
-              "15초 문항에서 배경 설명을 길게 붙이지 마세요."
+              "원글은 사실 그대로 답하려고 고민하기보다 빈도·사람·시간을 말하기 쉬운 설정으로 고르라고 조언합니다.",
+              "Q7은 Part 5의 형용사·근거 묶음 하나만 사용해 약 4문장으로 줄이는 방식입니다."
             ]
           },
           {
             "id": "part4",
             "tab": "Part 4",
             "kicker": "Q8–10 · USE PROVIDED INFORMATION",
-            "title": "자료 읽기 45초는 이름·시간·전치사에 사용",
-            "lead": "표의 모든 문장을 외우지 말고 질문에 바로 옮겨 말할 수 있도록 이름과 시간의 연결을 먼저 확인합니다.",
+            "title": "발음·전치사·중복 정보를 45초에 확인",
+            "lead": "원글 작성자는 Part 4 경험이 한 번뿐이라고 전제하면서, 표 읽기 시간에는 모든 단어의 발음과 정보별 전치사, Q10에 묶일 중복 정보를 확인했다고 설명합니다.",
             "facts": [
               {
                 "label": "자료 읽기",
                 "value": "45초"
               },
               {
-                "label": "Q8–9",
+                "label": "Q8·9",
                 "value": "각 15초"
               },
               {
                 "label": "Q10",
-                "value": "질문 2회 · 30초"
+                "value": "30초"
+              },
+              {
+                "label": "원글 체크",
+                "value": "발음 · 전치사 · 중복"
               }
             ],
             "checklists": [
               {
-                "title": "45초 자료 읽기 체크",
+                "title": "원글의 45초 체크 3가지",
                 "items": [
-                  "고유명사와 발표자 이름을 소리 내지 않고 정확히 발음해 본다.",
-                  "날짜에는 on, 시각에는 at, 시간 범위에는 from A to B를 연결한다.",
-                  "취소·연기·변경 표시를 찾아 잘못된 정보 정정 문항에 대비한다.",
-                  "같은 주제나 발표자가 두 번 나오는지 확인해 Q10 묶음 답변을 준비한다."
+                  "표에 나온 모든 단어를 실제 답변에서 말할 수 있도록 발음을 확인한다.",
+                  "시간 범위는 from A to B, 시각은 at, 날짜는 on, 사람은 with처럼 정보에 맞는 전치사를 정한다.",
+                  "같은 발표자나 같은 주제가 두 번 나오는지 찾아 Q10의 두 일정 답변을 준비한다."
                 ]
               }
             ],
-            "flowTitle": "문항별 답변 순서",
+            "flowTitle": "원글의 Q9·Q10 요령",
             "flow": [
               {
-                "number": "Q8",
-                "title": "한 정보 확인",
-                "description": "질문에서 요구한 날짜·시간·장소를 한 문장으로 답한다."
+                "number": "Q9-1",
+                "title": "잘못된 정보 알리기",
+                "description": "상대가 잘못 알고 있음을 짧게 말한다."
               },
               {
-                "number": "Q9",
-                "title": "정보 정정",
-                "description": "상대 정보가 틀렸음을 정중히 알리고 정확한 내용을 말한다."
+                "number": "Q9-2",
+                "title": "취소·연기 정정",
+                "description": "표가 취소 또는 연기를 표시하면 실제 상태를 바로 말한다."
               },
               {
                 "number": "Q10-1",
-                "title": "개수 안내",
-                "description": "There are two events처럼 먼저 몇 개인지 말한다."
+                "title": "개수",
+                "description": "Sure, there are two events.처럼 해당 일정 수부터 알린다."
               },
               {
                 "number": "Q10-2",
-                "title": "항목별 설명",
-                "description": "각 일정의 주제·발표자·시간을 같은 순서로 전달한다."
+                "title": "첫 일정",
+                "description": "내용·발표자·시간을 정한 순서로 말한다."
+              },
+              {
+                "number": "Q10-3",
+                "title": "두 번째 일정",
+                "description": "The second one is ... 로 같은 틀을 반복한다."
               }
             ],
-            "templateTitle": "정보 정정·두 일정 답변",
+            "templateTitle": "원글 표현을 자연스럽게 교정한 답변",
             "templates": [
               {
                 "id": "part4-correction",
                 "title": "Q9 · 잘못된 정보 정정",
-                "caption": "정중한 정정 + 실제 정보",
+                "caption": "원문의 관사와 표현만 교정",
                 "english": [
                   "No, I'm afraid you have the wrong information.",
-                  "Actually, the event was canceled."
+                  "Actually, it was canceled."
                 ],
                 "korean": [
                   "아니요, 유감이지만 잘못된 정보를 알고 계십니다.",
-                  "사실 그 행사는 취소되었습니다."
+                  "사실 그것은 취소되었습니다."
                 ]
               },
               {
                 "id": "part4-two-events",
-                "title": "Q10 · 두 일정 설명",
+                "title": "Q10 · 관련 일정 두 개",
                 "caption": "개수 → 첫 일정 → 두 번째 일정",
                 "english": [
-                  "Sure, there are two events scheduled.",
-                  "The first event is a marketing workshop, presented by Jane Lee, from 10 a.m. to 11 a.m.",
-                  "The second event is a sales seminar by Mike Brown at 2 p.m."
+                  "Sure, there are two events.",
+                  "The first event is a marketing lecture by Jane Lee from 10 a.m. to 11 a.m.",
+                  "The second one is a sales workshop by Mike Brown from 2 p.m. to 3 p.m."
                 ],
                 "korean": [
-                  "네, 예정된 행사가 두 개 있습니다.",
-                  "첫 번째 행사는 제인 리가 진행하는 마케팅 워크숍으로 오전 10시부터 11시까지입니다.",
-                  "두 번째 행사는 마이크 브라운이 진행하는 영업 세미나로 오후 2시입니다."
+                  "네, 관련 행사가 두 개 있습니다.",
+                  "첫 번째 행사는 오전 10시부터 11시까지 제인 리와 함께하는 마케팅 강연입니다.",
+                  "두 번째 행사는 오후 2시부터 3시까지 마이크 브라운과 함께하는 영업 워크숍입니다."
                 ]
               }
             ],
             "warnings": [
-              "I'm afraid 뒤에는 완전한 문장을 사용하고, information은 셀 수 없는 명사로 다루세요.",
-              "질문에 없는 부가 정보를 길게 읽다가 핵심 시간이나 이름을 놓치지 마세요."
+              "원글 작성자도 변형 문제에 대한 데이터가 많지 않다고 밝혔으므로 Q9·Q10 틀을 모든 표에 억지로 적용하지 마세요.",
+              "원문의 No, I'm so afraid that you have a wrong information.은 자연스럽고 문법에 맞는 표현으로 교정했습니다."
             ]
           },
           {
             "id": "part5",
             "tab": "Part 5",
             "kicker": "Q11 · EXPRESS AN OPINION",
-            "title": "의견과 두 가지 이유를 먼저 확보하기",
-            "lead": "경험을 길게 만드는 것보다 의견, 이유 두 개, 각 이유의 효과를 분명히 전달하는 데 우선순위를 둡니다.",
+            "title": "형용사 두 개를 골라 약 8문장으로",
+            "lead": "원글에서는 Part 2 안내 방송까지 적어 둔 형용사 키워드를 이유로 사용하고, 각 형용사에 외워 둔 근거를 붙인 뒤 학교나 업무 경험으로 마무리합니다.",
             "facts": [
               {
                 "label": "준비",
@@ -3765,183 +3786,184 @@ window.TOEIC_SPEAKING_DATA = {
                 "value": "60초"
               },
               {
-                "label": "IH 목표",
-                "value": "7~8문장"
+                "label": "원글 목표",
+                "value": "약 8문장"
+              },
+              {
+                "label": "경험",
+                "value": "약 3문장"
               }
             ],
             "checklists": [
               {
-                "title": "45초 준비 체크",
+                "title": "Part 2 안내 때 적는 이유 키워드",
                 "items": [
-                  "찬성·반대 또는 선택을 먼저 결정한다.",
-                  "이유 은행에서 서로 겹치지 않는 이유 두 개를 고른다.",
-                  "각 이유 뒤에 결과나 효과 한 문장을 연결한다.",
-                  "남는 시간에 학교·직장·친구 경험 하나를 키워드로 준비한다."
+                  "conve- / effici- / effect-",
+                  "relax- / reward- / enjoy-",
+                  "mean- / edu-처럼 기억을 불러올 정도로만 짧게 적는다.",
+                  "Q11 준비 시간에는 질문에 맞는 키워드 두 개와 경험 한 가지를 고른다."
                 ]
               }
             ],
-            "flowTitle": "60초 답변 순서",
+            "flowTitle": "원글의 약 8문장 구성",
             "flow": [
               {
                 "number": "1",
-                "title": "의견",
-                "description": "I think 또는 I agree로 입장을 바로 밝힌다."
+                "title": "에코잉",
+                "description": "질문을 활용해 찬성·반대 또는 선택을 바로 말한다."
               },
               {
                 "number": "2",
                 "title": "이유 1",
-                "description": "첫 번째 이유를 한 문장으로 말한다."
+                "description": "첫 번째 형용사를 이유로 말한다."
               },
               {
                 "number": "3",
                 "title": "근거 1",
-                "description": "그 이유가 주는 구체적인 효과를 덧붙인다."
+                "description": "그 형용사와 연결해 외운 효과 문장을 말한다."
               },
               {
                 "number": "4",
                 "title": "이유 2",
-                "description": "First와 겹치지 않는 두 번째 이유를 말한다."
+                "description": "두 번째 형용사를 이유로 말한다."
               },
               {
                 "number": "5",
                 "title": "근거 2",
-                "description": "결과나 장점을 한 문장으로 설명한다."
+                "description": "두 번째 형용사에 맞는 효과 문장을 말한다."
               },
               {
-                "number": "6",
+                "number": "6–8",
                 "title": "경험",
-                "description": "학교·직장 경험을 두 문장 이내로 연결한다."
-              },
-              {
-                "number": "7",
-                "title": "결론",
-                "description": "For these reasons로 의견을 다시 확인한다."
+                "description": "학교·동아리·업무 경험을 약 3문장으로 연결한다."
               }
             ],
-            "templateTitle": "8문장 완성 답변",
+            "templateTitle": "원글 흐름을 따른 8문장 예시",
             "templates": [
               {
                 "id": "part5-opinion",
-                "title": "운동 활동 확대",
-                "caption": "의견 → 재미·휴식 → 교육 → 경험 → 결론",
+                "title": "학생에게 운동이 중요한가",
+                "caption": "에코잉 → 재미·근거 → 교육·근거 → 경험",
                 "english": [
-                  "I think schools should offer more sports activities.",
-                  "First, exercise is fun and relaxing.",
+                  "I agree that exercise is very important for students.",
+                  "One of the biggest reasons is that it is fun.",
                   "Students can enjoy it with their friends.",
-                  "As a result, they can reduce stress together.",
-                  "Second, sports are educational.",
-                  "Students can learn teamwork and improve themselves.",
-                  "For example, when I was in high school, I joined a soccer club and learned how to work with others.",
-                  "For these reasons, I believe more sports activities would benefit students."
+                  "Another reason is that it is educational.",
+                  "They can learn a lot from it.",
+                  "For example, when I was in high school, I was a member of a soccer club.",
+                  "I exercised with my club members after class.",
+                  "It was enjoyable, and I learned how to work with others."
                 ],
                 "korean": [
-                  "저는 학교가 더 많은 스포츠 활동을 제공해야 한다고 생각합니다.",
-                  "첫째, 운동은 재미있고 긴장을 풀어 줍니다.",
+                  "저는 운동이 학생들에게 매우 중요하다는 데 동의합니다.",
+                  "가장 큰 이유 중 하나는 재미있기 때문입니다.",
                   "학생들은 친구들과 함께 운동을 즐길 수 있습니다.",
-                  "그 결과 함께 스트레스를 줄일 수 있습니다.",
-                  "둘째, 스포츠는 교육적입니다.",
-                  "학생들은 팀워크를 배우고 스스로 발전할 수 있습니다.",
-                  "예를 들어 저는 고등학생 때 축구 동아리에 들어가 다른 사람들과 협력하는 방법을 배웠습니다.",
-                  "이러한 이유로 더 많은 스포츠 활동이 학생들에게 도움이 된다고 생각합니다."
+                  "또 다른 이유는 교육적이기 때문입니다.",
+                  "학생들은 운동을 통해 많은 것을 배울 수 있습니다.",
+                  "예를 들어 저는 고등학생 때 축구 동아리 회원이었습니다.",
+                  "저는 방과 후에 동아리 친구들과 운동했습니다.",
+                  "그 경험은 즐거웠고 다른 사람들과 협력하는 법을 배웠습니다."
                 ]
               }
             ],
             "warnings": [
-              "시간이 부족하면 경험을 줄이고 의견과 두 가지 이유·근거를 먼저 완성하세요.",
-              "한 경험에 세부 내용을 너무 많이 붙여 두 번째 이유를 빼먹지 마세요."
+              "현재 자료에서는 기존의 별도 결론 단계를 제거했습니다. 원글의 Q11 공식은 경험으로 끝나는 약 8문장 구조입니다.",
+              "학교 경험이 어울리지 않는 업무 질문은 원글 작성자처럼 대학원·직장 경험으로 바꿔 적용하세요.",
+              "원글의 최종 공부 조언은 유튜브 모의고사를 반복하며 이 구조를 자동화하는 것입니다."
             ]
           },
           {
             "id": "reason-bank",
             "tab": "이유 은행",
-            "kicker": "Q7 & Q11 · QUICK SUPPORT",
-            "title": "형용사 하나를 이유와 근거로 확장하기",
-            "lead": "질문을 들은 뒤 익숙한 형용사를 하나 고르고 아래 세 문장을 연결하면 답변 뼈대를 빠르게 만들 수 있습니다.",
+            "kicker": "Q7 & Q11 · ORIGINAL REASON PAIRS",
+            "title": "원글의 형용사 → 근거 연결표",
+            "lead": "원글에서 제시한 형용사 묶음과 바로 뒤에 붙이는 근거 문장만 남겼습니다. 현재의 부가 결과 문장은 원글에 있는 경우에만 표시합니다.",
             "facts": [
               {
                 "label": "사용 문항",
                 "value": "Q7 · Q11"
               },
               {
-                "label": "구조",
-                "value": "이유 → 효과 → 결과"
+                "label": "기본 구조",
+                "value": "형용사 → 근거"
               },
               {
-                "label": "목표",
-                "value": "3문장 자동화"
+                "label": "Q7",
+                "value": "한 묶음"
+              },
+              {
+                "label": "Q11",
+                "value": "두 묶음"
               }
             ],
             "reasonGroups": [
               {
                 "id": "reason-convenient",
                 "keywords": "convenient · efficient",
-                "useWhen": "시간·비용·일 처리",
+                "useWhen": "시간 또는 비용 절약",
                 "english": [
                   "It is convenient and efficient.",
-                  "It can save people time and money.",
-                  "As a result, they can be more productive."
+                  "It can save me a lot of time and money."
                 ],
-                "korean": "편리하고 효율적이다 → 시간과 돈을 아낀다 → 생산성이 높아진다."
+                "korean": "편리하고 효율적이다 → 많은 시간과 돈을 절약할 수 있다."
               },
               {
                 "id": "reason-effective",
                 "keywords": "effective",
-                "useWhen": "성과·광고·학습",
+                "useWhen": "성과가 좋아지는 경우",
                 "english": [
                   "It is very effective.",
-                  "It helps people get better results.",
-                  "Therefore, they can reach their goals more easily."
+                  "It helps me get better results."
                 ],
-                "korean": "효과적이다 → 더 좋은 결과를 얻는다 → 목표에 쉽게 도달한다."
+                "korean": "효과적이다 → 더 좋은 결과를 얻는 데 도움이 된다."
               },
               {
                 "id": "reason-relaxing",
                 "keywords": "relaxing · rewarding · comfortable",
-                "useWhen": "휴식·건강·환경",
+                "useWhen": "기분이나 만족감",
                 "english": [
-                  "It is relaxing and rewarding.",
-                  "It makes people feel much better.",
-                  "They can reduce stress and stay healthy."
+                  "It is relaxing, rewarding, and comfortable.",
+                  "It makes me feel much better."
                 ],
-                "korean": "편안하고 보람 있다 → 기분이 좋아진다 → 스트레스를 줄이고 건강을 지킨다."
+                "korean": "편안하고 보람 있으며 쾌적하다 → 기분이 훨씬 좋아진다."
               },
               {
                 "id": "reason-enjoyable",
                 "keywords": "fun · enjoyable",
-                "useWhen": "취미·행사·친구",
+                "useWhen": "친구와 함께하는 활동",
                 "english": [
                   "It is fun and enjoyable.",
-                  "People can enjoy it with their friends.",
-                  "They can have a great time together."
+                  "I can enjoy it with my friends.",
+                  "We can have a great time together."
                 ],
-                "korean": "재미있다 → 친구들과 함께 즐긴다 → 좋은 시간을 보낼 수 있다."
+                "korean": "재미있다 → 친구들과 함께 즐길 수 있다 → 함께 좋은 시간을 보낼 수 있다."
               },
               {
                 "id": "reason-challenging",
                 "keywords": "interesting · exciting · challenging",
-                "useWhen": "새 활동·도전·여행",
+                "useWhen": "새로운 활동이나 도전",
                 "english": [
-                  "It is interesting and challenging.",
-                  "People can try new things.",
-                  "New experiences can make them feel excited and confident."
+                  "It is interesting, exciting, and challenging.",
+                  "I like trying new things.",
+                  "New experiences make me happy."
                 ],
-                "korean": "흥미롭고 도전적이다 → 새로운 것을 시도한다 → 즐거움과 자신감을 얻는다."
+                "korean": "흥미롭고 신나며 도전적이다 → 새로운 것을 시도하는 것을 좋아한다 → 새로운 경험은 나를 행복하게 한다."
               },
               {
                 "id": "reason-educational",
                 "keywords": "useful · meaningful · educational",
-                "useWhen": "학교·경험·기술",
+                "useWhen": "학습이나 자기계발",
                 "english": [
-                  "It is useful and educational.",
-                  "People can learn a lot from the experience.",
-                  "It can help them improve themselves."
+                  "It is useful, meaningful, and educational.",
+                  "I can learn a lot from it.",
+                  "It helps me improve myself."
                 ],
-                "korean": "유용하고 교육적이다 → 많은 것을 배운다 → 스스로 발전할 수 있다."
+                "korean": "유용하고 의미 있으며 교육적이다 → 많은 것을 배울 수 있다 → 스스로 발전하는 데 도움이 된다."
               }
             ],
             "warnings": [
-              "질문과 맞지 않는 이유를 억지로 연결하지 말고 가장 자연스러운 한 묶음만 선택하세요.",
-              "Q11에서는 같은 이유 묶음을 두 번 반복하지 마세요."
+              "영어 예문은 원글의 짧은 표현을 문법과 주어 일치만 자연스럽게 교정한 것입니다.",
+              "I가 맞지 않는 질문에서는 주어를 they 또는 students로 바꿔 사용하세요."
             ]
           }
         ]
@@ -4680,7 +4702,7 @@ window.TOEIC_SPEAKING_DATA = {
       }
     ]
   },
-  "generatedAt": "2026-09-04T10:04:29.522Z",
+  "generatedAt": "2026-09-04T18:21:16.536Z",
   "stats": {
     "parts": 4,
     "entries": 197,
