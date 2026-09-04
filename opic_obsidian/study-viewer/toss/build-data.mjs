@@ -61,114 +61,166 @@ for (const part of data.parts) {
   });
 }
 
-const expectedStrategyIds = [
-  "overview",
-  "part1",
-  "part2",
-  "part3",
-  "part4",
-  "part5",
-  "reason-bank",
-];
-const guide = data.strategyGuide;
+const expectedStrategyGuides = new Map([
+  ["ih-review", ["overview", "part1", "part2", "part3", "part4", "part5", "reason-bank"]],
+  [
+    "clock-rabbit",
+    ["video-overview", "video-part1", "video-part2", "video-part3", "video-part4", "video-part5"],
+  ],
+]);
+const expectedVideoChapters = new Map([
+  ["video-overview", 0],
+  ["video-part1", 0],
+  ["video-part2", 914],
+  ["video-part3", 1599],
+  ["video-part4", 3534],
+  ["video-part5", 7280],
+]);
+const strategyGuide = data.strategyGuide;
 if (
-  !guide ||
-  guide.target !== "IH" ||
-  !Array.isArray(guide.sources) ||
-  guide.sources.length < 2 ||
-  !Array.isArray(guide.sections) ||
-  guide.sections.length !== expectedStrategyIds.length
+  !strategyGuide ||
+  strategyGuide.target !== "IH" ||
+  !strategyGuide.title ||
+  strategyGuide.defaultGuideId !== "ih-review" ||
+  !Array.isArray(strategyGuide.guides) ||
+  strategyGuide.guides.length !== expectedStrategyGuides.size
 ) {
-  throw new Error("The IH strategy guide is incomplete.");
+  throw new Error("The strategy guide collection is incomplete.");
 }
 
-for (const source of guide.sources) {
-  if (!source.label || !/^https:\/\//.test(source.url || "")) {
-    throw new Error("Every strategy source needs a label and an HTTPS URL.");
+const strategyGuideIds = strategyGuide.guides.map((guide) => guide.id);
+for (const requiredGuideId of expectedStrategyGuides.keys()) {
+  if (strategyGuideIds.filter((id) => id === requiredGuideId).length !== 1) {
+    throw new Error(`Expected exactly one ${requiredGuideId} strategy guide.`);
   }
 }
 
-const strategyIds = guide.sections.map((section) => section.id);
-for (const requiredId of expectedStrategyIds) {
-  if (strategyIds.filter((id) => id === requiredId).length !== 1) {
-    throw new Error(`Expected exactly one ${requiredId} strategy section.`);
-  }
+if (!strategyGuideIds.includes(strategyGuide.defaultGuideId)) {
+  throw new Error("The default strategy guide does not exist.");
 }
 
 const speechItemIds = new Set();
-for (const section of guide.sections) {
-  if (!section.tab || !section.kicker || !section.title || !section.lead) {
-    throw new Error(`Strategy section ${section.id} is missing its heading content.`);
+for (const guide of strategyGuide.guides) {
+  const expectedStrategyIds = expectedStrategyGuides.get(guide.id);
+  if (
+    !expectedStrategyIds ||
+    !guide.tab ||
+    guide.target !== "IH" ||
+    !guide.title ||
+    !guide.summary ||
+    !guide.disclaimer ||
+    !Array.isArray(guide.sources) ||
+    guide.sources.length < 2 ||
+    !Array.isArray(guide.sections) ||
+    guide.sections.length !== expectedStrategyIds.length
+  ) {
+    throw new Error(`Strategy guide ${guide.id || "unknown"} is incomplete.`);
   }
-  if (!Array.isArray(section.facts) || !section.facts.length) {
-    throw new Error(`Strategy section ${section.id} needs at least one fact.`);
-  }
-  section.facts.forEach((fact) => {
-    if (!fact.label || !fact.value) {
-      throw new Error(`Strategy section ${section.id} contains an incomplete fact.`);
-    }
-  });
-  (section.timings || []).forEach((timing) => {
-    if (!timing.questions || !timing.task || !timing.prep || !timing.response) {
-      throw new Error(`Strategy section ${section.id} contains an incomplete timing row.`);
-    }
-  });
-  (section.checklists || []).forEach((checklist) => {
-    if (!checklist.title || !Array.isArray(checklist.items) || !checklist.items.length) {
-      throw new Error(`Strategy section ${section.id} contains an incomplete checklist.`);
-    }
-  });
-  (section.flow || []).forEach((step) => {
-    if (!step.number || !step.title || !step.description) {
-      throw new Error(`Strategy section ${section.id} contains an incomplete flow step.`);
-    }
-  });
-  if (!Array.isArray(section.warnings) || !section.warnings.length) {
-    throw new Error(`Strategy section ${section.id} needs at least one warning.`);
-  }
-  if (section.warnings.some((warning) => !String(warning).trim())) {
-    throw new Error(`Strategy section ${section.id} contains an empty warning.`);
-  }
-  (section.templates || []).forEach((template) => {
-    if (
-      !template.id ||
-      !template.title ||
-      !Array.isArray(template.english) ||
-      !template.english.length ||
-      template.english.some((line) => !String(line).trim()) ||
-      !Array.isArray(template.korean) ||
-      template.english.length !== template.korean.length ||
-      template.korean.some((line) => !String(line).trim())
-    ) {
-      throw new Error(`Strategy template ${template.id || "unknown"} is incomplete.`);
-    }
-    if (speechItemIds.has(template.id)) {
-      throw new Error(`Duplicate strategy speech item: ${template.id}.`);
-    }
-    speechItemIds.add(template.id);
-  });
-  (section.reasonGroups || []).forEach((group) => {
-    if (
-      !group.id ||
-      !group.keywords ||
-      !group.useWhen ||
-      !Array.isArray(group.english) ||
-      !group.english.length ||
-      group.english.some((line) => !String(line).trim()) ||
-      !group.korean
-    ) {
-      throw new Error(`Strategy reason group ${group.id || "unknown"} is incomplete.`);
-    }
-    if (speechItemIds.has(group.id)) {
-      throw new Error(`Duplicate strategy speech item: ${group.id}.`);
-    }
-    speechItemIds.add(group.id);
-  });
-}
 
-const overview = guide.sections.find((section) => section.id === "overview");
-if (!Array.isArray(overview.timings) || overview.timings.length !== 7) {
-  throw new Error("The strategy overview must contain the seven official timing rows.");
+  if (guide.id === "clock-rabbit" && !/^https:\/\/www\.youtube\.com\//.test(guide.videoUrl || "")) {
+    throw new Error("The Clock Rabbit guide needs its YouTube video URL.");
+  }
+
+  for (const source of guide.sources) {
+    if (!source.label || !source.kind || !/^https:\/\//.test(source.url || "")) {
+      throw new Error(`Every ${guide.id} source needs a kind, label, and HTTPS URL.`);
+    }
+  }
+
+  const strategyIds = guide.sections.map((section) => section.id);
+  for (const requiredId of expectedStrategyIds) {
+    if (strategyIds.filter((id) => id === requiredId).length !== 1) {
+      throw new Error(`Expected exactly one ${requiredId} section in ${guide.id}.`);
+    }
+  }
+
+  for (const section of guide.sections) {
+    if (!section.tab || !section.kicker || !section.title || !section.lead) {
+      throw new Error(`Strategy section ${section.id} is missing its heading content.`);
+    }
+    if (!Array.isArray(section.facts) || !section.facts.length) {
+      throw new Error(`Strategy section ${section.id} needs at least one fact.`);
+    }
+    section.facts.forEach((fact) => {
+      if (!fact.label || !fact.value) {
+        throw new Error(`Strategy section ${section.id} contains an incomplete fact.`);
+      }
+    });
+    (section.timings || []).forEach((timing) => {
+      if (!timing.questions || !timing.task || !timing.prep || !timing.response) {
+        throw new Error(`Strategy section ${section.id} contains an incomplete timing row.`);
+      }
+    });
+    (section.checklists || []).forEach((checklist) => {
+      if (!checklist.title || !Array.isArray(checklist.items) || !checklist.items.length) {
+        throw new Error(`Strategy section ${section.id} contains an incomplete checklist.`);
+      }
+    });
+    (section.flow || []).forEach((step) => {
+      if (!step.number || !step.title || !step.description) {
+        throw new Error(`Strategy section ${section.id} contains an incomplete flow step.`);
+      }
+    });
+    if (!Array.isArray(section.warnings) || !section.warnings.length) {
+      throw new Error(`Strategy section ${section.id} needs at least one warning.`);
+    }
+    if (section.warnings.some((warning) => !String(warning).trim())) {
+      throw new Error(`Strategy section ${section.id} contains an empty warning.`);
+    }
+
+    if (guide.id === "clock-rabbit") {
+      const expectedStart = expectedVideoChapters.get(section.id);
+      if (
+        !section.chapter?.label ||
+        !Number.isInteger(section.chapter.startSeconds) ||
+        section.chapter.startSeconds !== expectedStart
+      ) {
+        throw new Error(`Strategy section ${section.id} has an invalid video chapter.`);
+      }
+    }
+
+    (section.templates || []).forEach((template) => {
+      if (
+        !template.id ||
+        !template.title ||
+        !Array.isArray(template.english) ||
+        !template.english.length ||
+        template.english.some((line) => !String(line).trim()) ||
+        !Array.isArray(template.korean) ||
+        template.english.length !== template.korean.length ||
+        template.korean.some((line) => !String(line).trim())
+      ) {
+        throw new Error(`Strategy template ${template.id || "unknown"} is incomplete.`);
+      }
+      if (speechItemIds.has(template.id)) {
+        throw new Error(`Duplicate strategy speech item: ${template.id}.`);
+      }
+      speechItemIds.add(template.id);
+    });
+    (section.reasonGroups || []).forEach((group) => {
+      if (
+        !group.id ||
+        !group.keywords ||
+        !group.useWhen ||
+        !Array.isArray(group.english) ||
+        !group.english.length ||
+        group.english.some((line) => !String(line).trim()) ||
+        !group.korean
+      ) {
+        throw new Error(`Strategy reason group ${group.id || "unknown"} is incomplete.`);
+      }
+      if (speechItemIds.has(group.id)) {
+        throw new Error(`Duplicate strategy speech item: ${group.id}.`);
+      }
+      speechItemIds.add(group.id);
+    });
+  }
+
+  const overviewId = guide.id === "clock-rabbit" ? "video-overview" : "overview";
+  const overview = guide.sections.find((section) => section.id === overviewId);
+  if (!Array.isArray(overview?.timings) || overview.timings.length !== 7) {
+    throw new Error(`${guide.id} overview must contain the seven official timing rows.`);
+  }
 }
 
 const output = {

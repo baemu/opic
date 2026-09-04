@@ -1,6 +1,6 @@
 "use strict";
 
-const CACHE_NAME = "speaking-practice-v14";
+const CACHE_NAME = "speaking-practice-v15";
 const APP_SHELL = [
   "./index.html",
   "./compact.html",

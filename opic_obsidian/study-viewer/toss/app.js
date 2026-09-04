@@ -44,6 +44,7 @@
     referenceSets: document.getElementById("referenceSets"),
     comparisonCard: document.getElementById("comparisonCard"),
     strategyView: document.getElementById("strategyView"),
+    strategyGuideTabs: document.getElementById("strategyGuideTabs"),
     strategyTabs: document.getElementById("strategyTabs"),
     strategyContent: document.getElementById("strategyContent"),
     statusToast: document.getElementById("statusToast"),
@@ -51,6 +52,34 @@
 
   const saved = readJson(storageKey);
   const opicSettings = readJson(opicStorageKey);
+  const strategyGuides = Array.isArray(data?.strategyGuide?.guides)
+    ? data.strategyGuide.guides
+    : [];
+  const defaultStrategyGuideId = strategyGuides.some(
+    (guide) => guide.id === data?.strategyGuide?.defaultGuideId,
+  )
+    ? data.strategyGuide.defaultGuideId
+    : strategyGuides[0]?.id || "";
+  const initialStrategyGuideId = strategyGuides.some(
+    (guide) => guide.id === saved.strategyGuideId,
+  )
+    ? saved.strategyGuideId
+    : defaultStrategyGuideId;
+  const savedStrategySections =
+    saved.strategySectionByGuide && typeof saved.strategySectionByGuide === "object"
+      ? saved.strategySectionByGuide
+      : {};
+  const initialStrategySections = Object.fromEntries(
+    strategyGuides.map((guide) => {
+      const savedSectionId =
+        savedStrategySections[guide.id] ||
+        (guide.id === "ih-review" ? saved.strategySectionId : "");
+      const sectionId = guide.sections?.some((section) => section.id === savedSectionId)
+        ? savedSectionId
+        : guide.sections?.[0]?.id || "";
+      return [guide.id, sectionId];
+    }),
+  );
   const state = {
     partId: data?.parts?.some((part) => part.id === saved.partId)
       ? saved.partId
@@ -58,11 +87,8 @@
     view: ["list", "memorize", "reference", "strategy"].includes(saved.view)
       ? saved.view
       : "list",
-    strategySectionId: data?.strategyGuide?.sections?.some(
-      (section) => section.id === saved.strategySectionId,
-    )
-      ? saved.strategySectionId
-      : "overview",
+    strategyGuideId: initialStrategyGuideId,
+    strategySectionByGuide: initialStrategySections,
     section: "all",
     query: "",
     showTranslations: saved.showTranslations !== false,
@@ -86,7 +112,8 @@
       !Array.isArray(data.parts) ||
       data.parts.length !== 4 ||
       !data.strategyGuide ||
-      !Array.isArray(data.strategyGuide.sections)
+      !Array.isArray(data.strategyGuide.guides) ||
+      !data.strategyGuide.guides.length
     ) {
       document.body.innerHTML =
         '<main class="load-error"><h1>토익스피킹 데이터를 찾을 수 없습니다.</h1><p>toss/build-data.mjs를 다시 실행해 주세요.</p></main>';
@@ -169,12 +196,28 @@
     elements.sentenceGrid.addEventListener("keydown", handleSpeakKeydown);
     elements.referenceView.addEventListener("click", handleSpeakRequest);
     elements.referenceView.addEventListener("keydown", handleSpeakKeydown);
+    elements.strategyGuideTabs.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-strategy-guide]");
+      if (!button || button.dataset.strategyGuide === state.strategyGuideId) {
+        return;
+      }
+      state.strategyGuideId = button.dataset.strategyGuide;
+      cancelSpeech();
+      saveState();
+      renderStrategy();
+      elements.strategyContent.scrollTop = 0;
+      elements.strategyView.scrollTop = 0;
+    });
     elements.strategyTabs.addEventListener("click", (event) => {
       const button = event.target.closest("[data-strategy-section]");
       if (!button) {
         return;
       }
-      state.strategySectionId = button.dataset.strategySection;
+      const guide = getCurrentStrategyGuide();
+      if (!guide) {
+        return;
+      }
+      state.strategySectionByGuide[guide.id] = button.dataset.strategySection;
       cancelSpeech();
       saveState();
       renderStrategy();
@@ -415,10 +458,28 @@
   }
 
   function renderStrategy() {
-    const guide = data.strategyGuide;
+    const strategyGuide = data.strategyGuide;
+    const guide = getCurrentStrategyGuide();
+    if (!guide) {
+      return;
+    }
+    state.strategyGuideId = guide.id;
+    const savedSectionId = state.strategySectionByGuide[guide.id];
     const section =
-      guide.sections.find((item) => item.id === state.strategySectionId) || guide.sections[0];
-    state.strategySectionId = section.id;
+      guide.sections.find((item) => item.id === savedSectionId) || guide.sections[0];
+    state.strategySectionByGuide[guide.id] = section.id;
+
+    elements.strategyGuideTabs.innerHTML = strategyGuide.guides
+      .map(
+        (item) => `
+          <button
+            type="button"
+            role="tab"
+            data-strategy-guide="${escapeHtml(item.id)}"
+            aria-selected="${item.id === guide.id}"
+          >${escapeHtml(item.tab)}</button>`,
+      )
+      .join("");
 
     elements.strategyTabs.innerHTML = guide.sections
       .map(
@@ -431,6 +492,8 @@
           >${escapeHtml(item.tab)}</button>`,
       )
       .join("");
+    elements.strategyTabs.style.setProperty("--strategy-tab-count", String(guide.sections.length));
+    elements.strategyTabs.classList.toggle("is-video-guide", guide.id === "clock-rabbit");
 
     const facts = (section.facts || [])
       .map(
@@ -541,11 +604,19 @@
         </aside>`
       : "";
 
+    const chapterUrl = getVideoChapterUrl(guide, section);
+    const chapterLink = chapterUrl
+      ? `<a class="strategy-video-link" href="${escapeHtml(chapterUrl)}" target="_blank" rel="noreferrer">▶ 영상에서 보기 · ${escapeHtml(section.chapter.label)}</a>`
+      : "";
+
     elements.strategyContent.innerHTML = `
       <header class="strategy-heading">
         <div class="strategy-title-line">
           <span class="strategy-kicker">${escapeHtml(section.kicker)}</span>
-          <span class="strategy-target">목표 ${escapeHtml(guide.target)}</span>
+          <div class="strategy-heading-actions">
+            <span class="strategy-target">목표 ${escapeHtml(guide.target)}</span>
+            ${chapterLink}
+          </div>
         </div>
         <h1>${escapeHtml(section.title)}</h1>
         <p>${escapeHtml(section.lead)}</p>
@@ -720,8 +791,9 @@
   }
 
   function getStrategySpeechItem(id) {
-    const section = data.strategyGuide.sections.find(
-      (item) => item.id === state.strategySectionId,
+    const guide = getCurrentStrategyGuide();
+    const section = guide?.sections.find(
+      (item) => item.id === state.strategySectionByGuide[guide.id],
     );
     if (!section) {
       return null;
@@ -856,6 +928,25 @@
     return data.parts.find((part) => part.id === state.partId) || data.parts[0];
   }
 
+  function getCurrentStrategyGuide() {
+    return (
+      data.strategyGuide.guides.find((guide) => guide.id === state.strategyGuideId) ||
+      data.strategyGuide.guides.find(
+        (guide) => guide.id === data.strategyGuide.defaultGuideId,
+      ) ||
+      data.strategyGuide.guides[0] ||
+      null
+    );
+  }
+
+  function getVideoChapterUrl(guide, section) {
+    if (!guide?.videoUrl || !Number.isInteger(section?.chapter?.startSeconds)) {
+      return "";
+    }
+    const separator = guide.videoUrl.includes("?") ? "&" : "?";
+    return `${guide.videoUrl}${separator}t=${section.chapter.startSeconds}s`;
+  }
+
   function getFilteredEntries() {
     const query = normalizeSearch(state.query);
     return getCurrentPart().entries.filter((entry) => {
@@ -885,7 +976,9 @@
         JSON.stringify({
           partId: state.partId,
           view: state.view,
-          strategySectionId: state.strategySectionId,
+          strategyGuideId: state.strategyGuideId,
+          strategySectionByGuide: state.strategySectionByGuide,
+          strategySectionId: state.strategySectionByGuide["ih-review"],
           showTranslations: state.showTranslations,
           rate: state.rate,
           volume: state.volume,

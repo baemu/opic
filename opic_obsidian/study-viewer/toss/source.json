@@ -283,22 +283,29 @@
   ],
   "strategyGuide": {
     "target": "IH",
-    "title": "IH 시험 전략",
-    "summary": "짧고 확실한 문장으로 정해 둔 답변 흐름을 끝까지 수행한다.",
-    "disclaimer": "공식 시간과 문항 형식은 IIBC 안내를 기준으로 했으며, 공부법은 개인 후기를 IH 연습용으로 재구성했습니다. 메모는 시험장에서 감독 안내로 허용된 공간과 시간 안에서만 사용하세요.",
-    "sources": [
+    "title": "시험 전략",
+    "defaultGuideId": "ih-review",
+    "guides": [
       {
-        "label": "공식 시험 형식 · IIBC",
-        "url": "https://www.iibc-global.org/english/toeic/test/speaking/about/format.html",
-        "kind": "official"
-      },
-      {
-        "label": "IH 공부 후기 · 커뮤니티",
-        "url": "https://gall.dcinside.com/mgallery/board/view/?id=toeicspeaking&no=42110",
-        "kind": "community"
-      }
-    ],
-    "sections": [
+        "id": "ih-review",
+        "tab": "IH 후기 전략",
+        "target": "IH",
+        "title": "IH 시험 전략",
+        "summary": "짧고 확실한 문장으로 정해 둔 답변 흐름을 끝까지 수행한다.",
+        "disclaimer": "공식 시간과 문항 형식은 IIBC 안내를 기준으로 했으며, 공부법은 개인 후기를 IH 연습용으로 재구성했습니다. 메모는 시험장에서 감독 안내로 허용된 공간과 시간 안에서만 사용하세요.",
+        "sources": [
+          {
+            "label": "공식 시험 형식 · IIBC",
+            "url": "https://www.iibc-global.org/english/toeic/test/speaking/about/format.html",
+            "kind": "official"
+          },
+          {
+            "label": "IH 공부 후기 · 커뮤니티",
+            "url": "https://gall.dcinside.com/mgallery/board/view/?id=toeicspeaking&no=42110",
+            "kind": "community"
+          }
+        ],
+        "sections": [
       {
         "id": "overview",
         "tab": "전체 흐름",
@@ -749,6 +756,525 @@
         "warnings": [
           "질문과 맞지 않는 이유를 억지로 연결하지 말고 가장 자연스러운 한 묶음만 선택하세요.",
           "Q11에서는 같은 이유 묶음을 두 번 반복하지 마세요."
+        ]
+      }
+        ]
+      },
+      {
+        "id": "clock-rabbit",
+        "tab": "시계토끼 핵심 이론",
+        "target": "IH",
+        "title": "시계토끼 Part 1–5 핵심 이론",
+        "summary": "긴 강의를 파트별 준비 순서와 바로 말할 수 있는 문장으로 압축한다.",
+        "videoUrl": "https://www.youtube.com/watch?v=V-K8dpH9R-0",
+        "disclaimer": "준비·답변 시간과 문항 형식은 IIBC 공식 안내를 기준으로 했습니다. 발음, 답변 구성, 연습법은 시계토끼 영상 강사의 학습 조언을 자동 자막 오류를 바로잡아 요약한 내용이며 공식 채점 기준이나 점수 보장을 뜻하지 않습니다. 메모는 시험장에서 허용된 경우에만 사용하세요.",
+        "sources": [
+          {
+            "label": "공식 시험 형식 · IIBC",
+            "url": "https://www.iibc-global.org/english/toeic/test/speaking/about/format.html",
+            "kind": "official"
+          },
+          {
+            "label": "핵심 이론 영상 · 시계토끼",
+            "url": "https://www.youtube.com/watch?v=V-K8dpH9R-0",
+            "kind": "video"
+          }
+        ],
+        "sections": [
+          {
+            "id": "video-overview",
+            "tab": "전체 요약",
+            "kicker": "VIDEO GUIDE · 00:00",
+            "title": "쉬운 문장과 고정된 순서로 11문항 끝까지",
+            "lead": "영상의 공통 원칙은 어려운 문장을 즉석에서 만들기보다 질문을 정확히 파악하고, 익숙한 문장 덩어리를 문제에 맞게 바꾸어 끝까지 말하는 것입니다.",
+            "chapter": {
+              "label": "00:00",
+              "startSeconds": 0
+            },
+            "facts": [
+              { "label": "영상 길이", "value": "2시간 55분" },
+              { "label": "범위", "value": "Part 1–5" },
+              { "label": "시험", "value": "11문항 · 약 20분" },
+              { "label": "복습", "value": "5–10분" }
+            ],
+            "timings": [
+              { "questions": "Q1–2", "task": "지문 읽기", "prep": "각 45초", "response": "각 45초" },
+              { "questions": "Q3–4", "task": "사진 묘사", "prep": "각 45초", "response": "각 30초" },
+              { "questions": "Q5–6", "task": "질문 답변", "prep": "없음 · 시작 전 3초", "response": "각 15초" },
+              { "questions": "Q7", "task": "질문 답변", "prep": "없음 · 시작 전 3초", "response": "30초" },
+              { "questions": "Q8–9", "task": "자료 활용", "prep": "자료 45초 · 시작 전 3초", "response": "각 15초" },
+              { "questions": "Q10", "task": "자료 활용 · 질문 2회", "prep": "자료 45초 · 시작 전 3초", "response": "30초" },
+              { "questions": "Q11", "task": "의견 제시", "prep": "45초", "response": "60초" }
+            ],
+            "checklists": [
+              {
+                "title": "공통 연습 원칙",
+                "items": [
+                  "질문에서 요구하는 결론을 첫 문장에 바로 말한다.",
+                  "복잡한 문법보다 짧고 정확한 문장을 여러 개 연결한다.",
+                  "외운 만능문장은 주어·시제·조건을 문제에 맞게 바꾼다.",
+                  "눈으로만 읽지 말고 제한 시간에 맞춰 반복해서 소리 내어 말한다."
+                ]
+              },
+              {
+                "title": "파트별 준비 순서",
+                "items": [
+                  "Part 1은 어려운 발음과 끊어 읽을 위치를 먼저 찾는다.",
+                  "Part 2는 장소와 중심 대상을 정한 뒤 위치별로 묘사한다.",
+                  "Part 3·5는 결론을 고르고 이유 문장을 질문에 맞게 변형한다.",
+                  "Part 4는 질문의 핵심어와 표의 행·열을 연결한다."
+                ]
+              }
+            ],
+            "flowTitle": "파트별 핵심 한 줄",
+            "flow": [
+              { "number": "1", "title": "Part 1", "description": "정확한 발음·강세·의미 단위 끊기" },
+              { "number": "2", "title": "Part 2", "description": "장소 → 중심 대상 → 위치별 세부 묘사" },
+              { "number": "3", "title": "Part 3", "description": "직접 답변 → 이유·세부 정보 → 필요하면 경험" },
+              { "number": "4", "title": "Part 4", "description": "질문 핵심어 → 표 위치 → 완전한 문장" },
+              { "number": "5", "title": "Part 5", "description": "의견 → 이유 → 경험 → 추가 이유 → 결론" }
+            ],
+            "warnings": [
+              "영상에서 제시하는 점수 관련 설명은 강사의 경험과 학습 전략이며 공식 채점표로 단정하지 않습니다.",
+              "외운 문장을 문제와 관계없이 그대로 붙이면 내용 적합성이 떨어질 수 있습니다."
+            ]
+          },
+          {
+            "id": "video-part1",
+            "tab": "Part 1",
+            "kicker": "READ A TEXT ALOUD · 00:00",
+            "title": "빠르게 읽기보다 정확하고 자연스럽게 전달하기",
+            "lead": "45초 동안 전체 지문을 한 번 소리 내어 읽고 어려운 단어와 끊어 읽을 위치를 확인합니다. 답변에서는 자음, 핵심어 강세, 자연스러운 억양을 우선합니다.",
+            "chapter": {
+              "label": "00:00",
+              "startSeconds": 0
+            },
+            "facts": [
+              { "label": "문항", "value": "Q1–2" },
+              { "label": "준비", "value": "각 45초" },
+              { "label": "답변", "value": "각 45초" },
+              { "label": "핵심", "value": "발음 · 강세 · 억양" }
+            ],
+            "checklists": [
+              {
+                "title": "준비 45초",
+                "items": [
+                  "처음부터 끝까지 한 번 소리 내어 읽으며 문장 구조를 파악한다.",
+                  "고유명사, 숫자, 날짜, 시간과 발음이 어려운 단어를 반복한다.",
+                  "쉼표와 의미 단위 앞에 짧게 끊을 위치를 표시한다."
+                ]
+              },
+              {
+                "title": "전달 점검",
+                "items": [
+                  "R·L·F·V와 축약형을 한국어식으로 뭉개지 않는다.",
+                  "명사·동사와 이름·숫자·부정어·please 같은 핵심어를 강조한다.",
+                  "짧은 문장은 지나치게 잘게 끊지 않고 한 호흡으로 읽는다."
+                ]
+              }
+            ],
+            "flowTitle": "45초 준비 순서",
+            "flow": [
+              { "number": "1", "title": "전체 읽기", "description": "지문을 한 번 끝까지 소리 내어 읽는다." },
+              { "number": "2", "title": "어려운 말", "description": "발음이 불안한 단어와 숫자를 반복한다." },
+              { "number": "3", "title": "강세 표시", "description": "핵심 명사·동사와 부정어를 더 분명하게 읽는다." },
+              { "number": "4", "title": "첫 문장 준비", "description": "시작부터 자신 있게 읽을 수 있도록 첫 문장을 다시 확인한다." }
+            ],
+            "templateTitle": "강세와 끊어 읽기 연습",
+            "templates": [
+              {
+                "id": "video-p1-key-information",
+                "title": "이름·숫자·시간 강조",
+                "caption": "핵심 정보를 또렷하게",
+                "english": [
+                  "Please join us for the annual community meeting.",
+                  "The event will begin at nine thirty on Friday.",
+                  "All employees must submit the form by May fifteenth."
+                ],
+                "korean": [
+                  "연례 지역 모임에 참석해 주세요.",
+                  "행사는 금요일 오전 9시 30분에 시작합니다.",
+                  "모든 직원은 5월 15일까지 양식을 제출해야 합니다."
+                ]
+              }
+            ],
+            "warnings": [
+              "시간을 채우려고 속도를 늦추거나 끝난 문장을 다시 읽지 말고 자연스럽게 마칩니다.",
+              "모든 단어를 강하게 읽으면 오히려 핵심 정보가 드러나지 않습니다."
+            ]
+          },
+          {
+            "id": "video-part2",
+            "tab": "Part 2",
+            "kicker": "DESCRIBE A PICTURE · 15:14",
+            "title": "장소와 중심 대상을 먼저 말하고 위치별로 확장하기",
+            "lead": "사진 전체를 무작정 나열하지 말고, 장소와 가장 눈에 띄는 대상을 먼저 정한 뒤 왼쪽·오른쪽·배경 순서로 4~5문장을 완성합니다.",
+            "chapter": {
+              "label": "15:14",
+              "startSeconds": 914
+            },
+            "facts": [
+              { "label": "문항", "value": "Q3–4" },
+              { "label": "준비", "value": "각 45초" },
+              { "label": "답변", "value": "각 30초" },
+              { "label": "목표", "value": "4–5문장" }
+            ],
+            "checklists": [
+              {
+                "title": "사진을 보는 순서",
+                "items": [
+                  "정확한 장소를 모르겠으면 indoors 또는 outdoors로 안전하게 시작한다.",
+                  "가장 눈에 띄는 사람이나 사물을 중심 대상으로 선택한다.",
+                  "foreground, background, left, right로 묘사 순서를 고정한다.",
+                  "사람이 많으면 전체 느낌보다 중요한 행동 묘사를 우선한다."
+                ]
+              }
+            ],
+            "flowTitle": "사진 묘사 4단계",
+            "flow": [
+              { "number": "1", "title": "장소", "description": "This is a picture taken at/in..." },
+              { "number": "2", "title": "중심 대상", "description": "The first thing I can see is..." },
+              { "number": "3", "title": "위치별 세부", "description": "On the left/right, In the background..." },
+              { "number": "4", "title": "선택적 마무리", "description": "시간이 남고 사진이 단순할 때 전체 느낌을 덧붙인다." }
+            ],
+            "templateTitle": "사람·사물 사진 기본 틀",
+            "templates": [
+              {
+                "id": "video-p2-people-photo",
+                "title": "사람이 있는 사진",
+                "caption": "장소 → 중심 인물 → 좌우 → 배경",
+                "english": [
+                  "This is a picture taken in an office.",
+                  "The first thing I can see is a woman sitting at a desk.",
+                  "On the left side, a man is talking on the phone.",
+                  "In the background, there are several shelves."
+                ],
+                "korean": [
+                  "사무실에서 찍힌 사진입니다.",
+                  "가장 먼저 보이는 것은 책상에 앉아 있는 여성입니다.",
+                  "왼쪽에서는 한 남성이 전화 통화를 하고 있습니다.",
+                  "배경에는 선반이 여러 개 있습니다."
+                ]
+              },
+              {
+                "id": "video-p2-object-photo",
+                "title": "장소가 불확실한 사물 사진",
+                "caption": "indoors로 안전하게 시작",
+                "english": [
+                  "This is a picture taken indoors.",
+                  "In the foreground, there is a table with several boxes on it.",
+                  "On the right side, I can see a large window.",
+                  "Overall, the place looks clean and organized."
+                ],
+                "korean": [
+                  "실내에서 찍힌 사진입니다.",
+                  "앞쪽에는 상자 여러 개가 놓인 탁자가 있습니다.",
+                  "오른쪽에는 큰 창문이 보입니다.",
+                  "전체적으로 그 장소는 깨끗하고 정돈되어 보입니다."
+                ]
+              }
+            ],
+            "warnings": [
+              "보이지 않는 관계나 감정을 추측하지 말고 사진에서 확인되는 행동과 사물만 말합니다.",
+              "세부 묘사부터 시작해 장소와 중심 대상을 빠뜨리지 않도록 합니다."
+            ]
+          },
+          {
+            "id": "video-part3",
+            "tab": "Part 3",
+            "kicker": "RESPOND TO QUESTIONS · 26:39",
+            "title": "질문 표현을 재활용하고 쉬운 이유로 바로 확장하기",
+            "lead": "3초 안에 가장 말하기 쉬운 답을 고르고 질문의 주어와 소유격을 I·my로 바꿔 첫 문장을 만듭니다. Q7은 이유 두 개 또는 이유 하나와 짧은 경험으로 확장합니다.",
+            "chapter": {
+              "label": "26:39",
+              "startSeconds": 1599
+            },
+            "facts": [
+              { "label": "문항", "value": "Q5–7" },
+              { "label": "시작 전", "value": "각 3초" },
+              { "label": "Q5–6", "value": "각 15초" },
+              { "label": "Q7", "value": "30초" }
+            ],
+            "checklists": [
+              {
+                "title": "3초 결정",
+                "items": [
+                  "실제 취향보다 바로 이유를 붙일 수 있는 답을 선택한다.",
+                  "질문의 you·your를 I·my로 정확하게 바꾼다.",
+                  "답을 고친다고 멈추지 말고 처음 선택한 방향을 끝까지 유지한다."
+                ]
+              },
+              {
+                "title": "만능문장 변형",
+                "items": [
+                  "주어를 students, employees, people, I 중 질문에 맞게 바꾼다.",
+                  "if·when 뒤에 질문의 조건을 넣어 관련성을 분명하게 만든다.",
+                  "경험을 말할 때는 can을 was able to처럼 과거형으로 바꾼다."
+                ]
+              }
+            ],
+            "flowTitle": "Q7 30초 흐름",
+            "flow": [
+              { "number": "1", "title": "선택", "description": "I prefer... 또는 I think...로 결론부터 말한다." },
+              { "number": "2", "title": "이유 1", "description": "가장 쉬운 이유와 효과를 연결한다." },
+              { "number": "3", "title": "이유 2", "description": "다른 이유를 덧붙이거나 짧은 경험으로 바꾼다." },
+              { "number": "4", "title": "마무리", "description": "시간이 남으면 처음 선택을 한 문장으로 다시 확인한다." }
+            ],
+            "templateTitle": "15초·30초 답변 틀",
+            "templates": [
+              {
+                "id": "video-p3-short-answer",
+                "title": "Q5–6 직접 답변",
+                "caption": "대답 + 이유·세부 정보",
+                "english": [
+                  "Yes, I usually shop online.",
+                  "I do it because it is convenient and saves me time."
+                ],
+                "korean": [
+                  "네, 저는 보통 온라인으로 쇼핑합니다.",
+                  "편리하고 시간을 절약해 주기 때문에 그렇게 합니다."
+                ]
+              },
+              {
+                "id": "video-p3-long-answer",
+                "title": "Q7 이유 두 개",
+                "caption": "선택 → 이유 1 → 이유 2 → 결론",
+                "english": [
+                  "I prefer studying at home.",
+                  "First, I can focus better in a quiet place.",
+                  "Also, I can study whenever I have free time.",
+                  "That is why studying at home is better for me."
+                ],
+                "korean": [
+                  "저는 집에서 공부하는 것을 더 좋아합니다.",
+                  "첫째, 조용한 장소에서 더 잘 집중할 수 있습니다.",
+                  "또한 시간이 날 때마다 공부할 수 있습니다.",
+                  "그래서 저에게는 집에서 공부하는 것이 더 좋습니다."
+                ]
+              },
+              {
+                "id": "video-p3-experience-backup",
+                "title": "이유가 하나뿐일 때",
+                "caption": "짧은 과거 경험으로 보강",
+                "english": [
+                  "I think public transportation is more convenient.",
+                  "The other day, I took the subway to an important meeting.",
+                  "I arrived on time without worrying about parking.",
+                  "It was very helpful."
+                ],
+                "korean": [
+                  "저는 대중교통이 더 편리하다고 생각합니다.",
+                  "며칠 전 중요한 회의에 가려고 지하철을 탔습니다.",
+                  "주차를 걱정하지 않고 제시간에 도착했습니다.",
+                  "정말 도움이 되었습니다."
+                ]
+              }
+            ],
+            "warnings": [
+              "더 멋진 답을 찾느라 3초를 보내지 말고 말하기 쉬운 선택을 바로 고릅니다.",
+              "질문의 핵심 명사를 바꾸지 않은 채 만능문장만 말하지 않도록 합니다."
+            ]
+          },
+          {
+            "id": "video-part4",
+            "tab": "Part 4",
+            "kicker": "RESPOND USING INFORMATION · 58:54",
+            "title": "질문의 핵심어를 표의 행과 열에 연결하기",
+            "lead": "45초 동안 표의 제목, 날짜, 시간, 분류와 반복 정보를 먼저 확인합니다. 질문을 들은 뒤 해당 칸을 찾고 날짜에는 on, 시간에는 at을 붙여 완전한 문장으로 답합니다.",
+            "chapter": {
+              "label": "58:54",
+              "startSeconds": 3534
+            },
+            "facts": [
+              { "label": "문항", "value": "Q8–10" },
+              { "label": "자료 읽기", "value": "45초" },
+              { "label": "Q8–9", "value": "각 15초" },
+              { "label": "Q10", "value": "30초 · 질문 2회" }
+            ],
+            "checklists": [
+              {
+                "title": "자료 읽기 45초",
+                "items": [
+                  "표의 제목을 보고 행사·개인 일정·이력서·면접·수업 중 유형을 정한다.",
+                  "날짜, 시작·종료 시간, 장소, 가격과 열 제목을 확인한다.",
+                  "같은 주제나 사람이 반복되는 행을 찾아 Q10 후보로 기억한다.",
+                  "이름과 직책처럼 발음하기 어려운 단어를 미리 읽어 본다."
+                ]
+              },
+              {
+                "title": "표 유형별 초점",
+                "items": [
+                  "행사·개인 일정은 when, where, start, finish를 확인한다.",
+                  "이력서는 학력, 경력, 기술과 과거·현재 시제를 구분한다.",
+                  "면접 일정은 지원자, 회사, 지원 직무와 시간을 연결한다.",
+                  "수업 일정은 강사, 요일, 시간, 가격과 무료 조건을 확인한다."
+                ]
+              }
+            ],
+            "flowTitle": "문항별 답변 방식",
+            "flow": [
+              { "number": "8", "title": "직접 답변", "description": "질문 핵심어와 일치하는 한 칸을 찾아 한두 문장으로 말한다." },
+              { "number": "9", "title": "정보 정정", "description": "No 또는 정정 표현 뒤에 표의 정확한 정보를 말한다." },
+              { "number": "10", "title": "여러 일정", "description": "개수를 먼저 말한 뒤 First, Next로 모든 관련 항목을 나열한다." }
+            ],
+            "templateTitle": "표 읽기 기본 문장",
+            "templates": [
+              {
+                "id": "video-p4-direct-information",
+                "title": "날짜와 시간",
+                "caption": "on + 날짜 · at + 시각 · from A to B",
+                "english": [
+                  "The workshop will be held on Friday, September fifteenth.",
+                  "It will start at nine a.m. and finish at eleven a.m."
+                ],
+                "korean": [
+                  "워크숍은 9월 15일 금요일에 열립니다.",
+                  "오전 9시에 시작해서 오전 11시에 끝납니다."
+                ]
+              },
+              {
+                "id": "video-p4-correction",
+                "title": "Q9 정보 정정",
+                "caption": "틀렸다고 알린 뒤 정확한 정보",
+                "english": [
+                  "I'm afraid you have the wrong information.",
+                  "The meeting will start at two p.m., not at three p.m."
+                ],
+                "korean": [
+                  "유감이지만 잘못된 정보를 알고 계십니다.",
+                  "회의는 오후 3시가 아니라 오후 2시에 시작합니다."
+                ]
+              },
+              {
+                "id": "video-p4-multiple-items",
+                "title": "Q10 관련 일정 두 개",
+                "caption": "개수 → First → Next",
+                "english": [
+                  "There are two sessions about marketing.",
+                  "First, Digital Marketing will start at ten a.m.",
+                  "Next, Social Media Strategy will begin at one p.m."
+                ],
+                "korean": [
+                  "마케팅에 관한 세션은 두 개 있습니다.",
+                  "첫째, 디지털 마케팅은 오전 10시에 시작합니다.",
+                  "다음으로 소셜 미디어 전략은 오후 1시에 시작합니다."
+                ]
+              },
+              {
+                "id": "video-p4-resume",
+                "title": "이력서 경력 설명",
+                "caption": "학력과 과거 경력",
+                "english": [
+                  "She got a bachelor's degree in business from Green University in 2022.",
+                  "She worked at ABC Company as a sales assistant from 2022 to 2024."
+                ],
+                "korean": [
+                  "그녀는 2022년에 그린 대학교에서 경영학 학사 학위를 받았습니다.",
+                  "그녀는 2022년부터 2024년까지 ABC 회사에서 영업 보조로 일했습니다."
+                ]
+              }
+            ],
+            "warnings": [
+              "표의 단어만 읽지 말고 주어와 동사를 갖춘 완전한 문장으로 답합니다.",
+              "Q10에서 첫 번째 항목을 길게 설명해 두 번째 항목을 빠뜨리지 않도록 합니다."
+            ]
+          },
+          {
+            "id": "video-part5",
+            "tab": "Part 5",
+            "kicker": "EXPRESS AN OPINION · 2:01:20",
+            "title": "의견을 먼저 정하고 이유와 경험을 한 흐름으로 연결하기",
+            "lead": "45초 준비 시간에는 질문을 정확히 이해하고 입장과 이유를 고릅니다. 60초 답변에서는 최소한 의견, 이유 하나, 구체적인 경험을 완성하고 여유가 있으면 두 번째 이유와 결론을 붙입니다.",
+            "chapter": {
+              "label": "2:01:20",
+              "startSeconds": 7280
+            },
+            "facts": [
+              { "label": "문항", "value": "Q11" },
+              { "label": "준비", "value": "45초" },
+              { "label": "답변", "value": "60초" },
+              { "label": "목표", "value": "이유 + 구체적 경험" }
+            ],
+            "checklists": [
+              {
+                "title": "준비 45초",
+                "items": [
+                  "처음 10초 정도는 질문과 선택지를 정확히 이해하는 데 사용한다.",
+                  "찬반보다 바로 경험과 근거를 말할 수 있는 입장을 선택한다.",
+                  "이유 한두 개와 연결할 경험의 장소·행동·결과만 떠올린다.",
+                  "메모가 허용되면 문장 전체가 아닌 짧은 키워드만 적는다."
+                ]
+              },
+              {
+                "title": "60초 우선순위",
+                "items": [
+                  "첫 문장에서 질문에 대한 의견을 명확하게 밝힌다.",
+                  "이유를 말한 뒤 반드시 왜 그런지 보여 주는 경험이나 예시를 붙인다.",
+                  "시간이 부족하면 두 번째 이유보다 첫 번째 이유와 경험을 완결한다.",
+                  "남은 시간에는 추가 이유와 결론으로 처음 의견을 다시 확인한다."
+                ]
+              }
+            ],
+            "flowTitle": "60초 답변 7단계",
+            "flow": [
+              { "number": "1", "title": "의견", "description": "I agree, I disagree, I think 중 하나로 입장을 먼저 말한다." },
+              { "number": "2", "title": "연결", "description": "Let me explain why.로 이유를 시작한다." },
+              { "number": "3", "title": "이유 1", "description": "Most of all 뒤에 가장 쉬운 이유를 말한다." },
+              { "number": "4", "title": "경험", "description": "From my experience 뒤에 상황·행동·결과를 과거형으로 말한다." },
+              { "number": "5", "title": "이유 2", "description": "On top of that으로 다른 효과를 덧붙인다." },
+              { "number": "6", "title": "결과", "description": "As a result로 이유가 만든 결과를 정리한다." },
+              { "number": "7", "title": "결론", "description": "For these reasons로 처음 의견을 다시 말한다." }
+            ],
+            "templateTitle": "완성 답변과 비상 답변",
+            "templates": [
+              {
+                "id": "video-p5-full-answer",
+                "title": "이유 두 개를 넣은 완성형",
+                "caption": "의견 → 이유 1 → 경험 → 이유 2 → 결론",
+                "english": [
+                  "I agree that companies should offer flexible work schedules.",
+                  "Let me explain why.",
+                  "Most of all, flexible schedules can help employees work more efficiently.",
+                  "For example, when I worked part-time, I could focus better when I chose my own schedule.",
+                  "On top of that, employees can reduce stress and maintain a better work-life balance.",
+                  "As a result, they can be more satisfied with their jobs.",
+                  "For these reasons, I support flexible work schedules."
+                ],
+                "korean": [
+                  "저는 회사가 유연 근무제를 제공해야 한다는 데 동의합니다.",
+                  "그 이유를 설명하겠습니다.",
+                  "무엇보다 유연한 일정은 직원들이 더 효율적으로 일하도록 도와줍니다.",
+                  "예를 들어 제가 아르바이트를 했을 때 일정을 직접 선택하니 더 잘 집중할 수 있었습니다.",
+                  "게다가 직원들은 스트레스를 줄이고 일과 삶의 균형을 더 잘 유지할 수 있습니다.",
+                  "그 결과 자신의 일에 더 만족할 수 있습니다.",
+                  "이러한 이유로 저는 유연 근무제를 지지합니다."
+                ]
+              },
+              {
+                "id": "video-p5-one-reason-backup",
+                "title": "이유가 하나뿐인 비상 답변",
+                "caption": "의견 → 이유 → 경험 → 결과 → 결론",
+                "english": [
+                  "I think taking online classes is beneficial.",
+                  "The main reason is that they are convenient.",
+                  "For example, I took an online course last year and studied whenever I had free time.",
+                  "It saved me a lot of time, so I was able to finish the course successfully.",
+                  "Therefore, I believe online classes are a good option."
+                ],
+                "korean": [
+                  "저는 온라인 수업을 듣는 것이 유익하다고 생각합니다.",
+                  "가장 큰 이유는 편리하기 때문입니다.",
+                  "예를 들어 작년에 온라인 강의를 들으며 시간이 날 때마다 공부했습니다.",
+                  "시간을 많이 절약해서 강의를 성공적으로 마칠 수 있었습니다.",
+                  "따라서 온라인 수업은 좋은 선택이라고 생각합니다."
+                ]
+              }
+            ],
+            "warnings": [
+              "이유만 여러 개 나열하지 말고 최소한 하나는 구체적인 경험이나 예시로 뒷받침합니다.",
+              "외운 문장의 주어와 시제를 질문에 맞게 바꾸지 않으면 문법과 내용이 어색해집니다."
+            ]
+          }
         ]
       }
     ]
