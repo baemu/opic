@@ -41,6 +41,7 @@
     memoryProgress: document.getElementById("memoryProgress"),
     memoryPosition: document.getElementById("memoryPosition"),
     referenceView: document.getElementById("referenceView"),
+    questionFormulaGuide: document.getElementById("questionFormulaGuide"),
     referenceSets: document.getElementById("referenceSets"),
     comparisonCard: document.getElementById("comparisonCard"),
     strategyView: document.getElementById("strategyView"),
@@ -98,6 +99,10 @@
     memoryNumberByPart:
       saved.memoryNumberByPart && typeof saved.memoryNumberByPart === "object"
         ? saved.memoryNumberByPart
+        : {},
+    referenceGroupByPart:
+      saved.referenceGroupByPart && typeof saved.referenceGroupByPart === "object"
+        ? saved.referenceGroupByPart
         : {},
   };
 
@@ -194,7 +199,7 @@
 
     elements.sentenceGrid.addEventListener("click", handleSpeakRequest);
     elements.sentenceGrid.addEventListener("keydown", handleSpeakKeydown);
-    elements.referenceView.addEventListener("click", handleSpeakRequest);
+    elements.referenceView.addEventListener("click", handleReferenceAction);
     elements.referenceView.addEventListener("keydown", handleSpeakKeydown);
     elements.strategyGuideTabs.addEventListener("click", (event) => {
       const button = event.target.closest("[data-strategy-guide]");
@@ -292,7 +297,7 @@
     elements.partTabs.hidden = strategyMode;
     elements.studyNav.classList.toggle("is-strategy-mode", strategyMode);
 
-    const hasReferences = Boolean(part.referenceSets?.length || part.comparisonFormula);
+    const hasReferences = partHasReferences(part);
     elements.referenceTabBtn.hidden = !hasReferences;
     elements.viewTabs.forEach((button) => {
       button.setAttribute("aria-selected", String(button.dataset.view === state.view));
@@ -399,6 +404,19 @@
 
   function renderReferences() {
     const part = getCurrentPart();
+    const questionGuide = part.questionFormulaGuide;
+    elements.questionFormulaGuide.hidden = !questionGuide;
+    elements.referenceSets.hidden = Boolean(questionGuide);
+
+    if (questionGuide) {
+      elements.referenceSets.innerHTML = "";
+      elements.comparisonCard.hidden = true;
+      elements.comparisonCard.innerHTML = "";
+      renderQuestionFormulaGuide(part, questionGuide);
+      return;
+    }
+
+    elements.questionFormulaGuide.innerHTML = "";
     elements.referenceSets.innerHTML = (part.referenceSets || [])
       .map(
         (set) => `
@@ -455,6 +473,176 @@
               .join("")}
           </div>`
       : "";
+  }
+
+  function renderQuestionFormulaGuide(part, guide) {
+    const filters = [{ id: "all", label: "전체" }, ...guide.groups];
+    const availableGroupIds = new Set(filters.map((group) => group.id));
+    const savedGroupId = state.referenceGroupByPart[part.id];
+    const groupId = availableGroupIds.has(savedGroupId) ? savedGroupId : guide.defaultGroupId;
+    state.referenceGroupByPart[part.id] = groupId;
+    const formulas = guide.formulas.filter(
+      (formula) => groupId === "all" || formula.groupId === groupId,
+    );
+
+    elements.questionFormulaGuide.innerHTML = `
+      <header class="formula-guide-heading">
+        <div class="formula-guide-title">
+          <small>Q5–7 · RESPOND TO QUESTIONS</small>
+          <h1>${escapeHtml(guide.title)}</h1>
+          <p>${escapeHtml(guide.summary)}</p>
+        </div>
+        <div class="formula-timing" aria-label="Part 3 답변 시간">
+          ${guide.timing
+            .map(
+              (item) => `
+                <div>
+                  <span>${escapeHtml(item.label)}</span>
+                  <strong>${escapeHtml(item.value)}</strong>
+                  <small>${escapeHtml(item.note)}</small>
+                </div>`,
+            )
+            .join("")}
+        </div>
+      </header>
+
+      <section class="formula-overview" aria-label="빠른 답변 순서와 시제">
+        <div class="formula-steps-block">
+          <header><small>3-SECOND ROUTINE</small><h2>답변 조립 순서</h2></header>
+          <div class="formula-steps">
+            ${guide.steps
+              .map(
+                (step) => `
+                  <div class="formula-step">
+                    <span>${step.number}</span>
+                    <div><strong>${escapeHtml(step.title)}</strong><p>${escapeHtml(step.description)}</p></div>
+                  </div>`,
+              )
+              .join("")}
+          </div>
+        </div>
+        <div class="formula-tense-block">
+          <header><small>TENSE CHECK</small><h2>질문 표현별 시제</h2></header>
+          <div class="formula-tense-grid">
+            ${guide.tenseRules
+              .map(
+                (rule) => `
+                  <div class="formula-tense-item">
+                    <div><strong>${escapeHtml(rule.cue)}</strong><span>${escapeHtml(rule.tense)}</span></div>
+                    <p data-speak-text="${escapeHtml(rule.english)}" role="button" tabindex="0">${escapeHtml(rule.english)}</p>
+                    <small>${escapeHtml(rule.korean)}</small>
+                  </div>`,
+              )
+              .join("")}
+          </div>
+        </div>
+      </section>
+
+      <nav class="formula-group-tabs" role="tablist" aria-label="의문사 공식 분류">
+        ${filters
+          .map(
+            (group) => `
+              <button type="button" role="tab" data-formula-group="${escapeHtml(group.id)}" aria-selected="${group.id === groupId}">
+                ${escapeHtml(group.label)}
+              </button>`,
+          )
+          .join("")}
+      </nav>
+
+      <div class="formula-result-line"><strong>${formulas.length}개 공식</strong><span>영어 문장을 누르면 예시 발음이 재생됩니다.</span></div>
+      <section class="formula-card-grid" aria-live="polite">
+        ${formulas.map(renderQuestionFormulaCard).join("")}
+      </section>
+
+      <footer class="formula-sources">
+        <strong>자료 구분</strong>
+        <p>시험 시간은 공식 안내를 따르고, 답변 공식은 학습 자료를 바탕으로 자연스럽게 교정·보완했습니다.</p>
+        <div>
+          ${guide.sources
+            .map(
+              (source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(source.kind)}</span>${escapeHtml(source.label)}</a>`,
+            )
+            .join("")}
+        </div>
+      </footer>`;
+  }
+
+  function renderQuestionFormulaCard(formula) {
+    return `
+      <article class="question-formula-card" data-formula-id="${escapeHtml(formula.id)}">
+        <header>
+          <div><small>${escapeHtml(formula.intent)}</small><h2>${escapeHtml(formula.label)}</h2></div>
+          <span>${formula.q7Extension ? "15초 + Q7" : "15초 기본"}</span>
+        </header>
+
+        <section class="formula-card-section formula-question-section">
+          <h3>질문 형태</h3>
+          ${formula.questions
+            .map(
+              (question) => `<p data-speak-text="${escapeHtml(question.spoken)}" role="button" tabindex="0">${escapeHtml(question.pattern)}</p>`,
+            )
+            .join("")}
+        </section>
+
+        <section class="formula-card-section formula-answer-section">
+          ${renderFormulaBlockHeader("15초 기본 공식", formula.id, "answer")}
+          <div class="formula-line-list">${renderFormulaLinePairs(formula.answer)}</div>
+        </section>
+
+        ${
+          formula.q7Extension
+            ? `<section class="formula-card-section formula-q7-section">
+                ${renderFormulaBlockHeader("Q7 확장", formula.id, "q7Extension")}
+                <div class="formula-line-list">${renderFormulaLinePairs(formula.q7Extension)}</div>
+              </section>`
+            : ""
+        }
+
+        ${
+          formula.alternative
+            ? `<section class="formula-card-section formula-alternative-section">
+                ${renderFormulaBlockHeader(formula.alternative.label, formula.id, "alternative")}
+                <div class="formula-line-list">${renderFormulaLinePairs(formula.alternative)}</div>
+              </section>`
+            : ""
+        }
+
+        <section class="formula-card-section formula-substitution-section">
+          <h3>바꿔 넣기</h3>
+          <div>${formula.substitutions.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>
+        </section>
+
+        <section class="formula-card-section formula-example-section">
+          ${renderFormulaBlockHeader("완성 예문", formula.id, "example")}
+          <p class="formula-example-question" data-speak-text="${escapeHtml(formula.example.question)}" role="button" tabindex="0">${escapeHtml(formula.example.question)}</p>
+          <div class="formula-line-list">${renderFormulaLinePairs(formula.example)}</div>
+        </section>
+
+        <footer><strong>주의</strong><span>${escapeHtml(formula.tip)}</span></footer>
+      </article>`;
+  }
+
+  function renderFormulaBlockHeader(title, formulaId, field) {
+    return `
+      <div class="formula-block-heading">
+        <h3>${escapeHtml(title)}</h3>
+        <div>
+          <button type="button" data-formula-copy="${escapeHtml(formulaId)}" data-formula-field="${escapeHtml(field)}" aria-label="${escapeHtml(title)} 복사">복사</button>
+          <button type="button" data-formula-speak="${escapeHtml(formulaId)}" data-formula-field="${escapeHtml(field)}" aria-label="${escapeHtml(title)} 듣기">▶ 듣기</button>
+        </div>
+      </div>`;
+  }
+
+  function renderFormulaLinePairs(block) {
+    return block.english
+      .map(
+        (line, index) => `
+          <div class="formula-line-pair">
+            <p data-speak-text="${escapeHtml(block.spoken?.[index] || line)}" role="button" tabindex="0">${escapeHtml(line)}</p>
+            <small>${escapeHtml(block.korean[index])}</small>
+          </div>`,
+      )
+      .join("");
   }
 
   function renderStrategy() {
@@ -680,7 +868,7 @@
     if (!["list", "memorize", "reference", "strategy"].includes(view)) {
       return;
     }
-    if (view === "reference" && !getCurrentPart().referenceSets?.length) {
+    if (view === "reference" && !partHasReferences(getCurrentPart())) {
       return;
     }
     state.view = view;
@@ -728,6 +916,29 @@
     renderMemory(entries);
   }
 
+  async function handleReferenceAction(event) {
+    const groupTarget = event.target.closest("[data-formula-group]");
+    if (groupTarget) {
+      state.referenceGroupByPart[state.partId] = groupTarget.dataset.formulaGroup;
+      cancelSpeech();
+      saveState();
+      renderReferences();
+      return;
+    }
+
+    const copyTarget = event.target.closest("[data-formula-copy]");
+    if (copyTarget) {
+      const formula = getReferenceFormula(copyTarget.dataset.formulaCopy);
+      const block = getFormulaBlock(formula, copyTarget.dataset.formulaField);
+      if (block) {
+        await copyText(block.english.join("\n"));
+      }
+      return;
+    }
+
+    handleSpeakRequest(event);
+  }
+
   async function handleStrategyAction(event) {
     const copyTarget = event.target.closest("[data-strategy-copy]");
     if (copyTarget) {
@@ -748,6 +959,18 @@
   }
 
   function handleSpeakRequest(event) {
+    const formulaTarget = event.target.closest("[data-formula-speak]");
+    if (formulaTarget) {
+      if (!hasSelectedText()) {
+        const formula = getReferenceFormula(formulaTarget.dataset.formulaSpeak);
+        const block = getFormulaBlock(formula, formulaTarget.dataset.formulaField);
+        if (block) {
+          speakLines(block.spoken || block.english, formulaTarget);
+        }
+      }
+      return;
+    }
+
     const strategyTarget = event.target.closest("[data-strategy-speak]");
     if (strategyTarget) {
       if (!hasSelectedText()) {
@@ -781,7 +1004,7 @@
       return;
     }
     const target = event.target.closest(
-      "[data-speak-text], [data-entry-number], [data-strategy-speak]",
+      "[data-speak-text], [data-entry-number], [data-formula-speak], [data-strategy-speak]",
     );
     if (!target) {
       return;
@@ -801,6 +1024,17 @@
     return [...(section.templates || []), ...(section.reasonGroups || [])].find(
       (item) => item.id === id,
     );
+  }
+
+  function getReferenceFormula(id) {
+    return getCurrentPart().questionFormulaGuide?.formulas.find((formula) => formula.id === id) || null;
+  }
+
+  function getFormulaBlock(formula, field) {
+    if (!formula || !["answer", "q7Extension", "alternative", "example"].includes(field)) {
+      return null;
+    }
+    return formula[field] || null;
   }
 
   async function copyText(value) {
@@ -909,9 +1143,15 @@
   }
 
   function ensureViewIsAvailable() {
-    if (state.view === "reference" && !getCurrentPart()?.referenceSets?.length) {
+    if (state.view === "reference" && !partHasReferences(getCurrentPart())) {
       state.view = "list";
     }
+  }
+
+  function partHasReferences(part) {
+    return Boolean(
+      part?.questionFormulaGuide || part?.referenceSets?.length || part?.comparisonFormula,
+    );
   }
 
   function ensureMemorySelection(entries = getFilteredEntries()) {
@@ -984,6 +1224,7 @@
           volume: state.volume,
           voiceURI: state.voiceURI,
           memoryNumberByPart: state.memoryNumberByPart,
+          referenceGroupByPart: state.referenceGroupByPart,
         }),
       );
     } catch {

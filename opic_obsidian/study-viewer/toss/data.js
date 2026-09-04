@@ -1080,7 +1080,880 @@ window.TOEIC_SPEAKING_DATA = {
             "그것들은 너무 구식이어서 새로운 것이 있으면 좋을 것 같다."
           ]
         }
-      ]
+      ],
+      "questionFormulaGuide": {
+        "title": "Part 3 의문사 만능공식",
+        "summary": "질문의 의문사와 시제를 먼저 잡고, 직접 대답한 뒤 세부 정보 한 문장을 붙입니다.",
+        "defaultGroupId": "all",
+        "timing": [
+          {
+            "label": "Q5·6",
+            "value": "15초",
+            "note": "짧은 2문장 우선"
+          },
+          {
+            "label": "Q7",
+            "value": "30초",
+            "note": "이유와 결과까지 4문장"
+          },
+          {
+            "label": "답변 전",
+            "value": "각 3초",
+            "note": "의문사와 시제 확인"
+          }
+        ],
+        "steps": [
+          {
+            "number": 1,
+            "title": "의문사 찾기",
+            "description": "Who, Where, When, How처럼 무엇을 묻는지 먼저 확인합니다."
+          },
+          {
+            "number": 2,
+            "title": "바로 대답",
+            "description": "질문의 동사와 명사를 재사용해 첫 문장을 바로 완성합니다."
+          },
+          {
+            "number": 3,
+            "title": "정보 하나 추가",
+            "description": "사람, 장소, 시간, 빈도 또는 이유 중 하나만 덧붙입니다."
+          }
+        ],
+        "tenseRules": [
+          {
+            "cue": "usually · normally",
+            "tense": "현재형",
+            "english": "I usually exercise after work.",
+            "korean": "평소 습관은 현재형으로 말합니다."
+          },
+          {
+            "cue": "the last time",
+            "tense": "과거형",
+            "english": "The last time I exercised was yesterday.",
+            "korean": "마지막 경험과 세부 행동은 과거형으로 말합니다."
+          },
+          {
+            "cue": "How long have ...?",
+            "tense": "현재완료",
+            "english": "I have lived here for five years.",
+            "korean": "계속된 기간은 현재완료와 for 또는 since를 사용합니다."
+          },
+          {
+            "cue": "Have you ever ...?",
+            "tense": "현재완료 → 과거형",
+            "english": "Yes, I have. I tried it last year.",
+            "korean": "경험 여부는 현재완료로 답하고 구체적인 경험은 과거형으로 말합니다."
+          }
+        ],
+        "groups": [
+          {
+            "id": "people-place",
+            "label": "사람/장소"
+          },
+          {
+            "id": "time-frequency",
+            "label": "시간/빈도"
+          },
+          {
+            "id": "method-quantity",
+            "label": "방법/수량"
+          },
+          {
+            "id": "content-choice",
+            "label": "내용/선택"
+          },
+          {
+            "id": "experience-check",
+            "label": "경험/확인"
+          }
+        ],
+        "formulas": [
+          {
+            "id": "who-with-whom",
+            "groupId": "people-place",
+            "label": "WHO · WITH WHOM",
+            "intent": "누구와 함께하는지",
+            "questions": [
+              {
+                "pattern": "Who do you usually [verb] with?",
+                "spoken": "Who do you usually go shopping with?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I usually [verb] with [person].",
+                "We normally do it together [time]."
+              ],
+              "spoken": [
+                "I usually go shopping with my sister.",
+                "We normally do it together on weekends."
+              ],
+              "korean": [
+                "나는 보통 [사람]과 [동사]합니다.",
+                "우리는 보통 [시간]에 그것을 함께 합니다."
+              ]
+            },
+            "substitutions": [
+              "[person] my friends · my family · a coworker",
+              "[time] on weekends · after work · in the evening"
+            ],
+            "example": {
+              "question": "Who do you usually exercise with?",
+              "english": [
+                "I usually exercise with my friend.",
+                "We go to a gym near my house after work."
+              ],
+              "korean": [
+                "나는 보통 친구와 운동합니다.",
+                "우리는 퇴근 후 집 근처 헬스장에 갑니다."
+              ]
+            },
+            "tip": "질문 끝의 with를 놓치지 말고 사람을 첫 문장에 바로 넣습니다."
+          },
+          {
+            "id": "where",
+            "groupId": "people-place",
+            "label": "WHERE",
+            "intent": "활동 장소·구매 장소·정보 출처",
+            "questions": [
+              {
+                "pattern": "Where do you usually [verb]?",
+                "spoken": "Where do you usually exercise?"
+              },
+              {
+                "pattern": "Where do you usually buy [item]?",
+                "spoken": "Where do you usually buy clothes?"
+              },
+              {
+                "pattern": "Where do you usually get information about [topic]?",
+                "spoken": "Where do you usually get information about local events?"
+              },
+              {
+                "pattern": "Where is the best place to [verb] in your area?",
+                "spoken": "Where is the best place to buy groceries in your area?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I usually [verb] at [place].",
+                "I usually buy [item] online.",
+                "I usually get information about [topic] online.",
+                "The best place to [verb] is [place]."
+              ],
+              "spoken": [
+                "I usually exercise at a local gym.",
+                "I usually buy clothes online.",
+                "I usually get information about local events online.",
+                "The best place to buy groceries is the local market."
+              ],
+              "korean": [
+                "나는 보통 [장소]에서 [동사]합니다.",
+                "나는 보통 [물건]을 온라인으로 삽니다.",
+                "나는 보통 [주제]에 관한 정보를 온라인에서 얻습니다.",
+                "[동사]하기 가장 좋은 곳은 [장소]입니다."
+              ]
+            },
+            "substitutions": [
+              "[place] home · a local gym · a shopping mall",
+              "online · on the Internet"
+            ],
+            "example": {
+              "question": "Where do you usually buy household items?",
+              "english": [
+                "I usually buy household items online.",
+                "It is convenient because I can shop at home."
+              ],
+              "korean": [
+                "나는 보통 생활용품을 온라인으로 삽니다.",
+                "집에서 쇼핑할 수 있어서 편리합니다."
+              ]
+            },
+            "tip": "장소는 at, 인터넷은 online 또는 on the Internet를 사용합니다."
+          },
+          {
+            "id": "when-what-time",
+            "groupId": "time-frequency",
+            "label": "WHEN · WHAT TIME",
+            "intent": "평소 하는 시간·시기",
+            "questions": [
+              {
+                "pattern": "When do you usually [verb]?",
+                "spoken": "When do you usually visit museums?"
+              },
+              {
+                "pattern": "What time of day do you usually [verb]?",
+                "spoken": "What time of day do you usually exercise?"
+              },
+              {
+                "pattern": "What time of year do you [verb] most often?",
+                "spoken": "What time of year do you travel most often?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I usually [verb] [time].",
+                "That is when I have the most free time."
+              ],
+              "spoken": [
+                "I usually visit museums on weekends.",
+                "That is when I have the most free time."
+              ],
+              "korean": [
+                "나는 보통 [시간]에 [동사]합니다.",
+                "그때가 내가 자유 시간이 가장 많을 때입니다."
+              ]
+            },
+            "substitutions": [
+              "[time] in the morning · in the evening · on weekends",
+              "[season] in spring · in summer · during the holidays"
+            ],
+            "example": {
+              "question": "What time of day do you usually read books?",
+              "english": [
+                "I usually read books in the evening.",
+                "That is when my home is quiet and peaceful."
+              ],
+              "korean": [
+                "나는 보통 저녁에 책을 읽습니다.",
+                "그때 집이 조용하고 평화롭기 때문입니다."
+              ]
+            },
+            "tip": "시각에는 at, 하루의 때와 계절에는 in, 요일과 주말에는 on을 사용합니다."
+          },
+          {
+            "id": "last-time",
+            "groupId": "time-frequency",
+            "label": "WHEN WAS THE LAST TIME",
+            "intent": "가장 최근의 과거 경험",
+            "questions": [
+              {
+                "pattern": "When was the last time you [past verb]?",
+                "spoken": "When was the last time you went to a park?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "The last time I [past verb] was [past time].",
+                "I [past detail]."
+              ],
+              "spoken": [
+                "The last time I went to a park was two weeks ago.",
+                "I took a walk with my friend."
+              ],
+              "korean": [
+                "내가 마지막으로 [과거 동사]한 것은 [과거 시점]이었습니다.",
+                "나는 [과거의 세부 행동]을 했습니다."
+              ]
+            },
+            "substitutions": [
+              "[past time] yesterday · two weeks ago · last month",
+              "[past detail] went with a friend · took some pictures · had a great time"
+            ],
+            "example": {
+              "question": "When was the last time you visited a library?",
+              "english": [
+                "The last time I visited a library was last Saturday.",
+                "I borrowed two books for a school project."
+              ],
+              "korean": [
+                "내가 마지막으로 도서관에 간 것은 지난 토요일이었습니다.",
+                "학교 과제를 위해 책 두 권을 빌렸습니다."
+              ]
+            },
+            "tip": "첫 문장과 세부 행동 모두 과거형으로 맞춥니다."
+          },
+          {
+            "id": "how-often",
+            "groupId": "time-frequency",
+            "label": "HOW OFTEN",
+            "intent": "빈도",
+            "questions": [
+              {
+                "pattern": "How often do you [verb]?",
+                "spoken": "How often do you shop for clothes?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I [verb] [frequency].",
+                "I usually do it [time]."
+              ],
+              "spoken": [
+                "I shop for clothes once or twice a month.",
+                "I usually do it on weekends."
+              ],
+              "korean": [
+                "나는 [빈도]로 [동사]합니다.",
+                "나는 보통 [시간]에 그것을 합니다."
+              ]
+            },
+            "substitutions": [
+              "[frequency] once a week · twice a month · almost every day · once in a while"
+            ],
+            "example": {
+              "question": "How often do you order food online?",
+              "english": [
+                "I order food online about twice a week.",
+                "I usually do it when I am too busy to cook."
+              ],
+              "korean": [
+                "나는 일주일에 두 번 정도 온라인으로 음식을 주문합니다.",
+                "보통 너무 바빠서 요리할 수 없을 때 주문합니다."
+              ]
+            },
+            "tip": "횟수부터 바로 말하면 첫 문장을 빠르게 끝낼 수 있습니다."
+          },
+          {
+            "id": "how-long",
+            "groupId": "time-frequency",
+            "label": "HOW LONG",
+            "intent": "계속된 기간·소요 시간",
+            "questions": [
+              {
+                "pattern": "How long have you [past participle]?",
+                "spoken": "How long have you lived in your current neighborhood?"
+              },
+              {
+                "pattern": "How long does it take you to [verb]?",
+                "spoken": "How long does it take you to get to work?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I have [past participle] for [period].",
+                "I have [past participle] since [starting point].",
+                "It takes me about [period] to [verb]."
+              ],
+              "spoken": [
+                "I have lived in my current neighborhood for five years.",
+                "I have lived there since 2021.",
+                "It takes me about thirty minutes to get to work."
+              ],
+              "korean": [
+                "나는 [기간] 동안 [과거분사]해 왔습니다.",
+                "나는 [시작 시점]부터 [과거분사]해 왔습니다.",
+                "내가 [동사]하는 데 약 [기간]이 걸립니다."
+              ]
+            },
+            "substitutions": [
+              "for three months · for five years",
+              "since 2022 · since I was a child",
+              "about ten minutes · about an hour"
+            ],
+            "example": {
+              "question": "How long does it take you to get to the nearest supermarket?",
+              "english": [
+                "It takes me about ten minutes to get there.",
+                "I usually walk because it is close to my home."
+              ],
+              "korean": [
+                "그곳에 가는 데 약 10분이 걸립니다.",
+                "집에서 가깝기 때문에 보통 걸어갑니다."
+              ]
+            },
+            "tip": "계속된 기간은 for 또는 since, 필요한 시간은 It takes me로 구분합니다."
+          },
+          {
+            "id": "how-much-time",
+            "groupId": "time-frequency",
+            "label": "HOW MUCH TIME",
+            "intent": "어떤 활동에 쓰는 시간",
+            "questions": [
+              {
+                "pattern": "How much time do you spend [verb-ing]?",
+                "spoken": "How much time do you spend using the Internet every day?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I spend about [period] [verb-ing].",
+                "I usually do it [time]."
+              ],
+              "spoken": [
+                "I spend about two hours using the Internet every day.",
+                "I usually do it in the evening."
+              ],
+              "korean": [
+                "나는 [동명사]하는 데 약 [시간]을 씁니다.",
+                "나는 보통 [시간]에 그것을 합니다."
+              ]
+            },
+            "substitutions": [
+              "[period] thirty minutes · one hour · two hours",
+              "[verb-ing] exercising · reading · using social media"
+            ],
+            "example": {
+              "question": "How much time do you spend exercising each week?",
+              "english": [
+                "I spend about three hours exercising each week.",
+                "I usually work out for an hour after work."
+              ],
+              "korean": [
+                "나는 매주 약 세 시간 운동합니다.",
+                "보통 퇴근 후 한 시간씩 운동합니다."
+              ]
+            },
+            "tip": "spend 뒤에는 시간, 그다음에는 동명사를 사용합니다."
+          },
+          {
+            "id": "how-far",
+            "groupId": "method-quantity",
+            "label": "HOW FAR",
+            "intent": "거리",
+            "questions": [
+              {
+                "pattern": "How far is [place] from where you live?",
+                "spoken": "How far is the nearest bank from where you live?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "[Place] is about [period] away from my home.",
+                "I usually get there [transportation]."
+              ],
+              "spoken": [
+                "The nearest bank is about ten minutes away from my home.",
+                "I usually get there on foot."
+              ],
+              "korean": [
+                "[장소]는 우리 집에서 약 [시간] 거리입니다.",
+                "나는 보통 [교통수단]으로 그곳에 갑니다."
+              ]
+            },
+            "substitutions": [
+              "five minutes away · twenty minutes away",
+              "on foot · by bus · by car"
+            ],
+            "example": {
+              "question": "How far is the nearest coffee shop from your home?",
+              "english": [
+                "The nearest coffee shop is about five minutes away from my home.",
+                "I can easily walk there."
+              ],
+              "korean": [
+                "가장 가까운 커피숍은 우리 집에서 약 5분 거리입니다.",
+                "그곳까지 쉽게 걸어갈 수 있습니다."
+              ]
+            },
+            "tip": "장소 뒤에 is를 빠뜨리지 말고, 이동 시간을 거리처럼 답해도 됩니다."
+          },
+          {
+            "id": "how-much-many",
+            "groupId": "method-quantity",
+            "label": "HOW MUCH · HOW MANY",
+            "intent": "가격·지출 금액·개수",
+            "questions": [
+              {
+                "pattern": "How much is [item]?",
+                "spoken": "How much is a movie ticket?"
+              },
+              {
+                "pattern": "How much do you usually spend on [item]?",
+                "spoken": "How much do you usually spend on lunch?"
+              },
+              {
+                "pattern": "How many [plural noun] are there?",
+                "spoken": "How many bookstores are there in your town?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "It costs about [amount].",
+                "I usually spend about [amount] on [item].",
+                "There are [number] [plural noun]."
+              ],
+              "spoken": [
+                "It costs about fifteen dollars.",
+                "I usually spend about ten dollars on lunch.",
+                "There are three bookstores in my town."
+              ],
+              "korean": [
+                "가격은 약 [금액]입니다.",
+                "나는 보통 [물건]에 약 [금액]을 씁니다.",
+                "[복수 명사]가 [개수]개 있습니다."
+              ]
+            },
+            "substitutions": [
+              "[amount] ten dollars · thirty dollars",
+              "[number] two · three · several"
+            ],
+            "example": {
+              "question": "How much do you usually spend when you eat out?",
+              "english": [
+                "I usually spend about twenty dollars when I eat out.",
+                "The price is reasonable for me."
+              ],
+              "korean": [
+                "나는 외식할 때 보통 약 20달러를 씁니다.",
+                "그 가격은 나에게 적당합니다."
+              ]
+            },
+            "tip": "How much는 금액, How many는 셀 수 있는 복수 명사의 개수를 묻습니다."
+          },
+          {
+            "id": "how-method",
+            "groupId": "method-quantity",
+            "label": "HOW",
+            "intent": "교통수단·이용 방법·조언",
+            "questions": [
+              {
+                "pattern": "How do you usually get to [place]?",
+                "spoken": "How do you usually get to school?"
+              },
+              {
+                "pattern": "How do you usually [verb]?",
+                "spoken": "How do you usually make reservations?"
+              },
+              {
+                "pattern": "How do you think I should [verb]?",
+                "spoken": "How do you think I should begin my search?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I usually get there [transportation].",
+                "I usually [verb] online.",
+                "I think you should [action]."
+              ],
+              "spoken": [
+                "I usually get there by bus.",
+                "I usually make reservations online.",
+                "I think you should check customer reviews first."
+              ],
+              "korean": [
+                "나는 보통 [교통수단]으로 그곳에 갑니다.",
+                "나는 보통 온라인으로 [동사]합니다.",
+                "나는 당신이 [행동]해야 한다고 생각합니다."
+              ]
+            },
+            "substitutions": [
+              "by bus · by subway · by car · on foot",
+              "online · through an app · by phone",
+              "check reviews · ask a friend · search online"
+            ],
+            "example": {
+              "question": "How do you usually book a hotel room?",
+              "english": [
+                "I usually book a hotel room through an app.",
+                "It is fast and convenient."
+              ],
+              "korean": [
+                "나는 보통 앱으로 호텔 방을 예약합니다.",
+                "빠르고 편리합니다."
+              ]
+            },
+            "tip": "교통수단은 by bus처럼 관사 없이 쓰고, 도보는 on foot이라고 합니다."
+          },
+          {
+            "id": "what-kind",
+            "groupId": "content-choice",
+            "label": "WHAT · WHAT KIND",
+            "intent": "활동·종류·가장 자주 하는 것",
+            "questions": [
+              {
+                "pattern": "What do you usually [verb]?",
+                "spoken": "What do you usually do in your free time?"
+              },
+              {
+                "pattern": "What kind of [noun] do you like?",
+                "spoken": "What kind of music do you like?"
+              },
+              {
+                "pattern": "What [task] do you do most often?",
+                "spoken": "What household task do you do most often?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I usually [activity].",
+                "I like [kind] the most.",
+                "I [verb] most often."
+              ],
+              "spoken": [
+                "I usually watch movies in my free time.",
+                "I like rock music the most.",
+                "I clean the bathroom most often."
+              ],
+              "korean": [
+                "나는 보통 [활동]을 합니다.",
+                "나는 [종류]를 가장 좋아합니다.",
+                "나는 [동사]를 가장 자주 합니다."
+              ]
+            },
+            "substitutions": [
+              "[activity] watch movies · exercise · read books",
+              "[kind] rock music · action movies · Italian food"
+            ],
+            "example": {
+              "question": "What kind of movies do you enjoy watching?",
+              "english": [
+                "I enjoy watching comedy movies the most.",
+                "They are entertaining and help me relax."
+              ],
+              "korean": [
+                "나는 코미디 영화를 보는 것을 가장 좋아합니다.",
+                "재미있고 긴장을 푸는 데 도움이 됩니다."
+              ]
+            },
+            "tip": "What kind of 뒤에는 명사를 붙이고, 한 종류를 바로 고릅니다."
+          },
+          {
+            "id": "which-prefer",
+            "groupId": "content-choice",
+            "label": "WHICH · PREFER",
+            "intent": "두 선택지 중 선호",
+            "questions": [
+              {
+                "pattern": "Which do you prefer, [A] or [B]?",
+                "spoken": "Which do you prefer, shopping online or shopping in stores?"
+              },
+              {
+                "pattern": "Do you prefer [A] or [B]? Why?",
+                "spoken": "Do you prefer exercising alone or with other people? Why?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "I prefer [A].",
+                "The main reason is that it is [reason]."
+              ],
+              "spoken": [
+                "I prefer shopping online.",
+                "The main reason is that it is convenient."
+              ],
+              "korean": [
+                "나는 [A]를 선호합니다.",
+                "가장 큰 이유는 그것이 [이유]하기 때문입니다."
+              ]
+            },
+            "q7Extension": {
+              "english": [
+                "It helps me [effect].",
+                "That is why [A] is a better choice for me."
+              ],
+              "spoken": [
+                "It helps me save time and compare prices easily.",
+                "That is why shopping online is a better choice for me."
+              ],
+              "korean": [
+                "그것은 내가 [효과]하도록 도와줍니다.",
+                "그래서 [A]가 나에게 더 나은 선택입니다."
+              ]
+            },
+            "substitutions": [
+              "[reason] convenient · relaxing · enjoyable · reliable",
+              "[effect] save time · reduce stress · focus better"
+            ],
+            "example": {
+              "question": "Do you prefer exercising alone or with other people?",
+              "english": [
+                "I prefer exercising with other people.",
+                "It is more enjoyable, and my friends keep me motivated."
+              ],
+              "korean": [
+                "나는 다른 사람들과 함께 운동하는 것을 선호합니다.",
+                "더 즐겁고 친구들이 계속 동기를 부여해 줍니다."
+              ]
+            },
+            "tip": "선택지를 그대로 반복해 첫 문장을 만들고, Q7에서는 효과와 결론을 추가합니다."
+          },
+          {
+            "id": "why",
+            "groupId": "content-choice",
+            "label": "WHY",
+            "intent": "이유와 결과",
+            "questions": [
+              {
+                "pattern": "Why do you usually [verb]?",
+                "spoken": "Why do you usually shop online?"
+              },
+              {
+                "pattern": "Why is [noun] important to you?",
+                "spoken": "Why is exercise important to you?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "The main reason is that it is [reason].",
+                "It helps me [effect]."
+              ],
+              "spoken": [
+                "The main reason is that it is convenient.",
+                "It helps me save time."
+              ],
+              "korean": [
+                "가장 큰 이유는 그것이 [이유]하기 때문입니다.",
+                "그것은 내가 [효과]하도록 도와줍니다."
+              ]
+            },
+            "q7Extension": {
+              "english": [
+                "For example, [short experience].",
+                "For these reasons, I think it is a good choice."
+              ],
+              "spoken": [
+                "For example, I can order what I need without leaving home.",
+                "For these reasons, I think it is a good choice."
+              ],
+              "korean": [
+                "예를 들어, [짧은 경험]이 있습니다.",
+                "이러한 이유로 나는 그것이 좋은 선택이라고 생각합니다."
+              ]
+            },
+            "substitutions": [
+              "convenient · effective · relaxing · enjoyable",
+              "save time · save money · reduce stress · learn new things"
+            ],
+            "example": {
+              "question": "Why do you like listening to music?",
+              "english": [
+                "The main reason is that it is relaxing.",
+                "It helps me reduce stress after a long day."
+              ],
+              "korean": [
+                "가장 큰 이유는 긴장을 풀어 주기 때문입니다.",
+                "긴 하루를 보낸 뒤 스트레스를 줄이는 데 도움이 됩니다."
+              ]
+            },
+            "tip": "Because만 단독으로 시작하기보다 완전한 문장으로 이유를 말하면 안정적입니다."
+          },
+          {
+            "id": "have-you-ever",
+            "groupId": "experience-check",
+            "label": "HAVE YOU EVER",
+            "intent": "해 본 경험",
+            "questions": [
+              {
+                "pattern": "Have you ever [past participle]?",
+                "spoken": "Have you ever used a photo editing app?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "Yes, I have.",
+                "I [past verb] [past time], and it was [feeling]."
+              ],
+              "spoken": [
+                "Yes, I have.",
+                "I used one last month, and it was very convenient."
+              ],
+              "korean": [
+                "네, 해 본 적이 있습니다.",
+                "나는 [과거 시점]에 [과거 행동]했고 [느낌]이었습니다."
+              ]
+            },
+            "alternative": {
+              "label": "No로 답할 때",
+              "english": [
+                "No, I haven't, but I would like to try it.",
+                "It sounds [feeling]."
+              ],
+              "spoken": [
+                "No, I haven't, but I would like to try it.",
+                "It sounds useful and interesting."
+              ],
+              "korean": [
+                "아니요, 아직 해 본 적은 없지만 시도해 보고 싶습니다.",
+                "[느낌]할 것 같습니다."
+              ]
+            },
+            "substitutions": [
+              "last week · last month · a few years ago",
+              "convenient · useful · enjoyable · difficult at first"
+            ],
+            "example": {
+              "question": "Have you ever taken an online cooking class?",
+              "english": [
+                "Yes, I have.",
+                "I took one last year, and I learned several easy recipes."
+              ],
+              "korean": [
+                "네, 들어 본 적이 있습니다.",
+                "작년에 한 번 들었고 쉬운 요리법을 여러 개 배웠습니다."
+              ]
+            },
+            "tip": "첫 문장은 현재완료, 언제 무엇을 했는지 설명하는 다음 문장은 과거형을 사용합니다."
+          },
+          {
+            "id": "yes-no-usually",
+            "groupId": "experience-check",
+            "label": "DO YOU USUALLY · YES/NO",
+            "intent": "평소 습관 여부 확인",
+            "questions": [
+              {
+                "pattern": "Do you usually [verb]?",
+                "spoken": "Do you usually cook at home?"
+              },
+              {
+                "pattern": "Do you usually [verb]? Why or why not?",
+                "spoken": "Do you usually use public transportation? Why or why not?"
+              }
+            ],
+            "answer": {
+              "english": [
+                "Yes, I do. I usually [verb].",
+                "I usually do it [detail] because it is [reason]."
+              ],
+              "spoken": [
+                "Yes, I do. I usually cook dinner at home.",
+                "I usually do it on weekdays because it is cheaper and healthier."
+              ],
+              "korean": [
+                "네, 그렇습니다. 나는 보통 [동사]합니다.",
+                "나는 보통 [시간·사람·장소]에 맞춰 그렇게 합니다. 그 이유는 [이유]하기 때문입니다."
+              ]
+            },
+            "alternative": {
+              "label": "No로 답할 때",
+              "english": [
+                "No, I don't. I usually [alternative].",
+                "The main reason is that it is [reason]."
+              ],
+              "spoken": [
+                "No, I don't. I usually drive to work.",
+                "The main reason is that it is faster for me."
+              ],
+              "korean": [
+                "아니요, 그렇지 않습니다. 나는 보통 [대안]을 선택합니다.",
+                "가장 큰 이유는 그것이 [이유]하기 때문입니다."
+              ]
+            },
+            "substitutions": [
+              "[detail] on weekdays · with my family · after work",
+              "[reason] convenient · cheaper · healthier · part of my routine"
+            ],
+            "example": {
+              "question": "Do you usually use public transportation?",
+              "english": [
+                "Yes, I do. I usually take the subway to school.",
+                "It is fast, and I can avoid traffic."
+              ],
+              "korean": [
+                "네, 그렇습니다. 나는 보통 학교에 갈 때 지하철을 탑니다.",
+                "빠르고 교통 체증을 피할 수 있습니다."
+              ]
+            },
+            "tip": "Yes 또는 No로 먼저 답한 뒤 빈도, 시간, 장소 중 하나를 덧붙입니다."
+          }
+        ],
+        "sources": [
+          {
+            "kind": "학습 블로그",
+            "label": "포인트 니모 · 토익스피킹 Part 3 의문사 만능 공식",
+            "url": "https://point-nemo.tistory.com/14"
+          },
+          {
+            "kind": "학습 블로그",
+            "label": "디지털 전산일지 · 토익스피킹 Part 3 의문사 만능 공식",
+            "url": "https://hyeonstone.tistory.com/entry/%ED%86%A0%EC%9D%B5%EC%8A%A4%ED%94%BC%ED%82%B9-%ED%8C%8C%ED%8A%B83-%EC%9D%98%EB%AC%B8%EC%82%AC-%EB%A7%8C%EB%8A%A5-%EA%B3%B5%EC%8B%9D"
+          },
+          {
+            "kind": "공식 시험 형식",
+            "label": "IIBC · TOEIC Speaking Test Format and Content",
+            "url": "https://www.iibc-global.org/english/toeic/test/speaking/about/format.html"
+          }
+        ]
+      }
     },
     {
       "id": "part4",
@@ -3807,7 +4680,7 @@ window.TOEIC_SPEAKING_DATA = {
       }
     ]
   },
-  "generatedAt": "2026-09-04T07:35:24.440Z",
+  "generatedAt": "2026-09-04T09:53:45.758Z",
   "stats": {
     "parts": 4,
     "entries": 197,

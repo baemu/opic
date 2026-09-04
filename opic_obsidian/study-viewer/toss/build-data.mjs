@@ -61,6 +61,157 @@ for (const part of data.parts) {
   });
 }
 
+const formulaPart = data.parts.find((part) => part.id === "part3");
+for (const part of data.parts) {
+  if (part.id !== "part3" && part.questionFormulaGuide) {
+    throw new Error(`The question formula guide must belong to part3, not ${part.id}.`);
+  }
+}
+
+const expectedFormulaIds = new Set([
+  "who-with-whom",
+  "where",
+  "when-what-time",
+  "last-time",
+  "how-often",
+  "how-long",
+  "how-much-time",
+  "how-far",
+  "how-much-many",
+  "how-method",
+  "what-kind",
+  "which-prefer",
+  "why",
+  "have-you-ever",
+  "yes-no-usually",
+]);
+const formulaGuide = formulaPart?.questionFormulaGuide;
+if (
+  !formulaGuide ||
+  !formulaGuide.title ||
+  !formulaGuide.summary ||
+  formulaGuide.defaultGroupId !== "all" ||
+  !Array.isArray(formulaGuide.timing) ||
+  formulaGuide.timing.length !== 3 ||
+  !Array.isArray(formulaGuide.steps) ||
+  formulaGuide.steps.length !== 3 ||
+  !Array.isArray(formulaGuide.tenseRules) ||
+  formulaGuide.tenseRules.length !== 4 ||
+  !Array.isArray(formulaGuide.groups) ||
+  formulaGuide.groups.length !== 5 ||
+  !Array.isArray(formulaGuide.formulas) ||
+  formulaGuide.formulas.length !== expectedFormulaIds.size ||
+  !Array.isArray(formulaGuide.sources) ||
+  formulaGuide.sources.length !== 3
+) {
+  throw new Error("The Part 3 question formula guide is incomplete.");
+}
+
+formulaGuide.timing.forEach((item) => {
+  if (!item.label || !item.value || !item.note) {
+    throw new Error("Every Part 3 timing item needs a label, value, and note.");
+  }
+});
+formulaGuide.steps.forEach((step, index) => {
+  if (step.number !== index + 1 || !step.title || !step.description) {
+    throw new Error(`Part 3 formula step ${index + 1} is incomplete.`);
+  }
+});
+formulaGuide.tenseRules.forEach((rule) => {
+  if (!rule.cue || !rule.tense || !rule.english || !rule.korean) {
+    throw new Error("Every Part 3 tense rule must be complete.");
+  }
+});
+
+const formulaGroupIds = formulaGuide.groups.map((group) => group.id);
+if (new Set(formulaGroupIds).size !== formulaGroupIds.length) {
+  throw new Error("Part 3 formula group IDs must be unique.");
+}
+formulaGuide.groups.forEach((group) => {
+  if (!group.id || !group.label) {
+    throw new Error("Every Part 3 formula group needs an ID and label.");
+  }
+});
+
+const formulaIds = formulaGuide.formulas.map((formula) => formula.id);
+for (const requiredId of expectedFormulaIds) {
+  if (formulaIds.filter((id) => id === requiredId).length !== 1) {
+    throw new Error(`Expected exactly one ${requiredId} Part 3 formula.`);
+  }
+}
+
+for (const formula of formulaGuide.formulas) {
+  if (
+    !formula.id ||
+    !formulaGroupIds.includes(formula.groupId) ||
+    !formula.label ||
+    !formula.intent ||
+    !formula.tip ||
+    !Array.isArray(formula.questions) ||
+    !formula.questions.length ||
+    formula.questions.some((question) => !question.pattern || !question.spoken) ||
+    !Array.isArray(formula.substitutions) ||
+    !formula.substitutions.length ||
+    formula.substitutions.some((item) => !String(item).trim())
+  ) {
+    throw new Error(`Part 3 formula ${formula.id || "unknown"} is incomplete.`);
+  }
+  validateFormulaBlock(formula.answer, `${formula.id} answer`, true);
+  validateFormulaBlock(formula.example, `${formula.id} example`, false);
+  if (!formula.example.question) {
+    throw new Error(`Part 3 formula ${formula.id} needs an example question.`);
+  }
+  if (formula.q7Extension) {
+    validateFormulaBlock(formula.q7Extension, `${formula.id} Q7 extension`, true);
+  }
+  if (formula.alternative) {
+    if (!formula.alternative.label) {
+      throw new Error(`Part 3 formula ${formula.id} needs an alternative label.`);
+    }
+    validateFormulaBlock(formula.alternative, `${formula.id} alternative`, true);
+  }
+}
+
+for (const requiredQ7Id of ["which-prefer", "why"]) {
+  if (!formulaGuide.formulas.find((formula) => formula.id === requiredQ7Id)?.q7Extension) {
+    throw new Error(`Part 3 formula ${requiredQ7Id} needs its Q7 extension.`);
+  }
+}
+
+for (const alternativeId of ["have-you-ever", "yes-no-usually"]) {
+  if (!formulaGuide.formulas.find((formula) => formula.id === alternativeId)?.alternative) {
+    throw new Error(`Part 3 formula ${alternativeId} needs its negative answer.`);
+  }
+}
+
+for (const source of formulaGuide.sources) {
+  if (!source.kind || !source.label || !/^https:\/\//.test(source.url || "")) {
+    throw new Error("Every Part 3 formula source needs a kind, label, and HTTPS URL.");
+  }
+}
+
+function validateFormulaBlock(block, label, requireSpoken) {
+  if (
+    !block ||
+    !Array.isArray(block.english) ||
+    !block.english.length ||
+    block.english.some((line) => !String(line).trim()) ||
+    !Array.isArray(block.korean) ||
+    block.english.length !== block.korean.length ||
+    block.korean.some((line) => !String(line).trim())
+  ) {
+    throw new Error(`Part 3 formula block ${label} has invalid English or Korean lines.`);
+  }
+  if (
+    requireSpoken &&
+    (!Array.isArray(block.spoken) ||
+      block.spoken.length !== block.english.length ||
+      block.spoken.some((line) => !String(line).trim()))
+  ) {
+    throw new Error(`Part 3 formula block ${label} has invalid TTS lines.`);
+  }
+}
+
 const expectedStrategyGuides = new Map([
   ["ih-review", ["overview", "part1", "part2", "part3", "part4", "part5", "reason-bank"]],
   [
