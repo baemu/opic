@@ -56,12 +56,13 @@
         </section>
       </header>
 
-      <section class="study-nav">
+      <section id="studyNav" class="study-nav">
         <div id="partTabs" class="part-tabs" role="tablist" aria-label="토익스피킹 파트"></div>
         <div class="view-tabs" role="tablist" aria-label="학습 방식">
           <button type="button" role="tab" data-view="list" aria-selected="true">전체 문장</button>
           <button type="button" role="tab" data-view="memorize" aria-selected="false">암기 카드</button>
           <button id="referenceTabBtn" type="button" role="tab" data-view="reference" aria-selected="false">참고 표현</button>
+          <button id="strategyTabBtn" type="button" role="tab" data-view="strategy" aria-selected="false">시험 전략</button>
         </div>
       </section>
 
@@ -109,6 +110,13 @@
         <section id="referenceView" class="reference-view" hidden>
           <div id="referenceSets" class="reference-grid"></div>
           <article id="comparisonCard" class="comparison-card"></article>
+        </section>
+
+        <section id="strategyView" class="strategy-view" hidden>
+          <nav class="strategy-section-nav" aria-label="시험 전략 구역">
+            <div id="strategyTabs" class="strategy-tabs" role="tablist"></div>
+          </nav>
+          <article id="strategyContent" class="strategy-content" aria-live="polite"></article>
         </section>
       </section>
     </main>

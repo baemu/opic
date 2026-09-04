@@ -14,9 +14,11 @@
     volumeInput: document.getElementById("volumeInput"),
     volumeValue: document.getElementById("volumeValue"),
     voiceSelect: document.getElementById("voiceSelect"),
+    studyNav: document.getElementById("studyNav"),
     partTabs: document.getElementById("partTabs"),
     viewTabs: Array.from(document.querySelectorAll("[data-view]")),
     referenceTabBtn: document.getElementById("referenceTabBtn"),
+    strategyTabBtn: document.getElementById("strategyTabBtn"),
     filterBar: document.getElementById("filterBar"),
     searchInput: document.getElementById("searchInput"),
     sectionSelect: document.getElementById("sectionSelect"),
@@ -41,6 +43,9 @@
     referenceView: document.getElementById("referenceView"),
     referenceSets: document.getElementById("referenceSets"),
     comparisonCard: document.getElementById("comparisonCard"),
+    strategyView: document.getElementById("strategyView"),
+    strategyTabs: document.getElementById("strategyTabs"),
+    strategyContent: document.getElementById("strategyContent"),
     statusToast: document.getElementById("statusToast"),
   };
 
@@ -50,7 +55,14 @@
     partId: data?.parts?.some((part) => part.id === saved.partId)
       ? saved.partId
       : data?.parts?.[0]?.id || "part2",
-    view: ["list", "memorize", "reference"].includes(saved.view) ? saved.view : "list",
+    view: ["list", "memorize", "reference", "strategy"].includes(saved.view)
+      ? saved.view
+      : "list",
+    strategySectionId: data?.strategyGuide?.sections?.some(
+      (section) => section.id === saved.strategySectionId,
+    )
+      ? saved.strategySectionId
+      : "overview",
     section: "all",
     query: "",
     showTranslations: saved.showTranslations !== false,
@@ -69,7 +81,13 @@
   let toastTimer = null;
 
   function init() {
-    if (!data || !Array.isArray(data.parts) || data.parts.length !== 4) {
+    if (
+      !data ||
+      !Array.isArray(data.parts) ||
+      data.parts.length !== 4 ||
+      !data.strategyGuide ||
+      !Array.isArray(data.strategyGuide.sections)
+    ) {
       document.body.innerHTML =
         '<main class="load-error"><h1>토익스피킹 데이터를 찾을 수 없습니다.</h1><p>toss/build-data.mjs를 다시 실행해 주세요.</p></main>';
       return;
@@ -151,6 +169,20 @@
     elements.sentenceGrid.addEventListener("keydown", handleSpeakKeydown);
     elements.referenceView.addEventListener("click", handleSpeakRequest);
     elements.referenceView.addEventListener("keydown", handleSpeakKeydown);
+    elements.strategyTabs.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-strategy-section]");
+      if (!button) {
+        return;
+      }
+      state.strategySectionId = button.dataset.strategySection;
+      cancelSpeech();
+      saveState();
+      renderStrategy();
+      elements.strategyContent.scrollTop = 0;
+      elements.strategyView.scrollTop = 0;
+    });
+    elements.strategyContent.addEventListener("click", handleStrategyAction);
+    elements.strategyContent.addEventListener("keydown", handleSpeakKeydown);
 
     elements.toggleTranslationsBtn.addEventListener("click", () => {
       state.showTranslations = !state.showTranslations;
@@ -213,6 +245,9 @@
           </button>`,
       )
       .join("");
+    const strategyMode = state.view === "strategy";
+    elements.partTabs.hidden = strategyMode;
+    elements.studyNav.classList.toggle("is-strategy-mode", strategyMode);
 
     const hasReferences = Boolean(part.referenceSets?.length || part.comparisonFormula);
     elements.referenceTabBtn.hidden = !hasReferences;
@@ -255,18 +290,21 @@
 
   function renderContent() {
     const entries = getFilteredEntries();
-    elements.filterBar.hidden = state.view === "reference";
+    elements.filterBar.hidden = ["reference", "strategy"].includes(state.view);
     elements.listView.hidden = state.view !== "list";
     elements.memorizeView.hidden = state.view !== "memorize";
     elements.referenceView.hidden = state.view !== "reference";
+    elements.strategyView.hidden = state.view !== "strategy";
     elements.resultCount.textContent = `${entries.length} / ${getCurrentPart().entries.length}`;
 
     if (state.view === "list") {
       renderList(entries);
     } else if (state.view === "memorize") {
       renderMemory(entries);
-    } else {
+    } else if (state.view === "reference") {
       renderReferences();
+    } else {
+      renderStrategy();
     }
   }
 
@@ -376,8 +414,199 @@
       : "";
   }
 
+  function renderStrategy() {
+    const guide = data.strategyGuide;
+    const section =
+      guide.sections.find((item) => item.id === state.strategySectionId) || guide.sections[0];
+    state.strategySectionId = section.id;
+
+    elements.strategyTabs.innerHTML = guide.sections
+      .map(
+        (item) => `
+          <button
+            type="button"
+            role="tab"
+            data-strategy-section="${escapeHtml(item.id)}"
+            aria-selected="${item.id === section.id}"
+          >${escapeHtml(item.tab)}</button>`,
+      )
+      .join("");
+
+    const facts = (section.facts || [])
+      .map(
+        (fact) => `
+          <div class="strategy-fact">
+            <span>${escapeHtml(fact.label)}</span>
+            <strong>${escapeHtml(fact.value)}</strong>
+          </div>`,
+      )
+      .join("");
+
+    const timings = section.timings?.length
+      ? `
+        <section class="strategy-block strategy-timing-block">
+          <div class="strategy-block-heading">
+            <span>OFFICIAL FORMAT</span>
+            <h2>공식 준비·답변 시간</h2>
+          </div>
+          <div class="strategy-timing-table" role="table" aria-label="토익스피킹 공식 시간">
+            <div class="strategy-timing-row strategy-timing-head" role="row">
+              <span role="columnheader">문항</span>
+              <span role="columnheader">유형</span>
+              <span role="columnheader">준비</span>
+              <span role="columnheader">답변</span>
+            </div>
+            ${section.timings
+              .map(
+                (timing) => `
+                  <div class="strategy-timing-row" role="row">
+                    <strong role="cell">${escapeHtml(timing.questions)}</strong>
+                    <span role="cell">${escapeHtml(timing.task)}</span>
+                    <span role="cell">${escapeHtml(timing.prep)}</span>
+                    <span role="cell">${escapeHtml(timing.response)}</span>
+                  </div>`,
+              )
+              .join("")}
+          </div>
+        </section>`
+      : "";
+
+    const checklistBlocks = (section.checklists || [])
+      .map(
+        (checklist) => `
+          <section class="strategy-block strategy-checklist">
+            <div class="strategy-block-heading">
+              <span>PREP CHECK</span>
+              <h2>${escapeHtml(checklist.title)}</h2>
+            </div>
+            <ul>
+              ${checklist.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+            </ul>
+          </section>`,
+      )
+      .join("");
+
+    const flow = section.flow?.length
+      ? `
+        <section class="strategy-block strategy-flow-block">
+          <div class="strategy-block-heading">
+            <span>ANSWER FLOW</span>
+            <h2>${escapeHtml(section.flowTitle || "답변 순서")}</h2>
+          </div>
+          <ol class="strategy-flow">
+            ${section.flow
+              .map(
+                (step) => `
+                  <li>
+                    <span>${escapeHtml(step.number)}</span>
+                    <div><strong>${escapeHtml(step.title)}</strong><p>${escapeHtml(step.description)}</p></div>
+                  </li>`,
+              )
+              .join("")}
+          </ol>
+        </section>`
+      : "";
+
+    const templates = section.templates?.length
+      ? `
+        <section class="strategy-block strategy-template-block">
+          <div class="strategy-block-heading">
+            <span>SPEAKING TEMPLATE</span>
+            <h2>${escapeHtml(section.templateTitle || "말하기 예시")}</h2>
+          </div>
+          <div class="strategy-template-grid">
+            ${section.templates.map(renderStrategyTemplate).join("")}
+          </div>
+        </section>`
+      : "";
+
+    const reasonGroups = section.reasonGroups?.length
+      ? `
+        <section class="strategy-block strategy-reason-block">
+          <div class="strategy-block-heading">
+            <span>REASON BANK</span>
+            <h2>형용사에서 근거까지 바로 연결하기</h2>
+          </div>
+          <div class="strategy-reason-grid">
+            ${section.reasonGroups.map(renderReasonGroup).join("")}
+          </div>
+        </section>`
+      : "";
+
+    const warnings = section.warnings?.length
+      ? `
+        <aside class="strategy-warning">
+          <strong>주의할 점</strong>
+          <ul>${section.warnings.map((warning) => `<li>${escapeHtml(warning)}</li>`).join("")}</ul>
+        </aside>`
+      : "";
+
+    elements.strategyContent.innerHTML = `
+      <header class="strategy-heading">
+        <div class="strategy-title-line">
+          <span class="strategy-kicker">${escapeHtml(section.kicker)}</span>
+          <span class="strategy-target">목표 ${escapeHtml(guide.target)}</span>
+        </div>
+        <h1>${escapeHtml(section.title)}</h1>
+        <p>${escapeHtml(section.lead)}</p>
+      </header>
+      ${facts ? `<div class="strategy-facts">${facts}</div>` : ""}
+      ${timings}
+      ${(checklistBlocks || flow) ? `<div class="strategy-two-column">${checklistBlocks}${flow}</div>` : ""}
+      ${templates}
+      ${reasonGroups}
+      ${warnings}
+      <footer class="strategy-sources">
+        <p>${escapeHtml(guide.disclaimer)}</p>
+        <div>
+          ${guide.sources
+            .map(
+              (source) =>
+                `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)}</a>`,
+            )
+            .join("")}
+        </div>
+      </footer>`;
+  }
+
+  function renderStrategyTemplate(template) {
+    return `
+      <article class="strategy-template-card">
+        <header>
+          <div><strong>${escapeHtml(template.title)}</strong>${template.caption ? `<span>${escapeHtml(template.caption)}</span>` : ""}</div>
+          <div class="strategy-template-actions">
+            <button type="button" data-strategy-copy="${escapeHtml(template.id)}" aria-label="${escapeHtml(template.title)} 복사">복사</button>
+            <button type="button" data-strategy-speak="${escapeHtml(template.id)}" aria-label="${escapeHtml(template.title)} 듣기">▶ 듣기</button>
+          </div>
+        </header>
+        <div class="strategy-template-english" data-strategy-speak="${escapeHtml(template.id)}" role="button" tabindex="0" aria-label="${escapeHtml(template.title)} 영어 듣기">
+          ${template.english.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+        </div>
+        <div class="strategy-template-korean">
+          ${template.korean.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+        </div>
+      </article>`;
+  }
+
+  function renderReasonGroup(group) {
+    return `
+      <article class="strategy-reason-card">
+        <header>
+          <div><strong>${escapeHtml(group.keywords)}</strong><span>${escapeHtml(group.useWhen)}</span></div>
+          <div class="strategy-template-actions">
+            <button type="button" data-strategy-copy="${escapeHtml(group.id)}" aria-label="${escapeHtml(group.keywords)} 문장 복사">복사</button>
+            <button type="button" data-strategy-speak="${escapeHtml(group.id)}" aria-label="${escapeHtml(group.keywords)} 문장 듣기">▶</button>
+          </div>
+        </header>
+        <div class="strategy-reason-english" data-strategy-speak="${escapeHtml(group.id)}" role="button" tabindex="0" aria-label="${escapeHtml(group.keywords)} 영어 듣기">
+          ${group.english.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+        </div>
+        <p class="strategy-reason-korean">${escapeHtml(group.korean)}</p>
+      </article>`;
+  }
+
   function setView(view) {
-    if (!["list", "memorize", "reference"].includes(view)) {
+    if (!["list", "memorize", "reference", "strategy"].includes(view)) {
       return;
     }
     if (view === "reference" && !getCurrentPart().referenceSets?.length) {
@@ -428,7 +657,36 @@
     renderMemory(entries);
   }
 
+  async function handleStrategyAction(event) {
+    const copyTarget = event.target.closest("[data-strategy-copy]");
+    if (copyTarget) {
+      const item = getStrategySpeechItem(copyTarget.dataset.strategyCopy);
+      if (item) {
+        await copyText(item.english.join("\n"));
+      }
+      return;
+    }
+
+    const speakTarget = event.target.closest("[data-strategy-speak]");
+    if (speakTarget && !hasSelectedText()) {
+      const item = getStrategySpeechItem(speakTarget.dataset.strategySpeak);
+      if (item) {
+        speakLines(item.english, speakTarget);
+      }
+    }
+  }
+
   function handleSpeakRequest(event) {
+    const strategyTarget = event.target.closest("[data-strategy-speak]");
+    if (strategyTarget) {
+      if (!hasSelectedText()) {
+        const item = getStrategySpeechItem(strategyTarget.dataset.strategySpeak);
+        if (item) {
+          speakLines(item.english, strategyTarget);
+        }
+      }
+      return;
+    }
     const textTarget = event.target.closest("[data-speak-text]");
     if (textTarget) {
       if (!hasSelectedText()) {
@@ -451,12 +709,45 @@
     if (event.key !== "Enter" && event.key !== " ") {
       return;
     }
-    const target = event.target.closest("[data-speak-text], [data-entry-number]");
+    const target = event.target.closest(
+      "[data-speak-text], [data-entry-number], [data-strategy-speak]",
+    );
     if (!target) {
       return;
     }
     event.preventDefault();
     handleSpeakRequest({ target });
+  }
+
+  function getStrategySpeechItem(id) {
+    const section = data.strategyGuide.sections.find(
+      (item) => item.id === state.strategySectionId,
+    );
+    if (!section) {
+      return null;
+    }
+    return [...(section.templates || []), ...(section.reasonGroups || [])].find(
+      (item) => item.id === id,
+    );
+  }
+
+  async function copyText(value) {
+    try {
+      await navigator.clipboard.writeText(value);
+      setStatus("영어 문장을 복사했습니다.");
+      return;
+    } catch {
+      const textarea = document.createElement("textarea");
+      textarea.value = value;
+      textarea.setAttribute("readonly", "");
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.append(textarea);
+      textarea.select();
+      const copied = document.execCommand("copy");
+      textarea.remove();
+      setStatus(copied ? "영어 문장을 복사했습니다." : "복사하지 못했습니다.");
+    }
   }
 
   function speakLines(lines, activeElement) {
@@ -594,6 +885,7 @@
         JSON.stringify({
           partId: state.partId,
           view: state.view,
+          strategySectionId: state.strategySectionId,
           showTranslations: state.showTranslations,
           rate: state.rate,
           volume: state.volume,
