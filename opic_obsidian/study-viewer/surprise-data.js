@@ -1,5 +1,5 @@
 window.OPIC_SURPRISE_DATA = {
-  "generatedAt": "2026-09-04T10:04:29.354Z",
+  "generatedAt": "2026-09-05T00:41:58.777Z",
   "sourceDirectory": "../output/scripts",
   "master": {
     "title": "OPIc 돌발주제 전체 대비 Master Map",

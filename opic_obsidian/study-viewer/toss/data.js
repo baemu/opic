@@ -4702,7 +4702,7 @@ window.TOEIC_SPEAKING_DATA = {
       }
     ]
   },
-  "generatedAt": "2026-09-04T18:21:16.536Z",
+  "generatedAt": "2026-09-05T00:41:58.928Z",
   "stats": {
     "parts": 4,
     "entries": 197,
